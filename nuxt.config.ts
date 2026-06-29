@@ -3,6 +3,8 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  css: ['leaflet/dist/leaflet.css'],
+
   modules: [
     ['@nuxtjs/tailwindcss', { cssPath: '~/assets/css/main.css' }],
     '@nuxtjs/i18n',

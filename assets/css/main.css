@@ -29,3 +29,21 @@
     @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
   }
 }
+
+/* Leaflet custom popup */
+.basen-popup .leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+.basen-popup .leaflet-popup-content {
+  margin: 0;
+}
+.basen-popup .leaflet-popup-tip-container {
+  margin-top: -1px;
+}
+.basen-popup .leaflet-popup-tip {
+  box-shadow: none;
+}
