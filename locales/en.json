@@ -149,12 +149,44 @@
   },
   "about": {
     "title": "About Basen.uz",
+    "subtitle": "Complete swimming pool catalog for Tashkent",
     "meta_title": "About | Basen.uz",
-    "meta_desc": "Basen.uz — the best swimming pool catalog in Tashkent. Current prices, schedules and photos."
+    "meta_desc": "Basen.uz — the best swimming pool catalog in Tashkent. Current prices, schedules and photos.",
+    "what_title": "What is Basen.uz?",
+    "what_text": "Basen.uz is an online directory of swimming pools in Tashkent. We have gathered information on 50+ pools: prices, schedules, photos, services and contacts — all in one place, with no need to call around.",
+    "mission_title": "Our mission",
+    "mission_text": "Make finding a swimming pool simple and fast. We regularly update our data to keep information accurate.",
+    "how_title": "How it works",
+    "how_step1_title": "Find a pool",
+    "how_step1_text": "Use the catalog or the map. Filter by type, price, services and location.",
+    "how_step2_title": "See the details",
+    "how_step2_text": "Prices, schedule, photos and services — all on one page.",
+    "how_step3_title": "Contact directly",
+    "how_step3_text": "Call or message on Telegram right from the pool's page.",
+    "owners_title": "Are you a pool owner?",
+    "owners_text": "Add your pool to the catalog for free. We'll help you set up a page with photos, prices and schedule.",
+    "owners_cta": "Message us on Telegram",
+    "stat_pools": "pools in the catalog",
+    "stat_types": "pool types",
+    "stat_districts": "districts of Tashkent",
+    "stat_free": "Free"
   },
   "faq": {
     "title": "Frequently Asked Questions",
+    "subtitle": "Answers to popular questions about swimming pools in Tashkent",
     "meta_title": "Swimming Pool FAQ Tashkent | Basen.uz",
-    "meta_desc": "Frequently asked questions: where to find a pool, prices, schedules, coaches."
+    "meta_desc": "Frequently asked questions: where to find a pool, prices, schedules, coaches.",
+    "q1": "How do I find the nearest pool?",
+    "a1": "Open the Map page — all pools are shown on an interactive map of Tashkent. You can filter by category and see their location relative to any point.",
+    "q2": "What is the average price for a single visit?",
+    "a2": "Prices range from 30,000 to 150,000 UZS per visit. Open-air and children's pools are usually cheaper; sports complexes and hotel pools tend to be pricier.",
+    "q3": "Can I buy a membership online?",
+    "a3": "Currently, memberships are purchased at the pool's front desk. On Basen.uz you can check prices and schedules in advance so you don't waste time calling.",
+    "q4": "Do pools have swimming coaches?",
+    "a4": "Many pools offer professional coaching services. Use the 'Coach' filter in the catalog to find pools that have instructors.",
+    "q5": "When are outdoor pools open?",
+    "a5": "Outdoor pools in Tashkent operate seasonally — typically from May through September. Indoor pools and aquaparks are open year-round.",
+    "q6": "How do I add my pool to the site?",
+    "a6": "Message us on Telegram — we'll verify the information and add your pool to the catalog for free."
   }
 }

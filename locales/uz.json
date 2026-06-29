@@ -149,12 +149,44 @@
   },
   "about": {
     "title": "Basen.uz loyihasi haqida",
+    "subtitle": "Toshkentning to'liq basseyn katalogi",
     "meta_title": "Loyiha haqida | Basen.uz",
-    "meta_desc": "Basen.uz — Toshkentning eng yaxshi basseyn katalogi. Dolzarb narxlar, ish vaqti va fotosuratlar."
+    "meta_desc": "Basen.uz — Toshkentning eng yaxshi basseyn katalogi. Dolzarb narxlar, ish vaqti va fotosuratlar.",
+    "what_title": "Basen.uz nima?",
+    "what_text": "Basen.uz — Toshkent basseynlarining onlayn katalogi. Biz 50 dan ortiq basseyn haqida ma'lumot to'pladik: narxlar, ish vaqti, fotosuratlar, xizmatlar va aloqa — barchasi bir joyda.",
+    "mission_title": "Bizning maqsad",
+    "mission_text": "Basseyn qidirishni oson va qulay qilish. Ma'lumotlar doim yangilanib turadi.",
+    "how_title": "Bu qanday ishlaydi",
+    "how_step1_title": "Basseyn toping",
+    "how_step1_text": "Katalog yoki xaritadan foydalaning. Tur, narx, xizmatlar va joylashuv bo'yicha filtrlang.",
+    "how_step2_title": "Tafsilotlarni ko'ring",
+    "how_step2_text": "Narxlar, ish vaqti, fotosuratlar va xizmatlar — bir sahifada.",
+    "how_step3_title": "To'g'ridan-to'g'ri bog'laning",
+    "how_step3_text": "Basseyn sahifasidan telefon qiling yoki Telegramga yozing.",
+    "owners_title": "Basseyn egasisimisiz?",
+    "owners_text": "BasseynIngizni katalogga bepul qo'shing. Foto, narxlar va ish vaqti bilan sahifa yaratishga yordam beramiz.",
+    "owners_cta": "Telegramga yozish",
+    "stat_pools": "ta basseyn katalogda",
+    "stat_types": "ta basseyn turi",
+    "stat_districts": "ta tuman",
+    "stat_free": "Bepul"
   },
   "faq": {
     "title": "Ko'p so'raladigan savollar",
+    "subtitle": "Toshkent basseynlari haqida mashhur savollarga javoblar",
     "meta_title": "Toshkent basseynlari haqida savollar — FAQ | Basen.uz",
-    "meta_desc": "Ko'p so'raladigan savollar: basseyn qayerda, narxlar, ish vaqti, murabbiylar."
+    "meta_desc": "Ko'p so'raladigan savollar: basseyn qayerda, narxlar, ish vaqti, murabbiylar.",
+    "q1": "Eng yaqin basseynni qanday topish mumkin?",
+    "a1": "«Xarita» sahifasini oching — barcha basseynlar interaktiv xaritada ko'rsatilgan. Kategoriya bo'yicha filtrlash va kerakli joyga nisbatan joylashuvni ko'rish mumkin.",
+    "q2": "Bir martalik tashrif narxi qancha?",
+    "a2": "Narxlar 30 000 dan 150 000 so'mgacha. Ochiq va bolalar basseynlari odatda arzonroq, sport komplekslari va mehmonxona basseynlari qimmatroq.",
+    "q3": "Obunani onlayn sotib olish mumkinmi?",
+    "a3": "Hozircha obunalar basseyn kassasida sotib olinadi. Basen.uz'da narxlar va ish vaqtini oldindan bilib olishingiz mumkin.",
+    "q4": "Basseynlarda suzish bo'yicha murabbiylar bormi?",
+    "a4": "Ko'plab basseynlar professional murabbiylar xizmatini taklif etadi. Katalogda «Murabbiy» filtri yordamida mos variantni toping.",
+    "q5": "Ochiq basseynlar qachon ishlaydi?",
+    "a5": "Toshkentdagi ochiq basseynlar odatda may oyidan sentyabr oyigacha ishlaydi. Yopiq basseynlar va akvapark yil bo'yi ishlaydi.",
+    "q6": "Saytga o'z basseynimni qanday qo'shaman?",
+    "a6": "Bizga Telegramda yozing — ma'lumotni tekshirib, basseynni katalogga bepul qo'shamiz."
   }
 }
