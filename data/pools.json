@@ -5,25 +5,25 @@
     "translations": {
       "ru": {
         "name": "Malibu Sun Club",
-        "address": "ул. Амира Темура, 15, Ташкент",
-        "description": "Malibu Sun Club — открытый бассейн в Юнусабаде с чистой водой и развитой инфраструктурой. Профессиональные тренеры, просторная зона отдыха, уютное кафе и современные раздевалки сделают ваш отдых комфортным."
+        "address": "посёлок Ийк-Ота, ул. Узбекистанская, Бектемирский район, Ташкент",
+        "description": "Открытый бассейн с двумя чашами — детской и взрослой. Летняя терраса с топчанами и лежаками, ресторан с европейской, кавказской и корейской кухней. Вход свободный, оплачивается аренда мест."
       },
       "uz": {
         "name": "Malibu Sun Club",
-        "address": "Amir Temur ko'chasi, 15, Toshkent",
-        "description": "Malibu Sun Club — Yunusobodda joylashgan ochiq basseyni, toza suv va qulay infratuzilma. Professional murabbiylar, keng dam olish zonasi va zamonaviy kiyinish xonalari."
+        "address": "Iyk-Ota qishlog'i, O'zbekiston ko'chasi, Bektemir tumani, Toshkent",
+        "description": null
       },
       "en": {
         "name": "Malibu Sun Club",
-        "address": "15 Amir Temur Street, Tashkent",
-        "description": "Malibu Sun Club is an open-air pool in Yunusabad with clean water and excellent facilities. Professional coaches, spacious recreation area, cozy cafe and modern changing rooms."
+        "address": "Iyk-Ota village, Uzbekistanskaya str., Bektemir district, Tashkent",
+        "description": null
       }
     },
     "category": "open",
-    "district": "yunusabad",
-    "coordinates": { "lat": 41.3585, "lng": 69.2838 },
-    "phone": "+998 71 234 56 78",
-    "telegram": "https://t.me/malibu_tashkent",
+    "district": "bektemir",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 90 970-82-38",
+    "telegram": null,
     "website": null,
     "gallery": [
       "/images/pools/malibu-sun-club/1.jpg",
@@ -31,26 +31,24 @@
       "/images/pools/malibu-sun-club/3.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 80000,  "currency": "UZS" },
-      { "key": "price.child_single", "amount": 50000,  "currency": "UZS" },
-      { "key": "price.monthly",      "amount": 600000, "currency": "UZS" }
+      { "key": "price.adult_single", "amount": 0, "currency": "UZS" }
     ],
     "schedule": [
-      { "day": "mon", "open": "08:00", "close": "22:00" },
-      { "day": "tue", "open": "08:00", "close": "22:00" },
-      { "day": "wed", "open": "08:00", "close": "22:00" },
-      { "day": "thu", "open": "08:00", "close": "22:00" },
-      { "day": "fri", "open": "08:00", "close": "23:00" },
-      { "day": "sat", "open": "09:00", "close": "23:00" },
-      { "day": "sun", "open": "09:00", "close": "21:00" }
+      { "day": "mon", "open": "10:00", "close": "22:00" },
+      { "day": "tue", "open": "10:00", "close": "22:00" },
+      { "day": "wed", "open": "10:00", "close": "22:00" },
+      { "day": "thu", "open": "10:00", "close": "22:00" },
+      { "day": "fri", "open": "10:00", "close": "22:00" },
+      { "day": "sat", "open": "10:00", "close": "22:00" },
+      { "day": "sun", "open": "10:00", "close": "22:00" }
     ],
-    "services": ["trainer", "locker", "parking", "cafe", "children_zone"],
+    "services": ["parking", "cafe", "children_zone"],
     "season": "summer",
-    "poolLength": 50,
-    "poolDepthMin": 1.2,
-    "poolDepthMax": 2.0,
-    "rating": 4.6,
-    "reviewCount": 38,
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.8,
+    "reviewCount": 4,
     "featured": true,
     "createdAt": "2025-06-01T00:00:00Z"
   },
@@ -798,6 +796,918 @@
     "poolDepthMax": null,
     "rating": 4.0,
     "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "astera-sea",
+    "slug": "astera-sea",
+    "translations": {
+      "ru": {
+        "name": "Astera Sea",
+        "address": "ул. Шокирарик, 46, Сергелийский район, Ташкент",
+        "description": "Открытый бассейн в Сергелийском районе с удобным расположением у станции метро «Сергели-4». Кафе, раздевалки и парковка на территории."
+      },
+      "uz": {
+        "name": "Astera Sea",
+        "address": "Shokirariq ko'chasi, 46, Sergeli tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Astera Sea",
+        "address": "46 Shokirariq str., Sergeli district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "sergeli",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 90 043-05-20",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/astera-sea/1.jpg",
+      "/images/pools/astera-sea/2.jpg",
+      "/images/pools/astera-sea/3.jpg",
+      "/images/pools/astera-sea/4.jpg",
+      "/images/pools/astera-sea/5.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 50000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:00" },
+      { "day": "tue", "open": "10:00", "close": "21:00" },
+      { "day": "wed", "open": "10:00", "close": "21:00" },
+      { "day": "thu", "open": "10:00", "close": "21:00" },
+      { "day": "fri", "open": "10:00", "close": "21:00" },
+      { "day": "sat", "open": "10:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "21:00" }
+    ],
+    "services": ["parking", "cafe", "locker"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.8,
+    "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "dos-hermanas",
+    "slug": "dos-hermanas",
+    "translations": {
+      "ru": {
+        "name": "Dos Hermanas by Alena",
+        "address": "ул. Чорток, 71, Сергелийский район, Ташкент",
+        "description": "Открытый бассейн с кафе-рестораном (европейская и корейская кухня, шашлыки), баром и зоной отдыха. В будни после 17:00 скидка 50%. Дети до 3 лет бесплатно."
+      },
+      "uz": {
+        "name": "Dos Hermanas by Alena",
+        "address": "Cho'rtoq ko'chasi, 71, Sergeli tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Dos Hermanas by Alena",
+        "address": "71 Cho'rtoq str., Sergeli district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "sergeli",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 90 917-00-06",
+    "telegram": "https://t.me/dos_hermanas",
+    "website": null,
+    "gallery": [
+      "/images/pools/dos-hermanas/1.jpg",
+      "/images/pools/dos-hermanas/2.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 120000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 70000,  "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "23:00" },
+      { "day": "tue", "open": "10:00", "close": "23:00" },
+      { "day": "wed", "open": "10:00", "close": "23:00" },
+      { "day": "thu", "open": "10:00", "close": "23:00" },
+      { "day": "fri", "open": "10:00", "close": "23:00" },
+      { "day": "sat", "open": "10:00", "close": "23:00" },
+      { "day": "sun", "open": "10:00", "close": "23:00" }
+    ],
+    "services": ["parking", "cafe"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.5,
+    "reviewCount": 4,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "aqua-blue",
+    "slug": "aqua-blue",
+    "translations": {
+      "ru": {
+        "name": "Aqua Blue",
+        "address": "посёлок Гулистан, Юкоричирчикский район, Ташкентская область",
+        "description": "Открытый бассейн с детской зоной и зоной отдыха на топчанах. Взрослый билет 100 000 сум/день, дети 3–12 лет 70 000 сум, до 3 лет бесплатно."
+      },
+      "uz": {
+        "name": "Aqua Blue",
+        "address": "Guliston qishlog'i, Yuqorichirchiq tumani, Toshkent viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Aqua Blue",
+        "address": "Guliston village, Yukori Chirchiq district, Tashkent region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 90 805-08-01",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aqua-blue/1.jpg",
+      "/images/pools/aqua-blue/2.jpg",
+      "/images/pools/aqua-blue/3.jpg",
+      "/images/pools/aqua-blue/4.jpg",
+      "/images/pools/aqua-blue/5.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 100000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 70000,  "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "23:00" },
+      { "day": "tue", "open": "10:00", "close": "23:00" },
+      { "day": "wed", "open": "10:00", "close": "23:00" },
+      { "day": "thu", "open": "10:00", "close": "23:00" },
+      { "day": "fri", "open": "10:00", "close": "23:00" },
+      { "day": "sat", "open": "10:00", "close": "23:00" },
+      { "day": "sun", "open": "10:00", "close": "23:00" }
+    ],
+    "services": ["parking", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "aladdin",
+    "slug": "aladdin",
+    "translations": {
+      "ru": {
+        "name": "Aladdin",
+        "address": "городской посёлок Кирсадок, Янгиюльский район, Ташкентская область",
+        "description": "Открытый бассейн в Янгиюльском районе. Взрослый билет 80 000 сум, дети от 5 лет 45 000 сум. Ежедневно с 10:00 до 22:00."
+      },
+      "uz": {
+        "name": "Aladdin",
+        "address": "Qirsadoq shaharchasi, Yangiyo'l tumani, Toshkent viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Aladdin",
+        "address": "Kirsadok township, Yangiyul district, Tashkent region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 99 513-00-06",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aladdin/1.jpg",
+      "/images/pools/aladdin/2.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 45000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "22:00" },
+      { "day": "tue", "open": "10:00", "close": "22:00" },
+      { "day": "wed", "open": "10:00", "close": "22:00" },
+      { "day": "thu", "open": "10:00", "close": "22:00" },
+      { "day": "fri", "open": "10:00", "close": "22:00" },
+      { "day": "sat", "open": "10:00", "close": "22:00" },
+      { "day": "sun", "open": "10:00", "close": "22:00" }
+    ],
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 4,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "forest-club",
+    "slug": "forest-club",
+    "translations": {
+      "ru": {
+        "name": "Forest Club",
+        "address": "Лесхоз, Пскентский район, Ташкентская область",
+        "description": "Открытый бассейн на природе с детской зоной и парковкой. Взрослый билет 80 000 сум, дети 7–14 лет 40 000 сум, до 7 лет бесплатно. Выходной — четверг."
+      },
+      "uz": {
+        "name": "Forest Club",
+        "address": "Lesxo'z, Pskent tumani, Toshkent viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Forest Club",
+        "address": "Leshoz, Pskent district, Tashkent region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 97 342-83-91",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/forest-club/1.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 40000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "22:00" },
+      { "day": "tue", "open": "10:00", "close": "22:00" },
+      { "day": "wed", "open": "10:00", "close": "22:00" },
+      { "day": "thu", "open": "00:00", "close": "00:00", "closed": true },
+      { "day": "fri", "open": "10:00", "close": "22:00" },
+      { "day": "sat", "open": "10:00", "close": "22:00" },
+      { "day": "sun", "open": "10:00", "close": "22:00" }
+    ],
+    "services": ["parking", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "paradise",
+    "slug": "paradise",
+    "translations": {
+      "ru": {
+        "name": "Paradise",
+        "address": "Авиасозлар тор 1/22-24, Яшнабадский район, Ташкент",
+        "description": "Открытый бассейн в Яшнабадском районе с кафе/столовой, бесплатными лежаками и баром. Взрослый от 35 000 сум/час, дети от 25 000 сум/час. Дети до 3 лет бесплатно."
+      },
+      "uz": {
+        "name": "Paradise",
+        "address": "Aviasozlar tor 1/22-24, Yashnobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Paradise",
+        "address": "Aviasozlar 1/22-24, Yashnabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "yashnabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 296-48-61",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/paradise/1.jpg",
+      "/images/pools/paradise/2.jpg",
+      "/images/pools/paradise/3.jpg",
+      "/images/pools/paradise/4.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 90000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 50000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "22:00" },
+      { "day": "tue", "open": "10:00", "close": "22:00" },
+      { "day": "wed", "open": "10:00", "close": "22:00" },
+      { "day": "thu", "open": "10:00", "close": "22:00" },
+      { "day": "fri", "open": "10:00", "close": "22:00" },
+      { "day": "sat", "open": "10:00", "close": "22:00" },
+      { "day": "sun", "open": "10:00", "close": "22:00" }
+    ],
+    "services": ["cafe"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 10,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "riviera",
+    "slug": "riviera",
+    "translations": {
+      "ru": {
+        "name": "Riviera",
+        "address": "Ширкатский посёлок, Кибрайский район, Ташкентская область",
+        "description": "Водный комплекс «Riviera» в Кибрайском районе с парковкой. Средний чек — 50 000 сум."
+      },
+      "uz": {
+        "name": "Riviera",
+        "address": "Shirkat qishlog'i, Qibray tumani, Toshkent viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Riviera",
+        "address": "Shirkat village, Kibray district, Tashkent region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 95 196-33-33",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/riviera/1.jpg",
+      "/images/pools/riviera/2.jpg",
+      "/images/pools/riviera/3.jpg",
+      "/images/pools/riviera/4.jpg",
+      "/images/pools/riviera/5.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 50000, "currency": "UZS" }
+    ],
+    "schedule": null,
+    "services": ["parking"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "sitora",
+    "slug": "sitora",
+    "translations": {
+      "ru": {
+        "name": "Sitora",
+        "address": "1-й проезд Ханабад, 111А, Зангиатинский район, Ташкентская область",
+        "description": "Открытый бассейн с почасовой оплатой. Взрослые 25 000 сум/час или 50 000 сум/день, дети 10 000 сум/час или 40 000 сум/день."
+      },
+      "uz": {
+        "name": "Sitora",
+        "address": "Xonabot 1-ko'cha, 111A, Zangiota tumani, Toshkent viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Sitora",
+        "address": "1st Khanabad lane, 111A, Zangiata district, Tashkent region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 95 198-00-52",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/sitora/1.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 50000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 40000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "21:00" },
+      { "day": "tue", "open": "08:00", "close": "21:00" },
+      { "day": "wed", "open": "08:00", "close": "21:00" },
+      { "day": "thu", "open": "08:00", "close": "21:00" },
+      { "day": "fri", "open": "08:00", "close": "21:00" },
+      { "day": "sat", "open": "08:00", "close": "21:00" },
+      { "day": "sun", "open": "08:00", "close": "21:00" }
+    ],
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "tao-yuan",
+    "slug": "tao-yuan",
+    "translations": {
+      "ru": {
+        "name": "TaoYuan",
+        "address": "ул. Боткина, 4 тупик, Яшнабадский район, Ташкент",
+        "description": "Открытый бассейн в Яшнабадском районе с раздевалками и кафе. Топчаны и кабинки для отдыха. Работает ежедневно с 09:00 до 23:00."
+      },
+      "uz": {
+        "name": "TaoYuan",
+        "address": "Botkin ko'chasi, 4 tor, Yashnobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "TaoYuan",
+        "address": "4 Botkina lane, Yashnabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "yashnabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 99 857-66-55",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/tao-yuan/1.jpg",
+      "/images/pools/tao-yuan/2.jpg",
+      "/images/pools/tao-yuan/3.jpg",
+      "/images/pools/tao-yuan/4.jpg",
+      "/images/pools/tao-yuan/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "23:00" },
+      { "day": "tue", "open": "09:00", "close": "23:00" },
+      { "day": "wed", "open": "09:00", "close": "23:00" },
+      { "day": "thu", "open": "09:00", "close": "23:00" },
+      { "day": "fri", "open": "09:00", "close": "23:00" },
+      { "day": "sat", "open": "09:00", "close": "23:00" },
+      { "day": "sun", "open": "09:00", "close": "23:00" }
+    ],
+    "services": ["parking", "cafe", "locker"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 6,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "acapulco",
+    "slug": "acapulco",
+    "translations": {
+      "ru": {
+        "name": "Акапулько",
+        "address": "ул. Уйсозлар, 7, Яшнабадский район, Ташкент",
+        "description": "Открытый бассейн с детской чашей и водопадом, летней террасой и банкетным залом на 100 мест. Взрослый 80 000 сум, дети 3–12 лет 50 000 сум, до 3 лет бесплатно."
+      },
+      "uz": {
+        "name": "Akapulko",
+        "address": "Uysozlar ko'chasi, 7, Yashnobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Acapulco",
+        "address": "7 Uysozlar str., Yashnabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "yashnabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 90 992-67-74",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/acapulco/1.jpg",
+      "/images/pools/acapulco/2.jpg",
+      "/images/pools/acapulco/3.jpg",
+      "/images/pools/acapulco/4.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 50000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "22:00" },
+      { "day": "tue", "open": "10:00", "close": "22:00" },
+      { "day": "wed", "open": "10:00", "close": "22:00" },
+      { "day": "thu", "open": "10:00", "close": "22:00" },
+      { "day": "fri", "open": "10:00", "close": "22:00" },
+      { "day": "sat", "open": "10:00", "close": "22:00" },
+      { "day": "sun", "open": "10:00", "close": "22:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.5,
+    "reviewCount": 2,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "azizbek-city-pool",
+    "slug": "azizbek-city-pool",
+    "translations": {
+      "ru": {
+        "name": "Azizbek City Pool",
+        "address": "Чиланзар 11 квартал, круг Аль-Хорезми, Учтепинский район, Ташкент",
+        "description": "Открытый бассейн вместимостью 150 человек с детской чашей, топчанами, баром и европейской кухней. Взрослые 25 000 сум/час или 50 000 сум/день, дети 3–12 лет 15 000/30 000 сум."
+      },
+      "uz": {
+        "name": "Azizbek City Pool",
+        "address": "Chilonzor 11 mavze, Al-Xorazmiy doirasi, Uchtepa tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Azizbek City Pool",
+        "address": "Chilanzar 11 block, Al-Khorezmi roundabout, Uchtepa district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "uchtepa",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": null,
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/azizbek-city-pool/1.jpg",
+      "/images/pools/azizbek-city-pool/2.jpg",
+      "/images/pools/azizbek-city-pool/3.jpg",
+      "/images/pools/azizbek-city-pool/4.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 50000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 30000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "11:00", "close": "22:00" },
+      { "day": "tue", "open": "11:00", "close": "22:00" },
+      { "day": "wed", "open": "11:00", "close": "22:00" },
+      { "day": "thu", "open": "11:00", "close": "22:00" },
+      { "day": "fri", "open": "11:00", "close": "22:00" },
+      { "day": "sat", "open": "11:00", "close": "22:00" },
+      { "day": "sun", "open": "11:00", "close": "22:00" }
+    ],
+    "services": ["cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 5,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "aquamarine",
+    "slug": "aquamarine",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Garden Park",
+        "address": "ул. Бабура, 33, Яккасарайский район, Ташкент",
+        "description": "Открытый бассейн с детской зоной, кафе и топчанами. Почасовая и суточная оплата, абонемент на 30 часов. Взрослые от 40 000 сум/час, дети до 12 лет от 20 000 сум/час."
+      },
+      "uz": {
+        "name": "Garden Park Basseyn",
+        "address": "Bobur ko'chasi, 33, Yakkasaroy tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Garden Park Pool",
+        "address": "33 Babur str., Yakkasaray district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "yakkasaray",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 95 170-68-70",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aquamarine/1.jpg",
+      "/images/pools/aquamarine/2.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 100000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 60000,  "currency": "UZS" },
+      { "key": "price.monthly",      "amount": 900000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "22:00" },
+      { "day": "tue", "open": "10:00", "close": "22:00" },
+      { "day": "wed", "open": "10:00", "close": "22:00" },
+      { "day": "thu", "open": "10:00", "close": "22:00" },
+      { "day": "fri", "open": "10:00", "close": "22:00" },
+      { "day": "sat", "open": "10:00", "close": "22:00" },
+      { "day": "sun", "open": "10:00", "close": "22:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 2.5,
+    "reviewCount": 6,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "basseyin-tridex",
+    "slug": "basseyin-tridex",
+    "translations": {
+      "ru": {
+        "name": "Бассейн TRITDEX",
+        "address": "Новбахор 1, Зангиатинский район, Ташкентская область",
+        "description": "Открытый бассейн при пейнтбольном клубе TRITDEX. Можно приносить еду и напитки с собой. Взрослые 90 000 сум (3 часа), дети 3–14 лет 70 000 сум (3 часа). Группы от 10 человек — обязательное бронирование."
+      },
+      "uz": {
+        "name": "TRITDEX Basseyn",
+        "address": "Navbahor 1, Zangiota tumani, Toshkent viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "TRITDEX Pool",
+        "address": "Novbahor 1, Zangiata district, Tashkent region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 94 640-93-37",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyin-tridex/1.jpg",
+      "/images/pools/basseyin-tridex/2.jpg",
+      "/images/pools/basseyin-tridex/3.jpg",
+      "/images/pools/basseyin-tridex/4.jpg",
+      "/images/pools/basseyin-tridex/5.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 90000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 70000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "22:00" },
+      { "day": "tue", "open": "09:00", "close": "22:00" },
+      { "day": "wed", "open": "09:00", "close": "22:00" },
+      { "day": "thu", "open": "09:00", "close": "22:00" },
+      { "day": "fri", "open": "09:00", "close": "22:00" },
+      { "day": "sat", "open": "09:00", "close": "22:00" },
+      { "day": "sun", "open": "09:00", "close": "22:00" }
+    ],
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "edem-chimgan",
+    "slug": "edem-chimgan",
+    "translations": {
+      "ru": {
+        "name": "Grace Garden",
+        "address": "ул. Арай, 10, Ийк-Ота, Бектемирский район, Ташкент",
+        "description": "Комплекс отдыха с открытым бассейном, SPA, фитнесом и детским развивающим центром GGKids (бесплатно). Кафе с корейской и европейской кухней, летнее кафе. Также есть гостиница на территории."
+      },
+      "uz": {
+        "name": "Grace Garden",
+        "address": "Aroy ko'chasi, 10, Iyk-Ota, Bektemir tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Grace Garden",
+        "address": "10 Aray str., Iyk-Ota, Bektemir district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "bektemir",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 97 480-44-49",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/edem-chimgan/1.jpg",
+      "/images/pools/edem-chimgan/2.jpg",
+      "/images/pools/edem-chimgan/3.jpg",
+      "/images/pools/edem-chimgan/4.jpg",
+      "/images/pools/edem-chimgan/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "11:00", "close": "23:00" },
+      { "day": "tue", "open": "11:00", "close": "23:00" },
+      { "day": "wed", "open": "11:00", "close": "23:00" },
+      { "day": "thu", "open": "11:00", "close": "23:00" },
+      { "day": "fri", "open": "11:00", "close": "23:00" },
+      { "day": "sat", "open": "11:00", "close": "23:00" },
+      { "day": "sun", "open": "11:00", "close": "23:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone", "spa"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 4,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "mojito-povalazza",
+    "slug": "mojito-povalazza",
+    "translations": {
+      "ru": {
+        "name": "Мохито — Lounge Pool",
+        "address": "Тукайтепа, ул. Икбол, 24, Мирзо-Улугбекский район, Ташкент",
+        "description": "Открытый lounge-бассейн в Мирзо-Улугбекском районе. Взрослые 70 000 сум в будни / 100 000 сум в выходные, дети 35 000 / 50 000 сум."
+      },
+      "uz": {
+        "name": "Mohito Lounge Pool",
+        "address": "Tukaytepa, Iqbol ko'chasi, 24, Mirzo Ulug'bek tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Mohito Lounge Pool",
+        "address": "Tukaytepa, 24 Iqbol str., Mirzo-Ulugbek district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "mirzo-ulugbek",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 99 520-55-11",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/mojito-povalazza/1.jpg",
+      "/images/pools/mojito-povalazza/2.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 70000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 35000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "11:00", "close": "20:00" },
+      { "day": "tue", "open": "11:00", "close": "20:00" },
+      { "day": "wed", "open": "11:00", "close": "20:00" },
+      { "day": "thu", "open": "11:00", "close": "20:00" },
+      { "day": "fri", "open": "11:00", "close": "20:00" },
+      { "day": "sat", "open": "11:00", "close": "20:00" },
+      { "day": "sun", "open": "11:00", "close": "20:00" }
+    ],
+    "services": ["parking"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.5,
+    "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "aleks",
+    "slug": "aleks",
+    "translations": {
+      "ru": {
+        "name": "Развлекательный комплекс ALEKS",
+        "address": "Ийк-Ота, Ёшлик 5, Бектемирский район, Ташкент",
+        "description": "Открытый бассейн с детской чашей, кафе (европейская и корейская кухня) и банкетным залом. Взрослые 80 000 сум, дети 3–11 лет 40 000 сум."
+      },
+      "uz": {
+        "name": "ALEKS Ko'ngilochar Majmuasi",
+        "address": "Iyk-Ota, Yoshlik 5, Bektemir tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "ALEKS Entertainment Complex",
+        "address": "Iyk-Ota, Yoshlik 5, Bektemir district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "bektemir",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 90 956-59-04",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aleks/1.jpg",
+      "/images/pools/aleks/2.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 40000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:30" },
+      { "day": "tue", "open": "10:00", "close": "21:30" },
+      { "day": "wed", "open": "10:00", "close": "21:30" },
+      { "day": "thu", "open": "10:00", "close": "21:30" },
+      { "day": "fri", "open": "10:00", "close": "21:30" },
+      { "day": "sat", "open": "10:00", "close": "21:30" },
+      { "day": "sun", "open": "10:00", "close": "21:30" }
+    ],
+    "services": ["parking", "cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "three-palms",
+    "slug": "three-palms",
+    "translations": {
+      "ru": {
+        "name": "Три пальмы — Three Palms Beach Club",
+        "address": "посёлок Ийк-Ота, ул. Узбекистанская, Бектемирский район, Ташкент",
+        "description": "Пляжный клуб с открытым бассейном, детской чашей, кафе с европейской и кавказской кухней. Топчаны и лежаки. Взрослые 80 000 сум в будни / 100 000 сум в выходные."
+      },
+      "uz": {
+        "name": "Three Palms Beach Club",
+        "address": "Iyk-Ota qishlog'i, O'zbekiston ko'chasi, Bektemir tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Three Palms Beach Club",
+        "address": "Iyk-Ota village, Uzbekistanskaya str., Bektemir district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": "bektemir",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 99 317-00-03",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/three-palms/1.jpg",
+      "/images/pools/three-palms/2.jpg",
+      "/images/pools/three-palms/3.jpg",
+      "/images/pools/three-palms/4.jpg",
+      "/images/pools/three-palms/5.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 40000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "23:00" },
+      { "day": "tue", "open": "10:00", "close": "23:00" },
+      { "day": "wed", "open": "10:00", "close": "23:00" },
+      { "day": "thu", "open": "10:00", "close": "23:00" },
+      { "day": "fri", "open": "10:00", "close": "23:00" },
+      { "day": "sat", "open": "10:00", "close": "23:00" },
+      { "day": "sun", "open": "10:00", "close": "23:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.5,
+    "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
   }
