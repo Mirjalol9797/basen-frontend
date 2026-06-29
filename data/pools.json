@@ -219,5 +219,586 @@
     "reviewCount": 89,
     "featured": true,
     "createdAt": "2025-04-01T00:00:00Z"
+  },
+  {
+    "id": "aqualand",
+    "slug": "aqualand",
+    "translations": {
+      "ru": {
+        "name": "Аквалэнд",
+        "address": "ул. Чинабад, 61А, Юнусабадский район, Ташкент",
+        "description": "Аквапарк с водными горками, волновым бассейном и детскими аттракционами. На территории работает гостиничный комплекс Golden Valley, кафе, спортивные площадки и профессиональные инструкторы по плаванию."
+      },
+      "uz": {
+        "name": "Aqualand",
+        "address": "Chinabot ko'chasi, 61A, Yunusobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Aqualand",
+        "address": "61A Chinabot str., Yunusabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "yunusabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 212-01-55",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aqualand/1.jpg",
+      "/images/pools/aqualand/2.jpg",
+      "/images/pools/aqualand/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00" }
+    ],
+    "services": ["trainer", "parking", "cafe", "children_zone", "jacuzzi"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.5,
+    "reviewCount": 2,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "atlantis",
+    "slug": "atlantis",
+    "translations": {
+      "ru": {
+        "name": "Atlantis",
+        "address": "Сергели 7, ул. Шокирарык, 58, Сергелийский район, Ташкент",
+        "description": "Открытый аквапарк с бассейнами, водными горками и зоной отдыха. На территории кафе, бар и закрытые VIP-кабинки. Работает ежедневно до 23:00."
+      },
+      "uz": {
+        "name": "Atlantis",
+        "address": "Sergeli 7, Shokirariq ko'chasi, 58, Sergeli tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Atlantis",
+        "address": "Sergeli 7, 58 Shokirariq str., Sergeli district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "sergeli",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 207-05-06",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/atlantis/1.jpg",
+      "/images/pools/atlantis/2.jpg",
+      "/images/pools/atlantis/3.jpg",
+      "/images/pools/atlantis/4.jpg",
+      "/images/pools/atlantis/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "11:00", "close": "23:00" },
+      { "day": "tue", "open": "11:00", "close": "23:00" },
+      { "day": "wed", "open": "11:00", "close": "23:00" },
+      { "day": "thu", "open": "11:00", "close": "23:00" },
+      { "day": "fri", "open": "11:00", "close": "23:00" },
+      { "day": "sat", "open": "11:00", "close": "23:00" },
+      { "day": "sun", "open": "11:00", "close": "23:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 24,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "fun-n-food-village",
+    "slug": "fun-n-food-village",
+    "translations": {
+      "ru": {
+        "name": "Fun N Food Village (Чирчикский Аквапарк)",
+        "address": "проспект Навои, 238А, Чирчик, Ташкентская область",
+        "description": "Крупный аквапарк с 11 водными горками и 6 бассейнами, включая волновой бассейн, «Торнадо» и «Ленивую реку». Кафе с узбекскими блюдами и фаст-фудом. Дети до 80 см — вход бесплатный."
+      },
+      "uz": {
+        "name": "Fun N Food Village (Chirchiq Akvaparki)",
+        "address": "Navoiy shoh ko'chasi, 238A, Chirchiq, Toshkent viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Fun N Food Village (Chirchiq Water Park)",
+        "address": "238A Navoiy Ave., Chirchiq, Tashkent region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 93 505-38-05",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/fun-n-food-village/1.jpg",
+      "/images/pools/fun-n-food-village/2.jpg",
+      "/images/pools/fun-n-food-village/3.jpg",
+      "/images/pools/fun-n-food-village/4.jpg",
+      "/images/pools/fun-n-food-village/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone", "locker"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.5,
+    "reviewCount": 9,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "limpopo",
+    "slug": "limpopo",
+    "translations": {
+      "ru": {
+        "name": "Limpopo",
+        "address": "ул. Талимарджан, 135, Мирабадский район, Ташкент",
+        "description": "Аквапарк с 4 бассейнами: основной с гидромассажем, детский с 5 цветными горками, а также прямой и винтовой горками. Детям до 3 лет вход бесплатный."
+      },
+      "uz": {
+        "name": "Limpopo",
+        "address": "Talimarjon ko'chasi, 135, Mirobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Limpopo",
+        "address": "135 Talimarjon str., Mirobod district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "mirobod",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": null,
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/limpopo/1.jpg",
+      "/images/pools/limpopo/2.jpg",
+      "/images/pools/limpopo/3.jpg",
+      "/images/pools/limpopo/4.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "22:00" },
+      { "day": "tue", "open": "10:00", "close": "22:00" },
+      { "day": "wed", "open": "10:00", "close": "22:00" },
+      { "day": "thu", "open": "10:00", "close": "22:00" },
+      { "day": "fri", "open": "10:00", "close": "22:00" },
+      { "day": "sat", "open": "10:00", "close": "22:00" },
+      { "day": "sun", "open": "10:00", "close": "22:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone", "locker", "jacuzzi"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 9,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "monaco",
+    "slug": "monaco",
+    "translations": {
+      "ru": {
+        "name": "MONACO — Крытый Аквапарк",
+        "address": "Карасу 4, ул. Гульсанам, Мирзо-Улугбекский район, Ташкент",
+        "description": "Крытый аквапарк, работающий круглый год. Тропические зоны, финская сауна, джакузи и акватерапия. Подогреваемые бассейны с комфортной температурой воды в любое время года."
+      },
+      "uz": {
+        "name": "MONACO — Yopiq Akvapark",
+        "address": "Qarashu 4, Gulsanam ko'chasi, Mirzo Ulug'bek tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "MONACO — Indoor Water Park",
+        "address": "Karasu 4, Gulsanam str., Mirzo-Ulugbek district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "mirzo-ulugbek",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 95 215-15-15",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/monaco/1.jpg",
+      "/images/pools/monaco/2.jpg",
+      "/images/pools/monaco/3.jpg",
+      "/images/pools/monaco/4.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 150000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 80000,  "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "06:00", "close": "23:00" },
+      { "day": "tue", "open": "06:00", "close": "23:00" },
+      { "day": "wed", "open": "06:00", "close": "23:00" },
+      { "day": "thu", "open": "06:00", "close": "23:00" },
+      { "day": "fri", "open": "06:00", "close": "23:00" },
+      { "day": "sat", "open": "06:00", "close": "23:00" },
+      { "day": "sun", "open": "06:00", "close": "23:00" }
+    ],
+    "services": ["children_zone", "sauna", "jacuzzi", "cafe"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "oasis-aqua-park",
+    "slug": "oasis-aqua-park",
+    "translations": {
+      "ru": {
+        "name": "OASIS Аквапарк",
+        "address": "проспект Бунёдкор, 4А, напротив парка Гафура Гуляма, Чиланзарский район, Ташкент",
+        "description": "Аквапарк с водными горками, бассейнами и газонными зонами отдыха. Ресторан, кофейня и детская зона на территории. Удобная парковка."
+      },
+      "uz": {
+        "name": "OASIS Akvapark",
+        "address": "Bunyodkor shoh ko'chasi, 4A, Chilonzor tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "OASIS Water Park",
+        "address": "4A Bunyodkor Ave., Chilanzar district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "chilanzar",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": null,
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/oasis-aqua-park/1.jpg",
+      "/images/pools/oasis-aqua-park/2.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 85000,  "currency": "UZS" },
+      { "key": "price.child_single", "amount": 60000,  "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "21:00" },
+      { "day": "tue", "open": "09:00", "close": "21:00" },
+      { "day": "wed", "open": "09:00", "close": "21:00" },
+      { "day": "thu", "open": "09:00", "close": "21:00" },
+      { "day": "fri", "open": "09:00", "close": "21:00" },
+      { "day": "sat", "open": "09:00", "close": "21:00" },
+      { "day": "sun", "open": "09:00", "close": "21:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone", "locker"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.0,
+    "reviewCount": 15,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "oazis",
+    "slug": "oazis",
+    "translations": {
+      "ru": {
+        "name": "Oazis Мини-Аквапарк",
+        "address": "ул. Самарканд, Янгиюль, Ташкентская область",
+        "description": "Мини-аквапарк в Янгиюле с детским бассейном, водными горками и зоной отдыха. Небольшой уютный парк для семейного отдыха."
+      },
+      "uz": {
+        "name": "Oazis Mini-Akvapark",
+        "address": "Samarqand ko'chasi, Yangiyo'l, Toshkent viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Oazis Mini Water Park",
+        "address": "Samarkand str., Yangiyul, Tashkent region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 97 746-94-55",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/oazis/1.jpg",
+      "/images/pools/oazis/2.jpg",
+      "/images/pools/oazis/3.jpg",
+      "/images/pools/oazis/4.jpg",
+      "/images/pools/oazis/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:00" },
+      { "day": "tue", "open": "10:00", "close": "21:00" },
+      { "day": "wed", "open": "10:00", "close": "21:00" },
+      { "day": "thu", "open": "10:00", "close": "21:00" },
+      { "day": "fri", "open": "10:00", "close": "21:00" },
+      { "day": "sat", "open": "10:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "21:00" }
+    ],
+    "services": ["children_zone", "parking"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.5,
+    "reviewCount": 5,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "water-park",
+    "slug": "water-park",
+    "translations": {
+      "ru": {
+        "name": "Water Park Tashkent",
+        "address": "Юнусабад 7, ул. Кулоктепа, Юнусабадский район, Ташкент",
+        "description": "Аквапарк с двумя бассейнами (детским и взрослым) и тремя водными горками. Кафе и парковка на территории."
+      },
+      "uz": {
+        "name": "Water Park Tashkent",
+        "address": "Yunusobod 7, Kuloktepa ko'chasi, Yunusobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Water Park Tashkent",
+        "address": "Yunusabad 7, Kuloktepa str., Yunusabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "yunusabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 90 919-00-16",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/water-park/1.jpg",
+      "/images/pools/water-park/2.jpg",
+      "/images/pools/water-park/3.jpg",
+      "/images/pools/water-park/4.jpg",
+      "/images/pools/water-park/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "20:00" },
+      { "day": "tue", "open": "08:00", "close": "20:00" },
+      { "day": "wed", "open": "08:00", "close": "20:00" },
+      { "day": "thu", "open": "08:00", "close": "20:00" },
+      { "day": "fri", "open": "08:00", "close": "20:00" },
+      { "day": "sat", "open": "08:00", "close": "20:00" },
+      { "day": "sun", "open": "08:00", "close": "20:00" }
+    ],
+    "services": ["parking", "cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 6,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "solnechniy-gorod",
+    "slug": "solnechniy-gorod",
+    "translations": {
+      "ru": {
+        "name": "Солнечный город",
+        "address": "Спутник-7, дом 1, Сергелийский район, Ташкент",
+        "description": "Аквапарк с 6 подогреваемыми бассейнами, детскими зонами и водными горками. Джакузи, микромассаж, летнее кафе и бар. Работает ежедневно до 23:00."
+      },
+      "uz": {
+        "name": "Quyoshli Shahar",
+        "address": "Sputnik-7, 1-uy, Sergeli tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Sunny City",
+        "address": "Sputnik-7, building 1, Sergeli district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "sergeli",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": null,
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/solnechniy-gorod/1.jpg",
+      "/images/pools/solnechniy-gorod/2.jpg",
+      "/images/pools/solnechniy-gorod/3.jpg",
+      "/images/pools/solnechniy-gorod/4.jpg",
+      "/images/pools/solnechniy-gorod/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "23:00" },
+      { "day": "tue", "open": "10:00", "close": "23:00" },
+      { "day": "wed", "open": "10:00", "close": "23:00" },
+      { "day": "thu", "open": "10:00", "close": "23:00" },
+      { "day": "fri", "open": "10:00", "close": "23:00" },
+      { "day": "sat", "open": "10:00", "close": "23:00" },
+      { "day": "sun", "open": "10:00", "close": "23:00" }
+    ],
+    "services": ["children_zone", "jacuzzi", "cafe", "parking"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 22,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "tashkent-water-park",
+    "slug": "tashkent-water-park",
+    "translations": {
+      "ru": {
+        "name": "Ташкентский Аквапарк",
+        "address": "проспект Амира Темура, 107, Юнусабадский район, Ташкент",
+        "description": "Городской аквапарк с шестью бассейнами, водными горками и душем Шарко. Билет рассчитан на 3 часа пребывания. Кафетерий и парковка на территории."
+      },
+      "uz": {
+        "name": "Toshkent Akvaparki",
+        "address": "Amir Temur shoh ko'chasi, 107, Yunusobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Tashkent Water Park",
+        "address": "107 Amir Temur Ave., Yunusabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "yunusabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 238-56-25",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/tashkent-water-park/1.jpg",
+      "/images/pools/tashkent-water-park/2.jpg",
+      "/images/pools/tashkent-water-park/3.jpg",
+      "/images/pools/tashkent-water-park/4.jpg",
+      "/images/pools/tashkent-water-park/5.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 70000, "currency": "UZS" },
+      { "key": "price.child_single", "amount": 35000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "19:00" },
+      { "day": "tue", "open": "10:00", "close": "19:00" },
+      { "day": "wed", "open": "10:00", "close": "19:00" },
+      { "day": "thu", "open": "10:00", "close": "19:00" },
+      { "day": "fri", "open": "10:00", "close": "19:00" },
+      { "day": "sat", "open": "10:00", "close": "19:00" },
+      { "day": "sun", "open": "10:00", "close": "19:00" }
+    ],
+    "services": ["cafe", "parking", "locker"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 13,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "green-paradise",
+    "slug": "green-paradise",
+    "translations": {
+      "ru": {
+        "name": "Green Paradise",
+        "address": "ул. Навруз, Сергелийский район, Ташкент",
+        "description": "Небольшой открытый бассейн с аквапарком для семейного отдыха в Сергелийском районе."
+      },
+      "uz": {
+        "name": "Green Paradise",
+        "address": "Navro'z ko'chasi, Sergeli tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Green Paradise",
+        "address": "Navruz str., Sergeli district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": "sergeli",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 97 708-57-54",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/green-paradise/1.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "22:00" },
+      { "day": "tue", "open": "10:00", "close": "22:00" },
+      { "day": "wed", "open": "10:00", "close": "22:00" },
+      { "day": "thu", "open": "10:00", "close": "22:00" },
+      { "day": "fri", "open": "10:00", "close": "22:00" },
+      { "day": "sat", "open": "10:00", "close": "22:00" },
+      { "day": "sun", "open": "10:00", "close": "22:00" }
+    ],
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
   }
 ]
