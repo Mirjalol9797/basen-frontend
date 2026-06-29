@@ -1,0 +1,223 @@
+[
+  {
+    "id": "malibu-sun-club",
+    "slug": "malibu-sun-club",
+    "translations": {
+      "ru": {
+        "name": "Malibu Sun Club",
+        "address": "ул. Амира Темура, 15, Ташкент",
+        "description": "Malibu Sun Club — открытый бассейн в Юнусабаде с чистой водой и развитой инфраструктурой. Профессиональные тренеры, просторная зона отдыха, уютное кафе и современные раздевалки сделают ваш отдых комфортным."
+      },
+      "uz": {
+        "name": "Malibu Sun Club",
+        "address": "Amir Temur ko'chasi, 15, Toshkent",
+        "description": "Malibu Sun Club — Yunusobodda joylashgan ochiq basseyni, toza suv va qulay infratuzilma. Professional murabbiylar, keng dam olish zonasi va zamonaviy kiyinish xonalari."
+      },
+      "en": {
+        "name": "Malibu Sun Club",
+        "address": "15 Amir Temur Street, Tashkent",
+        "description": "Malibu Sun Club is an open-air pool in Yunusabad with clean water and excellent facilities. Professional coaches, spacious recreation area, cozy cafe and modern changing rooms."
+      }
+    },
+    "category": "open",
+    "district": "yunusabad",
+    "coordinates": { "lat": 41.3585, "lng": 69.2838 },
+    "phone": "+998 71 234 56 78",
+    "telegram": "https://t.me/malibu_tashkent",
+    "website": null,
+    "gallery": [
+      "/images/pools/malibu-sun-club/1.jpg",
+      "/images/pools/malibu-sun-club/2.jpg",
+      "/images/pools/malibu-sun-club/3.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 80000,  "currency": "UZS" },
+      { "key": "price.child_single", "amount": 50000,  "currency": "UZS" },
+      { "key": "price.monthly",      "amount": 600000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "22:00" },
+      { "day": "tue", "open": "08:00", "close": "22:00" },
+      { "day": "wed", "open": "08:00", "close": "22:00" },
+      { "day": "thu", "open": "08:00", "close": "22:00" },
+      { "day": "fri", "open": "08:00", "close": "23:00" },
+      { "day": "sat", "open": "09:00", "close": "23:00" },
+      { "day": "sun", "open": "09:00", "close": "21:00" }
+    ],
+    "services": ["trainer", "locker", "parking", "cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": 50,
+    "poolDepthMin": 1.2,
+    "poolDepthMax": 2.0,
+    "rating": 4.6,
+    "reviewCount": 38,
+    "featured": true,
+    "createdAt": "2025-06-01T00:00:00Z"
+  },
+  {
+    "id": "olympic-sport-complex",
+    "slug": "olympic-sport-complex",
+    "translations": {
+      "ru": {
+        "name": "Олимпийский спорткомплекс",
+        "address": "пр. Бунёдкор, 42, Ташкент",
+        "description": "Профессиональный спортивный бассейн с 25-метровыми дорожками, работающий круглый год. Проводятся групповые занятия, индивидуальные тренировки с тренером и соревнования."
+      },
+      "uz": {
+        "name": "Olimpiya sport majmuasi",
+        "address": "Bunyodkor shoh ko'chasi, 42, Toshkent",
+        "description": "25 metrli yo'lakli professional sport basseyn, yil davomida ochiq. Guruh mashg'ulotlari, murabbiy bilan individual trenirovkalar o'tkaziladi."
+      },
+      "en": {
+        "name": "Olympic Sports Complex",
+        "address": "42 Bunyodkor Avenue, Tashkent",
+        "description": "Professional sports pool with 25-meter lanes, open year-round. Group classes, individual coaching sessions and competitions are held regularly."
+      }
+    },
+    "category": "sport",
+    "district": "mirzo-ulugbek",
+    "coordinates": { "lat": 41.3290, "lng": 69.3015 },
+    "phone": "+998 71 345 67 89",
+    "telegram": null,
+    "website": "https://olympic-sport.uz",
+    "gallery": [
+      "/images/pools/olympic-sport-complex/1.jpg",
+      "/images/pools/olympic-sport-complex/2.jpg",
+      "/images/pools/olympic-sport-complex/3.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 60000,  "currency": "UZS" },
+      { "key": "price.morning",      "amount": 40000,  "currency": "UZS" },
+      { "key": "price.monthly",      "amount": 450000, "currency": "UZS" },
+      { "key": "price.group",        "amount": 35000,  "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "22:00" },
+      { "day": "tue", "open": "07:00", "close": "22:00" },
+      { "day": "wed", "open": "07:00", "close": "22:00" },
+      { "day": "thu", "open": "07:00", "close": "22:00" },
+      { "day": "fri", "open": "07:00", "close": "22:00" },
+      { "day": "sat", "open": "08:00", "close": "20:00" },
+      { "day": "sun", "closed": true, "open": "00:00", "close": "00:00" }
+    ],
+    "services": ["trainer", "locker", "parking", "sauna", "wifi"],
+    "season": "year-round",
+    "poolLength": 25,
+    "poolDepthMin": 1.5,
+    "poolDepthMax": 2.5,
+    "rating": 4.8,
+    "reviewCount": 124,
+    "featured": true,
+    "createdAt": "2025-03-15T00:00:00Z"
+  },
+  {
+    "id": "kids-aquaworld",
+    "slug": "kids-aquaworld",
+    "translations": {
+      "ru": {
+        "name": "Детский Аквамир",
+        "address": "ул. Катартал, 8, Ташкент",
+        "description": "Детский бассейн с тёплой водой и безопасной глубиной до 0.8м. Специально оборудован для малышей от 2 лет: горки, фонтанчики, детские инструкторы."
+      },
+      "uz": {
+        "name": "Bolalar Akvaolami",
+        "address": "Qatartal ko'chasi, 8, Toshkent",
+        "description": "Issiq suv va 0.8m chuqurlikdagi bolalar basseyn. 2 yoshdan katta bolalar uchun: slaydlar, fontanlar, bolalar instruktorlari."
+      },
+      "en": {
+        "name": "Kids Aquaworld",
+        "address": "8 Katartal Street, Tashkent",
+        "description": "Children's pool with warm water and safe depth up to 0.8m. Specially equipped for children from 2 years: slides, fountains, and dedicated children's instructors."
+      }
+    },
+    "category": "children",
+    "district": "chilanzar",
+    "coordinates": { "lat": 41.2908, "lng": 69.1985 },
+    "phone": "+998 71 456 78 90",
+    "telegram": "https://t.me/kids_aquaworld",
+    "website": null,
+    "gallery": [
+      "/images/pools/kids-aquaworld/1.jpg",
+      "/images/pools/kids-aquaworld/2.jpg",
+      "/images/pools/kids-aquaworld/3.jpg"
+    ],
+    "prices": [
+      { "key": "price.child_single", "amount": 45000,  "currency": "UZS" },
+      { "key": "price.adult_single", "amount": 55000,  "currency": "UZS" },
+      { "key": "price.monthly",      "amount": 350000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "21:00" },
+      { "day": "sat", "open": "09:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "19:00" }
+    ],
+    "services": ["locker", "parking", "cafe", "children_zone"],
+    "season": "summer",
+    "poolLength": 15,
+    "poolDepthMin": 0.3,
+    "poolDepthMax": 0.8,
+    "rating": 4.4,
+    "reviewCount": 67,
+    "featured": false,
+    "createdAt": "2025-05-20T00:00:00Z"
+  },
+  {
+    "id": "grand-serena-pool",
+    "slug": "grand-serena-pool",
+    "translations": {
+      "ru": {
+        "name": "Grand Serena Hotel Pool",
+        "address": "ул. Тарас Шевченко, 22, Ташкент",
+        "description": "Закрытый бассейн пятизвёздочного отеля Grand Serena. Кристально чистая вода, джакузи, сауна и спа-зона. Доступен для гостей отеля и внешних посетителей."
+      },
+      "uz": {
+        "name": "Grand Serena Hotel Pool",
+        "address": "Taras Shevchenko ko'chasi, 22, Toshkent",
+        "description": "Grand Serena besh yulduzli mehmonxonasining yopiq basseyn. Kristal toza suv, jakuzi, sauna va spa zona. Mehmonxona mehmoni va tashqi tashrif buyuruvchilar uchun."
+      },
+      "en": {
+        "name": "Grand Serena Hotel Pool",
+        "address": "22 Taras Shevchenko Street, Tashkent",
+        "description": "Indoor pool of the five-star Grand Serena Hotel. Crystal clear water, jacuzzi, sauna and spa zone. Available for hotel guests and outside visitors."
+      }
+    },
+    "category": "hotel",
+    "district": "yakkasaray",
+    "coordinates": { "lat": 41.2731, "lng": 69.2297 },
+    "phone": "+998 71 567 89 01",
+    "telegram": null,
+    "website": "https://grandserena.uz",
+    "gallery": [
+      "/images/pools/grand-serena-pool/1.jpg",
+      "/images/pools/grand-serena-pool/2.jpg",
+      "/images/pools/grand-serena-pool/3.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 150000, "currency": "UZS" },
+      { "key": "price.morning",      "amount": 100000, "currency": "UZS" },
+      { "key": "price.monthly",      "amount": 1200000,"currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "23:00" },
+      { "day": "tue", "open": "07:00", "close": "23:00" },
+      { "day": "wed", "open": "07:00", "close": "23:00" },
+      { "day": "thu", "open": "07:00", "close": "23:00" },
+      { "day": "fri", "open": "07:00", "close": "23:00" },
+      { "day": "sat", "open": "07:00", "close": "23:00" },
+      { "day": "sun", "open": "07:00", "close": "23:00" }
+    ],
+    "services": ["trainer", "locker", "parking", "sauna", "jacuzzi", "spa", "wifi", "cafe"],
+    "season": "year-round",
+    "poolLength": 20,
+    "poolDepthMin": 1.2,
+    "poolDepthMax": 1.8,
+    "rating": 4.7,
+    "reviewCount": 89,
+    "featured": true,
+    "createdAt": "2025-04-01T00:00:00Z"
+  }
+]

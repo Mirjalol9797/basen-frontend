@@ -1,0 +1,12 @@
+[
+  { "id": "yunusabad",     "translations": { "ru": "Юнусабад",       "uz": "Yunusobod",      "en": "Yunusabad" } },
+  { "id": "chilanzar",     "translations": { "ru": "Чиланзар",       "uz": "Chilonzor",      "en": "Chilanzar" } },
+  { "id": "mirzo-ulugbek", "translations": { "ru": "Мирзо-Улугбек", "uz": "Mirzo Ulug'bek", "en": "Mirzo-Ulugbek" } },
+  { "id": "yakkasaray",    "translations": { "ru": "Яккасарай",      "uz": "Yakkasaroy",     "en": "Yakkasaray" } },
+  { "id": "almazar",       "translations": { "ru": "Алмазар",        "uz": "Olmazor",        "en": "Almazar" } },
+  { "id": "bektemir",      "translations": { "ru": "Бектемир",       "uz": "Bektemir",       "en": "Bektemir" } },
+  { "id": "yashnabad",     "translations": { "ru": "Яшнабад",        "uz": "Yashnobod",      "en": "Yashnabad" } },
+  { "id": "sergeli",       "translations": { "ru": "Сергели",        "uz": "Sergeli",        "en": "Sergeli" } },
+  { "id": "uchtepa",       "translations": { "ru": "Учтепа",         "uz": "Uchtepa",        "en": "Uchtepa" } },
+  { "id": "shayhantahur",  "translations": { "ru": "Шайхантахур",    "uz": "Shayxontohur",   "en": "Shayhantahur" } }
+]

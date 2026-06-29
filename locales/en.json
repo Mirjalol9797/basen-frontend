@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "map": "Map",
+    "search": "Search",
+    "about": "About",
+    "faq": "FAQ"
+  },
+  "category": {
+    "open": "Open-air",
+    "indoor": "Indoor",
+    "children": "Children's",
+    "sport": "Sport",
+    "hotel": "Hotel Pool",
+    "aquapark": "Aquapark",
+    "open_plural": "Open-air Pools",
+    "indoor_plural": "Indoor Pools",
+    "children_plural": "Children's Pools",
+    "sport_plural": "Sport Pools",
+    "hotel_plural": "Hotel Pools",
+    "aquapark_plural": "Aquaparks"
+  },
+  "price": {
+    "adult_single": "Adult (single visit)",
+    "child_single": "Child (single visit)",
+    "monthly": "Monthly subscription",
+    "morning": "Morning session",
+    "group": "Group",
+    "season": "Season pass",
+    "from": "from",
+    "currency": "UZS"
+  },
+  "service": {
+    "trainer": "Coach",
+    "locker": "Changing room",
+    "parking": "Parking",
+    "sauna": "Sauna",
+    "cafe": "Cafe",
+    "children_zone": "Children's zone",
+    "jacuzzi": "Jacuzzi",
+    "spa": "SPA",
+    "wifi": "Wi-Fi",
+    "shop": "Shop"
+  },
+  "schedule": {
+    "mon": "Monday",
+    "tue": "Tuesday",
+    "wed": "Wednesday",
+    "thu": "Thursday",
+    "fri": "Friday",
+    "sat": "Saturday",
+    "sun": "Sunday",
+    "closed": "Closed",
+    "open_now": "Open now",
+    "closed_now": "Closed",
+    "opens_tomorrow": "Opens tomorrow at {time}",
+    "open_until": "Open until {time}"
+  },
+  "filter": {
+    "title": "Filters",
+    "type": "Pool type",
+    "district": "District",
+    "price": "Price (single visit)",
+    "services": "Services",
+    "season": "Season",
+    "season_summer": "Summer",
+    "season_yearround": "Year-round",
+    "reset": "Reset",
+    "apply": "Apply",
+    "all_districts": "All districts"
+  },
+  "sort": {
+    "label": "Sort by",
+    "rating": "By rating",
+    "price_asc": "Price ↑",
+    "price_desc": "Price ↓",
+    "newest": "Newest"
+  },
+  "common": {
+    "loading": "Loading...",
+    "show_more": "Show more",
+    "show_all": "Show all",
+    "close": "Close",
+    "back": "Back",
+    "all_photos": "All photos ({count})",
+    "similar": "Similar pools",
+    "no_results": "Nothing found",
+    "no_results_desc": "Try changing the filters",
+    "reset_filters": "Reset filters",
+    "pools_count": "pools",
+    "found_count": "Found {count} pools",
+    "on_map": "pools on map",
+    "write_telegram": "Message on Telegram",
+    "call": "Call",
+    "route": "Directions",
+    "website": "Website",
+    "today": "Today",
+    "reviews": "reviews",
+    "rating": "Rating",
+    "address": "Address",
+    "phone": "Phone",
+    "services": "Services",
+    "description": "Description",
+    "prices": "Prices",
+    "schedule": "Schedule",
+    "gallery": "Gallery",
+    "contact": "Contacts"
+  },
+  "home": {
+    "hero_title": "Find the best swimming pool in Tashkent",
+    "hero_subtitle": "50+ pools. Prices, schedules and photos — no phone calls needed.",
+    "search_placeholder": "Search by name or district...",
+    "categories_title": "Pool types",
+    "popular_title": "Popular in Tashkent",
+    "map_preview_title": "All pools on map",
+    "map_preview_btn": "View on map →",
+    "stats_pools": "50+ pools",
+    "stats_types": "6 types",
+    "stats_districts": "All districts",
+    "seasonal_summer": "Open-air pools — open now",
+    "seasonal_winter": "Indoor pools — warm in any weather"
+  },
+  "catalog": {
+    "title": "Swimming Pools in Tashkent",
+    "meta_title": "Swimming Pool Catalog Tashkent — {count}+ venues | Basen.uz",
+    "meta_desc": "Complete catalog of swimming pools in Tashkent with prices and schedules. Filter by type, price and district.",
+    "view_list": "List",
+    "view_map": "Map",
+    "filters_btn": "Filters"
+  },
+  "pool": {
+    "open_badge": "Open-air",
+    "indoor_badge": "Indoor",
+    "season_summer": "Summer",
+    "season_yearround": "Year-round",
+    "pool_length": "Pool length",
+    "pool_depth": "Depth",
+    "meters": "m",
+    "show_reviews": "Show all reviews",
+    "meta_title": "{name} — prices, schedule, photos | Basen.uz",
+    "meta_desc": "{name} in Tashkent. Prices from {price} UZS. Phone, address, reviews."
+  },
+  "errors": {
+    "not_found": "Page not found",
+    "not_found_desc": "But we have great pools",
+    "go_home": "Go home",
+    "go_catalog": "Open catalog"
+  },
+  "about": {
+    "title": "About Basen.uz",
+    "meta_title": "About | Basen.uz",
+    "meta_desc": "Basen.uz — the best swimming pool catalog in Tashkent. Current prices, schedules and photos."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "meta_title": "Swimming Pool FAQ Tashkent | Basen.uz",
+    "meta_desc": "Frequently asked questions: where to find a pool, prices, schedules, coaches."
+  }
+}

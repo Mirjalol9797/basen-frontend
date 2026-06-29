@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "catalog": "Katalog",
+    "map": "Xarita",
+    "search": "Qidirish",
+    "about": "Loyiha haqida",
+    "faq": "Savollar"
+  },
+  "category": {
+    "open": "Ochiq",
+    "indoor": "Yopiq",
+    "children": "Bolalar",
+    "sport": "Sport",
+    "hotel": "Mehmonxona",
+    "aquapark": "Akvapark",
+    "open_plural": "Ochiq basseynlar",
+    "indoor_plural": "Yopiq basseynlar",
+    "children_plural": "Bolalar basseynlari",
+    "sport_plural": "Sport basseynlari",
+    "hotel_plural": "Mehmonxona basseynlari",
+    "aquapark_plural": "Akvapark"
+  },
+  "price": {
+    "adult_single": "Kattalar uchun (bir marta)",
+    "child_single": "Bolalar uchun (bir marta)",
+    "monthly": "Obuna (oy)",
+    "morning": "Ertalabki",
+    "group": "Guruh",
+    "season": "Mavsumiy",
+    "from": "dan",
+    "currency": "so'm"
+  },
+  "service": {
+    "trainer": "Murabbiy",
+    "locker": "Kiyinish xonasi",
+    "parking": "Avtoturar joy",
+    "sauna": "Sauna",
+    "cafe": "Kafe",
+    "children_zone": "Bolalar zonasi",
+    "jacuzzi": "Jakuzi",
+    "spa": "SPA",
+    "wifi": "Wi-Fi",
+    "shop": "Do'kon"
+  },
+  "schedule": {
+    "mon": "Dushanba",
+    "tue": "Seshanba",
+    "wed": "Chorshanba",
+    "thu": "Payshanba",
+    "fri": "Juma",
+    "sat": "Shanba",
+    "sun": "Yakshanba",
+    "closed": "Yopiq",
+    "open_now": "Ochiq",
+    "closed_now": "Yopiq",
+    "opens_tomorrow": "Ertaga {time} da ochiladi",
+    "open_until": "{time} gacha ochiq"
+  },
+  "filter": {
+    "title": "Filtrlar",
+    "type": "Basseyn turi",
+    "district": "Tuman",
+    "price": "Narx (bir martalik)",
+    "services": "Xizmatlar",
+    "season": "Mavsum",
+    "season_summer": "Yozgi",
+    "season_yearround": "Yil bo'yi",
+    "reset": "Tozalash",
+    "apply": "Qo'llash",
+    "all_districts": "Barcha tumanlar"
+  },
+  "sort": {
+    "label": "Saralash",
+    "rating": "Reyting bo'yicha",
+    "price_asc": "Narx ↑",
+    "price_desc": "Narx ↓",
+    "newest": "Yangi"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "show_more": "Ko'proq ko'rsatish",
+    "show_all": "Hammasini ko'rsatish",
+    "close": "Yopish",
+    "back": "Orqaga",
+    "all_photos": "Barcha rasmlar ({count})",
+    "similar": "O'xshash basseynlar",
+    "no_results": "Hech narsa topilmadi",
+    "no_results_desc": "Filtrlarni o'zgartirib ko'ring",
+    "reset_filters": "Filtrlarni tozalash",
+    "pools_count": "basseyn",
+    "found_count": "{count} ta basseyn topildi",
+    "on_map": "ta basseyn xaritada",
+    "write_telegram": "Telegramga yozish",
+    "call": "Qo'ng'iroq qilish",
+    "route": "Yo'nalish",
+    "website": "Sayt",
+    "today": "Bugun",
+    "reviews": "sharh",
+    "rating": "Reyting",
+    "address": "Manzil",
+    "phone": "Telefon",
+    "services": "Xizmatlar",
+    "description": "Tavsif",
+    "prices": "Narxlar",
+    "schedule": "Ish vaqti",
+    "gallery": "Galereya",
+    "contact": "Aloqa"
+  },
+  "home": {
+    "hero_title": "Toshkentdagi eng yaxshi basseynni toping",
+    "hero_subtitle": "50+ basseyn. Narxlar, ish vaqti va fotosuratlar — qo'ng'iroqsiz.",
+    "search_placeholder": "Nom yoki tuman bo'yicha qidirish...",
+    "categories_title": "Basseyn turlari",
+    "popular_title": "Toshkentda mashhur",
+    "map_preview_title": "Barcha basseynlar xaritada",
+    "map_preview_btn": "Xaritada ko'rish →",
+    "stats_pools": "50+ basseyn",
+    "stats_types": "6 tur",
+    "stats_districts": "Barcha tumanlar",
+    "seasonal_summer": "Ochiq basseynlar — hozir ishlayapti",
+    "seasonal_winter": "Yopiq basseynlar — har qanday ob-havoda iliq"
+  },
+  "catalog": {
+    "title": "Toshkent basseynlari",
+    "meta_title": "Toshkent basseynlari katalogi — {count}+ obyekt | Basen.uz",
+    "meta_desc": "Toshkentning to'liq basseyn katalogi, narxlar va ish vaqti bilan. Tur, narx va tuman bo'yicha filtrlash.",
+    "view_list": "Ro'yxat",
+    "view_map": "Xarita",
+    "filters_btn": "Filtrlar"
+  },
+  "pool": {
+    "open_badge": "Ochiq",
+    "indoor_badge": "Yopiq",
+    "season_summer": "Yozgi",
+    "season_yearround": "Yil bo'yi",
+    "pool_length": "Basseyn uzunligi",
+    "pool_depth": "Chuqurlik",
+    "meters": "m",
+    "show_reviews": "Barcha sharhlarni ko'rsatish",
+    "meta_title": "{name} — narxlar, ish vaqti, fotosuratlar | Basen.uz",
+    "meta_desc": "{name} Toshkentda. Narxlar {price} so'mdan. Telefon, manzil, sharhlar."
+  },
+  "errors": {
+    "not_found": "Sahifa topilmadi",
+    "not_found_desc": "Lekin bizda ajoyib basseynlar bor",
+    "go_home": "Bosh sahifaga",
+    "go_catalog": "Katalogni ochish"
+  },
+  "about": {
+    "title": "Basen.uz loyihasi haqida",
+    "meta_title": "Loyiha haqida | Basen.uz",
+    "meta_desc": "Basen.uz — Toshkentning eng yaxshi basseyn katalogi. Dolzarb narxlar, ish vaqti va fotosuratlar."
+  },
+  "faq": {
+    "title": "Ko'p so'raladigan savollar",
+    "meta_title": "Toshkent basseynlari haqida savollar — FAQ | Basen.uz",
+    "meta_desc": "Ko'p so'raladigan savollar: basseyn qayerda, narxlar, ish vaqti, murabbiylar."
+  }
+}

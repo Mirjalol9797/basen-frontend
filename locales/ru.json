@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Главная",
+    "catalog": "Каталог",
+    "map": "Карта",
+    "search": "Поиск",
+    "about": "О проекте",
+    "faq": "Вопросы"
+  },
+  "category": {
+    "open": "Открытый",
+    "indoor": "Крытый",
+    "children": "Детский",
+    "sport": "Спортивный",
+    "hotel": "При отеле",
+    "aquapark": "Аквапарк",
+    "open_plural": "Открытые",
+    "indoor_plural": "Крытые",
+    "children_plural": "Детские",
+    "sport_plural": "Спортивные",
+    "hotel_plural": "При отелях",
+    "aquapark_plural": "Аквапарки"
+  },
+  "price": {
+    "adult_single": "Взрослый разовый",
+    "child_single": "Детский разовый",
+    "monthly": "Абонемент (месяц)",
+    "morning": "Утренний",
+    "group": "Групповой",
+    "season": "Сезонный",
+    "from": "от",
+    "currency": "сум"
+  },
+  "service": {
+    "trainer": "Тренер",
+    "locker": "Раздевалка",
+    "parking": "Парковка",
+    "sauna": "Сауна",
+    "cafe": "Кафе",
+    "children_zone": "Детская зона",
+    "jacuzzi": "Джакузи",
+    "spa": "SPA",
+    "wifi": "Wi-Fi",
+    "shop": "Магазин"
+  },
+  "schedule": {
+    "mon": "Понедельник",
+    "tue": "Вторник",
+    "wed": "Среда",
+    "thu": "Четверг",
+    "fri": "Пятница",
+    "sat": "Суббота",
+    "sun": "Воскресенье",
+    "closed": "Закрыто",
+    "open_now": "Открыто",
+    "closed_now": "Закрыто",
+    "opens_tomorrow": "Откроется завтра в {time}",
+    "open_until": "Открыто до {time}"
+  },
+  "filter": {
+    "title": "Фильтры",
+    "type": "Тип бассейна",
+    "district": "Район",
+    "price": "Цена (разовый)",
+    "services": "Услуги",
+    "season": "Сезон",
+    "season_summer": "Летний",
+    "season_yearround": "Круглогодичный",
+    "reset": "Сбросить",
+    "apply": "Применить",
+    "all_districts": "Все районы"
+  },
+  "sort": {
+    "label": "Сортировка",
+    "rating": "По рейтингу",
+    "price_asc": "Цена ↑",
+    "price_desc": "Цена ↓",
+    "newest": "Новые"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "show_more": "Показать ещё",
+    "show_all": "Показать все",
+    "close": "Закрыть",
+    "back": "Назад",
+    "all_photos": "Все фото ({count})",
+    "similar": "Похожие бассейны",
+    "no_results": "Ничего не найдено",
+    "no_results_desc": "Попробуйте изменить фильтры",
+    "reset_filters": "Сбросить фильтры",
+    "pools_count": "бассейнов",
+    "found_count": "Найдено {count} бассейнов",
+    "on_map": "бассейнов на карте",
+    "write_telegram": "Написать в Telegram",
+    "call": "Позвонить",
+    "route": "Маршрут",
+    "website": "Сайт",
+    "today": "Сегодня",
+    "reviews": "отзывов",
+    "rating": "Рейтинг",
+    "address": "Адрес",
+    "phone": "Телефон",
+    "services": "Услуги",
+    "description": "Описание",
+    "prices": "Цены",
+    "schedule": "Расписание",
+    "gallery": "Галерея",
+    "contact": "Контакты"
+  },
+  "home": {
+    "hero_title": "Найди лучший бассейн в Ташкенте",
+    "hero_subtitle": "50+ бассейнов. Цены, расписание и фото без звонков.",
+    "search_placeholder": "Поиск по названию или району...",
+    "categories_title": "Типы бассейнов",
+    "popular_title": "Популярные в Ташкенте",
+    "map_preview_title": "Все бассейны на карте",
+    "map_preview_btn": "Смотреть на карте →",
+    "stats_pools": "50+ бассейнов",
+    "stats_types": "6 типов",
+    "stats_districts": "Все районы",
+    "seasonal_summer": "Открытые бассейны — работают сейчас",
+    "seasonal_winter": "Крытые бассейны — тепло в любую погоду"
+  },
+  "catalog": {
+    "title": "Бассейны Ташкента",
+    "meta_title": "Каталог бассейнов Ташкента — {count}+ объектов | Basen.uz",
+    "meta_desc": "Полный каталог бассейнов Ташкента с ценами и расписанием. Фильтрация по типу, цене и району.",
+    "view_list": "Список",
+    "view_map": "Карта",
+    "filters_btn": "Фильтры"
+  },
+  "pool": {
+    "open_badge": "Открытый",
+    "indoor_badge": "Крытый",
+    "season_summer": "Летний",
+    "season_yearround": "Круглогодичный",
+    "pool_length": "Длина бассейна",
+    "pool_depth": "Глубина",
+    "meters": "м",
+    "show_reviews": "Показать все отзывы",
+    "meta_title": "{name} — цены, расписание, фото | Basen.uz",
+    "meta_desc": "{name} в Ташкенте. Цены от {price} сум. Телефон, адрес, отзывы."
+  },
+  "errors": {
+    "not_found": "Страница не найдена",
+    "not_found_desc": "Но у нас есть отличные бассейны",
+    "go_home": "На главную",
+    "go_catalog": "Открыть каталог"
+  },
+  "about": {
+    "title": "О проекте Basen.uz",
+    "meta_title": "О проекте | Basen.uz",
+    "meta_desc": "Basen.uz — лучший каталог бассейнов Ташкента. Актуальные цены, расписание и фото."
+  },
+  "faq": {
+    "title": "Часто задаваемые вопросы",
+    "meta_title": "Вопросы о бассейнах Ташкента — FAQ | Basen.uz",
+    "meta_desc": "Часто задаваемые вопросы: где найти бассейн, цены, расписание, тренеры."
+  }
+}
