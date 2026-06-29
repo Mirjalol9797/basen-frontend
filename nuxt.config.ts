@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@nuxtjs/sitemap',
-    'nuxt-schema-org',
   ],
 
   i18n: {
@@ -25,6 +24,7 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: 'locales/',
     strategy: 'prefix_except_default',
+    restructureDir: false,
   },
 
   image: {
@@ -47,7 +47,10 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    prerender: { crawlLinks: true },
+    prerender: {
+      crawlLinks: true,
+      ignore: ['/_ipx/'],
+    },
   },
 
   routeRules: {
