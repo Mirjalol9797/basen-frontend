@@ -21,6 +21,8 @@
     },
     "category": "open",
     "district": "bektemir",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.226843,
       "lng": 69.369055
@@ -113,6 +115,8 @@
     },
     "category": "sport",
     "district": "mirzo-ulugbek",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.329,
       "lng": 69.3015
@@ -219,6 +223,8 @@
     },
     "category": "children",
     "district": "chilanzar",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2908,
       "lng": 69.1985
@@ -318,6 +324,8 @@
     },
     "category": "hotel",
     "district": "yakkasaray",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2731,
       "lng": 69.2297
@@ -421,6 +429,8 @@
     },
     "category": "aquapark",
     "district": "yunusabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3510442,
       "lng": 69.2905912
@@ -509,6 +519,8 @@
     },
     "category": "aquapark",
     "district": "sergeli",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.216388,
       "lng": 69.219441
@@ -597,6 +609,8 @@
     },
     "category": "aquapark",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.4783317,
       "lng": 69.5937234
@@ -686,6 +700,8 @@
     },
     "category": "aquapark",
     "district": "mirobod",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2740439,
       "lng": 69.3003224
@@ -775,6 +791,8 @@
     },
     "category": "aquapark",
     "district": "mirzo-ulugbek",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.333063,
       "lng": 69.374933
@@ -874,6 +892,8 @@
     },
     "category": "aquapark",
     "district": "chilanzar",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.290002,
       "lng": 69.218862
@@ -971,6 +991,8 @@
     },
     "category": "aquapark",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.1176336,
       "lng": 69.0572855
@@ -1058,6 +1080,8 @@
     },
     "category": "aquapark",
     "district": "yunusabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3730595,
       "lng": 69.2730732
@@ -1146,6 +1170,8 @@
     },
     "category": "aquapark",
     "district": "sergeli",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.202458,
       "lng": 69.225344
@@ -1235,6 +1261,8 @@
     },
     "category": "aquapark",
     "district": "yunusabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3674637,
       "lng": 69.2856922
@@ -1334,6 +1362,8 @@
     },
     "category": "aquapark",
     "district": "sergeli",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.232426,
       "lng": 69.2004513
@@ -1412,6 +1442,8 @@
     },
     "category": "open",
     "district": "sergeli",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.217054,
       "lng": 69.213544
@@ -1511,6 +1543,8 @@
     },
     "category": "open",
     "district": "sergeli",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.191654,
       "lng": 69.235156
@@ -1606,6 +1640,8 @@
     },
     "category": "open",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.312896,
       "lng": 69.53246
@@ -1704,6 +1740,8 @@
     },
     "category": "open",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.092261,
       "lng": 69.057497
@@ -1796,6 +1834,8 @@
     },
     "category": "open",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 40.6927491,
       "lng": 69.7115743
@@ -1891,6 +1931,8 @@
     },
     "category": "open",
     "district": "yashnabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.288519,
       "lng": 69.346927
@@ -1987,6 +2029,8 @@
     },
     "category": "open",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.387348,
       "lng": 69.464458
@@ -2043,6 +2087,8 @@
     },
     "category": "open",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.201715,
       "lng": 69.16201
@@ -2134,6 +2180,8 @@
     },
     "category": "open",
     "district": "yashnabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.307026,
       "lng": 69.308973
@@ -2222,6 +2270,8 @@
     },
     "category": "open",
     "district": "yashnabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2542026,
       "lng": 69.3249259
@@ -2320,6 +2370,8 @@
     },
     "category": "open",
     "district": "uchtepa",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.283076,
       "lng": 69.165959
@@ -2417,6 +2469,8 @@
     },
     "category": "open",
     "district": "yakkasaray",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2767514,
       "lng": 69.2575623
@@ -2518,6 +2572,8 @@
     },
     "category": "open",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.201715,
       "lng": 69.168
@@ -2613,6 +2669,8 @@
     },
     "category": "open",
     "district": "bektemir",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2272,
       "lng": 69.37
@@ -2702,6 +2760,8 @@
     },
     "category": "open",
     "district": "mirzo-ulugbek",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.33115,
       "lng": 69.41013
@@ -2796,6 +2856,8 @@
     },
     "category": "open",
     "district": "bektemir",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2264,
       "lng": 69.3685
@@ -2892,6 +2954,8 @@
     },
     "category": "open",
     "district": "bektemir",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.226843,
       "lng": 69.369055
@@ -2991,6 +3055,8 @@
     },
     "category": "hotel",
     "district": "yunusabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3179973,
       "lng": 69.282545
@@ -3077,6 +3143,8 @@
     },
     "category": "hotel",
     "district": "yunusabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3179973,
       "lng": 69.282545
@@ -3163,6 +3231,8 @@
     },
     "category": "hotel",
     "district": "yashnabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.310654,
       "lng": 69.286218
@@ -3247,6 +3317,8 @@
     },
     "category": "hotel",
     "district": "mirobod",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3063508,
       "lng": 69.2679686
@@ -3334,6 +3406,8 @@
     },
     "category": "hotel",
     "district": "chilanzar",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2894928,
       "lng": 69.2337076
@@ -3418,6 +3492,8 @@
     },
     "category": "hotel",
     "district": "mirobod",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2871624,
       "lng": 69.2682896
@@ -3467,6 +3543,8 @@
     },
     "category": "hotel",
     "district": null,
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.49646,
       "lng": 69.617008
@@ -3550,6 +3628,8 @@
     },
     "category": "children",
     "district": "mirobod",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2892294,
       "lng": 69.2725254
@@ -3637,6 +3717,8 @@
     },
     "category": "children",
     "district": "shayhontohur",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3195919,
       "lng": 69.2402575
@@ -3733,6 +3815,8 @@
     },
     "category": "indoor",
     "district": "chilanzar",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2594069,
       "lng": 69.1625937
@@ -3794,6 +3878,8 @@
     },
     "category": "indoor",
     "district": "chilanzar",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.2644985,
       "lng": 69.1667914
@@ -3844,6 +3930,8 @@
     },
     "category": "indoor",
     "district": "shayhontohur",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3195919,
       "lng": 69.2402575
@@ -3924,6 +4012,8 @@
     },
     "category": "indoor",
     "district": "mirzo-ulugbek",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3348663,
       "lng": 69.3451844
@@ -4009,6 +4099,8 @@
     },
     "category": "indoor",
     "district": "mirzo-ulugbek",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.323009,
       "lng": 69.3227622
@@ -4055,6 +4147,8 @@
     },
     "category": "indoor",
     "district": "yunusabad",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.347526,
       "lng": 69.284958
@@ -4101,6 +4195,8 @@
     },
     "category": "sport",
     "district": "mirobod",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3011098,
       "lng": 69.2844876
@@ -4187,6 +4283,8 @@
     },
     "category": "sport",
     "district": "shayhontohur",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3316088,
       "lng": 69.2197183
@@ -4271,6 +4369,8 @@
     },
     "category": "sport",
     "district": "mirzo-ulugbek",
+    "region": "tashkent-city",
+    "city": null,
     "coordinates": {
       "lat": 41.3259863,
       "lng": 69.2976342
