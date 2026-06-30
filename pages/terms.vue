@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero -->
-    <section class="bg-gradient-to-br from-slate-700 via-slate-800 to-primary-900 text-white py-12 sm:py-16">
+    <section class="bg-gradient-to-br from-gray-800 via-gray-900 to-primary-900 text-white py-12 sm:py-16">
       <div class="container text-center">
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-sm mb-5">
           <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
