@@ -23,7 +23,7 @@
         :class="hasActiveFilters
           ? 'border-primary-400 bg-primary-50 text-primary-700'
           : 'border-gray-200 bg-white text-gray-600 hover:border-gray-300 hover:bg-gray-50'"
-        @click="uiStore.openFilterDrawer()"
+        @click="uiStore.isFilterDrawerOpen ? uiStore.closeFilterDrawer() : uiStore.openFilterDrawer()"
       >
         <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.553.894l-4 2A1 1 0 016 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clip-rule="evenodd" />

@@ -9,6 +9,20 @@
     <!-- Sort bar -->
     <CatalogSortBar :total="total" class="mb-5" />
 
+    <!-- Inline filter panel -->
+    <Transition
+      enter-active-class="transition-all duration-200 ease-out overflow-hidden"
+      enter-from-class="max-h-0 opacity-0"
+      enter-to-class="max-h-[800px] opacity-100"
+      leave-active-class="transition-all duration-150 ease-in overflow-hidden"
+      leave-from-class="max-h-[800px] opacity-100"
+      leave-to-class="max-h-0 opacity-0"
+    >
+      <div v-if="isFilterOpen" class="mb-5 bg-gray-50 rounded-2xl border border-gray-100 p-5">
+        <CatalogFilters />
+      </div>
+    </Transition>
+
     <!-- Skeletons while loading -->
     <div
       v-if="loading"
@@ -32,24 +46,6 @@
       <CatalogEmptyState v-else />
     </template>
 
-    <!-- Filter drawer -->
-    <AppDrawer
-      v-model="isDrawerOpen"
-      :title="$t('filter.title')"
-    >
-      <CatalogFilters />
-      <template #footer>
-        <AppButton
-          variant="primary"
-          size="lg"
-          class="w-full"
-          @click="isDrawerOpen = false"
-        >
-          {{ $t('common.found_count', { count: total }) }}
-        </AppButton>
-      </template>
-    </AppDrawer>
-
   </div>
 </template>
 
@@ -61,7 +57,7 @@ const { pools, total } = usePools()
 
 const loading = computed(() => poolsStore.all.length === 0)
 
-const isDrawerOpen = computed({
+const isFilterOpen = computed({
   get: () => uiStore.isFilterDrawerOpen,
   set: (v) => v ? uiStore.openFilterDrawer() : uiStore.closeFilterDrawer(),
 })
