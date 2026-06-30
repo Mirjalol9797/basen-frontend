@@ -1,0 +1,128 @@
+[
+  {
+    "id": "tashkent-city",
+    "ru_genitive": "Ташкента",
+    "translations": {
+      "ru": "Ташкент (город)",
+      "uz": "Toshkent (shahar)",
+      "en": "Tashkent (city)"
+    }
+  },
+  {
+    "id": "tashkent-region",
+    "ru_genitive": "Ташкентской области",
+    "translations": {
+      "ru": "Ташкентская область",
+      "uz": "Toshkent viloyati",
+      "en": "Tashkent Region"
+    }
+  },
+  {
+    "id": "andijan",
+    "ru_genitive": "Андижанской области",
+    "translations": {
+      "ru": "Андижанская область",
+      "uz": "Andijon viloyati",
+      "en": "Andijan Region"
+    }
+  },
+  {
+    "id": "fergana",
+    "ru_genitive": "Ферганской области",
+    "translations": {
+      "ru": "Ферганская область",
+      "uz": "Farg'ona viloyati",
+      "en": "Fergana Region"
+    }
+  },
+  {
+    "id": "namangan",
+    "ru_genitive": "Наманганской области",
+    "translations": {
+      "ru": "Наманганская область",
+      "uz": "Namangan viloyati",
+      "en": "Namangan Region"
+    }
+  },
+  {
+    "id": "samarkand",
+    "ru_genitive": "Самаркандской области",
+    "translations": {
+      "ru": "Самаркандская область",
+      "uz": "Samarqand viloyati",
+      "en": "Samarkand Region"
+    }
+  },
+  {
+    "id": "bukhara",
+    "ru_genitive": "Бухарской области",
+    "translations": {
+      "ru": "Бухарская область",
+      "uz": "Buxoro viloyati",
+      "en": "Bukhara Region"
+    }
+  },
+  {
+    "id": "navoi",
+    "ru_genitive": "Навоийской области",
+    "translations": {
+      "ru": "Навоийская область",
+      "uz": "Navoiy viloyati",
+      "en": "Navoi Region"
+    }
+  },
+  {
+    "id": "kashkadarya",
+    "ru_genitive": "Кашкадарьинской области",
+    "translations": {
+      "ru": "Кашкадарьинская область",
+      "uz": "Qashqadaryo viloyati",
+      "en": "Kashkadarya Region"
+    }
+  },
+  {
+    "id": "surkhandarya",
+    "ru_genitive": "Сурхандарьинской области",
+    "translations": {
+      "ru": "Сурхандарьинская область",
+      "uz": "Surxondaryo viloyati",
+      "en": "Surkhandarya Region"
+    }
+  },
+  {
+    "id": "jizzakh",
+    "ru_genitive": "Джизакской области",
+    "translations": {
+      "ru": "Джизакская область",
+      "uz": "Jizzax viloyati",
+      "en": "Jizzakh Region"
+    }
+  },
+  {
+    "id": "syrdarya",
+    "ru_genitive": "Сырдарьинской области",
+    "translations": {
+      "ru": "Сырдарьинская область",
+      "uz": "Sirdaryo viloyati",
+      "en": "Syrdarya Region"
+    }
+  },
+  {
+    "id": "khorezm",
+    "ru_genitive": "Хорезмской области",
+    "translations": {
+      "ru": "Хорезмская область",
+      "uz": "Xorazm viloyati",
+      "en": "Khorezm Region"
+    }
+  },
+  {
+    "id": "karakalpakstan",
+    "ru_genitive": "Республики Каракалпакстан",
+    "translations": {
+      "ru": "Республика Каракалпакстан",
+      "uz": "Qoraqalpog'iston Respublikasi",
+      "en": "Republic of Karakalpakstan"
+    }
+  }
+]
