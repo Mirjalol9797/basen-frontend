@@ -63,6 +63,7 @@ export default defineNuxtConfig({
     "/catalog/**":  { prerender: true },
     "/category/**": { prerender: true },
     "/district/**": { prerender: true },
+    "/region/**":   { prerender: true },
     "/map":         { ssr: true },
   },
 

@@ -42,6 +42,18 @@
     "districts_title": "Toshkent tumanlari",
     "other_pools": "Boshqa tumanlar basseynlari"
   },
+  "region": {
+    "meta_title": "{name} basseynlari — 2026 narxlar | Basen.uz",
+    "meta_desc": "{name}da {count} ta bassayn. Narxlar, ish vaqti, fotolar.",
+    "hero_title": "{name} basseynlari",
+    "hero_subtitle": "2026 narxlar · ish vaqti · fotolar",
+    "found": "{count} ta bassayn",
+    "not_found": "Viloyat topilmadi",
+    "not_found_desc": "Manzilni tekshiring yoki to'liq katalogni oching",
+    "see_catalog": "Katalogni ochish",
+    "regions_title": "O'zbekiston viloyatlari",
+    "other_regions": "Boshqa viloyatlar basseynlari"
+  },
   "price": {
     "adult_single": "Kattalar uchun (bir marta)",
     "child_single": "Bolalar uchun (bir marta)",

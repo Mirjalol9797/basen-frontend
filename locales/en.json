@@ -42,6 +42,18 @@
     "districts_title": "Tashkent Districts",
     "other_pools": "Pools in other districts"
   },
+  "region": {
+    "meta_title": "Pools in {name} — 2026 Prices | Basen.uz",
+    "meta_desc": "{count} pools in {name}. Prices, schedule, photos.",
+    "hero_title": "Pools in {name}",
+    "hero_subtitle": "2026 prices · schedule · photos",
+    "found": "{count} pools found",
+    "not_found": "Region not found",
+    "not_found_desc": "Check the address or open the full catalog",
+    "see_catalog": "Open catalog",
+    "regions_title": "Regions of Uzbekistan",
+    "other_regions": "Pools in other regions"
+  },
   "price": {
     "adult_single": "Adult (single visit)",
     "child_single": "Child (single visit)",
