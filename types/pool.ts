@@ -11,7 +11,9 @@ export interface Pool {
   address: string
   description: string
   category: PoolCategory
-  district: string
+  region: string
+  district: string | null
+  city: string | null
   coordinates: { lat: number; lng: number }
   phone: string
   telegram?: string
