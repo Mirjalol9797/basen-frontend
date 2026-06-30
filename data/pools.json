@@ -120,11 +120,7 @@
     "phone": "+998 71 345 67 89",
     "telegram": null,
     "website": "https://olympic-sport.uz",
-    "gallery": [
-      "/images/pools/olympic-sport-complex/1.jpg",
-      "/images/pools/olympic-sport-complex/2.jpg",
-      "/images/pools/olympic-sport-complex/3.jpg"
-    ],
+    "gallery": [],
     "prices": [
       {
         "key": "price.adult_single",
@@ -230,11 +226,7 @@
     "phone": "+998 71 456 78 90",
     "telegram": "https://t.me/kids_aquaworld",
     "website": null,
-    "gallery": [
-      "/images/pools/kids-aquaworld/1.jpg",
-      "/images/pools/kids-aquaworld/2.jpg",
-      "/images/pools/kids-aquaworld/3.jpg"
-    ],
+    "gallery": [],
     "prices": [
       {
         "key": "price.child_single",
@@ -333,11 +325,7 @@
     "phone": "+998 71 567 89 01",
     "telegram": null,
     "website": "https://grandserena.uz",
-    "gallery": [
-      "/images/pools/grand-serena-pool/1.jpg",
-      "/images/pools/grand-serena-pool/2.jpg",
-      "/images/pools/grand-serena-pool/3.jpg"
-    ],
+    "gallery": [],
     "prices": [
       {
         "key": "price.adult_single",
@@ -1353,9 +1341,7 @@
     "phone": "+998 97 708-57-54",
     "telegram": null,
     "website": null,
-    "gallery": [
-      "/images/pools/green-paradise/1.jpg"
-    ],
+    "gallery": [],
     "prices": [],
     "schedule": [
       {
@@ -3488,11 +3474,7 @@
     "phone": "+998 94 942-28-35",
     "telegram": null,
     "website": null,
-    "gallery": [
-      "/images/pools/zerom/1.jpg",
-      "/images/pools/zerom/2.jpg",
-      "/images/pools/zerom/3.jpg"
-    ],
+    "gallery": [],
     "prices": [],
     "schedule": [
       {
