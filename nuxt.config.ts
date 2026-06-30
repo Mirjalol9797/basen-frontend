@@ -1,46 +1,50 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  compatibilityDate: "2024-11-01",
 
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
-  css: ['leaflet/dist/leaflet.css'],
+  components: [
+    { path: '~/components', pathPrefix: false },
+  ],
+
+  css: ["leaflet/dist/leaflet.css"],
 
   modules: [
-    ['@nuxtjs/tailwindcss', { cssPath: '~/assets/css/main.css' }],
-    '@nuxtjs/i18n',
-    '@nuxt/image',
-    '@pinia/nuxt',
-    '@vueuse/nuxt',
-    '@nuxtjs/sitemap',
+    ["@nuxtjs/tailwindcss", { cssPath: "~/assets/css/main.css" }],
+    "@nuxtjs/i18n",
+    "@nuxt/image",
+    "@pinia/nuxt",
+    "@vueuse/nuxt",
+    "@nuxtjs/sitemap",
   ],
 
   i18n: {
     locales: [
-      { code: 'ru', name: 'Русский', file: 'ru.json' },
-      { code: 'uz', name: "O'zbek", file: 'uz.json' },
-      { code: 'en', name: 'English', file: 'en.json' },
+      { code: "ru", name: "Русский", file: "ru.json" },
+      { code: "uz", name: "O'zbek", file: "uz.json" },
+      { code: "en", name: "English", file: "en.json" },
     ],
-    defaultLocale: 'ru',
+    defaultLocale: "ru",
     lazy: true,
-    langDir: 'locales/',
-    strategy: 'prefix_except_default',
+    langDir: "locales/",
+    strategy: "prefix_except_default",
     restructureDir: false,
   },
 
   image: {
     quality: 80,
-    formats: ['webp'],
+    formats: ["webp"],
     screens: { xs: 390, sm: 640, md: 768, lg: 1024, xl: 1280 },
   },
 
   app: {
     head: {
-      htmlAttrs: { lang: 'ru' },
+      htmlAttrs: { lang: "ru" },
       link: [
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
         },
       ],
     },
@@ -49,20 +53,20 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      ignore: ['/_ipx/'],
+      ignore: ["/_ipx/"],
     },
   },
 
   routeRules: {
-    '/': { prerender: true },
-    '/catalog': { prerender: true },
-    '/catalog/**': { prerender: true },
-    '/category/**': { prerender: true },
-    '/map': { ssr: true },
+    "/": { prerender: true },
+    "/catalog": { prerender: true },
+    "/catalog/**": { prerender: true },
+    "/category/**": { prerender: true },
+    "/map": { ssr: true },
   },
 
   site: {
-    url: 'https://basen.uz',
-    name: 'Basen.uz',
+    url: "https://basen.uz",
+    name: "Basen.uz",
   },
-})
+});
