@@ -46,18 +46,18 @@
           </ul>
         </div>
 
-        <!-- Districts -->
+        <!-- Regions -->
         <div>
           <h3 class="text-sm font-semibold text-white mb-3 uppercase tracking-wide">
-            {{ $t("district.districts_title") }}
+            {{ $t("region.regions_title") }}
           </h3>
           <ul class="space-y-2">
-            <li v-for="d in topDistricts" :key="d.id">
+            <li v-for="r in topRegions" :key="r.id">
               <NuxtLink
-                :to="localePath(`/district/${d.id}`)"
+                :to="localePath(`/region/${r.id}`)"
                 class="text-sm text-primary-200 hover:text-white transition-colors duration-150"
               >
-                {{ d.name }}
+                {{ r.name }}
               </NuxtLink>
             </li>
           </ul>
@@ -122,7 +122,7 @@
 const { locale, locales } = useI18n();
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
-const { districts } = useDistricts();
+const { regions } = useRegions();
 
 const currentYear = new Date().getFullYear();
 
@@ -134,8 +134,8 @@ const footerLinks = [
   { key: "terms",    to: "/terms",     label: "nav.terms" },
 ];
 
-const topDistricts = computed(() =>
-  districts.value.slice(0, 6)
+const topRegions = computed(() =>
+  regions.value.slice(0, 6)
 );
 
 const availableLocales = computed(
