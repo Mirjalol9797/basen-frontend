@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import type { ScheduleDay } from '~/types/pool'
 
-const props = defineProps<{ schedule: ScheduleDay[] }>()
+const props = defineProps<{ schedule: ScheduleDay[] | null }>()
 
 const { t } = useI18n()
 
