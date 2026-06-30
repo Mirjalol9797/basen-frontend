@@ -45,7 +45,7 @@ export const usePoolSeo = (pool: Pool) => {
     name: pool.name,
     description: pool.description,
     url: `${BASE_URL}/catalog/${pool.slug}`,
-    telephone: pool.phone,
+    ...(pool.phone && { telephone: pool.phone }),
     address: {
       '@type': 'PostalAddress',
       streetAddress: pool.address,
