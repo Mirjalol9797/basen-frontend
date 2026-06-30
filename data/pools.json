@@ -2061,5 +2061,107 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "born2swim",
+    "slug": "born2swim",
+    "translations": {
+      "ru": {
+        "name": "Born2swim",
+        "address": "ул. Нукусская, 86/3, Мирабадский район, Ташкент",
+        "description": "Специализированный центр для грудничкового, раннего и школьного плавания. Три бассейна: большой для групповых и индивидуальных занятий, грудничковый для детей 3 месяцев–2 лет и бассейн для гидрореабилитации."
+      },
+      "uz": {
+        "name": "Born2swim",
+        "address": "Nukus ko'chasi, 86/3, Mirobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Born2swim",
+        "address": "86/3 Nukus str., Mirobod district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "children",
+    "district": "mirobod",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 90 924-20-04",
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [
+      { "key": "price.monthly", "amount": 500000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "20:00" },
+      { "day": "tue", "open": "08:00", "close": "20:00" },
+      { "day": "wed", "open": "08:00", "close": "20:00" },
+      { "day": "thu", "open": "08:00", "close": "20:00" },
+      { "day": "fri", "open": "08:00", "close": "20:00" },
+      { "day": "sat", "open": "08:00", "close": "20:00" },
+      { "day": "sun", "open": "08:00", "close": "20:00" }
+    ],
+    "services": ["trainer", "children_zone"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "studio13",
+    "slug": "studio13",
+    "translations": {
+      "ru": {
+        "name": "STUDIO 13",
+        "address": "ул. Фурката, 1, Шайхонтохурский район, Ташкент",
+        "description": "Детский бассейн. Программы: «Мама и малыш» для детей от 3 месяцев до 3 лет и «Здоровые ножки, ровные спинки» для детей от 3 до 7 лет. Занятия по 45 минут."
+      },
+      "uz": {
+        "name": "STUDIO 13",
+        "address": "Furkat ko'chasi, 1, Shayxontohur tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "STUDIO 13",
+        "address": "1 Furkat str., Shaykhantakhur district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "children",
+    "district": "shayhontohur",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 78 113-00-13",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/studio13/1.jpg",
+      "/images/pools/studio13/2.jpg"
+    ],
+    "prices": [
+      { "key": "price.monthly", "amount": 500000, "currency": "UZS" },
+      { "key": "price.group", "amount": 150000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "20:00" },
+      { "day": "tue", "open": "08:00", "close": "20:00" },
+      { "day": "wed", "open": "08:00", "close": "20:00" },
+      { "day": "thu", "open": "08:00", "close": "20:00" },
+      { "day": "fri", "open": "08:00", "close": "20:00" },
+      { "day": "sat", "open": "08:00", "close": "20:00" },
+      { "day": "sun", "open": "00:00", "close": "00:00", "closed": true }
+    ],
+    "services": ["trainer", "children_zone"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
   }
 ]
