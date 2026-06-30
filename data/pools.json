@@ -21,7 +21,10 @@
     },
     "category": "open",
     "district": "bektemir",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.226843,
+      "lng": 69.369055
+    },
     "phone": "+998 90 970-82-38",
     "telegram": null,
     "website": null,
@@ -31,18 +34,54 @@
       "/images/pools/malibu-sun-club/3.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 0, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 0,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "22:00" },
-      { "day": "tue", "open": "10:00", "close": "22:00" },
-      { "day": "wed", "open": "10:00", "close": "22:00" },
-      { "day": "thu", "open": "10:00", "close": "22:00" },
-      { "day": "fri", "open": "10:00", "close": "22:00" },
-      { "day": "sat", "open": "10:00", "close": "22:00" },
-      { "day": "sun", "open": "10:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -74,7 +113,10 @@
     },
     "category": "sport",
     "district": "mirzo-ulugbek",
-    "coordinates": { "lat": 41.3290, "lng": 69.3015 },
+    "coordinates": {
+      "lat": 41.329,
+      "lng": 69.3015
+    },
     "phone": "+998 71 345 67 89",
     "telegram": null,
     "website": "https://olympic-sport.uz",
@@ -84,21 +126,72 @@
       "/images/pools/olympic-sport-complex/3.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 60000,  "currency": "UZS" },
-      { "key": "price.morning",      "amount": 40000,  "currency": "UZS" },
-      { "key": "price.monthly",      "amount": 450000, "currency": "UZS" },
-      { "key": "price.group",        "amount": 35000,  "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 60000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.morning",
+        "amount": 40000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly",
+        "amount": 450000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.group",
+        "amount": 35000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "07:00", "close": "22:00" },
-      { "day": "tue", "open": "07:00", "close": "22:00" },
-      { "day": "wed", "open": "07:00", "close": "22:00" },
-      { "day": "thu", "open": "07:00", "close": "22:00" },
-      { "day": "fri", "open": "07:00", "close": "22:00" },
-      { "day": "sat", "open": "08:00", "close": "20:00" },
-      { "day": "sun", "closed": true, "open": "00:00", "close": "00:00" }
+      {
+        "day": "mon",
+        "open": "07:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "07:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "07:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "07:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "07:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "closed": true,
+        "open": "00:00",
+        "close": "00:00"
+      }
     ],
-    "services": ["trainer", "locker", "parking", "sauna", "wifi"],
+    "services": [
+      "trainer",
+      "locker",
+      "parking",
+      "sauna",
+      "wifi"
+    ],
     "season": "year-round",
     "poolLength": 25,
     "poolDepthMin": 1.5,
@@ -130,7 +223,10 @@
     },
     "category": "children",
     "district": "chilanzar",
-    "coordinates": { "lat": 41.2908, "lng": 69.1985 },
+    "coordinates": {
+      "lat": 41.2908,
+      "lng": 69.1985
+    },
     "phone": "+998 71 456 78 90",
     "telegram": "https://t.me/kids_aquaworld",
     "website": null,
@@ -140,20 +236,65 @@
       "/images/pools/kids-aquaworld/3.jpg"
     ],
     "prices": [
-      { "key": "price.child_single", "amount": 45000,  "currency": "UZS" },
-      { "key": "price.adult_single", "amount": 55000,  "currency": "UZS" },
-      { "key": "price.monthly",      "amount": 350000, "currency": "UZS" }
+      {
+        "key": "price.child_single",
+        "amount": 45000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_single",
+        "amount": 55000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly",
+        "amount": 350000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "09:00", "close": "20:00" },
-      { "day": "tue", "open": "09:00", "close": "20:00" },
-      { "day": "wed", "open": "09:00", "close": "20:00" },
-      { "day": "thu", "open": "09:00", "close": "20:00" },
-      { "day": "fri", "open": "09:00", "close": "21:00" },
-      { "day": "sat", "open": "09:00", "close": "21:00" },
-      { "day": "sun", "open": "10:00", "close": "19:00" }
+      {
+        "day": "mon",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "19:00"
+      }
     ],
-    "services": ["locker", "parking", "cafe", "children_zone"],
+    "services": [
+      "locker",
+      "parking",
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": 15,
     "poolDepthMin": 0.3,
@@ -185,7 +326,10 @@
     },
     "category": "hotel",
     "district": "yakkasaray",
-    "coordinates": { "lat": 41.2731, "lng": 69.2297 },
+    "coordinates": {
+      "lat": 41.2731,
+      "lng": 69.2297
+    },
     "phone": "+998 71 567 89 01",
     "telegram": null,
     "website": "https://grandserena.uz",
@@ -195,20 +339,69 @@
       "/images/pools/grand-serena-pool/3.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 150000, "currency": "UZS" },
-      { "key": "price.morning",      "amount": 100000, "currency": "UZS" },
-      { "key": "price.monthly",      "amount": 1200000,"currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.morning",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly",
+        "amount": 1200000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "07:00", "close": "23:00" },
-      { "day": "tue", "open": "07:00", "close": "23:00" },
-      { "day": "wed", "open": "07:00", "close": "23:00" },
-      { "day": "thu", "open": "07:00", "close": "23:00" },
-      { "day": "fri", "open": "07:00", "close": "23:00" },
-      { "day": "sat", "open": "07:00", "close": "23:00" },
-      { "day": "sun", "open": "07:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "07:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["trainer", "locker", "parking", "sauna", "jacuzzi", "spa", "wifi", "cafe"],
+    "services": [
+      "trainer",
+      "locker",
+      "parking",
+      "sauna",
+      "jacuzzi",
+      "spa",
+      "wifi",
+      "cafe"
+    ],
     "season": "year-round",
     "poolLength": 20,
     "poolDepthMin": 1.2,
@@ -240,7 +433,10 @@
     },
     "category": "aquapark",
     "district": "yunusabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3510442,
+      "lng": 69.2905912
+    },
     "phone": "+998 71 212-01-55",
     "telegram": null,
     "website": null,
@@ -251,15 +447,49 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "09:00", "close": "20:00" },
-      { "day": "tue", "open": "09:00", "close": "20:00" },
-      { "day": "wed", "open": "09:00", "close": "20:00" },
-      { "day": "thu", "open": "09:00", "close": "20:00" },
-      { "day": "fri", "open": "09:00", "close": "20:00" },
-      { "day": "sat", "open": "09:00", "close": "20:00" },
-      { "day": "sun", "open": "09:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "09:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "09:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["trainer", "parking", "cafe", "children_zone", "jacuzzi"],
+    "services": [
+      "trainer",
+      "parking",
+      "cafe",
+      "children_zone",
+      "jacuzzi"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -291,7 +521,10 @@
     },
     "category": "aquapark",
     "district": "sergeli",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.216388,
+      "lng": 69.219441
+    },
     "phone": "+998 71 207-05-06",
     "telegram": null,
     "website": null,
@@ -304,20 +537,52 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "11:00", "close": "23:00" },
-      { "day": "tue", "open": "11:00", "close": "23:00" },
-      { "day": "wed", "open": "11:00", "close": "23:00" },
-      { "day": "thu", "open": "11:00", "close": "23:00" },
-      { "day": "fri", "open": "11:00", "close": "23:00" },
-      { "day": "sat", "open": "11:00", "close": "23:00" },
-      { "day": "sun", "open": "11:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "11:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 24,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -344,7 +609,10 @@
     },
     "category": "aquapark",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.4783317,
+      "lng": 69.5937234
+    },
     "phone": "+998 93 505-38-05",
     "telegram": null,
     "website": null,
@@ -357,15 +625,48 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "20:00" },
-      { "day": "tue", "open": "10:00", "close": "20:00" },
-      { "day": "wed", "open": "10:00", "close": "20:00" },
-      { "day": "thu", "open": "10:00", "close": "20:00" },
-      { "day": "fri", "open": "10:00", "close": "20:00" },
-      { "day": "sat", "open": "10:00", "close": "20:00" },
-      { "day": "sun", "open": "10:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone", "locker"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone",
+      "locker"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -397,7 +698,10 @@
     },
     "category": "aquapark",
     "district": "mirobod",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2740439,
+      "lng": 69.3003224
+    },
     "phone": null,
     "telegram": null,
     "website": null,
@@ -409,20 +713,54 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "22:00" },
-      { "day": "tue", "open": "10:00", "close": "22:00" },
-      { "day": "wed", "open": "10:00", "close": "22:00" },
-      { "day": "thu", "open": "10:00", "close": "22:00" },
-      { "day": "fri", "open": "10:00", "close": "22:00" },
-      { "day": "sat", "open": "10:00", "close": "22:00" },
-      { "day": "sun", "open": "10:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone", "locker", "jacuzzi"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone",
+      "locker",
+      "jacuzzi"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 9,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -449,7 +787,10 @@
     },
     "category": "aquapark",
     "district": "mirzo-ulugbek",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.333063,
+      "lng": 69.374933
+    },
     "phone": "+998 95 215-15-15",
     "telegram": null,
     "website": null,
@@ -460,19 +801,60 @@
       "/images/pools/monaco/4.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 150000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 80000,  "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 80000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "06:00", "close": "23:00" },
-      { "day": "tue", "open": "06:00", "close": "23:00" },
-      { "day": "wed", "open": "06:00", "close": "23:00" },
-      { "day": "thu", "open": "06:00", "close": "23:00" },
-      { "day": "fri", "open": "06:00", "close": "23:00" },
-      { "day": "sat", "open": "06:00", "close": "23:00" },
-      { "day": "sun", "open": "06:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "06:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "06:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["children_zone", "sauna", "jacuzzi", "cafe"],
+    "services": [
+      "children_zone",
+      "sauna",
+      "jacuzzi",
+      "cafe"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
@@ -504,7 +886,10 @@
     },
     "category": "aquapark",
     "district": "chilanzar",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.290002,
+      "lng": 69.218862
+    },
     "phone": null,
     "telegram": null,
     "website": null,
@@ -513,24 +898,65 @@
       "/images/pools/oasis-aqua-park/2.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 85000,  "currency": "UZS" },
-      { "key": "price.child_single", "amount": 60000,  "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 85000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 60000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "09:00", "close": "21:00" },
-      { "day": "tue", "open": "09:00", "close": "21:00" },
-      { "day": "wed", "open": "09:00", "close": "21:00" },
-      { "day": "thu", "open": "09:00", "close": "21:00" },
-      { "day": "fri", "open": "09:00", "close": "21:00" },
-      { "day": "sat", "open": "09:00", "close": "21:00" },
-      { "day": "sun", "open": "09:00", "close": "21:00" }
+      {
+        "day": "mon",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "day": "tue",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "day": "wed",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "day": "thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "day": "fri",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "09:00",
+        "close": "21:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone", "locker"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone",
+      "locker"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.0,
+    "rating": 3,
     "reviewCount": 15,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -557,7 +983,10 @@
     },
     "category": "aquapark",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.1176336,
+      "lng": 69.0572855
+    },
     "phone": "+998 97 746-94-55",
     "telegram": null,
     "website": null,
@@ -570,15 +999,46 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "21:00" },
-      { "day": "tue", "open": "10:00", "close": "21:00" },
-      { "day": "wed", "open": "10:00", "close": "21:00" },
-      { "day": "thu", "open": "10:00", "close": "21:00" },
-      { "day": "fri", "open": "10:00", "close": "21:00" },
-      { "day": "sat", "open": "10:00", "close": "21:00" },
-      { "day": "sun", "open": "10:00", "close": "21:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "21:00"
+      }
     ],
-    "services": ["children_zone", "parking"],
+    "services": [
+      "children_zone",
+      "parking"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -610,7 +1070,10 @@
     },
     "category": "aquapark",
     "district": "yunusabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3730595,
+      "lng": 69.2730732
+    },
     "phone": "+998 90 919-00-16",
     "telegram": null,
     "website": null,
@@ -623,20 +1086,52 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "08:00", "close": "20:00" },
-      { "day": "tue", "open": "08:00", "close": "20:00" },
-      { "day": "wed", "open": "08:00", "close": "20:00" },
-      { "day": "thu", "open": "08:00", "close": "20:00" },
-      { "day": "fri", "open": "08:00", "close": "20:00" },
-      { "day": "sat", "open": "08:00", "close": "20:00" },
-      { "day": "sun", "open": "08:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -663,7 +1158,10 @@
     },
     "category": "aquapark",
     "district": "sergeli",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.202458,
+      "lng": 69.225344
+    },
     "phone": null,
     "telegram": null,
     "website": null,
@@ -676,20 +1174,53 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "23:00" },
-      { "day": "tue", "open": "10:00", "close": "23:00" },
-      { "day": "wed", "open": "10:00", "close": "23:00" },
-      { "day": "thu", "open": "10:00", "close": "23:00" },
-      { "day": "fri", "open": "10:00", "close": "23:00" },
-      { "day": "sat", "open": "10:00", "close": "23:00" },
-      { "day": "sun", "open": "10:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["children_zone", "jacuzzi", "cafe", "parking"],
+    "services": [
+      "children_zone",
+      "jacuzzi",
+      "cafe",
+      "parking"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 22,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -716,7 +1247,10 @@
     },
     "category": "aquapark",
     "district": "yunusabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3674637,
+      "lng": 69.2856922
+    },
     "phone": "+998 71 238-56-25",
     "telegram": null,
     "website": null,
@@ -728,24 +1262,64 @@
       "/images/pools/tashkent-water-park/5.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 70000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 35000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 70000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 35000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "19:00" },
-      { "day": "tue", "open": "10:00", "close": "19:00" },
-      { "day": "wed", "open": "10:00", "close": "19:00" },
-      { "day": "thu", "open": "10:00", "close": "19:00" },
-      { "day": "fri", "open": "10:00", "close": "19:00" },
-      { "day": "sat", "open": "10:00", "close": "19:00" },
-      { "day": "sun", "open": "10:00", "close": "19:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "19:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "19:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "19:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "19:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "19:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "19:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "19:00"
+      }
     ],
-    "services": ["cafe", "parking", "locker"],
+    "services": [
+      "cafe",
+      "parking",
+      "locker"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 13,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -772,7 +1346,10 @@
     },
     "category": "aquapark",
     "district": "sergeli",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.232426,
+      "lng": 69.2004513
+    },
     "phone": "+998 97 708-57-54",
     "telegram": null,
     "website": null,
@@ -781,20 +1358,48 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "22:00" },
-      { "day": "tue", "open": "10:00", "close": "22:00" },
-      { "day": "wed", "open": "10:00", "close": "22:00" },
-      { "day": "thu", "open": "10:00", "close": "22:00" },
-      { "day": "fri", "open": "10:00", "close": "22:00" },
-      { "day": "sat", "open": "10:00", "close": "22:00" },
-      { "day": "sun", "open": "10:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "22:00"
+      }
     ],
     "services": [],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -821,7 +1426,10 @@
     },
     "category": "open",
     "district": "sergeli",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.217054,
+      "lng": 69.213544
+    },
     "phone": "+998 90 043-05-20",
     "telegram": null,
     "website": null,
@@ -833,19 +1441,59 @@
       "/images/pools/astera-sea/5.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 50000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 50000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "21:00" },
-      { "day": "tue", "open": "10:00", "close": "21:00" },
-      { "day": "wed", "open": "10:00", "close": "21:00" },
-      { "day": "thu", "open": "10:00", "close": "21:00" },
-      { "day": "fri", "open": "10:00", "close": "21:00" },
-      { "day": "sat", "open": "10:00", "close": "21:00" },
-      { "day": "sun", "open": "10:00", "close": "21:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "21:00"
+      }
     ],
-    "services": ["parking", "cafe", "locker"],
+    "services": [
+      "parking",
+      "cafe",
+      "locker"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -877,7 +1525,10 @@
     },
     "category": "open",
     "district": "sergeli",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.191654,
+      "lng": 69.235156
+    },
     "phone": "+998 90 917-00-06",
     "telegram": "https://t.me/dos_hermanas",
     "website": null,
@@ -886,19 +1537,58 @@
       "/images/pools/dos-hermanas/2.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 120000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 70000,  "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 120000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 70000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "23:00" },
-      { "day": "tue", "open": "10:00", "close": "23:00" },
-      { "day": "wed", "open": "10:00", "close": "23:00" },
-      { "day": "thu", "open": "10:00", "close": "23:00" },
-      { "day": "fri", "open": "10:00", "close": "23:00" },
-      { "day": "sat", "open": "10:00", "close": "23:00" },
-      { "day": "sun", "open": "10:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["parking", "cafe"],
+    "services": [
+      "parking",
+      "cafe"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -930,7 +1620,10 @@
     },
     "category": "open",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.312896,
+      "lng": 69.53246
+    },
     "phone": "+998 90 805-08-01",
     "telegram": null,
     "website": null,
@@ -942,24 +1635,63 @@
       "/images/pools/aqua-blue/5.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 100000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 70000,  "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 70000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "23:00" },
-      { "day": "tue", "open": "10:00", "close": "23:00" },
-      { "day": "wed", "open": "10:00", "close": "23:00" },
-      { "day": "thu", "open": "10:00", "close": "23:00" },
-      { "day": "fri", "open": "10:00", "close": "23:00" },
-      { "day": "sat", "open": "10:00", "close": "23:00" },
-      { "day": "sun", "open": "10:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["parking", "children_zone"],
+    "services": [
+      "parking",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -986,7 +1718,10 @@
     },
     "category": "open",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.092261,
+      "lng": 69.057497
+    },
     "phone": "+998 99 513-00-06",
     "telegram": null,
     "website": null,
@@ -995,24 +1730,60 @@
       "/images/pools/aladdin/2.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 45000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 45000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "22:00" },
-      { "day": "tue", "open": "10:00", "close": "22:00" },
-      { "day": "wed", "open": "10:00", "close": "22:00" },
-      { "day": "thu", "open": "10:00", "close": "22:00" },
-      { "day": "fri", "open": "10:00", "close": "22:00" },
-      { "day": "sat", "open": "10:00", "close": "22:00" },
-      { "day": "sun", "open": "10:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "22:00"
+      }
     ],
     "services": [],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1039,7 +1810,10 @@
     },
     "category": "open",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 40.6927491,
+      "lng": 69.7115743
+    },
     "phone": "+998 97 342-83-91",
     "telegram": null,
     "website": null,
@@ -1047,24 +1821,64 @@
       "/images/pools/forest-club/1.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 40000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 40000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "22:00" },
-      { "day": "tue", "open": "10:00", "close": "22:00" },
-      { "day": "wed", "open": "10:00", "close": "22:00" },
-      { "day": "thu", "open": "00:00", "close": "00:00", "closed": true },
-      { "day": "fri", "open": "10:00", "close": "22:00" },
-      { "day": "sat", "open": "10:00", "close": "22:00" },
-      { "day": "sun", "open": "10:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["parking", "children_zone"],
+    "services": [
+      "parking",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1091,7 +1905,10 @@
     },
     "category": "open",
     "district": "yashnabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.288519,
+      "lng": 69.346927
+    },
     "phone": "+998 71 296-48-61",
     "telegram": null,
     "website": null,
@@ -1102,24 +1919,62 @@
       "/images/pools/paradise/4.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 90000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 50000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 90000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 50000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "22:00" },
-      { "day": "tue", "open": "10:00", "close": "22:00" },
-      { "day": "wed", "open": "10:00", "close": "22:00" },
-      { "day": "thu", "open": "10:00", "close": "22:00" },
-      { "day": "fri", "open": "10:00", "close": "22:00" },
-      { "day": "sat", "open": "10:00", "close": "22:00" },
-      { "day": "sun", "open": "10:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["cafe"],
+    "services": [
+      "cafe"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 10,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1146,7 +2001,10 @@
     },
     "category": "open",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.387348,
+      "lng": 69.464458
+    },
     "phone": "+998 95 196-33-33",
     "telegram": null,
     "website": null,
@@ -1158,10 +2016,16 @@
       "/images/pools/riviera/5.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 50000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 50000,
+        "currency": "UZS"
+      }
     ],
     "schedule": null,
-    "services": ["parking"],
+    "services": [
+      "parking"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -1193,7 +2057,10 @@
     },
     "category": "open",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.201715,
+      "lng": 69.16201
+    },
     "phone": "+998 95 198-00-52",
     "telegram": null,
     "website": null,
@@ -1201,24 +2068,60 @@
       "/images/pools/sitora/1.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 50000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 40000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 50000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 40000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "08:00", "close": "21:00" },
-      { "day": "tue", "open": "08:00", "close": "21:00" },
-      { "day": "wed", "open": "08:00", "close": "21:00" },
-      { "day": "thu", "open": "08:00", "close": "21:00" },
-      { "day": "fri", "open": "08:00", "close": "21:00" },
-      { "day": "sat", "open": "08:00", "close": "21:00" },
-      { "day": "sun", "open": "08:00", "close": "21:00" }
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "21:00"
+      }
     ],
     "services": [],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1245,7 +2148,10 @@
     },
     "category": "open",
     "district": "yashnabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.307026,
+      "lng": 69.308973
+    },
     "phone": "+998 99 857-66-55",
     "telegram": null,
     "website": null,
@@ -1258,20 +2164,52 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "09:00", "close": "23:00" },
-      { "day": "tue", "open": "09:00", "close": "23:00" },
-      { "day": "wed", "open": "09:00", "close": "23:00" },
-      { "day": "thu", "open": "09:00", "close": "23:00" },
-      { "day": "fri", "open": "09:00", "close": "23:00" },
-      { "day": "sat", "open": "09:00", "close": "23:00" },
-      { "day": "sun", "open": "09:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "09:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "09:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "09:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "09:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "09:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "09:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "09:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["parking", "cafe", "locker"],
+    "services": [
+      "parking",
+      "cafe",
+      "locker"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1298,7 +2236,10 @@
     },
     "category": "open",
     "district": "yashnabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2542026,
+      "lng": 69.3249259
+    },
     "phone": "+998 90 992-67-74",
     "telegram": null,
     "website": null,
@@ -1309,19 +2250,59 @@
       "/images/pools/acapulco/4.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 50000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 50000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "22:00" },
-      { "day": "tue", "open": "10:00", "close": "22:00" },
-      { "day": "wed", "open": "10:00", "close": "22:00" },
-      { "day": "thu", "open": "10:00", "close": "22:00" },
-      { "day": "fri", "open": "10:00", "close": "22:00" },
-      { "day": "sat", "open": "10:00", "close": "22:00" },
-      { "day": "sun", "open": "10:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -1353,7 +2334,10 @@
     },
     "category": "open",
     "district": "uchtepa",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.283076,
+      "lng": 69.165959
+    },
     "phone": null,
     "telegram": null,
     "website": null,
@@ -1364,24 +2348,63 @@
       "/images/pools/azizbek-city-pool/4.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 50000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 30000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 50000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 30000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "11:00", "close": "22:00" },
-      { "day": "tue", "open": "11:00", "close": "22:00" },
-      { "day": "wed", "open": "11:00", "close": "22:00" },
-      { "day": "thu", "open": "11:00", "close": "22:00" },
-      { "day": "fri", "open": "11:00", "close": "22:00" },
-      { "day": "sat", "open": "11:00", "close": "22:00" },
-      { "day": "sun", "open": "11:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "11:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "11:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["cafe", "children_zone"],
+    "services": [
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 5,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1408,7 +2431,10 @@
     },
     "category": "open",
     "district": "yakkasaray",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2767514,
+      "lng": 69.2575623
+    },
     "phone": "+998 95 170-68-70",
     "telegram": null,
     "website": null,
@@ -1417,20 +2443,64 @@
       "/images/pools/aquamarine/2.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 100000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 60000,  "currency": "UZS" },
-      { "key": "price.monthly",      "amount": 900000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 60000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly",
+        "amount": 900000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "22:00" },
-      { "day": "tue", "open": "10:00", "close": "22:00" },
-      { "day": "wed", "open": "10:00", "close": "22:00" },
-      { "day": "thu", "open": "10:00", "close": "22:00" },
-      { "day": "fri", "open": "10:00", "close": "22:00" },
-      { "day": "sat", "open": "10:00", "close": "22:00" },
-      { "day": "sun", "open": "10:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -1462,7 +2532,10 @@
     },
     "category": "open",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.201715,
+      "lng": 69.168
+    },
     "phone": "+998 94 640-93-37",
     "telegram": null,
     "website": null,
@@ -1474,24 +2547,60 @@
       "/images/pools/basseyin-tridex/5.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 90000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 70000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 90000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 70000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "09:00", "close": "22:00" },
-      { "day": "tue", "open": "09:00", "close": "22:00" },
-      { "day": "wed", "open": "09:00", "close": "22:00" },
-      { "day": "thu", "open": "09:00", "close": "22:00" },
-      { "day": "fri", "open": "09:00", "close": "22:00" },
-      { "day": "sat", "open": "09:00", "close": "22:00" },
-      { "day": "sun", "open": "09:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "09:00",
+        "close": "22:00"
+      }
     ],
     "services": [],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1518,7 +2627,10 @@
     },
     "category": "open",
     "district": "bektemir",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2272,
+      "lng": 69.37
+    },
     "phone": "+998 97 480-44-49",
     "telegram": null,
     "website": null,
@@ -1531,20 +2643,53 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "11:00", "close": "23:00" },
-      { "day": "tue", "open": "11:00", "close": "23:00" },
-      { "day": "wed", "open": "11:00", "close": "23:00" },
-      { "day": "thu", "open": "11:00", "close": "23:00" },
-      { "day": "fri", "open": "11:00", "close": "23:00" },
-      { "day": "sat", "open": "11:00", "close": "23:00" },
-      { "day": "sun", "open": "11:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "11:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone", "spa"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone",
+      "spa"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1571,7 +2716,10 @@
     },
     "category": "open",
     "district": "mirzo-ulugbek",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.33115,
+      "lng": 69.41013
+    },
     "phone": "+998 99 520-55-11",
     "telegram": null,
     "website": null,
@@ -1580,19 +2728,57 @@
       "/images/pools/mojito-povalazza/2.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 70000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 35000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 70000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 35000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "11:00", "close": "20:00" },
-      { "day": "tue", "open": "11:00", "close": "20:00" },
-      { "day": "wed", "open": "11:00", "close": "20:00" },
-      { "day": "thu", "open": "11:00", "close": "20:00" },
-      { "day": "fri", "open": "11:00", "close": "20:00" },
-      { "day": "sat", "open": "11:00", "close": "20:00" },
-      { "day": "sun", "open": "11:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "11:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "11:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["parking"],
+    "services": [
+      "parking"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -1624,7 +2810,10 @@
     },
     "category": "open",
     "district": "bektemir",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2264,
+      "lng": 69.3685
+    },
     "phone": "+998 90 956-59-04",
     "telegram": null,
     "website": null,
@@ -1633,19 +2822,59 @@
       "/images/pools/aleks/2.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 40000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 40000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "21:30" },
-      { "day": "tue", "open": "10:00", "close": "21:30" },
-      { "day": "wed", "open": "10:00", "close": "21:30" },
-      { "day": "thu", "open": "10:00", "close": "21:30" },
-      { "day": "fri", "open": "10:00", "close": "21:30" },
-      { "day": "sat", "open": "10:00", "close": "21:30" },
-      { "day": "sun", "open": "10:00", "close": "21:30" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "21:30"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "21:30"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "21:30"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "21:30"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "21:30"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "21:30"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "21:30"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -1677,7 +2906,10 @@
     },
     "category": "open",
     "district": "bektemir",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.226843,
+      "lng": 69.369055
+    },
     "phone": "+998 99 317-00-03",
     "telegram": null,
     "website": null,
@@ -1689,19 +2921,59 @@
       "/images/pools/three-palms/5.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 80000, "currency": "UZS" },
-      { "key": "price.child_single", "amount": 40000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 40000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "23:00" },
-      { "day": "tue", "open": "10:00", "close": "23:00" },
-      { "day": "wed", "open": "10:00", "close": "23:00" },
-      { "day": "thu", "open": "10:00", "close": "23:00" },
-      { "day": "fri", "open": "10:00", "close": "23:00" },
-      { "day": "sat", "open": "10:00", "close": "23:00" },
-      { "day": "sun", "open": "10:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["parking", "cafe", "children_zone"],
+    "services": [
+      "parking",
+      "cafe",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -1733,7 +3005,10 @@
     },
     "category": "hotel",
     "district": "yunusabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3179973,
+      "lng": 69.282545
+    },
     "phone": "+998 78 120-49-00",
     "telegram": null,
     "website": null,
@@ -1745,20 +3020,51 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "20:00" },
-      { "day": "tue", "open": "10:00", "close": "20:00" },
-      { "day": "wed", "open": "10:00", "close": "20:00" },
-      { "day": "thu", "open": "10:00", "close": "20:00" },
-      { "day": "fri", "open": "10:00", "close": "20:00" },
-      { "day": "sat", "open": "10:00", "close": "20:00" },
-      { "day": "sun", "open": "10:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["parking", "cafe"],
+    "services": [
+      "parking",
+      "cafe"
+    ],
     "season": "summer",
     "poolLength": 25,
     "poolDepthMin": 1.5,
     "poolDepthMax": 1.5,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1785,7 +3091,10 @@
     },
     "category": "hotel",
     "district": "yunusabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3179973,
+      "lng": 69.282545
+    },
     "phone": "+998 78 120-37-00",
     "telegram": null,
     "website": null,
@@ -1797,15 +3106,46 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "10:00", "close": "21:00" },
-      { "day": "tue", "open": "10:00", "close": "21:00" },
-      { "day": "wed", "open": "10:00", "close": "21:00" },
-      { "day": "thu", "open": "10:00", "close": "21:00" },
-      { "day": "fri", "open": "10:00", "close": "21:00" },
-      { "day": "sat", "open": "10:00", "close": "21:00" },
-      { "day": "sun", "open": "10:00", "close": "21:00" }
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "21:00"
+      }
     ],
-    "services": ["parking", "cafe"],
+    "services": [
+      "parking",
+      "cafe"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
@@ -1837,7 +3177,10 @@
     },
     "category": "hotel",
     "district": "yashnabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.310654,
+      "lng": 69.286218
+    },
     "phone": "+998 78 120-66-00",
     "telegram": null,
     "website": null,
@@ -1847,20 +3190,51 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "00:00", "close": "00:00", "closed": true },
-      { "day": "tue", "open": "08:00", "close": "22:00" },
-      { "day": "wed", "open": "08:00", "close": "22:00" },
-      { "day": "thu", "open": "08:00", "close": "22:00" },
-      { "day": "fri", "open": "08:00", "close": "22:00" },
-      { "day": "sat", "open": "08:00", "close": "22:00" },
-      { "day": "sun", "open": "08:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["parking"],
+    "services": [
+      "parking"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.0,
+    "rating": 3,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1887,7 +3261,10 @@
     },
     "category": "hotel",
     "district": "mirobod",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3063508,
+      "lng": 69.2679686
+    },
     "phone": "+998 78 120-58-00",
     "telegram": null,
     "website": null,
@@ -1900,20 +3277,51 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "09:00", "close": "22:00" },
-      { "day": "tue", "open": "09:00", "close": "22:00" },
-      { "day": "wed", "open": "09:00", "close": "22:00" },
-      { "day": "thu", "open": "09:00", "close": "22:00" },
-      { "day": "fri", "open": "09:00", "close": "22:00" },
-      { "day": "sat", "open": "09:00", "close": "22:00" },
-      { "day": "sun", "open": "09:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "09:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["parking", "children_zone"],
+    "services": [
+      "parking",
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1940,7 +3348,10 @@
     },
     "category": "hotel",
     "district": "chilanzar",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2894928,
+      "lng": 69.2337076
+    },
     "phone": "+998 71 277-94-60",
     "telegram": null,
     "website": null,
@@ -1950,20 +3361,51 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "07:00", "close": "21:00" },
-      { "day": "tue", "open": "07:00", "close": "21:00" },
-      { "day": "wed", "open": "07:00", "close": "21:00" },
-      { "day": "thu", "open": "07:00", "close": "21:00" },
-      { "day": "fri", "open": "07:00", "close": "21:00" },
-      { "day": "sat", "open": "07:00", "close": "21:00" },
-      { "day": "sun", "open": "07:00", "close": "21:00" }
+      {
+        "day": "mon",
+        "open": "07:00",
+        "close": "21:00"
+      },
+      {
+        "day": "tue",
+        "open": "07:00",
+        "close": "21:00"
+      },
+      {
+        "day": "wed",
+        "open": "07:00",
+        "close": "21:00"
+      },
+      {
+        "day": "thu",
+        "open": "07:00",
+        "close": "21:00"
+      },
+      {
+        "day": "fri",
+        "open": "07:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "07:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "07:00",
+        "close": "21:00"
+      }
     ],
-    "services": ["parking", "trainer"],
+    "services": [
+      "parking",
+      "trainer"
+    ],
     "season": "year-round",
     "poolLength": 50,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 3,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1990,7 +3432,10 @@
     },
     "category": "hotel",
     "district": "mirobod",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2871624,
+      "lng": 69.2682896
+    },
     "phone": "+998 78 140-20-00",
     "telegram": null,
     "website": null,
@@ -2001,12 +3446,15 @@
     ],
     "prices": [],
     "schedule": null,
-    "services": ["parking", "cafe"],
+    "services": [
+      "parking",
+      "cafe"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 2,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2033,7 +3481,10 @@
     },
     "category": "hotel",
     "district": null,
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.49646,
+      "lng": 69.617008
+    },
     "phone": "+998 94 942-28-35",
     "telegram": null,
     "website": null,
@@ -2044,15 +3495,48 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "00:00", "close": "24:00" },
-      { "day": "tue", "open": "00:00", "close": "24:00" },
-      { "day": "wed", "open": "00:00", "close": "24:00" },
-      { "day": "thu", "open": "00:00", "close": "24:00" },
-      { "day": "fri", "open": "00:00", "close": "24:00" },
-      { "day": "sat", "open": "00:00", "close": "24:00" },
-      { "day": "sun", "open": "00:00", "close": "24:00" }
+      {
+        "day": "mon",
+        "open": "00:00",
+        "close": "24:00"
+      },
+      {
+        "day": "tue",
+        "open": "00:00",
+        "close": "24:00"
+      },
+      {
+        "day": "wed",
+        "open": "00:00",
+        "close": "24:00"
+      },
+      {
+        "day": "thu",
+        "open": "00:00",
+        "close": "24:00"
+      },
+      {
+        "day": "fri",
+        "open": "00:00",
+        "close": "24:00"
+      },
+      {
+        "day": "sat",
+        "open": "00:00",
+        "close": "24:00"
+      },
+      {
+        "day": "sun",
+        "open": "00:00",
+        "close": "24:00"
+      }
     ],
-    "services": ["parking", "sauna", "cafe", "wifi"],
+    "services": [
+      "parking",
+      "sauna",
+      "cafe",
+      "wifi"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
@@ -2084,29 +3568,67 @@
     },
     "category": "children",
     "district": "mirobod",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2892294,
+      "lng": 69.2725254
+    },
     "phone": "+998 90 924-20-04",
     "telegram": null,
     "website": null,
     "gallery": [],
     "prices": [
-      { "key": "price.monthly", "amount": 500000, "currency": "UZS" }
+      {
+        "key": "price.monthly",
+        "amount": 500000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "08:00", "close": "20:00" },
-      { "day": "tue", "open": "08:00", "close": "20:00" },
-      { "day": "wed", "open": "08:00", "close": "20:00" },
-      { "day": "thu", "open": "08:00", "close": "20:00" },
-      { "day": "fri", "open": "08:00", "close": "20:00" },
-      { "day": "sat", "open": "08:00", "close": "20:00" },
-      { "day": "sun", "open": "08:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["trainer", "children_zone"],
+    "services": [
+      "trainer",
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -2133,7 +3655,10 @@
     },
     "category": "children",
     "district": "shayhontohur",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3195919,
+      "lng": 69.2402575
+    },
     "phone": "+998 78 113-00-13",
     "telegram": null,
     "website": null,
@@ -2142,19 +3667,59 @@
       "/images/pools/studio13/2.jpg"
     ],
     "prices": [
-      { "key": "price.monthly", "amount": 500000, "currency": "UZS" },
-      { "key": "price.group", "amount": 150000, "currency": "UZS" }
+      {
+        "key": "price.monthly",
+        "amount": 500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.group",
+        "amount": 150000,
+        "currency": "UZS"
+      }
     ],
     "schedule": [
-      { "day": "mon", "open": "08:00", "close": "20:00" },
-      { "day": "tue", "open": "08:00", "close": "20:00" },
-      { "day": "wed", "open": "08:00", "close": "20:00" },
-      { "day": "thu", "open": "08:00", "close": "20:00" },
-      { "day": "fri", "open": "08:00", "close": "20:00" },
-      { "day": "sat", "open": "08:00", "close": "20:00" },
-      { "day": "sun", "open": "00:00", "close": "00:00", "closed": true }
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "00:00",
+        "close": "00:00",
+        "closed": true
+      }
     ],
-    "services": ["trainer", "children_zone"],
+    "services": [
+      "trainer",
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
@@ -2186,7 +3751,10 @@
     },
     "category": "indoor",
     "district": "chilanzar",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2594069,
+      "lng": 69.1625937
+    },
     "phone": "+998 95 144-66-11",
     "telegram": null,
     "website": null,
@@ -2198,11 +3766,21 @@
       "/images/pools/dubai-spa/5.jpg"
     ],
     "prices": [
-      { "key": "price.adult_single", "amount": 150000, "currency": "UZS" },
-      { "key": "price.monthly", "amount": 700000, "currency": "UZS" }
+      {
+        "key": "price.adult_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly",
+        "amount": 700000,
+        "currency": "UZS"
+      }
     ],
     "schedule": null,
-    "services": ["trainer"],
+    "services": [
+      "trainer"
+    ],
     "season": "year-round",
     "poolLength": 20,
     "poolDepthMin": null,
@@ -2234,7 +3812,10 @@
     },
     "category": "indoor",
     "district": "chilanzar",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.2644985,
+      "lng": 69.1667914
+    },
     "phone": "+998 71 207-71-71",
     "telegram": null,
     "website": null,
@@ -2243,7 +3824,13 @@
     ],
     "prices": [],
     "schedule": null,
-    "services": ["trainer", "spa", "sauna", "cafe", "children_zone"],
+    "services": [
+      "trainer",
+      "spa",
+      "sauna",
+      "cafe",
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
@@ -2275,27 +3862,60 @@
     },
     "category": "indoor",
     "district": "shayhontohur",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3195919,
+      "lng": 69.2402575
+    },
     "phone": null,
     "telegram": null,
     "website": null,
     "gallery": [],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "08:00", "close": "20:00" },
-      { "day": "tue", "open": "08:00", "close": "20:00" },
-      { "day": "wed", "open": "08:00", "close": "20:00" },
-      { "day": "thu", "open": "08:00", "close": "20:00" },
-      { "day": "fri", "open": "08:00", "close": "20:00" },
-      { "day": "sat", "open": "08:00", "close": "20:00" },
-      { "day": "sun", "open": "08:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["children_zone"],
+    "services": [
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -2322,7 +3942,10 @@
     },
     "category": "indoor",
     "district": "mirzo-ulugbek",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3348663,
+      "lng": 69.3451844
+    },
     "phone": "+998 71 113-17-71",
     "telegram": null,
     "website": null,
@@ -2333,20 +3956,51 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "07:00", "close": "23:00" },
-      { "day": "tue", "open": "07:00", "close": "23:00" },
-      { "day": "wed", "open": "07:00", "close": "23:00" },
-      { "day": "thu", "open": "07:00", "close": "23:00" },
-      { "day": "fri", "open": "07:00", "close": "23:00" },
-      { "day": "sat", "open": "07:00", "close": "23:00" },
-      { "day": "sun", "open": "07:00", "close": "23:00" }
+      {
+        "day": "mon",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "07:00",
+        "close": "23:00"
+      }
     ],
-    "services": ["trainer", "children_zone"],
+    "services": [
+      "trainer",
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -2373,19 +4027,26 @@
     },
     "category": "indoor",
     "district": "mirzo-ulugbek",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.323009,
+      "lng": 69.3227622
+    },
     "phone": "+998 71 262-25-55",
     "telegram": null,
     "website": null,
     "gallery": [],
     "prices": [],
     "schedule": null,
-    "services": ["trainer", "parking", "children_zone"],
+    "services": [
+      "trainer",
+      "parking",
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 7,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -2412,7 +4073,10 @@
     },
     "category": "indoor",
     "district": "yunusabad",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.347526,
+      "lng": 69.284958
+    },
     "phone": "+998 71 234-32-85",
     "telegram": null,
     "website": null,
@@ -2421,12 +4085,14 @@
     ],
     "prices": [],
     "schedule": null,
-    "services": ["children_zone"],
+    "services": [
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 10,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -2453,7 +4119,10 @@
     },
     "category": "sport",
     "district": "mirobod",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3011098,
+      "lng": 69.2844876
+    },
     "phone": null,
     "telegram": null,
     "website": null,
@@ -2464,20 +4133,52 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "09:00", "close": "22:00" },
-      { "day": "tue", "open": "09:00", "close": "22:00" },
-      { "day": "wed", "open": "09:00", "close": "22:00" },
-      { "day": "thu", "open": "09:00", "close": "22:00" },
-      { "day": "fri", "open": "09:00", "close": "22:00" },
-      { "day": "sat", "open": "09:00", "close": "22:00" },
-      { "day": "sun", "open": "09:00", "close": "22:00" }
+      {
+        "day": "mon",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "09:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "09:00",
+        "close": "22:00"
+      }
     ],
-    "services": ["jacuzzi", "parking", "children_zone"],
+    "services": [
+      "jacuzzi",
+      "parking",
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": 19,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.0,
+    "rating": 3,
     "reviewCount": 13,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -2504,7 +4205,10 @@
     },
     "category": "sport",
     "district": "shayhontohur",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3316088,
+      "lng": 69.2197183
+    },
     "phone": null,
     "telegram": null,
     "website": null,
@@ -2513,19 +4217,51 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "07:00", "close": "20:00" },
-      { "day": "tue", "open": "07:00", "close": "20:00" },
-      { "day": "wed", "open": "07:00", "close": "20:00" },
-      { "day": "thu", "open": "07:00", "close": "20:00" },
-      { "day": "fri", "open": "07:00", "close": "20:00" },
-      { "day": "sat", "open": "07:00", "close": "20:00" },
-      { "day": "sun", "open": "07:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "07:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["trainer", "parking", "children_zone"],
+    "services": [
+      "trainer",
+      "parking",
+      "children_zone"
+    ],
     "season": "year-round",
     "poolLength": 50,
-    "poolDepthMin": 2.0,
-    "poolDepthMax": 6.0,
+    "poolDepthMin": 2,
+    "poolDepthMax": 6,
     "rating": 3.5,
     "reviewCount": 7,
     "featured": false,
@@ -2553,7 +4289,10 @@
     },
     "category": "sport",
     "district": "mirzo-ulugbek",
-    "coordinates": { "lat": null, "lng": null },
+    "coordinates": {
+      "lat": 41.3259863,
+      "lng": 69.2976342
+    },
     "phone": "+998 71 268-98-10",
     "telegram": null,
     "website": null,
@@ -2566,15 +4305,46 @@
     ],
     "prices": [],
     "schedule": [
-      { "day": "mon", "open": "07:00", "close": "20:00" },
-      { "day": "tue", "open": "07:00", "close": "20:00" },
-      { "day": "wed", "open": "07:00", "close": "20:00" },
-      { "day": "thu", "open": "07:00", "close": "20:00" },
-      { "day": "fri", "open": "07:00", "close": "20:00" },
-      { "day": "sat", "open": "07:00", "close": "20:00" },
-      { "day": "sun", "open": "07:00", "close": "20:00" }
+      {
+        "day": "mon",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "07:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "07:00",
+        "close": "20:00"
+      }
     ],
-    "services": ["trainer", "children_zone"],
+    "services": [
+      "trainer",
+      "children_zone"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
