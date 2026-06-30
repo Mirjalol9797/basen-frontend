@@ -1710,5 +1710,356 @@
     "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "radisson",
+    "slug": "radisson",
+    "translations": {
+      "ru": {
+        "name": "Aqua Bar при отеле Radisson",
+        "address": "ул. Амира Темура, 88, Юнусабадский район, Ташкент",
+        "description": "Открытый бассейн при отеле Radisson с баром и живой музыкой. Сезон работы — с мая."
+      },
+      "uz": {
+        "name": "Radisson mehmonxonasidagi Aqua Bar",
+        "address": "Amir Temur ko'chasi, 88, Yunusobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Aqua Bar at Radisson Hotel",
+        "address": "Amir Temur str., 88, Yunusabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": "yunusabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 78 120-49-00",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/radisson/1.jpg",
+      "/images/pools/radisson/2.jpg",
+      "/images/pools/radisson/3.jpg",
+      "/images/pools/radisson/4.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": ["parking", "cafe"],
+    "season": "summer",
+    "poolLength": 25,
+    "poolDepthMin": 1.5,
+    "poolDepthMax": 1.5,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "garden-bar",
+    "slug": "garden-bar",
+    "translations": {
+      "ru": {
+        "name": "Garden Bar Pool при отеле Wyndham",
+        "address": "ул. Амира Темура, Ц-4, Юнусабадский район, Ташкент",
+        "description": "Открытый бассейн при отеле Wyndham с форматом All Inclusive: еда à la carte, напитки, живая музыка, пляжный волейбол и развлекательная программа. Работает с июня по август."
+      },
+      "uz": {
+        "name": "Wyndham mehmonxonasidagi Garden Bar Pool",
+        "address": "Amir Temur ko'chasi, C-4, Yunusobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Garden Bar Pool at Wyndham Hotel",
+        "address": "Amir Temur str., C-4, Yunusabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": "yunusabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 78 120-37-00",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/garden-bar/1.jpg",
+      "/images/pools/garden-bar/2.jpg",
+      "/images/pools/garden-bar/3.jpg",
+      "/images/pools/garden-bar/4.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:00" },
+      { "day": "tue", "open": "10:00", "close": "21:00" },
+      { "day": "wed", "open": "10:00", "close": "21:00" },
+      { "day": "thu", "open": "10:00", "close": "21:00" },
+      { "day": "fri", "open": "10:00", "close": "21:00" },
+      { "day": "sat", "open": "10:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "21:00" }
+    ],
+    "services": ["parking", "cafe"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.5,
+    "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "le-grand-de-plaza",
+    "slug": "le-grand-de-plaza",
+    "translations": {
+      "ru": {
+        "name": "Le Grand De Plaza",
+        "address": "ул. Узбекистон овози, 2, Яшнободский район, Ташкент",
+        "description": "Бассейн при гостиничном комплексе Le Grand De Plaza с парковкой. Удобное расположение рядом с отелем Узбекистан. Выходной — понедельник."
+      },
+      "uz": {
+        "name": "Le Grand De Plaza",
+        "address": "O'zbekiston ovozi ko'chasi, 2, Yashnobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Le Grand De Plaza",
+        "address": "Uzbekiston ovozi str., 2, Yashnabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": "yashnabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 78 120-66-00",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/le-grand-de-plaza/1.jpg",
+      "/images/pools/le-grand-de-plaza/2.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "00:00", "close": "00:00", "closed": true },
+      { "day": "tue", "open": "08:00", "close": "22:00" },
+      { "day": "wed", "open": "08:00", "close": "22:00" },
+      { "day": "thu", "open": "08:00", "close": "22:00" },
+      { "day": "fri", "open": "08:00", "close": "22:00" },
+      { "day": "sat", "open": "08:00", "close": "22:00" },
+      { "day": "sun", "open": "08:00", "close": "22:00" }
+    ],
+    "services": ["parking"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.0,
+    "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "tashkent-palace",
+    "slug": "tashkent-palace",
+    "translations": {
+      "ru": {
+        "name": "Lotte City Hotel Tashkent Palace",
+        "address": "ул. Буюк Турон, 56, Мирабадский район, Ташкент",
+        "description": "Бассейн при отеле Lotte City Hotel Tashkent Palace с детской зоной и парковкой."
+      },
+      "uz": {
+        "name": "Lotte City Hotel Tashkent Palace",
+        "address": "Buyuk Turon ko'chasi, 56, Mirobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Lotte City Hotel Tashkent Palace",
+        "address": "Buyuk Turon str., 56, Mirobad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": "mirobod",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 78 120-58-00",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/tashkent-palace/1.jpg",
+      "/images/pools/tashkent-palace/2.jpg",
+      "/images/pools/tashkent-palace/3.jpg",
+      "/images/pools/tashkent-palace/4.jpg",
+      "/images/pools/tashkent-palace/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "22:00" },
+      { "day": "tue", "open": "09:00", "close": "22:00" },
+      { "day": "wed", "open": "09:00", "close": "22:00" },
+      { "day": "thu", "open": "09:00", "close": "22:00" },
+      { "day": "fri", "open": "09:00", "close": "22:00" },
+      { "day": "sat", "open": "09:00", "close": "22:00" },
+      { "day": "sun", "open": "09:00", "close": "22:00" }
+    ],
+    "services": ["parking", "children_zone"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "mekhnat",
+    "slug": "mekhnat",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Мехнат",
+        "address": "ул. Чиланзар, 15Б, Чиланзарский район, Ташкент",
+        "description": "Крытый 50-метровый бассейн в гостинице Мехнат. Температура воды 26°C. Размер 50×21м. Есть тренер."
+      },
+      "uz": {
+        "name": "Mehnat hovuzi",
+        "address": "Chilonzor ko'chasi, 15B, Chilonzor tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Mekhnat Swimming Pool",
+        "address": "Chilanzar str., 15B, Chilanzar district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": "chilanzar",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 277-94-60",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/mekhnat/1.jpg",
+      "/images/pools/mekhnat/2.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "21:00" },
+      { "day": "tue", "open": "07:00", "close": "21:00" },
+      { "day": "wed", "open": "07:00", "close": "21:00" },
+      { "day": "thu", "open": "07:00", "close": "21:00" },
+      { "day": "fri", "open": "07:00", "close": "21:00" },
+      { "day": "sat", "open": "07:00", "close": "21:00" },
+      { "day": "sun", "open": "07:00", "close": "21:00" }
+    ],
+    "services": ["parking", "trainer"],
+    "season": "year-round",
+    "poolLength": 50,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 3,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "villa-grand",
+    "slug": "villa-grand",
+    "translations": {
+      "ru": {
+        "name": "Villa Grand при отеле Grand Mir",
+        "address": "ул. Мирабад, 2, Мирабадский район, Ташкент",
+        "description": "Открытый бассейн при отеле Grand Mir с кафе и парковкой."
+      },
+      "uz": {
+        "name": "Grand Mir mehmonxonasidagi Villa Grand",
+        "address": "Mirobod ko'chasi, 2, Mirobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Villa Grand at Grand Mir Hotel",
+        "address": "Mirobad str., 2, Mirobad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": "mirobod",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 78 140-20-00",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/villa-grand/1.jpg",
+      "/images/pools/villa-grand/2.jpg",
+      "/images/pools/villa-grand/3.jpg"
+    ],
+    "prices": [],
+    "schedule": null,
+    "services": ["parking", "cafe"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 2,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "zerom",
+    "slug": "zerom",
+    "translations": {
+      "ru": {
+        "name": "Zerom",
+        "address": "ул. Набережная, Д-30-36, Чирчик",
+        "description": "Гостиница и зона отдыха в Чирчике с открытым и крытым бассейнами, сауной, кафе, бильярдом и Wi-Fi. Работает круглосуточно."
+      },
+      "uz": {
+        "name": "Zerom",
+        "address": "Naberezhnaya ko'chasi, D-30-36, Chirchiq",
+        "description": null
+      },
+      "en": {
+        "name": "Zerom",
+        "address": "Naberezhnaya str., D-30-36, Chirchiq",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 94 942-28-35",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/zerom/1.jpg",
+      "/images/pools/zerom/2.jpg",
+      "/images/pools/zerom/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "00:00", "close": "24:00" },
+      { "day": "tue", "open": "00:00", "close": "24:00" },
+      { "day": "wed", "open": "00:00", "close": "24:00" },
+      { "day": "thu", "open": "00:00", "close": "24:00" },
+      { "day": "fri", "open": "00:00", "close": "24:00" },
+      { "day": "sat", "open": "00:00", "close": "24:00" },
+      { "day": "sun", "open": "00:00", "close": "24:00" }
+    ],
+    "services": ["parking", "sauna", "cafe", "wifi"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00Z"
   }
 ]
