@@ -5,7 +5,8 @@
     "map": "Xarita",
     "search": "Qidirish",
     "about": "Loyiha haqida",
-    "faq": "Savollar"
+    "faq": "Savollar",
+    "contacts": "Aloqa"
   },
   "category": {
     "open": "Ochiq",
@@ -188,5 +189,16 @@
     "a5": "Toshkentdagi ochiq basseynlar odatda may oyidan sentyabr oyigacha ishlaydi. Yopiq basseynlar va akvapark yil bo'yi ishlaydi.",
     "q6": "Saytga o'z basseynimni qanday qo'shaman?",
     "a6": "Bizga Telegramda yozing — ma'lumotni tekshirib, basseynni katalogga bepul qo'shamiz."
+  },
+  "contacts": {
+    "title": "Aloqa",
+    "subtitle": "Biz bilan bog'laning",
+    "meta_title": "Aloqa | Basen.uz",
+    "meta_desc": "Basen.uz jamoasi bilan bog'laning. Savol va takliflar uchun telefon va Telegram.",
+    "phone_label": "Telefon",
+    "telegram_label": "Telegram",
+    "desc": "Savollaringiz bo'lsa yoki katalogga basseyn qo'shmoqchi bo'lsangiz — yozing. Tez javob beramiz.",
+    "owners_title": "Basseyn egalari uchun",
+    "owners_text": "Basseyngizni katalogga bepul qo'shamiz. Rasm, narxlar, jadval — hammasini o'zimiz rasmiylashtiramiz."
   }
 }

@@ -5,7 +5,8 @@
     "map": "Map",
     "search": "Search",
     "about": "About",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "contacts": "Contacts"
   },
   "category": {
     "open": "Open-air",
@@ -188,5 +189,16 @@
     "a5": "Outdoor pools in Tashkent operate seasonally — typically from May through September. Indoor pools and aquaparks are open year-round.",
     "q6": "How do I add my pool to the site?",
     "a6": "Message us on Telegram — we'll verify the information and add your pool to the catalog for free."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Get in touch",
+    "meta_title": "Contacts | Basen.uz",
+    "meta_desc": "Contact the Basen.uz team. Phone and Telegram for questions and suggestions.",
+    "phone_label": "Phone",
+    "telegram_label": "Telegram",
+    "desc": "Have a question, suggestion, or want to add your pool to the catalog? Write to us — we respond quickly.",
+    "owners_title": "Pool owners",
+    "owners_text": "We will add your pool to the catalog for free. Photos, prices, schedule — we handle everything."
   }
 }

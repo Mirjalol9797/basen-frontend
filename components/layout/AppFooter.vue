@@ -109,8 +109,9 @@ const switchLocalePath = useSwitchLocalePath();
 const currentYear = new Date().getFullYear();
 
 const footerLinks = [
-  { key: "catalog", to: "/catalog", label: "nav.catalog" },
-  { key: "map", to: "/map", label: "nav.map" },
+  { key: "catalog",  to: "/catalog",   label: "nav.catalog" },
+  { key: "map",      to: "/map",       label: "nav.map" },
+  { key: "contacts", to: "/contacts",  label: "nav.contacts" },
 ];
 
 const availableLocales = computed(
