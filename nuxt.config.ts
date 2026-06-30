@@ -58,11 +58,24 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    "/": { prerender: true },
-    "/catalog": { prerender: true },
+    "/":           { prerender: true },
+    "/catalog":    { prerender: true },
     "/catalog/**": { prerender: true },
-    "/category/**": { prerender: true },
-    "/map": { ssr: true },
+    "/category/**":{ prerender: true },
+    "/map":        { ssr: true },
+  },
+
+  sitemap: {
+    urls: [
+      { loc: '/',         priority: 1.0, changefreq: 'weekly'  },
+      { loc: '/catalog',  priority: 0.9, changefreq: 'daily'   },
+      { loc: '/map',      priority: 0.7, changefreq: 'weekly'  },
+      { loc: '/about',    priority: 0.6, changefreq: 'monthly' },
+      { loc: '/faq',      priority: 0.6, changefreq: 'monthly' },
+      { loc: '/contacts', priority: 0.4, changefreq: 'yearly'  },
+      { loc: '/privacy',  priority: 0.3, changefreq: 'yearly'  },
+      { loc: '/terms',    priority: 0.3, changefreq: 'yearly'  },
+    ],
   },
 
   site: {
