@@ -12,7 +12,7 @@ export const useFilters = () => {
 
   return {
     filters: filtersStore.active,
-    hasActiveFilters: filtersStore.hasActiveFilters,
+    hasActiveFilters: computed(() => filtersStore.hasActiveFilters),
     toggleCategory,
     reset: filtersStore.reset,
   }

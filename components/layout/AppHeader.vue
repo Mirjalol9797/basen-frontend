@@ -62,7 +62,7 @@
       </div>
     </div>
 
-    <!-- Mobile menu -->
+    <!-- Mobile menu overlay (absolute, does not push content) -->
     <Transition
       enter-active-class="transition duration-150 ease-out"
       enter-from-class="opacity-0 -translate-y-2"
@@ -71,7 +71,7 @@
       leave-from-class="opacity-100 translate-y-0"
       leave-to-class="opacity-0 -translate-y-2"
     >
-      <div v-if="mobileOpen" class="md:hidden border-t border-gray-100 bg-white">
+      <div v-if="mobileOpen" class="md:hidden absolute top-full left-0 right-0 border-t border-gray-100 bg-white shadow-lg z-50">
         <div class="container py-3 flex flex-col gap-1">
           <NuxtLink
             v-for="link in navLinks"

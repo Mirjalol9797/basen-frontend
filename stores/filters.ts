@@ -14,7 +14,7 @@ export const useFiltersStore = defineStore('filters', () => {
   )
 
   function reset() {
-    active.value = defaultFilters()
+    Object.assign(active.value, defaultFilters())
   }
 
   return { active, hasActiveFilters, reset }
