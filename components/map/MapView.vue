@@ -71,8 +71,8 @@ onMounted(async () => {
   const L = (await import('leaflet')).default
 
   map = L.map(mapEl.value, {
-    center: [41.2995, 69.2401],
-    zoom: 12,
+    center: [41.3, 63.9],
+    zoom: 6,
     zoomControl: false,
   })
 

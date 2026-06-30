@@ -35,18 +35,72 @@
 
       <!-- Content -->
       <div class="container py-8">
+
+        <!-- Filters -->
+        <div v-if="pools.length > 0" class="bg-white rounded-2xl shadow-card p-4 mb-6 space-y-4">
+          <!-- Categories -->
+          <div>
+            <p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
+              {{ $t('filter.type') }}
+            </p>
+            <div class="flex flex-wrap gap-1.5">
+              <button
+                v-for="cat in CATEGORIES"
+                :key="cat"
+                type="button"
+                class="px-3 py-1.5 rounded-xl border text-sm font-medium transition-all duration-150"
+                :class="selectedCategories.includes(cat)
+                  ? 'bg-primary-500 text-white border-primary-500'
+                  : 'bg-white text-gray-600 border-gray-200 hover:border-primary-300 hover:text-primary-600'"
+                @click="toggleCategory(cat)"
+              >
+                {{ $t(`category.${cat}`) }}
+              </button>
+            </div>
+          </div>
+
+          <!-- Season + Reset -->
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <div class="flex gap-2">
+              <button
+                v-for="s in SEASONS"
+                :key="s.value"
+                type="button"
+                class="px-3 py-1.5 rounded-xl border text-sm font-medium transition-all duration-150"
+                :class="selectedSeason === s.value
+                  ? 'bg-primary-500 text-white border-primary-500'
+                  : 'bg-white text-gray-600 border-gray-200 hover:border-primary-300 hover:text-primary-600'"
+                @click="toggleSeason(s.value)"
+              >
+                {{ s.label }}
+              </button>
+            </div>
+            <button
+              v-if="hasActiveFilters"
+              type="button"
+              class="text-sm text-red-500 hover:text-red-600 font-medium"
+              @click="resetFilters"
+            >
+              {{ $t('filter.reset') }}
+            </button>
+          </div>
+        </div>
+
         <!-- Empty state -->
-        <div v-if="pools.length === 0" class="text-center py-16">
+        <div v-if="filteredPools.length === 0" class="text-center py-16">
           <p class="text-4xl mb-4">🏊</p>
           <p class="text-gray-500 mb-4">{{ $t('common.no_results') }}</p>
-          <NuxtLink :to="localePath('/catalog')" class="text-primary-600 hover:text-primary-700 font-medium">
+          <button v-if="hasActiveFilters" class="text-primary-600 hover:text-primary-700 font-medium" @click="resetFilters">
+            {{ $t('common.reset_filters') }}
+          </button>
+          <NuxtLink v-else :to="localePath('/catalog')" class="text-primary-600 hover:text-primary-700 font-medium">
             {{ $t('region.see_catalog') }}
           </NuxtLink>
         </div>
 
         <!-- Pool grid -->
         <div v-else class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-          <PoolCard v-for="pool in pools" :key="pool.id" :pool="pool" />
+          <PoolCard v-for="pool in filteredPools" :key="pool.id" :pool="pool" />
         </div>
 
         <!-- Other regions -->
@@ -69,6 +123,8 @@
 </template>
 
 <script setup lang="ts">
+import type { PoolCategory } from '~/types/pool'
+
 const route = useRoute()
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
@@ -91,6 +147,44 @@ const pools = computed(() =>
 const otherRegions = computed(() =>
   regions.value.filter(r => r.id !== slug)
 )
+
+// Local filters
+const CATEGORIES: PoolCategory[] = ['open', 'indoor', 'children', 'sport', 'hotel', 'aquapark']
+const SEASONS = computed(() => [
+  { value: 'summer',     label: t('filter.season_summer') },
+  { value: 'year-round', label: t('filter.season_yearround') },
+])
+
+const selectedCategories = ref<PoolCategory[]>([])
+const selectedSeason = ref<string | null>(null)
+
+const hasActiveFilters = computed(() =>
+  selectedCategories.value.length > 0 || selectedSeason.value !== null
+)
+
+function toggleCategory(cat: PoolCategory) {
+  const idx = selectedCategories.value.indexOf(cat)
+  if (idx > -1) selectedCategories.value.splice(idx, 1)
+  else selectedCategories.value.push(cat)
+}
+
+function toggleSeason(val: string) {
+  selectedSeason.value = selectedSeason.value === val ? null : val
+}
+
+function resetFilters() {
+  selectedCategories.value = []
+  selectedSeason.value = null
+}
+
+const filteredPools = computed(() => {
+  let result = pools.value
+  if (selectedCategories.value.length > 0)
+    result = result.filter(p => selectedCategories.value.includes(p.category))
+  if (selectedSeason.value)
+    result = result.filter(p => p.season === selectedSeason.value)
+  return result
+})
 
 watchEffect(() => {
   if (!region.value) return

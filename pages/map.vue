@@ -95,8 +95,8 @@ const onPoolSelectMobile = (pool: Pool) => {
 }
 
 usePageSeo({
-  title: t('nav.map') + ' — бассейны Ташкента | Basen.uz',
-  description: 'Все бассейны Ташкента на интерактивной карте. Найдите ближайший бассейн по расположению.',
+  title: t('nav.map') + ' — бассейны Узбекистана | Basen.uz',
+  description: 'Все бассейны Узбекистана на интерактивной карте. Найдите ближайший бассейн по расположению.',
   canonical: '/map',
 })
 </script>
