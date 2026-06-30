@@ -2430,5 +2430,158 @@
     "reviewCount": 10,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "chekhov",
+    "slug": "chekhov",
+    "translations": {
+      "ru": {
+        "name": "Chekhov Sport Club",
+        "address": "ул. Чехова, 40/1, Мирабадский район, Ташкент",
+        "description": "Спортивный клуб с бассейном 19×9 м, детским бассейном 5×5 м и джакузи. Клубная система с ограниченным числом абонементов."
+      },
+      "uz": {
+        "name": "Chekhov Sport Club",
+        "address": "Chexov ko'chasi, 40/1, Mirobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Chekhov Sport Club",
+        "address": "40/1 Chekhov str., Mirobod district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": "mirobod",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": null,
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/chekhov/1.jpg",
+      "/images/pools/chekhov/2.jpg",
+      "/images/pools/chekhov/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "22:00" },
+      { "day": "tue", "open": "09:00", "close": "22:00" },
+      { "day": "wed", "open": "09:00", "close": "22:00" },
+      { "day": "thu", "open": "09:00", "close": "22:00" },
+      { "day": "fri", "open": "09:00", "close": "22:00" },
+      { "day": "sat", "open": "09:00", "close": "22:00" },
+      { "day": "sun", "open": "09:00", "close": "22:00" }
+    ],
+    "services": ["jacuzzi", "parking", "children_zone"],
+    "season": "year-round",
+    "poolLength": 19,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.0,
+    "reviewCount": 13,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "jar",
+    "slug": "jar",
+    "translations": {
+      "ru": {
+        "name": "JAR — спортивно-оздоровительный комплекс",
+        "address": "ул. Беруни, 3, Шайхонтохурский район, Ташкент",
+        "description": "Спортивно-оздоровительный комплекс с тремя бассейнами: летний 50×22.5 м (глубина 2–6 м) и два крытых зимних. Секция оздоровительного плавания для детей с 6 лет."
+      },
+      "uz": {
+        "name": "JAR — sport-sog'lomlashtirish majmuasi",
+        "address": "Beruniy ko'chasi, 3, Shayxontohur tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "JAR — Sports and Wellness Complex",
+        "address": "3 Beruniy str., Shaykhantakhur district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": "shayhontohur",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": null,
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/jar/1.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "20:00" },
+      { "day": "tue", "open": "07:00", "close": "20:00" },
+      { "day": "wed", "open": "07:00", "close": "20:00" },
+      { "day": "thu", "open": "07:00", "close": "20:00" },
+      { "day": "fri", "open": "07:00", "close": "20:00" },
+      { "day": "sat", "open": "07:00", "close": "20:00" },
+      { "day": "sun", "open": "07:00", "close": "20:00" }
+    ],
+    "services": ["trainer", "parking", "children_zone"],
+    "season": "year-round",
+    "poolLength": 50,
+    "poolDepthMin": 2.0,
+    "poolDepthMax": 6.0,
+    "rating": 3.5,
+    "reviewCount": 7,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "yoshlik",
+    "slug": "yoshlik",
+    "translations": {
+      "ru": {
+        "name": "Yoshlik — спортивно-оздоровительный комплекс",
+        "address": "ул. Оккургон, 16, Мирзо-Улугбекский район, Ташкент",
+        "description": "Спортивно-оздоровительный комплекс с открытым бассейном. Детский трёхуровневый бассейн для детей с грудного возраста до 7 лет, игровая площадка и мини-зоопарк."
+      },
+      "uz": {
+        "name": "Yoshlik — sport-sog'lomlashtirish majmuasi",
+        "address": "Oqqo'rg'on ko'chasi, 16, Mirzo Ulug'bek tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Yoshlik — Sports and Wellness Complex",
+        "address": "16 Okkurgon str., Mirzo-Ulugbek district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": "mirzo-ulugbek",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 268-98-10",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/yoshlik/1.jpg",
+      "/images/pools/yoshlik/2.jpg",
+      "/images/pools/yoshlik/3.jpg",
+      "/images/pools/yoshlik/4.jpg",
+      "/images/pools/yoshlik/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "20:00" },
+      { "day": "tue", "open": "07:00", "close": "20:00" },
+      { "day": "wed", "open": "07:00", "close": "20:00" },
+      { "day": "thu", "open": "07:00", "close": "20:00" },
+      { "day": "fri", "open": "07:00", "close": "20:00" },
+      { "day": "sat", "open": "07:00", "close": "20:00" },
+      { "day": "sun", "open": "07:00", "close": "20:00" }
+    ],
+    "services": ["trainer", "children_zone"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.5,
+    "reviewCount": 6,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
   }
 ]
