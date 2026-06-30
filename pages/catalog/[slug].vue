@@ -42,7 +42,12 @@
                   {{ $t(`pool.season_${pool.season === 'summer' ? 'summer' : 'yearround'}`) }}
                 </AppBadge>
               </div>
-              <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">{{ pool.name }}</h1>
+              <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-1">{{ pool.name }}</h1>
+              <p class="text-sm text-gray-400 mb-3">
+                <NuxtLink :to="localePath(`/district/${pool.district}`)" class="hover:text-primary-600 transition-colors">
+                  {{ districtName }}
+                </NuxtLink>
+              </p>
               <div class="flex items-center gap-4 flex-wrap">
                 <AppRating :rating="pool.rating" :count="pool.reviewCount" size="md" />
                 <PoolStatusBadge :schedule="pool.schedule" />
@@ -186,8 +191,10 @@ const localePath = useLocalePath()
 
 const slug = route.params.slug as string
 const { pool, similar } = usePool(slug)
+const { getDistrictName } = useDistricts()
 
 const todayEntry = computed(() => pool.value ? getTodayEntry(pool.value.schedule) : null)
+const districtName = computed(() => pool.value ? getDistrictName(pool.value.district) : '')
 
 watchEffect(() => {
   if (pool.value) {

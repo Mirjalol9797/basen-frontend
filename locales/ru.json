@@ -22,7 +22,25 @@
     "children_plural": "Детские",
     "sport_plural": "Спортивные",
     "hotel_plural": "При отелях",
-    "aquapark_plural": "Аквапарки"
+    "aquapark_plural": "Аквапарки",
+    "page_h1": "{name} Ташкента",
+    "page_meta_title": "{name} Ташкента — {count} объектов | Basen.uz",
+    "page_meta_desc": "{name} Ташкента: актуальные цены и расписание. {count} бассейнов.",
+    "page_found": "{count} объектов",
+    "page_not_found": "Категория не найдена",
+    "page_not_found_desc": "Попробуйте другую категорию или откройте полный каталог"
+  },
+  "district": {
+    "meta_title": "Бассейны {name} Ташкента — цены 2026 | Basen.uz",
+    "meta_desc": "{count} бассейнов в {name} Ташкента. Цены, расписание, фото.",
+    "hero_title": "Бассейны {name} Ташкента",
+    "hero_subtitle": "цены 2026 · расписание · фото",
+    "found": "{count} бассейнов",
+    "not_found": "Район не найден",
+    "not_found_desc": "Проверьте адрес или откройте полный каталог",
+    "see_catalog": "Открыть каталог",
+    "districts_title": "Районы Ташкента",
+    "other_pools": "Бассейны в других районах"
   },
   "price": {
     "adult_single": "Взрослый разовый",

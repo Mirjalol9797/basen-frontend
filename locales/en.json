@@ -22,7 +22,25 @@
     "children_plural": "Children's Pools",
     "sport_plural": "Sport Pools",
     "hotel_plural": "Hotel Pools",
-    "aquapark_plural": "Aquaparks"
+    "aquapark_plural": "Aquaparks",
+    "page_h1": "{name} in Tashkent",
+    "page_meta_title": "{name} in Tashkent — {count} venues | Basen.uz",
+    "page_meta_desc": "{name} in Tashkent: prices, schedule and photos. {count} pools.",
+    "page_found": "{count} venues",
+    "page_not_found": "Category not found",
+    "page_not_found_desc": "Try another category or open the full catalog"
+  },
+  "district": {
+    "meta_title": "{name} District Pools in Tashkent — 2026 Prices | Basen.uz",
+    "meta_desc": "{count} pools in {name} district, Tashkent. Prices, schedule, photos.",
+    "hero_title": "{name} District Pools",
+    "hero_subtitle": "2026 prices · schedule · photos",
+    "found": "{count} pools found",
+    "not_found": "District not found",
+    "not_found_desc": "Try another district or open the full catalog",
+    "see_catalog": "Open catalog",
+    "districts_title": "Tashkent Districts",
+    "other_pools": "Pools in other districts"
   },
   "price": {
     "adult_single": "Adult (single visit)",

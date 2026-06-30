@@ -1,6 +1,13 @@
 import type { Pool, ScheduleDay } from '~/types/pool'
+import districtData from '~/data/districts.json'
 
 const BASE_URL = 'https://basen.uz'
+
+function getDistrictName(districtId: string, locale: string): string {
+  const entry = (districtData as { id: string; translations: Record<string, string> }[])
+    .find(d => d.id === districtId)
+  return entry?.translations[locale] ?? districtId
+}
 
 const DAY_MAP: Record<ScheduleDay['day'], string> = {
   mon: 'Mo', tue: 'Tu', wed: 'We', thu: 'Th', fri: 'Fr', sat: 'Sa', sun: 'Su',
@@ -13,11 +20,13 @@ function buildOpeningHours(schedule: ScheduleDay[]): string[] {
 }
 
 export const usePoolSeo = (pool: Pool) => {
+  const { locale } = useI18n()
   const price = minPrice(pool.prices)
+  const districtName = getDistrictName(pool.district, locale.value)
 
   useSeoMeta({
-    title: `${pool.name} — цены, расписание, фото | Basen.uz`,
-    description: `${pool.name} в Ташкенте. Цены от ${formatPrice(price)}. Расписание, фото, адрес и контакты.`,
+    title: `${pool.name} — цены 2026, расписание, фото | Basen.uz`,
+    description: `${pool.name} — район ${districtName}, Ташкент. Цены от ${formatPrice(price)}. Расписание, фото, адрес и контакты.`,
     ogTitle: `${pool.name} | Basen.uz`,
     ogDescription: `${pool.name} в Ташкенте. Цены от ${formatPrice(price)}.`,
     ogImage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,

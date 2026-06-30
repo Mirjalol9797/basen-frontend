@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-primary-900 text-white mt-auto">
     <div class="container py-10">
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-4 gap-8">
         <!-- Brand -->
         <div>
           <NuxtLink :to="localePath('/')" class="flex items-center gap-2 mb-3">
@@ -41,6 +41,23 @@
                 class="text-sm text-primary-200 hover:text-white transition-colors duration-150"
               >
                 {{ $t(link.label) }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Districts -->
+        <div>
+          <h3 class="text-sm font-semibold text-white mb-3 uppercase tracking-wide">
+            {{ $t("district.districts_title") }}
+          </h3>
+          <ul class="space-y-2">
+            <li v-for="d in topDistricts" :key="d.id">
+              <NuxtLink
+                :to="localePath(`/district/${d.id}`)"
+                class="text-sm text-primary-200 hover:text-white transition-colors duration-150"
+              >
+                {{ d.name }}
               </NuxtLink>
             </li>
           </ul>
@@ -105,6 +122,7 @@
 const { locale, locales } = useI18n();
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
+const { districts } = useDistricts();
 
 const currentYear = new Date().getFullYear();
 
@@ -115,6 +133,10 @@ const footerLinks = [
   { key: "privacy",  to: "/privacy",   label: "nav.privacy" },
   { key: "terms",    to: "/terms",     label: "nav.terms" },
 ];
+
+const topDistricts = computed(() =>
+  districts.value.slice(0, 6)
+);
 
 const availableLocales = computed(
   () => locales.value as { code: string; name: string }[]

@@ -1,12 +1,12 @@
 [
-  { "id": "yunusabad",     "translations": { "ru": "Юнусабад",       "uz": "Yunusobod",      "en": "Yunusabad" } },
-  { "id": "chilanzar",     "translations": { "ru": "Чиланзар",       "uz": "Chilonzor",      "en": "Chilanzar" } },
-  { "id": "mirzo-ulugbek", "translations": { "ru": "Мирзо-Улугбек", "uz": "Mirzo Ulug'bek", "en": "Mirzo-Ulugbek" } },
-  { "id": "yakkasaray",    "translations": { "ru": "Яккасарай",      "uz": "Yakkasaroy",     "en": "Yakkasaray" } },
-  { "id": "almazar",       "translations": { "ru": "Алмазар",        "uz": "Olmazor",        "en": "Almazar" } },
-  { "id": "bektemir",      "translations": { "ru": "Бектемир",       "uz": "Bektemir",       "en": "Bektemir" } },
-  { "id": "yashnabad",     "translations": { "ru": "Яшнабад",        "uz": "Yashnobod",      "en": "Yashnabad" } },
-  { "id": "sergeli",       "translations": { "ru": "Сергели",        "uz": "Sergeli",        "en": "Sergeli" } },
-  { "id": "uchtepa",       "translations": { "ru": "Учтепа",         "uz": "Uchtepa",        "en": "Uchtepa" } },
-  { "id": "shayhantahur",  "translations": { "ru": "Шайхантахур",    "uz": "Shayxontohur",   "en": "Shayhantahur" } }
+  { "id": "yunusabad",     "ru_genitive": "Юнусабада",      "translations": { "ru": "Юнусабад",       "uz": "Yunusobod",      "en": "Yunusabad" } },
+  { "id": "chilanzar",     "ru_genitive": "Чиланзара",      "translations": { "ru": "Чиланзар",       "uz": "Chilonzor",      "en": "Chilanzar" } },
+  { "id": "mirzo-ulugbek", "ru_genitive": "Мирзо-Улугбека", "translations": { "ru": "Мирзо-Улугбек", "uz": "Mirzo Ulug'bek", "en": "Mirzo-Ulugbek" } },
+  { "id": "yakkasaray",    "ru_genitive": "Яккасарая",      "translations": { "ru": "Яккасарай",      "uz": "Yakkasaroy",     "en": "Yakkasaray" } },
+  { "id": "almazar",       "ru_genitive": "Алмазара",       "translations": { "ru": "Алмазар",        "uz": "Olmazor",        "en": "Almazar" } },
+  { "id": "bektemir",      "ru_genitive": "Бектемира",      "translations": { "ru": "Бектемир",       "uz": "Bektemir",       "en": "Bektemir" } },
+  { "id": "yashnabad",     "ru_genitive": "Яшнабада",       "translations": { "ru": "Яшнабад",        "uz": "Yashnobod",      "en": "Yashnabad" } },
+  { "id": "sergeli",       "ru_genitive": "Сергели",        "translations": { "ru": "Сергели",        "uz": "Sergeli",        "en": "Sergeli" } },
+  { "id": "uchtepa",       "ru_genitive": "Учтепы",         "translations": { "ru": "Учтепа",         "uz": "Uchtepa",        "en": "Uchtepa" } },
+  { "id": "shayhantahur",  "ru_genitive": "Шайхантахура",   "translations": { "ru": "Шайхантахур",    "uz": "Shayxontohur",   "en": "Shayhantahur" } }
 ]
