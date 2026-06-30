@@ -43,5 +43,8 @@ export default {
       },
     },
   },
+  safelist: [
+    'text-amber-400', 'text-gray-200',
+  ],
   plugins: [],
 } satisfies Config
