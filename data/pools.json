@@ -2163,5 +2163,272 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "dubai-spa",
+    "slug": "dubai-spa",
+    "translations": {
+      "ru": {
+        "name": "Dubai Spa",
+        "address": "ул. Дийдор, 71А, Чиланзарский район, Ташкент",
+        "description": "Крытый бассейн 20×13 м. Предоставляются услуги массажа."
+      },
+      "uz": {
+        "name": "Dubai Spa",
+        "address": "Diydar ko'chasi, 71A, Chilonzor tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Dubai Spa",
+        "address": "71A Diydar str., Chilanzar district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": "chilanzar",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 95 144-66-11",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/dubai-spa/1.jpg",
+      "/images/pools/dubai-spa/2.jpg",
+      "/images/pools/dubai-spa/3.jpg",
+      "/images/pools/dubai-spa/4.jpg",
+      "/images/pools/dubai-spa/5.jpg"
+    ],
+    "prices": [
+      { "key": "price.adult_single", "amount": 150000, "currency": "UZS" },
+      { "key": "price.monthly", "amount": 700000, "currency": "UZS" }
+    ],
+    "schedule": null,
+    "services": ["trainer"],
+    "season": "year-round",
+    "poolLength": 20,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.5,
+    "reviewCount": 2,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "magic-galaxy",
+    "slug": "magic-galaxy",
+    "translations": {
+      "ru": {
+        "name": "Magic Galaxy",
+        "address": "ул. Заргарлик, 46А, Чиланзарский район, Ташкент",
+        "description": "Четырёхэтажный спортивно-оздоровительный комплекс с крытым бассейном, тренажёрными залами, спа, сауной, массажем и детской площадкой."
+      },
+      "uz": {
+        "name": "Magic Galaxy",
+        "address": "Zargarlik ko'chasi, 46A, Chilonzor tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Magic Galaxy",
+        "address": "46A Zargarlik str., Chilanzar district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": "chilanzar",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 207-71-71",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/magic-galaxy/1.jpg"
+    ],
+    "prices": [],
+    "schedule": null,
+    "services": ["trainer", "spa", "sauna", "cafe", "children_zone"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 3.5,
+    "reviewCount": 3,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "women-avenue",
+    "slug": "women-avenue",
+    "translations": {
+      "ru": {
+        "name": "Women Avenue",
+        "address": "ул. Фурката, 1, Шайхонтохурский район, Ташкент",
+        "description": "Крытый бассейн для детей."
+      },
+      "uz": {
+        "name": "Women Avenue",
+        "address": "Furkat ko'chasi, 1, Shayxontohur tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Women Avenue",
+        "address": "1 Furkat str., Shaykhantakhur district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": "shayhontohur",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": null,
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "20:00" },
+      { "day": "tue", "open": "08:00", "close": "20:00" },
+      { "day": "wed", "open": "08:00", "close": "20:00" },
+      { "day": "thu", "open": "08:00", "close": "20:00" },
+      { "day": "fri", "open": "08:00", "close": "20:00" },
+      { "day": "sat", "open": "08:00", "close": "20:00" },
+      { "day": "sun", "open": "08:00", "close": "20:00" }
+    ],
+    "services": ["children_zone"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "academy-athletica-fitness-complex",
+    "slug": "academy-athletica-fitness-complex",
+    "translations": {
+      "ru": {
+        "name": "Academy Athletica Fitness Complex",
+        "address": "ул. Дурмон Йули, 34А, Мирзо-Улугбекский район, Ташкент",
+        "description": "Фитнес-комплекс с крытым бассейном. Индивидуальные тренировки по плаванию с профессиональными тренерами для детей и взрослых."
+      },
+      "uz": {
+        "name": "Academy Athletica Fitness Complex",
+        "address": "Durmon Yo'li ko'chasi, 34A, Mirzo Ulug'bek tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Academy Athletica Fitness Complex",
+        "address": "34A Durmon Yuli str., Mirzo-Ulugbek district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": "mirzo-ulugbek",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 113-17-71",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/academy-athletica-fitness-complex/1.jpg",
+      "/images/pools/academy-athletica-fitness-complex/2.jpg",
+      "/images/pools/academy-athletica-fitness-complex/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "23:00" },
+      { "day": "tue", "open": "07:00", "close": "23:00" },
+      { "day": "wed", "open": "07:00", "close": "23:00" },
+      { "day": "thu", "open": "07:00", "close": "23:00" },
+      { "day": "fri", "open": "07:00", "close": "23:00" },
+      { "day": "sat", "open": "07:00", "close": "23:00" },
+      { "day": "sun", "open": "07:00", "close": "23:00" }
+    ],
+    "services": ["trainer", "children_zone"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 1,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "inter-sport",
+    "slug": "inter-sport",
+    "translations": {
+      "ru": {
+        "name": "Бассейн МВЭС Inter Sport",
+        "address": "ул. Мирзо Улугбека, 8А, Мирзо-Улугбекский район, Ташкент",
+        "description": "Спортивный комплекс с крытым бассейном и школой плавания для детей с 4 лет. Вышка 5 метров. Требуется медицинская справка."
+      },
+      "uz": {
+        "name": "Basseyn MVES Inter Sport",
+        "address": "Mirzo Ulug'bek ko'chasi, 8A, Mirzo Ulug'bek tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Pool MVES Inter Sport",
+        "address": "8A Mirzo Ulugbek str., Mirzo-Ulugbek district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": "mirzo-ulugbek",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 262-25-55",
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": null,
+    "services": ["trainer", "parking", "children_zone"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 7,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "dvorec-vodnogo-sporta",
+    "slug": "dvorec-vodnogo-sporta",
+    "translations": {
+      "ru": {
+        "name": "Дворец водного спорта",
+        "address": "ул. Истихор, 1, Юнусабадский район, Ташкент",
+        "description": "Дворец водного спорта с крытым бассейном. Для занятий требуются сменная обувь и медицинская справка."
+      },
+      "uz": {
+        "name": "Suv sporti saroyi",
+        "address": "Istihor ko'chasi, 1, Yunusobod tumani, Toshkent",
+        "description": null
+      },
+      "en": {
+        "name": "Water Sports Palace",
+        "address": "1 Istikhor str., Yunusabad district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": "yunusabad",
+    "coordinates": { "lat": null, "lng": null },
+    "phone": "+998 71 234-32-85",
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/dvorec-vodnogo-sporta/1.jpg"
+    ],
+    "prices": [],
+    "schedule": null,
+    "services": ["children_zone"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "rating": 4.0,
+    "reviewCount": 10,
+    "featured": false,
+    "createdAt": "2026-06-30T00:00:00Z"
   }
 ]
