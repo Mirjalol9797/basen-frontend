@@ -154,7 +154,10 @@
     "stats_types": "6 types",
     "stats_districts": "All districts",
     "seasonal_summer": "Open-air pools — open now",
-    "seasonal_winter": "Indoor pools — warm in any weather"
+    "seasonal_winter": "Indoor pools — warm in any weather",
+    "regions_title": "Pools by Region of Uzbekistan",
+    "regions_subtitle": "Tashkent and all regions",
+    "regions_coming_soon": "Coming soon"
   },
   "catalog": {
     "title": "Swimming Pools in Tashkent",

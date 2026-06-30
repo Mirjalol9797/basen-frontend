@@ -154,7 +154,10 @@
     "stats_types": "6 tur",
     "stats_districts": "Barcha tumanlar",
     "seasonal_summer": "Ochiq basseynlar — hozir ishlayapti",
-    "seasonal_winter": "Yopiq basseynlar — har qanday ob-havoda iliq"
+    "seasonal_winter": "Yopiq basseynlar — har qanday ob-havoda iliq",
+    "regions_title": "O'zbekiston viloyatlari bo'yicha basseynlar",
+    "regions_subtitle": "Toshkent va barcha viloyatlar",
+    "regions_coming_soon": "Tez kunda"
   },
   "catalog": {
     "title": "Toshkent basseynlari",

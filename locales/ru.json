@@ -154,7 +154,10 @@
     "stats_types": "6 типов",
     "stats_districts": "Все районы",
     "seasonal_summer": "Открытые бассейны — работают сейчас",
-    "seasonal_winter": "Крытые бассейны — тепло в любую погоду"
+    "seasonal_winter": "Крытые бассейны — тепло в любую погоду",
+    "regions_title": "Бассейны по регионам Узбекистана",
+    "regions_subtitle": "Ташкент и все области страны",
+    "regions_coming_soon": "Скоро"
   },
   "catalog": {
     "title": "Бассейны Ташкента",

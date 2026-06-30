@@ -2,6 +2,7 @@
   <div>
     <HomeHero />
     <HomeCategories />
+    <HomeRegions />
     <HomeFeatured />
     <HomeMapBanner />
   </div>
