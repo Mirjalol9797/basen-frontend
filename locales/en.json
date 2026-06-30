@@ -6,7 +6,8 @@
     "search": "Search",
     "about": "About",
     "faq": "FAQ",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "privacy": "Privacy"
   },
   "category": {
     "open": "Open-air",
@@ -200,5 +201,34 @@
     "desc": "Have a question, suggestion, or want to add your pool to the catalog? Write to us — we respond quickly.",
     "owners_title": "Pool owners",
     "owners_text": "We will add your pool to the catalog for free. Photos, prices, schedule — we handle everything."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we handle your data",
+    "meta_title": "Privacy Policy | Basen.uz",
+    "meta_desc": "Privacy Policy of Basen.uz — Tashkent pool catalog.",
+    "updated": "Last updated: June 30, 2026",
+    "s1_title": "General",
+    "s1_text": "This Privacy Policy applies to Basen.uz — an online catalog of swimming pools in Tashkent. We respect your privacy and do not collect personal data unnecessarily.",
+    "s2_title": "What data we collect",
+    "s2_text": "Basen.uz is an informational resource. We do not require registration and do not collect personal data (name, email, phone) through site forms.",
+    "s2_cookie_title": "Cookies and analytics",
+    "s2_cookie_text": "The site may use technical cookies necessary for proper operation (e.g., saving the selected language). We may also use web analytics services (Yandex.Metrica, Google Analytics) to collect anonymized traffic statistics.",
+    "s3_title": "Third-party services",
+    "s3_text": "The site uses the following third-party services, which may collect data according to their own privacy policies:",
+    "s3_maps": "Mapping service for displaying an interactive map of pools",
+    "s3_fonts": "Google Fonts — for loading fonts",
+    "s3_analytics": "Yandex.Metrica / Google Analytics — for traffic analysis (anonymized data)",
+    "s4_title": "How we use data",
+    "s4_text": "Anonymized analytics data is used solely to improve the site: analyzing popular pages, fixing errors, and improving usability. We do not sell or share any data with third parties for commercial purposes.",
+    "s5_title": "External links",
+    "s5_text": "The site contains links to pool pages, social networks, and messengers (Telegram). We are not responsible for the privacy policies of these resources.",
+    "s6_title": "User rights",
+    "s6_text": "Since we do not collect personal data, deletion or modification requests are not required. If you have questions — contact us.",
+    "s7_title": "Policy changes",
+    "s7_text": "We reserve the right to update this policy. The current version is always available on this page. Continued use of the site constitutes agreement with the current version.",
+    "s8_title": "Contact",
+    "s8_text": "For privacy-related questions, please reach out:",
+    "contact_link": "Go to contacts page"
   }
 }

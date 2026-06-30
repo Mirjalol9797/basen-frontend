@@ -6,7 +6,8 @@
     "search": "Qidirish",
     "about": "Loyiha haqida",
     "faq": "Savollar",
-    "contacts": "Aloqa"
+    "contacts": "Aloqa",
+    "privacy": "Maxfiylik"
   },
   "category": {
     "open": "Ochiq",
@@ -200,5 +201,34 @@
     "desc": "Savollaringiz bo'lsa yoki katalogga basseyn qo'shmoqchi bo'lsangiz — yozing. Tez javob beramiz.",
     "owners_title": "Basseyn egalari uchun",
     "owners_text": "Basseyngizni katalogga bepul qo'shamiz. Rasm, narxlar, jadval — hammasini o'zimiz rasmiylashtiramiz."
+  },
+  "privacy": {
+    "title": "Maxfiylik siyosati",
+    "subtitle": "Ma'lumotlaringizni qanday ishlatamiz",
+    "meta_title": "Maxfiylik siyosati | Basen.uz",
+    "meta_desc": "Basen.uz — Toshkent basseynlari katalogi saytining maxfiylik siyosati.",
+    "updated": "So'nggi yangilanish: 2026-yil 30-iyun",
+    "s1_title": "Umumiy qoidalar",
+    "s1_text": "Ushbu Maxfiylik siyosati Toshkent basseynlarining onlayn-katalogi Basen.uz saytiga tatbiq etiladi. Biz sizning shaxsiy ma'lumotlaringizni to'plamay, maxfiyligingizni hurmat qilamiz.",
+    "s2_title": "Qanday ma'lumotlar to'planadi",
+    "s2_text": "Basen.uz ma'lumot-ma'lumotnoma resursi bo'lib, ro'yxatdan o'tish talab qilinmaydi va foydalanuvchilarning shaxsiy ma'lumotlari (ism, e-mail, telefon) shakllar orqali to'planmaydi.",
+    "s2_cookie_title": "Cookie fayllar va tahliliyot",
+    "s2_cookie_text": "Sayt tanlangan tilni saqlash kabi texnik cookie-lardan foydalanishi mumkin. Bundan tashqari, tashrif statistikasi uchun veb-tahlil xizmatlari (Yandex.Metrika, Google Analytics) ishlatilishi mumkin.",
+    "s3_title": "Uchinchi tomon xizmatlar",
+    "s3_text": "Saytda quyidagi uchinchi tomon xizmatlari qo'llaniladi, ular o'zlarining maxfiylik siyosatiga muvofiq ma'lumot to'plashi mumkin:",
+    "s3_maps": "Basseynlarni interaktiv xaritada ko'rsatish uchun xarita xizmati",
+    "s3_fonts": "Google Fonts — shriftlarni yuklash uchun",
+    "s3_analytics": "Yandex.Metrika / Google Analytics — sayt tashrifi tahlili (shaxsiylashtirilmagan ma'lumotlar)",
+    "s4_title": "Ma'lumotlardan foydalanish",
+    "s4_text": "Shaxsiylashtirilmagan tahlil ma'lumotlari faqat saytni yaxshilash — mashhur sahifalarni tahlil qilish va xatolarni bartaraf etish uchun ishlatiladi. Biz hech qanday ma'lumotni tijorat maqsadida uchinchi shaxslarga sotmaymiz yoki bermaymiz.",
+    "s5_title": "Tashqi havolalar",
+    "s5_text": "Saytda basseyn sahifalari, ijtimoiy tarmoqlar va messenjerlar (Telegram) havolalari mavjud. Biz ushbu resurslarning maxfiylik siyosati uchun javobgar emasmiz.",
+    "s6_title": "Foydalanuvchi huquqlari",
+    "s6_text": "Biz shaxsiy ma'lumot to'plaganligi sababli, ularni o'chirish yoki o'zgartirish so'rovlari talab qilinmaydi. Savollaringiz bo'lsa — biz bilan bog'laning.",
+    "s7_title": "Siyosat o'zgarishlari",
+    "s7_text": "Biz ushbu siyosatni yangilash huquqini saqlab qolamiz. Joriy versiya doimo ushbu sahifada mavjud. Saytdan foydalanishda davom etish amaldagi tahririga rozilikni bildiradi.",
+    "s8_title": "Aloqa",
+    "s8_text": "Maxfiylik masalalari bo'yicha murojaat qiling:",
+    "contact_link": "Aloqa sahifasiga o'tish"
   }
 }

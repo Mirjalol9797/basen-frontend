@@ -112,6 +112,7 @@ const footerLinks = [
   { key: "catalog",  to: "/catalog",   label: "nav.catalog" },
   { key: "map",      to: "/map",       label: "nav.map" },
   { key: "contacts", to: "/contacts",  label: "nav.contacts" },
+  { key: "privacy",  to: "/privacy",   label: "nav.privacy" },
 ];
 
 const availableLocales = computed(
