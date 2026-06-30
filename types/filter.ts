@@ -4,6 +4,7 @@ export type SortOption = 'rating' | 'price_asc' | 'price_desc' | 'newest'
 
 export interface PoolFilters {
   categories: PoolCategory[]
+  region: string | null
   district: string | null
   priceMin: number | null
   priceMax: number | null
@@ -14,6 +15,7 @@ export interface PoolFilters {
 
 export const defaultFilters = (): PoolFilters => ({
   categories: [],
+  region: null,
   district: null,
   priceMin: null,
   priceMax: null,

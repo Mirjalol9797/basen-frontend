@@ -9,6 +9,9 @@ export const usePools = () => {
     if (f.categories.length > 0)
       result = result.filter(p => f.categories.includes(p.category))
 
+    if (f.region)
+      result = result.filter(p => p.region === f.region)
+
     if (f.district)
       result = result.filter(p => p.district === f.district)
 

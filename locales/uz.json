@@ -93,6 +93,8 @@
   "filter": {
     "title": "Filtrlar",
     "type": "Basseyn turi",
+    "region": "Viloyat",
+    "all_regions": "Barcha viloyatlar",
     "district": "Tuman",
     "price": "Narx (bir martalik)",
     "services": "Xizmatlar",

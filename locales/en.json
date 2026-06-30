@@ -93,6 +93,8 @@
   "filter": {
     "title": "Filters",
     "type": "Pool type",
+    "region": "Region",
+    "all_regions": "All regions",
     "district": "District",
     "price": "Price (single visit)",
     "services": "Services",

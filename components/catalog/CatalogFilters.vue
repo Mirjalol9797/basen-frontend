@@ -24,18 +24,31 @@
         </div>
       </div>
 
-      <!-- District -->
+      <!-- Region -->
       <div>
         <p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
-          {{ $t('filter.district') }}
+          {{ $t('filter.region') }}
         </p>
         <AppSelect
-          :model-value="filters.district ?? ''"
-          :options="districtOptions"
-          :placeholder="$t('filter.all_districts')"
-          @update:model-value="filters.district = $event || null"
+          :model-value="filters.region ?? ''"
+          :options="regionOptions"
+          :placeholder="$t('filter.all_regions')"
+          @update:model-value="onRegionChange($event)"
         />
       </div>
+    </div>
+
+    <!-- District (only for Tashkent) -->
+    <div v-if="showDistrict" class="mt-4">
+      <p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
+        {{ $t('filter.district') }}
+      </p>
+      <AppSelect
+        :model-value="filters.district ?? ''"
+        :options="districtOptions"
+        :placeholder="$t('filter.all_districts')"
+        @update:model-value="filters.district = $event || null"
+      />
     </div>
 
     <!-- Second row: price + season -->
@@ -127,6 +140,7 @@ import type { PoolCategory } from '~/types/pool'
 const { t } = useI18n()
 const { filters, hasActiveFilters, toggleCategory, reset } = useFilters()
 const { districts } = useDistricts()
+const { regions } = useRegions()
 
 const CATEGORIES: PoolCategory[] = ['open', 'indoor', 'children', 'sport', 'hotel', 'aquapark']
 const SERVICES = ['trainer', 'locker', 'parking', 'sauna', 'cafe', 'children_zone', 'jacuzzi', 'spa', 'wifi', 'shop']
@@ -136,13 +150,29 @@ const SEASONS = computed(() => [
   { value: 'year-round', label: t('filter.season_yearround') },
 ])
 
+const regionOptions = computed(() =>
+  regions.value.map(r => ({ value: r.id, label: r.name }))
+)
+
 const districtOptions = computed(() =>
   districts.value.map(d => ({ value: d.id, label: d.name }))
 )
 
+const showDistrict = computed(() =>
+  !filters.region || filters.region === 'tashkent-city'
+)
+
+function onRegionChange(value: string) {
+  filters.region = value || null
+  if (value && value !== 'tashkent-city') {
+    filters.district = null
+  }
+}
+
 const activeCount = computed(() => {
   let n = 0
   if (filters.categories.length) n++
+  if (filters.region) n++
   if (filters.district) n++
   if (filters.priceMin !== null || filters.priceMax !== null) n++
   if (filters.season) n++
