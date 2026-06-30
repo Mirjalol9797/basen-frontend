@@ -7,7 +7,8 @@
     "about": "Loyiha haqida",
     "faq": "Savollar",
     "contacts": "Aloqa",
-    "privacy": "Maxfiylik"
+    "privacy": "Maxfiylik",
+    "terms": "Foydalanish shartlari"
   },
   "category": {
     "open": "Ochiq",
@@ -229,6 +230,34 @@
     "s7_text": "Biz ushbu siyosatni yangilash huquqini saqlab qolamiz. Joriy versiya doimo ushbu sahifada mavjud. Saytdan foydalanishda davom etish amaldagi tahririga rozilikni bildiradi.",
     "s8_title": "Aloqa",
     "s8_text": "Maxfiylik masalalari bo'yicha murojaat qiling:",
+    "contact_link": "Aloqa sahifasiga o'tish"
+  },
+  "terms": {
+    "title": "Foydalanish shartlari",
+    "subtitle": "Basen.uz saytidan foydalanish qoidalari",
+    "meta_title": "Foydalanish shartlari | Basen.uz",
+    "meta_desc": "Basen.uz — Toshkent basseynlari katalogi saytining foydalanish shartlari.",
+    "updated": "So'nggi yangilanish: 2026-yil 30-iyun",
+    "s1_title": "Shartlarni qabul qilish",
+    "s1_text": "Basen.uz saytidan foydalanib, siz ushbu Foydalanish shartlarini qabul qilasiz. Agar biron-bir qoidaga rozi bo'lmasangiz, saytdan foydalanishni to'xtating.",
+    "s2_title": "Xizmat tavsifi",
+    "s2_text": "Basen.uz — Toshkent basseynlarining bepul ma'lumot-ma'lumotnoma katalogi. Sayt foydalanuvchilarga basseynlar haqida ma'lumot beradi: manzillar, narxlar, jadval, xizmatlar va aloqa ma'lumotlari. Biz vositachi emasmiz va chipta yoki obuna sotmaymiz.",
+    "s3_title": "Ma'lumotlar aniqligi",
+    "s3_text": "Biz ma'lumotlarni yangilab turishga harakat qilamiz, ammo narxlar, jadval va tavsiflarning mutlaq aniqligini kafolatlamaymiz. Tashrif buyurishdan oldin ma'lumotni bevosita basseyndan telefon yoki messenjer orqali aniqlashtirish tavsiya etiladi.",
+    "s4_title": "Intellektual mulk",
+    "s4_text": "Saytning barcha materiallari (matnlar, dizayn, logotip, tuzilma) Basen.uz mulki hisoblanadi. Yozma ruxsatsiz materiallardan nusxa ko'chirish va foydalanish taqiqlanadi. Istisno — shaxsiy tijorat bo'lmagan foydalanish.",
+    "s5_title": "Foydalanuvchi majburiyatlari",
+    "s5_text": "Saytdan foydalanib, siz xizmat ishini buzmaslikka, ma'lumotlarni avtomatlashtirilgan vositalar yordamida olmaslikka, noto'g'ri ma'lumot tarqatmaslikka va O'zbekiston Respublikasining amaldagi qonunchiligini buzmaslikka majbursiz.",
+    "s6_title": "Tashqi resurslarga havolalar",
+    "s6_text": "Saytda tashqi resurslarga havolalar mavjud (basseyn saytlari, xaritalar, messenjerlar). Basen.uz uchinchi tomon saytlarining mazmuni, mavjudligi va siyosati uchun javobgar emas.",
+    "s7_title": "Javobgarlikni cheklash",
+    "s7_text": "Basen.uz «xuddi shunday» taqdim etiladi. Biz saytdan foydalanish yoki foydalana olmaslik, shuningdek ma'lumotlarning haqiqiy ahvolga mos kelmasligi natijasida yuzaga kelgan bevosita yoki bilvosita zararlar uchun javobgar emasmiz.",
+    "s8_title": "Shartlarni o'zgartirish",
+    "s8_text": "Biz ushbu Shartlarni istalgan vaqtda o'zgartirish huquqini saqlaymiz. Joriy versiya doimo basen.uz/terms manzilida mavjud. O'zgartirishlardan so'ng saytdan foydalanishda davom etish yangi shartlarga rozilikni bildiradi.",
+    "s9_title": "Qo'llaniladigan qonunchilik",
+    "s9_text": "Ushbu Shartlar O'zbekiston Respublikasi qonunchiligi bilan tartibga solinadi. Barcha nizolar muzokaralar orqali sudgacha hal etiladi.",
+    "s10_title": "Aloqa",
+    "s10_text": "Saytdan foydalanish bilan bog'liq savollar bo'yicha:",
     "contact_link": "Aloqa sahifasiga o'tish"
   }
 }

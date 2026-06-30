@@ -7,7 +7,8 @@
     "about": "About",
     "faq": "FAQ",
     "contacts": "Contacts",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "terms": "Terms of Use"
   },
   "category": {
     "open": "Open-air",
@@ -229,6 +230,34 @@
     "s7_text": "We reserve the right to update this policy. The current version is always available on this page. Continued use of the site constitutes agreement with the current version.",
     "s8_title": "Contact",
     "s8_text": "For privacy-related questions, please reach out:",
+    "contact_link": "Go to contacts page"
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "subtitle": "Rules for using the Basen.uz website",
+    "meta_title": "Terms of Use | Basen.uz",
+    "meta_desc": "Terms of Use for Basen.uz — Tashkent pool catalog.",
+    "updated": "Last updated: June 30, 2026",
+    "s1_title": "Acceptance of Terms",
+    "s1_text": "By using Basen.uz, you agree to these Terms of Use. If you do not agree with any provision, please stop using the site.",
+    "s2_title": "Service Description",
+    "s2_text": "Basen.uz is a free informational catalog of swimming pools in Tashkent. The site provides users with information about pools: addresses, prices, schedules, services, and contact details. We are not an intermediary and do not sell tickets or memberships.",
+    "s3_title": "Accuracy of Information",
+    "s3_text": "We make efforts to keep data up to date, but do not guarantee absolute accuracy of prices, schedules, and descriptions. Before visiting, we recommend verifying information directly with the pool by phone or messenger.",
+    "s4_title": "Intellectual Property",
+    "s4_text": "All site materials (texts, design, logo, structure) are the property of Basen.uz. Copying and using materials without written permission is prohibited. Exception — personal non-commercial use.",
+    "s5_title": "User Obligations",
+    "s5_text": "By using the site, you agree not to disrupt the service, not to use automated tools for data scraping, not to spread false information, and not to violate the current legislation of the Republic of Uzbekistan.",
+    "s6_title": "Links to Third-Party Resources",
+    "s6_text": "The site contains links to external resources (pool websites, maps, messengers). Basen.uz is not responsible for the content, availability, or policies of third-party sites.",
+    "s7_title": "Limitation of Liability",
+    "s7_text": "Basen.uz is provided \"as is\". We are not liable for direct or indirect damages arising from the use or inability to use the site, or from discrepancies between information and actual conditions.",
+    "s8_title": "Changes to Terms",
+    "s8_text": "We reserve the right to change these Terms at any time. The current version is always available at basen.uz/terms. Continued use of the site after changes constitutes agreement with the new terms.",
+    "s9_title": "Applicable Law",
+    "s9_text": "These Terms are governed by the laws of the Republic of Uzbekistan. All disputes are resolved pre-trial through negotiation.",
+    "s10_title": "Contact",
+    "s10_text": "For questions related to the use of the site:",
     "contact_link": "Go to contacts page"
   }
 }

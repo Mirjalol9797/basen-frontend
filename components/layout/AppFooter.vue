@@ -113,6 +113,7 @@ const footerLinks = [
   { key: "map",      to: "/map",       label: "nav.map" },
   { key: "contacts", to: "/contacts",  label: "nav.contacts" },
   { key: "privacy",  to: "/privacy",   label: "nav.privacy" },
+  { key: "terms",    to: "/terms",     label: "nav.terms" },
 ];
 
 const availableLocales = computed(
