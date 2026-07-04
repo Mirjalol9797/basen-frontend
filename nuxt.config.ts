@@ -45,6 +45,7 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: { lang: "ru" },
       link: [
+        { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {
           rel: "stylesheet",
