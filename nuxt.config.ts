@@ -7,7 +7,11 @@ export default defineNuxtConfig({
     { path: '~/components', pathPrefix: false },
   ],
 
-  css: ["leaflet/dist/leaflet.css"],
+  runtimeConfig: {
+    public: {
+      yandexMapsKey: '',
+    },
+  },
 
   modules: [
     ["@nuxtjs/tailwindcss", { cssPath: "~/assets/css/main.css" }],

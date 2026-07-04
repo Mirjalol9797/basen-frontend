@@ -103,6 +103,15 @@
           <!-- ── Sidebar ── -->
           <div class="space-y-4">
 
+            <!-- Pool map -->
+            <ClientOnly v-if="pool.coordinates.lat && pool.coordinates.lng">
+              <PoolMap
+                :lat="pool.coordinates.lat"
+                :lng="pool.coordinates.lng"
+                :name="pool.name"
+              />
+            </ClientOnly>
+
             <!-- Contacts card -->
             <div class="bg-white rounded-2xl shadow-card p-5 space-y-3 sticky top-20">
 
