@@ -59,6 +59,20 @@
             </div>
           </div>
 
+          <!-- District select (only Tashkent City) -->
+          <div v-if="isTashkentCity">
+            <p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
+              {{ $t('filter.district') }}
+            </p>
+            <select
+              v-model="selectedDistrict"
+              class="w-full sm:w-64 px-3 py-2 rounded-xl border border-gray-200 text-sm text-gray-700 bg-white focus:outline-none focus:border-primary-400 focus:ring-1 focus:ring-primary-400 cursor-pointer"
+            >
+              <option :value="null">{{ $t('filter.all_districts') }}</option>
+              <option v-for="d in districts" :key="d.id" :value="d.id">{{ d.name }}</option>
+            </select>
+          </div>
+
           <!-- Season + Reset -->
           <div class="flex flex-wrap items-center justify-between gap-3">
             <div class="flex gap-2">
@@ -130,6 +144,7 @@ const { t, locale } = useI18n()
 const localePath = useLocalePath()
 const poolsStore = usePoolsStore()
 const { regions, getRegionName, getRegionGenitive, getRegionById } = useRegions()
+const { districts } = useDistricts()
 
 const slug = route.params.slug as string
 const region = computed(() => getRegionById(slug) ?? null)
@@ -148,6 +163,8 @@ const otherRegions = computed(() =>
   regions.value.filter(r => r.id !== slug)
 )
 
+const isTashkentCity = computed(() => slug === 'tashkent-city')
+
 // Local filters
 const CATEGORIES: PoolCategory[] = ['open', 'indoor', 'children', 'sport', 'hotel', 'aquapark']
 const SEASONS = computed(() => [
@@ -157,9 +174,10 @@ const SEASONS = computed(() => [
 
 const selectedCategories = ref<PoolCategory[]>([])
 const selectedSeason = ref<string | null>(null)
+const selectedDistrict = ref<string | null>(null)
 
 const hasActiveFilters = computed(() =>
-  selectedCategories.value.length > 0 || selectedSeason.value !== null
+  selectedCategories.value.length > 0 || selectedSeason.value !== null || selectedDistrict.value !== null
 )
 
 function toggleCategory(cat: PoolCategory) {
@@ -175,6 +193,7 @@ function toggleSeason(val: string) {
 function resetFilters() {
   selectedCategories.value = []
   selectedSeason.value = null
+  selectedDistrict.value = null
 }
 
 const filteredPools = computed(() => {
@@ -183,6 +202,8 @@ const filteredPools = computed(() => {
     result = result.filter(p => selectedCategories.value.includes(p.category))
   if (selectedSeason.value)
     result = result.filter(p => p.season === selectedSeason.value)
+  if (selectedDistrict.value)
+    result = result.filter(p => p.district === selectedDistrict.value)
   return result
 })
 
