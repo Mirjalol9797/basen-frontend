@@ -24,15 +24,15 @@
     "hotel_plural": "Hotel Pools",
     "aquapark_plural": "Aquaparks",
     "page_h1": "{name} in Tashkent",
-    "page_meta_title": "{name} in Tashkent — {count} venues | Basen.uz",
-    "page_meta_desc": "{name} in Tashkent: prices, schedule and photos. {count} pools.",
+    "page_meta_title": "{name} in Tashkent — prices & schedule 2026 | Basen.uz",
+    "page_meta_desc": "{name} in Tashkent: {count} venues. Prices, memberships, schedule and photos for 2026.",
     "page_found": "{count} venues",
     "page_not_found": "Category not found",
     "page_not_found_desc": "Try another category or open the full catalog"
   },
   "district": {
-    "meta_title": "{name} District Pools in Tashkent — 2026 Prices | Basen.uz",
-    "meta_desc": "{count} pools in {name} district, Tashkent. Prices, schedule, photos.",
+    "meta_title": "{name} District Pools, Tashkent — 2026 Prices & Addresses | Basen.uz",
+    "meta_desc": "{count} swimming pools in {name} district, Tashkent. Prices, memberships, schedule, addresses and photos.",
     "hero_title": "{name} District Pools",
     "hero_subtitle": "2026 prices · schedule · photos",
     "found": "{count} pools found",
@@ -43,8 +43,8 @@
     "other_pools": "Pools in other districts"
   },
   "region": {
-    "meta_title": "Pools in {name} — 2026 Prices | Basen.uz",
-    "meta_desc": "{count} pools in {name}. Prices, schedule, photos.",
+    "meta_title": "Swimming Pools in {name} — prices, addresses, schedule 2026 | Basen.uz",
+    "meta_desc": "Pool catalog for {name}: {count} venues. Prices, memberships, schedules, addresses and photos.",
     "hero_title": "Pools in {name}",
     "hero_subtitle": "2026 prices · schedule · photos",
     "found": "{count} pools found",
@@ -157,12 +157,14 @@
     "seasonal_winter": "Indoor pools — warm in any weather",
     "regions_title": "Pools by Region of Uzbekistan",
     "regions_subtitle": "Tashkent and all regions",
-    "regions_coming_soon": "Coming soon"
+    "regions_coming_soon": "Coming soon",
+    "meta_title": "Swimming Pools in Tashkent & Uzbekistan — Prices, Schedule 2026 | Basen.uz",
+    "meta_desc": "Catalog of 50+ swimming pools in Tashkent. Open-air, indoor, children's and sport pools — current prices, memberships, schedules and photos."
   },
   "catalog": {
     "title": "Swimming Pools in Tashkent",
-    "meta_title": "Swimming Pool Catalog Tashkent — {count}+ venues | Basen.uz",
-    "meta_desc": "Complete catalog of swimming pools in Tashkent with prices and schedules. Filter by type, price and district.",
+    "meta_title": "Swimming Pools in Tashkent — {count}+ venues, prices & schedule 2026 | Basen.uz",
+    "meta_desc": "Complete catalog of Tashkent swimming pools: open-air, indoor, children's, sport. Prices from 30,000 UZS, memberships, schedules and photos. Filter by type, price and district.",
     "view_list": "List",
     "view_map": "Map",
     "filters_btn": "Filters"
@@ -188,8 +190,8 @@
   "about": {
     "title": "About Basen.uz",
     "subtitle": "Complete swimming pool catalog for Tashkent",
-    "meta_title": "About | Basen.uz",
-    "meta_desc": "Basen.uz — the best swimming pool catalog in Tashkent. Current prices, schedules and photos.",
+    "meta_title": "About Basen.uz — Swimming Pool Catalog for Tashkent & Uzbekistan",
+    "meta_desc": "Basen.uz — free catalog of 50+ swimming pools in Tashkent. Current prices, memberships, schedules and photos. Find a pool near you.",
     "what_title": "What is Basen.uz?",
     "what_text": "Basen.uz is an online directory of swimming pools in Tashkent. We have gathered information on 50+ pools: prices, schedules, photos, services and contacts — all in one place, with no need to call around.",
     "mission_title": "Our mission",
@@ -212,8 +214,8 @@
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Answers to popular questions about swimming pools in Tashkent",
-    "meta_title": "Swimming Pool FAQ Tashkent | Basen.uz",
-    "meta_desc": "Frequently asked questions: where to find a pool, prices, schedules, coaches.",
+    "meta_title": "Swimming Pool FAQ Tashkent: prices, schedule, memberships | Basen.uz",
+    "meta_desc": "Frequently asked questions about swimming pools in Tashkent: average prices, memberships, coaches, schedules for open-air and indoor pools.",
     "q1": "How do I find the nearest pool?",
     "a1": "Open the Map page — all pools are shown on an interactive map of Tashkent. You can filter by category and see their location relative to any point.",
     "q2": "What is the average price for a single visit?",
@@ -230,8 +232,8 @@
   "contacts": {
     "title": "Contacts",
     "subtitle": "Get in touch",
-    "meta_title": "Contacts | Basen.uz",
-    "meta_desc": "Contact the Basen.uz team. Phone and Telegram for questions and suggestions.",
+    "meta_title": "Contacts | Basen.uz — Tashkent Swimming Pool Catalog",
+    "meta_desc": "Contact the Basen.uz team. Add your pool to the catalog for free — phone and Telegram.",
     "phone_label": "Phone",
     "telegram_label": "Telegram",
     "desc": "Have a question, suggestion, or want to add your pool to the catalog? Write to us — we respond quickly.",

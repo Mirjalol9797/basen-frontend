@@ -12,8 +12,8 @@
 const { t } = useI18n()
 
 usePageSeo({
-  title: t('home.hero_title') + ' | Basen.uz',
-  description: t('home.hero_subtitle'),
+  title: t('home.meta_title'),
+  description: t('home.meta_desc'),
   canonical: '/',
 })
 </script>
