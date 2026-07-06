@@ -44,9 +44,10 @@
               </div>
               <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-1">{{ pool.name }}</h1>
               <p class="text-sm text-gray-400 mb-3">
-                <NuxtLink :to="localePath(`/district/${pool.district}`)" class="hover:text-primary-600 transition-colors">
+                <NuxtLink v-if="pool.district" :to="localePath(`/district/${pool.district}`)" class="hover:text-primary-600 transition-colors">
                   {{ districtName }}
                 </NuxtLink>
+                <span v-else>{{ districtName }}</span>
               </p>
               <div class="flex items-center gap-4 flex-wrap">
                 <AppRating :rating="pool.rating" :count="pool.reviewCount" size="md" />

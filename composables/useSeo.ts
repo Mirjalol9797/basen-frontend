@@ -3,7 +3,8 @@ import districtData from '~/data/districts.json'
 
 const BASE_URL = 'https://basen.uz'
 
-function getDistrictName(districtId: string, locale: string): string {
+function getDistrictName(districtId: string | null, locale: string): string {
+  if (!districtId) return 'Ташкент'
   const entry = (districtData as { id: string; translations: Record<string, string> }[])
     .find(d => d.id === districtId)
   return entry?.translations[locale] ?? districtId
@@ -13,7 +14,8 @@ const DAY_MAP: Record<ScheduleDay['day'], string> = {
   mon: 'Mo', tue: 'Tu', wed: 'We', thu: 'Th', fri: 'Fr', sat: 'Sa', sun: 'Su',
 }
 
-function buildOpeningHours(schedule: ScheduleDay[]): string[] {
+function buildOpeningHours(schedule: ScheduleDay[] | null): string[] {
+  if (!schedule) return []
   return schedule
     .filter(d => !d.closed)
     .map(d => `${DAY_MAP[d.day]} ${d.open}-${d.close}`)
