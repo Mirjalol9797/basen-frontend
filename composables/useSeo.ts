@@ -25,10 +25,10 @@ export const usePoolSeo = (pool: Pool) => {
   const districtName = getDistrictName(pool.district, locale.value)
 
   useSeoMeta({
-    title: `${pool.name} — бассейн в Ташкенте, цены 2026 | Basen.uz`,
-    description: `${pool.name} в ${districtName}, Ташкент. Цены от ${formatPrice(price)}, абонементы, расписание, фото и контакты.`,
+    title: `${pool.name} — цены 2026, расписание, отзывы | Basen.uz`,
+    description: `Бассейн ${pool.name} в ${districtName}, Ташкент. Цены от ${formatPrice(price)} сум, абонементы, расписание и фото. Адрес, телефон и отзывы.`,
     ogTitle: `${pool.name} — бассейн в Ташкенте | Basen.uz`,
-    ogDescription: `${pool.name}, ${districtName}, Ташкент. Цены от ${formatPrice(price)}.`,
+    ogDescription: `${pool.name}, ${districtName}, Ташкент. Цены от ${formatPrice(price)} сум, абонементы, расписание.`,
     ogImage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
     ogType: 'website',
     ogUrl: `${BASE_URL}/catalog/${pool.slug}`,

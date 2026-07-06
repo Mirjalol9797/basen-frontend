@@ -24,15 +24,15 @@
     "hotel_plural": "Mehmonxona basseynlari",
     "aquapark_plural": "Akvapark",
     "page_h1": "Toshkentdagi {name}",
-    "page_meta_title": "Toshkent {name} — narxlar va ish vaqti 2026 | Basen.uz",
-    "page_meta_desc": "Toshkentdagi {name}: {count} ta obyekt. Narxlar, obuna, ish vaqti va fotolar.",
+    "page_meta_title": "Toshkentdagi {name} 2026 — narxlar, obuna, manzillar | Basen.uz",
+    "page_meta_desc": "Toshkentdagi {name} — {count} ta obyekt. Dolzarb narxlar, obuna, ish vaqti, manzillar va fotolar. Qo'ng'iroqsiz tanlang.",
     "page_found": "{count} ta obyekt",
     "page_not_found": "Kategoriya topilmadi",
     "page_not_found_desc": "Boshqa kategoriyani sinab ko'ring yoki to'liq katalogni oching"
   },
   "district": {
-    "meta_title": "Toshkent {name} tumani basseynlari — 2026 narxlar, manzillar | Basen.uz",
-    "meta_desc": "Toshkent {name} tumanida {count} ta bassayn. Narxlar, obuna, ish vaqti, manzillar va fotolar.",
+    "meta_title": "{name} tumani basseynlari, Toshkent — manzillar, narxlar 2026 | Basen.uz",
+    "meta_desc": "Toshkent {name} tumanida {count} ta basseyn. Manzillar, telefonlar, narxlar, obuna va ish vaqti. Xaritada eng yaqinini tanlang.",
     "hero_title": "{name} tumani basseynlari",
     "hero_subtitle": "2026 narxlar · ish vaqti · fotolar",
     "found": "{count} ta bassayn",
@@ -43,8 +43,8 @@
     "other_pools": "Boshqa tumanlar basseynlari"
   },
   "region": {
-    "meta_title": "{name} basseynlari — narxlar, manzillar, ish vaqti 2026 | Basen.uz",
-    "meta_desc": "{name} basseynlari katalogi: {count} ta obyekt. Narxlar, obuna, ish vaqti, manzillar va fotolar.",
+    "meta_title": "{name} basseynlari — manzillar, narxlar, obuna 2026 | Basen.uz",
+    "meta_desc": "{name} basseynlari katalogi: {count} ta obyekt. Manzillar, telefonlar, narxlar, obuna va ish vaqti. Ochiq va yopiq basseynlar 2026.",
     "hero_title": "{name} basseynlari",
     "hero_subtitle": "2026 narxlar · ish vaqti · fotolar",
     "found": "{count} ta bassayn",
@@ -158,13 +158,13 @@
     "regions_title": "O'zbekiston viloyatlari bo'yicha basseynlar",
     "regions_subtitle": "Toshkent va barcha viloyatlar",
     "regions_coming_soon": "Tez kunda",
-    "meta_title": "Toshkent va O'zbekiston basseynlari — narxlar, ish vaqti 2026 | Basen.uz",
-    "meta_desc": "50+ Toshkent basseynlari katalogi. Ochiq, yopiq, bolalar va sport basseynlari — dolzarb narxlar, obuna, ish vaqti va fotosuratlar."
+    "meta_title": "Toshkent basseynlari 2026 — narxlar, obuna, ish vaqti | Basen.uz",
+    "meta_desc": "50+ Toshkent basseynlari katalogi: ochiq, yopiq, bolalar va sport. Narxlar 30 000 so'mdan, obuna, ish vaqti va fotosuratlar. Qo'ng'iroqsiz tanlang."
   },
   "catalog": {
     "title": "Toshkent basseynlari",
-    "meta_title": "Toshkent basseynlari — {count}+ obyekt, narxlar va ish vaqti 2026 | Basen.uz",
-    "meta_desc": "Toshkentning to'liq basseyn katalogi: ochiq, yopiq, bolalar, sport. Narxlar 30 000 so'mdan, obuna, ish vaqti va fotolar. Tur, narx va tuman bo'yicha filtrlash.",
+    "meta_title": "Toshkent basseynlari — {count}+ ta basseyn, narxlar va obuna 2026 | Basen.uz",
+    "meta_desc": "Toshkentning barcha basseynlari: ochiq, yopiq, bolalar va sport. Narxlar 30 000 so'mdan, obuna, ish vaqti va fotolar. Tur, narx va tuman bo'yicha filtrlash.",
     "view_list": "Ro'yxat",
     "view_map": "Xarita",
     "filters_btn": "Filtrlar"
@@ -178,8 +178,8 @@
     "pool_depth": "Chuqurlik",
     "meters": "m",
     "show_reviews": "Barcha sharhlarni ko'rsatish",
-    "meta_title": "{name} — narxlar, ish vaqti, fotosuratlar | Basen.uz",
-    "meta_desc": "{name} Toshkentda. Narxlar {price} so'mdan. Telefon, manzil, sharhlar."
+    "meta_title": "{name} — 2026 narxlar, ish vaqti, sharhlar | Basen.uz",
+    "meta_desc": "{name} basseyni Toshkentda. Narxlar {price} so'mdan, obuna, ish vaqti va fotolar. Manzil, telefon, sharhlar."
   },
   "errors": {
     "not_found": "Sahifa topilmadi",
@@ -190,8 +190,8 @@
   "about": {
     "title": "Basen.uz loyihasi haqida",
     "subtitle": "Toshkentning to'liq basseyn katalogi",
-    "meta_title": "Basen.uz loyihasi haqida — Toshkent va O'zbekiston basseynlari katalogi",
-    "meta_desc": "Basen.uz — 50+ Toshkent basseynlarining bepul katalogi. Dolzarb narxlar, obuna, ish vaqti va fotosuratlar. Yaqin atrofdagi basseynni toping.",
+    "meta_title": "Basen.uz haqida — Toshkentdagi 50+ basseyn katalogi",
+    "meta_desc": "Basen.uz — 50+ Toshkent va O'zbekiston basseynlarining bepul ma'lumotnomasi. Dolzarb narxlar, obuna, ish vaqti, manzillar va fotolar. Qulay basseynni toping.",
     "what_title": "Basen.uz nima?",
     "what_text": "Basen.uz — Toshkent basseynlarining onlayn katalogi. Biz 50 dan ortiq basseyn haqida ma'lumot to'pladik: narxlar, ish vaqti, fotosuratlar, xizmatlar va aloqa — barchasi bir joyda.",
     "mission_title": "Bizning maqsad",
@@ -214,8 +214,8 @@
   "faq": {
     "title": "Ko'p so'raladigan savollar",
     "subtitle": "Toshkent basseynlari haqida mashhur savollarga javoblar",
-    "meta_title": "Toshkent basseynlari haqida savollar: narxlar, ish vaqti, obuna — FAQ | Basen.uz",
-    "meta_desc": "Toshkent basseynlari haqida tez-tez so'raladigan savollar: o'rtacha narxlar, obuna, murabbiylar, ochiq va yopiq basseynlar ish vaqti.",
+    "meta_title": "FAQ — Toshkent basseynlari: narxlar, obuna, ish vaqti | Basen.uz",
+    "meta_desc": "Toshkent basseynlari haqida 6 ta savol: o'rtacha narxlar, obuna qanday sotib olinadi, ochiq va yopiq basseynlar 2026 yilda qachon ishlaydi.",
     "q1": "Eng yaqin basseynni qanday topish mumkin?",
     "a1": "«Xarita» sahifasini oching — barcha basseynlar interaktiv xaritada ko'rsatilgan. Kategoriya bo'yicha filtrlash va kerakli joyga nisbatan joylashuvni ko'rish mumkin.",
     "q2": "Bir martalik tashrif narxi qancha?",
@@ -232,8 +232,8 @@
   "contacts": {
     "title": "Aloqa",
     "subtitle": "Biz bilan bog'laning",
-    "meta_title": "Aloqa | Basen.uz — Toshkent basseynlari katalogi",
-    "meta_desc": "Basen.uz jamoasi bilan bog'laning. Basseynni katalogga bepul qo'shing — telefon va Telegram.",
+    "meta_title": "Basen.uz aloqa — basseynni katalogga bepul qo'shing",
+    "meta_desc": "Basen.uz jamoasi bilan telefon yoki Telegram orqali bog'laning. Toshkent katalogiga basseynni bepul qo'shing — narxlar va jadval bilan sahifa tayyorlaymiz.",
     "phone_label": "Telefon",
     "telegram_label": "Telegram",
     "desc": "Savollaringiz bo'lsa yoki katalogga basseyn qo'shmoqchi bo'lsangiz — yozing. Tez javob beramiz.",
