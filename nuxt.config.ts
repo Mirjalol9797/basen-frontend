@@ -23,10 +23,11 @@ export default defineNuxtConfig({
   ],
 
   i18n: {
+    baseUrl: 'https://basen.uz',
     locales: [
-      { code: "ru", name: "Русский", file: "ru.json" },
-      { code: "uz", name: "O'zbek", file: "uz.json" },
-      { code: "en", name: "English", file: "en.json" },
+      { code: "ru", language: "ru-RU", name: "Русский", file: "ru.json" },
+      { code: "uz", language: "uz-UZ", name: "O'zbek", file: "uz.json" },
+      { code: "en", language: "en-US", name: "English", file: "en.json" },
     ],
     defaultLocale: "ru",
     lazy: true,
@@ -39,6 +40,7 @@ export default defineNuxtConfig({
     quality: 80,
     formats: ["webp"],
     screens: { xs: 390, sm: 640, md: 768, lg: 1024, xl: 1280 },
+    provider: 'none',
   },
 
   app: {
@@ -58,7 +60,6 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      ignore: ["/_ipx/"],
     },
   },
 
