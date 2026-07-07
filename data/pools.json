@@ -3038,9 +3038,9 @@
     "slug": "radisson",
     "translations": {
       "ru": {
-        "name": "Aqua Bar при отеле Radisson",
-        "address": "ул. Амира Темура, 88, Юнусабадский район, Ташкент",
-        "description": "Открытый бассейн при отеле Radisson с баром и живой музыкой. Сезон работы — с мая."
+        "name": "Aqua Bar при отеле Radisson Blu Tashkent",
+        "address": "просп. Амира Темура, 88, Юнусабадский район, Ташкент",
+        "description": "Открытый бассейн при отеле Radisson Blu Tashkent с баром и живой музыкой. В отеле также работает фитнес-центр с тренажёрным залом, сауной и массажным центром. Сезон работы — с мая."
       },
       "uz": {
         "name": "Radisson mehmonxonasidagi Aqua Bar",
@@ -3063,7 +3063,7 @@
     },
     "phone": "+998 78 120-49-00",
     "telegram": null,
-    "website": null,
+    "website": "https://radissonblu.com",
     "gallery": [
       "/images/pools/radisson/1.jpg",
       "/images/pools/radisson/2.jpg",
@@ -3110,7 +3110,9 @@
     ],
     "services": [
       "parking",
-      "cafe"
+      "cafe",
+      "sauna",
+      "trainer"
     ],
     "season": "summer",
     "poolLength": 25,
