@@ -108,6 +108,58 @@
           "body": "Точных цен по всем 6 объектам в базе пока немного — уточняйте стоимость разового посещения или абонемента на странице конкретного бассейна, звонком или в Telegram. Для ориентира: месячный абонемент в одном из бассейнов категории (Dubai Spa) стоит от 700 000 сум."
         }
       ]
+    },
+    "uz": {
+      "intro": "Yopiq basseynlar — Toshkentda muntazam mashg'ulotlar uchun eng ishonchli variant: ob-havo va mavsumga bog'liq emas. Katalogda hozircha 6 tasi bor, ammo bu toifada ochiq basseynlarda yo'q bitta xususiyat bor — ularning barchasi yil bo'yi ishlaydi.",
+      "sections": [
+        {
+          "heading": "Yil bo'yi ishlash — bu arzimas narsa emas",
+          "body": "Shahardagi 6 ta yopiq basseynning barchasi, ya'ni 100%, qish ham qo'shib yil davomida ishlaydi — bu 7-8 oyga yopiladigan ochiq basseynlardan farq qiladi. Agar maqsad bir martalik yozgi dam olish emas, balki muntazam suzish mashg'ulotlari bo'lsa, qishda yopiq basseyn ko'pincha shahardagi yagona real variant."
+        },
+        {
+          "heading": "Yopiq basseynlarda odatda nima bor",
+          "list": [
+            "Bolalar zonasi — toifadagi 6 tadan 5 tasida bor, Toshkentning yopiq basseynlari o'rtacha bolalar bilan mashg'ulot uchun ochiqlariga qaraganda yaxshiroq moslashgan.",
+            "Murabbiy yoki instruktor — 6 tadan 4 tasida mavjud, agar maqsad suzishni o'rganish yoki texnikani yaxshilash bo'lsa.",
+            "Sauna va spa-zona — hamma joyda uchramaydi, lekin bor, masalan, Magic Galaxy'da.",
+            "Avtoturargoh — kafolatlanmagan, toifadagi barcha obyektlarda ham bo'lavermaydi, mashinada borsangiz basseyn sahifasidan aniqlashtiring."
+          ]
+        },
+        {
+          "heading": "Qaysi tumanlarda qidirish kerak",
+          "body": "Yopiq basseynlar shahar bo'ylab notekis taqsimlangan: Chilonzor va Mirzo Ulug'bek tumanlarida ikkitadan, Shayxontohur va Yunusobodda bittadan. Boshqa tumanda yashasangiz, biroz uzoqroqqa borishga tayyor bo'ling — shahardagi yopiq majmualar hozircha ko'p emas."
+        },
+        {
+          "heading": "Narxi qancha",
+          "body": "Barcha 6 obyekt bo'yicha aniq narxlar bazada hozircha ko'p emas — bir martalik tashrif yoki obuna narxini tegishli basseyn sahifasidan, qo'ng'iroq qilib yoki Telegram orqali aniqlashtiring. Mo'ljal uchun: toifadagi basseynlardan birida (Dubai Spa) oylik obuna 700 000 so'mdan boshlanadi."
+        }
+      ]
+    },
+    "en": {
+      "intro": "Indoor pools are the most reliable option for regular training in Tashkent — they don't depend on weather or season. There are 6 in the catalog so far, but this category has one feature that open-air pools don't: every single one operates year-round.",
+      "sections": [
+        {
+          "heading": "Why year-round matters",
+          "body": "All 6 indoor pools in the city — 100% of them — operate all year, including winter, unlike open-air pools that close for 7-8 months. If your goal isn't a one-off summer visit but regular swim training, an indoor pool is often the only real option in the city during winter."
+        },
+        {
+          "heading": "What indoor pools usually offer",
+          "list": [
+            "Kids' zone — present at 5 of 6 venues in this category; indoor pools in Tashkent tend to be better suited for children's activities than open-air ones.",
+            "Coach or instructor — available at 4 of 6 venues, if your goal is learning to swim or improving technique.",
+            "Sauna and spa zone — not everywhere, but they exist, for example at Magic Galaxy.",
+            "Parking — not guaranteed, not every venue in the category has it, so check the pool's page if you're driving."
+          ]
+        },
+        {
+          "heading": "Which districts to look in",
+          "body": "Indoor pools are unevenly spread across the city: two venues each in the Chilanzar and Mirzo-Ulugbek districts, one each in Shayhontohur and Yunusabad. If you live elsewhere, be ready to travel a bit further — there aren't many indoor complexes in the city yet."
+        },
+        {
+          "heading": "How much it costs",
+          "body": "Exact prices aren't filled in for all 6 venues yet — check the cost of a single visit or a membership on each pool's own page, by phone, or on Telegram. As a reference point: a monthly membership at one venue in this category (Dubai Spa) starts from 700,000 UZS."
+        }
+      ]
     }
   },
   "children": {
