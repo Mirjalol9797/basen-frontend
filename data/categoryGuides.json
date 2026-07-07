@@ -183,6 +183,48 @@
           "body": "Все три детских бассейна находятся в разных частях города — Чиланзарском, Мирабадском и Шайхонтохурском районах, единого скопления пока нет. Если рядом с домом подходящего варианта нет, придётся ехать в один из этих трёх районов."
         }
       ]
+    },
+    "uz": {
+      "intro": "Katalogda faqat eng kichiklar uchun ixtisoslashgan bolalar basseynlari hozircha 3 ta — ammo ular ikkita tubdan farqli formatga bo'linadi, va sayohatdan oldin qaysi biri sizga kerakligini tushunib olgan ma'qul.",
+      "sections": [
+        {
+          "heading": "Ikki format: dam olish yoki suzish darslari",
+          "body": "Chilonzor tumanidagi «Bolalar Akvamiri» — yozgi oilaviy format: bola uchun bir martalik kirish 45 000 so'm, kattalar uchun — 55 000 so'm, gorkalar va bolalar zonasi bor, oddiy ko'ngilochar basseyn kabi. Born2swim va STUDIO 13 esa, aksincha, — murabbiy bilan yil bo'yi ishlaydigan suzish maktablari: u yerda bir martalik chipta yo'q, o'qitish obuna yoki guruh mashg'ulotlari orqali boradi. Borishdan oldin telefon orqali qaysi format kerakligini aniqlashtiring — bola bilan dam olish yoki suzish darslari."
+        },
+        {
+          "heading": "O'qitish va tashrif narxi qancha",
+          "body": "Bolalar uchun suzish maktablarida (Born2swim, STUDIO 13) oylik obuna 500 000 so'mdan boshlanadi. STUDIO 13'da alohida guruh mashg'ulotlari ham bor — obuna olishni xohlamasangiz, 150 000 so'mdan. «Akvamir»da gorkali basseynga tashrif uchun oylik obuna arzonroq — 350 000 so'mdan, lekin bu suzish darslari emas, erkin tashrif."
+        },
+        {
+          "heading": "Barcha bolalar basseynlarida nima bor",
+          "body": "Alohida bolalar zonasi toifadagi barcha 3 obyektda bor — bu format uchun umumiy yagona xususiyat. Suzish murabbiyi 3 tadan 2 tasida bor (Born2swim va STUDIO 13) — agar maqsad aynan bolani suzishga o'rgatish bo'lsa, shu ikkisidan birini tanlang."
+        },
+        {
+          "heading": "Qaysi tumanlarda qidirish kerak",
+          "body": "Uchala bolalar basseyni ham shaharning turli qismlarida — Chilonzor, Mirobod va Shayxontohur tumanlarida joylashgan, yagona to'planish hali yo'q. Uyingiz yaqinida mos variant bo'lmasa, shu uchta tumandan biriga borishga to'g'ri keladi."
+        }
+      ]
+    },
+    "en": {
+      "intro": "There are only 3 pools in the catalog specifically for young children — but they split into two fundamentally different formats, and it's worth knowing which one you need before you go.",
+      "sections": [
+        {
+          "heading": "Two formats: family fun or swim lessons",
+          "body": "Detsky Akvamir in the Chilanzar district is a summer family format: a single entry costs 45,000 UZS for a child and 55,000 UZS for an adult, with slides and a kids' zone, much like a regular fun pool. Born2swim and STUDIO 13, on the other hand, are year-round swim schools with coaches: there's no single-visit ticket, lessons run on a membership or in group classes. Call ahead to confirm which format you actually need — family fun or swim lessons."
+        },
+        {
+          "heading": "How much lessons and visits cost",
+          "body": "A monthly membership at the children's swim schools (Born2swim, STUDIO 13) starts from 500,000 UZS. STUDIO 13 also offers standalone group classes from 150,000 UZS if you don't want a full membership. At Detsky Akvamir, a monthly pass for the pool with slides is cheaper — from 350,000 UZS — but that's open access, not swim lessons."
+        },
+        {
+          "heading": "What all children's pools have",
+          "body": "A dedicated kids' zone is present at all 3 venues in this category — the one thing they all share. A swim coach is available at 2 of 3 (Born2swim and STUDIO 13) — if the goal is actually teaching your child to swim rather than just enjoying the water, pick one of these two."
+        },
+        {
+          "heading": "Which districts to look in",
+          "body": "All three children's pools are in different parts of the city — the Chilanzar, Mirobod and Shayhontohur districts — there's no single cluster yet. If there's nothing suitable near your home, you'll need to travel to one of these three districts."
+        }
+      ]
     }
   },
   "sport": {
