@@ -8,5 +8,6 @@
   { "id": "yashnabad",     "ru_genitive": "Яшнабада",       "translations": { "ru": "Яшнабад",        "uz": "Yashnobod",      "en": "Yashnabad" } },
   { "id": "sergeli",       "ru_genitive": "Сергели",        "translations": { "ru": "Сергели",        "uz": "Sergeli",        "en": "Sergeli" } },
   { "id": "uchtepa",       "ru_genitive": "Учтепы",         "translations": { "ru": "Учтепа",         "uz": "Uchtepa",        "en": "Uchtepa" } },
-  { "id": "shayhantahur",  "ru_genitive": "Шайхантахура",   "translations": { "ru": "Шайхантахур",    "uz": "Shayxontohur",   "en": "Shayhantahur" } }
+  { "id": "shayhontohur",  "ru_genitive": "Шайхонтохура",   "translations": { "ru": "Шайхонтохур",    "uz": "Shayxontohur",   "en": "Shayhontohur" } },
+  { "id": "mirobod",       "ru_genitive": "Мирабада",       "translations": { "ru": "Мирабад",        "uz": "Mirobod",        "en": "Mirabad" } }
 ]
