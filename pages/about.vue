@@ -80,7 +80,7 @@
           <h2 class="text-2xl sm:text-3xl font-bold mb-3">{{ $t('about.owners_title') }}</h2>
           <p class="text-primary-100 mb-7 max-w-lg mx-auto">{{ $t('about.owners_text') }}</p>
           <a
-            href="https://t.me/basenuz"
+            href="https://t.me/Mirjalol1210"
             target="_blank"
             rel="noopener"
             class="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-white text-primary-700 font-semibold text-sm hover:bg-primary-50 transition-colors shadow-lg"
