@@ -129,6 +129,7 @@ const currentYear = new Date().getFullYear();
 const footerLinks = [
   { key: "catalog",  to: "/catalog",   label: "nav.catalog" },
   { key: "map",      to: "/map",       label: "nav.map" },
+  { key: "guide",    to: "/guide",     label: "nav.guide" },
   { key: "contacts", to: "/contacts",  label: "nav.contacts" },
   { key: "privacy",  to: "/privacy",   label: "nav.privacy" },
   { key: "terms",    to: "/terms",     label: "nav.terms" },

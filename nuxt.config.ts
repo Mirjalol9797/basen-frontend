@@ -77,6 +77,8 @@ export default defineNuxtConfig({
     "/category/**": { prerender: true },
     "/district/**": { prerender: true },
     "/region/**":   { prerender: true },
+    "/guide":       { prerender: true },
+    "/guide/**":    { prerender: true },
     "/map":         { ssr: true },
   },
 
@@ -84,6 +86,7 @@ export default defineNuxtConfig({
     urls: [
       { loc: '/',                        priority: 1.0, changefreq: 'weekly'  },
       { loc: '/catalog',                 priority: 0.9, changefreq: 'daily'   },
+      { loc: '/guide',                   priority: 0.7, changefreq: 'weekly'  },
       { loc: '/district/yunusabad',      priority: 0.8, changefreq: 'weekly'  },
       { loc: '/district/chilanzar',      priority: 0.8, changefreq: 'weekly'  },
       { loc: '/district/mirzo-ulugbek',  priority: 0.8, changefreq: 'weekly'  },

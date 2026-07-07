@@ -120,6 +120,7 @@ const navLinks = [
   { key: 'home',     to: '/',          label: 'nav.home' },
   { key: 'catalog',  to: '/catalog',   label: 'nav.catalog' },
   { key: 'map',      to: '/map',       label: 'nav.map' },
+  { key: 'guide',    to: '/guide',     label: 'nav.guide' },
   { key: 'about',    to: '/about',     label: 'nav.about' },
   { key: 'contacts', to: '/contacts',  label: 'nav.contacts' },
 ]

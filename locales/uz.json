@@ -5,6 +5,7 @@
     "map": "Xarita",
     "search": "Qidirish",
     "about": "Loyiha haqida",
+    "guide": "Gid",
     "faq": "Savollar",
     "contacts": "Aloqa",
     "privacy": "Maxfiylik",
@@ -218,6 +219,20 @@
     "stat_types": "ta basseyn turi",
     "stat_districts": "ta tuman",
     "stat_free": "Bepul"
+  },
+  "guide": {
+    "title": "Toshkent basseynlari bo'yicha gid",
+    "subtitle": "Tanlovlar va maslahatlar — qayerga borish, qayerda arzonroq, nimani tanlash",
+    "meta_title": "Toshkent basseynlari bo'yicha gid — tanlovlar va maslahatlar | Basen.uz",
+    "meta_desc": "Toshkent basseynlari tanlovlari: eng yaxshi ochiq va yopiq, bolalar basseynlari, akvaparklar. Qayerga borish va qanday tanlash bo'yicha maslahatlar.",
+    "empty_title": "Hozircha maqolalar yo'q",
+    "empty_desc": "Birinchi tanlovlarni tayyorlamoqdamiz — keyinroq qayting",
+    "read_more": "O'qish",
+    "pools_in_guide": "Tanlovdagi basseynlar",
+    "not_found": "Maqola topilmadi",
+    "not_found_desc": "Manzilni tekshiring yoki butun gidni oching",
+    "back_to_guide": "Barcha maqolalarga",
+    "see_catalog": "Katalogni ochish"
   },
   "faq": {
     "title": "Ko'p so'raladigan savollar",
