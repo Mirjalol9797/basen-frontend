@@ -26,6 +26,60 @@
           "body": "В жаркие месяцы (июнь-август) популярные открытые бассейны с рестораном заполняются по выходным — если едете большой компанией, лучше уточнить наличие мест по телефону заранее, особенно в пятницу-субботу."
         }
       ]
+    },
+    "uz": {
+      "intro": "Ochiq basseynlar — Toshkentda issiq mavsumda suv bo'yida dam olishning eng ommabop formati. Hozircha katalogda 18 ta shunday obyekt bor, va ular narxi, sig'imi va xizmatlar to'plami bo'yicha bir-biridan sezilarli farq qiladi — sayohatdan oldin nimalarga e'tibor berish kerakligini ko'rib chiqamiz.",
+      "sections": [
+        {
+          "heading": "2026-yilda kirish narxi qancha",
+          "body": "Toshkentdagi ochiq basseynga bir martalik tashrif kattalar uchun 50 000 dan 120 000 so'mgacha turadi — narx ko'proq basseynning o'zidan emas, balki formatidan bog'liq: oddiy yo'lakka kirish arzonroq, shezlong, dam olish zonasi va restoran bilan joy (Malibu Sun Club yoki «Uch palma» kabi) — qimmatroq. Bolalar kirishi odatda kattalarnikidan 20-50% arzonroq. Aniq narxni tegishli basseyn sahifasidan bilib oling — summa dam olish kunlari va ish kunlarida farq qilishi mumkin."
+        },
+        {
+          "heading": "Tanlashda nimalarga e'tibor berish kerak",
+          "list": [
+            "Ish mavsumi. Toshkentdagi ochiq basseynlarning ko'pchiligi may oyidan sentyabrgacha ishlaydi — sayohatdan oldin, ayniqsa mavsum boshida va oxirida, ochilish va yopilish sanalarini aniqlashtiring.",
+            "Avtoturargoh. Katalogdagi 18 tadan 13 tasida bor — mashinada borsangiz, oldindan tekshiring.",
+            "Hududda kafe yoki restoran. 18 tadan 11 tasida — agar u yerda butun kun o'tkazmoqchi bo'lsangiz, qulay.",
+            "Bolalar zonasi. Shahardagi ochiq basseynlarning yarmida bor (18 tadan 9 tasi) — 7-8 yoshgacha bo'lgan bolali oilalar uchun muhim.",
+            "To'lov formati. Ba'zi basseynlar suvga bepul kirish evaziga faqat shezlong yoki stol ijarasi uchun pul oladi (masalan, Malibu Sun Club) — bu katta kompaniyalar uchun tejamliroq bo'lishi mumkin."
+          ]
+        },
+        {
+          "heading": "Qaysi tumanlarda qidirish kerak",
+          "body": "Eng ko'p ochiq basseynlar Bektemir (4 ta obyekt) va Yashnobod (3 ta obyekt) tumanlarida joylashgan — shahar chekkasidagi keng hududlar basseynni dam olish zonasi bilan birga joylashtirishga imkon beradi. Yana bir qismi shahar tashqarisida, Toshkent viloyatida joylashgan — biroz uzoqroqqa borishga tayyor bo'lsangiz, tanlov kengroq."
+        },
+        {
+          "heading": "Qachon oldindan band qilish kerak",
+          "body": "Issiq oylarda (iyun-avgust) restoranli mashhur ochiq basseynlar dam olish kunlari to'lib qoladi — katta kompaniya bilan borsangiz, ayniqsa juma-shanba kunlari, joy borligini oldindan telefon orqali aniqlashtirgan ma'qul."
+        }
+      ]
+    },
+    "en": {
+      "intro": "Open-air pools are the most popular way to spend time by the water in Tashkent during the warm season. The catalog currently lists 18 such venues, and they differ noticeably in price, capacity and amenities — here's what to check before you go.",
+      "sections": [
+        {
+          "heading": "How much does entry cost in 2026",
+          "body": "A single visit to an open-air pool in Tashkent costs between 50,000 and 120,000 UZS for an adult — the price depends less on the pool itself and more on the format: simple lane-swimming entry is cheaper, while a spot with a lounger, a leisure zone and a restaurant (like Malibu Sun Club or Three Palms) costs more. Children's entry is usually 20-50% cheaper than adult. Check the current price on each pool's own page — it can differ between weekdays and weekends."
+        },
+        {
+          "heading": "What to check before choosing",
+          "list": [
+            "Season. Most open-air pools in Tashkent operate from May to September — confirm opening and closing dates before your trip, especially early or late in the season.",
+            "Parking. Available at 13 of the 18 venues in the catalog — check ahead if you're driving.",
+            "On-site cafe or restaurant. Found at 11 of the 18 pools — useful if you're planning to spend the whole day there.",
+            "Kids' zone. Present at half of the city's open-air pools (9 of 18) — important for families with children up to 7-8 years old.",
+            "Payment format. Some pools charge only for a lounger or table rental with free water access (e.g. Malibu Sun Club) — this can work out cheaper for larger groups."
+          ]
+        },
+        {
+          "heading": "Which districts to look in",
+          "body": "Most open-air pools are concentrated in the Bektemir (4 venues) and Yashnabad (3 venues) districts — spacious plots on the city outskirts allow a pool to be combined with a full leisure area. A few more venues are located outside the city, in the Tashkent region — if you're willing to travel a bit further, the choice widens."
+        },
+        {
+          "heading": "When to book ahead",
+          "body": "During the hot months (June-August), popular open-air pools with a restaurant fill up on weekends — if you're going with a large group, it's worth calling ahead to confirm availability, especially on Fridays and Saturdays."
+        }
+      ]
     }
   },
   "indoor": {
