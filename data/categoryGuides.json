@@ -413,6 +413,58 @@
           ]
         }
       ]
+    },
+    "uz": {
+      "intro": "Akvaparklar — ochiq basseynlardan keyingi eng katta ikkinchi toifa: katalogda 11 obyekt. Ammo ularning deyarli barchasi yozgi — qishda borishni rejalashtirsangiz, mavsumiylikni oldindan aniqlashtiring.",
+      "sections": [
+        {
+          "heading": "Faqat 2 tasi yil bo'yi ishlaydi",
+          "body": "Mirzo Ulug'bek tumanidagi MONACO va Sergeli tumanidagi «Quyoshli shahar» — shaharda qishda ham ishlaydigan yagona akvaparklar. Qolgan 9 tasi faqat issiq mavsumda, odatda may-sentyabr oralig'ida ochiq. MONACO shu bilan birga yopiq ham — bu qish o'rtasida gorkalarga chiqishni istasangiz yagona variant."
+        },
+        {
+          "heading": "Kirish narxi qancha",
+          "body": "Toshkent akvaparklarining narxlari sezilarli farq qiladi: «Toshkent Akvaparki»dagi 70 000 so'mlik kattalar chiptasidan MONACO'dagi 150 000 so'mgacha — bunga MONACO'ning yopiq va yil bo'yi ishlashi ham ta'sir qiladi. Bolalar chiptasi odatda kattalarnikidan taxminan ikki baravar arzon: obyektga qarab 35 000 dan 80 000 so'mgacha. Toifadagi qolgan akvaparklar bo'yicha narxlar hozircha to'ldirilmagan — joyida yoki telefon orqali aniqlashtiring."
+        },
+        {
+          "heading": "Qaysi tumanlarda qidirish kerak",
+          "body": "Eng ko'p akvaparklar Yunusobod va Sergeli tumanlarida to'plangan — har birida 3 tadan obyekt. Shaharning boshqa qismida yashasangiz, masofani oldindan tekshirib ko'ring — bular Toshkentning turli chekkalari."
+        },
+        {
+          "heading": "Odatda nima bor",
+          "list": [
+            "Bolalar zonasi — deyarli hamma joyda, 11 tadan 9 tasida: akvaparklar katalogdagi eng bolalarga yo'naltirilgan format.",
+            "Kafe — bu ham 11 tadan 9 tasida, u yerda butun kun o'tkazmoqchi bo'lsangiz qulay.",
+            "Avtoturargoh — 11 tadan 9 tasida.",
+            "Jakuzi — kamroq, 11 tadan 4 tasida, asosan premium majmualarda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Aquaparks are the second-largest category after open-air pools: 11 venues in the catalog. But almost all of them are seasonal — check the operating season before you go if you're planning a winter visit.",
+      "sections": [
+        {
+          "heading": "Only 2 of 11 operate year-round",
+          "body": "MONACO in the Mirzo-Ulugbek district and Solnechny Gorod in Sergeli are the only aquaparks in the city that stay open through winter. The other 9 operate only during the warm season, usually May through September. MONACO is also indoor — the only option if you want water slides in the middle of winter."
+        },
+        {
+          "heading": "How much does entry cost",
+          "body": "Prices at Tashkent's aquaparks vary noticeably: from 70,000 UZS for an adult ticket at Tashkent Aquapark up to 150,000 UZS at MONACO — partly a reflection of MONACO being indoor and year-round. A child's ticket is usually about half the adult price: 35,000 to 80,000 UZS depending on the venue. Prices for the other aquaparks in the category aren't filled in yet — check on-site or by phone."
+        },
+        {
+          "heading": "Which districts to look in",
+          "body": "Most aquaparks are concentrated in the Yunusabad and Sergeli districts — 3 venues each. If you live in a different part of the city, check the distance ahead of time — these are opposite ends of Tashkent."
+        },
+        {
+          "heading": "What's usually included",
+          "list": [
+            "Kids' zone — at almost every venue, 9 of 11: aquaparks are the most child-oriented format in the catalog.",
+            "Cafe — also at 9 of 11, convenient if you're planning to spend the whole day there.",
+            "Parking — at 9 of 11 venues.",
+            "Jacuzzi — less common, at 4 of 11, mostly at the more premium complexes."
+          ]
+        }
+      ]
     }
   }
 }
