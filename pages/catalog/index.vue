@@ -6,6 +6,9 @@
       <h1 class="text-2xl sm:text-3xl font-bold text-gray-900">{{ $t('catalog.title') }}</h1>
     </div>
 
+    <!-- Category links -->
+    <CatalogCategoryLinks />
+
     <!-- Sort bar -->
     <CatalogSortBar :total="total" class="mb-5" />
 
