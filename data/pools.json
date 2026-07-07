@@ -4026,9 +4026,33 @@
     "gallery": [
       "/images/pools/academy-athletica-fitness-complex/1.jpg",
       "/images/pools/academy-athletica-fitness-complex/2.jpg",
-      "/images/pools/academy-athletica-fitness-complex/3.jpg"
+      "/images/pools/academy-athletica-fitness-complex/3.jpg",
+      "/images/pools/academy-athletica-fitness-complex/4.webp",
+      "/images/pools/academy-athletica-fitness-complex/5.jpg",
+      "/images/pools/academy-athletica-fitness-complex/6.jpg"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_single",
+        "amount": 700000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.morning",
+        "amount": 2300000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly",
+        "amount": 2800000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.group",
+        "amount": 300000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
