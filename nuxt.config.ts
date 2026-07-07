@@ -46,6 +46,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: "ru" },
+      meta: [
+        { name: "yandex-verification", content: "e29d998d92d9cc06" },
+      ],
       link: [
         { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
