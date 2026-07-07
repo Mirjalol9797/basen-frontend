@@ -12,7 +12,7 @@ export interface RawGuide {
   slug: string
   poolSlugs: string[]
   publishedAt: string
-  translations: Record<Locale, GuideTranslation>
+  translations: Partial<Record<Locale, GuideTranslation>> & { ru: GuideTranslation }
 }
 
 export interface Guide extends GuideTranslation {
