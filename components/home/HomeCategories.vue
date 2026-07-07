@@ -9,11 +9,11 @@
       </div>
 
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-        <button
+        <NuxtLink
           v-for="cat in categories"
           :key="cat.id"
+          :to="localePath(`/category/${cat.id}`)"
           class="group relative flex flex-col items-center text-center p-4 sm:p-5 bg-white rounded-2xl shadow-card hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-200 cursor-pointer border border-transparent hover:border-primary-100"
-          @click="goToCategory(cat.id)"
         >
           <!-- Icon circle -->
           <div
@@ -44,18 +44,14 @@
           >
             {{ countByCategory[cat.id] }} бассейнов
           </span>
-        </button>
+        </NuxtLink>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import type { PoolCategory } from '~/types/pool'
-
 const localePath = useLocalePath()
-const router = useRouter()
-const filtersStore = useFiltersStore()
 const poolsStore = usePoolsStore()
 const { categories } = useCategories()
 
@@ -77,8 +73,4 @@ const iconPaths: Record<string, string> = {
   default:  'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 0 0 1 1h3m10-11 2 2m-2-2v10a1 1 0 0 1-1 1h-3m-6 0a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1m-6 0h6',
 }
 
-const goToCategory = (categoryId: string) => {
-  filtersStore.active.categories = [categoryId as PoolCategory]
-  router.push(localePath('/catalog'))
-}
 </script>
