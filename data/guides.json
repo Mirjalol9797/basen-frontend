@@ -152,5 +152,42 @@
         "conclusion": "9 of the 11 aquaparks operate only in the warm season, from May to September — if you're planning a winter trip, the only real option with slides is MONACO. For other months, confirm the season's opening dates ahead of time, especially in May and September, when hours can be reduced."
       }
     }
+  },
+  {
+    "slug": "hotel-pools-tashkent-non-guests",
+    "poolSlugs": [
+      "grand-serena-pool",
+      "mekhnat",
+      "villa-grand",
+      "garden-bar",
+      "le-grand-de-plaza",
+      "tashkent-palace",
+      "radisson",
+      "zerom"
+    ],
+    "publishedAt": "2026-07-08T00:00:00Z",
+    "translations": {
+      "ru": {
+        "title": "Бассейны при отелях Ташкента: можно ли попасть не гостю",
+        "excerpt": "Все 8 отельных бассейнов города — и что нужно знать, если вы не живёте в отеле, а просто хотите поплавать.",
+        "metaDescription": "Бассейны при отелях Ташкента: можно ли посетить не будучи постояльцем, сколько это стоит и как узнать точные условия. Обзор всех 8 объектов.",
+        "intro": "В большинстве городов мира бассейн при отеле — это привилегия только для постояльцев. В Ташкенте практика другая: большинство из 8 отельных бассейнов каталога продают разовый вход и внешним посетителям, не только гостям отеля. Но это не универсальное правило — условия у каждого отеля свои и могут меняться, например по сезону или загрузке отеля, а на сайте это обычно не публикуется, поэтому надёжнее всего позвонить и спросить напрямую. Из всех 8 объектов только у Grand Serena Hotel Pool в Яккасарайском районе в базе указана точная цена разового посещения — 150 000 сум, один из самых дорогих бассейнов в каталоге. По остальным семи — Aqua Bar при Radisson Blu, Garden Bar Pool при Wyndham, Villa Grand при Grand Mir, Lotte City Hotel Tashkent Palace, Le Grand De Plaza, «Мехнат» и Zerom — цены не опубликованы. Стоит также разделять формат: часть бассейнов — круглогодичные закрытые спа-зоны (Grand Serena, «Мехнат», Lotte City Tashkent Palace, Le Grand De Plaza, Zerom), куда пускают в любой сезон, а часть — сезонные летние бар-бассейны на территории отеля (Aqua Bar при Radisson Blu, Garden Bar Pool при Wyndham, Villa Grand), которые работают только с мая по сентябрь и рассчитаны больше на отдых с напитками, чем на плавание.",
+        "conclusion": "Если цель — не просто искупаться, а провести день с шезлонгом, баром и террасой, сезонные отельные бар-бассейны обычно выигрывают по атмосфере. Если нужен именно бассейн для плавания в любую погоду — выбирайте круглогодичные спа-варианты вроде Grand Serena."
+      },
+      "uz": {
+        "title": "Toshkent mehmonxonalaridagi basseynlar: mehmon bo'lmasangiz ham borish mumkinmi",
+        "excerpt": "Shahardagi barcha 8 ta mehmonxona basseyni — va agar mehmonxonada yashamasangiz, shunchaki suzmoqchi bo'lsangiz, nimalarni bilish kerak.",
+        "metaDescription": "Toshkent mehmonxonalaridagi basseynlar: mehmon bo'lmasdan borish mumkinmi, bu qancha turadi va aniq shartlarni qanday bilib olish mumkin. Barcha 8 obyekt sharhi.",
+        "intro": "Dunyoning ko'pchilik shaharlarida mehmonxonadagi basseyn — faqat mehmonlarga xos imtiyoz. Toshkentda amaliyot boshqacha: katalogdagi 8 ta mehmonxona basseynining ko'pchiligi tashqi tashrif buyuruvchilarga ham bir martalik kirishni sotadi, nafaqat mehmonxona mehmonlariga. Ammo bu universal qoida emas — har bir mehmonxonaning o'z shartlari bor va ular o'zgarishi mumkin, masalan mavsumga yoki mehmonxona bandligiga qarab, bu esa odatda saytda e'lon qilinmaydi, shuning uchun eng ishonchlisi — qo'ng'iroq qilib to'g'ridan-to'g'ri so'rash. Barcha 8 obyektdan faqat Grand Serena Hotel Pool'da (Yakkasaroy tumani) bir martalik tashrifning aniq narxi ko'rsatilgan — 150 000 so'm, katalogdagi eng qimmat basseynlardan biri. Qolgan yettitasi — Radisson Blu'dagi Aqua Bar, Wyndham'dagi Garden Bar Pool, Grand Mir'dagi Villa Grand, Lotte City Hotel Tashkent Palace, Le Grand De Plaza, «Mehnat» va Zerom — bo'yicha narxlar e'lon qilinmagan. Formatni ham ajratib olish kerak: basseynlarning bir qismi — yil bo'yi ishlaydigan yopiq spa-zonalar (Grand Serena, «Mehnat», Lotte City Tashkent Palace, Le Grand De Plaza, Zerom), ularga istalgan mavsumda kirish mumkin, boshqa qismi esa — mehmonxona hududidagi mavsumiy yozgi bar-basseynlar (Radisson Blu'dagi Aqua Bar, Wyndham'dagi Garden Bar Pool, Villa Grand), ular faqat may-sentyabr oralig'ida ishlaydi va ko'proq ichimlik bilan dam olishga mo'ljallangan.",
+        "conclusion": "Agar maqsad shunchaki cho'milish emas, balki shezlong, bar va terrasa bilan kun o'tkazish bo'lsa, mavsumiy mehmonxona bar-basseynlari odatda atmosfera bo'yicha yutadi. Agar istalgan ob-havoda suzish uchun aynan basseyn kerak bo'lsa — Grand Serena kabi yil bo'yi ishlaydigan spa-variantlarni tanlang."
+      },
+      "en": {
+        "title": "Hotel pools in Tashkent: can you visit without staying there",
+        "excerpt": "All 8 hotel pools in the city — and what to know if you're not a guest and just want to swim.",
+        "metaDescription": "Hotel pools in Tashkent: can non-guests visit, how much it costs, and how to find out the exact terms. A review of all 8 venues.",
+        "intro": "In most cities around the world, a hotel pool is a guest-only perk. Tashkent works differently: most of the 8 hotel pools in the catalog sell single-visit access to outside visitors too, not just hotel guests. But it's not a universal rule — each hotel sets its own terms, and they can change, for example by season or hotel occupancy, and this usually isn't published anywhere, so the most reliable approach is to call and ask directly. Of all 8 venues, only Grand Serena Hotel Pool in the Yakkasaray district has an exact single-visit price listed — 150,000 UZS, one of the most expensive pools in the whole catalog. Prices for the other seven — Aqua Bar at Radisson Blu, Garden Bar Pool at Wyndham, Villa Grand at Grand Mir, Lotte City Hotel Tashkent Palace, Le Grand De Plaza, Mekhnat, and Zerom — aren't published. It's also worth distinguishing the format: some pools are year-round indoor spa zones (Grand Serena, Mekhnat, Lotte City Tashkent Palace, Le Grand De Plaza, Zerom) that accept visitors in any season, while others are seasonal summer bar-pools on hotel grounds (Aqua Bar at Radisson Blu, Garden Bar Pool at Wyndham, Villa Grand) open only from May to September and built more for lounging with a drink than for actual swimming.",
+        "conclusion": "If the goal is to spend a day with a lounger, a bar and a terrace rather than just swim, the seasonal hotel bar-pools usually win on atmosphere. If you specifically need a pool to swim in regardless of weather, go for a year-round spa option like Grand Serena."
+      }
+    }
   }
 ]
