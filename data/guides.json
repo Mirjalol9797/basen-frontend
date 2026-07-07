@@ -20,6 +20,20 @@
         "metaDescription": "Рейтинг лучших бассейнов Ташкента 2026 по отзывам и оценкам: спортивные, детские, аквапарки, открытые и крытые. Проверенные варианты с реальными отзывами посетителей.",
         "intro": "Рейтинг ниже — не просто топ по звёздам. Мы ранжировали бассейны по сочетанию оценки и количества реальных отзывов, чтобы наверху не оказались объекты с высоким рейтингом, но без единого отзыва. В список попали 9 бассейнов из всех 6 категорий каталога — от спортивного комплекса со 124 отзывами до детского бассейна с почти сотней впечатлений от родителей.",
         "conclusion": "Это не статичный список — рейтинг обновляется по мере того, как в каталоге появляются новые отзывы и бассейны. Если вашего любимого бассейна здесь нет, а отзывов на его странице пока мало — оставьте свой, это поможет рейтингу стать точнее."
+      },
+      "uz": {
+        "title": "Toshkentning eng yaxshi basseynlari 2026 — sharhlar bo'yicha reyting",
+        "excerpt": "Eng ko'p real sharhga va yuqori reytingga ega 9 ta basseyn — katalogning barcha toifalaridan.",
+        "metaDescription": "Toshkent basseynlarining 2026-yilgi reytingi: sport, bolalar, akvaparklar, ochiq va yopiq. Tashrif buyuruvchilarning real sharhlariga asoslangan tekshirilgan variantlar.",
+        "intro": "Quyidagi reyting — shunchaki yulduzlar bo'yicha top emas. Biz basseynlarni baho va real sharhlar sonining kombinatsiyasi bo'yicha saraladik, shunda yuqori reytingga ega, lekin birorta ham sharhi yo'q obyektlar tepaga chiqib qolmasin. Ro'yxatga katalogning barcha 6 toifasidan 9 ta basseyn kirdi — 124 sharhga ega sport majmuasidan tortib, deyarli yuzta ota-ona fikriga ega bolalar basseynigacha.",
+        "conclusion": "Bu statik ro'yxat emas — katalogda yangi sharhlar va basseynlar paydo bo'lishi bilan reyting yangilanib boradi. Agar sevimli basseyningiz bu yerda bo'lmasa va uning sahifasida hali kam sharh bo'lsa — o'zingizniki qoldiring, bu reytingni aniqroq qilishga yordam beradi."
+      },
+      "en": {
+        "title": "Best pools in Tashkent 2026 — ranked by reviews",
+        "excerpt": "9 pools with the highest number of real reviews and top ratings — from every category in the catalog.",
+        "metaDescription": "Best pools in Tashkent 2026, ranked by ratings and reviews: sport, children's, aquaparks, open-air and indoor. Vetted picks backed by real visitor reviews.",
+        "intro": "The ranking below isn't just a top list by star rating. We ranked pools by a combination of rating and the number of real reviews, so venues with a high rating but zero reviews don't end up at the top. The list includes 9 pools from all 6 categories in the catalog — from a sport complex with 124 reviews to a children's pool with nearly a hundred parent impressions.",
+        "conclusion": "This isn't a static list — the ranking updates as new reviews and pools appear in the catalog. If your favorite pool isn't here and its page doesn't have many reviews yet, leave your own — it'll help make the ranking more accurate."
       }
     }
   },
