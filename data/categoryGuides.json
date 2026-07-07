@@ -333,6 +333,58 @@
           "body": "Полные данные по ценам пока заполнены только у Grand Serena: разовое посещение — 150 000 сум, утренний сеанс — 100 000 сум, месячный абонемент — 1 200 000 сум — это самый дорогой абонемент среди всех категорий каталога. По остальным 7 объектам уточняйте цены напрямую."
         }
       ]
+    },
+    "uz": {
+      "intro": "Mehmonxonalardagi basseynlar — ochiq basseynlardan keyingi eng katta toifa: katalogda 8 ta obyekt. Va barcha 8 tasida avtoturargoh bor — bu ko'rsatkich bo'yicha yuz foiz qamrovga ega yagona toifa.",
+      "sections": [
+        {
+          "heading": "Ikki format: mehmonxona spa-basseyni yoki yozgi suv bo'yidagi bar",
+          "body": "Mehmonxona basseynlarining bir qismi — Grand Serena kabi jakuzi, sauna va spa bilan yil bo'yi ishlaydigan spa-zonalar, yoki Lotte City Hotel Tashkent Palace. Boshqa qismi — mehmonxona hududidagi mavsumiy yozgi bar-basseynlar, masalan Radisson Blu Tashkent'dagi Aqua Bar yoki Wyndham'dagi Garden Bar Pool: ular faqat yozda ochiq va ko'proq suzishga emas, suv bo'yida ichimlik bilan dam olishga mo'ljallangan. Borishdan oldin formatni aniqlashtiring — bu ikki xil sabab bilan borish."
+        },
+        {
+          "heading": "Faqat mehmonlar uchun emas",
+          "body": "Toshkentdagi mehmonxona basseynlarining ko'pchiligi tashqi tashrif buyuruvchilar uchun ham alohida to'lov evaziga ochiq, nafaqat mehmonlar uchun — bu Grand Serena'ga ham, Radisson Blu'ga ham, Wyndham'ga ham tegishli. Lekin buni oldindan telefon orqali aniqlashtirgan ma'qul, ayniqsa maxsus borsangiz."
+        },
+        {
+          "heading": "Odatda nima bor",
+          "list": [
+            "Avtoturargoh — toifadagi barcha 8 obyektda bor, bunday qamrovga ega yagona toifa.",
+            "Kafe yoki restoran — 8 tadan 5 tasida, odatda basseyn yonidagi terrasa bilan birlashtirilgan.",
+            "Sauna — 8 tadan 3 tasida, ko'proq yil bo'yi ishlaydigan spa-basseynlarda.",
+            "Murabbiy — 8 tadan 3 tasida, agar shunchaki cho'milish emas, instruktor bilan mashg'ulot qilmoqchi bo'lsangiz."
+          ]
+        },
+        {
+          "heading": "Narxi qancha",
+          "body": "To'liq narx ma'lumotlari hozircha faqat Grand Serena'da to'ldirilgan: bir martalik tashrif — 150 000 so'm, ertalabki seans — 100 000 so'm, oylik obuna — 1 200 000 so'm — bu katalogdagi barcha toifalar orasida eng qimmat obuna. Qolgan 7 obyekt bo'yicha narxlarni to'g'ridan-to'g'ri aniqlashtiring."
+        }
+      ]
+    },
+    "en": {
+      "intro": "Hotel pools are the second-largest category after open-air pools: 8 venues in the catalog. And all 8 have parking — the only category with 100% coverage on that point.",
+      "sections": [
+        {
+          "heading": "Two formats: hotel spa pool or a summer bar by the water",
+          "body": "Some hotel pools are year-round spa zones, like Grand Serena with its jacuzzi, sauna and spa, or Lotte City Hotel Tashkent Palace. Others are seasonal summer bar-pools on hotel grounds, like Aqua Bar at Radisson Blu Tashkent or Garden Bar Pool at Wyndham: these are open in summer only and are built more for lounging with a drink by the water than for actual swimming. Check the format before you go — these are two different reasons to visit."
+        },
+        {
+          "heading": "Open to more than just hotel guests",
+          "body": "Most hotel pools in Tashkent are open to outside visitors for a separate fee, not just to guests — this applies to Grand Serena, Radisson Blu and Wyndham alike. But it's worth confirming by phone ahead of time, especially if you're going specifically for the pool."
+        },
+        {
+          "heading": "What's usually included",
+          "list": [
+            "Parking — available at all 8 venues in the category, the only category with this level of coverage.",
+            "Cafe or restaurant — at 5 of 8, usually combined with a terrace by the pool.",
+            "Sauna — at 3 of 8, more common at year-round spa pools.",
+            "Coach — at 3 of 8, if you want more than a swim — actual training with an instructor."
+          ]
+        },
+        {
+          "heading": "How much it costs",
+          "body": "Full price data is filled in only for Grand Serena so far: a single visit is 150,000 UZS, a morning session is 100,000 UZS, and a monthly membership is 1,200,000 UZS — the most expensive membership across every category in the catalog. For the other 7 venues, check prices directly."
+        }
+      ]
     }
   },
   "aquapark": {
