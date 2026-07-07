@@ -19,24 +19,43 @@ const manifest = new Set(
   })()
 )
 
+// Tiled diagonal pattern so the mark survives being cropped to any
+// aspect ratio (hero 16:7, cards 4:3, thumbnails ~1.43, etc.) — a single
+// corner mark gets cut off when a near-square source is center-cropped
+// to a wide banner.
 function svgWatermark(width, height) {
-  const fontSize = Math.max(16, Math.round(width / 20))
-  const strokeWidth = Math.max(2, Math.round(fontSize / 9))
-  const paddingX = Math.round(fontSize * 0.9)
-  const paddingY = Math.round(fontSize * 1.3)
+  const fontSize = Math.max(14, Math.round(Math.min(width, height) / 13))
+  const strokeWidth = Math.max(1, Math.round(fontSize / 12))
+  const stepX = fontSize * 7
+  const stepY = fontSize * 5
+
+  const diagonal = Math.ceil(Math.sqrt(width * width + height * height))
+  const texts = []
+  let row = 0
+  for (let y = 0; y < diagonal + stepY; y += stepY) {
+    const offsetX = row % 2 === 0 ? 0 : stepX / 2
+    for (let x = 0; x < diagonal + stepX; x += stepX) {
+      texts.push(
+        `<text x="${x + offsetX}" y="${y}" text-anchor="middle">${TEXT}</text>`
+      )
+    }
+    row++
+  }
+
   return Buffer.from(`
     <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
-      <text
-        x="${width - paddingX}" y="${paddingY}"
-        text-anchor="end"
+      <g
         font-family="Arial, Helvetica, sans-serif"
         font-weight="700"
         font-size="${fontSize}"
-        fill="rgba(255,255,255,0.9)"
-        stroke="rgba(0,0,0,0.45)"
+        fill="rgba(255,255,255,0.32)"
+        stroke="rgba(0,0,0,0.18)"
         stroke-width="${strokeWidth}"
         paint-order="stroke fill"
-      >${TEXT}</text>
+        transform="translate(${width / 2}, ${height / 2}) rotate(-28) translate(${-diagonal / 2}, ${-diagonal / 2})"
+      >
+        ${texts.join('\n        ')}
+      </g>
     </svg>
   `)
 }
