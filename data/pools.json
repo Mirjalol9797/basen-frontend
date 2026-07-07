@@ -1743,15 +1743,25 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.092261,
-      "lng": 69.057497
+      "lat": 41.087344,
+      "lng": 69.056492
     },
     "phone": "+998 99 513-00-06",
     "telegram": null,
     "website": null,
     "gallery": [
       "/images/pools/aladdin/1.jpg",
-      "/images/pools/aladdin/2.jpg"
+      "/images/pools/aladdin/2.jpg",
+      "/images/pools/aladdin/3.webp",
+      "/images/pools/aladdin/4.webp",
+      "/images/pools/aladdin/5.webp",
+      "/images/pools/aladdin/6.webp",
+      "/images/pools/aladdin/7.webp",
+      "/images/pools/aladdin/8.webp",
+      "/images/pools/aladdin/9.webp",
+      "/images/pools/aladdin/10.webp",
+      "/images/pools/aladdin/11.webp",
+      "/images/pools/aladdin/12.webp"
     ],
     "prices": [
       {
