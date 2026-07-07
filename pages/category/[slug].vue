@@ -100,6 +100,21 @@
           </p>
         </div>
       </div>
+
+      <!-- Other categories -->
+      <div class="container py-8 border-t border-gray-100">
+        <h2 class="text-lg font-bold text-gray-900 mb-4">{{ $t('category.other_categories') }}</h2>
+        <div class="flex flex-wrap gap-2">
+          <NuxtLink
+            v-for="c in otherCategories"
+            :key="c.id"
+            :to="localePath(`/category/${c.id}`)"
+            class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 text-gray-600 hover:border-primary-300 hover:text-primary-700 hover:bg-primary-50 transition-all duration-150"
+          >
+            {{ c.name }}
+          </NuxtLink>
+        </div>
+      </div>
     </template>
   </div>
 </template>
@@ -123,6 +138,10 @@ const pools = computed(() =>
   poolsStore.all
     .filter((p) => p.category === (slug as PoolCategory))
     .sort((a, b) => b.rating - a.rating)
+);
+
+const otherCategories = computed(() =>
+  categories.value.filter((c) => c.id !== slug)
 );
 
 const seoText = computed(() => {
