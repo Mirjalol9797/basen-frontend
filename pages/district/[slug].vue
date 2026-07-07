@@ -85,6 +85,23 @@
           <PoolCard v-for="pool in pools" :key="pool.id" :pool="pool" />
         </div>
 
+        <!-- Related guide articles -->
+        <div v-if="relatedGuides.length > 0" class="mt-12">
+          <h2 class="text-lg font-bold text-gray-900 mb-4">
+            {{ $t("district.related_guides") }}
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            <NuxtLink
+              v-for="g in relatedGuides"
+              :key="g.slug"
+              :to="localePath(`/guide/${g.slug}`)"
+              class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 text-gray-600 hover:border-primary-300 hover:text-primary-700 hover:bg-primary-50 transition-all duration-150"
+            >
+              {{ g.title }}
+            </NuxtLink>
+          </div>
+        </div>
+
         <!-- Footer link to other districts -->
         <div class="mt-12 pt-8 border-t border-gray-100">
           <h2 class="text-lg font-bold text-gray-900 mb-4">
@@ -133,6 +150,15 @@ const pools = computed(() =>
 const otherDistricts = computed(() =>
   districts.value.filter((d) => d.id !== slug)
 );
+
+const { guides } = useGuides();
+
+const relatedGuides = computed(() => {
+  const districtPoolSlugs = new Set(pools.value.map((p) => p.slug));
+  return guides.value.filter((g) =>
+    g.poolSlugs.some((s) => districtPoolSlugs.has(s))
+  );
+});
 
 const districtSeoTextMap: Record<string, string> = {
   yunusabad:
