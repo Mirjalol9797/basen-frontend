@@ -49,6 +49,10 @@ export default defineNuxtConfig({
       meta: [
         { name: "yandex-verification", content: "e29d998d92d9cc06" },
       ],
+      script: [
+        { src: "https://www.googletagmanager.com/gtag/js?id=G-YBT2XJ63F5", async: true },
+        { children: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YBT2XJ63F5');" },
+      ],
       link: [
         { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
