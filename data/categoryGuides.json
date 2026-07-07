@@ -253,6 +253,58 @@
           "body": "Полные данные по ценам заполнены пока только у «Олимпийского спорткомплекса»: разовое посещение — 60 000 сум, утренний сеанс дешевле — 40 000 сум, месячный абонемент — 450 000 сум, групповое занятие — 35 000 сум. По остальным трём объектам категории уточняйте цены напрямую — звонком или в Telegram."
         }
       ]
+    },
+    "uz": {
+      "intro": "Katalogda sport basseynlari hozircha 4 ta, va ular boshqa toifalarda unchalik muhim bo'lmagan bir parametr — yo'lak uzunligi bo'yicha keskin farq qiladi.",
+      "sections": [
+        {
+          "heading": "Basseyn uzunligi — birinchi navbatda nimaga qarash kerak",
+          "body": "Toshkentning sport basseynlari uzunligi bo'yicha deyarli uch marta farq qiladi: Chekhov Sport Club'dagi 19 metrdan Shayxontohur tumanidagi JAR majmuasidagi to'liq 50 metrgacha (olimpiya uzunligi). Mirzo Ulug'bek tumanidagi «Olimpiya sport majmuasi» — 25 metr, shahardagi ko'pchilik basseynlar uchun standart uzunlik. Musobaqaga tayyorlanayotgan bo'lsangiz yoki tez-tez burilmasdan uzoq masofada suzmoqchi bo'lsangiz — sayohatdan oldin basseyn uzunligini aniqlashtiring, farq sezilarli."
+        },
+        {
+          "heading": "Yil bo'yi yoki faqat yozda",
+          "body": "Sport basseynlarining 4 tadan 3 tasi yil bo'yi ishlaydi — bu mavsumiylik deyarli muammo bo'lmagan kamdan-kam toifalardan biri. Istisno — Mirzo Ulug'bek tumanidagi Yoshlik, u faqat yozda ochiq."
+        },
+        {
+          "heading": "Murabbiy va boshqa xizmatlar",
+          "list": [
+            "Murabbiy yoki instruktor — 4 tadan 3 tasida bor, agar shunchaki yo'lak emas, professional bilan mashg'ulot kerak bo'lsa.",
+            "Bolalar zonasi — bu ham 4 tadan 3 tasida bor, Toshkentning sport basseynlari faqat kattalar sportchilari uchun emas.",
+            "Avtoturargoh — 4 tadan 3 tasida bor.",
+            "Sauna — faqat «Olimpiya sport majmuasi»da."
+          ]
+        },
+        {
+          "heading": "Narxi qancha",
+          "body": "To'liq narx ma'lumotlari hozircha faqat «Olimpiya sport majmuasi»da to'ldirilgan: bir martalik tashrif — 60 000 so'm, ertalabki seans arzonroq — 40 000 so'm, oylik obuna — 450 000 so'm, guruh mashg'uloti — 35 000 so'm. Toifadagi qolgan uchta obyekt bo'yicha narxlarni to'g'ridan-to'g'ri — qo'ng'iroq qilib yoki Telegram orqali aniqlashtiring."
+        }
+      ]
+    },
+    "en": {
+      "intro": "There are 4 sport pools in the catalog so far, and they vary sharply on a factor that doesn't matter much in other categories — lane length.",
+      "sections": [
+        {
+          "heading": "Pool length — the first thing to check",
+          "body": "Sport pools in Tashkent differ in length by almost threefold: from 19 meters at Chekhov Sport Club to a full 50 meters (Olympic length) at the JAR complex in the Shayhontohur district. The Olympic Sports Complex in Mirzo-Ulugbek is 25 meters, the standard length for most pools in the city. If you're training for competition or want to swim long distances without frequent turns, check the pool length before you go — the difference is significant."
+        },
+        {
+          "heading": "Year-round or summer only",
+          "body": "3 of the 4 sport pools operate year-round — one of the few categories where seasonality is barely an issue. The exception is Yoshlik in the Mirzo-Ulugbek district, which is open in summer only."
+        },
+        {
+          "heading": "Coaching and other amenities",
+          "list": [
+            "Coach or instructor — available at 3 of 4 venues, if you need more than just a lane — actual training with a professional.",
+            "Kids' zone — also present at 3 of 4; sport pools in Tashkent aren't only for adult athletes.",
+            "Parking — available at 3 of 4 venues.",
+            "Sauna — only at the Olympic Sports Complex."
+          ]
+        },
+        {
+          "heading": "How much it costs",
+          "body": "Full price data is filled in only for the Olympic Sports Complex so far: a single visit is 60,000 UZS, a cheaper morning session is 40,000 UZS, a monthly membership is 450,000 UZS, and a group class is 35,000 UZS. For the other three venues in the category, check prices directly — by phone or on Telegram."
+        }
+      ]
     }
   },
   "hotel": {
