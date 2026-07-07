@@ -98,6 +98,9 @@ const faqItems = computed(() => [
   { q: t('faq.q4'), a: t('faq.a4') },
   { q: t('faq.q5'), a: t('faq.a5') },
   { q: t('faq.q6'), a: t('faq.a6') },
+  { q: t('faq.q7'), a: t('faq.a7') },
+  { q: t('faq.q8'), a: t('faq.a8') },
+  { q: t('faq.q9'), a: t('faq.a9') },
 ])
 
 const openIndex = ref<number | null>(0)
@@ -105,4 +108,37 @@ const openIndex = ref<number | null>(0)
 const toggle = (index: number) => {
   openIndex.value = openIndex.value === index ? null : index
 }
+
+const BASE_URL = 'https://basen.uz'
+
+watchEffect(() => {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.value.map(item => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  }
+
+  const breadcrumb = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t('nav.home'), item: BASE_URL },
+      { '@type': 'ListItem', position: 2, name: t('nav.faq'), item: `${BASE_URL}/faq` },
+    ],
+  }
+
+  useHead({
+    script: [
+      { type: 'application/ld+json', children: JSON.stringify(schema), key: 'schema-faq' },
+      { type: 'application/ld+json', children: JSON.stringify(breadcrumb), key: 'schema-breadcrumb' },
+    ],
+  })
+})
 </script>

@@ -223,7 +223,7 @@
     "title": "Ko'p so'raladigan savollar",
     "subtitle": "Toshkent basseynlari haqida mashhur savollarga javoblar",
     "meta_title": "FAQ — Toshkent basseynlari: narxlar, obuna, ish vaqti | Basen.uz",
-    "meta_desc": "Toshkent basseynlari haqida 6 ta savol: o'rtacha narxlar, obuna qanday sotib olinadi, ochiq va yopiq basseynlar 2026 yilda qachon ishlaydi.",
+    "meta_desc": "Toshkent basseynlari haqida 9 ta savol: o'rtacha narxlar, obuna, qishda qayerda suzish mumkin, bepul basseynlar bormi — 2026 yil uchun.",
     "q1": "Eng yaqin basseynni qanday topish mumkin?",
     "a1": "«Xarita» sahifasini oching — barcha basseynlar interaktiv xaritada ko'rsatilgan. Kategoriya bo'yicha filtrlash va kerakli joyga nisbatan joylashuvni ko'rish mumkin.",
     "q2": "Bir martalik tashrif narxi qancha?",
@@ -235,7 +235,13 @@
     "q5": "Ochiq basseynlar qachon ishlaydi?",
     "a5": "Toshkentdagi ochiq basseynlar odatda may oyidan sentyabr oyigacha ishlaydi. Yopiq basseynlar va akvapark yil bo'yi ishlaydi.",
     "q6": "Saytga o'z basseynimni qanday qo'shaman?",
-    "a6": "Bizga Telegramda yozing — ma'lumotni tekshirib, basseynni katalogga bepul qo'shamiz."
+    "a6": "Bizga Telegramda yozing — ma'lumotni tekshirib, basseynni katalogga bepul qo'shamiz.",
+    "q7": "Toshkentda qishda qayerda suzsa bo'ladi?",
+    "a7": "Qishda ochiq mavsumiy basseynlar yopiladi, ammo yopiq basseynlar va isitiladigan akvaparklar ishlashda davom etadi — masalan, Mirzo Ulug'bek tumanidagi MONACO yoki Yunusobod tumanidagi 'Suv sporti saroyi'. Katalogda jami taxminan 18 ta yil bo'yi ishlaydigan obyekt bor — barcha variantlarni ko'rish uchun katalogni 'Yil bo'yi' mavsumi bo'yicha filtrlang.",
+    "q8": "Toshkentda bepul basseynlar bormi?",
+    "a8": "To'liq bepul basseynlar kam — masalan, Malibu Sun Club'ga kirish bepul, faqat shezlong yoki stol ijarasi to'lanadi. Ko'pchilik hollarda basseynga kirish uchun pul to'lash kerak, lekin bolalar va ochiq basseynlar narxi odatda sport komplekslari va mehmonxona basseynlariga qaraganda pastroq.",
+    "q9": "Toshkentda basseyn obunasi oyiga qancha turadi?",
+    "a9": "Oylik obuna odatda 350 000 dan 1 200 000 so'mgacha, basseyn, xizmat darajasi va murabbiy bilan mashg'ulotlar kiritilganligiga qarab farq qiladi. Aniq narxni tegishli basseyn sahifasidagi 'Narxlar' bo'limidan bilib oling."
   },
   "contacts": {
     "title": "Aloqa",
