@@ -129,6 +129,8 @@
     "back": "Orqaga",
     "all_photos": "Barcha rasmlar ({count})",
     "similar": "O'xshash basseynlar",
+    "other_in_district": "{district} tumanidagi boshqa basseynlar",
+    "see_all_in_district": "Tumandagi barcha basseynlar",
     "no_results": "Hech narsa topilmadi",
     "no_results_desc": "Filtrlarni o'zgartirib ko'ring",
     "reset_filters": "Filtrlarni tozalash",

@@ -129,6 +129,8 @@
     "back": "Назад",
     "all_photos": "Все фото ({count})",
     "similar": "Похожие бассейны",
+    "other_in_district": "Другие бассейны {district}",
+    "see_all_in_district": "Все бассейны района",
     "no_results": "Ничего не найдено",
     "no_results_desc": "Попробуйте изменить фильтры",
     "reset_filters": "Сбросить фильтры",

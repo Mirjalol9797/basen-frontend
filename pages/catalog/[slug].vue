@@ -198,6 +198,9 @@
 
         <!-- Similar pools -->
         <PoolSimilar :pools="similar" />
+
+        <!-- Other pools in the same district -->
+        <PoolDistrictPools v-if="pool.district" :pools="sameDistrict" :district="pool.district" />
       </div>
     </template>
   </div>
@@ -209,7 +212,7 @@ const { t } = useI18n()
 const localePath = useLocalePath()
 
 const slug = route.params.slug as string
-const { pool, similar } = usePool(slug)
+const { pool, similar, sameDistrict } = usePool(slug)
 const { getDistrictName } = useDistricts()
 
 const todayEntry = computed(() => pool.value ? getTodayEntry(pool.value.schedule) : null)

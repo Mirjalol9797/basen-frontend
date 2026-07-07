@@ -129,6 +129,8 @@
     "back": "Back",
     "all_photos": "All photos ({count})",
     "similar": "Similar pools",
+    "other_in_district": "Other pools in {district}",
+    "see_all_in_district": "All pools in this district",
     "no_results": "Nothing found",
     "no_results_desc": "Try changing the filters",
     "reset_filters": "Reset filters",
