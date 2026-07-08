@@ -2878,15 +2878,22 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2264,
-      "lng": 69.3685
+      "lat": 41.223829,
+      "lng": 69.367022
     },
-    "phone": "+998 90 956-59-04",
+    "phone": "+998 90 325-45-56",
     "telegram": null,
     "website": null,
     "gallery": [
       "/images/pools/aleks/1.jpg",
-      "/images/pools/aleks/2.jpg"
+      "/images/pools/aleks/2.jpg",
+      "/images/pools/aleks/3.webp",
+      "/images/pools/aleks/4.webp",
+      "/images/pools/aleks/5.webp",
+      "/images/pools/aleks/6.jpg",
+      "/images/pools/aleks/7.jpg",
+      "/images/pools/aleks/8.jpg",
+      "/images/pools/aleks/9.jpg"
     ],
     "prices": [
       {
@@ -2904,37 +2911,37 @@
       {
         "day": "mon",
         "open": "10:00",
-        "close": "21:30"
+        "close": "21:00"
       },
       {
         "day": "tue",
         "open": "10:00",
-        "close": "21:30"
+        "close": "21:00"
       },
       {
         "day": "wed",
         "open": "10:00",
-        "close": "21:30"
+        "close": "21:00"
       },
       {
         "day": "thu",
         "open": "10:00",
-        "close": "21:30"
+        "close": "21:00"
       },
       {
         "day": "fri",
         "open": "10:00",
-        "close": "21:30"
+        "close": "21:00"
       },
       {
         "day": "sat",
         "open": "10:00",
-        "close": "21:30"
+        "close": "21:00"
       },
       {
         "day": "sun",
         "open": "10:00",
-        "close": "21:30"
+        "close": "21:00"
       }
     ],
     "services": [
@@ -2946,7 +2953,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.5,
+    "rating": 4.6,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
