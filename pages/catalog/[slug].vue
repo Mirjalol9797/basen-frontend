@@ -142,14 +142,15 @@
 
               <!-- Phone -->
               <a
-                v-if="pool.phone"
-                :href="`tel:${pool.phone.replace(/\s/g, '')}`"
+                v-for="phone in pool.phone"
+                :key="phone"
+                :href="`tel:${phone.replace(/\s/g, '')}`"
                 class="flex items-center gap-2.5 px-4 py-2.5 rounded-xl border border-gray-200 text-sm font-medium text-gray-700 hover:border-primary-300 hover:bg-primary-50 hover:text-primary-700 transition-all duration-150"
               >
                 <svg class="w-4 h-4 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                {{ pool.phone }}
+                {{ phone }}
               </a>
 
               <!-- Telegram -->

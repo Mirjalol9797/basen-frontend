@@ -70,7 +70,7 @@ const rows = pools.map(p => ({
   'Регион':              p.region ?? '',
   'Район':               p.district ?? '',
   'Адрес (RU)':          p.translations?.ru?.address ?? '',
-  'Телефон':             p.phone ?? '',
+  'Телефон':             (p.phone ?? []).join(', '),
   'Telegram':            p.telegram ?? '',
   'Сайт':                p.website ?? '',
   'Широта (lat)':        p.coordinates?.lat ?? '',
