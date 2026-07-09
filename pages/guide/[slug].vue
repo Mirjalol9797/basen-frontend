@@ -3,13 +3,15 @@
     <!-- 404 -->
     <div v-if="!guide" class="container py-24 text-center">
       <p class="text-6xl mb-4">📝</p>
-      <h1 class="text-2xl font-bold text-gray-800 mb-2">{{ $t('guide.not_found') }}</h1>
-      <p class="text-gray-400 mb-6">{{ $t('guide.not_found_desc') }}</p>
+      <h1 class="text-2xl font-bold text-gray-800 mb-2">
+        {{ $t("guide.not_found") }}
+      </h1>
+      <p class="text-gray-400 mb-6">{{ $t("guide.not_found_desc") }}</p>
       <NuxtLink
         :to="localePath('/guide')"
         class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-xl transition-colors"
       >
-        {{ $t('guide.back_to_guide') }}
+        {{ $t("guide.back_to_guide") }}
       </NuxtLink>
     </div>
 
@@ -17,10 +19,20 @@
       <!-- Hero -->
       <section class="bg-gray-900 text-white py-12 sm:py-16">
         <div class="container">
-          <nav class="flex items-center gap-1.5 text-sm text-white/70 mb-6 flex-wrap">
-            <NuxtLink :to="localePath('/')" class="hover:text-white transition-colors">{{ $t('nav.home') }}</NuxtLink>
+          <nav
+            class="flex items-center gap-1.5 text-sm text-white/70 mb-6 flex-wrap"
+          >
+            <NuxtLink
+              :to="localePath('/')"
+              class="hover:text-white transition-colors"
+              >{{ $t("nav.home") }}</NuxtLink
+            >
             <span>/</span>
-            <NuxtLink :to="localePath('/guide')" class="hover:text-white transition-colors">{{ $t('nav.guide') }}</NuxtLink>
+            <NuxtLink
+              :to="localePath('/guide')"
+              class="hover:text-white transition-colors"
+              >{{ $t("nav.guide") }}</NuxtLink
+            >
             <span>/</span>
             <span class="text-white">{{ guide.title }}</span>
           </nav>
@@ -28,18 +40,22 @@
         </div>
       </section>
 
-      <div class="container py-8 sm:py-12 max-w-3xl">
+      <div class="container py-8 sm:py-12">
         <!-- Intro -->
         <p class="text-gray-600 leading-relaxed">{{ guide.intro }}</p>
 
         <!-- Pools -->
-        <h2 class="text-lg font-bold text-gray-900 mt-10 mb-4">{{ $t('guide.pools_in_guide') }}</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+        <h2 class="text-lg font-bold text-gray-900 mt-10 mb-4">
+          {{ $t("guide.pools_in_guide") }}
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
           <PoolCard v-for="pool in pools" :key="pool.id" :pool="pool" />
         </div>
 
         <!-- Conclusion -->
-        <p v-if="guide.conclusion" class="text-gray-600 leading-relaxed mt-8">{{ guide.conclusion }}</p>
+        <p v-if="guide.conclusion" class="text-gray-600 leading-relaxed mt-8">
+          {{ guide.conclusion }}
+        </p>
 
         <!-- Internal links -->
         <div class="mt-10 pt-6 border-t border-gray-100 flex flex-wrap gap-2">
@@ -47,7 +63,7 @@
             :to="localePath('/catalog')"
             class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 text-gray-600 hover:border-primary-300 hover:text-primary-700 hover:bg-primary-50 transition-all duration-150"
           >
-            {{ $t('nav.catalog') }}
+            {{ $t("nav.catalog") }}
           </NuxtLink>
           <NuxtLink
             v-for="cat in relatedCategories"
@@ -72,69 +88,89 @@
 </template>
 
 <script setup lang="ts">
-const route = useRoute()
-const { t } = useI18n()
-const localePath = useLocalePath()
-const poolsStore = usePoolsStore()
-const { getGuideBySlug } = useGuides()
-const { categories } = useCategories()
-const { districts } = useDistricts()
+const route = useRoute();
+const { t } = useI18n();
+const localePath = useLocalePath();
+const poolsStore = usePoolsStore();
+const { getGuideBySlug } = useGuides();
+const { categories } = useCategories();
+const { districts } = useDistricts();
 
-const slug = route.params.slug as string
-const guide = computed(() => getGuideBySlug(slug))
+const slug = route.params.slug as string;
+const guide = computed(() => getGuideBySlug(slug));
 
 const pools = computed(() => {
-  if (!guide.value) return []
+  if (!guide.value) return [];
   return guide.value.poolSlugs
-    .map(s => poolsStore.all.find(p => p.slug === s))
-    .filter((p): p is NonNullable<typeof p> => !!p)
-})
+    .map((s) => poolsStore.all.find((p) => p.slug === s))
+    .filter((p): p is NonNullable<typeof p> => !!p);
+});
 
 const relatedCategories = computed(() => {
-  const ids = new Set<string>(pools.value.map(p => p.category))
-  return categories.value.filter(c => ids.has(c.id))
-})
+  const ids = new Set<string>(pools.value.map((p) => p.category));
+  return categories.value.filter((c) => ids.has(c.id));
+});
 
 const relatedDistricts = computed(() => {
-  const ids = new Set(pools.value.map(p => p.district).filter((d): d is string => !!d))
-  return districts.value.filter(d => ids.has(d.id))
-})
+  const ids = new Set(
+    pools.value.map((p) => p.district).filter((d): d is string => !!d)
+  );
+  return districts.value.filter((d) => ids.has(d.id));
+});
 
-const BASE_URL = 'https://basen.uz'
+const BASE_URL = "https://basen.uz";
 
 watchEffect(() => {
-  if (!guide.value) return
+  if (!guide.value) return;
 
   usePageSeo({
     title: `${guide.value.title} | Basen.uz`,
     description: guide.value.metaDescription,
     canonical: `/guide/${slug}`,
-  })
+  });
 
   const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
+    "@context": "https://schema.org",
+    "@type": "Article",
     headline: guide.value.title,
     description: guide.value.metaDescription,
     datePublished: guide.value.publishedAt,
     url: `${BASE_URL}/guide/${slug}`,
-  }
+  };
 
   const breadcrumb = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: t('nav.home'), item: BASE_URL },
-      { '@type': 'ListItem', position: 2, name: t('nav.guide'), item: `${BASE_URL}/guide` },
-      { '@type': 'ListItem', position: 3, name: guide.value.title, item: `${BASE_URL}/guide/${slug}` },
+      { "@type": "ListItem", position: 1, name: t("nav.home"), item: BASE_URL },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: t("nav.guide"),
+        item: `${BASE_URL}/guide`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: guide.value.title,
+        item: `${BASE_URL}/guide/${slug}`,
+      },
     ],
-  }
+  };
 
   useHead({
     script: [
-      { type: 'application/ld+json', children: JSON.stringify(schema), key: 'schema-article' },
-      { type: 'application/ld+json', children: JSON.stringify(breadcrumb), key: 'schema-breadcrumb' },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify(schema),
+        key: "schema-article",
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify(breadcrumb),
+        key: "schema-breadcrumb",
+      },
     ],
-  })
-})
+  });
+});
 </script>

@@ -61,7 +61,7 @@
       <div class="p-4 flex flex-col flex-1">
         <!-- Name -->
         <h3
-          class="font-semibold text-gray-900 line-clamp-2 leading-snug mb-2 group-hover:text-primary-700 transition-colors duration-150"
+          class="min-h-11 font-semibold text-gray-900 line-clamp-2 leading-snug mb-2 group-hover:text-primary-700 transition-colors duration-150"
         >
           {{ pool.name }}
         </h3>
@@ -77,7 +77,9 @@
         </div>
 
         <!-- District -->
-        <div class="flex items-center gap-1.5 text-sm text-gray-400 mb-1">
+        <div
+          class="flex items-center gap-1.5 text-sm text-gray-400 mb-1 min-h-5"
+        >
           <svg
             class="w-3.5 h-3.5 shrink-0 text-gray-300"
             viewBox="0 0 20 20"
