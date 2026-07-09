@@ -82,7 +82,7 @@
 
       <!-- SEO text block -->
       <div class="bg-white border-t border-gray-100">
-        <div class="container py-8 max-w-3xl">
+        <div class="container py-8">
           <template v-if="guide">
             <p class="text-sm text-gray-500 leading-relaxed">
               {{ guide.intro }}
@@ -112,7 +112,10 @@
       </div>
 
       <!-- FAQ -->
-      <div v-if="faqItems.length > 0" class="container py-8 border-t border-gray-100">
+      <div
+        v-if="faqItems.length > 0"
+        class="container py-8 border-t border-gray-100"
+      >
         <h2 class="text-lg font-bold text-gray-900 mb-4">
           {{ $t("category.faq_title", { name: category.name }) }}
         </h2>
@@ -128,16 +131,26 @@
               :aria-expanded="openFaqIndex === index"
               @click="openFaqIndex = openFaqIndex === index ? null : index"
             >
-              <span class="font-medium text-gray-900 text-sm leading-snug">{{ item.q }}</span>
+              <span class="font-medium text-gray-900 text-sm leading-snug">{{
+                item.q
+              }}</span>
               <svg
                 class="w-4 h-4 shrink-0 text-primary-600 transition-transform duration-200"
                 :class="{ 'rotate-180': openFaqIndex === index }"
-                viewBox="0 0 20 20" fill="currentColor"
+                viewBox="0 0 20 20"
+                fill="currentColor"
               >
-                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                <path
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd"
+                />
               </svg>
             </button>
-            <div v-if="openFaqIndex === index" class="px-4 pb-3.5 text-sm text-gray-500 leading-relaxed border-t border-gray-50 pt-3">
+            <div
+              v-if="openFaqIndex === index"
+              class="px-4 pb-3.5 text-sm text-gray-500 leading-relaxed border-t border-gray-50 pt-3"
+            >
               {{ item.a }}
             </div>
           </div>
@@ -232,7 +245,8 @@ watchEffect(() => {
 
   usePageSeo({
     title: t("category.page_meta_title", { name, count }),
-    description: metaDescText.value ?? t("category.page_meta_desc", { name, count }),
+    description:
+      metaDescText.value ?? t("category.page_meta_desc", { name, count }),
     canonical: `/category/${slug}`,
   });
 
