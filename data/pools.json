@@ -4170,13 +4170,18 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3348663,
-      "lng": 69.3451844
+      "lat": 41.334286,
+      "lng": 69.342374
     },
     "phone": [
-      "+998 71 113-17-71"
+      "+998 71 113-17-71",
+      "+998 95 199-17-71",
+      "+998 99 883-17-71"
     ],
-    "telegram": null,
+    "telegram": "https://t.me/Athletica",
+    "facebook": "https://www.facebook.com/athleticatashkent",
+    "instagram": "https://www.instagram.com/athletica_tashkent",
+    "email": "academyathletica@gmail.com",
     "website": null,
     "gallery": [
       "/images/pools/academy-athletica-fitness-complex/1.jpg",
@@ -4236,13 +4241,14 @@
       },
       {
         "day": "sat",
-        "open": "07:00",
-        "close": "23:00"
+        "open": "09:00",
+        "close": "21:00"
       },
       {
         "day": "sun",
-        "open": "07:00",
-        "close": "23:00"
+        "closed": true,
+        "open": "00:00",
+        "close": "00:00"
       }
     ],
     "services": [
@@ -4253,7 +4259,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "rating": 5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
