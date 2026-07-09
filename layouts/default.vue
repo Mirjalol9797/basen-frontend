@@ -16,5 +16,6 @@ useHead(computed(() => ({
     </main>
     <AppFooter />
     <MobileBottomNav />
+    <ScrollToTop />
   </div>
 </template>

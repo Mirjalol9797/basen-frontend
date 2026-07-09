@@ -150,6 +150,7 @@
     "newest": "Newest"
   },
   "common": {
+    "scroll_to_top": "Scroll to top",
     "loading": "Loading...",
     "show_more": "Show more",
     "show_all": "Show all",

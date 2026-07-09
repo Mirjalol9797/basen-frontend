@@ -150,6 +150,7 @@
     "newest": "Новые"
   },
   "common": {
+    "scroll_to_top": "Наверх",
     "loading": "Загрузка...",
     "show_more": "Показать ещё",
     "show_all": "Показать все",

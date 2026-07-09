@@ -150,6 +150,7 @@
     "newest": "Yangi"
   },
   "common": {
+    "scroll_to_top": "Tepaga",
     "loading": "Yuklanmoqda...",
     "show_more": "Ko'proq ko'rsatish",
     "show_all": "Hammasini ko'rsatish",
