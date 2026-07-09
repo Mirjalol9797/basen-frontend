@@ -30,6 +30,17 @@
   }
 }
 
+@layer utilities {
+  .scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 /* Leaflet custom popup */
 .basen-popup .leaflet-popup-content-wrapper {
   border-radius: 12px;
