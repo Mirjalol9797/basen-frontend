@@ -48,6 +48,13 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: "ru" },
       meta: [
         { name: "yandex-verification", content: "e29d998d92d9cc06" },
+        { name: "theme-color", content: "#0284C7" },
+        { name: "robots", content: "index, follow, max-image-preview:large" },
+        { name: "author", content: "Basen.uz" },
+        { name: "publisher", content: "Basen.uz" },
+        { name: "geo.region", content: "UZ-TK" },
+        { name: "geo.position", content: "41.2995;69.2401" },
+        { name: "ICBM", content: "41.2995, 69.2401" },
       ],
       script: [
         { src: "https://www.googletagmanager.com/gtag/js?id=G-YBT2XJ63F5", async: true },
