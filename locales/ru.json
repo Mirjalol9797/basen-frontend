@@ -85,7 +85,12 @@
     "jacuzzi": "Джакузи",
     "spa": "SPA",
     "wifi": "Wi-Fi",
-    "shop": "Магазин"
+    "shop": "Магазин",
+    "restaurant": "Ресторан",
+    "karaoke": "Караоке",
+    "hotel": "Гостиница",
+    "cottages": "Коттеджи",
+    "resort": "Дом отдыха"
   },
   "schedule": {
     "mon": "Понедельник",
@@ -143,6 +148,7 @@
     "call": "Позвонить",
     "route": "Маршрут",
     "website": "Сайт",
+    "facebook": "Facebook",
     "today": "Сегодня",
     "reviews": "отзывов",
     "rating": "Рейтинг",

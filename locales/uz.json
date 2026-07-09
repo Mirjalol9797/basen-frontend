@@ -85,7 +85,12 @@
     "jacuzzi": "Jakuzi",
     "spa": "SPA",
     "wifi": "Wi-Fi",
-    "shop": "Do'kon"
+    "shop": "Do'kon",
+    "restaurant": "Restoran",
+    "karaoke": "Karaoke",
+    "hotel": "Mehmonxona",
+    "cottages": "Kottejlar",
+    "resort": "Dam olish maskani"
   },
   "schedule": {
     "mon": "Dushanba",
@@ -143,6 +148,7 @@
     "call": "Qo'ng'iroq qilish",
     "route": "Yo'nalish",
     "website": "Sayt",
+    "facebook": "Facebook",
     "today": "Bugun",
     "reviews": "sharh",
     "rating": "Reyting",

@@ -85,7 +85,12 @@
     "jacuzzi": "Jacuzzi",
     "spa": "SPA",
     "wifi": "Wi-Fi",
-    "shop": "Shop"
+    "shop": "Shop",
+    "restaurant": "Restaurant",
+    "karaoke": "Karaoke",
+    "hotel": "Hotel rooms",
+    "cottages": "Cottages",
+    "resort": "Resort"
   },
   "schedule": {
     "mon": "Monday",
@@ -143,6 +148,7 @@
     "call": "Call",
     "route": "Directions",
     "website": "Website",
+    "facebook": "Facebook",
     "today": "Today",
     "reviews": "reviews",
     "rating": "Rating",

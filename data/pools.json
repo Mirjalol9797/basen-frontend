@@ -1653,7 +1653,7 @@
       "ru": {
         "name": "Aqua Blue",
         "address": "посёлок Гулистан, Юкоричирчикский район, Ташкентская область",
-        "description": "Открытый бассейн с детской зоной и зоной отдыха на топчанах. Взрослый билет 100 000 сум/день, дети 3–12 лет 70 000 сум, до 3 лет бесплатно."
+        "description": "Дом отдыха с 4 летними бассейнами, детской зоной, рестораном, караоке, финской баней, гостиницей и коттеджами. Взрослый билет 100 000 сум/день, дети 3–12 лет 70 000 сум, до 3 лет бесплатно."
       },
       "uz": {
         "name": "Aqua Blue",
@@ -1671,20 +1671,29 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.312896,
-      "lng": 69.53246
+      "lat": 41.247583,
+      "lng": 69.484943
     },
     "phone": [
       "+998 90 805-08-01"
     ],
-    "telegram": null,
+    "telegram": "https://t.me/aquablueuz",
+    "facebook": "https://www.facebook.com/Aquablutash/",
     "website": null,
     "gallery": [
       "/images/pools/aqua-blue/1.jpg",
       "/images/pools/aqua-blue/2.jpg",
       "/images/pools/aqua-blue/3.jpg",
       "/images/pools/aqua-blue/4.jpg",
-      "/images/pools/aqua-blue/5.jpg"
+      "/images/pools/aqua-blue/5.jpg",
+      "/images/pools/aqua-blue/6.webp",
+      "/images/pools/aqua-blue/7.webp",
+      "/images/pools/aqua-blue/8.webp",
+      "/images/pools/aqua-blue/9.webp",
+      "/images/pools/aqua-blue/10.webp",
+      "/images/pools/aqua-blue/11.webp",
+      "/images/pools/aqua-blue/12.webp",
+      "/images/pools/aqua-blue/13.webp"
     ],
     "prices": [
       {
@@ -1737,14 +1746,20 @@
     ],
     "services": [
       "parking",
-      "children_zone"
+      "children_zone",
+      "sauna",
+      "restaurant",
+      "karaoke",
+      "hotel",
+      "cottages",
+      "resort"
     ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
-    "reviewCount": 1,
+    "rating": 5,
+    "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
   },

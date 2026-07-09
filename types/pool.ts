@@ -17,6 +17,7 @@ export interface Pool {
   coordinates: { lat: number; lng: number }
   phone: string[]
   telegram?: string
+  facebook?: string | null
   website?: string | null
   gallery: string[]
   prices: PriceItem[]
