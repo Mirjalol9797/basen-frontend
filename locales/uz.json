@@ -68,6 +68,10 @@
   "price": {
     "adult_single": "Kattalar uchun (bir marta)",
     "child_single": "Bolalar uchun (bir marta)",
+    "adult_3h": "Kattalar uchun (3 soat)",
+    "child_3h": "Bolalar uchun (3 soat)",
+    "adult_fullday": "Kattalar uchun (butun kun)",
+    "child_fullday": "Bolalar uchun (butun kun)",
     "monthly": "Obuna (oy)",
     "morning": "Ertalabki",
     "group": "Guruh",
@@ -149,6 +153,7 @@
     "route": "Yo'nalish",
     "website": "Sayt",
     "facebook": "Facebook",
+    "instagram": "Instagram",
     "today": "Bugun",
     "reviews": "sharh",
     "rating": "Reyting",

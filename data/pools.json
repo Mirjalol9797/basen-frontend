@@ -422,7 +422,7 @@
       "ru": {
         "name": "Аквалэнд",
         "address": "ул. Чинабад, 61А, Юнусабадский район, Ташкент",
-        "description": "Аквапарк с водными горками, волновым бассейном и детскими аттракционами. На территории работает гостиничный комплекс Golden Valley, кафе, спортивные площадки и профессиональные инструкторы по плаванию."
+        "description": "Аквапарк с водными горками, волновым бассейном и детскими аттракционами. На территории работает гостиничный комплекс Golden Valley, кафе, спортивные площадки и профессиональные инструкторы по плаванию. В аквапарк нельзя приносить еду и напитки, находиться можно только в купальном костюме, вход в состоянии алкогольного опьянения запрещён."
       },
       "uz": {
         "name": "Aqualand",
@@ -440,20 +440,53 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3510442,
-      "lng": 69.2905912
+      "lat": 41.355364,
+      "lng": 69.304091
     },
     "phone": [
+      "+998 71 212-01-54",
+      "+998 71 212-22-01",
       "+998 71 212-01-55"
     ],
     "telegram": null,
+    "facebook": "https://www.facebook.com/aqualanduz/?locale=ru_RU",
+    "instagram": "https://www.instagram.com/aqualand_uzbekistan/",
     "website": null,
     "gallery": [
       "/images/pools/aqualand/1.jpg",
       "/images/pools/aqualand/2.jpg",
-      "/images/pools/aqualand/3.jpg"
+      "/images/pools/aqualand/3.jpg",
+      "/images/pools/aqualand/4.webp",
+      "/images/pools/aqualand/5.webp",
+      "/images/pools/aqualand/6.webp",
+      "/images/pools/aqualand/7.webp",
+      "/images/pools/aqualand/8.webp",
+      "/images/pools/aqualand/9.webp",
+      "/images/pools/aqualand/10.webp",
+      "/images/pools/aqualand/11.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_3h",
+        "amount": 140000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_3h",
+        "amount": 90000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_fullday",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 140000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
@@ -502,7 +535,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.5,
+    "rating": 4.9,
     "reviewCount": 2,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"

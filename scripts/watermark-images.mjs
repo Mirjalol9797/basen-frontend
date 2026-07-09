@@ -1,23 +1,33 @@
 #!/usr/bin/env node
 // Watermarks pool photos in public/images/pools with "basen.uz" (top-right).
-// Idempotent: tracks already-processed files in scripts/.watermarked.json.
+// Idempotent: tracks the content hash of each already-watermarked file in
+// scripts/.watermarked.json, so replacing a file with a new photo under the
+// same name is correctly re-watermarked instead of being skipped.
 import { readdirSync, statSync, readFileSync, writeFileSync, renameSync, unlinkSync } from 'node:fs'
 import { join, extname } from 'node:path'
+import { createHash } from 'node:crypto'
 import sharp from 'sharp'
 
 const ROOT = join(process.cwd(), 'public/images/pools')
 const MANIFEST_PATH = join(process.cwd(), 'scripts/.watermarked.json')
 const TEXT = 'basen.uz'
 
-const manifest = new Set(
-  (() => {
-    try {
-      return JSON.parse(readFileSync(MANIFEST_PATH, 'utf8'))
-    } catch {
-      return []
-    }
-  })()
-)
+function loadManifest() {
+  try {
+    const raw = JSON.parse(readFileSync(MANIFEST_PATH, 'utf8'))
+    // Migrate from the old array-of-paths format if present.
+    if (Array.isArray(raw)) return {}
+    return raw
+  } catch {
+    return {}
+  }
+}
+
+const manifest = loadManifest()
+
+function hashOf(buffer) {
+  return createHash('sha1').update(buffer).digest('hex')
+}
 
 // Tiled diagonal pattern so the mark survives being cropped to any
 // aspect ratio (hero 16:7, cards 4:3, thumbnails ~1.43, etc.) — a single
@@ -60,9 +70,8 @@ function svgWatermark(width, height) {
   `)
 }
 
-async function watermarkFile(filePath) {
+async function watermarkFile(filePath, inputBuffer) {
   const ext = extname(filePath).toLowerCase()
-  const inputBuffer = readFileSync(filePath)
   const img = sharp(inputBuffer)
   const meta = await img.metadata()
   const overlay = svgWatermark(meta.width, meta.height)
@@ -73,11 +82,13 @@ async function watermarkFile(filePath) {
   else if (ext === '.webp') pipeline = pipeline.webp({ quality: 90 })
   else if (ext === '.png') pipeline = pipeline.png()
 
-  await pipeline.toFile(tmpPath)
+  const outputBuffer = await pipeline.toBuffer()
+  writeFileSync(tmpPath, outputBuffer)
   try {
     unlinkSync(filePath)
   } catch {}
   renameSync(tmpPath, filePath)
+  return outputBuffer
 }
 
 async function main() {
@@ -94,19 +105,23 @@ async function main() {
     )
     for (const file of files) {
       const rel = `${dir}/${file}`
-      if (manifest.has(rel)) {
+      const filePath = join(dirPath, file)
+      const currentBuffer = readFileSync(filePath)
+      const currentHash = hashOf(currentBuffer)
+
+      if (manifest[rel] === currentHash) {
         skipped++
         continue
       }
-      const filePath = join(dirPath, file)
-      await watermarkFile(filePath)
-      manifest.add(rel)
+
+      const outputBuffer = await watermarkFile(filePath, currentBuffer)
+      manifest[rel] = hashOf(outputBuffer)
       processed++
       console.log('watermarked:', rel)
     }
   }
 
-  writeFileSync(MANIFEST_PATH, JSON.stringify([...manifest].sort(), null, 2))
+  writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2))
   console.log(`\nDone. Watermarked ${processed}, skipped ${skipped} (already done).`)
 }
 

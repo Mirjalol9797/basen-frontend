@@ -18,6 +18,7 @@ export interface Pool {
   phone: string[]
   telegram?: string
   facebook?: string | null
+  instagram?: string | null
   website?: string | null
   gallery: string[]
   prices: PriceItem[]

@@ -68,6 +68,10 @@
   "price": {
     "adult_single": "Adult (single visit)",
     "child_single": "Child (single visit)",
+    "adult_3h": "Adult (3 hours)",
+    "child_3h": "Child (3 hours)",
+    "adult_fullday": "Adult (full day)",
+    "child_fullday": "Child (full day)",
     "monthly": "Monthly subscription",
     "morning": "Morning session",
     "group": "Group",
@@ -149,6 +153,7 @@
     "route": "Directions",
     "website": "Website",
     "facebook": "Facebook",
+    "instagram": "Instagram",
     "today": "Today",
     "reviews": "reviews",
     "rating": "Rating",

@@ -68,6 +68,10 @@
   "price": {
     "adult_single": "Взрослый разовый",
     "child_single": "Детский разовый",
+    "adult_3h": "Взрослый (3 часа)",
+    "child_3h": "Детский (3 часа)",
+    "adult_fullday": "Взрослый (весь день)",
+    "child_fullday": "Детский (весь день)",
     "monthly": "Абонемент (месяц)",
     "morning": "Утренний",
     "group": "Групповой",
@@ -149,6 +153,7 @@
     "route": "Маршрут",
     "website": "Сайт",
     "facebook": "Facebook",
+    "instagram": "Instagram",
     "today": "Сегодня",
     "reviews": "отзывов",
     "rating": "Рейтинг",
