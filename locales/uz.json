@@ -32,7 +32,8 @@
     "page_not_found_desc": "Boshqa kategoriyani sinab ko'ring yoki to'liq katalogni oching",
     "other_categories": "Boshqa kategoriyalar",
     "meta_desc_text": {
-      "open": "Toshkentning ochiq basseynlari 2026 — 18 ta obyekt. Narxlar 50 000 dan 180 000 so'mgacha, fotosuratlar, manzillar, ish vaqti, bolalar zonasi, avtoturargoh va kafe mavjudligi, sharhlar va shahardagi barcha yozgi basseynlar xaritasi."
+      "open": "Toshkentning ochiq basseynlari 2026 — 18 ta obyekt. Narxlar 50 000 dan 180 000 so'mgacha, fotosuratlar, manzillar, ish vaqti, bolalar zonasi, avtoturargoh va kafe mavjudligi, sharhlar va shahardagi barcha yozgi basseynlar xaritasi.",
+      "indoor": "Toshkentning yopiq basseynlari 2026 — 6 ta obyekt, yil davomida ishlaydi. Narxlar 150 000 dan 700 000 so'mgacha, fotosuratlar, manzillar, ish vaqti, murabbiylar mavjudligi, sharhlar va shahardagi barcha yopiq basseynlar xaritasi."
     },
     "faq_title": "{name} haqida ko'p so'raladigan savollar",
     "seo_text": {

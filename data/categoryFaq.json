@@ -54,5 +54,61 @@
         "a": "Most open-air pools are located in the Bektemir, Yashnabad and Sergeli districts, where there's enough space for a spacious lounge area plus parking."
       }
     ]
+  },
+  "indoor": {
+    "ru": [
+      {
+        "q": "Работают ли крытые бассейны Ташкента зимой?",
+        "a": "Да, все 6 крытых бассейнов в каталоге работают круглый год независимо от погоды — это их главное отличие от сезонных открытых бассейнов."
+      },
+      {
+        "q": "Сколько стоит крытый бассейн в Ташкенте?",
+        "a": "Цены в каталоге варьируются от 150 000 до 700 000 сум — разброс большой, так как в категорию входят и обычные бассейны, и премиальные фитнес-комплексы с тренажёрным залом."
+      },
+      {
+        "q": "Есть ли в крытых бассейнах тренер?",
+        "a": "Услуга тренера отмечена у 4 из 6 крытых бассейнов в каталоге — подходит для регулярных занятий и уроков плавания под руководством инструктора."
+      },
+      {
+        "q": "В каких районах Ташкента есть крытые бассейны?",
+        "a": "Крытые бассейны в каталоге распределены по Чиланзарскому, Мирзо-Улугбекскому, Шайхонтохурскому и Юнусабадскому районам."
+      }
+    ],
+    "uz": [
+      {
+        "q": "Toshkentning yopiq basseynlari qishda ishlaydimi?",
+        "a": "Ha, katalogdagi barcha 6 ta yopiq basseyn ob-havodan qat'i nazar yil davomida ishlaydi — bu ularning mavsumiy ochiq basseynlardan asosiy farqi."
+      },
+      {
+        "q": "Toshkentda yopiq basseyn narxi qancha?",
+        "a": "Katalogdagi narxlar 150 000 dan 700 000 so'mgacha o'zgarib turadi — farq katta, chunki toifaga oddiy basseynlar ham, trenajyor zali bilan premium fitnes-majmualar ham kiradi."
+      },
+      {
+        "q": "Yopiq basseynlarda murabbiy bormi?",
+        "a": "Katalogdagi 6 ta yopiq basseyndan 4 tasida murabbiy xizmati mavjud — muntazam mashg'ulotlar va instruktor bilan suzishni o'rganish uchun mos."
+      },
+      {
+        "q": "Toshkentning qaysi tumanlarida yopiq basseynlar bor?",
+        "a": "Katalogdagi yopiq basseynlar Chilonzor, Mirzo Ulug'bek, Shayxontohur va Yunusobod tumanlarida joylashgan."
+      }
+    ],
+    "en": [
+      {
+        "q": "Are Tashkent's indoor pools open in winter?",
+        "a": "Yes, all 6 indoor pools in the catalog operate year-round regardless of the weather — that's their main difference from seasonal open-air pools."
+      },
+      {
+        "q": "How much does an indoor pool cost in Tashkent?",
+        "a": "Catalog prices range from 150,000 to 700,000 UZS — a wide spread, since the category includes both regular pools and premium fitness complexes with a gym."
+      },
+      {
+        "q": "Do indoor pools have a coach available?",
+        "a": "Coaching is marked at 4 out of 6 indoor pools in the catalog — suitable for regular training and swim lessons with an instructor."
+      },
+      {
+        "q": "Which Tashkent districts have indoor pools?",
+        "a": "Indoor pools in the catalog are spread across the Chilanzar, Mirzo-Ulugbek, Shayhontohur and Yunusabad districts."
+      }
+    ]
   }
 }
