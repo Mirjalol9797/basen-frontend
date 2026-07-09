@@ -111,6 +111,39 @@
         </div>
       </div>
 
+      <!-- FAQ -->
+      <div v-if="faqItems.length > 0" class="container py-8 border-t border-gray-100">
+        <h2 class="text-lg font-bold text-gray-900 mb-4">
+          {{ $t("category.faq_title", { name: category.name }) }}
+        </h2>
+        <div class="space-y-2.5 max-w-3xl">
+          <div
+            v-for="(item, index) in faqItems"
+            :key="index"
+            class="bg-white rounded-xl border border-gray-100 overflow-hidden"
+          >
+            <button
+              type="button"
+              class="w-full flex items-center justify-between gap-4 px-4 py-3.5 text-left hover:bg-gray-50 transition-colors duration-150"
+              :aria-expanded="openFaqIndex === index"
+              @click="openFaqIndex = openFaqIndex === index ? null : index"
+            >
+              <span class="font-medium text-gray-900 text-sm leading-snug">{{ item.q }}</span>
+              <svg
+                class="w-4 h-4 shrink-0 text-primary-600 transition-transform duration-200"
+                :class="{ 'rotate-180': openFaqIndex === index }"
+                viewBox="0 0 20 20" fill="currentColor"
+              >
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div v-if="openFaqIndex === index" class="px-4 pb-3.5 text-sm text-gray-500 leading-relaxed border-t border-gray-50 pt-3">
+              {{ item.a }}
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Other categories -->
       <div class="container py-8 border-t border-gray-100">
         <h2 class="text-lg font-bold text-gray-900 mb-4">
@@ -134,6 +167,7 @@
 <script setup lang="ts">
 import type { PoolCategory } from "~/types/pool";
 import categoryGuides from "~/data/categoryGuides.json";
+import categoryFaq from "~/data/categoryFaq.json";
 
 const route = useRoute();
 const { t, locale } = useI18n();
@@ -162,6 +196,20 @@ const seoText = computed(() => {
   return text === key ? category.value?.description ?? "" : text;
 });
 
+const metaDescText = computed(() => {
+  const key = `category.meta_desc_text.${slug}`;
+  const text = t(key);
+  return text === key ? null : text;
+});
+
+type FaqItem = { q: string; a: string };
+
+const faqItems = computed((): FaqItem[] => {
+  const faq = categoryFaq as Record<string, Record<string, FaqItem[]>>;
+  return faq[slug]?.[locale.value] ?? [];
+});
+const openFaqIndex = ref<number | null>(null);
+
 type CategoryGuide = {
   intro: string;
   sections: { heading: string; body?: string; list?: string[] }[];
@@ -184,22 +232,26 @@ watchEffect(() => {
 
   usePageSeo({
     title: t("category.page_meta_title", { name, count }),
-    description: t("category.page_meta_desc", { name, count }),
+    description: metaDescText.value ?? t("category.page_meta_desc", { name, count }),
     canonical: `/category/${slug}`,
   });
 
   const schema = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@type": "CollectionPage",
     name: `${name} Ташкента`,
     description: category.value.description,
-    numberOfItems: count,
-    itemListElement: pools.value.map((pool, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: pool.name,
-      url: `${BASE_URL}/catalog/${pool.slug}`,
-    })),
+    url: `${BASE_URL}/category/${slug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: count,
+      itemListElement: pools.value.map((pool, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: pool.name,
+        url: `${BASE_URL}/catalog/${pool.slug}`,
+      })),
+    },
   };
 
   const breadcrumb = {
@@ -222,19 +274,36 @@ watchEffect(() => {
     ],
   };
 
-  useHead({
-    script: [
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(schema),
-        key: "schema-category",
-      },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(breadcrumb),
-        key: "schema-breadcrumb",
-      },
-    ],
-  });
+  const scripts = [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(schema),
+      key: "schema-category",
+    },
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(breadcrumb),
+      key: "schema-breadcrumb",
+    },
+  ];
+
+  if (faqItems.value.length > 0) {
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqItems.value.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+    };
+    scripts.push({
+      type: "application/ld+json",
+      children: JSON.stringify(faqSchema),
+      key: "schema-faq",
+    });
+  }
+
+  useHead({ script: scripts });
 });
 </script>

@@ -1,0 +1,58 @@
+{
+  "open": {
+    "ru": [
+      {
+        "q": "Когда работают открытые бассейны в Ташкенте?",
+        "a": "Открытые бассейны — сезонные объекты, они работают в тёплое время года, обычно с мая по сентябрь. Точный режим работы каждого бассейна указан на его странице в каталоге."
+      },
+      {
+        "q": "Сколько стоит билет в открытый бассейн?",
+        "a": "Цены в каталоге начинаются от 50 000 сум за разовое посещение и доходят до 180 000 сум в зависимости от комплекса и набора услуг."
+      },
+      {
+        "q": "В каких открытых бассейнах есть детская зона?",
+        "a": "Детская зона отмечена у 9 из 18 открытых бассейнов в каталоге — наличие услуги указано в карточке каждого бассейна, это можно проверить перед поездкой."
+      },
+      {
+        "q": "В каких районах Ташкента больше всего открытых бассейнов?",
+        "a": "Больше всего открытых бассейнов в Бектемирском, Яшнабадском и Сергелийском районах — там достаточно места для просторной территории с зоной отдыха и парковкой."
+      }
+    ],
+    "uz": [
+      {
+        "q": "Toshkentda ochiq basseynlar qachon ishlaydi?",
+        "a": "Ochiq basseynlar mavsumiy obyektlar — ular issiq mavsumda, odatda may oyidan sentyabrgacha ishlaydi. Har bir basseynning aniq ish vaqti uning katalogdagi sahifasida ko'rsatilgan."
+      },
+      {
+        "q": "Ochiq basseynga chipta narxi qancha?",
+        "a": "Katalogdagi narxlar bir martalik tashrif uchun 50 000 so'mdan boshlanadi va majmua hamda xizmatlar to'plamiga qarab 180 000 so'mgacha yetadi."
+      },
+      {
+        "q": "Qaysi ochiq basseynlarda bolalar zonasi bor?",
+        "a": "Katalogdagi 18 ta ochiq basseyndan 9 tasida bolalar zonasi mavjud — bu xizmat mavjudligi har bir basseyn kartochkasida ko'rsatilgan, safardan oldin tekshirib olish mumkin."
+      },
+      {
+        "q": "Toshkentning qaysi tumanlarida ochiq basseynlar ko'proq?",
+        "a": "Eng ko'p ochiq basseynlar Bektemir, Yashnobod va Sergeli tumanlarida joylashgan — u yerda dam olish zonasi va avtoturargoh bilan keng hudud uchun joy yetarli."
+      }
+    ],
+    "en": [
+      {
+        "q": "When are open-air pools in Tashkent open?",
+        "a": "Open-air pools are seasonal venues, open during the warm months, typically from May to September. The exact schedule for each pool is listed on its catalog page."
+      },
+      {
+        "q": "How much does an open-air pool ticket cost?",
+        "a": "Catalog prices start from 50,000 UZS for a single visit and go up to 180,000 UZS depending on the venue and its amenities."
+      },
+      {
+        "q": "Which open-air pools have a children's zone?",
+        "a": "A children's zone is marked at 9 out of 18 open-air pools in the catalog — availability is listed on each pool's card, so you can check before you go."
+      },
+      {
+        "q": "Which Tashkent districts have the most open-air pools?",
+        "a": "Most open-air pools are located in the Bektemir, Yashnabad and Sergeli districts, where there's enough space for a spacious lounge area plus parking."
+      }
+    ]
+  }
+}
