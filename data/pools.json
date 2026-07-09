@@ -2355,7 +2355,7 @@
       "ru": {
         "name": "Акапулько",
         "address": "ул. Уйсозлар, 7, Яшнабадский район, Ташкент",
-        "description": "Открытый бассейн с детской чашей и водопадом, летней террасой и банкетным залом на 100 мест. Взрослый 80 000 сум, дети 3–12 лет 50 000 сум, до 3 лет бесплатно."
+        "description": "Открытый бассейн с детской чашей и водопадом, летней террасой и банкетным залом на 100 мест. Будни: взрослый 150 000 сум, дети 3–12 лет 80 000 сум. Выходные: взрослый 180 000 сум, дети 100 000 сум."
       },
       "uz": {
         "name": "Akapulko",
@@ -2373,13 +2373,15 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2542026,
-      "lng": 69.3249259
+      "lat": 41.253946,
+      "lng": 69.32521
     },
     "phone": [
       "+998 90 992-67-74"
     ],
     "telegram": null,
+    "facebook": "https://www.facebook.com/acapulcotashkent/?locale=ru_RU",
+    "instagram": "https://www.instagram.com/barvilla_acapulco/",
     "website": null,
     "gallery": [
       "/images/pools/acapulco/1.jpg",
@@ -2398,13 +2400,23 @@
     ],
     "prices": [
       {
-        "key": "price.adult_single",
+        "key": "price.adult_weekday",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekday",
         "amount": 80000,
         "currency": "UZS"
       },
       {
-        "key": "price.child_single",
-        "amount": 50000,
+        "key": "price.adult_weekend",
+        "amount": 180000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend",
+        "amount": 100000,
         "currency": "UZS"
       }
     ],
