@@ -78,6 +78,10 @@
   "price": {
     "adult_single": "Kattalar uchun (bir marta)",
     "child_single": "Bolalar uchun (bir marta)",
+    "adult_1h": "Kattalar uchun (1 soat)",
+    "child_1h": "Bolalar uchun (1 soat)",
+    "adult_2h": "Kattalar uchun (2 soat)",
+    "child_2h": "Bolalar uchun (2 soat)",
     "adult_3h": "Kattalar uchun (3 soat)",
     "child_3h": "Bolalar uchun (3 soat)",
     "adult_fullday": "Kattalar uchun (butun kun)",

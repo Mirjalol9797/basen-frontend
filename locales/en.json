@@ -78,6 +78,10 @@
   "price": {
     "adult_single": "Adult (single visit)",
     "child_single": "Child (single visit)",
+    "adult_1h": "Adult (1 hour)",
+    "child_1h": "Child (1 hour)",
+    "adult_2h": "Adult (2 hours)",
+    "child_2h": "Child (2 hours)",
     "adult_3h": "Adult (3 hours)",
     "child_3h": "Child (3 hours)",
     "adult_fullday": "Adult (full day)",

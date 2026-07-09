@@ -2587,7 +2587,7 @@
       "ru": {
         "name": "Бассейн Garden Park",
         "address": "ул. Бабура, 33, Яккасарайский район, Ташкент",
-        "description": "Открытый бассейн с детской зоной, кафе и топчанами. Почасовая и суточная оплата, абонемент на 30 часов. Взрослые от 40 000 сум/час, дети до 12 лет от 20 000 сум/час."
+        "description": "Открытый бассейн с детской зоной, кафе и топчанами. Почасовая и полнодневная оплата: взрослым от 100 000 сум/час, детям до 12 лет от 80 000 сум/час, вход на весь день от 240 000 сум взрослым и 150 000 сум детям. Детям до 3 лет — бесплатно. По вторникам и четвергам скидка 50% для женщин, по понедельникам, средам и пятницам — скидка 50% для пенсионеров."
       },
       "uz": {
         "name": "Garden Park Basseyn",
@@ -2605,13 +2605,15 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2767514,
-      "lng": 69.2575623
+      "lat": 41.289166,
+      "lng": 69.25588
     },
     "phone": [
       "+998 95 170-68-70"
     ],
     "telegram": null,
+    "facebook": "https://www.facebook.com/garden.park.uz/",
+    "instagram": "https://www.instagram.com/garden.park.uz/",
     "website": null,
     "gallery": [
       "/images/pools/aquamarine/1.jpg",
@@ -2619,18 +2621,43 @@
     ],
     "prices": [
       {
-        "key": "price.adult_single",
+        "key": "price.adult_1h",
         "amount": 100000,
         "currency": "UZS"
       },
       {
-        "key": "price.child_single",
-        "amount": 60000,
+        "key": "price.adult_2h",
+        "amount": 120000,
         "currency": "UZS"
       },
       {
-        "key": "price.monthly",
-        "amount": 900000,
+        "key": "price.adult_3h",
+        "amount": 180000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_fullday",
+        "amount": 240000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_1h",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_2h",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_3h",
+        "amount": 120000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 150000,
         "currency": "UZS"
       }
     ],
@@ -2680,7 +2707,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 2.5,
+    "rating": 5,
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
