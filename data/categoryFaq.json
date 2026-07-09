@@ -278,5 +278,61 @@
         "a": "Most are in the Yunusabad and Mirobod districts (2 venues each), with others in Yakkasaray, Yashnabad and Chilanzar."
       }
     ]
+  },
+  "aquapark": {
+    "ru": [
+      {
+        "q": "Сколько аквапарков в Ташкенте?",
+        "a": "В каталоге 11 аквапарков — от небольших мини-парков с парой горок до крупных комплексов на весь день."
+      },
+      {
+        "q": "Сколько стоит билет в аквапарк?",
+        "a": "У объектов с опубликованной ценой — от 70 000 до 200 000 сум за взрослый билет. У части аквапарков цена пока не заполнена в базе, уточняйте на месте или по телефону."
+      },
+      {
+        "q": "Какие аквапарки Ташкента работают зимой?",
+        "a": "Круглый год работают только 2 из 11 — MONACO и «Солнечный город», это крытые комплексы. Остальные 9 сезонные, открыты примерно с мая по сентябрь."
+      },
+      {
+        "q": "В каких районах Ташкента находятся аквапарки?",
+        "a": "Больше всего в Юнусабадском и Сергелийском районах (по 3 объекта), также есть в Мирабадском, Мирзо-Улугбекском и Чиланзарском районах."
+      }
+    ],
+    "uz": [
+      {
+        "q": "Toshkentda nechta akvapark bor?",
+        "a": "Katalogda 11 ta akvapark bor — bir nechta gorkali kichik mini-parklardan tortib kun bo'yi dam olish uchun yirik majmualargacha."
+      },
+      {
+        "q": "Akvaparkka chipta narxi qancha?",
+        "a": "Narxi e'lon qilingan obyektlarda — kattalar chiptasi uchun 70 000 dan 200 000 so'mgacha. Ba'zi akvaparklarda narx hali bazaga kiritilmagan, joyida yoki telefon orqali aniqlashtiring."
+      },
+      {
+        "q": "Toshkentning qaysi akvaparklari qishda ishlaydi?",
+        "a": "11 tadan faqat 2 tasi — MONACO va «Quyoshli shahar» — yil davomida ishlaydi, bular yopiq majmualar. Qolgan 9 tasi mavsumiy, taxminan may-sentyabr oylarida ochiq."
+      },
+      {
+        "q": "Toshkentning qaysi tumanlarida akvaparklar bor?",
+        "a": "Eng ko'pi Yunusobod va Sergeli tumanlarida (har birida 3 tadan), shuningdek Mirobod, Mirzo Ulug'bek va Chilonzor tumanlarida ham mavjud."
+      }
+    ],
+    "en": [
+      {
+        "q": "How many aquaparks are there in Tashkent?",
+        "a": "The catalog has 11 aquaparks — from small mini-parks with a couple of slides to large all-day complexes."
+      },
+      {
+        "q": "How much does an aquapark ticket cost?",
+        "a": "At venues with published pricing — from 70,000 to 200,000 UZS for an adult ticket. Some aquaparks don't have pricing in the database yet, so check on-site or by phone."
+      },
+      {
+        "q": "Which Tashkent aquaparks are open in winter?",
+        "a": "Only 2 of the 11 operate year-round — MONACO and Solnechny Gorod, both indoor complexes. The other 9 are seasonal, open roughly from May to September."
+      },
+      {
+        "q": "Which Tashkent districts have aquaparks?",
+        "a": "Most are in the Yunusabad and Sergeli districts (3 venues each), with others in Mirobod, Mirzo-Ulugbek and Chilanzar."
+      }
+    ]
   }
 }
