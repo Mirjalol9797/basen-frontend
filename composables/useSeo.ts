@@ -84,11 +84,22 @@ export const usePoolSeo = (pool: Pool) => {
     ],
   }
 
+  const webPage = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: pool.name,
+    url: `${BASE_URL}/catalog/${pool.slug}`,
+    primaryImageOfPage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
+    dateModified: pool.createdAt,
+    inLanguage: locale.value,
+  }
+
   useHead({
     link: [{ rel: 'canonical', href: `${BASE_URL}/catalog/${pool.slug}` }],
     script: [
       { type: 'application/ld+json', children: JSON.stringify(schema), key: 'schema-pool' },
       { type: 'application/ld+json', children: JSON.stringify(breadcrumb), key: 'schema-breadcrumb' },
+      { type: 'application/ld+json', children: JSON.stringify(webPage), key: 'schema-webpage' },
     ],
   })
 }
