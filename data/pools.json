@@ -545,17 +545,17 @@
     "slug": "atlantis",
     "translations": {
       "ru": {
-        "name": "Atlantis",
+        "name": "Atlantis аквапарк",
         "address": "Сергели 7, ул. Шокирарык, 58, Сергелийский район, Ташкент",
-        "description": "Открытый аквапарк с бассейнами, водными горками и зоной отдыха. На территории кафе, бар и закрытые VIP-кабинки. Работает ежедневно до 23:00."
+        "description": "Открытый аквапарк с бассейнами, водными горками и зоной отдыха. Вход на весь день (11:00–23:00): взрослым 200 000 сум, детям до 12 лет — 100 000 сум, детям до 3 лет — бесплатно. По средам дети до 12 лет проходят бесплатно, по вторникам–четвергам скидка 50% для женщин. На территории есть аренда топчанов, кабинок, VIP-кабинок и террас (депозитом от 300 000 до 500 000 сум), а также кафе, бар и закрытые VIP-кабинки. Парковка на территории."
       },
       "uz": {
-        "name": "Atlantis",
+        "name": "Atlantis Aquapark",
         "address": "Sergeli 7, Shokirariq ko'chasi, 58, Sergeli tumani, Toshkent",
         "description": null
       },
       "en": {
-        "name": "Atlantis",
+        "name": "Atlantis Aquapark",
         "address": "Sergeli 7, 58 Shokirariq str., Sergeli district, Tashkent",
         "description": null
       }
@@ -569,18 +569,41 @@
       "lng": 69.219441
     },
     "phone": [
-      "+998 71 207-05-06"
+      "+998 71 207-05-06",
+      "+998 71 215-11-22"
     ],
-    "telegram": null,
+    "telegram": "https://t.me/atlantis_uzb",
+    "facebook": "https://www.facebook.com/atlantis.aquapark",
+    "instagram": "https://www.instagram.com/atlantis.aquapark/",
     "website": null,
     "gallery": [
       "/images/pools/atlantis/1.jpg",
       "/images/pools/atlantis/2.jpg",
       "/images/pools/atlantis/3.jpg",
       "/images/pools/atlantis/4.jpg",
-      "/images/pools/atlantis/5.jpg"
+      "/images/pools/atlantis/5.jpg",
+      "/images/pools/atlantis/6.jpg",
+      "/images/pools/atlantis/7.webp",
+      "/images/pools/atlantis/8.webp",
+      "/images/pools/atlantis/9.webp",
+      "/images/pools/atlantis/10.webp",
+      "/images/pools/atlantis/11.webp",
+      "/images/pools/atlantis/12.webp",
+      "/images/pools/atlantis/13.webp",
+      "/images/pools/atlantis/14.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_fullday",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 100000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
@@ -627,7 +650,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "rating": 5,
     "reviewCount": 24,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
