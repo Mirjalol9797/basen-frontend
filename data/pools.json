@@ -3000,14 +3000,16 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.223829,
-      "lng": 69.367022
+      "lat": 41.224023,
+      "lng": 69.366711
     },
     "phone": [
       "+998 90 325-45-56",
       "+998 90 956-59-04"
     ],
-    "telegram": null,
+    "telegram": "https://t.me/aleks_basseyn",
+    "facebook": "https://www.facebook.com/aleks.basseyn",
+    "instagram": "https://www.instagram.com/aleks_basseyn",
     "website": null,
     "gallery": [
       "/images/pools/aleks/1.jpg",
@@ -3072,7 +3074,8 @@
     "services": [
       "parking",
       "cafe",
-      "children_zone"
+      "children_zone",
+      "free_sunbed"
     ],
     "season": "summer",
     "poolLength": null,
