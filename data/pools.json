@@ -2581,8 +2581,8 @@
     "createdAt": "2026-06-29T00:00:00Z"
   },
   {
-    "id": "aquamarine",
-    "slug": "aquamarine",
+    "id": "garden-park",
+    "slug": "garden-park",
     "translations": {
       "ru": {
         "name": "Бассейн Garden Park",
@@ -2616,19 +2616,19 @@
     "instagram": "https://www.instagram.com/garden.park.uz/",
     "website": null,
     "gallery": [
-      "/images/pools/aquamarine/1.jpg",
-      "/images/pools/aquamarine/2.jpg",
-      "/images/pools/aquamarine/3.webp",
-      "/images/pools/aquamarine/4.webp",
-      "/images/pools/aquamarine/5.webp",
-      "/images/pools/aquamarine/6.webp",
-      "/images/pools/aquamarine/7.webp",
-      "/images/pools/aquamarine/8.jpg",
-      "/images/pools/aquamarine/9.jpg",
-      "/images/pools/aquamarine/10.jpeg",
-      "/images/pools/aquamarine/11.jpeg",
-      "/images/pools/aquamarine/12.jpeg",
-      "/images/pools/aquamarine/13.jpeg"
+      "/images/pools/garden-park/1.jpg",
+      "/images/pools/garden-park/2.jpg",
+      "/images/pools/garden-park/3.webp",
+      "/images/pools/garden-park/4.webp",
+      "/images/pools/garden-park/5.webp",
+      "/images/pools/garden-park/6.webp",
+      "/images/pools/garden-park/7.webp",
+      "/images/pools/garden-park/8.jpg",
+      "/images/pools/garden-park/9.jpg",
+      "/images/pools/garden-park/10.jpeg",
+      "/images/pools/garden-park/11.jpeg",
+      "/images/pools/garden-park/12.jpeg",
+      "/images/pools/garden-park/13.jpeg"
     ],
     "prices": [
       {
