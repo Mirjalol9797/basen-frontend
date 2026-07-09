@@ -64,10 +64,10 @@
   "aqualand/9.webp": "99436c60fc43c8bd958a8b845409c487b810137f",
   "garden-park/1.jpg": "0c49476aeb6076a2e0e343f36cfb80dfdbb58886",
   "garden-park/2.jpg": "0398392f56abb5e846b2033b1acbbc6ae3091442",
-  "astera-sea/1.jpg": "63a5176429eab39bdca057f198e5c98070060e67",
+  "astera-sea/1.jpg": "21cd2ce7c5da224dbb0806d8b6c36a66d1073c71",
   "astera-sea/2.jpg": "ac18ada41f52274fb91a608da20bf45e264c39ec",
   "astera-sea/3.jpg": "18f348ac2bf2cc71eba88c280b1b803d0e3e2b5f",
-  "astera-sea/4.jpg": "ef3e20d43944122a05a64fe62d5c2ec4a7ec1d23",
+  "astera-sea/4.jpg": "50cdaac7e72711df05fb19f18fc1698c0cc23a28",
   "astera-sea/5.jpg": "5dfba8bdcfe3182f799f246c4859dae4a958af57",
   "atlantis/1.jpg": "0b68a222ab96344f2917af6a181953ac70922863",
   "atlantis/2.jpg": "8b1c5b2d504a88b8d467e907c9a34cf60b92298b",
@@ -199,5 +199,11 @@
   "garden-park/6.webp": "eca3042bc00097d70cda88bb6350c333440b1bee",
   "garden-park/7.webp": "b9d9eaf0dc2d5aba76eed23e74b4de8d1f3218a7",
   "garden-park/8.jpg": "1efceed2296b8fd23b113cb0d462d27865a45b00",
-  "garden-park/9.jpg": "2c20ef26380dc1ffda39b1ac3ade3baeb9a02ee8"
+  "garden-park/9.jpg": "2c20ef26380dc1ffda39b1ac3ade3baeb9a02ee8",
+  "astera-sea/10.jpg": "de574ed4cffb896833658c48a8e603900a30833a",
+  "astera-sea/11.jpg": "e47af232cdbfe877bf71fd8676b272b14f25623e",
+  "astera-sea/6.jpg": "47f4200c3f0bcbf0bedac7a9421853ec3713de35",
+  "astera-sea/6.webp": "aca6d974a336881e716e56bf11aff8c4a0826f7b",
+  "astera-sea/7.jpg": "4fbf97b5cde9467d83da8c4b8b1f243dc81c2a0f",
+  "astera-sea/9.jpg": "ed0da43731ae3cd21a30e4a75e9cf60c0df0749d"
 }

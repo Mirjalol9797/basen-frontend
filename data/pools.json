@@ -1484,7 +1484,7 @@
       "ru": {
         "name": "Astera Sea",
         "address": "ул. Шокирарик, 46, Сергелийский район, Ташкент",
-        "description": "Открытый бассейн в Сергелийском районе с удобным расположением у станции метро «Сергели-4». Кафе, раздевалки и парковка на территории."
+        "description": "Открытый бассейн в Сергелийском районе с удобным расположением у станции метро «Сергели-4». Цены зависят от дня недели: в будни взрослым от 115 000 сум/час, детям (3–12 лет) — от 70 000 сум/час; в выходные от 125 000 и 80 000 сум/час соответственно. Детям до 3 лет вход бесплатный при наличии подгузника для плавания. Аренда лежаков и столов не предусмотрена. Кафе, раздевалки и парковка на территории."
       },
       "uz": {
         "name": "Astera Sea",
@@ -1502,30 +1502,88 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.217054,
-      "lng": 69.213544
+      "lat": 41.215779,
+      "lng": 69.218008
     },
     "phone": [
       "+998 90 043-05-20"
     ],
     "telegram": null,
+    "facebook": "https://www.facebook.com/aster.asea/",
+    "instagram": "https://www.instagram.com/astera_sea/",
     "website": null,
     "gallery": [
       "/images/pools/astera-sea/1.jpg",
       "/images/pools/astera-sea/2.jpg",
       "/images/pools/astera-sea/3.jpg",
       "/images/pools/astera-sea/4.jpg",
-      "/images/pools/astera-sea/5.jpg"
+      "/images/pools/astera-sea/5.jpg",
+      "/images/pools/astera-sea/6.jpg",
+      "/images/pools/astera-sea/6.webp",
+      "/images/pools/astera-sea/7.jpg",
+      "/images/pools/astera-sea/9.jpg",
+      "/images/pools/astera-sea/10.jpg",
+      "/images/pools/astera-sea/11.jpg"
     ],
     "prices": [
       {
-        "key": "price.adult_single",
+        "key": "price.adult_weekday_1h",
+        "amount": 115000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekday_2h",
+        "amount": 125000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekday_3h",
+        "amount": 135000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend_1h",
+        "amount": 125000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend_2h",
+        "amount": 140000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend_3h",
+        "amount": 155000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekday_1h",
+        "amount": 70000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekday_2h",
+        "amount": 75000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekday_3h",
         "amount": 80000,
         "currency": "UZS"
       },
       {
-        "key": "price.child_single",
-        "amount": 50000,
+        "key": "price.child_weekend_1h",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend_2h",
+        "amount": 85000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend_3h",
+        "amount": 90000,
         "currency": "UZS"
       }
     ],
@@ -1575,7 +1633,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.8,
+    "rating": 4.9,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
