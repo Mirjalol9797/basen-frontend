@@ -1803,7 +1803,7 @@
       "ru": {
         "name": "Aladdin",
         "address": "городской посёлок Кирсадок, Янгиюльский район, Ташкентская область",
-        "description": "Открытый бассейн в Янгиюльском районе. Взрослый билет 80 000 сум, дети от 5 лет 45 000 сум. Ежедневно с 10:00 до 22:00."
+        "description": "Открытый бассейн в Янгиюльском районе с отелем, семейными дачами, бильярдным залом, кафе и диско-баром. Взрослый (от 12 лет) 150 000 сум/день, дети 5–12 лет 80 000 сум, до 5 лет бесплатно. Ежедневно с 10:00 до 22:00. Есть отдельный зимний бассейн: с 10:00 до 18:00 только для женщин, с 18:00 до 22:00 для всех."
       },
       "uz": {
         "name": "Aladdin",
@@ -1821,13 +1821,17 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.087344,
-      "lng": 69.056492
+      "lat": 41.094809,
+      "lng": 69.054802
     },
     "phone": [
-      "+998 99 513-00-06"
+      "+998 99 513-00-06",
+      "+998 97 940-00-06",
+      "+998 99 512-00-06",
+      "+998 99 306-00-06"
     ],
-    "telegram": null,
+    "telegram": "https://t.me/aladdinlive",
+    "instagram": "https://www.instagram.com/aladdinkompleks/?hl=ru",
     "website": null,
     "gallery": [
       "/images/pools/aladdin/1.jpg",
@@ -1846,12 +1850,12 @@
     "prices": [
       {
         "key": "price.adult_single",
-        "amount": 80000,
+        "amount": 150000,
         "currency": "UZS"
       },
       {
         "key": "price.child_single",
-        "amount": 45000,
+        "amount": 80000,
         "currency": "UZS"
       }
     ],
@@ -1892,12 +1896,18 @@
         "close": "22:00"
       }
     ],
-    "services": [],
+    "services": [
+      "hotel",
+      "cottages",
+      "billiards",
+      "cafe",
+      "disco_bar"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "rating": 5,
     "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"

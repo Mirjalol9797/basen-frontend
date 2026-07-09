@@ -98,7 +98,9 @@
     "karaoke": "Karaoke",
     "hotel": "Hotel rooms",
     "cottages": "Cottages",
-    "resort": "Resort"
+    "resort": "Resort",
+    "billiards": "Billiards",
+    "disco_bar": "Disco bar"
   },
   "schedule": {
     "mon": "Monday",
