@@ -222,5 +222,61 @@
         "a": "Sport pools in the catalog are located in Mirzo-Ulugbek (2 venues), Mirobod and Shayhontohur districts."
       }
     ]
+  },
+  "hotel": {
+    "ru": [
+      {
+        "q": "Можно ли попасть в бассейн при отеле, не будучи гостем?",
+        "a": "Как правило да — большинство из 8 отельных бассейнов каталога продают разовый вход внешним посетителям. Но это не универсальное правило, условия у каждого отеля свои и могут меняться — надёжнее позвонить и уточнить перед поездкой."
+      },
+      {
+        "q": "Работают ли бассейны при отелях круглый год?",
+        "a": "5 из 8 — круглогодичные закрытые бассейны и спа-зоны. Остальные 3 — сезонные летние бар-бассейны на территории отеля, работают с мая по сентябрь."
+      },
+      {
+        "q": "Есть ли сауна или SPA при отельных бассейнах?",
+        "a": "Сауна отмечена у 3 из 8 бассейнов при отелях, полноценная SPA-зона — у Grand Serena Hotel Pool в Яккасарайском районе."
+      },
+      {
+        "q": "В каких районах Ташкента расположены бассейны при отелях?",
+        "a": "Больше всего в Юнусабадском и Мирабадском районах (по 2 объекта), также есть в Яккасарайском, Яшнабадском и Чиланзарском районах."
+      }
+    ],
+    "uz": [
+      {
+        "q": "Mehmonxona basseyniga mehmon bo'lmasdan kirish mumkinmi?",
+        "a": "Odatda ha — katalogdagi 8 ta mehmonxona basseynidan ko'pchiligi tashqi tashrif buyuruvchilarga bir martalik kirishni sotadi. Ammo bu universal qoida emas, har bir mehmonxonaning shartlari boshqacha va o'zgarishi mumkin — safardan oldin qo'ng'iroq qilib aniqlashtirish ishonchliroq."
+      },
+      {
+        "q": "Mehmonxona basseynlari yil davomida ishlaydimi?",
+        "a": "8 tadan 5 tasi — yil davomida ishlaydigan yopiq basseyn va spa-zonalar. Qolgan 3 tasi — mehmonxona hududidagi mavsumiy yozgi bar-basseynlar, may-sentyabr oylarida ishlaydi."
+      },
+      {
+        "q": "Mehmonxona basseynlarida sauna yoki SPA bormi?",
+        "a": "8 ta mehmonxona basseynidan 3 tasida sauna bor, to'liq SPA-zona esa Yakkasaroy tumanidagi Grand Serena Hotel Pool'da mavjud."
+      },
+      {
+        "q": "Toshkentning qaysi tumanlarida mehmonxona basseynlari bor?",
+        "a": "Eng ko'pi Yunusobod va Mirobod tumanlarida (har birida 2 tadan), shuningdek Yakkasaroy, Yashnobod va Chilonzor tumanlarida ham mavjud."
+      }
+    ],
+    "en": [
+      {
+        "q": "Can I use a hotel pool without being a guest?",
+        "a": "Usually yes — most of the 8 hotel pools in the catalog sell single-visit entry to outside visitors. But this isn't a universal rule; each hotel's terms differ and can change, so it's safer to call and check before you go."
+      },
+      {
+        "q": "Are hotel pools open year-round?",
+        "a": "5 of the 8 are year-round indoor pools and spa areas. The other 3 are seasonal summer bar-pools on hotel grounds, open from May to September."
+      },
+      {
+        "q": "Do hotel pools have a sauna or spa?",
+        "a": "A sauna is marked at 3 of the 8 hotel pools, and a full spa area is available at Grand Serena Hotel Pool in the Yakkasaray district."
+      },
+      {
+        "q": "Which Tashkent districts have hotel pools?",
+        "a": "Most are in the Yunusabad and Mirobod districts (2 venues each), with others in Yakkasaray, Yashnabad and Chilanzar."
+      }
+    ]
   }
 }
