@@ -1,29 +1,17 @@
-страница https://basen.uz/region/tashkent-city/
-для каждой категории свои данные и свои тексты
-перед началом работы изучи что лучше по одному задания для каждой категории или сразу все
+https://basen.uz/catalog/atlantis/
+названия: Atlantis аквапарк
 
-1. Добавить CollectionPage
-Сейчас есть только
-ItemList
-Лучше сделать
-{
- "@type":"CollectionPage",
- "name":"Открытые бассейны Ташкента",
- "mainEntity":{
-     "@type":"ItemList"
- }
-}
-Google понимает такие страницы значительно лучше.
+соц сети
+https://t.me/atlantis_uzb
+https://www.instagram.com/atlantis.aquapark/
+https://www.facebook.com/atlantis.aquapark
 
-2. Добавить BreadcrumbList
-На странице отсутствует Breadcrumb Schema.
+оценка 5 
 
-Например
-BreadcrumbList
+номера еще 
+998 71 215 11 22
 
-3. Добавить FAQ Schema
+Парковка
+есть
 
-4. фильтр по районам. Убери селект и сделай все районы кнопками как Тип бассейна
-
-
-
+цена на скрине
