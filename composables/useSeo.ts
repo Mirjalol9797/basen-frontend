@@ -14,7 +14,7 @@ const DAY_MAP: Record<ScheduleDay['day'], string> = {
   mon: 'Mo', tue: 'Tu', wed: 'We', thu: 'Th', fri: 'Fr', sat: 'Sa', sun: 'Su',
 }
 
-function buildOpeningHours(schedule: ScheduleDay[] | null): string[] {
+export function buildOpeningHours(schedule: ScheduleDay[] | null): string[] {
   if (!schedule) return []
   return schedule
     .filter(d => !d.closed)

@@ -211,6 +211,26 @@
       "a4": "Yes, we regularly check and update pool prices, opening hours and photos to keep the data accurate."
     }
   },
+  "map": {
+    "breadcrumb": "Pool Map",
+    "meta_title": "Tashkent Swimming Pools Map — find the nearest pool {'|'} Basen.uz",
+    "meta_desc": "Swimming pools in Tashkent and Uzbekistan on the map. Find a pool near you — address, 2026 prices and schedule. Click a marker for details.",
+    "faq_title": "Frequently asked questions about the pool map",
+    "faq": {
+      "q1": "How do I find the nearest pool on the map?",
+      "a1": "Open the map — all 50 pools in Tashkent and Uzbekistan are shown as markers at their real coordinates. Click a marker to see the address, prices and schedule, or use the list on the left for a quick search.",
+      "q2": "Does the map show pool prices and opening hours?",
+      "a2": "Yes, clicking a marker or a card in the list opens a short summary: prices, opening hours and photos. The full pool page is linked from that card.",
+      "q3": "Can I filter pools on the map by district or type?",
+      "a3": "The map shows all pools at once. To filter by type, district or price, go to the catalog — all filters are available there, and you can view the results on the map too."
+    },
+    "links_title": "See also",
+    "link_catalog": "Pool Catalog",
+    "link_districts": "Pools by District",
+    "link_open": "Open-air Pools",
+    "link_children": "Children's Pools",
+    "link_sport": "Sport Pools"
+  },
   "pool": {
     "open_badge": "Open-air",
     "indoor_badge": "Indoor",

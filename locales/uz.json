@@ -211,6 +211,26 @@
     "view_map": "Xarita",
     "filters_btn": "Filtrlar"
   },
+  "map": {
+    "breadcrumb": "Basseynlar xaritasi",
+    "meta_title": "Toshkent basseynlari xaritasi — eng yaqin basseynni toping {'|'} Basen.uz",
+    "meta_desc": "Toshkent va O'zbekiston basseynlari xaritada. Yaqin atrofdagi basseynni toping — manzil, 2026 narxlari va ish vaqti. Batafsil ma'lumot uchun markerni bosing.",
+    "faq_title": "Basseynlar xaritasi haqida ko'p so'raladigan savollar",
+    "faq": {
+      "q1": "Xaritada eng yaqin basseynni qanday topish mumkin?",
+      "a1": "Xaritani oching — Toshkent va O'zbekistonning barcha 50 ta basseyni haqiqiy koordinatalari bo'yicha markerlar bilan ko'rsatilgan. Manzil, narxlar va ish vaqtini ko'rish uchun markerni bosing yoki tezkor qidiruv uchun chapdagi ro'yxatdan foydalaning.",
+      "q2": "Xaritada basseynlarning narxlari va ish vaqti ko'rsatilganmi?",
+      "a2": "Ha, markerni yoki ro'yxatdagi kartani bosganingizda basseyn haqida qisqacha ma'lumot ochiladi: narxlar, ish vaqti va fotosuratlar. Basseynning to'liq sahifasiga kartadagi havola orqali o'tish mumkin.",
+      "q3": "Xaritada basseynlarni tuman yoki turi bo'yicha filtrlash mumkinmi?",
+      "a3": "Xaritada barcha basseynlar bir vaqtning o'zida ko'rsatiladi. Tur, tuman yoki narx bo'yicha filtrlash uchun katalogga o'ting — u yerda barcha filtrlar mavjud, natijalarni xaritada ham ko'rish mumkin."
+    },
+    "links_title": "Shuningdek qarang",
+    "link_catalog": "Basseynlar katalogi",
+    "link_districts": "Tumanlar bo'yicha basseynlar",
+    "link_open": "Ochiq basseynlar",
+    "link_children": "Bolalar basseynlari",
+    "link_sport": "Sport basseynlari"
+  },
   "pool": {
     "open_badge": "Ochiq",
     "indoor_badge": "Yopiq",
