@@ -110,5 +110,61 @@
         "a": "Indoor pools in the catalog are spread across the Chilanzar, Mirzo-Ulugbek, Shayhontohur and Yunusabad districts."
       }
     ]
+  },
+  "children": {
+    "ru": [
+      {
+        "q": "С какого возраста можно записать ребёнка в детский бассейн?",
+        "a": "Зависит от бассейна: Studio13 и Born2Swim принимают детей с 3 месяцев (грудничковое плавание), а Kids Aquaworld — с 2 лет. Точные возрастные программы указаны в описании каждого бассейна."
+      },
+      {
+        "q": "Сколько стоит билет в детский бассейн?",
+        "a": "Цены в каталоге — от 45 000 до 55 000 сум за посещение или занятие."
+      },
+      {
+        "q": "Есть ли в детских бассейнах тренеры-инструкторы?",
+        "a": "Да, в 2 из 3 детских бассейнов каталога — это специализированные школы плавания с профессиональными инструкторами (Studio13, Born2Swim)."
+      },
+      {
+        "q": "Работают ли детские бассейны Ташкента круглый год?",
+        "a": "Да, 2 из 3 детских бассейнов работают круглый год, один — сезонный. Режим работы каждого объекта указан на его странице."
+      }
+    ],
+    "uz": [
+      {
+        "q": "Bolani bolalar basseyniga necha yoshdan yozish mumkin?",
+        "a": "Basseynga qarab farq qiladi: Studio13 va Born2Swim 3 oylikdan qabul qiladi (chaqaloqlar suzishi), Kids Aquaworld esa 2 yoshdan. Aniq yosh dasturlari har bir basseyn tavsifida ko'rsatilgan."
+      },
+      {
+        "q": "Bolalar basseyniga chipta narxi qancha?",
+        "a": "Katalogdagi narxlar — tashrif yoki mashg'ulot uchun 45 000 dan 55 000 so'mgacha."
+      },
+      {
+        "q": "Bolalar basseynlarida murabbiy-instruktorlar bormi?",
+        "a": "Ha, katalogdagi 3 ta bolalar basseynidan 2 tasida — bu professional instruktorlar bilan ixtisoslashgan suzish maktablari (Studio13, Born2Swim)."
+      },
+      {
+        "q": "Toshkentning bolalar basseynlari yil davomida ishlaydimi?",
+        "a": "Ha, 3 ta bolalar basseynidan 2 tasi yil davomida ishlaydi, bittasi mavsumiy. Har bir obyektning ish vaqti uning sahifasida ko'rsatilgan."
+      }
+    ],
+    "en": [
+      {
+        "q": "From what age can a child join a children's pool?",
+        "a": "It depends on the venue: Studio13 and Born2Swim accept children from 3 months (infant swimming), while Kids Aquaworld starts from age 2. Exact age programs are listed on each pool's page."
+      },
+      {
+        "q": "How much does a children's pool ticket cost?",
+        "a": "Catalog prices range from 45,000 to 55,000 UZS per visit or lesson."
+      },
+      {
+        "q": "Do children's pools have coaches or instructors?",
+        "a": "Yes, at 2 of the 3 children's pools in the catalog — these are specialized swim schools with professional instructors (Studio13, Born2Swim)."
+      },
+      {
+        "q": "Are Tashkent's children's pools open year-round?",
+        "a": "Yes, 2 of the 3 children's pools operate year-round, one is seasonal. Each venue's schedule is listed on its page."
+      }
+    ]
   }
 }
