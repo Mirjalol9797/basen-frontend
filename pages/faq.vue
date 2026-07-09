@@ -67,7 +67,7 @@
         <h2 class="font-bold text-gray-900 mb-2">Остались вопросы?</h2>
         <p class="text-sm text-gray-500 mb-5">Напишите нам — ответим быстро</p>
         <a
-          href="https://t.me/basenuz"
+          href="https://t.me/Mirjalol1210"
           target="_blank"
           rel="noopener"
           class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#0088cc] text-white text-sm font-semibold hover:bg-[#0077b3] transition-colors"
