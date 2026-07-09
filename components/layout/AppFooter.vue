@@ -48,7 +48,9 @@
 
         <!-- Regions -->
         <div>
-          <h3 class="text-sm font-semibold text-white mb-3 uppercase tracking-wide">
+          <h3
+            class="text-sm font-semibold text-white mb-3 uppercase tracking-wide"
+          >
             {{ $t("region.regions_title") }}
           </h3>
           <ul class="space-y-2">
@@ -98,21 +100,6 @@
           © {{ currentYear }} Basen.uz —
           <span>лучший каталог бассейнов Ташкента</span>
         </p>
-        <div class="flex items-center gap-0.5 bg-white/10 rounded-lg p-0.5">
-          <NuxtLink
-            v-for="loc in availableLocales"
-            :key="loc.code"
-            :to="switchLocalePath(loc.code)"
-            class="px-2.5 py-1 rounded-md text-xs font-semibold transition-all duration-150"
-            :class="
-              locale === loc.code
-                ? 'bg-white text-slate-600'
-                : 'text-primary-200 hover:text-white'
-            "
-          >
-            {{ loc.code.toUpperCase() }}
-          </NuxtLink>
-        </div>
       </div>
     </div>
   </footer>
@@ -127,17 +114,15 @@ const { regions } = useRegions();
 const currentYear = new Date().getFullYear();
 
 const footerLinks = [
-  { key: "catalog",  to: "/catalog",   label: "nav.catalog" },
-  { key: "map",      to: "/map",       label: "nav.map" },
-  { key: "guide",    to: "/guide",     label: "nav.guide" },
-  { key: "contacts", to: "/contacts",  label: "nav.contacts" },
-  { key: "privacy",  to: "/privacy",   label: "nav.privacy" },
-  { key: "terms",    to: "/terms",     label: "nav.terms" },
+  { key: "catalog", to: "/catalog", label: "nav.catalog" },
+  { key: "map", to: "/map", label: "nav.map" },
+  { key: "guide", to: "/guide", label: "nav.guide" },
+  { key: "contacts", to: "/contacts", label: "nav.contacts" },
+  { key: "privacy", to: "/privacy", label: "nav.privacy" },
+  { key: "terms", to: "/terms", label: "nav.terms" },
 ];
 
-const topRegions = computed(() =>
-  regions.value.slice(0, 6)
-);
+const topRegions = computed(() => regions.value.slice(0, 6));
 
 const availableLocales = computed(
   () => locales.value as { code: string; name: string }[]
