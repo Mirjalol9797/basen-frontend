@@ -74,7 +74,7 @@
         <!-- Pool grid -->
         <div
           v-else
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
         >
           <PoolCard v-for="pool in pools" :key="pool.id" :pool="pool" />
         </div>
@@ -84,13 +84,23 @@
       <div class="bg-white border-t border-gray-100">
         <div class="container py-8 max-w-3xl">
           <template v-if="guide">
-            <p class="text-sm text-gray-500 leading-relaxed">{{ guide.intro }}</p>
+            <p class="text-sm text-gray-500 leading-relaxed">
+              {{ guide.intro }}
+            </p>
             <div v-for="(section, i) in guide.sections" :key="i" class="mt-6">
-              <h2 class="text-base font-bold text-gray-900 mb-2">{{ section.heading }}</h2>
-              <p v-if="section.body" class="text-sm text-gray-500 leading-relaxed">
+              <h2 class="text-base font-bold text-gray-900 mb-2">
+                {{ section.heading }}
+              </h2>
+              <p
+                v-if="section.body"
+                class="text-sm text-gray-500 leading-relaxed"
+              >
                 {{ section.body }}
               </p>
-              <ul v-if="section.list" class="text-sm text-gray-500 leading-relaxed space-y-1.5 list-disc pl-5">
+              <ul
+                v-if="section.list"
+                class="text-sm text-gray-500 leading-relaxed space-y-1.5 list-disc pl-5"
+              >
                 <li v-for="(item, j) in section.list" :key="j">{{ item }}</li>
               </ul>
             </div>
@@ -103,7 +113,9 @@
 
       <!-- Other categories -->
       <div class="container py-8 border-t border-gray-100">
-        <h2 class="text-lg font-bold text-gray-900 mb-4">{{ $t('category.other_categories') }}</h2>
+        <h2 class="text-lg font-bold text-gray-900 mb-4">
+          {{ $t("category.other_categories") }}
+        </h2>
         <div class="flex flex-wrap gap-2">
           <NuxtLink
             v-for="c in otherCategories"
@@ -156,7 +168,10 @@ type CategoryGuide = {
 };
 
 const guide = computed((): CategoryGuide | null => {
-  const guides = categoryGuides as Record<string, Record<string, CategoryGuide>>;
+  const guides = categoryGuides as Record<
+    string,
+    Record<string, CategoryGuide>
+  >;
   return guides[slug]?.[locale.value] ?? null;
 });
 
