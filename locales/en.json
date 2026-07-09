@@ -194,11 +194,22 @@
   },
   "catalog": {
     "title": "Swimming Pools in Tashkent",
-    "meta_title": "All Swimming Pools in Tashkent — {count}+ venues, prices & memberships 2026 {'|'} Basen.uz",
-    "meta_desc": "Complete catalog of Tashkent swimming pools: open-air, indoor, children's and sport. Prices from 30,000 UZS, memberships, schedules and photos. Filter by type and district.",
+    "meta_title": "Catalog of Swimming Pools in Tashkent and Uzbekistan — Prices, Addresses, Photos {'|'} Basen.uz",
+    "meta_desc": "Catalog of swimming pools in Tashkent and Uzbekistan: open-air, indoor, children's and sport pools. 100+ pools with prices, photos, addresses, schedules, a map, phone numbers and reviews. Find a pool near you.",
     "view_list": "List",
     "view_map": "Map",
-    "filters_btn": "Filters"
+    "filters_btn": "Filters",
+    "faq_title": "Frequently asked questions about Tashkent swimming pools",
+    "faq": {
+      "q1": "How many pools are in the Basen.uz catalog?",
+      "a1": "The catalog has 50 pools across Tashkent and Uzbekistan: 18 open-air, 6 indoor, 3 children's, 4 sport, 8 hotel pools and 11 aquaparks. The catalog is regularly updated with new venues.",
+      "q2": "How much does a pool visit cost in Tashkent?",
+      "a2": "Prices start from 30,000 UZS for a single visit and go up to 700,000 UZS at premium fitness complexes and aquaparks. The exact price, including children's tickets and memberships, is listed on each pool's page.",
+      "q3": "How do I choose a pool in the catalog?",
+      "a3": "Use the filters by type (open-air, indoor, children's, sport, aquapark, hotel), district and price, or switch to the map to find the pool closest to you.",
+      "q4": "Are the prices and schedules in the catalog up to date?",
+      "a4": "Yes, we regularly check and update pool prices, opening hours and photos to keep the data accurate."
+    }
   },
   "pool": {
     "open_badge": "Open-air",

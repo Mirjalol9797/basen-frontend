@@ -194,8 +194,19 @@
   },
   "catalog": {
     "title": "Toshkent basseynlari",
-    "meta_title": "Toshkent basseynlari — {count}+ ta basseyn, narxlar va obuna 2026 {'|'} Basen.uz",
-    "meta_desc": "Toshkentning barcha basseynlari: ochiq, yopiq, bolalar va sport. Narxlar 30 000 so'mdan, obuna, ish vaqti va fotolar. Tur, narx va tuman bo'yicha filtrlash.",
+    "meta_title": "Toshkent va O'zbekiston basseynlari katalogi — narxlar, manzillar, fotolar {'|'} Basen.uz",
+    "meta_desc": "Toshkent va O'zbekiston basseynlari katalogi: ochiq, yopiq, bolalar va sport basseynlari. 100 dan ortiq basseyn narxlari, fotosuratlari, manzillari, ish vaqti, xaritasi, telefon raqamlari va sharhlari bilan. Yaqin atrofdagi basseynni toping.",
+    "faq_title": "Toshkent basseynlari haqida ko'p so'raladigan savollar",
+    "faq": {
+      "q1": "Basen.uz katalogida nechta basseyn bor?",
+      "a1": "Katalogda Toshkent va O'zbekistonning 50 ta basseyni bor: 18 ochiq, 6 yopiq, 3 bolalar, 4 sport, 8 mehmonxona basseyni va 11 akvapark. Katalog doimiy ravishda yangi obyektlar bilan to'ldirib boriladi.",
+      "q2": "Toshkentda basseynga tashrif qancha turadi?",
+      "a2": "Narxlar bir martalik tashrif uchun 30 000 so'mdan boshlanadi va premium fitnes-majmualar hamda akvaparklarda 700 000 so'mgacha yetadi. Aniq narx, shu jumladan bolalar chiptalari va obunalar, har bir basseyn sahifasida ko'rsatilgan.",
+      "q3": "Katalogda basseynni qanday tanlash mumkin?",
+      "a3": "Tur (ochiq, yopiq, bolalar, sport, akvapark, mehmonxona), tuman va narx bo'yicha filtrlardan foydalaning yoki eng yaqin basseynni topish uchun xaritaga o'ting.",
+      "q4": "Katalogdagi narxlar va ish vaqti dolzarbmi?",
+      "a4": "Ha, biz basseynlarning narxlari, ish vaqti va fotosuratlarini muntazam tekshirib, yangilab boramiz."
+    },
     "view_list": "Ro'yxat",
     "view_map": "Xarita",
     "filters_btn": "Filtrlar"
