@@ -37,6 +37,13 @@
             <span class="text-white">{{ guide.title }}</span>
           </nav>
           <h1 class="text-3xl sm:text-4xl font-bold">{{ guide.title }}</h1>
+
+          <!-- Meta: dates + author -->
+          <div class="flex flex-wrap items-center gap-x-4 gap-y-1 mt-4 text-sm text-white/60">
+            <span>{{ $t('guide.published') }}: {{ publishedDate }}</span>
+            <span v-if="updatedDate && updatedDate !== publishedDate">{{ $t('guide.updated') }}: {{ updatedDate }}</span>
+            <span>{{ $t('guide.author') }}: {{ $t('guide.author_name') }}</span>
+          </div>
         </div>
       </section>
 
@@ -89,7 +96,7 @@
 
 <script setup lang="ts">
 const route = useRoute();
-const { t } = useI18n();
+const { t, locale } = useI18n();
 const localePath = useLocalePath();
 const poolsStore = usePoolsStore();
 const { getGuideBySlug } = useGuides();
@@ -105,6 +112,22 @@ const pools = computed(() => {
     .map((s) => poolsStore.all.find((p) => p.slug === s))
     .filter((p): p is NonNullable<typeof p> => !!p);
 });
+
+const localeMap = { ru: "ru-RU", uz: "uz-UZ", en: "en-US" } as const;
+
+const formatDate = (iso: string) =>
+  new Intl.DateTimeFormat(localeMap[locale.value as keyof typeof localeMap] ?? "ru-RU", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  }).format(new Date(iso));
+
+const publishedDate = computed(() =>
+  guide.value ? formatDate(guide.value.publishedAt) : ""
+);
+const updatedDate = computed(() =>
+  guide.value?.updatedAt ? formatDate(guide.value.updatedAt) : null
+);
 
 const relatedCategories = computed(() => {
   const ids = new Set<string>(pools.value.map((p) => p.category));
@@ -131,11 +154,14 @@ watchEffect(() => {
 
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: guide.value.title,
     description: guide.value.metaDescription,
     datePublished: guide.value.publishedAt,
+    dateModified: guide.value.updatedAt ?? guide.value.publishedAt,
     url: `${BASE_URL}/guide/${slug}`,
+    author: { "@type": "Organization", name: t("guide.author_name") },
+    image: pools.value[0]?.gallery[0] ? `${BASE_URL}${pools.value[0].gallery[0]}` : `${BASE_URL}/og/default.jpg`,
   };
 
   const breadcrumb = {

@@ -37,6 +37,37 @@
           <span class="text-sm font-semibold text-primary-600">{{ $t('guide.read_more') }} →</span>
         </NuxtLink>
       </div>
+
+      <!-- FAQ -->
+      <div class="mt-14 pt-10 border-t border-gray-100">
+        <h2 class="text-lg font-bold text-gray-900 mb-4">{{ $t('guide.faq_title') }}</h2>
+        <div class="space-y-2.5 max-w-3xl">
+          <div
+            v-for="(item, index) in faqItems"
+            :key="index"
+            class="bg-white rounded-xl border border-gray-100 overflow-hidden"
+          >
+            <button
+              type="button"
+              class="w-full flex items-center justify-between gap-4 px-4 py-3.5 text-left hover:bg-gray-50 transition-colors duration-150"
+              :aria-expanded="openFaqIndex === index"
+              @click="openFaqIndex = openFaqIndex === index ? null : index"
+            >
+              <span class="font-medium text-gray-900 text-sm leading-snug">{{ item.q }}</span>
+              <svg
+                class="w-4 h-4 shrink-0 text-primary-600 transition-transform duration-200"
+                :class="{ 'rotate-180': openFaqIndex === index }"
+                viewBox="0 0 20 20" fill="currentColor"
+              >
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div v-if="openFaqIndex === index" class="px-4 pb-3.5 text-sm text-gray-500 leading-relaxed border-t border-gray-50 pt-3">
+              {{ item.a }}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -52,22 +83,77 @@ usePageSeo({
   canonical: '/guide',
 })
 
+const faqItems = computed(() => [
+  { q: t('guide.faq.q1'), a: t('guide.faq.a1') },
+  { q: t('guide.faq.q2'), a: t('guide.faq.a2') },
+  { q: t('guide.faq.q3'), a: t('guide.faq.a3') },
+])
+const openFaqIndex = ref<number | null>(null)
+
 const BASE_URL = 'https://basen.uz'
 
-useHead({
-  script: [
-    {
-      type: 'application/ld+json',
-      children: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: t('nav.home'), item: BASE_URL },
-          { '@type': 'ListItem', position: 2, name: t('nav.guide'), item: `${BASE_URL}/guide` },
-        ],
-      }),
-      key: 'schema-breadcrumb',
+watchEffect(() => {
+  const collectionSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: t('guide.title'),
+    description: t('guide.meta_desc'),
+    url: `${BASE_URL}/guide`,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: guides.value.length,
+      itemListElement: guides.value.map((g, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: g.title,
+        url: `${BASE_URL}/guide/${g.slug}`,
+      })),
     },
-  ],
+  }
+
+  const blogSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    name: t('guide.title'),
+    description: t('guide.meta_desc'),
+    url: `${BASE_URL}/guide`,
+    blogPost: guides.value.map(g => ({
+      '@type': 'BlogPosting',
+      headline: g.title,
+      description: g.excerpt,
+      url: `${BASE_URL}/guide/${g.slug}`,
+      datePublished: g.publishedAt,
+      dateModified: g.updatedAt ?? g.publishedAt,
+      author: { '@type': 'Organization', name: t('guide.author_name') },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t('nav.home'), item: BASE_URL },
+      { '@type': 'ListItem', position: 2, name: t('nav.guide'), item: `${BASE_URL}/guide` },
+    ],
+  }
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.value.map(item => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  }
+
+  useHead({
+    script: [
+      { type: 'application/ld+json', children: JSON.stringify(collectionSchema), key: 'schema-collection' },
+      { type: 'application/ld+json', children: JSON.stringify(blogSchema), key: 'schema-blog' },
+      { type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema), key: 'schema-breadcrumb' },
+      { type: 'application/ld+json', children: JSON.stringify(faqSchema), key: 'schema-faq' },
+    ],
+  })
 })
 </script>

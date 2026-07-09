@@ -304,7 +304,7 @@
     "title": "Tashkent Pools Guide",
     "subtitle": "Curated picks and tips — where to go, what's cheaper, what to choose",
     "meta_title": "Tashkent Pools Guide — curated picks and tips {'|'} Basen.uz",
-    "meta_desc": "Curated picks of Tashkent pools: best open-air and indoor, children's pools, aquaparks. Tips on where to go and how to choose.",
+    "meta_desc": "A guide to swimming pools in Tashkent and Uzbekistan. The best open-air, indoor, children's and sport pools, aquaparks, tips on choosing, reviews, ratings and useful articles.",
     "empty_title": "No articles yet",
     "empty_desc": "We're preparing the first picks — check back soon",
     "read_more": "Read",
@@ -312,7 +312,20 @@
     "not_found": "Article not found",
     "not_found_desc": "Check the address or browse the full guide",
     "back_to_guide": "Back to all articles",
-    "see_catalog": "Open catalog"
+    "see_catalog": "Open catalog",
+    "published": "Published",
+    "updated": "Updated",
+    "author": "Author",
+    "author_name": "Basen.uz Editorial Team",
+    "faq_title": "Frequently asked questions about the Guide",
+    "faq": {
+      "q1": "What is the \"Guide\" section on Basen.uz?",
+      "a1": "It's a collection of curated picks and review articles about Tashkent pools — for example, rankings of the best pools, picks for kids, or heated pools for winter. Each article links to real venues from the catalog.",
+      "q2": "How often are new articles published?",
+      "a2": "We publish new articles as the catalog grows — roughly every few weeks, so the picks stay relevant rather than becoming a formality.",
+      "q3": "What are the rankings and picks in the articles based on?",
+      "a3": "Real catalog data: pool ratings, review counts, prices, services and opening hours. We don't invent venues or accept payment for inclusion in a pick."
+    }
   },
   "faq": {
     "title": "Frequently Asked Questions",

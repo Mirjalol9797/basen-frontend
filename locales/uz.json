@@ -304,7 +304,7 @@
     "title": "Toshkent basseynlari bo'yicha gid",
     "subtitle": "Tanlovlar va maslahatlar — qayerga borish, qayerda arzonroq, nimani tanlash",
     "meta_title": "Toshkent basseynlari bo'yicha gid — tanlovlar va maslahatlar {'|'} Basen.uz",
-    "meta_desc": "Toshkent basseynlari tanlovlari: eng yaxshi ochiq va yopiq, bolalar basseynlari, akvaparklar. Qayerga borish va qanday tanlash bo'yicha maslahatlar.",
+    "meta_desc": "Toshkent va O'zbekiston basseynlari bo'yicha gid. Eng yaxshi ochiq, yopiq, bolalar va sport basseynlari, akvaparklar, tanlash bo'yicha maslahatlar, sharhlar, reytinglar va foydali maqolalar.",
     "empty_title": "Hozircha maqolalar yo'q",
     "empty_desc": "Birinchi tanlovlarni tayyorlamoqdamiz — keyinroq qayting",
     "read_more": "O'qish",
@@ -312,7 +312,20 @@
     "not_found": "Maqola topilmadi",
     "not_found_desc": "Manzilni tekshiring yoki butun gidni oching",
     "back_to_guide": "Barcha maqolalarga",
-    "see_catalog": "Katalogni ochish"
+    "see_catalog": "Katalogni ochish",
+    "published": "E'lon qilindi",
+    "updated": "Yangilandi",
+    "author": "Muallif",
+    "author_name": "Basen.uz tahririyati",
+    "faq_title": "«Gid» bo'limi haqida ko'p so'raladigan savollar",
+    "faq": {
+      "q1": "Basen.uz'dagi «Gid» bo'limi nima?",
+      "a1": "Bu Toshkent basseynlari haqidagi tanlovlar va sharh maqolalari — masalan, eng yaxshi basseynlar reytingi, bolalar uchun tanlovlar yoki qishda isitiladigan basseynlar. Har bir maqola katalogdagi haqiqiy obyektlarga havola qiladi.",
+      "q2": "Yangi maqolalar qanchalik tez-tez chiqadi?",
+      "a2": "Biz katalog kengaygani sari yangi maqolalar chop etamiz — taxminan bir necha haftada bir marta, shunda tanlovlar dolzarb bo'lib qoladi.",
+      "q3": "Maqolalardagi reyting va tanlovlar nimaga asoslangan?",
+      "a3": "Katalogdagi haqiqiy ma'lumotlarga: basseynlarning reytingi, sharhlar soni, narxlari, xizmatlari va ish vaqtiga. Biz joylarni o'ylab topmaymiz va tanlovga kiritish uchun pul olmaymiz."
+    }
   },
   "faq": {
     "title": "Ko'p so'raladigan savollar",
