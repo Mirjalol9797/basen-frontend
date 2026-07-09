@@ -166,5 +166,61 @@
         "a": "Yes, 2 of the 3 children's pools operate year-round, one is seasonal. Each venue's schedule is listed on its page."
       }
     ]
+  },
+  "sport": {
+    "ru": [
+      {
+        "q": "Какая длина дорожек в спортивных бассейнах Ташкента?",
+        "a": "Дорожки от 19 до 50 метров: 19 м в Chekhov Sport Club, 25 м в Олимпийском спорткомплексе, 50 м в комплексе «Джар». Точная длина указана на странице каждого бассейна."
+      },
+      {
+        "q": "Работают ли спортивные бассейны Ташкента круглый год?",
+        "a": "Да, 3 из 4 спортивных бассейнов в каталоге работают круглый год, один — сезонный (летний)."
+      },
+      {
+        "q": "Подходят ли спортивные бассейны для занятий с детьми?",
+        "a": "Да, у 3 из 4 спортивных бассейнов есть детская секция или бассейн — уточняйте возрастные ограничения на странице бассейна."
+      },
+      {
+        "q": "В каких районах Ташкента расположены спортивные бассейны?",
+        "a": "Спортивные бассейны каталога находятся в Мирзо-Улугбекском (2 объекта), Мирабадском и Шайхонтохурском районах."
+      }
+    ],
+    "uz": [
+      {
+        "q": "Toshkent sport basseynlarida yo'lak uzunligi qancha?",
+        "a": "Yo'laklar 19 dan 50 metrgacha: Chekhov Sport Club'da 19 m, Olimpiya sport majmuasida 25 m, «Jar» majmuasida 50 m. Aniq uzunlik har bir basseyn sahifasida ko'rsatilgan."
+      },
+      {
+        "q": "Toshkentning sport basseynlari yil davomida ishlaydimi?",
+        "a": "Ha, katalogdagi 4 ta sport basseynidan 3 tasi yil davomida ishlaydi, bittasi mavsumiy (yozgi)."
+      },
+      {
+        "q": "Sport basseynlari bolalar bilan mashg'ulot uchun mosmi?",
+        "a": "Ha, 4 ta sport basseynidan 3 tasida bolalar bo'limi yoki basseyni bor — yosh chegaralarini basseyn sahifasidan aniqlashtiring."
+      },
+      {
+        "q": "Toshkentning qaysi tumanlarida sport basseynlari bor?",
+        "a": "Katalogdagi sport basseynlari Mirzo Ulug'bek (2 ta obyekt), Mirobod va Shayxontohur tumanlarida joylashgan."
+      }
+    ],
+    "en": [
+      {
+        "q": "How long are the lanes at Tashkent's sport pools?",
+        "a": "Lanes range from 19 to 50 meters: 19m at Chekhov Sport Club, 25m at the Olympic Sport Complex, 50m at the Jar complex. Exact length is listed on each pool's page."
+      },
+      {
+        "q": "Are Tashkent's sport pools open year-round?",
+        "a": "Yes, 3 of the 4 sport pools in the catalog operate year-round, one is seasonal (summer only)."
+      },
+      {
+        "q": "Are sport pools suitable for training with children?",
+        "a": "Yes, 3 of the 4 sport pools have a children's section or pool — check age restrictions on the pool's page."
+      },
+      {
+        "q": "Which Tashkent districts have sport pools?",
+        "a": "Sport pools in the catalog are located in Mirzo-Ulugbek (2 venues), Mirobod and Shayhontohur districts."
+      }
+    ]
   }
 }
