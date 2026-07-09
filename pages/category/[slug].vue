@@ -54,6 +54,17 @@
               {{ $t("category.page_found", { count: pools.length }) }}
             </span>
           </div>
+
+          <div class="flex flex-wrap gap-2 mt-4">
+            <NuxtLink
+              v-for="c in otherCategories"
+              :key="c.id"
+              :to="localePath(`/category/${c.id}`)"
+              class="px-3 py-1.5 text-sm rounded-lg border border-white/30 text-white/90 hover:bg-white hover:text-gray-900 transition-all duration-150"
+            >
+              {{ c.name }}
+            </NuxtLink>
+          </div>
         </div>
       </section>
 
@@ -111,6 +122,23 @@
         </div>
       </div>
 
+      <!-- Pools from other categories -->
+      <div
+        v-if="randomOtherPools.length > 0"
+        class="container py-8 border-t border-gray-100"
+      >
+        <h2 class="text-lg font-bold text-gray-900 mb-4">
+          {{ $t("category.other_pools_title") }}
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <PoolCard
+            v-for="pool in randomOtherPools"
+            :key="pool.id"
+            :pool="pool"
+          />
+        </div>
+      </div>
+
       <!-- FAQ -->
       <div
         v-if="faqItems.length > 0"
@@ -156,23 +184,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Other categories -->
-      <div class="container py-8 border-t border-gray-100">
-        <h2 class="text-lg font-bold text-gray-900 mb-4">
-          {{ $t("category.other_categories") }}
-        </h2>
-        <div class="flex flex-wrap gap-2">
-          <NuxtLink
-            v-for="c in otherCategories"
-            :key="c.id"
-            :to="localePath(`/category/${c.id}`)"
-            class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 text-gray-600 hover:border-primary-300 hover:text-primary-700 hover:bg-primary-50 transition-all duration-150"
-          >
-            {{ c.name }}
-          </NuxtLink>
-        </div>
-      </div>
     </template>
   </div>
 </template>
@@ -202,6 +213,23 @@ const pools = computed(() =>
 const otherCategories = computed(() =>
   categories.value.filter((c) => c.id !== slug)
 );
+
+function hashSeed(str: string): number {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) {
+    h = (h * 31 + str.charCodeAt(i)) | 0;
+  }
+  return h;
+}
+
+const randomOtherPools = computed(() => {
+  const others = poolsStore.all.filter(
+    (p) => p.category !== (slug as PoolCategory)
+  );
+  return [...others]
+    .sort((a, b) => hashSeed(slug + a.id) - hashSeed(slug + b.id))
+    .slice(0, 4);
+});
 
 const seoText = computed(() => {
   const key = `category.seo_text.${slug}`;
