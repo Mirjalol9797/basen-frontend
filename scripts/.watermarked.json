@@ -105,9 +105,6 @@
   "jar/1.jpg": "95936067ac395c37fb07576114b3c04c945674cd",
   "limpopo/4.jpg": "da24a85ddff11b3c32ee49365038b2be2f328df0",
   "magic-galaxy/1.jpg": "daf531699d5a23d3f2c5ce62ab42b29f162c7c62",
-  "malibu-sun-club/1.jpg": "a200004cbda072faae35fe4b5862f929c6bd0af2",
-  "malibu-sun-club/2.jpg": "2e7eb6ebd2121a4423878c199bc9165e4d8f4615",
-  "malibu-sun-club/3.jpg": "4bf87791c2877a6b60fa6c8e94af3b0e16717398",
   "mekhnat/1.jpg": "22f7db3c9a4cf3ed2f409e1c0858d039b6d1e728",
   "mekhnat/2.jpg": "169b50d08ec1a98ad3840132951178147e20c4b3",
   "mojito-povalazza/1.jpg": "5649e8f5e1c4fa0cafd72860289f0bdfc0653f45",
@@ -274,5 +271,17 @@
   "magic-galaxy/5.webp": "0bb5c01422c19738f28ab589575b88d4bae776f9",
   "magic-galaxy/6.webp": "b3a1f760c8f30f3426a4800c6bd658db03013ab7",
   "magic-galaxy/7.webp": "6e26a9b3a793860d7db08aee8023b53d4bd08d8e",
-  "magic-galaxy/8.webp": "867cc29c40ab8c08edb56c9a53a6444f9a67e449"
+  "magic-galaxy/8.webp": "867cc29c40ab8c08edb56c9a53a6444f9a67e449",
+  "malibu-sun-club/1.webp": "749453fba7b515f26970f5c7917534d693952888",
+  "malibu-sun-club/10.jpg": "648c56d85d56bf628c87037122f56904aa774b8c",
+  "malibu-sun-club/11.webp": "6913c8fd405fe77e6c82456248cb273be5e64780",
+  "malibu-sun-club/12.webp": "ad0f4542c7e3dec8266ccdaa6838cb37039137b0",
+  "malibu-sun-club/2.webp": "a287f9cb34fd864367420775c1130b2ffb7a868c",
+  "malibu-sun-club/3.webp": "7c6141c72a24bc32fe4f19f3ded9418249a41ab0",
+  "malibu-sun-club/4.webp": "33058857108a37dd64007cda38eaae3762e4a25d",
+  "malibu-sun-club/5.webp": "6ca15c121183984af03b5f48e211c46df58825bd",
+  "malibu-sun-club/6.webp": "7ad6cda77144b18fce71246d873ff7f019cd4ea1",
+  "malibu-sun-club/7.webp": "fd8a89c24dba35669a5fb5c06fdb2919b36f098e",
+  "malibu-sun-club/8.jpg": "85975a0b9ee9c3901723ac3305e43fbb8fe59e0b",
+  "malibu-sun-club/9.jpg": "315c975a26178e5bb54f4640ce9ff5a3883c377e"
 }

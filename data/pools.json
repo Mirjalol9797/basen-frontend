@@ -6,7 +6,7 @@
       "ru": {
         "name": "Malibu Sun Club",
         "address": "посёлок Ийк-Ота, ул. Узбекистанская, Бектемирский район, Ташкент",
-        "description": "Открытый бассейн с двумя чашами — детской и взрослой. Летняя терраса с топчанами и лежаками, ресторан с европейской, кавказской и корейской кухней. Вход свободный, оплачивается аренда мест."
+        "description": "Открытый бассейн с двумя чашами — детской и взрослой. Летняя терраса с топчанами и лежаками, ресторан с европейской, кавказской и корейской кухней. Вход бесплатный, оплачивается только аренда мест (депозит): в будни топчан — от 400 000 до 750 000 сум, стол на террасе — от 150 000 до 300 000 сум, лежак — 50 000 сум; в выходные дороже — топчан от 700 000 до 1 200 000 сум, стол — от 250 000 до 500 000 сум, лежак — 100 000 сум. После 18:00 аренда не оплачивается при внесённом депозите."
       },
       "uz": {
         "name": "Malibu Sun Club",
@@ -24,18 +24,32 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.226843,
-      "lng": 69.369055
+      "lat": 41.226959,
+      "lng": 69.369191
     },
     "phone": [
-      "+998 90 970-82-38"
+      "+998 90 970-82-38",
+      "+998 98 310-35-00"
     ],
-    "telegram": null,
+    "telegram": [
+      "https://t.me/malibutashkent"
+    ],
+    "instagram": "https://www.instagram.com/malibu.sunclub/",
+    "facebook": "https://www.facebook.com/MalibuSunClub/",
     "website": null,
     "gallery": [
-      "/images/pools/malibu-sun-club/1.jpg",
-      "/images/pools/malibu-sun-club/2.jpg",
-      "/images/pools/malibu-sun-club/3.jpg"
+      "/images/pools/malibu-sun-club/1.webp",
+      "/images/pools/malibu-sun-club/2.webp",
+      "/images/pools/malibu-sun-club/3.webp",
+      "/images/pools/malibu-sun-club/4.webp",
+      "/images/pools/malibu-sun-club/5.webp",
+      "/images/pools/malibu-sun-club/6.webp",
+      "/images/pools/malibu-sun-club/7.webp",
+      "/images/pools/malibu-sun-club/8.jpg",
+      "/images/pools/malibu-sun-club/9.jpg",
+      "/images/pools/malibu-sun-club/10.jpg",
+      "/images/pools/malibu-sun-club/11.webp",
+      "/images/pools/malibu-sun-club/12.webp"
     ],
     "prices": [
       {
@@ -90,7 +104,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.1,
     "ratingYandex": 5,
     "reviewCount": 4,
     "featured": true,
