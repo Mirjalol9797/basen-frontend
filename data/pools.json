@@ -4591,17 +4591,17 @@
       "ru": {
         "name": "Дворец водного спорта",
         "address": "ул. Истихор, 1, Юнусабадский район, Ташкент",
-        "description": "Дворец водного спорта с крытым бассейном. Для занятий требуются сменная обувь и медицинская справка."
+        "description": "Дворец водного спорта — крытый бассейн с широким выбором программ: свободное плавание, групповые и индивидуальные тренировки, детские секции (7–15 лет), синхронное плавание, прыжки в воду. Разовое посещение свободного плавания — 120 000 сум, абонемент на 1 месяц (12 занятий) — от 800 000 сум для детских групп до 3 750 000 сум за VIP-плавание. Для занятий требуются сменная обувь и медицинская справка."
       },
       "uz": {
         "name": "Suv sporti saroyi",
         "address": "Istihor ko'chasi, 1, Yunusobod tumani, Toshkent",
-        "description": null
+        "description": "Suv sporti saroyi — turli dasturlarga ega yopiq basseyn: erkin suzish, guruh va yakka mashg'ulotlar, bolalar bo'limlari (7–15 yosh), sinxron suzish, suvga sakrash. Erkin suzish uchun bir martalik tashrif — 120 000 so'm, 1 oylik obuna (12 mashg'ulot) — bolalar guruhlari uchun 800 000 so'mdan VIP suzish uchun 3 750 000 so'mgacha. Mashg'ulotlar uchun almashtirma poyabzal va tibbiy ma'lumotnoma talab qilinadi."
       },
       "en": {
         "name": "Water Sports Palace",
         "address": "1 Istikhor str., Yunusabad district, Tashkent",
-        "description": null
+        "description": "Water Sports Palace is an indoor pool with a wide range of programs: free swimming, group and individual training, children's sections (ages 7-15), artistic swimming, and diving. A single free-swimming visit costs 120,000 UZS; a 1-month pass (12 sessions) ranges from 800,000 UZS for children's groups to 3,750,000 UZS for VIP swimming. Indoor shoes and a medical certificate are required."
       }
     },
     "category": "indoor",
@@ -4609,27 +4609,87 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.347526,
-      "lng": 69.284958
+      "lat": 41.346253,
+      "lng": 69.281868
     },
     "phone": [
-      "+998 71 234-32-85"
+      "+998 71 234-32-85",
+      "+998 71 234-32-86",
+      "+998 99 129-07-00"
     ],
-    "telegram": null,
-    "website": null,
+    "telegram": [
+      "https://t.me/YunusobodSC"
+    ],
+    "instagram": "https://www.instagram.com/yunusabad.sc/",
+    "website": "https://unisport.uz/",
     "gallery": [
-      "/images/pools/dvorec-vodnogo-sporta/1.jpg"
+      "/images/pools/dvorec-vodnogo-sporta/1.webp",
+      "/images/pools/dvorec-vodnogo-sporta/2.webp",
+      "/images/pools/dvorec-vodnogo-sporta/3.jpg",
+      "/images/pools/dvorec-vodnogo-sporta/4.webp",
+      "/images/pools/dvorec-vodnogo-sporta/5.webp",
+      "/images/pools/dvorec-vodnogo-sporta/6.webp",
+      "/images/pools/dvorec-vodnogo-sporta/7.jpg",
+      "/images/pools/dvorec-vodnogo-sporta/8.jpg"
     ],
-    "prices": [],
-    "schedule": null,
+    "prices": [
+      {
+        "key": "price.adult_single",
+        "amount": 120000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly",
+        "amount": 1000000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "06:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "06:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "06:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "06:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "06:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "06:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "06:00",
+        "close": "18:00"
+      }
+    ],
     "services": [
-      "children_zone"
+      "children_zone",
+      "trainer"
     ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.2,
     "ratingYandex": 5,
     "reviewCount": 10,
     "featured": false,
