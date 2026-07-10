@@ -62,10 +62,10 @@ export const usePoolSeo = (pool: Pool) => {
     openingHours: buildOpeningHours(pool.schedule),
     image: pool.gallery.map(img => `${BASE_URL}${img}`),
     ...(price > 0 && { priceRange: `от ${new Intl.NumberFormat('ru-UZ').format(price)} сум` }),
-    ...(pool.rating > 0 && pool.reviewCount > 0 && {
+    ...(avgRating(pool) > 0 && pool.reviewCount > 0 && {
       aggregateRating: {
         '@type': 'AggregateRating',
-        ratingValue: pool.rating,
+        ratingValue: avgRating(pool),
         reviewCount: pool.reviewCount,
         bestRating: 5,
         worstRating: 1,

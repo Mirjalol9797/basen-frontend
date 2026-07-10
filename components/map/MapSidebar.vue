@@ -64,7 +64,7 @@
                 class="text-sm font-semibold text-gray-800 line-clamp-1 leading-tight group-hover:text-primary-700"
                 :class="{ 'text-primary-700': activePoolId === pool.id }"
               >{{ pool.name }}</span>
-              <span class="text-xs text-amber-500 shrink-0 leading-tight">★ {{ pool.rating.toFixed(1) }}</span>
+              <span class="text-xs text-amber-500 shrink-0 leading-tight">★ {{ avgRating(pool).toFixed(1) }}</span>
             </div>
 
             <div class="flex items-center gap-2 mb-1">

@@ -81,7 +81,8 @@ const rows = pools.map(p => ({
   'Длина бассейна (м)':  p.poolLength ?? '',
   'Глубина мин (м)':     p.poolDepthMin ?? '',
   'Глубина макс (м)':    p.poolDepthMax ?? '',
-  'Рейтинг':             p.rating ?? '',
+  'Рейтинг Google':      p.ratingGoogle ?? '',
+  'Рейтинг Яндекс':      p.ratingYandex ?? '',
   'Отзывов':             p.reviewCount ?? '',
   'Топ':                 p.featured ? 'Да' : '',
   'Описание (RU)':       p.translations?.ru?.description ?? '',
@@ -111,7 +112,8 @@ ws['!cols'] = [
   { wch: 12 }, // pool length
   { wch: 12 }, // depth min
   { wch: 12 }, // depth max
-  { wch: 8  }, // rating
+  { wch: 8  }, // rating google
+  { wch: 8  }, // rating yandex
   { wch: 8  }, // reviews
   { wch: 6  }, // featured
   { wch: 80 }, // description

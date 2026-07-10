@@ -50,7 +50,7 @@
                 <span v-else>{{ districtName }}</span>
               </p>
               <div class="flex items-center gap-4 flex-wrap">
-                <AppRating :rating="pool.rating" :count="pool.reviewCount" size="md" />
+                <AppDualRating :google="pool.ratingGoogle" :yandex="pool.ratingYandex" size="md" />
                 <PoolStatusBadge :schedule="pool.schedule" />
               </div>
             </div>
@@ -155,8 +155,9 @@
 
               <!-- Telegram -->
               <a
-                v-if="pool.telegram"
-                :href="pool.telegram"
+                v-for="tg in pool.telegram"
+                :key="tg"
+                :href="tg"
                 target="_blank"
                 rel="noopener"
                 class="flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-[#0088cc] text-white text-sm font-medium hover:bg-[#0077b3] transition-colors duration-150"

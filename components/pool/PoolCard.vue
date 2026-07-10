@@ -68,9 +68,9 @@
 
         <!-- Rating + status -->
         <div class="gap-1 flex flex-col mb-2">
-          <AppRating
-            :rating="pool.rating"
-            :count="pool.reviewCount"
+          <AppDualRating
+            :google="pool.ratingGoogle"
+            :yandex="pool.ratingYandex"
             size="sm"
           />
           <PoolStatusBadge :schedule="pool.schedule" />

@@ -199,7 +199,7 @@ const regionNameForTitle = computed(() => {
 const pools = computed(() =>
   poolsStore.all
     .filter((p) => p.region === slug)
-    .sort((a, b) => b.rating - a.rating)
+    .sort((a, b) => avgRating(b) - avgRating(a))
 );
 
 const otherRegions = computed(() => regions.value.filter((r) => r.id !== slug));

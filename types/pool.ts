@@ -16,7 +16,7 @@ export interface Pool {
   city: string | null
   coordinates: { lat: number; lng: number }
   phone: string[]
-  telegram?: string
+  telegram?: string[]
   facebook?: string | null
   instagram?: string | null
   email?: string | null
@@ -29,7 +29,8 @@ export interface Pool {
   poolLength?: number
   poolDepthMin?: number
   poolDepthMax?: number
-  rating: number
+  ratingGoogle: number
+  ratingYandex: number
   reviewCount: number
   featured: boolean
   createdAt: string

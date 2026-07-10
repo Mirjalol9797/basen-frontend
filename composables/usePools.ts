@@ -36,7 +36,7 @@ export const usePools = () => {
         case 'newest':
           return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
         default:
-          return b.rating - a.rating
+          return avgRating(b) - avgRating(a)
       }
     })
 

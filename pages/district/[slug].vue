@@ -144,7 +144,7 @@ const districtNameForTitle = computed(() => {
 const pools = computed(() =>
   poolsStore.all
     .filter((p) => p.district === slug)
-    .sort((a, b) => b.rating - a.rating)
+    .sort((a, b) => avgRating(b) - avgRating(a))
 );
 
 const otherDistricts = computed(() =>

@@ -61,7 +61,7 @@ const poolsStore = usePoolsStore();
 
 const topPools = computed(() =>
   [...poolsStore.all]
-    .sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount)
+    .sort((a, b) => avgRating(b) - avgRating(a) || b.reviewCount - a.reviewCount)
     .slice(0, 10)
 );
 

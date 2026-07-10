@@ -56,7 +56,7 @@ const featuredPools = computed(() => {
   if (featured.length >= 4) return featured.slice(0, 4)
   const extras = all
     .filter(p => !p.featured)
-    .sort((a, b) => b.rating - a.rating)
+    .sort((a, b) => avgRating(b) - avgRating(a))
     .slice(0, 4 - featured.length)
   return [...featured, ...extras]
 })

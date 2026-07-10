@@ -90,7 +90,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.8,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 4,
     "featured": true,
     "createdAt": "2025-06-01T00:00:00Z"
@@ -200,7 +201,8 @@
     "poolLength": 25,
     "poolDepthMin": 1.5,
     "poolDepthMax": 2.5,
-    "rating": 4.8,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 124,
     "featured": true,
     "createdAt": "2025-03-15T00:00:00Z"
@@ -236,7 +238,9 @@
     "phone": [
       "+998 71 456 78 90"
     ],
-    "telegram": "https://t.me/kids_aquaworld",
+    "telegram": [
+      "https://t.me/kids_aquaworld"
+    ],
     "website": null,
     "gallery": [],
     "prices": [
@@ -303,7 +307,8 @@
     "poolLength": 15,
     "poolDepthMin": 0.3,
     "poolDepthMax": 0.8,
-    "rating": 4.4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 67,
     "featured": false,
     "createdAt": "2025-05-20T00:00:00Z"
@@ -410,7 +415,8 @@
     "poolLength": 20,
     "poolDepthMin": 1.2,
     "poolDepthMax": 1.8,
-    "rating": 4.7,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 89,
     "featured": true,
     "createdAt": "2025-04-01T00:00:00Z"
@@ -535,7 +541,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.9,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 2,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -572,7 +579,9 @@
       "+998 71 207-05-06",
       "+998 71 215-11-22"
     ],
-    "telegram": "https://t.me/atlantis_uzb",
+    "telegram": [
+      "https://t.me/atlantis_uzb"
+    ],
     "facebook": "https://www.facebook.com/atlantis.aquapark",
     "instagram": "https://www.instagram.com/atlantis.aquapark/",
     "website": null,
@@ -650,7 +659,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 24,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -743,7 +753,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 9,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -834,7 +845,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 9,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -937,7 +949,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.8,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1036,7 +1049,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 15,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1127,7 +1141,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 5,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1219,7 +1234,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1310,7 +1326,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 22,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1413,7 +1430,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 13,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1495,7 +1513,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1656,7 +1675,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.9,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1692,7 +1712,11 @@
     "phone": [
       "+998 90 917-00-06"
     ],
-    "telegram": "https://t.me/dos_hermanas",
+    "telegram": [
+      "https://t.me/doshermanas_alena",
+      "https://t.me/karaokebardoshermanas"
+    ],
+    "instagram": "https://www.instagram.com/dos_hermanas_khvan_alena/",
     "website": null,
     "gallery": [
       "/images/pools/dos-hermanas/1.jpg",
@@ -1755,7 +1779,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.5,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 5,
     "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1791,7 +1816,9 @@
     "phone": [
       "+998 90 805-08-01"
     ],
-    "telegram": "https://t.me/aquablueuz",
+    "telegram": [
+      "https://t.me/aquablueuz"
+    ],
     "facebook": "https://www.facebook.com/Aquablutash/",
     "website": null,
     "gallery": [
@@ -1872,7 +1899,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -1911,7 +1939,9 @@
       "+998 99 512-00-06",
       "+998 99 306-00-06"
     ],
-    "telegram": "https://t.me/aladdinlive",
+    "telegram": [
+      "https://t.me/aladdinlive"
+    ],
     "instagram": "https://www.instagram.com/aladdinkompleks/?hl=ru",
     "website": null,
     "gallery": [
@@ -1988,7 +2018,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2087,7 +2118,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2187,7 +2219,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 10,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2247,7 +2280,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2342,7 +2376,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2434,7 +2469,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2557,7 +2593,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 2,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2656,7 +2693,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 5,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2799,7 +2837,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2836,7 +2875,9 @@
       "+998 94 640-93-37",
       "+998 90 316-29-30"
     ],
-    "telegram": "https://t.me/paintballtritdex",
+    "telegram": [
+      "https://t.me/paintballtritdex"
+    ],
     "facebook": "https://www.facebook.com/paintballtritdex",
     "instagram": "https://www.instagram.com/paintball.club.tritdex/",
     "website": "https://tritdex.uz/zony-otdykha",
@@ -2906,7 +2947,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2999,7 +3041,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3097,7 +3140,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3134,7 +3178,9 @@
       "+998 90 325-45-56",
       "+998 90 956-59-04"
     ],
-    "telegram": "https://t.me/aleks_basseyn",
+    "telegram": [
+      "https://t.me/aleks_basseyn"
+    ],
     "facebook": "https://www.facebook.com/aleks.basseyn",
     "instagram": "https://www.instagram.com/aleks_basseyn",
     "website": null,
@@ -3208,7 +3254,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.6,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3311,7 +3358,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 4,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3403,7 +3451,8 @@
     "poolLength": 25,
     "poolDepthMin": 1.5,
     "poolDepthMax": 1.5,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3493,7 +3542,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3581,7 +3631,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3672,7 +3723,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3760,7 +3812,8 @@
     "poolLength": 50,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 3,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3813,7 +3866,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 2,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3900,7 +3954,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.8,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -3991,7 +4046,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4091,7 +4147,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.8,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4156,7 +4213,8 @@
     "poolLength": 20,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 2,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4210,7 +4268,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 3,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4292,7 +4351,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4330,7 +4390,9 @@
       "+998 95 199-17-71",
       "+998 99 883-17-71"
     ],
-    "telegram": "https://t.me/Athletica",
+    "telegram": [
+      "https://t.me/Athletica"
+    ],
     "facebook": "https://www.facebook.com/athleticatashkent",
     "instagram": "https://www.instagram.com/athletica_tashkent",
     "email": "academyathletica@gmail.com",
@@ -4411,7 +4473,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4461,7 +4524,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 7,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4511,7 +4575,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 10,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4550,7 +4615,9 @@
       "+998 90 830-88-87",
       "+998 90 929-20-22"
     ],
-    "telegram": "https://t.me/chehovsportclubtashkent",
+    "telegram": [
+      "https://t.me/chehovsportclubtashkent"
+    ],
     "instagram": "https://www.instagram.com/chekhovsportclubs/",
     "website": "https://chekhov.uz/",
     "gallery": [
@@ -4614,7 +4681,8 @@
     "poolLength": 19,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 13,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4700,7 +4768,8 @@
     "poolLength": 50,
     "poolDepthMin": 2,
     "poolDepthMax": 6,
-    "rating": 3.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 7,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
@@ -4791,7 +4860,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 4.5,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
