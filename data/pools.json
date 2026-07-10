@@ -2754,8 +2754,8 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.289166,
-      "lng": 69.25588
+      "lat": 41.28977,
+      "lng": 69.254067
     },
     "phone": [
       "+998 95 170-68-70"
@@ -2867,7 +2867,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.4,
     "ratingYandex": 5,
     "reviewCount": 6,
     "featured": false,
