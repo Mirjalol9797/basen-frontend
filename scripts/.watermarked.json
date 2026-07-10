@@ -99,10 +99,9 @@
   "fun-n-food-village/3.jpg": "15a85e25b4cc71a0531a10f9dffee2484af6ef70",
   "fun-n-food-village/4.jpg": "9cb614d79a5768aaab91e4ac1cf9b477070812eb",
   "fun-n-food-village/5.jpg": "6cf33d5755d218e7c267a37dc1be8baf36367905",
-  "garden-bar/1.jpg": "f381fae5a4c81bc422a7ae4794a25708bec987c8",
-  "garden-bar/2.jpg": "f6948b407afb582af1f91552836d03b63abf8b7b",
-  "garden-bar/3.jpg": "2c3775d5c147132f4b5a9ae1cff7871ad85a93ee",
-  "garden-bar/4.jpg": "eb0879b852d77f2754a841a95fdbb2a7c5a5cf0a",
+  "garden-bar/1.jpg": "ef0b1465322ff26efcfe95a09a6e044707d6c3b8",
+  "garden-bar/2.jpg": "0f0a2244c4b0971e3435e2afad54041c636faf6f",
+  "garden-bar/4.jpg": "6e1e6b3c33bdd3e75c81122a96118cc1d2f8c5f4",
   "jar/1.jpg": "95936067ac395c37fb07576114b3c04c945674cd",
   "le-grand-de-plaza/1.jpg": "ce5678fbae028ed0a6015ac2037f2e45fe149396",
   "le-grand-de-plaza/2.jpg": "96f91cb17393ecc94fc1033005b09dc2c72680c9",
@@ -255,5 +254,11 @@
   "fun-n-food-village/6.webp": "bad8736f90305a4db8ffc07ac7742a5965d9d7f8",
   "fun-n-food-village/7.webp": "3002d0c7c09697ff3e5fa452a7c34b02084ca760",
   "fun-n-food-village/8.jpg": "33307bb9029f2c482abe84957850f5881c6d887b",
-  "fun-n-food-village/9.jpg": "62f63b6f8b7bbaf6bf46046013becb9071bd1f8b"
+  "fun-n-food-village/9.jpg": "62f63b6f8b7bbaf6bf46046013becb9071bd1f8b",
+  "garden-bar/3.png": "a91c77b1aaafb0175fc10cc55cf4cdf0144a623b",
+  "garden-bar/5.jpg": "0f8cefda550c70989cb79e0548b62f657edb7b9b",
+  "garden-bar/6.jpg": "3465dc5a739b53c7688648f646b5d81108ba84a0",
+  "garden-bar/7.jpg": "f0b8d954f65f340e61b82d8916800d4593f403cc",
+  "garden-bar/8.jpg": "23f16787f3a6883b83ec6b779fd7aee89ed59cea",
+  "garden-bar/9.webp": "50b81009bb0e01a117cc7d555e34a7c53fb1a2e7"
 }

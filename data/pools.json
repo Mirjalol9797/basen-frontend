@@ -3528,7 +3528,7 @@
       "ru": {
         "name": "Garden Bar Pool при отеле Wyndham",
         "address": "ул. Амира Темура, Ц-4, Юнусабадский район, Ташкент",
-        "description": "Открытый бассейн при отеле Wyndham с форматом All Inclusive: еда à la carte, напитки, живая музыка, пляжный волейбол и развлекательная программа. Работает с июня по август."
+        "description": "Открытый бассейн при отеле Wyndham. Разовое посещение на весь день (10:00–21:00) — 400 000 сум, включает пляжный волейбол, мини-футбол, лежаки, раздевалку и душевые кабины. Детям от 3 до 12 лет — 250 000 сум, до 3 лет — бесплатно."
       },
       "uz": {
         "name": "Wyndham mehmonxonasidagi Garden Bar Pool",
@@ -3546,21 +3546,41 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3179973,
-      "lng": 69.282545
+      "lat": 41.317608,
+      "lng": 69.280317
     },
     "phone": [
-      "+998 78 120-37-00"
+      "+998 78 120-37-00",
+      "+998 94 660-85-56"
     ],
     "telegram": null,
-    "website": null,
+    "instagram": "https://www.instagram.com/reel/DJEXwfbq5Cd/",
+    "facebook": "https://www.facebook.com/HotelWyndhamTashkent/",
+    "email": "reservation@wyndhamtashkent.com",
+    "website": "https://wyndhamtashkent.com/",
     "gallery": [
       "/images/pools/garden-bar/1.jpg",
       "/images/pools/garden-bar/2.jpg",
-      "/images/pools/garden-bar/3.jpg",
-      "/images/pools/garden-bar/4.jpg"
+      "/images/pools/garden-bar/3.png",
+      "/images/pools/garden-bar/4.jpg",
+      "/images/pools/garden-bar/5.jpg",
+      "/images/pools/garden-bar/6.jpg",
+      "/images/pools/garden-bar/7.jpg",
+      "/images/pools/garden-bar/8.jpg",
+      "/images/pools/garden-bar/9.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_fullday",
+        "amount": 400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 250000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
@@ -3600,14 +3620,17 @@
     ],
     "services": [
       "parking",
-      "cafe"
+      "cafe",
+      "locker",
+      "free_sunbed",
+      "hotel"
     ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
