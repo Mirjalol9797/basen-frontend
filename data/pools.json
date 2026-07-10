@@ -671,8 +671,8 @@
     "translations": {
       "ru": {
         "name": "Fun N Food Village (Чирчикский Аквапарк)",
-        "address": "проспект Навои, 238А, Чирчик, Ташкентская область",
-        "description": "Крупный аквапарк с 11 водными горками и 6 бассейнами, включая волновой бассейн, «Торнадо» и «Ленивую реку». Кафе с узбекскими блюдами и фаст-фудом. Дети до 80 см — вход бесплатный."
+        "address": "ул. Навои, 238А, Чирчик, Ташкентская область",
+        "description": "Крупный аквапарк с 15 водными горками и 6 крупными бассейнами, включая волновой бассейн, «Торнадо» и «Ленивую реку». Взрослым — 200 000 сум, детям — 150 000 сум; в вечернее время (17:00–19:00) — 100 000 и 75 000 сум. По вторникам детский день (1 ребёнок проходит бесплатно), по пятницам женский день (150 000 сум). Буфет — 50 000 сум разово, топчан — 150 000 сум (с понедельника по субботу). По воскресеньям и праздничным дням — 200 000 сум. Кафе с узбекскими блюдами и фаст-фудом. Работает ежедневно 10:00–19:00 без выходных."
       },
       "uz": {
         "name": "Fun N Food Village (Chirchiq Akvaparki)",
@@ -687,60 +687,80 @@
     },
     "category": "aquapark",
     "district": null,
-    "region": "tashkent-city",
+    "region": "tashkent-region",
     "city": null,
     "coordinates": {
-      "lat": 41.4783317,
-      "lng": 69.5937234
+      "lat": 41.478365,
+      "lng": 69.593502
     },
     "phone": [
-      "+998 93 505-38-05"
+      "+998 93 505-38-05",
+      "+998 95 780-59-10",
+      "+998 95 780-59-11"
     ],
     "telegram": null,
-    "website": null,
+    "facebook": "https://www.facebook.com/FunNFoodVillage",
+    "instagram": "https://www.instagram.com/aquaparkchirchiq",
+    "website": "https://www.funnfood.com/tashkent/index.php",
     "gallery": [
       "/images/pools/fun-n-food-village/1.jpg",
       "/images/pools/fun-n-food-village/2.jpg",
       "/images/pools/fun-n-food-village/3.jpg",
       "/images/pools/fun-n-food-village/4.jpg",
-      "/images/pools/fun-n-food-village/5.jpg"
+      "/images/pools/fun-n-food-village/5.jpg",
+      "/images/pools/fun-n-food-village/6.webp",
+      "/images/pools/fun-n-food-village/7.webp",
+      "/images/pools/fun-n-food-village/8.jpg",
+      "/images/pools/fun-n-food-village/9.jpg",
+      "/images/pools/fun-n-food-village/10.jpg"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_single",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 150000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
         "open": "10:00",
-        "close": "20:00"
+        "close": "19:00"
       },
       {
         "day": "tue",
         "open": "10:00",
-        "close": "20:00"
+        "close": "19:00"
       },
       {
         "day": "wed",
         "open": "10:00",
-        "close": "20:00"
+        "close": "19:00"
       },
       {
         "day": "thu",
         "open": "10:00",
-        "close": "20:00"
+        "close": "19:00"
       },
       {
         "day": "fri",
         "open": "10:00",
-        "close": "20:00"
+        "close": "19:00"
       },
       {
         "day": "sat",
         "open": "10:00",
-        "close": "20:00"
+        "close": "19:00"
       },
       {
         "day": "sun",
         "open": "10:00",
-        "close": "20:00"
+        "close": "19:00"
       }
     ],
     "services": [
@@ -753,8 +773,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 3.6,
+    "ratingYandex": 4,
     "reviewCount": 9,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
