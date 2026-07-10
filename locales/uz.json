@@ -130,7 +130,12 @@
     "free_sunbed": "Bepul to'shak",
     "card_payment": "Karta orqali to'lov",
     "bike_parking": "Velosiped turargohi",
-    "gift_certificate": "Sovg'a sertifikati"
+    "gift_certificate": "Sovg'a sertifikati",
+    "russian_banya": "Rus hammomi",
+    "turkish_hammam": "Turk hammomi",
+    "rain_shower": "Sun'iy yomg'ir",
+    "peeling": "Piling",
+    "massage": "Massaj"
   },
   "schedule": {
     "mon": "Dushanba",

@@ -87,8 +87,8 @@
   "chekhov/3.jpg": "20c1b7307d8982ace8cef773e69fb80369ac1a43",
   "dos-hermanas/1.jpg": "886503fb6d6ffab50009df59109928d3f1662d3f",
   "dos-hermanas/2.jpg": "6c05381867c4070aa16a45e3e55d56d1ed3c214b",
-  "dubai-spa/1.jpg": "56839393da3773cb071edb67d590ff18e182d76b",
-  "dubai-spa/2.jpg": "245c9972081dc1b7cd8276246849ba7e5c7eb4f5",
+  "dubai-spa/1.jpg": "89bf5fae03aa7759743324a20f3c3cf92892f57f",
+  "dubai-spa/2.jpg": "8be5b683563704f11b166b85dd6ac2261370d5d3",
   "dubai-spa/3.jpg": "00f069578f3aa667936649c35e7f75ceb24f2d35",
   "dubai-spa/4.jpg": "713b0b75a5cb6585622151810a2a654fa165f94c",
   "dubai-spa/5.jpg": "e4fdb382535fa9eabb753bc63df337c6ad9ae5eb",
@@ -233,5 +233,8 @@
   "dos-hermanas/6.webp": "2c5e29e8a585cf4633d7d9b5ca806f17d66a5186",
   "dos-hermanas/7.webp": "7cc9e746d7ea71e81dc61aad18554d494d44426f",
   "dos-hermanas/8.webp": "2e063ba5f44c6070c6e7236725d69be99eda42f7",
-  "dos-hermanas/9.webp": "7fd56efd09277fb3fca0095fc68e45c54d21886f"
+  "dos-hermanas/9.webp": "7fd56efd09277fb3fca0095fc68e45c54d21886f",
+  "dubai-spa/3.webp": "91146619aa103fd454b71b1bdfc3a6296dff54e6",
+  "dubai-spa/6.webp": "95317726468436b33ec4de2c6ab3a787434b821d",
+  "dubai-spa/7.jpg": "6ab551d17452ed201bc5a8dae7981d6ea66395fb"
 }

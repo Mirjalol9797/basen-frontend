@@ -130,7 +130,12 @@
     "free_sunbed": "Бесплатный топчан",
     "card_payment": "Оплата картой",
     "bike_parking": "Велопарковка",
-    "gift_certificate": "Подарочный сертификат"
+    "gift_certificate": "Подарочный сертификат",
+    "russian_banya": "Русская баня",
+    "turkish_hammam": "Турецкий хамам",
+    "rain_shower": "Искусственный дождь",
+    "peeling": "Пилинг",
+    "massage": "Массаж"
   },
   "schedule": {
     "mon": "Понедельник",

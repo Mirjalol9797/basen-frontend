@@ -4168,7 +4168,7 @@
       "ru": {
         "name": "Dubai Spa",
         "address": "ул. Дийдор, 71А, Чиланзарский район, Ташкент",
-        "description": "Крытый бассейн 20×13 м. Предоставляются услуги массажа."
+        "description": "Крытый бассейн 20×13 м с банным комплексом: русская баня, турецкий хамам, искусственный дождь, джакузи. Пилинг и массаж (лечебный, спортивный). Разовое посещение VIP: взрослым 250 000 сум, детям до 14 лет — 150 000 сум. Абонементы на 12 посещений — от 700 000 до 2 000 000 сум в зависимости от категории и времени. Дополнительно: веник, бочка, пилинг и массаж от 100 000 до 400 000 сум. Работает ежедневно с 07:00 до 00:00."
       },
       "uz": {
         "name": "Dubai Spa",
@@ -4186,42 +4186,88 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2594069,
-      "lng": 69.1625937
+      "lat": 41.259127,
+      "lng": 69.1629
     },
     "phone": [
-      "+998 95 144-66-11"
+      "+998 99 885-53-55",
+      "+998 97 733-33-77"
     ],
     "telegram": null,
+    "facebook": "https://www.facebook.com/dubai.uz/",
+    "instagram": "https://www.instagram.com/dubaispa.uz/",
     "website": null,
     "gallery": [
       "/images/pools/dubai-spa/1.jpg",
       "/images/pools/dubai-spa/2.jpg",
-      "/images/pools/dubai-spa/3.jpg",
+      "/images/pools/dubai-spa/3.webp",
       "/images/pools/dubai-spa/4.jpg",
-      "/images/pools/dubai-spa/5.jpg"
+      "/images/pools/dubai-spa/5.jpg",
+      "/images/pools/dubai-spa/6.webp",
+      "/images/pools/dubai-spa/7.jpg"
     ],
     "prices": [
       {
         "key": "price.adult_single",
-        "amount": 150000,
+        "amount": 250000,
         "currency": "UZS"
       },
       {
-        "key": "price.monthly",
-        "amount": 700000,
+        "key": "price.child_single",
+        "amount": 150000,
         "currency": "UZS"
       }
     ],
-    "schedule": null,
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "07:00",
+        "close": "00:00"
+      },
+      {
+        "day": "tue",
+        "open": "07:00",
+        "close": "00:00"
+      },
+      {
+        "day": "wed",
+        "open": "07:00",
+        "close": "00:00"
+      },
+      {
+        "day": "thu",
+        "open": "07:00",
+        "close": "00:00"
+      },
+      {
+        "day": "fri",
+        "open": "07:00",
+        "close": "00:00"
+      },
+      {
+        "day": "sat",
+        "open": "07:00",
+        "close": "00:00"
+      },
+      {
+        "day": "sun",
+        "open": "07:00",
+        "close": "00:00"
+      }
+    ],
     "services": [
-      "trainer"
+      "russian_banya",
+      "turkish_hammam",
+      "rain_shower",
+      "jacuzzi",
+      "peeling",
+      "massage"
     ],
     "season": "year-round",
     "poolLength": 20,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.5,
     "ratingYandex": 5,
     "reviewCount": 2,
     "featured": false,

@@ -130,7 +130,12 @@
     "free_sunbed": "Free sunbed",
     "card_payment": "Card payment",
     "bike_parking": "Bike parking",
-    "gift_certificate": "Gift certificate"
+    "gift_certificate": "Gift certificate",
+    "russian_banya": "Russian banya",
+    "turkish_hammam": "Turkish hammam",
+    "rain_shower": "Rain shower",
+    "peeling": "Peeling",
+    "massage": "Massage"
   },
   "schedule": {
     "mon": "Monday",
