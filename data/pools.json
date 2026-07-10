@@ -784,17 +784,17 @@
     "slug": "limpopo",
     "translations": {
       "ru": {
-        "name": "Limpopo",
+        "name": "Аквапарк Лимпопо",
         "address": "ул. Талимарджан, 135, Мирабадский район, Ташкент",
-        "description": "Аквапарк с 4 бассейнами: основной с гидромассажем, детский с 5 цветными горками, а также прямой и винтовой горками. Детям до 3 лет вход бесплатный."
+        "description": "Аквапарк с 4 бассейнами: основной с гидромассажем, детский с 5 цветными горками, а также прямой и винтовой горками. Взрослым: 2 часа — 90 000 сум, 3 часа — 130 000 сум, весь день — 200 000 сум. Детям (до 12 лет): 2 часа — 70 000 сум, 3 часа — 80 000 сум, весь день — 130 000 сум. Детям до 3 лет вход бесплатный, после 12 лет — по взрослой цене. Абонемент на 30 часов: взрослый — 900 000 сум, детский — 500 000 сум."
       },
       "uz": {
-        "name": "Limpopo",
+        "name": "Limpopo Akvaparki",
         "address": "Talimarjon ko'chasi, 135, Mirobod tumani, Toshkent",
         "description": null
       },
       "en": {
-        "name": "Limpopo",
+        "name": "Limpopo Water Park",
         "address": "135 Talimarjon str., Mirobod district, Tashkent",
         "description": null
       }
@@ -804,19 +804,72 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2740439,
-      "lng": 69.3003224
+      "lat": 41.272756,
+      "lng": 69.299198
     },
-    "phone": [],
-    "telegram": null,
+    "phone": [
+      "+998 90 307-78-77",
+      "+998 71 291-34-51",
+      "+998 71 283-44-82"
+    ],
+    "telegram": [
+      "https://t.me/Limpopo_Mirabad"
+    ],
+    "instagram": "https://www.instagram.com/limpopo_mirobod/",
+    "facebook": "https://www.facebook.com/AquaLimpopo",
     "website": null,
     "gallery": [
-      "/images/pools/limpopo/1.jpg",
-      "/images/pools/limpopo/2.jpg",
-      "/images/pools/limpopo/3.jpg",
-      "/images/pools/limpopo/4.jpg"
+      "/images/pools/limpopo/1.webp",
+      "/images/pools/limpopo/2.webp",
+      "/images/pools/limpopo/3.webp",
+      "/images/pools/limpopo/4.jpg",
+      "/images/pools/limpopo/5.webp",
+      "/images/pools/limpopo/6.webp",
+      "/images/pools/limpopo/7.webp",
+      "/images/pools/limpopo/8.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_2h",
+        "amount": 90000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_3h",
+        "amount": 130000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_fullday",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_2h",
+        "amount": 70000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_3h",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 130000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_pass_30h",
+        "amount": 900000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_pass_30h",
+        "amount": 500000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
@@ -865,8 +918,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 3.9,
+    "ratingYandex": 4.8,
     "reviewCount": 9,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
