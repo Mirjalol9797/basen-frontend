@@ -2826,23 +2826,31 @@
     },
     "category": "open",
     "district": null,
-    "region": "tashkent-city",
+    "region": "tashkent-region",
     "city": null,
     "coordinates": {
-      "lat": 41.201715,
-      "lng": 69.168
+      "lat": 41.259593,
+      "lng": 69.148124
     },
     "phone": [
-      "+998 94 640-93-37"
+      "+998 94 640-93-37",
+      "+998 90 316-29-30"
     ],
-    "telegram": null,
-    "website": null,
+    "telegram": "https://t.me/paintballtritdex",
+    "facebook": "https://www.facebook.com/paintballtritdex",
+    "instagram": "https://www.instagram.com/paintball.club.tritdex/",
+    "website": "https://tritdex.uz/zony-otdykha",
     "gallery": [
-      "/images/pools/basseyin-tridex/1.jpg",
+      "/images/pools/basseyin-tridex/1.webp",
       "/images/pools/basseyin-tridex/2.jpg",
       "/images/pools/basseyin-tridex/3.jpg",
       "/images/pools/basseyin-tridex/4.jpg",
-      "/images/pools/basseyin-tridex/5.jpg"
+      "/images/pools/basseyin-tridex/5.jpg",
+      "/images/pools/basseyin-tridex/6.jpg",
+      "/images/pools/basseyin-tridex/7.jpg",
+      "/images/pools/basseyin-tridex/8.webp",
+      "/images/pools/basseyin-tridex/9.webp",
+      "/images/pools/basseyin-tridex/10.webp"
     ],
     "prices": [
       {
