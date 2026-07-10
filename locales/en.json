@@ -127,7 +127,10 @@
     "resort": "Resort",
     "billiards": "Billiards",
     "disco_bar": "Disco bar",
-    "free_sunbed": "Free sunbed"
+    "free_sunbed": "Free sunbed",
+    "card_payment": "Card payment",
+    "bike_parking": "Bike parking",
+    "gift_certificate": "Gift certificate"
   },
   "schedule": {
     "mon": "Monday",

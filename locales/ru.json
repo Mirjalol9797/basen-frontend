@@ -127,7 +127,10 @@
     "resort": "Дом отдыха",
     "billiards": "Бильярд",
     "disco_bar": "Диско-бар",
-    "free_sunbed": "Бесплатный топчан"
+    "free_sunbed": "Бесплатный топчан",
+    "card_payment": "Оплата картой",
+    "bike_parking": "Велопарковка",
+    "gift_certificate": "Подарочный сертификат"
   },
   "schedule": {
     "mon": "Понедельник",

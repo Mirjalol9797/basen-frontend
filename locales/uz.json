@@ -127,7 +127,10 @@
     "resort": "Dam olish maskani",
     "billiards": "Bilyard",
     "disco_bar": "Disko-bar",
-    "free_sunbed": "Bepul to'shak"
+    "free_sunbed": "Bepul to'shak",
+    "card_payment": "Karta orqali to'lov",
+    "bike_parking": "Velosiped turargohi",
+    "gift_certificate": "Sovg'a sertifikati"
   },
   "schedule": {
     "mon": "Dushanba",

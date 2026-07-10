@@ -4541,16 +4541,27 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3011098,
-      "lng": 69.2844876
+      "lat": 41.299229,
+      "lng": 69.276478
     },
-    "phone": [],
-    "telegram": null,
-    "website": null,
+    "phone": [
+      "+998 55 514-77-88",
+      "+998 90 916-99-55",
+      "+998 90 830-88-87",
+      "+998 90 929-20-22"
+    ],
+    "telegram": "https://t.me/chehovsportclubtashkent",
+    "instagram": "https://www.instagram.com/chekhovsportclubs/",
+    "website": "https://chekhov.uz/",
     "gallery": [
       "/images/pools/chekhov/1.jpg",
       "/images/pools/chekhov/2.jpg",
-      "/images/pools/chekhov/3.jpg"
+      "/images/pools/chekhov/3.jpg",
+      "/images/pools/chekhov/4.webp",
+      "/images/pools/chekhov/5.webp",
+      "/images/pools/chekhov/6.webp",
+      "/images/pools/chekhov/7.webp",
+      "/images/pools/chekhov/8.webp"
     ],
     "prices": [],
     "schedule": [
@@ -4593,13 +4604,17 @@
     "services": [
       "jacuzzi",
       "parking",
-      "children_zone"
+      "children_zone",
+      "trainer",
+      "card_payment",
+      "bike_parking",
+      "gift_certificate"
     ],
     "season": "year-round",
     "poolLength": 19,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "rating": 3,
+    "rating": 5,
     "reviewCount": 13,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
