@@ -4905,14 +4905,23 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3316088,
-      "lng": 69.2197183
+      "lat": 41.322253,
+      "lng": 69.231778
     },
-    "phone": [],
-    "telegram": null,
+    "phone": [
+      "+998 71 231-31-02",
+      "+998 71 249-48-39"
+    ],
+    "telegram": [
+      "https://t.me/jar_ssk"
+    ],
+    "instagram": "https://www.instagram.com/jar_sportcomplex/",
+    "facebook": "https://www.facebook.com/sportkompleksJAR/",
     "website": null,
     "gallery": [
-      "/images/pools/jar/1.jpg"
+      "/images/pools/jar/1.jpg",
+      "/images/pools/jar/2.webp",
+      "/images/pools/jar/3.jpg"
     ],
     "prices": [],
     "schedule": [
@@ -4961,7 +4970,7 @@
     "poolLength": 50,
     "poolDepthMin": 2,
     "poolDepthMax": 6,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.4,
     "ratingYandex": 5,
     "reviewCount": 7,
     "featured": false,
