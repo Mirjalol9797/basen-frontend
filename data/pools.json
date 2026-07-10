@@ -2962,13 +2962,13 @@
     "createdAt": "2026-06-29T00:00:00Z"
   },
   {
-    "id": "edem-chimgan",
-    "slug": "edem-chimgan",
+    "id": "grace-garden",
+    "slug": "grace-garden",
     "translations": {
       "ru": {
         "name": "Grace Garden",
         "address": "ул. Арай, 10, Ийк-Ота, Бектемирский район, Ташкент",
-        "description": "Комплекс отдыха с открытым бассейном, SPA, фитнесом и детским развивающим центром GGKids (бесплатно). Кафе с корейской и европейской кухней, летнее кафе. Также есть гостиница на территории."
+        "description": "Комплекс отдыха с открытым бассейном, SPA, фитнесом и детским развивающим центром GGKids (бесплатно). Вход в будни: взрослым и детям старше 12 лет — 150 000 сум, детям 6–12 лет — 80 000 сум; в выходные — 200 000 и 100 000 сум соответственно. Аренда топчана у малого бассейна (6–8 чел.) или большого (5–6 чел.) — 500 000–600 000 сум за день или вечер, столики бесплатно. Именинникам и постояльцам гостиницы вход бесплатный, детская комната включена в стоимость входа (кроме игровой зоны). Кафе с корейской и европейской кухней, летнее кафе. Также есть гостиница на территории."
       },
       "uz": {
         "name": "Grace Garden",
@@ -2986,22 +2986,55 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2272,
-      "lng": 69.37
+      "lat": 41.232417,
+      "lng": 69.366792
     },
     "phone": [
-      "+998 97 480-44-49"
+      "+998 97 480-44-49",
+      "+998 97 480-77-87",
+      "+998 97 480-11-19"
     ],
-    "telegram": null,
-    "website": null,
+    "telegram": [
+      "https://t.me/GraceGardenUz"
+    ],
+    "instagram": "https://www.instagram.com/gracegarden.uz/",
+    "facebook": "https://www.facebook.com/GraceGarden.uz/",
+    "website": "https://gracegarden.uz/",
     "gallery": [
-      "/images/pools/edem-chimgan/1.jpg",
-      "/images/pools/edem-chimgan/2.jpg",
-      "/images/pools/edem-chimgan/3.jpg",
-      "/images/pools/edem-chimgan/4.jpg",
-      "/images/pools/edem-chimgan/5.jpg"
+      "/images/pools/grace-garden/1.webp",
+      "/images/pools/grace-garden/2.webp",
+      "/images/pools/grace-garden/3.webp",
+      "/images/pools/grace-garden/4.webp",
+      "/images/pools/grace-garden/5.webp",
+      "/images/pools/grace-garden/6.webp",
+      "/images/pools/grace-garden/7.webp",
+      "/images/pools/grace-garden/8.webp",
+      "/images/pools/grace-garden/9.webp",
+      "/images/pools/grace-garden/10.webp",
+      "/images/pools/grace-garden/11.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_weekday",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekday",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend",
+        "amount": 100000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
@@ -3043,13 +3076,14 @@
       "parking",
       "cafe",
       "children_zone",
-      "spa"
+      "spa",
+      "hotel"
     ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.6,
     "ratingYandex": 5,
     "reviewCount": 4,
     "featured": false,
