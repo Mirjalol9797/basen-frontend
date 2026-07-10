@@ -3642,7 +3642,7 @@
       "ru": {
         "name": "Le Grand De Plaza",
         "address": "ул. Узбекистон овози, 2, Яшнободский район, Ташкент",
-        "description": "Бассейн при гостиничном комплексе Le Grand De Plaza с парковкой. Удобное расположение рядом с отелем Узбекистан. Выходной — понедельник."
+        "description": "Бассейн при гостиничном комплексе Le Grand De Plaza с парковкой. Разового посещения нет — только месячный абонемент: 1 взрослый — 2 700 000 сум, 2 взрослых — 4 400 000 сум, детский — 1 700 000 сум. Безлимитные посещения в течение месяца. Дети до 5 лет — бесплатно в сопровождении родителя, с 5 до 12 лет нужен детский абонемент, без сопровождения взрослых дети не допускаются. Удобное расположение рядом с отелем Узбекистан. Выходной — понедельник."
       },
       "uz": {
         "name": "Le Grand De Plaza",
@@ -3660,19 +3660,40 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.310654,
-      "lng": 69.286218
+      "lat": 41.311124,
+      "lng": 69.286016
     },
     "phone": [
       "+998 78 120-66-00"
     ],
-    "telegram": null,
-    "website": null,
-    "gallery": [
-      "/images/pools/le-grand-de-plaza/1.jpg",
-      "/images/pools/le-grand-de-plaza/2.jpg"
+    "telegram": [
+      "https://t.me/LeGrandePLaza"
     ],
-    "prices": [],
+    "instagram": "https://www.instagram.com/legrandeplaza",
+    "facebook": "https://www.facebook.com/lgphotel",
+    "website": "https://legrandeplaza.com/",
+    "gallery": [
+      "/images/pools/le-grand-de-plaza/1.webp",
+      "/images/pools/le-grand-de-plaza/2.webp",
+      "/images/pools/le-grand-de-plaza/3.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.monthly_1_adult",
+        "amount": 2700000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly_2_adults",
+        "amount": 4400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly_child",
+        "amount": 1700000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
@@ -3712,14 +3733,15 @@
       }
     ],
     "services": [
-      "parking"
+      "parking",
+      "hotel"
     ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 3.6,
+    "ratingYandex": 4.6,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"

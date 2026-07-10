@@ -103,8 +103,6 @@
   "garden-bar/2.jpg": "0f0a2244c4b0971e3435e2afad54041c636faf6f",
   "garden-bar/4.jpg": "6e1e6b3c33bdd3e75c81122a96118cc1d2f8c5f4",
   "jar/1.jpg": "95936067ac395c37fb07576114b3c04c945674cd",
-  "le-grand-de-plaza/1.jpg": "ce5678fbae028ed0a6015ac2037f2e45fe149396",
-  "le-grand-de-plaza/2.jpg": "96f91cb17393ecc94fc1033005b09dc2c72680c9",
   "limpopo/1.jpg": "3f7d3f27460a8a31e9f8d7930354aacf2e42a4f5",
   "limpopo/2.jpg": "42d9a162b48cbf9d119201b175e477c194cfa502",
   "limpopo/3.jpg": "8dc03de5b2a39534afd50cfe514c9d72de77ac58",
@@ -262,5 +260,8 @@
   "garden-bar/8.jpg": "23f16787f3a6883b83ec6b779fd7aee89ed59cea",
   "garden-bar/9.webp": "50b81009bb0e01a117cc7d555e34a7c53fb1a2e7",
   "jar/2.webp": "a0ad7198ffb01a68c19851eccb43f4052410a2d2",
-  "jar/3.jpg": "3b1a720aedb483da42ae9bd3b5eb83eeef726974"
+  "jar/3.jpg": "3b1a720aedb483da42ae9bd3b5eb83eeef726974",
+  "le-grand-de-plaza/1.webp": "337d228e64fa175044c5aa8fab7096deec8d3d15",
+  "le-grand-de-plaza/2.webp": "89bb222c063c07c6509e1e532341b12fc612e26d",
+  "le-grand-de-plaza/3.webp": "faaa5a52a470003312fa893313e849a95413266c"
 }
