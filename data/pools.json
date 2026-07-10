@@ -2039,7 +2039,7 @@
       "ru": {
         "name": "Forest Club",
         "address": "Лесхоз, Пскентский район, Ташкентская область",
-        "description": "Открытый бассейн на природе с детской зоной и парковкой. Взрослый билет 80 000 сум, дети 7–14 лет 40 000 сум, до 7 лет бесплатно. Выходной — четверг."
+        "description": "Открытый бассейн на природе с детской зоной и парковкой. Взрослый билет (от 15 лет) — 70 000 сум, детский (7–15 лет) — 35 000 сум, до 7 лет — бесплатно. Выходной — четверг."
       },
       "uz": {
         "name": "Forest Club",
@@ -2054,16 +2054,18 @@
     },
     "category": "open",
     "district": null,
-    "region": "tashkent-city",
+    "region": "tashkent-region",
     "city": null,
     "coordinates": {
-      "lat": 40.6927491,
-      "lng": 69.7115743
+      "lat": 40.948437,
+      "lng": 69.372688
     },
     "phone": [
-      "+998 97 342-83-91"
+      "+998 97 342-83-91",
+      "+998 94 426-83-91"
     ],
     "telegram": null,
+    "instagram": "https://www.instagram.com/forest_club_official/",
     "website": null,
     "gallery": [
       "/images/pools/forest-club/1.jpg"
@@ -2071,12 +2073,12 @@
     "prices": [
       {
         "key": "price.adult_single",
-        "amount": 80000,
+        "amount": 70000,
         "currency": "UZS"
       },
       {
         "key": "price.child_single",
-        "amount": 40000,
+        "amount": 35000,
         "currency": "UZS"
       }
     ],
@@ -2126,7 +2128,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.6,
     "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
