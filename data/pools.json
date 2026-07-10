@@ -4434,7 +4434,7 @@
       "ru": {
         "name": "Magic Galaxy",
         "address": "ул. Заргарлик, 46А, Чиланзарский район, Ташкент",
-        "description": "Четырёхэтажный спортивно-оздоровительный комплекс с крытым бассейном, тренажёрными залами, спа, сауной, массажем и детской площадкой."
+        "description": "Четырёхэтажный спортивно-оздоровительный комплекс с крытым бассейном, тренажёрными залами, спа, сауной, массажем и детской площадкой. Разовое посещение бассейна — 200 000 сум (2 часа). Действуют абонементы по тарифам Platinum, Gold и Aqua Woman на 1–12 месяцев — включают доступ к бассейну, гидромассажу, турецкому хаммаму, полотенцам, раздевалкам и душевым. Женские часы (мужчинам вход запрещён): пн/ср/пт 9:00–10:00, ежедневно 13:00–14:00; по воскресеньям вход свободный для всех. Для детей 3–16 лет — групповые и индивидуальные тренировки по плаванию по абонементам на 1–4 месяца."
       },
       "uz": {
         "name": "Magic Galaxy",
@@ -4452,31 +4452,87 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2644985,
-      "lng": 69.1667914
+      "lat": 41.271326,
+      "lng": 69.175657
     },
     "phone": [
-      "+998 71 207-71-71"
+      "+998 71 207-71-71",
+      "+998 98 310-35-00"
     ],
-    "telegram": null,
+    "telegram": [
+      "https://t.me/magicgalaxyuz"
+    ],
+    "instagram": "https://www.instagram.com/magicgalaxy.uz",
     "website": null,
     "gallery": [
-      "/images/pools/magic-galaxy/1.jpg"
+      "/images/pools/magic-galaxy/1.jpg",
+      "/images/pools/magic-galaxy/2.webp",
+      "/images/pools/magic-galaxy/3.webp",
+      "/images/pools/magic-galaxy/4.webp",
+      "/images/pools/magic-galaxy/5.webp",
+      "/images/pools/magic-galaxy/6.webp",
+      "/images/pools/magic-galaxy/7.webp",
+      "/images/pools/magic-galaxy/8.webp"
     ],
-    "prices": [],
-    "schedule": null,
+    "prices": [
+      {
+        "key": "price.adult_2h",
+        "amount": 200000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "07:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "20:00"
+      }
+    ],
     "services": [
       "trainer",
       "spa",
       "sauna",
       "cafe",
-      "children_zone"
+      "children_zone",
+      "turkish_hammam",
+      "jacuzzi",
+      "locker"
     ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.4,
     "ratingYandex": 5,
     "reviewCount": 3,
     "featured": false,
