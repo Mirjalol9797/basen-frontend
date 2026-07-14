@@ -943,17 +943,17 @@
     "slug": "monaco",
     "translations": {
       "ru": {
-        "name": "MONACO — Крытый Аквапарк",
+        "name": "Аквапарк Monako",
         "address": "Карасу 4, ул. Гульсанам, Мирзо-Улугбекский район, Ташкент",
-        "description": "Крытый аквапарк, работающий круглый год. Тропические зоны, финская сауна, джакузи и акватерапия. Подогреваемые бассейны с комфортной температурой воды в любое время года."
+        "description": "Крытый аквапарк, работающий круглый год. Тропические зоны, финская сауна, джакузи, акватерапия, обучение плаванию, кухня и водяной бар. Подогреваемые бассейны с комфортной температурой воды в любое время года. Разовое посещение в будни: взрослым — 130 000 сум, подросткам до 14 лет — 75 000 сум; в выходные — 180 000 и 100 000 сум. Детям до 5 лет — бесплатно. Действуют месячные и VIP-абонементы (взрослые и детские, на 1–12 месяцев или 30–360 дней). По понедельникам санитарный день до 14:00. Гостям младше 16 лет — вход только в сопровождении взрослых, приносить еду и напитки на территорию бассейна запрещено."
       },
       "uz": {
-        "name": "MONACO — Yopiq Akvapark",
+        "name": "Monaco Akvaparki",
         "address": "Qarashu 4, Gulsanam ko'chasi, Mirzo Ulug'bek tumani, Toshkent",
         "description": null
       },
       "en": {
-        "name": "MONACO — Indoor Water Park",
+        "name": "Monaco Water Park",
         "address": "Karasu 4, Gulsanam str., Mirzo-Ulugbek district, Tashkent",
         "description": null
       }
@@ -963,29 +963,53 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.333063,
-      "lng": 69.374933
+      "lat": 41.332043,
+      "lng": 69.376154
     },
     "phone": [
       "+998 95 215-15-15"
     ],
-    "telegram": null,
-    "website": null,
+    "telegram": [
+      "https://t.me/monacoaquapark"
+    ],
+    "instagram": "https://www.instagram.com/monaco.aquapark",
+    "facebook": "https://www.facebook.com/people/Monaco-Aqua/pfbid0rGdS3TnXWPXUwGgEBuoEhixpwznSsaMPEJ63A1x1CtdMWGxesNY3oy74mho1ePz2l/",
+    "website": "https://monaqua.uz/",
     "gallery": [
-      "/images/pools/monaco/1.jpg",
+      "/images/pools/monaco/1.webp",
       "/images/pools/monaco/2.jpg",
-      "/images/pools/monaco/3.jpg",
-      "/images/pools/monaco/4.jpg"
+      "/images/pools/monaco/3.webp",
+      "/images/pools/monaco/4.jpg",
+      "/images/pools/monaco/5.webp",
+      "/images/pools/monaco/6.webp",
+      "/images/pools/monaco/7.webp",
+      "/images/pools/monaco/8.webp",
+      "/images/pools/monaco/9.webp",
+      "/images/pools/monaco/10.webp",
+      "/images/pools/monaco/11.webp",
+      "/images/pools/monaco/12.webp",
+      "/images/pools/monaco/13.webp",
+      "/images/pools/monaco/14.webp"
     ],
     "prices": [
       {
-        "key": "price.adult_single",
-        "amount": 150000,
+        "key": "price.adult_weekday",
+        "amount": 130000,
         "currency": "UZS"
       },
       {
-        "key": "price.child_single",
-        "amount": 80000,
+        "key": "price.child_weekday",
+        "amount": 75000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend",
+        "amount": 180000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend",
+        "amount": 100000,
         "currency": "UZS"
       }
     ],
@@ -1030,14 +1054,15 @@
       "children_zone",
       "sauna",
       "jacuzzi",
-      "cafe"
+      "cafe",
+      "trainer"
     ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 3.6,
+    "ratingYandex": 4.8,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
