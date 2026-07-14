@@ -111,8 +111,8 @@
   "mojito-povalazza/2.jpg": "e80a61dab7316d2125ac9e0a34cd8676633a0407",
   "monaco/2.jpg": "e853b1c2f88baecc87166229a785815eb293043e",
   "monaco/4.jpg": "d9d3b225bcb5c916b39fe34789c35f1ea72192f0",
-  "oasis-aqua-park/1.jpg": "18d0d4d24695bc4491688a662ca26f622928a641",
-  "oasis-aqua-park/2.jpg": "20ed1eb4e6780e600027c4083895261f8d5b7ae9",
+  "oasis-aqua-park/1.jpg": "4363af2a6038fd7ca1af59744243ff7e9c354f0c",
+  "oasis-aqua-park/2.jpg": "139030ba8b4c8c81efa2198841e58fa90d55effa",
   "oazis/1.jpg": "f6e5d9bd193c4c4aaf6ae3648c1c633669bf8188",
   "oazis/2.jpg": "3f0f7fb2d20a3300ff9f7ada9a284682803d3b60",
   "oazis/3.jpg": "78ae6a3961109036e1fe3a2b5f9950468ba63615",
@@ -311,5 +311,16 @@
   "monaco/6.webp": "caf7ffc3ef3b7b8b18a63ab1815784684c18fc3e",
   "monaco/7.webp": "9f0c9ca9ce4881331e0c913f875aff91c5450b09",
   "monaco/8.webp": "d5f0a1c8d56bce38dc1498f1539fcaffc51e605d",
-  "monaco/9.webp": "a678e9d63b7872c38f29fe777d89a914f526b114"
+  "monaco/9.webp": "a678e9d63b7872c38f29fe777d89a914f526b114",
+  "paradise/5.webp": "9f9a946b6d4355828431fb386a110201e3adbe59",
+  "oasis-aqua-park/10.webp": "74d521813e2e229205d5a7fccd8149b496d32857",
+  "oasis-aqua-park/11.webp": "8ee32cedb3dcbb4ac2f395e6709f4a5a37a84542",
+  "oasis-aqua-park/12.webp": "c1d8eaf808573efeed951ff4133800656c9a34e4",
+  "oasis-aqua-park/3.jpg": "09d0ce79732706a2f5e0461f33aa0e95df957d07",
+  "oasis-aqua-park/4.jpg": "baf9ae5c33c25e3a0c032cd52f380d7472a00339",
+  "oasis-aqua-park/5.jpg": "2126c74e57cd9bc1285d343a8423e119fe317008",
+  "oasis-aqua-park/6.webp": "525a31d0fd377a5782efd5f4800d42cf313ee74a",
+  "oasis-aqua-park/7.webp": "9773f0a7ed20e81fc6184fffa7fbeef26fe0a667",
+  "oasis-aqua-park/8.webp": "e995ef43d1b1d47d2fc6cb7d8efcab49c27390bd",
+  "oasis-aqua-park/9.webp": "4879478b46f632a83494eefd11eada3a4f7288a9"
 }

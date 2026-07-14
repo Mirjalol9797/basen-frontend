@@ -1105,7 +1105,17 @@
     "website": "https://oasis-aquapark.uz/",
     "gallery": [
       "/images/pools/oasis-aqua-park/1.jpg",
-      "/images/pools/oasis-aqua-park/2.jpg"
+      "/images/pools/oasis-aqua-park/2.jpg",
+      "/images/pools/oasis-aqua-park/3.jpg",
+      "/images/pools/oasis-aqua-park/4.jpg",
+      "/images/pools/oasis-aqua-park/5.jpg",
+      "/images/pools/oasis-aqua-park/6.webp",
+      "/images/pools/oasis-aqua-park/7.webp",
+      "/images/pools/oasis-aqua-park/8.webp",
+      "/images/pools/oasis-aqua-park/9.webp",
+      "/images/pools/oasis-aqua-park/10.webp",
+      "/images/pools/oasis-aqua-park/11.webp",
+      "/images/pools/oasis-aqua-park/12.webp"
     ],
     "prices": [
       {
@@ -2273,7 +2283,7 @@
       "ru": {
         "name": "Paradise",
         "address": "Авиасозлар тор 1/22-24, Яшнабадский район, Ташкент",
-        "description": "Открытый бассейн в Яшнабадском районе с кафе/столовой, бесплатными лежаками и баром. Взрослый от 35 000 сум/час, дети от 25 000 сум/час. Дети до 3 лет бесплатно."
+        "description": "Открытый бассейн в Яшнабадском районе с кафе-баром и топчанами (депозит — 600 000 сум в будни, 1 200 000 сум в выходные). Разовое посещение: детям 3–11 лет — 40 000 сум/час, 60 000 сум за 3 часа, 90 000 сум за весь день; взрослым — 50 000, 90 000 и 130 000 сум соответственно. Детям до 3 лет — бесплатно."
       },
       "uz": {
         "name": "Paradise",
@@ -2291,29 +2301,54 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.288519,
-      "lng": 69.346927
+      "lat": 41.2918544,
+      "lng": 69.3327762
     },
     "phone": [
-      "+998 71 296-48-61"
+      "+998 71 296-48-61",
+      "+998 90 820-21-02"
     ],
-    "telegram": null,
+    "telegram": [
+      "https://t.me/paradisepool_loungebar"
+    ],
+    "instagram": "https://www.instagram.com/paradisepool_loungebar/",
     "website": null,
     "gallery": [
       "/images/pools/paradise/1.jpg",
       "/images/pools/paradise/2.jpg",
       "/images/pools/paradise/3.jpg",
-      "/images/pools/paradise/4.jpg"
+      "/images/pools/paradise/4.jpg",
+      "/images/pools/paradise/5.webp"
     ],
     "prices": [
       {
-        "key": "price.adult_single",
+        "key": "price.adult_1h",
+        "amount": 50000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_3h",
         "amount": 90000,
         "currency": "UZS"
       },
       {
-        "key": "price.child_single",
-        "amount": 50000,
+        "key": "price.adult_fullday",
+        "amount": 130000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_1h",
+        "amount": 40000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_3h",
+        "amount": 60000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 90000,
         "currency": "UZS"
       }
     ],
@@ -2361,8 +2396,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 4.7,
     "reviewCount": 10,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
