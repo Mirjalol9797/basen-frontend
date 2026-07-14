@@ -3912,7 +3912,7 @@
       "ru": {
         "name": "Бассейн Мехнат",
         "address": "ул. Чиланзар, 15Б, Чиланзарский район, Ташкент",
-        "description": "Крытый 50-метровый бассейн в гостинице Мехнат. Температура воды 26°C. Размер 50×21м. Есть тренер."
+        "description": "Крытый 50-метровый бассейн в гостинице Мехнат (Avenue swimming pool). Температура воды 26°C, размер 50×21 м, есть тренер и сауна. Разовое посещение: взрослым (от 12 лет) 1 час — 70 000 сум, пенсионерам и детям 5–12 лет — 50 000 сум, 3 часа для всех — 130 000 сум. Часовые абонементы (включают время на раздевалку): 6 часов — от 330 000 до 380 000 сум, 10 часов — от 380 000 до 480 000 сум, 15 часов — от 520 000 до 630 000 сум. Безлимит на 30 дней — 2 310 000 сум, VIP безлимит на 100 дней — 5 990 000 сум. За превышение оплаченного времени — 1 500 сум/мин."
       },
       "uz": {
         "name": "Mehnat hovuzi",
@@ -3930,66 +3930,86 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2894928,
-      "lng": 69.2337076
+      "lat": 41.279993,
+      "lng": 69.224113
     },
     "phone": [
-      "+998 71 277-94-60"
+      "+998 71 277-94-60",
+      "+998 95 955-79-79"
     ],
     "telegram": null,
+    "facebook": "https://www.facebook.com/pages/MEKHNAT%20pool/552649721440920/",
     "website": null,
     "gallery": [
       "/images/pools/mekhnat/1.jpg",
-      "/images/pools/mekhnat/2.jpg"
+      "/images/pools/mekhnat/2.jpg",
+      "/images/pools/mekhnat/3.webp",
+      "/images/pools/mekhnat/4.webp",
+      "/images/pools/mekhnat/5.webp",
+      "/images/pools/mekhnat/6.webp",
+      "/images/pools/mekhnat/7.webp",
+      "/images/pools/mekhnat/8.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_single",
+        "amount": 70000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 50000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       {
         "day": "tue",
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       {
         "day": "wed",
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       {
         "day": "thu",
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       {
         "day": "fri",
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       {
         "day": "sat",
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       {
         "day": "sun",
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       }
     ],
     "services": [
       "parking",
-      "trainer"
+      "trainer",
+      "sauna"
     ],
     "season": "year-round",
     "poolLength": 50,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4.1,
+    "ratingYandex": 4.9,
     "reviewCount": 3,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
