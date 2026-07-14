@@ -1074,7 +1074,7 @@
       "ru": {
         "name": "OASIS Аквапарк",
         "address": "проспект Бунёдкор, 4А, напротив парка Гафура Гуляма, Чиланзарский район, Ташкент",
-        "description": "Аквапарк с водными горками, бассейнами и газонными зонами отдыха. Ресторан, кофейня и детская зона на территории. Удобная парковка."
+        "description": "Аквапарк с водными горками, волновым бассейном и газонными зонами отдыха. Ресторан, кофейня, Wi-Fi, трамплин и детская зона на территории. Есть льготные билеты для отдельных категорий. Тариф на 3 часа в будни: взрослым 180 000 сум, детям до 12 лет 160 000 сум; в выходные и праздники — 200 000 и 180 000 сум. VIP-тариф: 220 000/210 000 сум в будни, 250 000/230 000 сум в выходные. Lounge Zone (3 часа или весь день) — от 240 000 до 300 000 сум в зависимости от дня и тарифа. Детям до 4 лет вход бесплатный."
       },
       "uz": {
         "name": "OASIS Akvapark",
@@ -1095,59 +1095,74 @@
       "lat": 41.290002,
       "lng": 69.218862
     },
-    "phone": [],
-    "telegram": null,
-    "website": null,
+    "phone": [
+      "+998 97 455-51-11"
+    ],
+    "telegram": [
+      "https://t.me/OasisAquapark_Tashkent"
+    ],
+    "instagram": "https://www.instagram.com/oasis_aqua_park/",
+    "website": "https://oasis-aquapark.uz/",
     "gallery": [
       "/images/pools/oasis-aqua-park/1.jpg",
       "/images/pools/oasis-aqua-park/2.jpg"
     ],
     "prices": [
       {
-        "key": "price.adult_single",
-        "amount": 85000,
+        "key": "price.adult_weekday_3h",
+        "amount": 180000,
         "currency": "UZS"
       },
       {
-        "key": "price.child_single",
-        "amount": 60000,
+        "key": "price.child_weekday_3h",
+        "amount": 160000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend_3h",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend_3h",
+        "amount": 180000,
         "currency": "UZS"
       }
     ],
     "schedule": [
       {
         "day": "mon",
-        "open": "09:00",
+        "open": "10:00",
         "close": "21:00"
       },
       {
         "day": "tue",
-        "open": "09:00",
+        "open": "10:00",
         "close": "21:00"
       },
       {
         "day": "wed",
-        "open": "09:00",
+        "open": "10:00",
         "close": "21:00"
       },
       {
         "day": "thu",
-        "open": "09:00",
+        "open": "10:00",
         "close": "21:00"
       },
       {
         "day": "fri",
-        "open": "09:00",
+        "open": "10:00",
         "close": "21:00"
       },
       {
         "day": "sat",
-        "open": "09:00",
+        "open": "10:00",
         "close": "21:00"
       },
       {
         "day": "sun",
-        "open": "09:00",
+        "open": "10:00",
         "close": "21:00"
       }
     ],
@@ -1155,14 +1170,19 @@
       "parking",
       "cafe",
       "children_zone",
-      "locker"
+      "locker",
+      "wifi",
+      "card_payment",
+      "gift_certificate",
+      "trampoline",
+      "wave_pool"
     ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 3.5,
+    "ratingYandex": 4.4,
     "reviewCount": 15,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
