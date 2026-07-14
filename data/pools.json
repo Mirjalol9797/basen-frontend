@@ -3185,7 +3185,7 @@
       "ru": {
         "name": "Мохито — Lounge Pool",
         "address": "Тукайтепа, ул. Икбол, 24, Мирзо-Улугбекский район, Ташкент",
-        "description": "Открытый lounge-бассейн в Мирзо-Улугбекском районе. Взрослые 70 000 сум в будни / 100 000 сум в выходные, дети 35 000 / 50 000 сум."
+        "description": "Открытый lounge-бассейн с двумя чашами в Мирзо-Улугбекском районе. Топчаны и столики, бар и кухня, DJ-сеты и танцы. Вход в будни: взрослым (от 12 лет) — 140 000 сум, детям (до 12 лет) — 80 000 сум, до 3 лет — бесплатно; в субботу-воскресенье — 180 000 и 100 000 сум. По средам и пятницам — женский день, вход для женщин бесплатный. Депозит за стол (4 чел.) — 300 000 сум, за топчан (6–8 чел.) — от 400 000 до 800 000 сум, за топчан (10–12 чел.) — от 600 000 до 1 000 000 сум в зависимости от дня недели."
       },
       "uz": {
         "name": "Mohito Lounge Pool",
@@ -3203,27 +3203,53 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.33115,
-      "lng": 69.41013
+      "lat": 41.325844,
+      "lng": 69.409074
     },
     "phone": [
-      "+998 99 520-55-11"
+      "+998 99 520-55-11",
+      "+998 95 850-00-40",
+      "+998 95 850-00-90"
     ],
     "telegram": null,
+    "facebook": "https://www.facebook.com/moxitotashkent",
+    "instagram": "https://www.instagram.com/moxito_tashkent",
     "website": null,
     "gallery": [
       "/images/pools/mojito-povalazza/1.jpg",
-      "/images/pools/mojito-povalazza/2.jpg"
+      "/images/pools/mojito-povalazza/2.jpg",
+      "/images/pools/mojito-povalazza/3.webp",
+      "/images/pools/mojito-povalazza/4.webp",
+      "/images/pools/mojito-povalazza/5.webp",
+      "/images/pools/mojito-povalazza/6.webp",
+      "/images/pools/mojito-povalazza/7.webp",
+      "/images/pools/mojito-povalazza/8.webp",
+      "/images/pools/mojito-povalazza/9.webp",
+      "/images/pools/mojito-povalazza/10.webp",
+      "/images/pools/mojito-povalazza/11.webp",
+      "/images/pools/mojito-povalazza/12.webp",
+      "/images/pools/mojito-povalazza/13.webp",
+      "/images/pools/mojito-povalazza/14.webp"
     ],
     "prices": [
       {
-        "key": "price.adult_single",
-        "amount": 70000,
+        "key": "price.adult_weekday",
+        "amount": 140000,
         "currency": "UZS"
       },
       {
-        "key": "price.child_single",
-        "amount": 35000,
+        "key": "price.child_weekday",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend",
+        "amount": 180000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend",
+        "amount": 100000,
         "currency": "UZS"
       }
     ],
@@ -3231,47 +3257,48 @@
       {
         "day": "mon",
         "open": "11:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "tue",
         "open": "11:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "wed",
         "open": "11:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "thu",
         "open": "11:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "fri",
         "open": "11:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "sat",
         "open": "11:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "sun",
         "open": "11:00",
-        "close": "20:00"
+        "close": "22:00"
       }
     ],
     "services": [
-      "parking"
+      "parking",
+      "cafe"
     ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 3.2,
     "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
