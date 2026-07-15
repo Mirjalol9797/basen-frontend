@@ -123,7 +123,6 @@
       "fun-n-food-village",
       "limpopo",
       "water-park",
-      "oazis",
       "aqualand",
       "green-paradise",
       "monaco"
@@ -132,24 +131,24 @@
     "translations": {
       "ru": {
         "title": "Аквапарки Ташкента — обзор и цены",
-        "excerpt": "Все 11 аквапарков города в одном месте: цены, сезон работы, отзывы. От бюджетных вариантов до премиального крытого MONACO.",
-        "metaDescription": "Аквапарки Ташкента 2026: полный список из 11 объектов с ценами на билеты, отзывами и сезоном работы. Как выбрать аквапарк для семьи.",
-        "intro": "В Ташкенте и области работает 11 аквапарков — от небольших мини-парков с парой горок до крупных комплексов на весь день. Полные данные по ценам заполнены пока только у трёх: OASIS Аквапарк (85 000 сум взрослый / 60 000 детский), Ташкентский Аквапарк (70 000 / 35 000) — самый доступный вариант в подборке — и MONACO (150 000 / 80 000) — единственный крытый и круглогодичный, поэтому и самый дорогой. По остальным 8 объектам цены пока не заполнены в базе — уточняйте на месте или по телефону, они могут отличаться в будни и выходные.",
-        "conclusion": "9 из 11 аквапарков работают только в тёплый сезон, с мая по сентябрь — если планируете поездку зимой, единственный реальный вариант с горками — MONACO. Для остальных месяцев уточняйте даты открытия сезона заранее, особенно в мае и сентябре, когда часы работы могут быть сокращены."
+        "excerpt": "Все 10 аквапарков города в одном месте: цены, сезон работы, отзывы. От бюджетных вариантов до премиального крытого MONACO.",
+        "metaDescription": "Аквапарки Ташкента 2026: полный список из 10 объектов с ценами на билеты, отзывами и сезоном работы. Как выбрать аквапарк для семьи.",
+        "intro": "В Ташкенте и области работает 10 аквапарков — от небольших мини-парков с парой горок до крупных комплексов на весь день. Полные данные по ценам заполнены пока только у трёх: OASIS Аквапарк (85 000 сум взрослый / 60 000 детский), Ташкентский Аквапарк (70 000 / 35 000) — самый доступный вариант в подборке — и MONACO (150 000 / 80 000) — единственный крытый и круглогодичный, поэтому и самый дорогой. По остальным 7 объектам цены пока не заполнены в базе — уточняйте на месте или по телефону, они могут отличаться в будни и выходные.",
+        "conclusion": "8 из 10 аквапарков работают только в тёплый сезон, с мая по сентябрь — если планируете поездку зимой, единственный реальный вариант с горками — MONACO. Для остальных месяцев уточняйте даты открытия сезона заранее, особенно в мае и сентябре, когда часы работы могут быть сокращены."
       },
       "uz": {
         "title": "Toshkent akvaparklari — sharh va narxlar",
-        "excerpt": "Shahardagi barcha 11 ta akvapark bir joyda: narxlar, ish mavsumi, sharhlar. Byudjetli variantlardan premium yopiq MONACO'gacha.",
-        "metaDescription": "Toshkent akvaparklari 2026: narxlar, sharhlar va ish mavsumi bilan 11 ta obyektning to'liq ro'yxati. Oila uchun akvaparkni qanday tanlash kerak.",
-        "intro": "Toshkent va viloyatida 11 ta akvapark ishlaydi — bir nechta gorkali kichik mini-parklardan tortib, butun kunga mo'ljallangan yirik majmualargacha. To'liq narx ma'lumotlari hozircha faqat uchtasida to'ldirilgan: OASIS Akvapark (85 000 so'm kattalar / 60 000 bolalar), Toshkent Akvaparki (70 000 / 35 000) — tanlovdagi eng arzon variant — va MONACO (150 000 / 80 000) — yagona yopiq va yil bo'yi ishlaydigan, shu sababli eng qimmati. Qolgan 8 obyekt bo'yicha narxlar bazada hozircha to'ldirilmagan — joyida yoki telefon orqali aniqlashtiring, ular dam olish kunlari va ish kunlarida farq qilishi mumkin.",
-        "conclusion": "11 tadan 9 ta akvapark faqat issiq mavsumda, may-sentyabr oralig'ida ishlaydi — qishda sayohat rejalashtirayotgan bo'lsangiz, gorkali yagona real variant — MONACO. Boshqa oylar uchun mavsum ochilish sanalarini oldindan aniqlashtiring, ayniqsa may va sentyabrda, ish vaqti qisqarishi mumkin."
+        "excerpt": "Shahardagi barcha 10 ta akvapark bir joyda: narxlar, ish mavsumi, sharhlar. Byudjetli variantlardan premium yopiq MONACO'gacha.",
+        "metaDescription": "Toshkent akvaparklari 2026: narxlar, sharhlar va ish mavsumi bilan 10 ta obyektning to'liq ro'yxati. Oila uchun akvaparkni qanday tanlash kerak.",
+        "intro": "Toshkent va viloyatida 10 ta akvapark ishlaydi — bir nechta gorkali kichik mini-parklardan tortib, butun kunga mo'ljallangan yirik majmualargacha. To'liq narx ma'lumotlari hozircha faqat uchtasida to'ldirilgan: OASIS Akvapark (85 000 so'm kattalar / 60 000 bolalar), Toshkent Akvaparki (70 000 / 35 000) — tanlovdagi eng arzon variant — va MONACO (150 000 / 80 000) — yagona yopiq va yil bo'yi ishlaydigan, shu sababli eng qimmati. Qolgan 7 obyekt bo'yicha narxlar bazada hozircha to'ldirilmagan — joyida yoki telefon orqali aniqlashtiring, ular dam olish kunlari va ish kunlarida farq qilishi mumkin.",
+        "conclusion": "10 tadan 8 ta akvapark faqat issiq mavsumda, may-sentyabr oralig'ida ishlaydi — qishda sayohat rejalashtirayotgan bo'lsangiz, gorkali yagona real variant — MONACO. Boshqa oylar uchun mavsum ochilish sanalarini oldindan aniqlashtiring, ayniqsa may va sentyabrda, ish vaqti qisqarishi mumkin."
       },
       "en": {
         "title": "Aquaparks in Tashkent — overview and prices",
-        "excerpt": "All 11 aquaparks in the city in one place: prices, operating season, reviews. From budget options to the premium indoor MONACO.",
-        "metaDescription": "Aquaparks in Tashkent 2026: a complete list of 11 venues with ticket prices, reviews and operating season. How to choose an aquapark for the family.",
-        "intro": "There are 11 aquaparks operating in Tashkent and the surrounding region — from small mini-parks with a couple of slides to large all-day complexes. Full price data is filled in for only three so far: OASIS Aquapark (85,000 UZS adult / 60,000 child), Tashkent Water Park (70,000 / 35,000) — the most affordable option in the list — and MONACO (150,000 / 80,000), the only indoor, year-round venue and therefore the most expensive. Prices for the other 8 venues aren't filled in yet — check on-site or by phone, as they can differ between weekdays and weekends.",
-        "conclusion": "9 of the 11 aquaparks operate only in the warm season, from May to September — if you're planning a winter trip, the only real option with slides is MONACO. For other months, confirm the season's opening dates ahead of time, especially in May and September, when hours can be reduced."
+        "excerpt": "All 10 aquaparks in the city in one place: prices, operating season, reviews. From budget options to the premium indoor MONACO.",
+        "metaDescription": "Aquaparks in Tashkent 2026: a complete list of 10 venues with ticket prices, reviews and operating season. How to choose an aquapark for the family.",
+        "intro": "There are 10 aquaparks operating in Tashkent and the surrounding region — from small mini-parks with a couple of slides to large all-day complexes. Full price data is filled in for only three so far: OASIS Aquapark (85,000 UZS adult / 60,000 child), Tashkent Water Park (70,000 / 35,000) — the most affordable option in the list — and MONACO (150,000 / 80,000), the only indoor, year-round venue and therefore the most expensive. Prices for the other 7 venues aren't filled in yet — check on-site or by phone, as they can differ between weekdays and weekends.",
+        "conclusion": "8 of the 10 aquaparks operate only in the warm season, from May to September — if you're planning a winter trip, the only real option with slides is MONACO. For other months, confirm the season's opening dates ahead of time, especially in May and September, when hours can be reduced."
       }
     }
   },
