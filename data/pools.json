@@ -3474,7 +3474,7 @@
       "ru": {
         "name": "Три пальмы — Three Palms Beach Club",
         "address": "посёлок Ийк-Ота, ул. Узбекистанская, Бектемирский район, Ташкент",
-        "description": "Пляжный клуб с открытым бассейном, детской чашей, кафе с европейской и кавказской кухней. Топчаны и лежаки. Взрослые 80 000 сум в будни / 100 000 сум в выходные."
+        "description": "Пляжный клуб с открытым бассейном, детской чашей, кафе с европейской и кавказской кухней. Топчаны и лежаки. Вход: взрослым (от 12 лет) 120 000 сум в будни / 150 000 в выходные, детям до 12 лет 60 000 / 75 000, до 6 лет — бесплатно. Аренда посадочных мест, ресторанных столов, VIP-караоке, гостиничных номеров и коттеджей — по прейскуранту на месте (от 150 000 до 4 000 000 сум). Именинникам вход бесплатный."
       },
       "uz": {
         "name": "Three Palms Beach Club",
@@ -3492,30 +3492,52 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.226843,
-      "lng": 69.369055
+      "lat": 41.227475,
+      "lng": 69.373862
     },
     "phone": [
-      "+998 99 317-00-03"
+      "+998 99 317-00-03",
+      "+998 99 318-00-03"
     ],
-    "telegram": null,
+    "telegram": [
+      "https://t.me/tripalmispahotel"
+    ],
+    "instagram": "https://www.instagram.com/3palmsspahotelresort",
+    "facebook": "https://www.facebook.com/3palmsspahotelresort/",
     "website": null,
     "gallery": [
-      "/images/pools/three-palms/1.jpg",
-      "/images/pools/three-palms/2.jpg",
+      "/images/pools/three-palms/1.webp",
+      "/images/pools/three-palms/2.webp",
       "/images/pools/three-palms/3.jpg",
-      "/images/pools/three-palms/4.jpg",
-      "/images/pools/three-palms/5.jpg"
+      "/images/pools/three-palms/4.webp",
+      "/images/pools/three-palms/5.webp",
+      "/images/pools/three-palms/6.webp",
+      "/images/pools/three-palms/7.webp",
+      "/images/pools/three-palms/8.webp",
+      "/images/pools/three-palms/9.webp",
+      "/images/pools/three-palms/10.webp",
+      "/images/pools/three-palms/11.webp",
+      "/images/pools/three-palms/12.webp"
     ],
     "prices": [
       {
-        "key": "price.adult_single",
-        "amount": 80000,
+        "key": "price.adult_weekday",
+        "amount": 120000,
         "currency": "UZS"
       },
       {
-        "key": "price.child_single",
-        "amount": 40000,
+        "key": "price.child_weekday",
+        "amount": 60000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend",
+        "amount": 75000,
         "currency": "UZS"
       }
     ],
@@ -3565,7 +3587,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 3.9,
     "ratingYandex": 5,
     "reviewCount": 4,
     "featured": false,
