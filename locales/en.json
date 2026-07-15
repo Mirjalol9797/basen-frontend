@@ -78,6 +78,8 @@
   "price": {
     "adult_single": "Adult (single visit)",
     "child_single": "Child (single visit)",
+    "adult_vip": "Adult VIP",
+    "child_vip": "Child VIP",
     "adult_1h": "Adult (1 hour)",
     "child_1h": "Child (1 hour)",
     "adult_2h": "Adult (2 hours)",
@@ -135,6 +137,7 @@
     "billiards": "Billiards",
     "disco_bar": "Disco bar",
     "free_sunbed": "Free sunbed",
+    "sunbed": "Sunbed",
     "card_payment": "Card payment",
     "bike_parking": "Bike parking",
     "gift_certificate": "Gift certificate",

@@ -78,6 +78,8 @@
   "price": {
     "adult_single": "Kattalar uchun (bir marta)",
     "child_single": "Bolalar uchun (bir marta)",
+    "adult_vip": "Kattalar uchun VIP",
+    "child_vip": "Bolalar uchun VIP",
     "adult_1h": "Kattalar uchun (1 soat)",
     "child_1h": "Bolalar uchun (1 soat)",
     "adult_2h": "Kattalar uchun (2 soat)",
@@ -135,6 +137,7 @@
     "billiards": "Bilyard",
     "disco_bar": "Disko-bar",
     "free_sunbed": "Bepul to'shak",
+    "sunbed": "To'shak",
     "card_payment": "Karta orqali to'lov",
     "bike_parking": "Velosiped turargohi",
     "gift_certificate": "Sovg'a sertifikati",

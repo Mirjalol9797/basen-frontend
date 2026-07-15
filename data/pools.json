@@ -1204,7 +1204,7 @@
       "ru": {
         "name": "Water Park Tashkent",
         "address": "Юнусабад 7, ул. Кулоктепа, Юнусабадский район, Ташкент",
-        "description": "Аквапарк с двумя бассейнами (детским и взрослым) и тремя водными горками. Кафе и парковка на территории."
+        "description": "Аквапарк с двумя бассейнами (детским и взрослым) и тремя водными горками. Кафе и парковка на территории. Вход на 3 часа: взрослым 120 000 сум, детям (4–11 лет) 80 000 сум. VIP: взрослым 180 000, детям 120 000. Месячный абонемент: взрослым 550 000, детям 450 000."
       },
       "uz": {
         "name": "Water Park Tashkent",
@@ -1222,69 +1222,114 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3730595,
-      "lng": 69.2730732
+      "lat": 41.374249,
+      "lng": 69.274694
     },
     "phone": [
-      "+998 90 919-00-16"
+      "+998 90 919-00-16",
+      "+998 94 011-77-52"
     ],
     "telegram": null,
+    "instagram": "https://www.instagram.com/water.park.tashkent",
+    "facebook": "https://www.facebook.com/people/Waterpark_Tashkent/100071802815934/",
     "website": null,
     "gallery": [
-      "/images/pools/water-park/1.jpg",
-      "/images/pools/water-park/2.jpg",
-      "/images/pools/water-park/3.jpg",
-      "/images/pools/water-park/4.jpg",
-      "/images/pools/water-park/5.jpg"
+      "/images/pools/water-park/1.webp",
+      "/images/pools/water-park/2.webp",
+      "/images/pools/water-park/3.webp",
+      "/images/pools/water-park/4.webp",
+      "/images/pools/water-park/5.webp",
+      "/images/pools/water-park/6.webp",
+      "/images/pools/water-park/7.webp",
+      "/images/pools/water-park/8.webp",
+      "/images/pools/water-park/9.webp",
+      "/images/pools/water-park/10.webp",
+      "/images/pools/water-park/11.webp",
+      "/images/pools/water-park/12.webp",
+      "/images/pools/water-park/13.webp",
+      "/images/pools/water-park/14.webp",
+      "/images/pools/water-park/15.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_single",
+        "amount": 120000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_vip",
+        "amount": 180000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_vip",
+        "amount": 120000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly_1_adult",
+        "amount": 550000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly_child",
+        "amount": 450000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
         "open": "08:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "tue",
         "open": "08:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "wed",
         "open": "08:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "thu",
         "open": "08:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "fri",
         "open": "08:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "sat",
         "open": "08:00",
-        "close": "20:00"
+        "close": "22:00"
       },
       {
         "day": "sun",
         "open": "08:00",
-        "close": "20:00"
+        "close": "22:00"
       }
     ],
     "services": [
       "parking",
       "cafe",
-      "children_zone"
+      "children_zone",
+      "sunbed"
     ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.3,
     "ratingYandex": 5,
     "reviewCount": 6,
     "featured": false,

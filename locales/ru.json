@@ -78,6 +78,8 @@
   "price": {
     "adult_single": "Взрослый разовый",
     "child_single": "Детский разовый",
+    "adult_vip": "Взрослый VIP",
+    "child_vip": "Детский VIP",
     "adult_1h": "Взрослый (1 час)",
     "child_1h": "Детский (1 час)",
     "adult_2h": "Взрослый (2 часа)",
@@ -135,6 +137,7 @@
     "billiards": "Бильярд",
     "disco_bar": "Диско-бар",
     "free_sunbed": "Бесплатный топчан",
+    "sunbed": "Топчан",
     "card_payment": "Оплата картой",
     "bike_parking": "Велопарковка",
     "gift_certificate": "Подарочный сертификат",
