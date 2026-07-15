@@ -2522,7 +2522,7 @@
       "ru": {
         "name": "TaoYuan",
         "address": "ул. Боткина, 4 тупик, Яшнабадский район, Ташкент",
-        "description": "Открытый бассейн в Яшнабадском районе с раздевалками и кафе. Топчаны и кабинки для отдыха. Работает ежедневно с 09:00 до 23:00."
+        "description": "Открытый бассейн в Яшнабадском районе с раздевалками и кафе. Топчаны и кабинки для отдыха. Работает ежедневно с 09:00 до 00:00."
       },
       "uz": {
         "name": "TaoYuan",
@@ -2540,8 +2540,8 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.307026,
-      "lng": 69.308973
+      "lat": 41.309383,
+      "lng": 69.32105
     },
     "phone": [
       "+998 99 857-66-55"
@@ -2560,37 +2560,37 @@
       {
         "day": "mon",
         "open": "09:00",
-        "close": "23:00"
+        "close": "00:00"
       },
       {
         "day": "tue",
         "open": "09:00",
-        "close": "23:00"
+        "close": "00:00"
       },
       {
         "day": "wed",
         "open": "09:00",
-        "close": "23:00"
+        "close": "00:00"
       },
       {
         "day": "thu",
         "open": "09:00",
-        "close": "23:00"
+        "close": "00:00"
       },
       {
         "day": "fri",
         "open": "09:00",
-        "close": "23:00"
+        "close": "00:00"
       },
       {
         "day": "sat",
         "open": "09:00",
-        "close": "23:00"
+        "close": "00:00"
       },
       {
         "day": "sun",
         "open": "09:00",
-        "close": "23:00"
+        "close": "00:00"
       }
     ],
     "services": [
@@ -2602,8 +2602,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4,
+    "ratingYandex": 4.7,
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
