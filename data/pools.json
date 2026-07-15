@@ -4152,7 +4152,7 @@
       "ru": {
         "name": "Villa Grand при отеле Grand Mir",
         "address": "ул. Мирабад, 2, Мирабадский район, Ташкент",
-        "description": "Открытый бассейн при отеле Grand Mir с кафе и парковкой. Вход: будни 200 000 сум, выходные и праздники 250 000 сум."
+        "description": "Открытый бассейн при отеле Grand Mir с кафе и парковкой. Вход: будни 200 000 сум, выходные и праздники 250 000 сум. Также есть крытый бассейн (8×4 м, глубина 1,75 м), вход 149 000–199 000 сум в зависимости от времени визита."
       },
       "uz": {
         "name": "Grand Mir mehmonxonasidagi Villa Grand",
@@ -4249,12 +4249,16 @@
       "bar",
       "sauna",
       "turkish_hammam",
-      "conference_room"
+      "conference_room",
+      "wifi",
+      "jacuzzi",
+      "gym",
+      "wellness_center"
     ],
-    "season": "summer",
-    "poolLength": null,
-    "poolDepthMin": null,
-    "poolDepthMax": null,
+    "season": "year-round",
+    "poolLength": 8,
+    "poolDepthMin": 1.75,
+    "poolDepthMax": 1.75,
     "ratingGoogle": 4.1,
     "ratingYandex": 4.9,
     "reviewCount": 2,

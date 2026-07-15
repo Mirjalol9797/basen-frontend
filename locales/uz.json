@@ -147,7 +147,9 @@
     "food_delivery": "Xonaga ovqat yetkazish",
     "first_aid": "Birinchi tibbiy yordam",
     "business_center": "Biznes-markaz",
-    "conference_room": "Konferens-zal"
+    "conference_room": "Konferens-zal",
+    "gym": "Trenajyor zali",
+    "wellness_center": "Sog'lomlashtirish markazi"
   },
   "schedule": {
     "mon": "Dushanba",

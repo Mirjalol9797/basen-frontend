@@ -147,7 +147,9 @@
     "food_delivery": "Доставка еды в номер",
     "first_aid": "Аптечка первой помощи",
     "business_center": "Бизнес-центр",
-    "conference_room": "Конференц-зал"
+    "conference_room": "Конференц-зал",
+    "gym": "Тренажёрный зал",
+    "wellness_center": "Оздоровительный центр"
   },
   "schedule": {
     "mon": "Понедельник",
