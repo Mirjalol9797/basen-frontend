@@ -5402,7 +5402,7 @@
       "ru": {
         "name": "Yoshlik — спортивно-оздоровительный комплекс",
         "address": "ул. Оккургон, 16, Мирзо-Улугбекский район, Ташкент",
-        "description": "Спортивно-оздоровительный комплекс с открытым бассейном. Детский трёхуровневый бассейн для детей с грудного возраста до 7 лет, игровая площадка и мини-зоопарк."
+        "description": "Спортивно-оздоровительный комплекс с открытым бассейном и тренажёрным залом. Детский трёхуровневый бассейн для детей с грудного возраста до 7 лет, игровая площадка и мини-зоопарк. Бассейн открывается в зависимости от погоды, последний вход в 20:00. С собой иметь сменную обувь и купальник, медицинская справка не обязательна."
       },
       "uz": {
         "name": "Yoshlik — sport-sog'lomlashtirish majmuasi",
@@ -5420,68 +5420,122 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3259863,
-      "lng": 69.2976342
+      "lat": 41.324621,
+      "lng": 69.306104
     },
     "phone": [
-      "+998 71 268-98-10"
+      "+998 71 268-98-10",
+      "+998 90 830-83-13",
+      "+998 93 917-46-01"
     ],
-    "telegram": null,
+    "telegram": [
+      "https://t.me/yoshlik_sport"
+    ],
+    "instagram": "https://www.instagram.com/yoshliksport/",
     "website": null,
     "gallery": [
-      "/images/pools/yoshlik/1.jpg",
-      "/images/pools/yoshlik/2.jpg",
-      "/images/pools/yoshlik/3.jpg",
-      "/images/pools/yoshlik/4.jpg",
-      "/images/pools/yoshlik/5.jpg"
+      "/images/pools/yoshlik/1.webp",
+      "/images/pools/yoshlik/2.webp",
+      "/images/pools/yoshlik/3.webp",
+      "/images/pools/yoshlik/4.webp",
+      "/images/pools/yoshlik/5.webp",
+      "/images/pools/yoshlik/6.webp",
+      "/images/pools/yoshlik/7.webp",
+      "/images/pools/yoshlik/8.webp",
+      "/images/pools/yoshlik/9.webp",
+      "/images/pools/yoshlik/10.webp",
+      "/images/pools/yoshlik/11.webp",
+      "/images/pools/yoshlik/12.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.child_1_5h",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_1_5h",
+        "amount": 160000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_fullday",
+        "amount": 400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly_child_1_5h",
+        "amount": 750000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly_adult_1_5h",
+        "amount": 1500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly_child_fullday",
+        "amount": 2500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly_adult_fullday",
+        "amount": 5000000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
-        "open": "07:00",
-        "close": "20:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       {
         "day": "tue",
-        "open": "07:00",
-        "close": "20:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       {
         "day": "wed",
-        "open": "07:00",
-        "close": "20:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       {
         "day": "thu",
-        "open": "07:00",
-        "close": "20:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       {
         "day": "fri",
-        "open": "07:00",
-        "close": "20:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       {
         "day": "sat",
-        "open": "07:00",
-        "close": "20:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       {
         "day": "sun",
-        "open": "07:00",
-        "close": "20:00"
+        "open": "08:00",
+        "close": "23:00"
       }
     ],
     "services": [
       "trainer",
-      "children_zone"
+      "children_zone",
+      "gym"
     ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.1,
     "ratingYandex": 5,
     "reviewCount": 6,
     "featured": false,
