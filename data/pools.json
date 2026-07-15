@@ -1297,7 +1297,7 @@
       "ru": {
         "name": "Солнечный город",
         "address": "Спутник-7, дом 1, Сергелийский район, Ташкент",
-        "description": "Аквапарк с 6 подогреваемыми бассейнами, детскими зонами и водными горками. Джакузи, микромассаж, летнее кафе и бар. Работает ежедневно до 23:00."
+        "description": "Аквапарк с 6 подогреваемыми бассейнами, детскими зонами и водными горками. Джакузи, сауна, SPA-массаж, летнее кафе, бар и ресторан. Вход на весь день: будни 220 000/100 000 сум (взрослый/детский), выходные 270 000/100 000 сум, детям до 3 лет бесплатно. Посадочные места (топчаны, беседки, столы) — обязательная аренда от 350 000 до 500 000 сум. Работает ежедневно с 10:00 до 22:00."
       },
       "uz": {
         "name": "Quyoshli Shahar",
@@ -1318,66 +1318,108 @@
       "lat": 41.202458,
       "lng": 69.225344
     },
-    "phone": [],
-    "telegram": null,
-    "website": null,
-    "gallery": [
-      "/images/pools/solnechniy-gorod/1.jpg",
-      "/images/pools/solnechniy-gorod/2.jpg",
-      "/images/pools/solnechniy-gorod/3.jpg",
-      "/images/pools/solnechniy-gorod/4.jpg",
-      "/images/pools/solnechniy-gorod/5.jpg"
+    "phone": [
+      "+998 93 558-09-08"
     ],
-    "prices": [],
+    "telegram": [
+      "https://t.me/solnechniygorodsomnoy"
+    ],
+    "instagram": "https://www.instagram.com/solnechniygorod.uz/",
+    "website": "https://solnechnyygorod.uz/",
+    "gallery": [
+      "/images/pools/solnechniy-gorod/1.webp",
+      "/images/pools/solnechniy-gorod/2.webp",
+      "/images/pools/solnechniy-gorod/3.webp",
+      "/images/pools/solnechniy-gorod/4.webp",
+      "/images/pools/solnechniy-gorod/5.webp",
+      "/images/pools/solnechniy-gorod/6.webp",
+      "/images/pools/solnechniy-gorod/7.webp",
+      "/images/pools/solnechniy-gorod/8.webp",
+      "/images/pools/solnechniy-gorod/9.webp",
+      "/images/pools/solnechniy-gorod/10.webp",
+      "/images/pools/solnechniy-gorod/11.webp",
+      "/images/pools/solnechniy-gorod/12.webp",
+      "/images/pools/solnechniy-gorod/13.webp",
+      "/images/pools/solnechniy-gorod/14.webp",
+      "/images/pools/solnechniy-gorod/15.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.adult_weekday",
+        "amount": 220000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekday",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend",
+        "amount": 270000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend",
+        "amount": 100000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
         "open": "10:00",
-        "close": "23:00"
+        "close": "22:00"
       },
       {
         "day": "tue",
         "open": "10:00",
-        "close": "23:00"
+        "close": "22:00"
       },
       {
         "day": "wed",
         "open": "10:00",
-        "close": "23:00"
+        "close": "22:00"
       },
       {
         "day": "thu",
         "open": "10:00",
-        "close": "23:00"
+        "close": "22:00"
       },
       {
         "day": "fri",
         "open": "10:00",
-        "close": "23:00"
+        "close": "22:00"
       },
       {
         "day": "sat",
         "open": "10:00",
-        "close": "23:00"
+        "close": "22:00"
       },
       {
         "day": "sun",
         "open": "10:00",
-        "close": "23:00"
+        "close": "22:00"
       }
     ],
     "services": [
       "children_zone",
       "jacuzzi",
       "cafe",
-      "parking"
+      "parking",
+      "sauna",
+      "spa",
+      "restaurant",
+      "bar",
+      "food_delivery",
+      "first_aid"
     ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
     "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingYandex": 4.2,
     "reviewCount": 22,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"

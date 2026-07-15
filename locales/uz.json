@@ -142,7 +142,10 @@
     "peeling": "Piling",
     "massage": "Massaj",
     "trampoline": "Trampolin",
-    "wave_pool": "To'lqinli basseyn"
+    "wave_pool": "To'lqinli basseyn",
+    "bar": "Bar",
+    "food_delivery": "Xonaga ovqat yetkazish",
+    "first_aid": "Birinchi tibbiy yordam"
   },
   "schedule": {
     "mon": "Dushanba",
