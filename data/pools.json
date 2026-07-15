@@ -4203,6 +4203,16 @@
         "key": "price.adult_weekend",
         "amount": 250000,
         "currency": "UZS"
+      },
+      {
+        "key": "price.indoor_pool_from",
+        "amount": 149000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.indoor_pool_to",
+        "amount": 199000,
+        "currency": "UZS"
       }
     ],
     "schedule": [

@@ -108,6 +108,8 @@
     "monthly_child": "Monthly pass (child)",
     "adult_pass_30h": "Adult pass (30 hours)",
     "child_pass_30h": "Child pass (30 hours)",
+    "indoor_pool_from": "Indoor pool (from)",
+    "indoor_pool_to": "Indoor pool (up to)",
     "morning": "Morning session",
     "group": "Group",
     "season": "Season pass",
