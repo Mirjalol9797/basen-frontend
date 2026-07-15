@@ -2396,16 +2396,22 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.201715,
-      "lng": 69.16201
+      "lat": 41.192014,
+      "lng": 69.221001
     },
     "phone": [
-      "+998 95 198-00-52"
+      "+998 95 198-00-52",
+      "+998 93 397-01-53"
     ],
     "telegram": null,
     "website": null,
     "gallery": [
-      "/images/pools/sitora/1.jpg"
+      "/images/pools/sitora/1.jpg",
+      "/images/pools/sitora/2.webp",
+      "/images/pools/sitora/3.webp",
+      "/images/pools/sitora/4.webp",
+      "/images/pools/sitora/5.webp",
+      "/images/pools/sitora/6.webp"
     ],
     "prices": [
       {
@@ -2422,38 +2428,38 @@
     "schedule": [
       {
         "day": "mon",
-        "open": "08:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "tue",
-        "open": "08:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "wed",
-        "open": "08:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "thu",
-        "open": "08:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "fri",
-        "open": "08:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "sat",
-        "open": "08:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "sun",
-        "open": "08:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       }
     ],
     "services": [],
@@ -2461,8 +2467,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4.7,
+    "ratingYandex": 4.7,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
