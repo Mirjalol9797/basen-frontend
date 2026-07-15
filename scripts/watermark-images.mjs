@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Watermarks pool photos in public/images/pools with "basen.uz" (top-right).
+// Watermarks pool photos in public/images/pools with two "basen.uz" marks.
 // Idempotent: tracks the content hash of each already-watermarked file in
 // scripts/.watermarked.json, so replacing a file with a new photo under the
 // same name is correctly re-watermarked instead of being skipped.
@@ -29,28 +29,20 @@ function hashOf(buffer) {
   return createHash('sha1').update(buffer).digest('hex')
 }
 
-// Tiled diagonal pattern so the mark survives being cropped to any
-// aspect ratio (hero 16:7, cards 4:3, thumbnails ~1.43, etc.) — a single
-// corner mark gets cut off when a near-square source is center-cropped
-// to a wide banner.
+// Two marks on the main diagonal (top-left area + bottom-right area) instead
+// of a full tiled pattern — much less visually noisy, while still surviving
+// moderate crops to other aspect ratios (hero 16:7, cards 4:3, thumbnails).
 function svgWatermark(width, height) {
-  const fontSize = Math.max(14, Math.round(Math.min(width, height) / 13))
+  const fontSize = Math.max(16, Math.round(Math.min(width, height) / 9))
   const strokeWidth = Math.max(1, Math.round(fontSize / 12))
-  const stepX = fontSize * 7
-  const stepY = fontSize * 5
 
-  const diagonal = Math.ceil(Math.sqrt(width * width + height * height))
-  const texts = []
-  let row = 0
-  for (let y = 0; y < diagonal + stepY; y += stepY) {
-    const offsetX = row % 2 === 0 ? 0 : stepX / 2
-    for (let x = 0; x < diagonal + stepX; x += stepX) {
-      texts.push(
-        `<text x="${x + offsetX}" y="${y}" text-anchor="middle">${TEXT}</text>`
-      )
-    }
-    row++
-  }
+  const positions = [
+    { x: width * 0.28, y: height * 0.32 },
+    { x: width * 0.72, y: height * 0.68 },
+  ]
+  const texts = positions
+    .map(({ x, y }) => `<text x="${x}" y="${y}" text-anchor="middle" transform="rotate(-28 ${x} ${y})">${TEXT}</text>`)
+    .join('\n        ')
 
   return Buffer.from(`
     <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
@@ -58,13 +50,12 @@ function svgWatermark(width, height) {
         font-family="Arial, Helvetica, sans-serif"
         font-weight="700"
         font-size="${fontSize}"
-        fill="rgba(255,255,255,0.32)"
+        fill="rgba(255,255,255,0.35)"
         stroke="rgba(0,0,0,0.18)"
         stroke-width="${strokeWidth}"
         paint-order="stroke fill"
-        transform="translate(${width / 2}, ${height / 2}) rotate(-28) translate(${-diagonal / 2}, ${-diagonal / 2})"
       >
-        ${texts.join('\n        ')}
+        ${texts}
       </g>
     </svg>
   `)
