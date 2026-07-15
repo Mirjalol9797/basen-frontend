@@ -4336,11 +4336,12 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3195919,
-      "lng": 69.2402575
+      "lat": 41.31295,
+      "lng": 69.240683
     },
     "phone": [
-      "+998 78 113-00-13"
+      "+998 78 113-00-13",
+      "+998 98 313-09-13"
     ],
     "telegram": null,
     "website": null,
@@ -4400,14 +4401,15 @@
     ],
     "services": [
       "trainer",
-      "children_zone"
+      "children_zone",
+      "parking"
     ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
     "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingYandex": 4.6,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
