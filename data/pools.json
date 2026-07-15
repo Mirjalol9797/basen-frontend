@@ -1431,7 +1431,7 @@
       "ru": {
         "name": "Ташкентский Аквапарк",
         "address": "проспект Амира Темура, 107, Юнусабадский район, Ташкент",
-        "description": "Городской аквапарк с шестью бассейнами, водными горками и душем Шарко. Билет рассчитан на 3 часа пребывания. Кафетерий и парковка на территории."
+        "description": "Городской аквапарк с шестью бассейнами, водными горками и душем Шарко. Билет рассчитан на 3 часа пребывания, детям до 3 лет вход бесплатный. Кафетерий и парковка на территории."
       },
       "uz": {
         "name": "Toshkent Akvaparki",
@@ -1460,7 +1460,7 @@
     ],
     "telegram": null,
     "instagram": "https://www.instagram.com/akvapark_tashkent",
-    "website": null,
+    "website": "https://uzexpocentre.uz/ru/park/akvapark",
     "gallery": [
       "/images/pools/tashkent-water-park/1.webp",
       "/images/pools/tashkent-water-park/2.webp",
@@ -1480,12 +1480,12 @@
     "prices": [
       {
         "key": "price.adult_single",
-        "amount": 70000,
+        "amount": 120000,
         "currency": "UZS"
       },
       {
         "key": "price.child_single",
-        "amount": 35000,
+        "amount": 60000,
         "currency": "UZS"
       }
     ],
