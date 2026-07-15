@@ -3883,7 +3883,7 @@
       "ru": {
         "name": "Lotte City Hotel Tashkent Palace",
         "address": "ул. Буюк Турон, 56, Мирабадский район, Ташкент",
-        "description": "Бассейн при отеле Lotte City Hotel Tashkent Palace с детской зоной и парковкой."
+        "description": "Бассейн при отеле Lotte City Hotel Tashkent Palace с детской зоной и парковкой. Вход: будни 300 000 сум, выходные 350 000 сум, абонемент на месяц — 3 000 000 сум. Детям 5–8 лет скидка 50%, до 5 лет — бесплатно."
       },
       "uz": {
         "name": "Lotte City Hotel Tashkent Palace",
@@ -3901,68 +3901,101 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3063508,
-      "lng": 69.2679686
+      "lat": 41.309595,
+      "lng": 69.268888
     },
     "phone": [
       "+998 78 120-58-00"
     ],
-    "telegram": null,
-    "website": null,
+    "telegram": [
+      "https://t.me/LotteHotelTashkent"
+    ],
+    "instagram": "https://www.instagram.com/lottecityhotel_tashkent/?hl=ru",
+    "facebook": "https://www.facebook.com/people/Lotte-City-Hotel-Tashkent/100091490028877/",
+    "website": "https://lottehotel-tashkent.uz/ru-ru/",
     "gallery": [
       "/images/pools/tashkent-palace/1.jpg",
       "/images/pools/tashkent-palace/2.jpg",
       "/images/pools/tashkent-palace/3.jpg",
       "/images/pools/tashkent-palace/4.jpg",
-      "/images/pools/tashkent-palace/5.jpg"
+      "/images/pools/tashkent-palace/5.jpg",
+      "/images/pools/tashkent-palace/6.webp",
+      "/images/pools/tashkent-palace/7.webp",
+      "/images/pools/tashkent-palace/8.webp",
+      "/images/pools/tashkent-palace/9.webp",
+      "/images/pools/tashkent-palace/10.webp",
+      "/images/pools/tashkent-palace/11.webp",
+      "/images/pools/tashkent-palace/12.webp",
+      "/images/pools/tashkent-palace/13.webp",
+      "/images/pools/tashkent-palace/14.webp"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_weekday",
+        "amount": 300000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend",
+        "amount": 350000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.monthly",
+        "amount": 3000000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
-        "open": "09:00",
-        "close": "22:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "tue",
-        "open": "09:00",
-        "close": "22:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "wed",
-        "open": "09:00",
-        "close": "22:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "thu",
-        "open": "09:00",
-        "close": "22:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "fri",
-        "open": "09:00",
-        "close": "22:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "sat",
-        "open": "09:00",
-        "close": "22:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "sun",
-        "open": "09:00",
-        "close": "22:00"
+        "open": "10:00",
+        "close": "20:00"
       }
     ],
     "services": [
       "parking",
-      "children_zone"
+      "children_zone",
+      "wifi",
+      "spa",
+      "restaurant",
+      "business_center"
     ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.5,
     "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,

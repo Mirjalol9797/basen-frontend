@@ -145,7 +145,8 @@
     "wave_pool": "Wave pool",
     "bar": "Bar",
     "food_delivery": "Room food delivery",
-    "first_aid": "First aid kit"
+    "first_aid": "First aid kit",
+    "business_center": "Business center"
   },
   "schedule": {
     "mon": "Monday",
