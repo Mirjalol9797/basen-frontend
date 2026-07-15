@@ -146,7 +146,8 @@
     "bar": "Бар",
     "food_delivery": "Доставка еды в номер",
     "first_aid": "Аптечка первой помощи",
-    "business_center": "Бизнес-центр"
+    "business_center": "Бизнес-центр",
+    "conference_room": "Конференц-зал"
   },
   "schedule": {
     "mon": "Понедельник",

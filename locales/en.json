@@ -146,7 +146,8 @@
     "bar": "Bar",
     "food_delivery": "Room food delivery",
     "first_aid": "First aid kit",
-    "business_center": "Business center"
+    "business_center": "Business center",
+    "conference_room": "Conference room"
   },
   "schedule": {
     "mon": "Monday",

@@ -4152,7 +4152,7 @@
       "ru": {
         "name": "Villa Grand при отеле Grand Mir",
         "address": "ул. Мирабад, 2, Мирабадский район, Ташкент",
-        "description": "Открытый бассейн при отеле Grand Mir с кафе и парковкой."
+        "description": "Открытый бассейн при отеле Grand Mir с кафе и парковкой. Вход: будни 200 000 сум, выходные и праздники 250 000 сум."
       },
       "uz": {
         "name": "Grand Mir mehmonxonasidagi Villa Grand",
@@ -4170,31 +4170,93 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2871624,
-      "lng": 69.2682896
+      "lat": 41.296872,
+      "lng": 69.267837
     },
     "phone": [
       "+998 78 140-20-00"
     ],
     "telegram": null,
+    "instagram": "https://www.instagram.com/grandmirhotel/",
     "website": null,
     "gallery": [
-      "/images/pools/villa-grand/1.jpg",
-      "/images/pools/villa-grand/2.jpg",
-      "/images/pools/villa-grand/3.jpg"
+      "/images/pools/villa-grand/1.webp",
+      "/images/pools/villa-grand/2.webp",
+      "/images/pools/villa-grand/3.webp",
+      "/images/pools/villa-grand/4.webp",
+      "/images/pools/villa-grand/5.webp",
+      "/images/pools/villa-grand/6.webp",
+      "/images/pools/villa-grand/7.webp",
+      "/images/pools/villa-grand/8.webp",
+      "/images/pools/villa-grand/9.webp",
+      "/images/pools/villa-grand/10.webp",
+      "/images/pools/villa-grand/11.webp",
+      "/images/pools/villa-grand/12.webp"
     ],
-    "prices": [],
-    "schedule": null,
+    "prices": [
+      {
+        "key": "price.adult_weekday",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend",
+        "amount": 250000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "20:00"
+      }
+    ],
     "services": [
       "parking",
-      "cafe"
+      "cafe",
+      "restaurant",
+      "bar",
+      "sauna",
+      "turkish_hammam",
+      "conference_room"
     ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4.1,
+    "ratingYandex": 4.9,
     "reviewCount": 2,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
