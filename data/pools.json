@@ -1449,20 +1449,33 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.3674637,
-      "lng": 69.2856922
+      "lat": 41.342002,
+      "lng": 69.285333
     },
     "phone": [
-      "+998 71 238-56-25"
+      "+998 71 238-56-25",
+      "+998 71 235-02-50",
+      "+998 99 882-15-73",
+      "+998 71 234-40-62"
     ],
     "telegram": null,
+    "instagram": "https://www.instagram.com/akvapark_tashkent",
     "website": null,
     "gallery": [
-      "/images/pools/tashkent-water-park/1.jpg",
-      "/images/pools/tashkent-water-park/2.jpg",
-      "/images/pools/tashkent-water-park/3.jpg",
-      "/images/pools/tashkent-water-park/4.jpg",
-      "/images/pools/tashkent-water-park/5.jpg"
+      "/images/pools/tashkent-water-park/1.webp",
+      "/images/pools/tashkent-water-park/2.webp",
+      "/images/pools/tashkent-water-park/3.webp",
+      "/images/pools/tashkent-water-park/4.webp",
+      "/images/pools/tashkent-water-park/5.webp",
+      "/images/pools/tashkent-water-park/6.webp",
+      "/images/pools/tashkent-water-park/7.webp",
+      "/images/pools/tashkent-water-park/9.webp",
+      "/images/pools/tashkent-water-park/10.webp",
+      "/images/pools/tashkent-water-park/11.webp",
+      "/images/pools/tashkent-water-park/12.webp",
+      "/images/pools/tashkent-water-park/13.webp",
+      "/images/pools/tashkent-water-park/14.webp",
+      "/images/pools/tashkent-water-park/15.webp"
     ],
     "prices": [
       {
@@ -1480,37 +1493,37 @@
       {
         "day": "mon",
         "open": "10:00",
-        "close": "19:00"
+        "close": "20:00"
       },
       {
         "day": "tue",
         "open": "10:00",
-        "close": "19:00"
+        "close": "20:00"
       },
       {
         "day": "wed",
         "open": "10:00",
-        "close": "19:00"
+        "close": "20:00"
       },
       {
         "day": "thu",
         "open": "10:00",
-        "close": "19:00"
+        "close": "20:00"
       },
       {
         "day": "fri",
         "open": "10:00",
-        "close": "19:00"
+        "close": "20:00"
       },
       {
         "day": "sat",
         "open": "10:00",
-        "close": "19:00"
+        "close": "20:00"
       },
       {
         "day": "sun",
         "open": "10:00",
-        "close": "19:00"
+        "close": "20:00"
       }
     ],
     "services": [
@@ -1522,8 +1535,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 3.9,
+    "ratingYandex": 4.7,
     "reviewCount": 13,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
