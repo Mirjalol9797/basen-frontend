@@ -119,6 +119,7 @@ watch(() => route.fullPath, () => { mobileOpen.value = false })
 const navLinks = [
   { key: 'home',     to: '/',          label: 'nav.home' },
   { key: 'catalog',  to: '/catalog',   label: 'nav.catalog' },
+  { key: 'regions',  to: '/regions',   label: 'nav.regions' },
   { key: 'map',      to: '/map',       label: 'nav.map' },
   { key: 'guide',    to: '/guide',     label: 'nav.guide' },
   { key: 'about',    to: '/about',     label: 'nav.about' },

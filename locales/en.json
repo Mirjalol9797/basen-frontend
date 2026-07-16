@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "catalog": "Catalog",
+    "regions": "Regions",
     "map": "Map",
     "search": "Search",
     "about": "About",
@@ -73,7 +74,9 @@
     "not_found_desc": "Check the address or open the full catalog",
     "see_catalog": "Open catalog",
     "regions_title": "Regions of Uzbekistan",
-    "other_regions": "Pools in other regions"
+    "other_regions": "Pools in other regions",
+    "index_meta_title": "Swimming Pools by Region of Uzbekistan — catalog 2026 {'|'} Basen.uz",
+    "index_meta_desc": "Pick a region of Uzbekistan and find pools nearby: Tashkent, Samarkand, Fergana and other regions. Prices, addresses, schedule and photos."
   },
   "price": {
     "adult_single": "Adult (single visit)",

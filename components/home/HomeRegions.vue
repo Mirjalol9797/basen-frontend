@@ -1,7 +1,7 @@
 <template>
   <section class="py-12 sm:py-16">
     <div class="container">
-      <div class="mb-8">
+      <div v-if="showHeading" class="mb-8">
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">{{ $t('home.regions_title') }}</h2>
         <p class="text-gray-500 mt-1">{{ $t('home.regions_subtitle') }}</p>
       </div>
@@ -52,6 +52,8 @@
 </template>
 
 <script setup lang="ts">
+withDefaults(defineProps<{ showHeading?: boolean }>(), { showHeading: true })
+
 const localePath = useLocalePath()
 const poolsStore = usePoolsStore()
 const { regions } = useRegions()

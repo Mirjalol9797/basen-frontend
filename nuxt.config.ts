@@ -82,6 +82,7 @@ export default defineNuxtConfig({
     "/":            { prerender: true },
     "/catalog":     { prerender: true },
     "/catalog/**":  { prerender: true },
+    "/regions":     { prerender: true },
     "/category/**": { prerender: true },
     "/district/**": { prerender: true },
     "/region/**":   { prerender: true },
@@ -94,6 +95,7 @@ export default defineNuxtConfig({
     urls: [
       { loc: '/',                        priority: 1.0, changefreq: 'weekly'  },
       { loc: '/catalog',                 priority: 0.9, changefreq: 'daily'   },
+      { loc: '/regions',                 priority: 0.8, changefreq: 'weekly'  },
       { loc: '/guide',                   priority: 0.7, changefreq: 'weekly'  },
       { loc: '/district/yunusabad',      priority: 0.8, changefreq: 'weekly'  },
       { loc: '/district/chilanzar',      priority: 0.8, changefreq: 'weekly'  },

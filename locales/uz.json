@@ -2,6 +2,7 @@
   "nav": {
     "home": "Bosh sahifa",
     "catalog": "Katalog",
+    "regions": "Viloyatlar",
     "map": "Xarita",
     "search": "Qidirish",
     "about": "Loyiha haqida",
@@ -73,7 +74,9 @@
     "not_found_desc": "Manzilni tekshiring yoki to'liq katalogni oching",
     "see_catalog": "Katalogni ochish",
     "regions_title": "O'zbekiston viloyatlari",
-    "other_regions": "Boshqa viloyatlar basseynlari"
+    "other_regions": "Boshqa viloyatlar basseynlari",
+    "index_meta_title": "O'zbekiston viloyatlari bo'yicha basseynlar — katalog 2026 {'|'} Basen.uz",
+    "index_meta_desc": "O'zbekiston viloyatini tanlang va yaqin atrofdagi basseynlarni toping: Toshkent, Samarqand, Farg'ona va boshqa viloyatlar. Narxlar, manzillar, ish vaqti va fotolar."
   },
   "price": {
     "adult_single": "Kattalar uchun (bir marta)",
