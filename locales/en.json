@@ -132,6 +132,12 @@
     "adult_after16": "Adult (after 16:00)",
     "sunbed_large": "Sunbed (large)",
     "sunbed_small": "Sunbed (small)",
+    "class_start_kids": "Start Kids — group up to 14 kids, age 6–14 (60 min)",
+    "class_pro_team": "Pro Team — group up to 15 kids, age 6–14 (90 min)",
+    "class_pro_adult": "Pro Adult — group up to 10 people, age 14+ (60 min)",
+    "individual_single": "Individual session (45 min, single)",
+    "individual_pass_4": "Individual sessions — pass of 4",
+    "individual_pass_8": "Individual sessions — pass of 8",
     "from": "from",
     "currency": "UZS"
   },

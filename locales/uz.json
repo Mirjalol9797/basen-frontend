@@ -132,6 +132,12 @@
     "adult_after16": "Kattalar (16:00 dan keyin)",
     "sunbed_large": "Topchan (katta)",
     "sunbed_small": "Topchan (kichik)",
+    "class_start_kids": "Start Kids — 14 nafargacha bola, 6–14 yosh (60 daq)",
+    "class_pro_team": "Pro Team — 15 nafargacha bola, 6–14 yosh (90 daq)",
+    "class_pro_adult": "Pro Adult — 10 nafargacha kishi, 14 yoshdan katta (60 daq)",
+    "individual_single": "Individual mashg'ulot (45 daqiqa, bir marta)",
+    "individual_pass_4": "Individual mashg'ulotlar — abonement 4 ta",
+    "individual_pass_8": "Individual mashg'ulotlar — abonement 8 ta",
     "from": "dan",
     "currency": "so'm"
   },

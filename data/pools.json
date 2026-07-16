@@ -4526,43 +4526,74 @@
     "createdAt": "2026-06-29T00:00:00Z"
   },
   {
-    "id": "born2swim",
-    "slug": "born2swim",
+    "id": "born2swim-pro-by",
+    "slug": "born2swim-pro-by",
     "translations": {
       "ru": {
-        "name": "Born2swim",
-        "address": "ул. Нукусская, 86/3, Мирабадский район, Ташкент",
-        "description": "Специализированный центр для грудничкового, раннего и школьного плавания. Три бассейна: большой для групповых и индивидуальных занятий, грудничковый для детей 3 месяцев–2 лет и бассейн для гидрореабилитации."
+        "name": "Born2swim — филиал «Pro by Born2swim»",
+        "address": "улица Кушбеги, 56, Яккасарайский район, Ташкент",
+        "description": "Крытый бассейн 50×20 м с температурой воды 27–28°C. Филиал подходит для обучения плаванию как детей, так и взрослых от 7 лет и старше. Программы: Start Kids (группы до 14 детей 6–14 лет, 60 мин), Pro Team (группы до 15 детей 6–14 лет, 90 мин), Pro Adult (группы до 10 человек от 14 лет, 60 мин), индивидуальные занятия (1–3 человека, 6–99 лет, 45 мин). Воскресенье — выходной."
       },
       "uz": {
-        "name": "Born2swim",
-        "address": "Nukus ko'chasi, 86/3, Mirobod tumani, Toshkent",
+        "name": "Born2swim — «Pro by Born2swim» filiali",
+        "address": "Qushbegi ko'chasi, 56, Yakkasaroy tumani, Toshkent",
         "description": null
       },
       "en": {
-        "name": "Born2swim",
-        "address": "86/3 Nukus str., Mirobod district, Tashkent",
+        "name": "Born2swim — \"Pro by Born2swim\" branch",
+        "address": "56 Qushbegi str., Yakkasaray district, Tashkent",
         "description": null
       }
     },
-    "category": "children",
-    "district": "mirobod",
+    "category": "indoor",
+    "district": "yakkasaray",
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.2892294,
-      "lng": 69.2725254
+      "lat": 41.276447,
+      "lng": 69.244586
     },
     "phone": [
-      "+998 90 924-20-04"
+      "+998 90 924-20-04",
+      "+998 77 214-40-20"
     ],
-    "telegram": null,
-    "website": null,
-    "gallery": [],
+    "telegram": "https://t.me/born2swimuzb",
+    "instagram": "https://www.instagram.com/born2swim.uzb/",
+    "website": "https://born2swim.uz/",
+    "gallery": [
+      "/images/pools/born2swim-pro-by/1.webp",
+      "/images/pools/born2swim-pro-by/2.webp",
+      "/images/pools/born2swim-pro-by/3.webp"
+    ],
     "prices": [
       {
-        "key": "price.monthly",
-        "amount": 500000,
+        "key": "price.class_start_kids",
+        "amount": 1000000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.class_pro_team",
+        "amount": 1200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.class_pro_adult",
+        "amount": 1500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.individual_single",
+        "amount": 400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.individual_pass_4",
+        "amount": 1400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.individual_pass_8",
+        "amount": 2400000,
         "currency": "UZS"
       }
     ],
@@ -4570,52 +4601,53 @@
       {
         "day": "mon",
         "open": "08:00",
-        "close": "20:00"
+        "close": "21:00"
       },
       {
         "day": "tue",
         "open": "08:00",
-        "close": "20:00"
+        "close": "21:00"
       },
       {
         "day": "wed",
         "open": "08:00",
-        "close": "20:00"
+        "close": "21:00"
       },
       {
         "day": "thu",
         "open": "08:00",
-        "close": "20:00"
+        "close": "21:00"
       },
       {
         "day": "fri",
         "open": "08:00",
-        "close": "20:00"
+        "close": "21:00"
       },
       {
         "day": "sat",
         "open": "08:00",
-        "close": "20:00"
+        "close": "21:00"
       },
       {
         "day": "sun",
         "open": "08:00",
-        "close": "20:00"
+        "close": "21:00",
+        "closed": true
       }
     ],
     "services": [
-      "trainer",
-      "children_zone"
+      "parking",
+      "trainer"
     ],
     "season": "year-round",
-    "poolLength": null,
+    "poolLength": 50,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.0,
     "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
-    "createdAt": "2026-06-30T00:00:00Z"
+    "createdAt": "2026-07-16T00:00:00Z"
   },
   {
     "id": "studio13",
