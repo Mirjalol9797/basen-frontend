@@ -160,7 +160,11 @@
     "business_center": "Business center",
     "conference_room": "Conference room",
     "gym": "Gym",
-    "wellness_center": "Wellness center"
+    "wellness_center": "Wellness center",
+    "accessible_toilet": "Accessible toilet",
+    "ramp": "Wheelchair ramp",
+    "accessible_parking": "Accessible parking",
+    "elevator": "Elevator"
   },
   "schedule": {
     "mon": "Monday",

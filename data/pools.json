@@ -135,15 +135,17 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.329,
-      "lng": 69.3015
+      "lat": 41.321002,
+      "lng": 69.426404
     },
     "phone": [
       "+998 71 345 67 89"
     ],
     "telegram": null,
     "website": "https://olympic-sport.uz",
-    "gallery": [],
+    "gallery": [
+      "/images/pools/olympic-sport-complex/1.webp"
+    ],
     "prices": [
       {
         "key": "price.adult_single",
@@ -169,32 +171,32 @@
     "schedule": [
       {
         "day": "mon",
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "20:00"
       },
       {
         "day": "tue",
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "20:00"
       },
       {
         "day": "wed",
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "20:00"
       },
       {
         "day": "thu",
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "20:00"
       },
       {
         "day": "fri",
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "20:00"
       },
       {
         "day": "sat",
-        "open": "08:00",
+        "open": "09:00",
         "close": "20:00"
       },
       {
@@ -209,14 +211,18 @@
       "locker",
       "parking",
       "sauna",
-      "wifi"
+      "wifi",
+      "accessible_toilet",
+      "ramp",
+      "accessible_parking",
+      "elevator"
     ],
     "season": "year-round",
     "poolLength": 25,
     "poolDepthMin": 1.5,
     "poolDepthMax": 2.5,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 4.4,
     "reviewCount": 124,
     "featured": true,
     "createdAt": "2025-03-15T00:00:00Z"

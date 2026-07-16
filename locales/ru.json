@@ -160,7 +160,11 @@
     "business_center": "Бизнес-центр",
     "conference_room": "Конференц-зал",
     "gym": "Тренажёрный зал",
-    "wellness_center": "Оздоровительный центр"
+    "wellness_center": "Оздоровительный центр",
+    "accessible_toilet": "Туалет для людей с инвалидностью",
+    "ramp": "Пандус",
+    "accessible_parking": "Парковка для людей с инвалидностью",
+    "elevator": "Лифт"
   },
   "schedule": {
     "mon": "Понедельник",

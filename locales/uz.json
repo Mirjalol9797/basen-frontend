@@ -160,7 +160,11 @@
     "business_center": "Biznes-markaz",
     "conference_room": "Konferens-zal",
     "gym": "Trenajyor zali",
-    "wellness_center": "Sog'lomlashtirish markazi"
+    "wellness_center": "Sog'lomlashtirish markazi",
+    "accessible_toilet": "Nogironlar uchun hojatxona",
+    "ramp": "Pandus",
+    "accessible_parking": "Nogironlar uchun avtoturargoh",
+    "elevator": "Lift"
   },
   "schedule": {
     "mon": "Dushanba",
