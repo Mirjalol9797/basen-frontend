@@ -76,8 +76,9 @@
           <PoolStatusBadge :schedule="pool.schedule" />
         </div>
 
-        <!-- District -->
+        <!-- District / region -->
         <div
+          v-if="locationName"
           class="flex items-center gap-1.5 text-sm text-gray-400 mb-1 min-h-5"
         >
           <svg
@@ -91,7 +92,7 @@
               clip-rule="evenodd"
             />
           </svg>
-          <span class="line-clamp-1">{{ districtName }}</span>
+          <span class="line-clamp-1">{{ locationName }}</span>
         </div>
 
         <!-- Price + season -->
@@ -129,9 +130,15 @@ const props = defineProps<{ pool: Pool }>();
 
 const localePath = useLocalePath();
 const { getDistrictName } = useDistricts();
+const { getRegionName } = useRegions();
 
 const cardLink = computed(() => localePath(`/catalog/${props.pool.slug}`));
-const districtName = computed(() => getDistrictName(props.pool.district));
+const locationName = computed(() => {
+  if (props.pool.district) return getDistrictName(props.pool.district);
+  if (props.pool.region !== "tashkent-city")
+    return getRegionName(props.pool.region);
+  return null;
+});
 
 const priceDisplay = computed(() => {
   const p = minPrice(props.pool.prices);
