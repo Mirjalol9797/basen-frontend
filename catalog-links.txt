@@ -18,7 +18,6 @@ https://basen.uz/catalog/fun-n-food-village
 https://basen.uz/catalog/garden-bar
 https://basen.uz/catalog/garden-park
 https://basen.uz/catalog/grace-garden
-https://basen.uz/catalog/grand-serena-pool
 https://basen.uz/catalog/green-paradise
 https://basen.uz/catalog/inter-sport
 https://basen.uz/catalog/jar
@@ -44,6 +43,5 @@ https://basen.uz/catalog/tashkent-water-park
 https://basen.uz/catalog/three-palms
 https://basen.uz/catalog/villa-grand
 https://basen.uz/catalog/water-park
-https://basen.uz/catalog/women-avenue
 https://basen.uz/catalog/yoshlik
 https://basen.uz/catalog/zerom
