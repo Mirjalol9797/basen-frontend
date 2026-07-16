@@ -129,6 +129,9 @@
     "morning": "Morning session",
     "group": "Group",
     "season": "Season pass",
+    "adult_after16": "Adult (after 16:00)",
+    "sunbed_large": "Sunbed (large)",
+    "sunbed_small": "Sunbed (small)",
     "from": "from",
     "currency": "UZS"
   },

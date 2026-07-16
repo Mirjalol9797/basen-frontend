@@ -4399,7 +4399,7 @@
       "ru": {
         "name": "Zerom",
         "address": "ул. Набережная, Д-30-36, Чирчик",
-        "description": "Гостиница и зона отдыха в Чирчике с открытым и крытым бассейнами, сауной, кафе, бильярдом и Wi-Fi. Работает круглосуточно."
+        "description": "Гостиница и зона отдыха в Чирчике: большой бассейн с равномерной глубиной, крытый бассейн и сауна, гостиничные номера и семейные коттеджи, комфортные тапчаны, кухня и прохладительные напитки. Входной билет — 100 000 сум, после 16:00 — 50 000 сум, детям 3–12 лет — 50 000 сум, до 3 лет — бесплатно. Топчан большой — 200 000 сум, маленький — 150 000 сум."
       },
       "uz": {
         "name": "Zerom",
@@ -4414,68 +4414,113 @@
     },
     "category": "hotel",
     "district": null,
-    "region": "tashkent-city",
+    "region": "tashkent-region",
     "city": null,
     "coordinates": {
-      "lat": 41.49646,
-      "lng": 69.617008
+      "lat": 41.501276,
+      "lng": 69.621408
     },
     "phone": [
-      "+998 94 942-28-35"
+      "+998 95 198-32-01",
+      "+998 71 716-32-01"
     ],
     "telegram": null,
-    "website": null,
-    "gallery": [],
-    "prices": [],
+    "instagram": "https://www.instagram.com/zeromzonaotdixa/",
+    "email": "info@zerom.uz",
+    "website": "https://zerom.uz/ru/index.php",
+    "gallery": [
+      "/images/pools/zerom/1.jpg",
+      "/images/pools/zerom/2.jpg",
+      "/images/pools/zerom/3.jpg",
+      "/images/pools/zerom/4.jpg",
+      "/images/pools/zerom/5.jpg",
+      "/images/pools/zerom/6.jpg",
+      "/images/pools/zerom/7.jpg",
+      "/images/pools/zerom/8.jpg",
+      "/images/pools/zerom/9.jpg",
+      "/images/pools/zerom/10.webp",
+      "/images/pools/zerom/11.webp",
+      "/images/pools/zerom/12.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.adult_single",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_after16",
+        "amount": 50000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 50000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.sunbed_large",
+        "amount": 200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.sunbed_small",
+        "amount": 150000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
-        "open": "00:00",
-        "close": "24:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "tue",
-        "open": "00:00",
-        "close": "24:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "wed",
-        "open": "00:00",
-        "close": "24:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "thu",
-        "open": "00:00",
-        "close": "24:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "fri",
-        "open": "00:00",
-        "close": "24:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "sat",
-        "open": "00:00",
-        "close": "24:00"
+        "open": "10:00",
+        "close": "20:00"
       },
       {
         "day": "sun",
-        "open": "00:00",
-        "close": "24:00"
+        "open": "10:00",
+        "close": "20:00"
       }
     ],
     "services": [
+      "sunbed",
       "parking",
       "sauna",
+      "bar",
       "cafe",
-      "wifi"
+      "hotel",
+      "cottages"
     ],
     "season": "year-round",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4.6,
+    "ratingYandex": 4.9,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"

@@ -129,6 +129,9 @@
     "morning": "Ertalabki",
     "group": "Guruh",
     "season": "Mavsumiy",
+    "adult_after16": "Kattalar (16:00 dan keyin)",
+    "sunbed_large": "Topchan (katta)",
+    "sunbed_small": "Topchan (kichik)",
     "from": "dan",
     "currency": "so'm"
   },
