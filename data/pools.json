@@ -3609,7 +3609,7 @@
       "ru": {
         "name": "Aqua Bar при отеле Radisson Blu Tashkent",
         "address": "просп. Амира Темура, 88, Юнусабадский район, Ташкент",
-        "description": "Открытый бассейн при отеле Radisson Blu Tashkent с баром и живой музыкой. В отеле также работает фитнес-центр с тренажёрным залом, сауной и массажным центром. Сезон работы — с мая."
+        "description": "Открытый бассейн при отеле Radisson Blu Tashkent с баром и живой музыкой. Вход для взрослых: будни 500 000 сум, выходные 600 000 сум. Дети 6–10 лет: будни 250 000 сум, выходные 350 000 сум, до 6 лет — бесплатно. В отеле также работает фитнес-центр с тренажёрным залом, сауной и массажным центром. Сезон работы — с мая."
       },
       "uz": {
         "name": "Radisson mehmonxonasidagi Aqua Bar",
@@ -3641,7 +3641,28 @@
       "/images/pools/radisson/3.jpg",
       "/images/pools/radisson/4.jpg"
     ],
-    "prices": [],
+    "prices": [
+      {
+        "key": "price.adult_weekday",
+        "amount": 500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend",
+        "amount": 600000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekday",
+        "amount": 250000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend",
+        "amount": 350000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
