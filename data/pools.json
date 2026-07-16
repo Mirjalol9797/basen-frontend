@@ -492,8 +492,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4,
+    "ratingYandex": 4.9,
     "reviewCount": 2,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -610,7 +610,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 3.5,
     "ratingYandex": 5,
     "reviewCount": 24,
     "featured": false,
@@ -1789,8 +1789,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4,
+    "ratingYandex": 4.9,
     "reviewCount": 1,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -2021,7 +2021,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.2,
     "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
@@ -2032,17 +2032,17 @@
     "slug": "aladdin",
     "translations": {
       "ru": {
-        "name": "Aladdin",
+        "name": "Аладдин аквапарк",
         "address": "городской посёлок Кирсадок, Янгиюльский район, Ташкентская область",
         "description": "Открытый бассейн в Янгиюльском районе с отелем, семейными дачами, бильярдным залом, кафе и диско-баром. Взрослый (от 12 лет) 150 000 сум/день, дети 5–12 лет 80 000 сум, до 5 лет бесплатно. Ежедневно с 10:00 до 22:00. Есть отдельный зимний бассейн: с 10:00 до 18:00 только для женщин, с 18:00 до 22:00 для всех."
       },
       "uz": {
-        "name": "Aladdin",
+        "name": "Aladdin Aquapark",
         "address": "Qirsadoq shaharchasi, Yangiyo'l tumani, Toshkent viloyati",
         "description": null
       },
       "en": {
-        "name": "Aladdin",
+        "name": "Aladdin Aquapark",
         "address": "Kirsadok township, Yangiyul district, Tashkent region",
         "description": null
       }
@@ -2140,7 +2140,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 3.4,
     "ratingYandex": 5,
     "reviewCount": 4,
     "featured": false,
@@ -2748,7 +2748,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 3.7,
     "ratingYandex": 5,
     "reviewCount": 2,
     "featured": false,
@@ -3102,7 +3102,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.6,
     "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
@@ -3470,8 +3470,8 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.6,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00Z"
@@ -6411,7 +6411,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 3.5,
     "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
