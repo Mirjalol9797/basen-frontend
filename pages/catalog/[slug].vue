@@ -254,7 +254,7 @@ const route = useRoute()
 const { t } = useI18n()
 const localePath = useLocalePath()
 
-const slug = route.params.slug as string
+const slug = computed(() => route.params.slug as string)
 const { pool, similar, sameDistrict } = usePool(slug)
 const { getDistrictName } = useDistricts()
 

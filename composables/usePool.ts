@@ -1,13 +1,13 @@
 import type { Review } from '~/types/pool'
 
-export const usePool = (slug: string) => {
+export const usePool = (slug: Ref<string> | ComputedRef<string>) => {
   const store = usePoolsStore()
 
-  const pool = computed(() => store.all.find(p => p.slug === slug) ?? null)
+  const pool = computed(() => store.all.find(p => p.slug === slug.value) ?? null)
 
   const similar = computed(() =>
     store.all
-      .filter(p => p.slug !== slug && p.category === pool.value?.category)
+      .filter(p => p.slug !== slug.value && p.category === pool.value?.category)
       .slice(0, 4)
   )
 
@@ -16,7 +16,7 @@ export const usePool = (slug: string) => {
     if (!district) return []
     const similarSlugs = new Set(similar.value.map(p => p.slug))
     return store.all
-      .filter(p => p.slug !== slug && p.district === district && !similarSlugs.has(p.slug))
+      .filter(p => p.slug !== slug.value && p.district === district && !similarSlugs.has(p.slug))
       .slice(0, 4)
   })
 
