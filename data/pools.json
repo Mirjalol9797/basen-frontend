@@ -558,6 +558,87 @@
     "createdAt": "2026-07-16T00:00:00Z"
   },
   {
+    "id": "akvapark-priroda-nukus",
+    "slug": "akvapark-priroda-nukus",
+    "translations": {
+      "ru": {
+        "name": "Аквапарк «Природа»",
+        "address": "махалля Жайхун, Нукус, Республика Каракалпакстан",
+        "description": "Открытый аквапарк «Природа» в Нукусе для всей семьи, с отдельными детским и подростковым бассейнами. Вход на весь день: взрослый (от 12 лет) — 100 000 сум, детский (4–12 лет) — 50 000 сум. Правила посещения: душ перед купанием, только в купальном костюме, дети — только с родителями; нельзя проносить еду, курить, мусорить, шуметь, толкаться и бегать."
+      },
+      "uz": {
+        "name": "\"Priroda\" akvaparki",
+        "address": "Jayxun mahallasi, Nukus, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "\"Priroda\" Aquapark",
+        "address": "Jaykhun mahalla, Nukus, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 42.389522,
+      "lng": 59.605401
+    },
+    "phone": [
+      "+998 88 405-55-56",
+      "+998 93 517-78-38"
+    ],
+    "telegram": null,
+    "instagram": "https://www.instagram.com/aquapark_priroda/",
+    "website": null,
+    "gallery": [
+      "/images/pools/akvapark-priroda-nukus/1.webp",
+      "/images/pools/akvapark-priroda-nukus/2.webp",
+      "/images/pools/akvapark-priroda-nukus/3.webp",
+      "/images/pools/akvapark-priroda-nukus/4.webp",
+      "/images/pools/akvapark-priroda-nukus/5.webp",
+      "/images/pools/akvapark-priroda-nukus/6.webp",
+      "/images/pools/akvapark-priroda-nukus/7.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.adult_fullday",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 50000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "23:00" },
+      { "day": "tue", "open": "10:00", "close": "23:00" },
+      { "day": "wed", "open": "10:00", "close": "23:00" },
+      { "day": "thu", "open": "10:00", "close": "23:00" },
+      { "day": "fri", "open": "10:00", "close": "23:00" },
+      { "day": "sat", "open": "10:00", "close": "23:00" },
+      { "day": "sun", "open": "10:00", "close": "23:00" }
+    ],
+    "services": [
+      "sunbed",
+      "parking",
+      "bar",
+      "children_zone"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.5,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-16T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
