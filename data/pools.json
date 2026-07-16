@@ -228,110 +228,149 @@
     "createdAt": "2025-03-15T00:00:00Z"
   },
   {
-    "id": "kids-aquaworld",
-    "slug": "kids-aquaworld",
+    "id": "aquamarine",
+    "slug": "aquamarine",
     "translations": {
       "ru": {
-        "name": "Детский Аквамир",
-        "address": "ул. Катартал, 8, Ташкент",
-        "description": "Детский бассейн с тёплой водой и безопасной глубиной до 0.8м. Специально оборудован для малышей от 2 лет: горки, фонтанчики, детские инструкторы."
+        "name": "Aquamarine",
+        "address": "Ташкентская область, Нурафшан, махаллинский сход граждан Ёшлик",
+        "description": "Aquamarine — семейный парк отдыха с двумя большими бассейнами с подогревом воды для взрослых и детей. Зоны отдыха с тапчанами, столиками и лежаками, разнообразная европейская и корейская кухня, коктейльный бар. Детям до 5 лет вход бесплатный. Минимальный заказ по меню (депозит, без обслуживания): стол на 4 персоны — 300 000 сум, на 6 персон — 450 000 сум. Аренда: лежак (только в выходные) — 50 000 сум, топчан малый — 200 000 сум, топчан большой — 300 000 сум, бунгало на день — 600 000 сум, бунгало на сутки — 1 000 000 сум. Купание строго в купальных костюмах, на 1 взрослого — не более 2 детей, вход в состоянии алкогольного или наркотического опьянения запрещён."
       },
       "uz": {
-        "name": "Bolalar Akvaolami",
-        "address": "Qatartal ko'chasi, 8, Toshkent",
-        "description": "Issiq suv va 0.8m chuqurlikdagi bolalar basseyn. 2 yoshdan katta bolalar uchun: slaydlar, fontanlar, bolalar instruktorlari."
+        "name": "Aquamarine",
+        "address": "Toshkent viloyati, Nurafshon, Yoshlik MFY",
+        "description": null
       },
       "en": {
-        "name": "Kids Aquaworld",
-        "address": "8 Katartal Street, Tashkent",
-        "description": "Children's pool with warm water and safe depth up to 0.8m. Specially equipped for children from 2 years: slides, fountains, and dedicated children's instructors."
+        "name": "Aquamarine",
+        "address": "Nurafshan, Yoshlik MFY, Tashkent region",
+        "description": null
       }
     },
-    "category": "children",
-    "district": "chilanzar",
-    "region": "tashkent-city",
+    "category": "open",
+    "district": null,
+    "region": "tashkent-region",
     "city": null,
     "coordinates": {
-      "lat": 41.2908,
-      "lng": 69.1985
+      "lat": 41.017715,
+      "lng": 69.362577
     },
     "phone": [
-      "+998 71 456 78 90"
+      "+998 94 833 30 68",
+      "+998 94 043 20 80",
+      "+998 94 833 30 69"
     ],
     "telegram": [
-      "https://t.me/kids_aquaworld"
+      "https://t.me/aquamarine_basseyn"
     ],
+    "instagram": "https://www.instagram.com/aquamarine_pool.uz/",
     "website": null,
-    "gallery": [],
+    "gallery": [
+      "/images/pools/aquamarine/1.webp",
+      "/images/pools/aquamarine/2.webp",
+      "/images/pools/aquamarine/3.webp",
+      "/images/pools/aquamarine/4.webp",
+      "/images/pools/aquamarine/5.webp",
+      "/images/pools/aquamarine/6.webp",
+      "/images/pools/aquamarine/7.webp",
+      "/images/pools/aquamarine/8.webp",
+      "/images/pools/aquamarine/9.webp",
+      "/images/pools/aquamarine/10.webp"
+    ],
     "prices": [
       {
-        "key": "price.child_single",
-        "amount": 45000,
+        "key": "price.adult_weekday_before18",
+        "amount": 100000,
         "currency": "UZS"
       },
       {
-        "key": "price.adult_single",
-        "amount": 55000,
+        "key": "price.adult_weekday_after18",
+        "amount": 70000,
         "currency": "UZS"
       },
       {
-        "key": "price.monthly",
-        "amount": 350000,
+        "key": "price.child_weekday_before18",
+        "amount": 70000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekday_after18",
+        "amount": 50000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend_before18",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_weekend_after18",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend_before18",
+        "amount": 80000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_weekend_after18",
+        "amount": 60000,
         "currency": "UZS"
       }
     ],
     "schedule": [
       {
         "day": "mon",
-        "open": "09:00",
-        "close": "20:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "tue",
-        "open": "09:00",
-        "close": "20:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "wed",
-        "open": "09:00",
-        "close": "20:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "thu",
-        "open": "09:00",
-        "close": "20:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "fri",
-        "open": "09:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "sat",
-        "open": "09:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       {
         "day": "sun",
         "open": "10:00",
-        "close": "19:00"
+        "close": "22:00"
       }
     ],
     "services": [
-      "locker",
-      "parking",
-      "cafe",
-      "children_zone"
+      "children_zone",
+      "restaurant",
+      "bar",
+      "sunbed"
     ],
     "season": "summer",
-    "poolLength": 15,
-    "poolDepthMin": 0.3,
-    "poolDepthMax": 0.8,
-    "ratingGoogle": 5,
-    "ratingYandex": 5,
-    "reviewCount": 67,
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.6,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
     "featured": false,
-    "createdAt": "2025-05-20T00:00:00Z"
+    "createdAt": "2026-07-16T00:00:00Z"
   },
   {
     "id": "grand-serena-pool",
@@ -1599,7 +1638,7 @@
       "ru": {
         "name": "Green Paradise",
         "address": "ул. Навруз, Сергелийский район, Ташкент",
-        "description": "Небольшой открытый бассейн с аквапарком для семейного отдыха в Сергелийском районе."
+        "description": "Небольшой открытый бассейн с аквапарком для семейного отдыха в Сергелийском районе. Вход для взрослых — 120 000 сум, для детей 5–12 лет — 60 000 сум, до 5 лет — бесплатно. Топчаны, столики и лежаки — бесплатно, без депозита."
       },
       "uz": {
         "name": "Green Paradise",
@@ -1617,16 +1656,40 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.232426,
-      "lng": 69.2004513
+      "lat": 41.248217,
+      "lng": 69.219708
     },
     "phone": [
-      "+998 97 708-57-54"
+      "+998 97 708-57-54",
+      "+998 95 144-33-98"
     ],
     "telegram": null,
+    "instagram": "https://www.instagram.com/green_paradise.uz/",
+    "facebook": "https://www.facebook.com/pages/%D0%93%D1%80%D0%B8%D0%BD%20%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B0%D0%B9%D1%81/1674724582637096/#",
     "website": null,
-    "gallery": [],
-    "prices": [],
+    "gallery": [
+      "/images/pools/green-paradise/1.webp",
+      "/images/pools/green-paradise/2.webp",
+      "/images/pools/green-paradise/3.webp",
+      "/images/pools/green-paradise/4.webp",
+      "/images/pools/green-paradise/5.webp",
+      "/images/pools/green-paradise/6.webp",
+      "/images/pools/green-paradise/7.webp",
+      "/images/pools/green-paradise/8.webp",
+      "/images/pools/green-paradise/9.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.adult_single",
+        "amount": 120000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_single",
+        "amount": 60000,
+        "currency": "UZS"
+      }
+    ],
     "schedule": [
       {
         "day": "mon",
@@ -1664,12 +1727,15 @@
         "close": "22:00"
       }
     ],
-    "services": [],
+    "services": [
+      "sunbed",
+      "parking"
+    ],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.3,
     "ratingYandex": 5,
     "reviewCount": 1,
     "featured": false,
