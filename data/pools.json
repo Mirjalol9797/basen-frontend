@@ -499,6 +499,65 @@
     "createdAt": "2026-06-29T00:00:00Z"
   },
   {
+    "id": "aqualand-nukus",
+    "slug": "aqualand-nukus",
+    "translations": {
+      "ru": {
+        "name": "Водно-развлекательный комплекс Aqualand",
+        "address": "ул. Дустлик Канали, Нукус, Республика Каракалпакстан",
+        "description": "Открытый водно-развлекательный комплекс в Нукусе. Вход на весь день: взрослый билет — 100 000 сум, детский (1–12 лет) — 50 000 сум, до 1 года — бесплатно."
+      },
+      "uz": {
+        "name": "Aqualand suv-ko'ngilochar majmuasi",
+        "address": "Do'stlik kanali ko'chasi, Nukus, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "Aqualand Water and Entertainment Complex",
+        "address": "Dustlik Kanali str., Nukus, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 42.463097,
+      "lng": 59.601135
+    },
+    "phone": [],
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aqualand-nukus/1.webp",
+      "/images/pools/aqualand-nukus/2.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.adult_fullday",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 50000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": null,
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.6,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-16T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
