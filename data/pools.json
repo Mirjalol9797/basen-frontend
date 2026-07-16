@@ -6402,18 +6402,18 @@
     "translations": {
       "ru": {
         "name": "Бассейн МВЭС Inter Sport",
-        "address": "ул. Мирзо Улугбека, 8А, Мирзо-Улугбекский район, Ташкент",
-        "description": "Спортивный комплекс с крытым бассейном и школой плавания для детей с 4 лет. Вышка 5 метров. Требуется медицинская справка."
+        "address": "массив Буз-1, 8А, Мирзо-Улугбекский район, Ташкент",
+        "description": "Спортивный комплекс с крытым бассейном и вышкой 5 метров. Школа плавания для детей с 4 лет. Последний вход в бассейн — в 19:00, с собой нужна сменная обувь, медицинская справка не требуется."
       },
       "uz": {
         "name": "Basseyn MVES Inter Sport",
-        "address": "Mirzo Ulug'bek ko'chasi, 8A, Mirzo Ulug'bek tumani, Toshkent",
-        "description": null
+        "address": "Buz-1 massivi, 8A, Mirzo Ulug'bek tumani, Toshkent",
+        "description": "Yopiq basseyn va 5 metrli minorasi bo'lgan sport majmuasi. 4 yoshdan boshlab bolalar uchun suzish maktabi. Basseynga oxirgi kirish — soat 19:00 da, o'zingiz bilan almashtirma poyabzal olib boring, tibbiy ma'lumotnoma talab qilinmaydi."
       },
       "en": {
         "name": "Pool MVES Inter Sport",
-        "address": "8A Mirzo Ulugbek str., Mirzo-Ulugbek district, Tashkent",
-        "description": null
+        "address": "Buz-1 residential area, 8A, Mirzo-Ulugbek district, Tashkent",
+        "description": "Sports complex with an indoor pool and a 5-meter diving tower. Swim school for children from age 4. Last entry to the pool is at 7:00 PM; bring indoor shoes — no medical certificate required."
       }
     },
     "category": "indoor",
@@ -6421,17 +6421,33 @@
     "region": "tashkent-city",
     "city": null,
     "coordinates": {
-      "lat": 41.323009,
-      "lng": 69.3227622
+      "lat": 41.332416,
+      "lng": 69.330694
     },
     "phone": [
-      "+998 71 262-25-55"
+      "+998 71 262-25-55",
+      "+998 71 262-14-50"
     ],
     "telegram": null,
     "website": null,
-    "gallery": [],
+    "gallery": [
+      "/images/pools/inter-sport/1.webp",
+      "/images/pools/inter-sport/3.webp",
+      "/images/pools/inter-sport/5.webp",
+      "/images/pools/inter-sport/6.webp",
+      "/images/pools/inter-sport/7.webp",
+      "/images/pools/inter-sport/8.webp"
+    ],
     "prices": [],
-    "schedule": null,
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "20:00" },
+      { "day": "tue", "open": "07:00", "close": "20:00" },
+      { "day": "wed", "open": "07:00", "close": "20:00" },
+      { "day": "thu", "open": "07:00", "close": "20:00" },
+      { "day": "fri", "open": "07:00", "close": "20:00" },
+      { "day": "sat", "open": "07:00", "close": "20:00" },
+      { "day": "sun", "open": "07:00", "close": "20:00" }
+    ],
     "services": [
       "trainer",
       "parking",
@@ -6441,7 +6457,7 @@
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 5,
+    "ratingGoogle": 4.3,
     "ratingYandex": 5,
     "reviewCount": 7,
     "featured": false,
