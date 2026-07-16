@@ -4863,6 +4863,242 @@
     "createdAt": "2026-07-16T00:00:00Z"
   },
   {
+    "id": "born2swim-parisien",
+    "slug": "born2swim-parisien",
+    "translations": {
+      "ru": {
+        "name": "Born2swim — филиал «Parisien»",
+        "address": "Ташкент, Яккасарайский район, ул. Мукими, 17",
+        "description": "Филиал расположен на двух этажах в жилом комплексе Parisien, подходит для детей с рождения до 8 лет. Две раздевалки (мужская и женская) с вместительными шкафчиками, манежами, детскими стульчиками и душевыми, три зоны ожидания с видом на тренировку. Два бассейна — 7×4 м и 5×3 м, температура воды 31–32°C. Воскресенье — выходной."
+      },
+      "uz": {
+        "name": "Born2swim — «Parisien» filiali",
+        "address": "Toshkent, Yakkasaroy tumani, Mukimiy ko'chasi, 17",
+        "description": null
+      },
+      "en": {
+        "name": "Born2swim — \"Parisien\" branch",
+        "address": "17 Mukimiy str., Yakkasaray district, Tashkent",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": "yakkasaray",
+    "region": "tashkent-city",
+    "city": null,
+    "coordinates": {
+      "lat": 41.278841,
+      "lng": 69.250175
+    },
+    "phone": [
+      "+998 90 924-20-04",
+      "+998 99 430-53-39"
+    ],
+    "telegram": "https://t.me/born2swimuzb",
+    "instagram": "https://www.instagram.com/born2swim.uzb/",
+    "website": "https://born2swim.uz/",
+    "gallery": [
+      "/images/pools/born2swim-parisien/1.webp",
+      "/images/pools/born2swim-parisien/2.webp",
+      "/images/pools/born2swim-parisien/3.webp",
+      "/images/pools/born2swim-parisien/4.webp",
+      "/images/pools/born2swim-parisien/5.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.swim_kids_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass4",
+        "amount": 500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass8",
+        "amount": 830000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass12",
+        "amount": 950000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass8_frozen",
+        "amount": 935000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass12_frozen",
+        "amount": 1060000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass4",
+        "amount": 500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass8",
+        "amount": 830000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass12",
+        "amount": 950000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass8_frozen",
+        "amount": 935000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass12_frozen",
+        "amount": 1060000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.split_training_single",
+        "amount": 300000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.split_training_pass4_frozen",
+        "amount": 1345000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.split_training_pass8_frozen",
+        "amount": 2250000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.split_training_pass12_frozen",
+        "amount": 2700000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass4",
+        "amount": 500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass8",
+        "amount": 950000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass12",
+        "amount": 1060000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass8_frozen",
+        "amount": 1060000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass12_frozen",
+        "amount": 1160000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass4",
+        "amount": 500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass8",
+        "amount": 950000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass12",
+        "amount": 1060000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass8_frozen",
+        "amount": 1060000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass12_frozen",
+        "amount": 1160000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "21:00",
+        "closed": true
+      }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": 7,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.0,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-16T00:00:00Z"
+  },
+  {
     "id": "studio13",
     "slug": "studio13",
     "translations": {
