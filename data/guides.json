@@ -3,7 +3,6 @@
     "slug": "top-pools-tashkent-2026",
     "poolSlugs": [
       "olympic-sport-complex",
-      "kids-aquaworld",
       "atlantis",
       "solnechniy-gorod",
       "tashkent-water-park",
@@ -15,23 +14,23 @@
     "translations": {
       "ru": {
         "title": "Лучшие бассейны Ташкента 2026 — рейтинг по отзывам",
-        "excerpt": "8 бассейнов с самым большим числом реальных отзывов и высоким рейтингом — из всех категорий каталога.",
+        "excerpt": "7 бассейнов с самым большим числом реальных отзывов и высоким рейтингом — из всех категорий каталога.",
         "metaDescription": "Рейтинг лучших бассейнов Ташкента 2026 по отзывам и оценкам: спортивные, детские, аквапарки, открытые и крытые. Проверенные варианты с реальными отзывами посетителей.",
-        "intro": "Рейтинг ниже — не просто топ по звёздам. Мы ранжировали бассейны по сочетанию оценки и количества реальных отзывов, чтобы наверху не оказались объекты с высоким рейтингом, но без единого отзыва. В список попали 8 бассейнов из всех 6 категорий каталога — от спортивного комплекса со 124 отзывами до детского бассейна с почти сотней впечатлений от родителей.",
+        "intro": "Рейтинг ниже — не просто топ по звёздам. Мы ранжировали бассейны по сочетанию оценки и количества реальных отзывов, чтобы наверху не оказались объекты с высоким рейтингом, но без единого отзыва. В список попали 7 бассейнов из всех 6 категорий каталога — от спортивного комплекса со 124 отзывами до небольших аквапарков с более скромным числом отзывов.",
         "conclusion": "Это не статичный список — рейтинг обновляется по мере того, как в каталоге появляются новые отзывы и бассейны. Если вашего любимого бассейна здесь нет, а отзывов на его странице пока мало — оставьте свой, это поможет рейтингу стать точнее."
       },
       "uz": {
         "title": "Toshkentning eng yaxshi basseynlari 2026 — sharhlar bo'yicha reyting",
-        "excerpt": "Eng ko'p real sharhga va yuqori reytingga ega 8 ta basseyn — katalogning barcha toifalaridan.",
+        "excerpt": "Eng ko'p real sharhga va yuqori reytingga ega 7 ta basseyn — katalogning barcha toifalaridan.",
         "metaDescription": "Toshkent basseynlarining 2026-yilgi reytingi: sport, bolalar, akvaparklar, ochiq va yopiq. Tashrif buyuruvchilarning real sharhlariga asoslangan tekshirilgan variantlar.",
-        "intro": "Quyidagi reyting — shunchaki yulduzlar bo'yicha top emas. Biz basseynlarni baho va real sharhlar sonining kombinatsiyasi bo'yicha saraladik, shunda yuqori reytingga ega, lekin birorta ham sharhi yo'q obyektlar tepaga chiqib qolmasin. Ro'yxatga katalogning barcha 6 toifasidan 8 ta basseyn kirdi — 124 sharhga ega sport majmuasidan tortib, deyarli yuzta ota-ona fikriga ega bolalar basseynigacha.",
+        "intro": "Quyidagi reyting — shunchaki yulduzlar bo'yicha top emas. Biz basseynlarni baho va real sharhlar sonining kombinatsiyasi bo'yicha saraladik, shunda yuqori reytingga ega, lekin birorta ham sharhi yo'q obyektlar tepaga chiqib qolmasin. Ro'yxatga katalogning barcha 6 toifasidan 7 ta basseyn kirdi — 124 sharhga ega sport majmuasidan tortib, kamroq sharhga ega kichik akvaparklargacha.",
         "conclusion": "Bu statik ro'yxat emas — katalogda yangi sharhlar va basseynlar paydo bo'lishi bilan reyting yangilanib boradi. Agar sevimli basseyningiz bu yerda bo'lmasa va uning sahifasida hali kam sharh bo'lsa — o'zingizniki qoldiring, bu reytingni aniqroq qilishga yordam beradi."
       },
       "en": {
         "title": "Best pools in Tashkent 2026 — ranked by reviews",
-        "excerpt": "8 pools with the highest number of real reviews and top ratings — from every category in the catalog.",
+        "excerpt": "7 pools with the highest number of real reviews and top ratings — from every category in the catalog.",
         "metaDescription": "Best pools in Tashkent 2026, ranked by ratings and reviews: sport, children's, aquaparks, open-air and indoor. Vetted picks backed by real visitor reviews.",
-        "intro": "The ranking below isn't just a top list by star rating. We ranked pools by a combination of rating and the number of real reviews, so venues with a high rating but zero reviews don't end up at the top. The list includes 8 pools from all 6 categories in the catalog — from a sport complex with 124 reviews to a children's pool with nearly a hundred parent impressions.",
+        "intro": "The ranking below isn't just a top list by star rating. We ranked pools by a combination of rating and the number of real reviews, so venues with a high rating but zero reviews don't end up at the top. The list includes 7 pools from all 6 categories in the catalog — from a sport complex with 124 reviews down to smaller aquaparks with a more modest review count.",
         "conclusion": "This isn't a static list — the ranking updates as new reviews and pools appear in the catalog. If your favorite pool isn't here and its page doesn't have many reviews yet, leave your own — it'll help make the ranking more accurate."
       }
     }
@@ -39,7 +38,6 @@
   {
     "slug": "kids-pools-tashkent",
     "poolSlugs": [
-      "kids-aquaworld",
       "atlantis",
       "solnechniy-gorod",
       "oasis-aqua-park",
@@ -53,24 +51,24 @@
     "translations": {
       "ru": {
         "title": "Детские бассейны Ташкента: куда сходить с ребёнком",
-        "excerpt": "9 бассейнов и аквапарков с детской зоной — для отдыха всей семьёй и для уроков плавания. Плюс на что смотреть по возрасту и безопасности.",
+        "excerpt": "8 бассейнов и аквапарков с детской зоной — для отдыха всей семьёй и для уроков плавания. Плюс на что смотреть по возрасту и безопасности.",
         "metaDescription": "Куда сходить с ребёнком в Ташкенте: подборка бассейнов и аквапарков с детской зоной, отзывы посетителей, советы по возрасту и безопасности.",
-        "intro": "В каталоге 30 бассейнов и аквапарков с отдельной детской зоной — из них мы выбрали 9 самых проверенных, с наибольшим числом реальных отзывов. Большинство в подборке — это семейные аквапарки и бассейны с горками и мелководьем для отдыха всей семьёй. Но два объекта устроены иначе: STUDIO 13 и Born2swim — это школы плавания с тренером, без горок и развлечений, если цель не отдохнуть, а научить ребёнка плавать. При выборе смотрите на глубину чаши (для детей до 5-6 лет важна мелкая зона, до 60-80 см), наличие спасателя или инструктора на воде и температуру — детям обычно некомфортно в бассейнах холоднее 26°C. Уточняйте эти детали по телефону перед поездкой, в каталоге они указаны не для всех объектов.",
-        "conclusion": "Если ребёнку меньше 3-4 лет, для первого знакомства с водой лучше начинать со специализированных детских бассейнов вроде «Детского Аквамира» — там глубина и температура рассчитаны именно на малышей. Для детей постарше, которые уже уверенно держатся на воде, подойдут и большие аквапарки с горками."
+        "intro": "В каталоге 30 бассейнов и аквапарков с отдельной детской зоной — из них мы выбрали 8 самых проверенных, с наибольшим числом реальных отзывов. Большинство в подборке — это семейные аквапарки и бассейны с горками и мелководьем для отдыха всей семьёй. Но два объекта устроены иначе: STUDIO 13 и Born2swim — это школы плавания с тренером, без горок и развлечений, если цель не отдохнуть, а научить ребёнка плавать. При выборе смотрите на глубину чаши (для детей до 5-6 лет важна мелкая зона, до 60-80 см), наличие спасателя или инструктора на воде и температуру — детям обычно некомфортно в бассейнах холоднее 26°C. Уточняйте эти детали по телефону перед поездкой, в каталоге они указаны не для всех объектов.",
+        "conclusion": "Если ребёнку меньше 3-4 лет, для первого знакомства с водой уточняйте глубину чаши и температуру воды по телефону заранее — не все аквапарки одинаково подходят малышам. Для детей постарше, которые уже уверенно держатся на воде, подойдут и большие аквапарки с горками."
       },
       "uz": {
         "title": "Toshkent bolalar basseynlari: bola bilan qayerga borish mumkin",
-        "excerpt": "Bolalar zonasiga ega 9 ta basseyn va akvapark — butun oila bilan dam olish va suzish darslari uchun. Plyus yosh va xavfsizlik bo'yicha nimalarga qarash kerak.",
+        "excerpt": "Bolalar zonasiga ega 8 ta basseyn va akvapark — butun oila bilan dam olish va suzish darslari uchun. Plyus yosh va xavfsizlik bo'yicha nimalarga qarash kerak.",
         "metaDescription": "Toshkentda bola bilan qayerga borish mumkin: bolalar zonasiga ega basseynlar va akvaparklar tanlovi, tashrif buyuruvchilar sharhlari, yosh va xavfsizlik bo'yicha maslahatlar.",
-        "intro": "Katalogda alohida bolalar zonasiga ega 30 ta basseyn va akvapark bor — ulardan eng ko'p real sharhga ega 9 tasini tanladik. Tanlovdagi ko'pchilik — bu butun oila bilan dam olish uchun gorkalar va sayoz suvli oilaviy akvaparklar va basseynlar. Ammo ikkita obyekt boshqacha tuzilgan: STUDIO 13 va Born2swim — bu murabbiy bilan suzish maktablari, gorka va ko'ngilochar narsalarsiz, agar maqsad dam olish emas, balki bolani suzishga o'rgatish bo'lsa. Tanlashda basseyn chuqurligiga (5-6 yoshgacha bo'lgan bolalar uchun 60-80 sm gacha sayoz zona muhim), suvda qutqaruvchi yoki instruktor borligiga va haroratga e'tibor bering — bolalar odatda 26°C dan sovuqroq basseynlarda noqulaylik his qiladi. Bu tafsilotlarni sayohatdan oldin telefon orqali aniqlashtiring, katalogda ular barcha obyektlar uchun ko'rsatilmagan.",
-        "conclusion": "Agar bolangiz 3-4 yoshdan kichik bo'lsa, suv bilan birinchi tanishuv uchun «Bolalar Akvamiri» kabi ixtisoslashgan bolalar basseynlaridan boshlagan ma'qul — u yerda chuqurlik va harorat aynan chaqaloqlar uchun mo'ljallangan. Suvda o'zini ishonchli his qiladigan kattaroq bolalar uchun gorkali katta akvaparklar ham mos keladi."
+        "intro": "Katalogda alohida bolalar zonasiga ega 30 ta basseyn va akvapark bor — ulardan eng ko'p real sharhga ega 8 tasini tanladik. Tanlovdagi ko'pchilik — bu butun oila bilan dam olish uchun gorkalar va sayoz suvli oilaviy akvaparklar va basseynlar. Ammo ikkita obyekt boshqacha tuzilgan: STUDIO 13 va Born2swim — bu murabbiy bilan suzish maktablari, gorka va ko'ngilochar narsalarsiz, agar maqsad dam olish emas, balki bolani suzishga o'rgatish bo'lsa. Tanlashda basseyn chuqurligiga (5-6 yoshgacha bo'lgan bolalar uchun 60-80 sm gacha sayoz zona muhim), suvda qutqaruvchi yoki instruktor borligiga va haroratga e'tibor bering — bolalar odatda 26°C dan sovuqroq basseynlarda noqulaylik his qiladi. Bu tafsilotlarni sayohatdan oldin telefon orqali aniqlashtiring, katalogda ular barcha obyektlar uchun ko'rsatilmagan.",
+        "conclusion": "Agar bolangiz 3-4 yoshdan kichik bo'lsa, suv bilan birinchi tanishuvdan oldin basseyn chuqurligi va suv haroratini telefon orqali oldindan aniqlashtiring — barcha akvaparklar ham chaqaloqlar uchun bir xil darajada qulay emas. Suvda o'zini ishonchli his qiladigan kattaroq bolalar uchun gorkali katta akvaparklar ham mos keladi."
       },
       "en": {
         "title": "Children's pools in Tashkent: where to take your kid",
-        "excerpt": "9 pools and aquaparks with a kids' zone — for family fun and for swim lessons. Plus what to check for age and safety.",
+        "excerpt": "8 pools and aquaparks with a kids' zone — for family fun and for swim lessons. Plus what to check for age and safety.",
         "metaDescription": "Where to take your kid in Tashkent: a curated list of pools and aquaparks with a kids' zone, visitor reviews, and age/safety tips.",
-        "intro": "The catalog has 30 pools and aquaparks with a dedicated kids' zone — we picked the 9 most vetted, with the highest number of real reviews. Most of the picks are family aquaparks and pools with slides and a shallow area for the whole family. But two venues work differently: STUDIO 13 and Born2swim are swim schools with a coach, no slides or entertainment, for when the goal isn't fun but teaching your child to swim. When choosing, check the pool depth (a shallow zone of 60-80 cm matters for kids under 5-6), whether there's a lifeguard or instructor on duty, and the water temperature — kids are usually uncomfortable in pools below 26°C. Confirm these details by phone before you go, since the catalog doesn't have them for every venue.",
-        "conclusion": "If your child is under 3-4 years old, start with a specialized children's pool like Detsky Akvamir for their first introduction to water — the depth and temperature there are built for toddlers. Older kids who are already confident in the water will do fine at the bigger aquaparks with slides."
+        "intro": "The catalog has 30 pools and aquaparks with a dedicated kids' zone — we picked the 8 most vetted, with the highest number of real reviews. Most of the picks are family aquaparks and pools with slides and a shallow area for the whole family. But two venues work differently: STUDIO 13 and Born2swim are swim schools with a coach, no slides or entertainment, for when the goal isn't fun but teaching your child to swim. When choosing, check the pool depth (a shallow zone of 60-80 cm matters for kids under 5-6), whether there's a lifeguard or instructor on duty, and the water temperature — kids are usually uncomfortable in pools below 26°C. Confirm these details by phone before you go, since the catalog doesn't have them for every venue.",
+        "conclusion": "If your child is under 3-4 years old, confirm the pool depth and water temperature by phone before your first visit — not every aquapark is equally toddler-friendly. Older kids who are already confident in the water will do fine at the bigger aquaparks with slides."
       }
     }
   },

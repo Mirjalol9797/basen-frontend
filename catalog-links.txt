@@ -6,7 +6,6 @@ https://basen.uz/catalog/aqua-blue
 https://basen.uz/catalog/aqualand
 https://basen.uz/catalog/astera-sea
 https://basen.uz/catalog/atlantis
-https://basen.uz/catalog/azizbek-city-pool
 https://basen.uz/catalog/basseyin-tridex
 https://basen.uz/catalog/born2swim
 https://basen.uz/catalog/chekhov
@@ -21,7 +20,6 @@ https://basen.uz/catalog/grace-garden
 https://basen.uz/catalog/green-paradise
 https://basen.uz/catalog/inter-sport
 https://basen.uz/catalog/jar
-https://basen.uz/catalog/kids-aquaworld
 https://basen.uz/catalog/le-grand-de-plaza
 https://basen.uz/catalog/limpopo
 https://basen.uz/catalog/magic-galaxy
@@ -33,7 +31,6 @@ https://basen.uz/catalog/oasis-aqua-park
 https://basen.uz/catalog/olympic-sport-complex
 https://basen.uz/catalog/paradise
 https://basen.uz/catalog/radisson
-https://basen.uz/catalog/riviera
 https://basen.uz/catalog/sitora
 https://basen.uz/catalog/solnechniy-gorod
 https://basen.uz/catalog/studio13
