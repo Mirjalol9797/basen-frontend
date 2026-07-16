@@ -5759,6 +5759,304 @@
     "createdAt": "2026-07-16T00:00:00Z"
   },
   {
+    "id": "born2swim-samarkand",
+    "slug": "born2swim-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Born2swim — филиал «Самарканд»",
+        "address": "улица Амира Темура, 145, Самарканд",
+        "description": "Крытый бассейн 8×4 м, температура воды 31–32°C. Программы для детей и взрослых: Swim Kids, Swim Baby, сплит- и double-тренировки, Family Swim, индивидуальные занятия для грудничков, Mini Swim Kids и Mini Swim Baby. Воскресенье — выходной."
+      },
+      "uz": {
+        "name": "Born2swim — «Samarqand» filiali",
+        "address": "Amir Temur ko'chasi, 145, Samarqand",
+        "description": null
+      },
+      "en": {
+        "name": "Born2swim — \"Samarkand\" branch",
+        "address": "145 Amir Temur str., Samarkand",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.646079,
+      "lng": 66.932553
+    },
+    "phone": [
+      "+998 90 924-20-04",
+      "+998 99 083-20-04"
+    ],
+    "telegram": [
+      "https://t.me/born2swimuzb"
+    ],
+    "instagram": "https://www.instagram.com/born2swim.uzb/",
+    "website": "https://born2swim.uz/",
+    "gallery": [
+      "/images/pools/born2swim-samarkand/1.webp",
+      "/images/pools/born2swim-samarkand/2.webp",
+      "/images/pools/born2swim-samarkand/3.webp",
+      "/images/pools/born2swim-samarkand/4.webp",
+      "/images/pools/born2swim-samarkand/5.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.swim_kids_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass4",
+        "amount": 450000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass8",
+        "amount": 690000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass12",
+        "amount": 800000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass8_frozen",
+        "amount": 785000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_kids_pass12_frozen",
+        "amount": 895000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass4",
+        "amount": 450000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass8",
+        "amount": 690000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass12",
+        "amount": 800000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass8_frozen",
+        "amount": 785000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.swim_baby_pass12_frozen",
+        "amount": 895000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.split_training_single",
+        "amount": 300000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.split_training_pass4_frozen",
+        "amount": 1150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.split_training_pass8_frozen",
+        "amount": 1960000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.split_training_pass12_frozen",
+        "amount": 2360000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.double_training_single",
+        "amount": 460000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.double_training_pass4_frozen",
+        "amount": 2190000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.double_training_pass8_frozen",
+        "amount": 3500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.double_training_pass12_frozen",
+        "amount": 4250000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.family_swim_single",
+        "amount": 860000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.family_swim_pass4_frozen",
+        "amount": 2415000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.family_swim_pass8_frozen",
+        "amount": 3800000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.family_swim_pass12_frozen",
+        "amount": 4500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.individual_baby_single",
+        "amount": 460000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.individual_baby_pass4_frozen",
+        "amount": 2400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.individual_baby_pass8_frozen",
+        "amount": 3900000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.individual_baby_pass12_frozen",
+        "amount": 4700000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass4",
+        "amount": 450000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass8",
+        "amount": 830000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass12",
+        "amount": 930000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass8_frozen",
+        "amount": 930000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_kids_pass12_frozen",
+        "amount": 1030000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_single",
+        "amount": 150000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass4",
+        "amount": 450000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass8",
+        "amount": 830000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass12",
+        "amount": 930000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass8_frozen",
+        "amount": 930000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.mini_swim_baby_pass12_frozen",
+        "amount": 1030000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "21:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "21:00",
+        "closed": true
+      }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": 8,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.0,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-16T00:00:00Z"
+  },
+  {
     "id": "studio13",
     "slug": "studio13",
     "translations": {

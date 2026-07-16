@@ -174,6 +174,10 @@
     "mini_swim_baby_pass12": "Mini Swim Baby — strict pass of 12",
     "mini_swim_baby_pass8_frozen": "Mini Swim Baby — pass of 8 (freezable)",
     "mini_swim_baby_pass12_frozen": "Mini Swim Baby — pass of 12 (freezable)",
+    "double_training_single": "Double training — single (2 siblings, 45 min)",
+    "double_training_pass4_frozen": "Double training — pass of 4 (freezable)",
+    "double_training_pass8_frozen": "Double training — pass of 8 (freezable)",
+    "double_training_pass12_frozen": "Double training — pass of 12 (freezable)",
     "from": "from",
     "currency": "UZS"
   },
