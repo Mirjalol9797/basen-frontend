@@ -701,6 +701,69 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "shkola-plavanya-nukus",
+    "slug": "shkola-plavanya-nukus",
+    "translations": {
+      "ru": {
+        "name": "Школа по водным видам спорта Республики Каракалпакстан",
+        "address": "ул. Амира Тимура, 82, Нукус, Республика Каракалпакстан",
+        "description": "Крытый бассейн школы по водным видам спорта в Нукусе с парковкой и тренером на месте."
+      },
+      "uz": {
+        "name": "Qoraqalpog'iston Respublikasi suv sporti turlari maktabi",
+        "address": "Amir Temur ko'chasi, 82, Nukus, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "Republic of Karakalpakstan Water Sports School",
+        "address": "82 Amir Temur str., Nukus, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 42.459202,
+      "lng": 59.599810
+    },
+    "phone": [],
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/shkola-plavanya-nukus/1.webp",
+      "/images/pools/shkola-plavanya-nukus/2.webp",
+      "/images/pools/shkola-plavanya-nukus/3.webp",
+      "/images/pools/shkola-plavanya-nukus/4.webp",
+      "/images/pools/shkola-plavanya-nukus/5.webp",
+      "/images/pools/shkola-plavanya-nukus/6.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "22:00" },
+      { "day": "tue", "open": "09:00", "close": "22:00" },
+      { "day": "wed", "open": "09:00", "close": "22:00" },
+      { "day": "thu", "open": "09:00", "close": "22:00" },
+      { "day": "fri", "open": "09:00", "close": "22:00" },
+      { "day": "sat", "open": "09:00", "close": "22:00" },
+      { "day": "sun", "open": "09:00", "close": "22:00" }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
