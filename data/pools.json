@@ -6205,6 +6205,96 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "basseyn-xojayli",
+    "slug": "basseyn-xojayli",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Ходжейли",
+        "address": "Республика Каракалпакстан, Ходжейли, 2-й проезд Зулфия, 21",
+        "description": "Открытый бассейн в Ходжейли, Республика Каракалпакстан."
+      },
+      "uz": {
+        "name": "Xo'jayli basseyni",
+        "address": "Qoraqalpog'iston Respublikasi, Xo'jayli, 2-Zulfiya ko'chasi, 21",
+        "description": null
+      },
+      "en": {
+        "name": "Khojeyli Pool",
+        "address": "21 2nd Zulfiya str., Khojeyli, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 42.406707,
+      "lng": 59.447660
+    },
+    "phone": [
+      "+998 91 390-99-70",
+      "+998 91 390-62-00"
+    ],
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-xojayli/1.jpg",
+      "/images/pools/basseyn-xojayli/2.jpg",
+      "/images/pools/basseyn-xojayli/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "20:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "20:00"
+      }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.2,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "studio13",
     "slug": "studio13",
     "translations": {
