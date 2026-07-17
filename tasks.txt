@@ -1,15 +1,16 @@
 Названия
-Золотой город Нукус
-url zolotoy-gorod-aquapark-nukus
+Гавайи аквабар Нукус
+url gavaii-aquabar-nukus
 
-оценка google - 3
-оценка яндекс - 4.4
+оценка google - 5
+оценка яндекс - 4.3
 
 локация
-https://yandex.uz/maps/org/zolotoy_gorod/77271447078/?ll=59.575774%2C42.529014&mode=search&sctx=ZAAAAAgBEAAaKAoSCeLNGryvzE1AEXGPpQ9dQkVAEhIJarx0kxgEwD8R3LsGfentsz8iBgABAgMEBSgKOABA2LoGSAFiLm1pZGRsZV9tZXRhb3B0cz1TaW1pbGFyUGVybWFsaW5rczpUaW1lT3V0PTMwbXNiLW1pZGRsZV9tZXRhb3B0cz1XaXphcmQ6UmFuZG9tR3JvdXBTZWxlY3Rpb249MWIpbWlkZGxlX21ldGFvcHRzPUdFT19TTklQUEVUUzpUaW1lT3V0PTUwbXNiKm1pZGRsZV9tZXRhb3B0cz1XaXphcmQ6VXNlU3RhYmxlQ29ubkhhc2g9MGI2ZXhwZXJpbWVudGFsX21pZGRsZV9tZXRhb3B0cz1HRU9fU05JUFBFVFM6VGltZU91dD01MG1zYi1taWRkbGVfbWV0YW9wdHM9V2l6YXJkOlJhbmRvbUdyb3VwU2VsZWN0aW9uPTFiLm1pZGRsZV9tZXRhb3B0cz1TaW1pbGFyUGVybWFsaW5rczpUaW1lT3V0PTMwbXNiKm1pZGRsZV9tZXRhb3B0cz1XaXphcmQ6VXNlU3RhYmxlQ29ubkhhc2g9MGIpbWlkZGxlX21ldGFvcHRzPUdFT19TTklQUEVUUzpUaW1lT3V0PTUwbXNqAnV6nQHNzMw9oAEAqAEAvQFL8BK1wgEGpuzy7Z8CggIZ0JfQvtC70L7RgtC%2B0Lkg0LPQvtGA0L7QtIoCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=59.575774%2C42.529014&sspn=0.092636%2C0.044705&text=%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&z=14.31
+https://yandex.uz/maps/org/gavay_akvabar/158900053259/?ll=59.595476%2C42.535307&mode=search&sctx=ZAAAAAgBEAAaKAoSCSb%2BKOrMy01AEZF%2B%2BzpwREVAEhIJvMtFfCdmjT8RbatZZ3xffD8iBgABAgMEBSgKOABA2LoGSAFiLm1pZGRsZV9tZXRhb3B0cz1TaW1pbGFyUGVybWFsaW5rczpUaW1lT3V0PTMwbXNiLW1pZGRsZV9tZXRhb3B0cz1XaXphcmQ6UmFuZG9tR3JvdXBTZWxlY3Rpb249MWIpbWlkZGxlX21ldGFvcHRzPUdFT19TTklQUEVUUzpUaW1lT3V0PTUwbXNiKm1pZGRsZV9tZXRhb3B0cz1XaXphcmQ6VXNlU3RhYmxlQ29ubkhhc2g9MGI2ZXhwZXJpbWVudGFsX21pZGRsZV9tZXRhb3B0cz1HRU9fU05JUFBFVFM6VGltZU91dD01MG1zYi1taWRkbGVfbWV0YW9wdHM9V2l6YXJkOlJhbmRvbUdyb3VwU2VsZWN0aW9uPTFiLm1pZGRsZV9tZXRhb3B0cz1TaW1pbGFyUGVybWFsaW5rczpUaW1lT3V0PTMwbXNiKm1pZGRsZV9tZXRhb3B0cz1XaXphcmQ6VXNlU3RhYmxlQ29ubkhhc2g9MGIpbWlkZGxlX21ldGFvcHRzPUdFT19TTklQUEVUUzpUaW1lT3V0PTUwbXNqAnV6nQHNzMw9oAEAqAEAvQG5IrWBwgEGi8q5%2Bc8EggIb0JPQsNCy0LDQudC4INCw0LrQstCw0LHQsNGAigIAkgIFMjkzMjiaAgxkZXNrdG9wLW1hcHM%3D&sll=59.595476%2C42.535307&sspn=0.019340%2C0.009332&text=%D0%93%D0%B0%D0%B2%D0%B0%D0%B9%D0%B8%20%D0%B0%D0%BA%D0%B2%D0%B0%D0%B1%D0%B0%D1%80&z=16.57
 
 Адрес: 
-Республика Каракалпакстан, Нукусский район, аульский сход граждан Саманбай
+
+Республика Каракалпакстан, Нукус, Хожан ауыл Алгыс-59 Улица: Аяз кала 9
 
 соц сети
 https://www.instagram.com/zolotoy.gorod_aquapark
@@ -17,26 +18,32 @@ https://www.instagram.com/zolotoy.gorod_aquapark
 сайт
 
 номера 
-+998 88 963 43 53
++998 88 211 88 80
++998907008880
 
 Режим работы  	
 11:00-23:00
 
 цены
-до 3 лет бесплатно
-от 3 до 12 лет 30 000
-от 12 старше 60 000
+каждый весь день 
+взрослые 100 000
+детский 50 000
+
+после 18:00 каждый день
+Взрослые 50 000
+десткие 25 000
 
 Добавлено новые картинки
 
 Удобства
-Тапчаны, Юрты, Беседки🍽
-Лучшие Диджеи города
+парковка тапчан  
 
 Доп информация
-на против Ата-Макана
-на скрине 1, 2, 3
-9 бесетки 32 тапчана
+на скрине 
+🎉 Пенные вечеринки и яркие шоу
+🎶 Музыка, танцы
+🍔 Вкусная кухня и напитки
+
 
 тип 
 Открытый бассейн

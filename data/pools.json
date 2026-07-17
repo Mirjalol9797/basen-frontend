@@ -6090,6 +6090,121 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "gavaii-aquabar-nukus",
+    "slug": "gavaii-aquabar-nukus",
+    "translations": {
+      "ru": {
+        "name": "Гавайи Аквабар Нукус",
+        "address": "Республика Каракалпакстан, Нукус, Хожан ауыл Алгыс-59, улица Аяз кала, 9",
+        "description": "Открытый аквабар в Нукусе с пенными вечеринками и яркими шоу, музыкой и танцами, кухней и напитками. Посещение бассейна без купальника или плавок запрещено — штраф 100 000 сум. Вход со своей едой запрещён."
+      },
+      "uz": {
+        "name": "Gavayi Akvabar Nukus",
+        "address": "Qoraqalpog'iston Respublikasi, Nukus, Xo'jaobod ovul Algis-59, Ayaz qal'a ko'chasi, 9",
+        "description": null
+      },
+      "en": {
+        "name": "Hawaii Aquabar Nukus",
+        "address": "9 Ayaz Kala str., Nukus, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 42.535307,
+      "lng": 59.595476
+    },
+    "phone": [
+      "+998 88 211-88-80",
+      "+998 90 700-88-80"
+    ],
+    "telegram": null,
+    "instagram": "https://www.instagram.com/gavaii_aquabar/",
+    "website": null,
+    "gallery": [
+      "/images/pools/gavaii-aquabar-nukus/1.webp",
+      "/images/pools/gavaii-aquabar-nukus/2.jpg",
+      "/images/pools/gavaii-aquabar-nukus/3.webp",
+      "/images/pools/gavaii-aquabar-nukus/4.webp",
+      "/images/pools/gavaii-aquabar-nukus/5.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.adult_fullday",
+        "amount": 100000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_fullday",
+        "amount": 50000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_after18",
+        "amount": 50000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.child_after18",
+        "amount": 25000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "11:00",
+        "close": "23:00"
+      }
+    ],
+    "services": [
+      "parking",
+      "sunbed"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 4.3,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "studio13",
     "slug": "studio13",
     "translations": {

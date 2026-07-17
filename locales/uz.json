@@ -133,6 +133,8 @@
     "group": "Guruh",
     "season": "Mavsumiy",
     "adult_after16": "Kattalar (16:00 dan keyin)",
+    "adult_after18": "Kattalar (18:00 dan keyin)",
+    "child_after18": "Bolalar (18:00 dan keyin)",
     "sunbed_large": "Topchan (katta)",
     "sunbed_small": "Topchan (kichik)",
     "gazebo_rental_day": "Besedka ijarasi (kun)",

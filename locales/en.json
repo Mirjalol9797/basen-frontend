@@ -133,6 +133,8 @@
     "group": "Group",
     "season": "Season pass",
     "adult_after16": "Adult (after 16:00)",
+    "adult_after18": "Adult (after 18:00)",
+    "child_after18": "Child (after 18:00)",
     "sunbed_large": "Sunbed (large)",
     "sunbed_small": "Sunbed (small)",
     "gazebo_rental_day": "Gazebo rental (day)",
