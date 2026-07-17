@@ -639,6 +639,71 @@
     "createdAt": "2026-07-16T00:00:00Z"
   },
   {
+    "id": "aral-nukus",
+    "slug": "aral-nukus",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Арал",
+        "address": "ул. Каракалпакстан, 24А, Нукус, Республика Каракалпакстан",
+        "description": "Крытый бассейн «Арал» в Нукусе с парковкой и тренером на месте."
+      },
+      "uz": {
+        "name": "Aral basseyni",
+        "address": "Qoraqalpog'iston ko'chasi, 24A, Nukus, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "Aral Pool",
+        "address": "24A Karakalpakstan str., Nukus, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 42.459202,
+      "lng": 59.599810
+    },
+    "phone": [
+      "+998 88 405-55-56",
+      "+998 93 517-78-38"
+    ],
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aral-nukus/1.webp",
+      "/images/pools/aral-nukus/2.webp",
+      "/images/pools/aral-nukus/3.webp",
+      "/images/pools/aral-nukus/4.webp",
+      "/images/pools/aral-nukus/5.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "21:30" },
+      { "day": "tue", "open": "09:00", "close": "21:30" },
+      { "day": "wed", "open": "09:00", "close": "21:30" },
+      { "day": "thu", "open": "09:00", "close": "21:30" },
+      { "day": "fri", "open": "09:00", "close": "21:30" },
+      { "day": "sat", "open": "09:00", "close": "21:30" },
+      { "day": "sun", "open": "09:00", "close": "21:30" }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.9,
+    "ratingYandex": 4.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
