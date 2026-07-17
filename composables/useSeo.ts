@@ -24,20 +24,23 @@ export function buildOpeningHours(schedule: ScheduleDay[] | null): string[] {
 export const usePoolSeo = (pool: Pool) => {
   const { locale } = useI18n()
   const price = minPrice(pool.prices)
+  const priceClause = price > 0 ? `Цены от ${formatPrice(price)}, абонементы` : 'Абонементы'
   const districtName = getDistrictName(pool.district, locale.value)
 
   useSeoMeta({
     title: `${pool.name} — цены 2026, расписание, отзывы | Basen.uz`,
-    description: `Бассейн ${pool.name} в ${districtName}, Ташкент. Цены от ${formatPrice(price)} сум, абонементы, расписание и фото. Адрес, телефон и отзывы.`,
+    description: `Бассейн ${pool.name} в ${districtName}, Ташкент. ${priceClause}, расписание и фото. Адрес, телефон и отзывы.`,
     ogTitle: `${pool.name} — бассейн в Ташкенте | Basen.uz`,
-    ogDescription: `${pool.name}, ${districtName}, Ташкент. Цены от ${formatPrice(price)} сум, абонементы, расписание.`,
+    ogDescription: `${pool.name}, ${districtName}, Ташкент. ${priceClause}, расписание.`,
     ogImage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
     ogType: 'website',
     ogUrl: `${BASE_URL}/catalog/${pool.slug}`,
     ogSiteName: 'Basen.uz',
     twitterCard: 'summary_large_image',
     twitterTitle: `${pool.name} | Basen.uz`,
-    twitterDescription: `${pool.name} в Ташкенте. Цены от ${formatPrice(price)}.`,
+    twitterDescription: price > 0
+      ? `${pool.name} в Ташкенте. Цены от ${formatPrice(price)}.`
+      : `${pool.name} в Ташкенте.`,
     twitterImage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
   })
 
