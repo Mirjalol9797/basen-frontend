@@ -5981,6 +5981,115 @@
     "createdAt": "2026-07-16T00:00:00Z"
   },
   {
+    "id": "zolotoy-gorod-aquapark-nukus",
+    "slug": "zolotoy-gorod-aquapark-nukus",
+    "translations": {
+      "ru": {
+        "name": "Золотой город Нукус",
+        "address": "Республика Каракалпакстан, Нукусский район, аульский сход граждан Саманбай",
+        "description": "Открытый аквапарк напротив Ата-Макана: 9 беседок и 32 топчана, юрты, лучшие диджеи города. Аренда беседки — 50 000 сум/день. Вход в аквапарк без купального костюма запрещён, за оставленные вещи администрация ответственности не несёт."
+      },
+      "uz": {
+        "name": "Zolotoy gorod Nukus",
+        "address": "Qoraqalpog'iston Respublikasi, Nukus tumani, Samanboy qishloq fuqarolar yig'ini",
+        "description": null
+      },
+      "en": {
+        "name": "Zolotoy Gorod Nukus",
+        "address": "Samanbay rural community, Nukus district, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 42.529014,
+      "lng": 59.575774
+    },
+    "phone": [
+      "+998 88 963-43-53"
+    ],
+    "telegram": null,
+    "instagram": "https://www.instagram.com/zolotoy.gorod_aquapark/",
+    "website": null,
+    "gallery": [
+      "/images/pools/zolotoy-gorod-aquapark-nukus/1.webp",
+      "/images/pools/zolotoy-gorod-aquapark-nukus/2.webp",
+      "/images/pools/zolotoy-gorod-aquapark-nukus/3.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.child_single",
+        "amount": 30000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_single",
+        "amount": 60000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.gazebo_rental_day",
+        "amount": 50000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "11:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "11:00",
+        "close": "23:00"
+      }
+    ],
+    "services": [
+      "sunbed",
+      "yurt",
+      "gazebo",
+      "disco_bar"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3,
+    "ratingYandex": 4.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "studio13",
     "slug": "studio13",
     "translations": {

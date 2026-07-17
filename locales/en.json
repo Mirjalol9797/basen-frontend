@@ -135,6 +135,7 @@
     "adult_after16": "Adult (after 16:00)",
     "sunbed_large": "Sunbed (large)",
     "sunbed_small": "Sunbed (small)",
+    "gazebo_rental_day": "Gazebo rental (day)",
     "class_start_kids": "Start Kids — group up to 14 kids, age 6–14 (60 min)",
     "class_pro_team": "Pro Team — group up to 15 kids, age 6–14 (90 min)",
     "class_pro_adult": "Pro Adult — group up to 10 people, age 14+ (60 min)",
@@ -224,7 +225,9 @@
     "accessible_toilet": "Accessible toilet",
     "ramp": "Wheelchair ramp",
     "accessible_parking": "Accessible parking",
-    "elevator": "Elevator"
+    "elevator": "Elevator",
+    "yurt": "Yurts",
+    "gazebo": "Gazebos"
   },
   "schedule": {
     "mon": "Monday",

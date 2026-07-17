@@ -135,6 +135,7 @@
     "adult_after16": "Взрослый (после 16:00)",
     "sunbed_large": "Топчан (большой)",
     "sunbed_small": "Топчан (маленький)",
+    "gazebo_rental_day": "Аренда беседки (день)",
     "class_start_kids": "Start Kids — группа до 14 детей, 6–14 лет (60 мин)",
     "class_pro_team": "Pro Team — группа до 15 детей, 6–14 лет (90 мин)",
     "class_pro_adult": "Pro Adult — группа до 10 человек, от 14 лет (60 мин)",
@@ -224,7 +225,9 @@
     "accessible_toilet": "Туалет для людей с инвалидностью",
     "ramp": "Пандус",
     "accessible_parking": "Парковка для людей с инвалидностью",
-    "elevator": "Лифт"
+    "elevator": "Лифт",
+    "yurt": "Юрты",
+    "gazebo": "Беседки"
   },
   "schedule": {
     "mon": "Понедельник",
