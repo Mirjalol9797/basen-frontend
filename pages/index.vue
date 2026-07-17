@@ -4,6 +4,7 @@
     <HomeCategories />
     <HomeTopRated />
     <HomeRegions />
+    <HomeRegionPools />
     <HomeFeatured />
     <HomeLatest />
     <HomeWhyUs />

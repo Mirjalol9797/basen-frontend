@@ -278,6 +278,8 @@
     "similar": "Similar pools",
     "other_in_district": "Other pools in {district}",
     "see_all_in_district": "All pools in this district",
+    "other_in_region": "Other pools in {region}",
+    "see_all_in_region": "All pools in this region",
     "no_results": "Nothing found",
     "no_results_desc": "Try changing the filters",
     "reset_filters": "Reset filters",

@@ -20,7 +20,17 @@ export const usePool = (slug: Ref<string> | ComputedRef<string>) => {
       .slice(0, 4)
   })
 
-  return { pool, similar, sameDistrict }
+  const sameRegion = computed(() => {
+    const region = pool.value?.region
+    if (!region) return []
+    const similarSlugs = new Set(similar.value.map(p => p.slug))
+    return store.all
+      .filter(p => p.slug !== slug.value && p.region === region && !similarSlugs.has(p.slug))
+      .sort((a, b) => b.ratingGoogle - a.ratingGoogle)
+      .slice(0, 4)
+  })
+
+  return { pool, similar, sameDistrict, sameRegion }
 }
 
 export const usePoolReviews = async (poolId: string): Promise<Review[]> => {

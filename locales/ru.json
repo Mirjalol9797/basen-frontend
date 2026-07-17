@@ -278,6 +278,8 @@
     "similar": "Похожие бассейны",
     "other_in_district": "Другие бассейны {district}",
     "see_all_in_district": "Все бассейны района",
+    "other_in_region": "Другие бассейны {region}",
+    "see_all_in_region": "Все бассейны региона",
     "no_results": "Ничего не найдено",
     "no_results_desc": "Попробуйте изменить фильтры",
     "reset_filters": "Сбросить фильтры",
