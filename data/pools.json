@@ -978,6 +978,53 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "dvorec-vodnogo-sporta-karauzyak",
+    "slug": "dvorec-vodnogo-sporta-karauzyak",
+    "translations": {
+      "ru": {
+        "name": "Дворец водного спорта Караузяк",
+        "address": "махалля Кутлы Макан, городской посёлок Караузяк, Республика Каракалпакстан",
+        "description": "Крытый бассейн — Дворец водного спорта в Караузяке, с парковкой."
+      },
+      "uz": {
+        "name": "Qorao'zak suv sporti saroyi",
+        "address": "Qutli Maqon mahallasi, Qorao'zak shaharchasi, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "Karauzyak Water Sports Palace",
+        "address": "Kutly Makan mahalla, Karauzyak urban settlement, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 43.030531,
+      "lng": 60.016047
+    },
+    "phone": [],
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": null,
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 0,
+    "ratingYandex": 0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
