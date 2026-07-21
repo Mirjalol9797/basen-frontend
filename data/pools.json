@@ -1640,21 +1640,21 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
-    "id": "basseyn-xiva",
-    "slug": "basseyn-xiva",
+    "id": "aqua-basseyn-xiva",
+    "slug": "aqua-basseyn-xiva",
     "translations": {
       "ru": {
-        "name": "Бассейн Хива",
+        "name": "Aqua basseyn",
         "address": "махалля Шихлар, Хива, Хорезмская область",
-        "description": "Крытый бассейн в Хиве с парковкой и тренером."
+        "description": "Крытый бассейн Aqua в Хиве с парковкой, тренером и сауной."
       },
       "uz": {
-        "name": "Xiva basseyni",
+        "name": "Aqua basseyn",
         "address": "Shixlar mahallasi, Xiva, Xorazm viloyati",
         "description": null
       },
       "en": {
-        "name": "Khiva Pool",
+        "name": "Aqua Basseyn",
         "address": "Shikhlar mahalla, Khiva, Khorezm Region",
         "description": null
       }
@@ -1667,15 +1667,24 @@
       "lat": 41.369955,
       "lng": 60.344159
     },
-    "phone": [],
+    "phone": [
+      "+998 91 999-14-43"
+    ],
     "telegram": null,
     "website": null,
-    "gallery": [],
+    "gallery": [
+      "/images/pools/aqua-basseyn-xiva/1.webp",
+      "/images/pools/aqua-basseyn-xiva/2.webp",
+      "/images/pools/aqua-basseyn-xiva/3.webp",
+      "/images/pools/aqua-basseyn-xiva/4.webp",
+      "/images/pools/aqua-basseyn-xiva/5.webp"
+    ],
     "prices": [],
     "schedule": null,
     "services": [
       "parking",
-      "trainer"
+      "trainer",
+      "sauna"
     ],
     "season": "year-round",
     "poolLength": null,
