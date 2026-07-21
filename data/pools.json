@@ -1164,6 +1164,64 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "akula-urgench-basseyn",
+    "slug": "akula-urgench-basseyn",
+    "translations": {
+      "ru": {
+        "name": "Akula Urgench Basseyn",
+        "address": "5-й пр. Фирдоуси, 18, Ургенч, Хорезмская область",
+        "description": "Крытый бассейн Akula в Ургенче, работает круглосуточно, с парковкой."
+      },
+      "uz": {
+        "name": "Akula Urgench Basseyn",
+        "address": "Firdavsiy 5-tor ko'chasi, 18, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Akula Urgench Basseyn",
+        "address": "5th Firdousi Lane, 18, Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.5456,
+      "lng": 60.651916
+    },
+    "phone": [
+      "+998 88 235-22-22"
+    ],
+    "telegram": null,
+    "instagram": "https://www.instagram.com/akula_urgench/",
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "00:00", "close": "23:59" },
+      { "day": "tue", "open": "00:00", "close": "23:59" },
+      { "day": "wed", "open": "00:00", "close": "23:59" },
+      { "day": "thu", "open": "00:00", "close": "23:59" },
+      { "day": "fri", "open": "00:00", "close": "23:59" },
+      { "day": "sat", "open": "00:00", "close": "23:59" },
+      { "day": "sun", "open": "00:00", "close": "23:59" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 4.0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
