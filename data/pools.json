@@ -1282,6 +1282,74 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "aquapark-urganch",
+    "slug": "aquapark-urganch",
+    "translations": {
+      "ru": {
+        "name": "Аквапарк Ургенч",
+        "address": "парк культуры и отдыха имени Амира Темура, Ургенч, Хорезмская область",
+        "description": "Аквапарк в Ургенче на территории парка имени Амира Темура, работает круглосуточно. Топчаны, бар, парковка."
+      },
+      "uz": {
+        "name": "Urganch akvaparki",
+        "address": "Amir Temur nomidagi madaniyat va istirohat bog'i, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Urganch Aquapark",
+        "address": "Amir Temur Culture and Recreation Park, Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.556199,
+      "lng": 60.618094
+    },
+    "phone": [
+      "+998 91 993-11-17"
+    ],
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aquapark-urganch/1.webp",
+      "/images/pools/aquapark-urganch/2.webp",
+      "/images/pools/aquapark-urganch/3.webp",
+      "/images/pools/aquapark-urganch/4.webp",
+      "/images/pools/aquapark-urganch/5.webp",
+      "/images/pools/aquapark-urganch/6.webp",
+      "/images/pools/aquapark-urganch/7.webp",
+      "/images/pools/aquapark-urganch/8.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "00:00", "close": "23:59" },
+      { "day": "tue", "open": "00:00", "close": "23:59" },
+      { "day": "wed", "open": "00:00", "close": "23:59" },
+      { "day": "thu", "open": "00:00", "close": "23:59" },
+      { "day": "fri", "open": "00:00", "close": "23:59" },
+      { "day": "sat", "open": "00:00", "close": "23:59" },
+      { "day": "sun", "open": "00:00", "close": "23:59" }
+    ],
+    "services": [
+      "parking",
+      "sunbed",
+      "bar"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.0,
+    "ratingYandex": 4.7,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
