@@ -931,6 +931,53 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "basseyn-navoiy-kungrad",
+    "slug": "basseyn-navoiy-kungrad",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Навои",
+        "address": "ул. Алишер Навои, 7, Кунград, Республика Каракалпакстан",
+        "description": "Крытый бассейн в Кунграде с парковкой."
+      },
+      "uz": {
+        "name": "Navoiy basseyni",
+        "address": "Alisher Navoiy ko'chasi, 7, Qo'ng'irot, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "Navoi Pool",
+        "address": "7 Alisher Navoi str., Kungrad, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 43.046892,
+      "lng": 58.852892
+    },
+    "phone": [],
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": null,
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 2.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
