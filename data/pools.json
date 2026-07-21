@@ -1688,6 +1688,75 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "khiva-residence-hotel",
+    "slug": "khiva-residence-hotel",
+    "translations": {
+      "ru": {
+        "name": "Khiva Residence Hotel",
+        "address": "ул. Наджмиддина Кубро, 1, Хива, Хорезмская область",
+        "description": "Отель Khiva Residence с открытым бассейном для гостей отеля и парковкой."
+      },
+      "uz": {
+        "name": "Khiva Residence Hotel",
+        "address": "Najmiddin Kubro ko'chasi, 1, Xiva, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Khiva Residence Hotel",
+        "address": "1 Najmiddin Kubro str., Khiva, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.383396,
+      "lng": 60.359659
+    },
+    "phone": [
+      "+998 78 113-64-67",
+      "+998 97 528-68-60"
+    ],
+    "telegram": [
+      "https://t.me/Khivaresidence_bot"
+    ],
+    "email": "hotel@khivaresidence.uz",
+    "website": "http://khivaresidence.uz/",
+    "gallery": [
+      "/images/pools/khiva-residence-hotel/1.webp",
+      "/images/pools/khiva-residence-hotel/2.webp",
+      "/images/pools/khiva-residence-hotel/3.webp",
+      "/images/pools/khiva-residence-hotel/4.webp",
+      "/images/pools/khiva-residence-hotel/5.webp",
+      "/images/pools/khiva-residence-hotel/6.webp",
+      "/images/pools/khiva-residence-hotel/7.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.1,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
