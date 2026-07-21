@@ -23,6 +23,10 @@ export function buildOpeningHours(schedule: ScheduleDay[] | null): string[] {
 
 export const usePoolSeo = (pool: Pool) => {
   const { locale } = useI18n()
+  const route = useRoute()
+  const localePath = useLocalePath()
+  // Self-referencing canonical for the CURRENT locale (route.path already carries /uz, /en prefix).
+  const canonicalUrl = `${BASE_URL}${route.path}`
   const price = minPrice(pool.prices)
   const priceClause = price > 0 ? `Цены от ${formatPrice(price)}, абонементы` : 'Абонементы'
   const districtName = getDistrictName(pool.district, locale.value)
@@ -34,7 +38,7 @@ export const usePoolSeo = (pool: Pool) => {
     ogDescription: `${pool.name}, ${districtName}, Ташкент. ${priceClause}, расписание.`,
     ogImage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
     ogType: 'website',
-    ogUrl: `${BASE_URL}/catalog/${pool.slug}`,
+    ogUrl: canonicalUrl,
     ogSiteName: 'Basen.uz',
     twitterCard: 'summary_large_image',
     twitterTitle: `${pool.name} | Basen.uz`,
@@ -49,7 +53,7 @@ export const usePoolSeo = (pool: Pool) => {
     '@type': 'SportsActivityLocation',
     name: pool.name,
     description: pool.description,
-    url: `${BASE_URL}/catalog/${pool.slug}`,
+    url: canonicalUrl,
     ...(pool.phone.length > 0 && { telephone: pool.phone }),
     address: {
       '@type': 'PostalAddress',
@@ -81,9 +85,9 @@ export const usePoolSeo = (pool: Pool) => {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Главная', item: BASE_URL },
-      { '@type': 'ListItem', position: 2, name: 'Каталог', item: `${BASE_URL}/catalog` },
-      { '@type': 'ListItem', position: 3, name: pool.name, item: `${BASE_URL}/catalog/${pool.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Главная', item: `${BASE_URL}${localePath('/')}` },
+      { '@type': 'ListItem', position: 2, name: 'Каталог', item: `${BASE_URL}${localePath('/catalog')}` },
+      { '@type': 'ListItem', position: 3, name: pool.name, item: canonicalUrl },
     ],
   }
 
@@ -91,14 +95,14 @@ export const usePoolSeo = (pool: Pool) => {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     name: pool.name,
-    url: `${BASE_URL}/catalog/${pool.slug}`,
+    url: canonicalUrl,
     primaryImageOfPage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
     dateModified: pool.createdAt,
     inLanguage: locale.value,
   }
 
   useHead({
-    link: [{ rel: 'canonical', href: `${BASE_URL}/catalog/${pool.slug}` }],
+    link: [{ rel: 'canonical', href: canonicalUrl }],
     script: [
       { type: 'application/ld+json', children: JSON.stringify(schema), key: 'schema-pool' },
       { type: 'application/ld+json', children: JSON.stringify(breadcrumb), key: 'schema-breadcrumb' },
@@ -128,8 +132,11 @@ export const usePageSeo = (opts: {
   })
 
   if (opts.canonical) {
+    // Self-referencing canonical for the current locale — route.path keeps the /uz, /en prefix,
+    // so en/uz pages are no longer treated as duplicates of the default (ru) version.
+    const route = useRoute()
     useHead({
-      link: [{ rel: 'canonical', href: `${BASE_URL}${opts.canonical}` }],
+      link: [{ rel: 'canonical', href: `${BASE_URL}${route.path}` }],
     })
   }
 }
