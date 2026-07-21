@@ -1350,6 +1350,53 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "delfin-basseyn-urganch",
+    "slug": "delfin-basseyn-urganch",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Дельфин",
+        "address": "ул. Пахлавана Махмуда, 3/3, Ургенч, Хорезмская область",
+        "description": "Крытый бассейн «Дельфин» в Ургенче с парковкой."
+      },
+      "uz": {
+        "name": "Delfin basseyni",
+        "address": "Pahlavon Mahmud ko'chasi, 3/3, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Dolphin Pool",
+        "address": "3/3 Pahlavan Mahmud str., Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.554228,
+      "lng": 60.638462
+    },
+    "phone": [],
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": null,
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.0,
+    "ratingYandex": 4.0,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {

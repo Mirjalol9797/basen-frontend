@@ -78,7 +78,7 @@
             </section>
 
             <!-- Prices -->
-            <section>
+            <section v-if="pool.prices.length > 0">
               <h2 class="section-title">{{ $t('common.prices') }}</h2>
               <div class="bg-white rounded-2xl shadow-card p-5">
                 <PoolPrices :prices="pool.prices" />
@@ -86,7 +86,7 @@
             </section>
 
             <!-- Schedule -->
-            <section>
+            <section v-if="pool.schedule && pool.schedule.length > 0">
               <h2 class="section-title">{{ $t('common.schedule') }}</h2>
               <div class="bg-white rounded-2xl shadow-card p-4">
                 <PoolSchedule :schedule="pool.schedule" />
