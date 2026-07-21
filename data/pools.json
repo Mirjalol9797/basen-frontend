@@ -1058,7 +1058,10 @@
     "telegram": null,
     "instagram": "https://www.instagram.com/suv.sport.saroyi/",
     "website": null,
-    "gallery": [],
+    "gallery": [
+      "/images/pools/suv-havzasi-beruni/1.jpg",
+      "/images/pools/suv-havzasi-beruni/2.jpg"
+    ],
     "prices": [
       {
         "key": "price.beruni_health_swim_monthly",
