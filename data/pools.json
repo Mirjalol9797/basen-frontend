@@ -1523,6 +1523,61 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "detskiy-letniy-basseyn-urganch",
+    "slug": "detskiy-letniy-basseyn-urganch",
+    "translations": {
+      "ru": {
+        "name": "Детский летний бассейн Ургенч",
+        "address": "ул. Г. Гулома, Ургенч, Хорезмская область",
+        "description": "Открытый детский бассейн в Ургенче, работает в летний сезон, с парковкой."
+      },
+      "uz": {
+        "name": "Urganch bolalar yozgi basseyni",
+        "address": "G. G'ulom ko'chasi, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Urgench Children's Summer Pool",
+        "address": "G. Gulom str., Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "children",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.547323,
+      "lng": 60.632337
+    },
+    "phone": [],
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 4.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
