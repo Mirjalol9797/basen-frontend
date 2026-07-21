@@ -1578,6 +1578,64 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "suv-sport-urganch",
+    "slug": "suv-sport-urganch",
+    "translations": {
+      "ru": {
+        "name": "Спортивная школа по водным видам спорта Ургенч",
+        "address": "ул. Г. Гулома, Ургенч, Хорезмская область",
+        "description": "Крытая спортивная школа по видам водного спорта в Ургенче, с парковкой и тренером."
+      },
+      "uz": {
+        "name": "Urganch suv sport turlariga ixtisoslashtirilgan sport maktabi",
+        "address": "G. G'ulom ko'chasi, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Urgench Water Sports School",
+        "address": "G. Gulom str., Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.547323,
+      "lng": 60.632337
+    },
+    "phone": [
+      "+998 90 438-22-92"
+    ],
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "21:00" },
+      { "day": "tue", "open": "09:00", "close": "21:00" },
+      { "day": "wed", "open": "09:00", "close": "21:00" },
+      { "day": "thu", "open": "09:00", "close": "21:00" },
+      { "day": "fri", "open": "09:00", "close": "21:00" },
+      { "day": "sat", "open": "09:00", "close": "21:00" },
+      { "day": "sun", "open": "09:00", "close": "21:00" }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 4.7,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
