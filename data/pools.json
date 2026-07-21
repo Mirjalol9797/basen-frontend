@@ -1025,6 +1025,142 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "suv-havzasi-beruni",
+    "slug": "suv-havzasi-beruni",
+    "translations": {
+      "ru": {
+        "name": "Сув Хавзаси Беруни",
+        "address": "улица Халклар Достлиги, Беруни, Республика Каракалпакстан",
+        "description": "Крытый водный комплекс в Беруни с 4 бассейнами (для взрослых 50 м, для детей 5–7 лет и для малышей 2–4 года), тренажёрным залом и профессиональными тренерами."
+      },
+      "uz": {
+        "name": "Beruniy suv havzasi",
+        "address": "Xalqlar Do'stligi ko'chasi, Beruniy, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "Beruni Water Basin",
+        "address": "Khalklar Dostligi str., Beruni, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 41.686399,
+      "lng": 60.735502
+    },
+    "phone": [
+      "+998 55 506-94-95"
+    ],
+    "telegram": null,
+    "instagram": "https://www.instagram.com/suv.sport.saroyi/",
+    "website": null,
+    "gallery": [],
+    "prices": [
+      {
+        "key": "price.beruni_health_swim_monthly",
+        "amount": 1500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_adult_group_monthly",
+        "amount": 2000000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_kids7_14_group_monthly",
+        "amount": 1000000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_7plus_single",
+        "amount": 500000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_7plus_pass4",
+        "amount": 1600000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_7plus_pass8",
+        "amount": 3000000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_kids5_7_group_monthly",
+        "amount": 1200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_5_7_single",
+        "amount": 400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_5_7_pass4",
+        "amount": 1400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_5_7_pass8",
+        "amount": 2400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_toddler_group_monthly",
+        "amount": 1200000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_baby_freeswim_monthly",
+        "amount": 1000000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_toddler_single",
+        "amount": 400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_toddler_pass4",
+        "amount": 1400000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.beruni_individual_toddler_pass8",
+        "amount": 2400000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "18:00" },
+      { "day": "tue", "open": "08:00", "close": "18:00" },
+      { "day": "wed", "open": "08:00", "close": "18:00" },
+      { "day": "thu", "open": "08:00", "close": "18:00" },
+      { "day": "fri", "open": "08:00", "close": "18:00" },
+      { "day": "sat", "open": "08:00", "close": "18:00" },
+      { "day": "sun", "open": "08:00", "close": "18:00", "closed": true }
+    ],
+    "services": [
+      "parking",
+      "trainer",
+      "gym"
+    ],
+    "season": "year-round",
+    "poolLength": 50,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.7,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
