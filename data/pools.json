@@ -1397,6 +1397,64 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "basseyn-sportkolledj-urganch",
+    "slug": "basseyn-sportkolledj-urganch",
+    "translations": {
+      "ru": {
+        "name": "Бассейн спортколледжа Ургенч",
+        "address": "ул. Жайхун, Ургенч, Хорезмская область",
+        "description": "Крытый бассейн спортивного колледжа в Ургенче с парковкой."
+      },
+      "uz": {
+        "name": "Urganch sport kolleji basseyni",
+        "address": "Jayxun ko'chasi, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Urgench Sports College Pool",
+        "address": "Jaykhun str., Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.574078,
+      "lng": 60.633753
+    },
+    "phone": [],
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-sportkolledj-urganch/1.jpg",
+      "/images/pools/basseyn-sportkolledj-urganch/2.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "22:00" },
+      { "day": "tue", "open": "08:00", "close": "22:00" },
+      { "day": "wed", "open": "08:00", "close": "22:00" },
+      { "day": "thu", "open": "08:00", "close": "22:00" },
+      { "day": "fri", "open": "08:00", "close": "22:00" },
+      { "day": "sat", "open": "08:00", "close": "22:00" },
+      { "day": "sun", "open": "08:00", "close": "22:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.5,
+    "ratingYandex": 3.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
