@@ -1766,6 +1766,68 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "atlantic-basseyn-xonqa",
+    "slug": "atlantic-basseyn-xonqa",
+    "translations": {
+      "ru": {
+        "name": "Atlantic Basseyn Sauna",
+        "address": "1-й проезд Тадбиркорлар, 20, махалля Гулистон, Ханкинский район, Хорезмская область",
+        "description": "Крытый бассейн с сауной Atlantic в Ханкинском районе, работает круглосуточно, с парковкой."
+      },
+      "uz": {
+        "name": "Atlantic Basseyn Sauna",
+        "address": "Tadbirkorlar 1-o'tish ko'chasi, 20, Guliston mahallasi, Xonqa tumani, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Atlantic Basseyn Sauna",
+        "address": "1st Tadbirkorlar Lane, 20, Guliston mahalla, Khanka district, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.499859,
+      "lng": 60.727259
+    },
+    "phone": [
+      "+998 55 601-55-55"
+    ],
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/atlantic-basseyn-xonqa/1.jpg",
+      "/images/pools/atlantic-basseyn-xonqa/2.jpg",
+      "/images/pools/atlantic-basseyn-xonqa/3.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "00:00", "close": "23:59" },
+      { "day": "tue", "open": "00:00", "close": "23:59" },
+      { "day": "wed", "open": "00:00", "close": "23:59" },
+      { "day": "thu", "open": "00:00", "close": "23:59" },
+      { "day": "fri", "open": "00:00", "close": "23:59" },
+      { "day": "sat", "open": "00:00", "close": "23:59" },
+      { "day": "sun", "open": "00:00", "close": "23:59" }
+    ],
+    "services": [
+      "parking",
+      "sauna"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
