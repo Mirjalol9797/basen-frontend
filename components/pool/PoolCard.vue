@@ -97,9 +97,10 @@
 
         <!-- Price + season -->
         <div
-          class="flex items-center justify-between mt-auto pt-2 border-t border-gray-50"
+          class="flex items-center mt-auto pt-2 border-t border-gray-50"
+          :class="hasPrice ? 'justify-between' : 'justify-end'"
         >
-          <div class="flex items-baseline gap-1">
+          <div v-if="hasPrice" class="flex items-baseline gap-1">
             <span class="text-xs text-gray-400">{{ $t("price.from") }}</span>
             <span class="text-base font-bold text-primary-700">{{
               priceDisplay
@@ -140,10 +141,8 @@ const locationName = computed(() => {
   return null;
 });
 
-const priceDisplay = computed(() => {
-  const p = minPrice(props.pool.prices);
-  return p > 0 ? formatPrice(p) : "—";
-});
+const hasPrice = computed(() => minPrice(props.pool.prices) > 0);
+const priceDisplay = computed(() => formatPrice(minPrice(props.pool.prices)));
 
 const placeholderClasses = {
   open: "bg-gradient-to-br from-sky-400 to-blue-500",
