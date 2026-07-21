@@ -1252,7 +1252,12 @@
     "phone": [],
     "telegram": null,
     "website": null,
-    "gallery": [],
+    "gallery": [
+      "/images/pools/bolalar-suv-sporti-saroyi-urganch/1.jpg",
+      "/images/pools/bolalar-suv-sporti-saroyi-urganch/2.jpg",
+      "/images/pools/bolalar-suv-sporti-saroyi-urganch/3.jpg",
+      "/images/pools/bolalar-suv-sporti-saroyi-urganch/4.webp"
+    ],
     "prices": [],
     "schedule": [
       { "day": "mon", "open": "09:00", "close": "20:00" },
