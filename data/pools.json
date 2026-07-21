@@ -1828,6 +1828,79 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "hotel-asia-khiva",
+    "slug": "hotel-asia-khiva",
+    "translations": {
+      "ru": {
+        "name": "Hotel Asia Khiva",
+        "address": "ул. Дешанкала, 62, Хива, Хорезмская область",
+        "description": "Отель Hotel Asia Khiva с открытым бассейном, баром у бассейна, рестораном, баней и бесплатным Wi-Fi."
+      },
+      "uz": {
+        "name": "Hotel Asia Khiva",
+        "address": "Dishonqal'a ko'chasi, 62, Xiva, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Hotel Asia Khiva",
+        "address": "62 Dishonqala str., Khiva, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.374131,
+      "lng": 60.358554
+    },
+    "phone": [
+      "+998 55 603-65-65",
+      "+998 91 570-67-60",
+      "+998 62 375-76-83"
+    ],
+    "telegram": null,
+    "email": "hotelasiakhiva@rambler.ru",
+    "website": "https://khiva.asiahotels.uz/",
+    "gallery": [
+      "/images/pools/hotel-asia-khiva/1.webp",
+      "/images/pools/hotel-asia-khiva/2.webp",
+      "/images/pools/hotel-asia-khiva/3.webp",
+      "/images/pools/hotel-asia-khiva/4.webp",
+      "/images/pools/hotel-asia-khiva/5.webp",
+      "/images/pools/hotel-asia-khiva/6.webp",
+      "/images/pools/hotel-asia-khiva/7.webp",
+      "/images/pools/hotel-asia-khiva/8.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "00:00", "close": "23:59" },
+      { "day": "tue", "open": "00:00", "close": "23:59" },
+      { "day": "wed", "open": "00:00", "close": "23:59" },
+      { "day": "thu", "open": "00:00", "close": "23:59" },
+      { "day": "fri", "open": "00:00", "close": "23:59" },
+      { "day": "sat", "open": "00:00", "close": "23:59" },
+      { "day": "sun", "open": "00:00", "close": "23:59" }
+    ],
+    "services": [
+      "parking",
+      "wifi",
+      "restaurant",
+      "bar",
+      "russian_banya"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
