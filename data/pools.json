@@ -1060,7 +1060,8 @@
     "website": null,
     "gallery": [
       "/images/pools/suv-havzasi-beruni/1.jpg",
-      "/images/pools/suv-havzasi-beruni/2.jpg"
+      "/images/pools/suv-havzasi-beruni/2.jpg",
+      "/images/pools/suv-havzasi-beruni/3.webp"
     ],
     "prices": [
       {
@@ -1610,7 +1611,10 @@
     ],
     "telegram": null,
     "website": null,
-    "gallery": [],
+    "gallery": [
+      "/images/pools/suv-sport-urganch/1.jpg",
+      "/images/pools/suv-sport-urganch/2.jpg"
+    ],
     "prices": [],
     "schedule": [
       { "day": "mon", "open": "09:00", "close": "21:00" },
