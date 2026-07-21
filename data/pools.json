@@ -1241,7 +1241,7 @@
         "description": null
       }
     },
-    "category": "indoor",
+    "category": "sport",
     "district": null,
     "region": "khorezm",
     "city": null,
@@ -1269,7 +1269,8 @@
       { "day": "sun", "open": "09:00", "close": "20:00" }
     ],
     "services": [
-      "parking"
+      "parking",
+      "trainer"
     ],
     "season": "year-round",
     "poolLength": null,
@@ -1416,7 +1417,7 @@
         "description": null
       }
     },
-    "category": "indoor",
+    "category": "sport",
     "district": null,
     "region": "khorezm",
     "city": null,
@@ -1442,7 +1443,8 @@
       { "day": "sun", "open": "08:00", "close": "22:00" }
     ],
     "services": [
-      "parking"
+      "parking",
+      "trainer"
     ],
     "season": "year-round",
     "poolLength": null,
