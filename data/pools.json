@@ -1222,6 +1222,61 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "bolalar-suv-sporti-saroyi-urganch",
+    "slug": "bolalar-suv-sporti-saroyi-urganch",
+    "translations": {
+      "ru": {
+        "name": "Дворец детского водного спорта Ургенч",
+        "address": "ул. Гафура Гуляма, 1, Ургенч, Хорезмская область",
+        "description": "Крытый детский бассейн — Дворец водного спорта в Ургенче, с парковкой."
+      },
+      "uz": {
+        "name": "Bolalar suv sporti saroyi Urganch",
+        "address": "G'afur G'ulom ko'chasi, 1, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Urgench Children's Water Sports Palace",
+        "address": "1 Gafur Gulom str., Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.547373,
+      "lng": 60.636094
+    },
+    "phone": [],
+    "telegram": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.8,
+    "ratingYandex": 4.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
