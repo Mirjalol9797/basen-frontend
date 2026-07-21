@@ -800,6 +800,65 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "amudarya-basseyn-nukus",
+    "slug": "amudarya-basseyn-nukus",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Amudarya",
+        "address": "ул. Аллаяра Досназарова, 8A, Нукус, Республика Каракалпакстан",
+        "description": "Крытый бассейн «Amudarya» в Нукусе с парковкой."
+      },
+      "uz": {
+        "name": "Amudaryo basseyni",
+        "address": "Allayor Dosnazarov ko'chasi, 8A, Nukus, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "Amudarya Pool",
+        "address": "8A Allayar Dosnazarov str., Nukus, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 42.444123,
+      "lng": 59.634034
+    },
+    "phone": [
+      "+998 94 900-06-90"
+    ],
+    "telegram": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/amudarya-basseyn-nukus/1.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "22:00" },
+      { "day": "tue", "open": "09:00", "close": "22:00" },
+      { "day": "wed", "open": "09:00", "close": "22:00" },
+      { "day": "thu", "open": "09:00", "close": "22:00" },
+      { "day": "fri", "open": "09:00", "close": "22:00" },
+      { "day": "sat", "open": "09:00", "close": "22:00" },
+      { "day": "sun", "open": "09:00", "close": "22:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.6,
+    "ratingYandex": 4.3,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
