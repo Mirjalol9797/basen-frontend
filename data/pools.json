@@ -859,6 +859,78 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "basseyn-hammam-kungrad",
+    "slug": "basseyn-hammam-kungrad",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Кунград",
+        "address": "махалля Олмазор, ул. Олмалик, 2, Кунград, Республика Каракалпакстан",
+        "description": "Крытый бассейн в Кунграде с парковкой. Вход: до 5 лет — бесплатно, до 12 лет — 30 000 сум, от 12 лет — 50 000 сум."
+      },
+      "uz": {
+        "name": "Qo'ng'irot basseyni",
+        "address": "Olmazor mahallasi, Olmaliq ko'chasi, 2, Qo'ng'irot, Qoraqalpog'iston Respublikasi",
+        "description": null
+      },
+      "en": {
+        "name": "Kungrad Pool",
+        "address": "Olmazor mahalla, 2 Olmalik str., Kungrad, Republic of Karakalpakstan",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "karakalpakstan",
+    "city": null,
+    "coordinates": {
+      "lat": 43.023834,
+      "lng": 58.839134
+    },
+    "phone": [
+      "+998 91 006-83-61",
+      "+998 90 714-83-08"
+    ],
+    "telegram": null,
+    "instagram": "https://www.instagram.com/kungrad_basseyn",
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-hammam-kungrad/1.jpg"
+    ],
+    "prices": [
+      {
+        "key": "price.child_single",
+        "amount": 30000,
+        "currency": "UZS"
+      },
+      {
+        "key": "price.adult_single",
+        "amount": 50000,
+        "currency": "UZS"
+      }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "01:00" },
+      { "day": "tue", "open": "09:00", "close": "01:00" },
+      { "day": "wed", "open": "09:00", "close": "01:00" },
+      { "day": "thu", "open": "09:00", "close": "01:00" },
+      { "day": "fri", "open": "09:00", "close": "01:00" },
+      { "day": "sat", "open": "09:00", "close": "01:00" },
+      { "day": "sun", "open": "09:00", "close": "01:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
