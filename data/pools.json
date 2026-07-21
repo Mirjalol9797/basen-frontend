@@ -1457,6 +1457,72 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "khorezm-palace-hotel",
+    "slug": "khorezm-palace-hotel",
+    "translations": {
+      "ru": {
+        "name": "Khorezm Palace Hotel",
+        "address": "ул. Аль-Бируни, 2, Ургенч, Хорезмская область",
+        "description": "Отель Khorezm Palace в Ургенче со 103 номерами, рестораном и конференц-залом. Есть трансфер и аренда авто. Бассейн доступен для гостей отеля."
+      },
+      "uz": {
+        "name": "Khorezm Palace Hotel",
+        "address": "Al-Beruniy ko'chasi, 2, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Khorezm Palace Hotel",
+        "address": "2 Al-Beruni str., Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.551163,
+      "lng": 60.634285
+    },
+    "phone": [
+      "+998 62 224-99-99",
+      "+998 70 229-00-99"
+    ],
+    "telegram": [
+      "https://t.me/Khorezmpalacee"
+    ],
+    "instagram": "https://www.instagram.com/khorezmpalace_hotel",
+    "facebook": "https://www.facebook.com/people/Khorezm-Palace/pfbid05uyEELFYToFv6BhXdEr81ox9NKcW1JHaexJMTTJRKcmhFeQKAh4uj2pL8KDDyhzel/",
+    "website": "https://khorezmpalace.uz/uz",
+    "gallery": [
+      "/images/pools/khorezm-palace-hotel/1.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking",
+      "restaurant",
+      "conference_room"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
