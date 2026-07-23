@@ -2025,6 +2025,74 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "hotel-karavan-urganch",
+    "slug": "hotel-karavan-urganch",
+    "translations": {
+      "ru": {
+        "name": "Hotel Karavan",
+        "address": "ул. Ханка, 152, Ургенч, Хорезмская область",
+        "description": "Отель Karavan в Ургенче с детским бассейном, бесплатным Wi-Fi и парковкой."
+      },
+      "uz": {
+        "name": "Hotel Karavan",
+        "address": "Xonqa ko'chasi, 152, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Hotel Karavan",
+        "address": "152 Khanka str., Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.546163,
+      "lng": 60.619005
+    },
+    "phone": [
+      "+998 62 226-06-06"
+    ],
+    "telegram": [
+      "https://t.me/ReceptionKaravan"
+    ],
+    "instagram": "https://www.instagram.com/karavan__hotel/",
+    "website": null,
+    "gallery": [
+      "/images/pools/hotel-karavan-urganch/1.webp",
+      "/images/pools/hotel-karavan-urganch/2.webp",
+      "/images/pools/hotel-karavan-urganch/3.webp",
+      "/images/pools/hotel-karavan-urganch/4.webp",
+      "/images/pools/hotel-karavan-urganch/5.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking",
+      "wifi",
+      "children_zone"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.9,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
