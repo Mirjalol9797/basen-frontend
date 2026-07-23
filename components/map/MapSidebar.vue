@@ -124,7 +124,7 @@ const activeCategory = ref<PoolCategory | null>(null)
 
 const filteredPools = computed(() =>
   activeCategory.value
-    ? props.pools.filter(p => p.category === activeCategory.value)
+    ? props.pools.filter(p => poolInCategory(p, activeCategory.value!))
     : props.pools
 )
 </script>

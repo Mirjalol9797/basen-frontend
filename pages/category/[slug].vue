@@ -206,7 +206,7 @@ const category = computed(
 
 const pools = computed(() =>
   poolsStore.all
-    .filter((p) => p.category === (slug as PoolCategory))
+    .filter((p) => poolInCategory(p, slug as PoolCategory))
     .sort((a, b) => avgRating(b) - avgRating(a))
 );
 
@@ -224,7 +224,7 @@ function hashSeed(str: string): number {
 
 const randomOtherPools = computed(() => {
   const others = poolsStore.all.filter(
-    (p) => p.category !== (slug as PoolCategory)
+    (p) => !poolInCategory(p, slug as PoolCategory)
   );
   return [...others]
     .sort((a, b) => hashSeed(slug + a.id) - hashSeed(slug + b.id))

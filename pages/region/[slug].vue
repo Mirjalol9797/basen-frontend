@@ -251,7 +251,7 @@ const filteredPools = computed(() => {
   let result = pools.value;
   if (selectedCategories.value.length > 0)
     result = result.filter((p) =>
-      selectedCategories.value.includes(p.category)
+      poolCategories(p).some((c) => selectedCategories.value.includes(c))
     );
   if (selectedSeason.value)
     result = result.filter((p) => p.season === selectedSeason.value);

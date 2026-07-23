@@ -7,7 +7,7 @@ export const usePools = () => {
     const f = filtersStore.active
 
     if (f.categories.length > 0)
-      result = result.filter(p => f.categories.includes(p.category))
+      result = result.filter(p => poolCategories(p).some(c => f.categories.includes(c)))
 
     if (f.region)
       result = result.filter(p => p.region === f.region)

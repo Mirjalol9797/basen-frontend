@@ -58,7 +58,8 @@ const { categories } = useCategories()
 const countByCategory = computed(() => {
   const counts: Record<string, number> = {}
   for (const pool of poolsStore.all) {
-    counts[pool.category] = (counts[pool.category] || 0) + 1
+    for (const c of poolCategories(pool))
+      counts[c] = (counts[c] || 0) + 1
   }
   return counts
 })

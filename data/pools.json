@@ -8731,5 +8731,106 @@
     "reviewCount": 6,
     "featured": false,
     "createdAt": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "atlantis-pool-bukhara",
+    "slug": "atlantis-pool-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Atlantis Pool",
+        "address": "ул. Иброгима Муминова, Бухара, Бухарская область",
+        "description": "Современный спортивно-развлекательный комплекс Atlantis Pool & Gym в Бухаре: открытый и закрытый бассейны, детский бассейн, сауны и хаммамы, массаж, фитнес-зал и скалодром. Работает круглый год (зимний и летний бассейн). Утренняя скидка с 09:00 до 11:00. Ориентир: напротив городского военкомата, рядом с рестораном Фатхобод. Парковка на территории."
+      },
+      "uz": {
+        "name": "Atlantis Pool",
+        "address": "Ibrohim Mo'minov ko'chasi, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Atlantis Pool",
+        "address": "Ibrohim Muminov str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "categories": ["open", "indoor", "children"],
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.766742,
+      "lng": 64.440562
+    },
+    "phone": [
+      "+998 95 235-00-11",
+      "+998 91 401-80-80",
+      "+998 91 401-34-31"
+    ],
+    "telegram": null,
+    "facebook": "https://www.facebook.com/atlantispool.uz",
+    "instagram": "https://www.instagram.com/atlantispool.uz",
+    "email": "info@atlantispool.uz",
+    "website": "https://www.atlantispool.uz/",
+    "gallery": [
+      "/images/pools/atlantis-pool-bukhara/1.webp",
+      "/images/pools/atlantis-pool-bukhara/2.webp",
+      "/images/pools/atlantis-pool-bukhara/3.webp",
+      "/images/pools/atlantis-pool-bukhara/4.webp",
+      "/images/pools/atlantis-pool-bukhara/5.webp",
+      "/images/pools/atlantis-pool-bukhara/6.webp",
+      "/images/pools/atlantis-pool-bukhara/7.webp",
+      "/images/pools/atlantis-pool-bukhara/8.webp",
+      "/images/pools/atlantis-pool-bukhara/9.webp",
+      "/images/pools/atlantis-pool-bukhara/10.webp",
+      "/images/pools/atlantis-pool-bukhara/11.webp",
+      "/images/pools/atlantis-pool-bukhara/12.webp"
+    ],
+    "prices": [
+      { "key": "price.morning_adult_weekday", "amount": 60000, "currency": "UZS" },
+      { "key": "price.morning_child_weekday", "amount": 40000, "currency": "UZS" },
+      { "key": "price.morning_adult_weekend", "amount": 80000, "currency": "UZS" },
+      { "key": "price.morning_child_weekend", "amount": 50000, "currency": "UZS" },
+      { "key": "price.adult_weekday_1h", "amount": 60000, "currency": "UZS" },
+      { "key": "price.child_weekday_1h", "amount": 40000, "currency": "UZS" },
+      { "key": "price.adult_weekday_2h", "amount": 100000, "currency": "UZS" },
+      { "key": "price.child_weekday_2h", "amount": 70000, "currency": "UZS" },
+      { "key": "price.adult_weekend_1h", "amount": 80000, "currency": "UZS" },
+      { "key": "price.child_weekend_1h", "amount": 50000, "currency": "UZS" },
+      { "key": "price.adult_weekend_2h", "amount": 120000, "currency": "UZS" },
+      { "key": "price.child_weekend_2h", "amount": 80000, "currency": "UZS" },
+      { "key": "price.adult_vip_weekday", "amount": 130000, "currency": "UZS" },
+      { "key": "price.child_vip_weekday", "amount": 90000, "currency": "UZS" },
+      { "key": "price.adult_vip_weekend", "amount": 160000, "currency": "UZS" },
+      { "key": "price.child_vip_weekend", "amount": 110000, "currency": "UZS" },
+      { "key": "price.vip_hall_weekday_1h", "amount": 200000, "currency": "UZS" },
+      { "key": "price.vip_hall_weekend_1h", "amount": 250000, "currency": "UZS" },
+      { "key": "price.monthly_pass_5", "amount": 300000, "currency": "UZS" },
+      { "key": "price.monthly_pass_8", "amount": 400000, "currency": "UZS" },
+      { "key": "price.monthly_pass_15", "amount": 500000, "currency": "UZS" },
+      { "key": "price.monthly_pass_30_unlimited", "amount": 700000, "currency": "UZS" },
+      { "key": "price.yearly_pass_365_unlimited", "amount": 4500000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "22:00" },
+      { "day": "tue", "open": "09:00", "close": "22:00" },
+      { "day": "wed", "open": "09:00", "close": "22:00" },
+      { "day": "thu", "open": "09:00", "close": "22:00" },
+      { "day": "fri", "open": "09:00", "close": "22:00" },
+      { "day": "sat", "open": "09:00", "close": "22:00" },
+      { "day": "sun", "open": "09:00", "close": "22:00" }
+    ],
+    "services": [
+      "parking",
+      "sauna"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.8,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-23T00:00:00Z"
   }
 ]

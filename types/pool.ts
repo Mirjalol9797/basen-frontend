@@ -11,6 +11,7 @@ export interface Pool {
   address: string
   description: string
   category: PoolCategory
+  categories?: PoolCategory[]
   region: string
   district: string | null
   city: string | null
