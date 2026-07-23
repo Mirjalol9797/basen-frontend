@@ -8925,5 +8925,77 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-23T00:00:00Z"
+  },
+  {
+    "id": "city-sport-bukhara",
+    "slug": "city-sport-bukhara",
+    "translations": {
+      "ru": {
+        "name": "City Sport",
+        "address": "ул. Мустакиллик, 73, Бухара, Бухарская область",
+        "description": "City Sport — спортивно-оздоровительный комплекс в Бухаре: крытый бассейн, тренажёрный зал, турецкий хаммам и финская баня. По пятницам с 09:00 до 16:00 бассейн работает только для женщин. Годовой абонемент — 3 500 000 сум. Ориентир: Кукольный театр, клиника SOFIMED, Болгарский посёлок. Парковка на территории."
+      },
+      "uz": {
+        "name": "City Sport",
+        "address": "Mustaqillik ko'chasi, 73, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "City Sport",
+        "address": "73 Mustaqillik str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.747790,
+      "lng": 64.440235
+    },
+    "phone": [
+      "+998 90 080-08-05",
+      "+998 90 968-30-33"
+    ],
+    "telegram": [
+      "https://t.me/citysportadmin"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/citysport.uz",
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/city-sport-bukhara/1.webp",
+      "/images/pools/city-sport-bukhara/2.webp",
+      "/images/pools/city-sport-bukhara/3.webp",
+      "/images/pools/city-sport-bukhara/4.webp"
+    ],
+    "prices": [
+      { "key": "price.annual_membership", "amount": 3500000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "23:59" },
+      { "day": "tue", "open": "09:00", "close": "23:59" },
+      { "day": "wed", "open": "09:00", "close": "23:59" },
+      { "day": "thu", "open": "09:00", "close": "23:59" },
+      { "day": "fri", "open": "09:00", "close": "23:59" },
+      { "day": "sat", "open": "09:00", "close": "23:59" },
+      { "day": "sun", "open": "09:00", "close": "23:59" }
+    ],
+    "services": [
+      "parking",
+      "trainer",
+      "sauna"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.3,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-23T00:00:00Z"
   }
 ]
