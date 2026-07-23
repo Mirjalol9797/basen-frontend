@@ -2093,6 +2093,74 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "bravo-lyuks-urganch",
+    "slug": "bravo-lyuks-urganch",
+    "translations": {
+      "ru": {
+        "name": "Bravo Lyuks",
+        "address": "ул. Гафура Гуляма, 9, Ургенч, Хорезмская область",
+        "description": "Отель Bravo Lyuks в Ургенче с бассейном, парковкой и бесплатным Wi-Fi."
+      },
+      "uz": {
+        "name": "Bravo Lyuks",
+        "address": "G'afur G'ulom ko'chasi, 9, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Bravo Lyuks",
+        "address": "9 Gafur Gulom str., Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.547655,
+      "lng": 60.637688
+    },
+    "phone": [
+      "+998 62 223-08-07",
+      "+998 99 623-08-07"
+    ],
+    "telegram": [
+      "https://t.me/BravoLyuks"
+    ],
+    "facebook": "https://www.facebook.com/bravolyuks",
+    "instagram": "https://www.instagram.com/bravolyuks",
+    "website": "https://www.bravo-lyuks.uz/",
+    "gallery": [
+      "/images/pools/bravo-lyuks-urganch/1.jpg",
+      "/images/pools/bravo-lyuks-urganch/2.webp",
+      "/images/pools/bravo-lyuks-urganch/3.jpg",
+      "/images/pools/bravo-lyuks-urganch/4.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking",
+      "wifi"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.6,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
