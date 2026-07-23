@@ -1954,6 +1954,77 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "antalya-grand-palace-urganch",
+    "slug": "antalya-grand-palace-urganch",
+    "translations": {
+      "ru": {
+        "name": "Antalya Grand Palace",
+        "address": "ул. Хонка, 1, махалля Машъал, Ургенч, Хорезмская область",
+        "description": "Отель Antalya Grand Palace в Ургенче, открылся в июле 2023 года. Номера со смарт-телевизором, холодильником, кондиционером, Wi-Fi и сейфом. Конференц-зал для бизнес-мероприятий и корпоративов, ресторан, бар, СПА-зона, сауна, большой бассейн, завтрак и фитнес-зал."
+      },
+      "uz": {
+        "name": "Antalya Grand Palace",
+        "address": "Xonqa ko'chasi, 1, Mash'al mahallasi, Urganch, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Antalya Grand Palace",
+        "address": "1 Khonka str., Mashal mahalla, Urgench, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.545728,
+      "lng": 60.616322
+    },
+    "phone": [
+      "+998 55 601-25-25",
+      "+998 97 603-55-55"
+    ],
+    "telegram": null,
+    "instagram": "https://www.instagram.com/antalya_grand_palace/",
+    "website": "https://antalyagrandpalace.com/",
+    "gallery": [
+      "/images/pools/antalya-grand-palace-urganch/1.jpg",
+      "/images/pools/antalya-grand-palace-urganch/2.jpg",
+      "/images/pools/antalya-grand-palace-urganch/3.jpg",
+      "/images/pools/antalya-grand-palace-urganch/4.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking",
+      "restaurant",
+      "bar",
+      "spa",
+      "sauna",
+      "conference_room",
+      "wifi",
+      "gym"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.6,
+    "ratingYandex": 4.7,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
