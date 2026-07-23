@@ -8832,5 +8832,98 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-23T00:00:00Z"
+  },
+  {
+    "id": "aquamarine-pool-bukhara",
+    "slug": "aquamarine-pool-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Aquamarine Spa and Pool",
+        "address": "ул. Мустакиллик, 7, этаж 1, Бухара, Бухарская область",
+        "description": "Aquamarine Spa and Pool — оздоровительный комплекс при отеле Sahid Zarafshon в Бухаре: крытый и открытый бассейн, детский бассейн, турецкий хаммам, финская сауна, массаж, спа, соляная пещера, джакузи и фитнес-клуб. Работает круглосуточно (24/7). Дневной тариф с 08:00 до 20:00, ночной — с 20:00 до 08:00. Парковка на территории."
+      },
+      "uz": {
+        "name": "Aquamarine Spa and Pool",
+        "address": "Mustaqillik ko'chasi, 7, 1-qavat, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Aquamarine Spa and Pool",
+        "address": "7 Mustaqillik str., floor 1, Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "categories": ["open", "indoor", "children"],
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.761726,
+      "lng": 64.426517
+    },
+    "phone": [
+      "+998 65 505-55-53"
+    ],
+    "telegram": [
+      "https://t.me/aquamarine_spaandpool"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/aquamarinespaandpool",
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aquamarine-pool-bukhara/1.jpg",
+      "/images/pools/aquamarine-pool-bukhara/2.jpg",
+      "/images/pools/aquamarine-pool-bukhara/3.webp",
+      "/images/pools/aquamarine-pool-bukhara/4.webp",
+      "/images/pools/aquamarine-pool-bukhara/5.webp",
+      "/images/pools/aquamarine-pool-bukhara/6.webp",
+      "/images/pools/aquamarine-pool-bukhara/7.webp",
+      "/images/pools/aquamarine-pool-bukhara/8.webp",
+      "/images/pools/aquamarine-pool-bukhara/9.webp",
+      "/images/pools/aquamarine-pool-bukhara/10.webp",
+      "/images/pools/aquamarine-pool-bukhara/11.webp",
+      "/images/pools/aquamarine-pool-bukhara/12.webp"
+    ],
+    "prices": [
+      { "key": "price.pool_day_1h", "amount": 100000, "currency": "UZS" },
+      { "key": "price.pool_day_group5_1h", "amount": 85000, "currency": "UZS" },
+      { "key": "price.pool_day_child_1h", "amount": 50000, "currency": "UZS" },
+      { "key": "price.pool_day_child_group5_1h", "amount": 40000, "currency": "UZS" },
+      { "key": "price.pool_vip_adult_day", "amount": 500000, "currency": "UZS" },
+      { "key": "price.pool_vip_child_day", "amount": 380000, "currency": "UZS" },
+      { "key": "price.sauna_day_1h", "amount": 150000, "currency": "UZS" },
+      { "key": "price.sauna_day_group5_1h", "amount": 125000, "currency": "UZS" },
+      { "key": "price.pool_night_1h", "amount": 120000, "currency": "UZS" },
+      { "key": "price.pool_night_group5_1h", "amount": 100000, "currency": "UZS" },
+      { "key": "price.pool_vip_adult_night", "amount": 650000, "currency": "UZS" },
+      { "key": "price.sauna_night_1h", "amount": 180000, "currency": "UZS" },
+      { "key": "price.sauna_night_group5_1h", "amount": 150000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "00:00", "close": "23:59" },
+      { "day": "tue", "open": "00:00", "close": "23:59" },
+      { "day": "wed", "open": "00:00", "close": "23:59" },
+      { "day": "thu", "open": "00:00", "close": "23:59" },
+      { "day": "fri", "open": "00:00", "close": "23:59" },
+      { "day": "sat", "open": "00:00", "close": "23:59" },
+      { "day": "sun", "open": "00:00", "close": "23:59" }
+    ],
+    "services": [
+      "parking",
+      "sauna",
+      "spa",
+      "jacuzzi"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-23T00:00:00Z"
   }
 ]
