@@ -2161,6 +2161,73 @@
     "createdAt": "2026-07-17T00:00:00Z"
   },
   {
+    "id": "hotel-farovon-khiva",
+    "slug": "hotel-farovon-khiva",
+    "translations": {
+      "ru": {
+        "name": "Hotel Farovon Khiva",
+        "address": "ул. Буюк Йул, 1A, Хива, Хорезмская область",
+        "description": "Отель Farovon Khiva с бассейном, парковкой и бесплатным Wi-Fi."
+      },
+      "uz": {
+        "name": "Hotel Farovon Khiva",
+        "address": "Buyuk Yo'l ko'chasi, 1A, Xiva, Xorazm viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Hotel Farovon Khiva",
+        "address": "1A Buyuk Yul str., Khiva, Khorezm Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "khorezm",
+    "city": null,
+    "coordinates": {
+      "lat": 41.401583,
+      "lng": 60.375336
+    },
+    "phone": [
+      "+998 62 227-78-78"
+    ],
+    "telegram": null,
+    "facebook": "https://www.facebook.com/farovon.khiva/",
+    "instagram": "https://www.instagram.com/farovon.khiva/",
+    "email": "reservation@farovonkhiva.uz",
+    "website": "https://farovonkhiva.uz/",
+    "gallery": [
+      "/images/pools/hotel-farovon-khiva/1.webp",
+      "/images/pools/hotel-farovon-khiva/2.webp",
+      "/images/pools/hotel-farovon-khiva/3.jpg",
+      "/images/pools/hotel-farovon-khiva/4.webp",
+      "/images/pools/hotel-farovon-khiva/5.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking",
+      "wifi"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.6,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00Z"
+  },
+  {
     "id": "atlantis",
     "slug": "atlantis",
     "translations": {
