@@ -1,0 +1,76 @@
+1. https://basen.uz/catalog/akvapark-priroda-nukus
+2. https://basen.uz/catalog/aqualand-nukus
+3. https://basen.uz/catalog/aral-nukus
+4. https://basen.uz/catalog/basseyn-xojayli
+5. https://basen.uz/catalog/born2swim-druzhba-narodov
+6. https://basen.uz/catalog/born2swim-nukusskaya
+7. https://basen.uz/catalog/born2swim-parisien
+8. https://basen.uz/catalog/born2swim-parkent
+9. https://basen.uz/catalog/born2swim-pro-by
+10. https://basen.uz/catalog/born2swim-samarkand
+11. https://basen.uz/catalog/born2swim-yunusobad
+12. https://basen.uz/catalog/gavaii-aquabar-nukus
+13. https://basen.uz/catalog/shkola-plavanya-nukus
+14. https://basen.uz/catalog/zolotoy-gorod-aquapark-nukus
+20. https://basen.uz/district/bektemir
+21. https://basen.uz/district/mirobod
+22. https://basen.uz/district/mirzo-ulugbek
+23. https://basen.uz/district/sergeli
+24. https://basen.uz/district/shayhontohur
+25. https://basen.uz/district/yakkasaray
+26. https://basen.uz/district/yashnabad
+28. https://basen.uz/en/catalog/academy-athletica-fitness-complex
+29. https://basen.uz/en/catalog/akvapark-priroda-nukus
+30. https://basen.uz/en/catalog/aqualand-nukus
+31. https://basen.uz/en/catalog/aral-nukus
+32. https://basen.uz/en/catalog/basseyn-xojayli
+33. https://basen.uz/en/catalog/born2swim-druzhba-narodov
+34. https://basen.uz/en/catalog/born2swim-nukusskaya
+35. https://basen.uz/en/catalog/born2swim-parisien
+36. https://basen.uz/en/catalog/born2swim-parkent
+37. https://basen.uz/en/catalog/born2swim-pro-by
+38. https://basen.uz/en/catalog/born2swim-samarkand
+39. https://basen.uz/en/catalog/born2swim-yunusobad
+40. https://basen.uz/en/catalog/garden-park
+41. https://basen.uz/en/catalog/gavaii-aquabar-nukus
+42. https://basen.uz/en/catalog/le-grand-de-plaza
+43. https://basen.uz/en/catalog/monaco
+44. https://basen.uz/en/catalog/olympic-sport-complex
+45. https://basen.uz/en/catalog/shkola-plavanya-nukus
+46. https://basen.uz/en/catalog/studio13
+47. https://basen.uz/en/catalog/yoshlik
+48. https://basen.uz/en/catalog/zerom
+49. https://basen.uz/en/catalog/zolotoy-gorod-aquapark-nukus
+52. https://basen.uz/en/district/almazar
+53. https://basen.uz/en/district/uchtepa
+55. https://basen.uz/en/guide/aquaparks-tashkent-prices
+56. https://basen.uz/en/guide/kids-pools-tashkent
+57. https://basen.uz/en/region/fergana
+58. https://basen.uz/en/region/jizzakh
+59. https://basen.uz/en/region/khorezm
+60. https://basen.uz/en/region/surkhandarya
+61. https://basen.uz/en/region/syrdarya
+64. https://basen.uz/guide/hotel-pools-tashkent-non-guests
+66. https://basen.uz/guide/winter-swimming-tashkent
+68. https://basen.uz/uz/catalog/acapulco
+69. https://basen.uz/uz/catalog/akvapark-priroda-nukus
+70. https://basen.uz/uz/catalog/aladdin
+71. https://basen.uz/uz/catalog/aqualand-nukus
+72. https://basen.uz/uz/catalog/aquamarine
+73. https://basen.uz/uz/catalog/aral-nukus
+74. https://basen.uz/uz/catalog/basseyin-tridex
+75. https://basen.uz/uz/catalog/basseyn-xojayli
+76. https://basen.uz/uz/catalog/born2swim-druzhba-narodov
+77. https://basen.uz/uz/catalog/born2swim-nukusskaya
+78. https://basen.uz/uz/catalog/born2swim-parisien
+
+
+
+
+
+open — Открытый
+indoor — Крытый
+children — Детский
+sport — Спортивный
+hotel — При отеле
+aquapark — Аквапарк
