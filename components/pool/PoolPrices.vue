@@ -7,7 +7,7 @@
     >
       <span class="text-sm text-gray-600">{{ $t(price.key) }}</span>
       <span class="text-sm font-semibold text-gray-900 tabular-nums">
-        {{ formatPrice(price.amount) }}
+        {{ formatPrice(price.amount, price.currency) }}
       </span>
     </div>
   </div>

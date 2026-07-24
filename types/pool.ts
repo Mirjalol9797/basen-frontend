@@ -48,7 +48,7 @@ export interface RawPool extends Omit<Pool, 'name' | 'address' | 'description'> 
 export interface PriceItem {
   key: string
   amount: number
-  currency: 'UZS'
+  currency: 'UZS' | 'USD'
 }
 
 export interface ScheduleDay {
