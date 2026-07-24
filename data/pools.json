@@ -8997,5 +8997,71 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-23T00:00:00Z"
+  },
+  {
+    "id": "semurg-sport-majmuasi",
+    "slug": "semurg-sport-majmuasi",
+    "translations": {
+      "ru": {
+        "name": "Семург спорт мажмуаси",
+        "address": "ул. Пиридастгир, Бухара, Бухарская область",
+        "description": "Семург спорт мажмуаси — спортивный бассейн в Бухаре на улице Пиридастгир. Работает ежедневно с 09:00 до 20:00, воскресенье — выходной. На территории есть парковка и услуги тренера."
+      },
+      "uz": {
+        "name": "Semurg sport majmuasi",
+        "address": "Piridastgir ko'chasi, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Semurg Sport Complex",
+        "address": "Piridastgir str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.747732,
+      "lng": 64.428792
+    },
+    "phone": [
+      "+998 65 222-88-48"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/semurg-sport-majmuasi/1.webp",
+      "/images/pools/semurg-sport-majmuasi/2.webp",
+      "/images/pools/semurg-sport-majmuasi/3.jpg",
+      "/images/pools/semurg-sport-majmuasi/4.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00", "closed": true }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.1,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
