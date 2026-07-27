@@ -9449,5 +9449,66 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "oasis-bukhara",
+    "slug": "oasis-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Oasis",
+        "address": "ул. Зафарабад, 56, Бухара, Бухарская область",
+        "description": "Oasis — бассейн при отеле в Бухаре на улице Зафарабад. На территории есть парковка и Wi-Fi."
+      },
+      "uz": {
+        "name": "Oasis",
+        "address": "Zafarobod ko'chasi, 56, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Oasis",
+        "address": "56 Zafarabad str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.802016,
+      "lng": 64.421015
+    },
+    "phone": [
+      "+998 91 241-30-00"
+    ],
+    "telegram": [
+      "https://t.me/Firuz_085"
+    ],
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/oasis-bukhara/1.webp",
+      "/images/pools/oasis-bukhara/2.webp",
+      "/images/pools/oasis-bukhara/3.webp",
+      "/images/pools/oasis-bukhara/4.webp"
+    ],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking",
+      "wifi"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.9,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
