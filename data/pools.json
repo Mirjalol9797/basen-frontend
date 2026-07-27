@@ -9568,5 +9568,61 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "reikartz-bahor-bukhara",
+    "slug": "reikartz-bahor-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Reikartz Bahor Bukhara",
+        "address": "ул. Бахауддина Накшбанда, 354, Бухара, Бухарская область",
+        "description": "Reikartz Bahor Bukhara — бассейн при отеле в Бухаре на улице Бахауддина Накшбанда. На территории есть парковка."
+      },
+      "uz": {
+        "name": "Reikartz Bahor Bukhara",
+        "address": "Bahouddin Naqshband ko'chasi, 354, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Reikartz Bahor Bukhara",
+        "address": "354 Bahouddin Naqshband str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.766945,
+      "lng": 64.470945
+    },
+    "phone": [
+      "+998 88 478-70-07"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/reikartz-bahor-bukhara/1.jpg",
+      "/images/pools/reikartz-bahor-bukhara/2.jpg"
+    ],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.9,
+    "ratingYandex": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
