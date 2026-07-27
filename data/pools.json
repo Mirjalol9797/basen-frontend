@@ -9692,5 +9692,56 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "sport-school-bukhara",
+    "slug": "sport-school-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Бассейн спортивной школы Ромитан",
+        "address": "Ромитан, махаллинский сход граждан Афросиёб, Бухарская область",
+        "description": "Бассейн спортивной школы в Ромитане Бухарской области, махаллинский сход граждан Афросиёб. На территории есть парковка."
+      },
+      "uz": {
+        "name": "Romitan sport maktabi basseyni",
+        "address": "Romitan, Afrosiyob mahalla fuqarolar yig'ini, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Romitan Sports School Pool",
+        "address": "Romitan, Afrosiyob mahalla, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.921615,
+      "lng": 64.384788
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4,
+    "ratingYandex": 4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
