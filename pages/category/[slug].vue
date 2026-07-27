@@ -237,9 +237,19 @@ const seoText = computed(() => {
   return text === key ? category.value?.description ?? "" : text;
 });
 
+/** Круглогодичные бассейны внутри текущей категории — для текстов вроде «из них N круглогодичных». */
+const yearRoundInCategory = computed(
+  () => pools.value.filter((p) => p.season === "year-round").length
+);
+
 const metaDescText = computed(() => {
   const key = `category.meta_desc_text.${slug}`;
-  const text = t(key);
+  const count = pools.value.length;
+  const text = t(key, {
+    count,
+    objects: objectsWord(count, locale.value),
+    yearRound: yearRoundInCategory.value,
+  });
   return text === key ? null : text;
 });
 

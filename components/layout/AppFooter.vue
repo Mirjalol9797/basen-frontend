@@ -23,7 +23,7 @@
             >
           </NuxtLink>
           <p class="text-sm text-primary-200 leading-relaxed">
-            {{ $t("home.hero_subtitle") }}
+            {{ $t("home.hero_subtitle", copyParams) }}
           </p>
         </div>
 
@@ -110,6 +110,7 @@ const { locale, locales } = useI18n();
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
 const { regions } = useRegions();
+const { copyParams } = usePoolStats();
 
 const currentYear = new Date().getFullYear();
 

@@ -32,7 +32,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div>
           <h2 class="text-2xl font-bold text-gray-900 mb-4">{{ $t('about.what_title') }}</h2>
-          <p class="text-gray-600 leading-relaxed mb-5">{{ $t('about.what_text') }}</p>
+          <p class="text-gray-600 leading-relaxed mb-5">{{ $t('about.what_text', copyParams) }}</p>
           <h3 class="text-lg font-bold text-gray-900 mb-2">{{ $t('about.mission_title') }}</h3>
           <p class="text-gray-600 leading-relaxed">{{ $t('about.mission_text') }}</p>
         </div>
@@ -102,19 +102,19 @@ import { defineComponent, h } from 'vue'
 
 const { t } = useI18n()
 const localePath = useLocalePath()
-const poolsStore = usePoolsStore()
+const { totalRounded, types, districts, copyParams } = usePoolStats()
 
 usePageSeo({
-  title: t('about.meta_title'),
-  description: t('about.meta_desc'),
+  title: t('about.meta_title', copyParams.value),
+  description: t('about.meta_desc', copyParams.value),
   canonical: '/about',
 })
 
 const stats = computed(() => [
-  { value: (poolsStore.all.length || 50) + '+', label: t('about.stat_pools') },
-  { value: '6',                                  label: t('about.stat_types') },
-  { value: '11',                                 label: t('about.stat_districts') },
-  { value: t('about.stat_free'),                 label: '' },
+  { value: totalRounded.value + '+',  label: t('about.stat_pools') },
+  { value: String(types.value),       label: t('about.stat_types') },
+  { value: String(districts.value),   label: t('about.stat_districts') },
+  { value: t('about.stat_free'),      label: '' },
 ])
 
 const SearchIcon = defineComponent({

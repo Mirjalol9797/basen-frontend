@@ -22,7 +22,7 @@
           <span
             class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"
           />
-          Ташкент · {{ poolCount }}+ бассейнов
+          Ташкент · {{ $t("home.stats_pools", copyParams) }}
         </div>
 
         <h1
@@ -31,7 +31,7 @@
           {{ $t("home.hero_title") }}
         </h1>
         <p class="text-lg sm:text-xl text-primary-100 mb-8">
-          {{ $t("home.hero_subtitle") }}
+          {{ $t("home.hero_subtitle", copyParams) }}
         </p>
 
         <!-- Search -->
@@ -139,7 +139,7 @@
       >
         <div class="text-center">
           <div class="text-3xl sm:text-4xl font-bold text-white tabular-nums">
-            {{ poolCount }}+
+            {{ totalRounded }}+
           </div>
           <div class="text-white text-sm mt-1">
             {{ $t("common.pools_count") }}
@@ -148,14 +148,14 @@
         <div class="hidden sm:block w-px h-10 bg-white/20" />
         <div class="text-center">
           <div class="text-3xl sm:text-4xl font-bold text-white tabular-nums">
-            6
+            {{ types }}
           </div>
           <div class="text-white text-sm mt-1">типов</div>
         </div>
         <div class="hidden sm:block w-px h-10 bg-white/20" />
         <div class="text-center">
           <div class="text-3xl sm:text-4xl font-bold text-white tabular-nums">
-            11
+            {{ districts }}
           </div>
           <div class="text-white text-sm mt-1">районов</div>
         </div>
@@ -178,8 +178,8 @@
 
 <script setup lang="ts">
 const localePath = useLocalePath();
-const poolsStore = usePoolsStore();
 const router = useRouter();
+const { totalRounded, types, districts, copyParams } = usePoolStats();
 
 const query = ref("");
 const focused = ref(false);
@@ -189,7 +189,6 @@ const suggestions = useSearch(query);
 const showSuggestions = computed(
   () => focused.value && query.value.length >= 2 && suggestions.value.length > 0
 );
-const poolCount = computed(() => poolsStore.all.length || 50);
 
 const onBlur = () => {
   setTimeout(() => {

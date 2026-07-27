@@ -22,23 +22,23 @@
           {{ $t("home.seo_title") }}
         </h2>
         <div class="space-y-5 text-sm text-gray-500 leading-relaxed">
-          <p>{{ $t("home.seo_intro") }}</p>
+          <p>{{ $t("home.seo_intro", copyParams) }}</p>
 
           <h3 class="text-base font-bold text-gray-900 pt-2">
             {{ $t("home.seo_h_types") }}
           </h3>
-          <p>{{ $t("home.seo_types") }}</p>
+          <p>{{ $t("home.seo_types", copyParams) }}</p>
 
           <template v-if="seoExpanded">
             <h3 class="text-base font-bold text-gray-900 pt-2">
               {{ $t("home.seo_h_catalog") }}
             </h3>
-            <p>{{ $t("home.seo_catalog") }}</p>
+            <p>{{ $t("home.seo_catalog", copyParams) }}</p>
 
             <h3 class="text-base font-bold text-gray-900 pt-2">
               {{ $t("home.seo_h_choose") }}
             </h3>
-            <p>{{ $t("home.seo_choose") }}</p>
+            <p>{{ $t("home.seo_choose", copyParams) }}</p>
 
             <h3 class="text-base font-bold text-gray-900 pt-2">
               {{ $t("home.seo_h_services") }}
@@ -72,10 +72,11 @@
 
 <script setup lang="ts">
 const { t } = useI18n();
+const { copyParams } = usePoolStats();
 
 usePageSeo({
   title: t("home.meta_title"),
-  description: t("home.meta_desc"),
+  description: t("home.meta_desc", copyParams.value),
   canonical: "/",
 });
 

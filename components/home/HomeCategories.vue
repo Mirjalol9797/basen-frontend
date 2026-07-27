@@ -39,10 +39,10 @@
 
           <!-- Count -->
           <span
-            v-if="countByCategory[cat.id]"
+            v-if="byCategory[cat.id]"
             class="mt-1.5 text-xs text-gray-400"
           >
-            {{ countByCategory[cat.id] }} бассейнов
+            {{ byCategory[cat.id] }} {{ poolsLabel(byCategory[cat.id]) }}
           </span>
         </NuxtLink>
       </div>
@@ -52,17 +52,11 @@
 
 <script setup lang="ts">
 const localePath = useLocalePath()
-const poolsStore = usePoolsStore()
+const { locale } = useI18n()
 const { categories } = useCategories()
+const { byCategory } = usePoolStats()
 
-const countByCategory = computed(() => {
-  const counts: Record<string, number> = {}
-  for (const pool of poolsStore.all) {
-    for (const c of poolCategories(pool))
-      counts[c] = (counts[c] || 0) + 1
-  }
-  return counts
-})
+const poolsLabel = (n: number) => poolsWord(n, locale.value)
 
 const iconPaths = categoryIconPaths
 

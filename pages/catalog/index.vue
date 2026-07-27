@@ -111,6 +111,7 @@ const localePath = useLocalePath();
 const poolsStore = usePoolsStore();
 const uiStore = useUiStore();
 const { pools, total } = usePools();
+const { copyParams } = usePoolStats();
 
 const loading = computed(() => poolsStore.all.length === 0);
 
@@ -121,12 +122,12 @@ const isFilterOpen = computed({
 
 usePageSeo({
   title: t("catalog.meta_title"),
-  description: t("catalog.meta_desc"),
+  description: t("catalog.meta_desc", copyParams.value),
   canonical: "/catalog",
 });
 
 const faqItems = computed(() => [
-  { q: t("catalog.faq.q1"), a: t("catalog.faq.a1") },
+  { q: t("catalog.faq.q1"), a: t("catalog.faq.a1", copyParams.value) },
   { q: t("catalog.faq.q2"), a: t("catalog.faq.a2") },
   { q: t("catalog.faq.q3"), a: t("catalog.faq.a3") },
   { q: t("catalog.faq.q4"), a: t("catalog.faq.a4") },
@@ -140,7 +141,7 @@ watchEffect(() => {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: t("catalog.title"),
-    description: t("catalog.meta_desc"),
+    description: t("catalog.meta_desc", copyParams.value),
     url: `${BASE_URL}/catalog`,
     mainEntity: {
       "@type": "ItemList",

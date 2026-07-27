@@ -162,6 +162,7 @@ import { buildOpeningHours } from '~/composables/useSeo'
 const { t } = useI18n()
 const localePath = useLocalePath()
 const poolsStore = usePoolsStore()
+const { copyParams } = usePoolStats()
 
 const activePoolId = ref<string | null>(null)
 const mobileTab = ref<'map' | 'list'>('map')
@@ -182,7 +183,7 @@ usePageSeo({
 })
 
 const faqItems = computed(() => [
-  { q: t('map.faq.q1'), a: t('map.faq.a1') },
+  { q: t('map.faq.q1'), a: t('map.faq.a1', copyParams.value) },
   { q: t('map.faq.q2'), a: t('map.faq.a2') },
   { q: t('map.faq.q3'), a: t('map.faq.a3') },
 ])
