@@ -5,6 +5,10 @@
 
 ## Зачем нужен `nginx.conf`
 
+> Применено на сервере 27.07.2026, проверено. `deploy/nginx.conf` — копия
+> того, что сейчас лежит в `/etc/nginx/sites-available/basen.uz`.
+> Резервная копия старого конфига: `/root/basen.uz.nginx.bak`.
+
 Google Search Console показывал, что страницы не индексируются. Причина —
 конфигурация nginx, а не код сайта:
 
@@ -28,31 +32,34 @@ try_files $uri $uri/ /index.html;
 try_files $uri $uri.html $uri/index.html =404;
 ```
 
-## Как применить
+## Как применить (если конфиг придётся накатывать заново)
 
-На сервере, под пользователем с sudo:
+Конфиг НЕ деплоится автоматически — GitHub Actions заливает только статику.
+На сервере, под root:
 
 ```bash
 # 1. Сохранить текущий конфиг
-sudo cp /etc/nginx/sites-available/basen.uz /root/basen.uz.nginx.bak
+cp /etc/nginx/sites-available/basen.uz /root/basen.uz.nginx.bak
 
-# 2. Посмотреть, какие пути к SSL-сертификатам используются сейчас
-sudo grep -n "ssl_certificate\|server_name\|root" /etc/nginx/sites-available/basen.uz
+# 2. Сверить пути к SSL-сертификатам с теми, что в deploy/nginx.conf
+grep -n "ssl_certificate\|server_name\|root" /etc/nginx/sites-available/basen.uz
 ```
 
-Сверьте пути из шага 2 с теми, что указаны в `deploy/nginx.conf`
-(там прописан стандартный путь certbot: `/etc/letsencrypt/live/basen.uz/`).
-Если пути отличаются — поправьте их в конфиге, затем:
+Если пути отличаются от `/etc/letsencrypt/live/basen.uz/` — поправьте их
+в конфиге, затем скопируйте содержимое `deploy/nginx.conf` и вставьте одной
+командой (кавычки вокруг `'EOF'` обязательны, иначе `$uri` подставится пустым):
 
 ```bash
-# 3. Залить новый конфиг (файл из репозитория)
-sudo nano /etc/nginx/sites-available/basen.uz     # вставить содержимое deploy/nginx.conf
+# 3. Записать конфиг
+cat > /etc/nginx/sites-available/basen.uz <<'EOF'
+...содержимое deploy/nginx.conf...
+EOF
 
 # 4. Проверить синтаксис — БЕЗ этого шага не перезагружать
-sudo nginx -t
+nginx -t
 
 # 5. Применить
-sudo systemctl reload nginx
+systemctl reload nginx
 ```
 
 Если что-то пошло не так:
@@ -86,7 +93,7 @@ curl -s -o /dev/null -w "%{http_code}\n" https://basen.uz/
 ```
 
 Ожидаемый результат: `200 200 200`, `301 → …/malibu-sun-club`,
-`301 → https://basen.uz/`, `404`, `200`.
+`301 → https://basen.uz/`, `404`, `200`. Именно это и получено 27.07.2026.
 
 ## После применения — в Search Console
 
