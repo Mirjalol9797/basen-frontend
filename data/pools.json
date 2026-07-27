@@ -9293,5 +9293,102 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "wyndham-bukhara",
+    "slug": "wyndham-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Wyndham Bukhara",
+        "address": "просп. Алишера Навои, 8, Бухара, Бухарская область",
+        "description": "Wyndham Bukhara — бассейн при отеле в Бухаре на проспекте Алишера Навои. Финская сауна, турецкий хаммам, бар с освежающими лимонадами и кухней, парковка и Wi-Fi. Работает ежедневно с 07:00 до 22:00. Дети до 3 лет — бесплатно. На абонементы в бассейн для детей от 3 до 12 лет действует скидка 50%. Групповые занятия по плаванию — только для детей младше 12 лет."
+      },
+      "uz": {
+        "name": "Wyndham Bukhara",
+        "address": "Alisher Navoiy shoh ko'chasi, 8, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Wyndham Bukhara",
+        "address": "8 Alisher Navoi ave., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "categories": ["open", "hotel"],
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.764795,
+      "lng": 64.421085
+    },
+    "phone": [
+      "+998 55 305-00-00"
+    ],
+    "telegram": [
+      "https://t.me/khayittoshev"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/wyndham.bukhara",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/wyndham-bukhara/1.webp",
+      "/images/pools/wyndham-bukhara/2.webp",
+      "/images/pools/wyndham-bukhara/3.webp",
+      "/images/pools/wyndham-bukhara/4.webp",
+      "/images/pools/wyndham-bukhara/5.webp",
+      "/images/pools/wyndham-bukhara/6.webp",
+      "/images/pools/wyndham-bukhara/7.webp",
+      "/images/pools/wyndham-bukhara/8.webp",
+      "/images/pools/wyndham-bukhara/9.webp",
+      "/images/pools/wyndham-bukhara/10.webp"
+    ],
+    "prices": [
+      { "key": "price.adult_fullday", "amount": 200000, "currency": "UZS" },
+      { "key": "price.child_fullday", "amount": 50000, "currency": "UZS" },
+      { "key": "price.adult_morning_07_12", "amount": 150000, "currency": "UZS" },
+      { "key": "price.child_morning_07_12", "amount": 50000, "currency": "UZS" },
+      { "key": "price.pool_pass_10", "amount": 900000, "currency": "UZS" },
+      { "key": "price.pool_pass_20", "amount": 1600000, "currency": "UZS" },
+      { "key": "price.pool_pass_30", "amount": 2100000, "currency": "UZS" },
+      { "key": "price.kids_group_single", "amount": 100000, "currency": "UZS" },
+      { "key": "price.kids_group_pass10", "amount": 800000, "currency": "UZS" },
+      { "key": "price.personal_adult_single", "amount": 300000, "currency": "UZS" },
+      { "key": "price.personal_adult_pass10", "amount": 2100000, "currency": "UZS" },
+      { "key": "price.personal_child_single", "amount": 200000, "currency": "UZS" },
+      { "key": "price.personal_child_pass10", "amount": 1650000, "currency": "UZS" },
+      { "key": "price.aqua_aerobics_single", "amount": 100000, "currency": "UZS" },
+      { "key": "price.aqua_aerobics_pass10", "amount": 900000, "currency": "UZS" },
+      { "key": "price.aqua_aerobics_pass20", "amount": 1600000, "currency": "UZS" },
+      { "key": "price.aqua_aerobics_pass30", "amount": 2400000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "22:00" },
+      { "day": "tue", "open": "07:00", "close": "22:00" },
+      { "day": "wed", "open": "07:00", "close": "22:00" },
+      { "day": "thu", "open": "07:00", "close": "22:00" },
+      { "day": "fri", "open": "07:00", "close": "22:00" },
+      { "day": "sat", "open": "07:00", "close": "22:00" },
+      { "day": "sun", "open": "07:00", "close": "22:00" }
+    ],
+    "services": [
+      "parking",
+      "wifi",
+      "sauna",
+      "turkish_hammam",
+      "bar"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.3,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
