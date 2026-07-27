@@ -471,8 +471,9 @@
     "pool_depth": "Depth",
     "meters": "m",
     "show_reviews": "Show all reviews",
-    "meta_title": "{name} Tashkent — prices 2026, schedule, reviews {'|'} Basen.uz",
-    "meta_desc": "{name} swimming pool in Tashkent. Prices from {price} UZS, memberships, schedule and photos. Address, phone, reviews."
+    "meta_title": "{name} — prices 2026, schedule, reviews {'|'} Basen.uz",
+    "meta_desc": "{name} swimming pool in {place}. Prices from {price} UZS, memberships, schedule and photos. Address, phone and reviews.",
+    "meta_desc_noprice": "{name} swimming pool in {place}. Memberships, schedule and photos. Address, phone and reviews."
   },
   "errors": {
     "not_found": "Page not found",

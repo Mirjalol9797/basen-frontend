@@ -1,13 +1,35 @@
 import type { Pool, ScheduleDay } from '~/types/pool'
 import districtData from '~/data/districts.json'
+import regionData from '~/data/regions.json'
 
 const BASE_URL = 'https://basen.uz'
 
-function getDistrictName(districtId: string | null, locale: string): string {
-  if (!districtId) return 'Ташкент'
-  const entry = (districtData as { id: string; translations: Record<string, string> }[])
-    .find(d => d.id === districtId)
-  return entry?.translations[locale] ?? districtId
+interface TranslatedEntry { id: string; translations: Record<string, string> }
+
+const OG_LOCALE: Record<string, string> = { ru: 'ru_RU', uz: 'uz_UZ', en: 'en_US' }
+
+function getDistrictName(districtId: string | null, locale: string): string | null {
+  if (!districtId) return null
+  const entry = (districtData as TranslatedEntry[]).find(d => d.id === districtId)
+  return entry?.translations[locale] ?? null
+}
+
+// "Ташкент (город)" -> "Ташкент": уточнение в скобках нужно в списке регионов,
+// но не в заголовке и описании страницы.
+function getRegionName(regionId: string, locale: string): string | null {
+  const name = (regionData as TranslatedEntry[]).find(r => r.id === regionId)?.translations[locale]
+  return name ? name.replace(/\s*\(.+\)$/, '') : null
+}
+
+// Раньше во всех мета-тегах и в schema.org был захардкожен «Ташкент», из-за чего
+// бассейны в Нукусе, Ургенче и Бухаре описывались как ташкентские.
+function getPlace(pool: Pool, locale: string) {
+  const region = getRegionName(pool.region, locale)
+  const district = getDistrictName(pool.district, locale)
+  // Район имеет смысл указывать только внутри города, для областей — само название области.
+  const locality = pool.region === 'tashkent-city' ? region : null
+  const full = district && locality ? `${district}, ${locality}` : region ?? ''
+  return { region, locality, full }
 }
 
 const DAY_MAP: Record<ScheduleDay['day'], string> = {
@@ -22,30 +44,41 @@ export function buildOpeningHours(schedule: ScheduleDay[] | null): string[] {
 }
 
 export const usePoolSeo = (pool: Pool) => {
-  const { locale } = useI18n()
+  const { t, locale } = useI18n()
   const route = useRoute()
   const localePath = useLocalePath()
   // Self-referencing canonical for the CURRENT locale (route.path already carries /uz, /en prefix).
   const canonicalUrl = `${BASE_URL}${route.path}`
   const price = minPrice(pool.prices)
-  const priceClause = price > 0 ? `Цены от ${formatPrice(price)}, абонементы` : 'Абонементы'
-  const districtName = getDistrictName(pool.district, locale.value)
+  const place = getPlace(pool, locale.value)
+  const image = pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`
+
+  // Title и description берём из локали: раньше они были захардкожены по-русски,
+  // поэтому /uz/catalog/x и /en/catalog/x были точными копиями русской страницы
+  // и Google помечал их как дубликаты.
+  const title = t('pool.meta_title', { name: pool.name })
+  const description = price > 0
+    ? t('pool.meta_desc', {
+        name: pool.name,
+        place: place.full,
+        price: new Intl.NumberFormat('ru-UZ').format(price),
+      })
+    : t('pool.meta_desc_noprice', { name: pool.name, place: place.full })
 
   useSeoMeta({
-    title: `${pool.name} — цены 2026, расписание, отзывы | Basen.uz`,
-    description: `Бассейн ${pool.name} в ${districtName}, Ташкент. ${priceClause}, расписание и фото. Адрес, телефон и отзывы.`,
-    ogTitle: `${pool.name} — бассейн в Ташкенте | Basen.uz`,
-    ogDescription: `${pool.name}, ${districtName}, Ташкент. ${priceClause}, расписание.`,
-    ogImage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
+    title,
+    description,
+    ogTitle: title,
+    ogDescription: description,
+    ogImage: image,
     ogType: 'website',
     ogUrl: canonicalUrl,
     ogSiteName: 'Basen.uz',
+    ogLocale: OG_LOCALE[locale.value] ?? 'ru_RU',
     twitterCard: 'summary_large_image',
-    twitterTitle: `${pool.name} | Basen.uz`,
-    twitterDescription: price > 0
-      ? `${pool.name} в Ташкенте. Цены от ${formatPrice(price)}.`
-      : `${pool.name} в Ташкенте.`,
-    twitterImage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
+    twitterTitle: title,
+    twitterDescription: description,
+    twitterImage: image,
   })
 
   const schema: Record<string, unknown> = {
@@ -58,7 +91,8 @@ export const usePoolSeo = (pool: Pool) => {
     address: {
       '@type': 'PostalAddress',
       streetAddress: pool.address,
-      addressLocality: 'Ташкент',
+      ...(place.locality && { addressLocality: place.locality }),
+      ...(place.region && { addressRegion: place.region }),
       addressCountry: 'UZ',
     },
     geo: {
@@ -85,8 +119,8 @@ export const usePoolSeo = (pool: Pool) => {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Главная', item: `${BASE_URL}${localePath('/')}` },
-      { '@type': 'ListItem', position: 2, name: 'Каталог', item: `${BASE_URL}${localePath('/catalog')}` },
+      { '@type': 'ListItem', position: 1, name: t('nav.home'), item: `${BASE_URL}${localePath('/')}` },
+      { '@type': 'ListItem', position: 2, name: t('nav.catalog'), item: `${BASE_URL}${localePath('/catalog')}` },
       { '@type': 'ListItem', position: 3, name: pool.name, item: canonicalUrl },
     ],
   }
@@ -96,7 +130,7 @@ export const usePoolSeo = (pool: Pool) => {
     '@type': 'WebPage',
     name: pool.name,
     url: canonicalUrl,
-    primaryImageOfPage: pool.gallery[0] ? `${BASE_URL}${pool.gallery[0]}` : `${BASE_URL}/og/default.jpg`,
+    primaryImageOfPage: image,
     dateModified: pool.createdAt,
     inLanguage: locale.value,
   }

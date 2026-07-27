@@ -472,7 +472,8 @@
     "meters": "m",
     "show_reviews": "Barcha sharhlarni ko'rsatish",
     "meta_title": "{name} — 2026 narxlar, ish vaqti, sharhlar {'|'} Basen.uz",
-    "meta_desc": "{name} basseyni Toshkentda. Narxlar {price} so'mdan, obuna, ish vaqti va fotolar. Manzil, telefon, sharhlar."
+    "meta_desc": "{name} basseyni, {place}. Narxlar {price} so'mdan, obuna, ish vaqti va fotolar. Manzil, telefon va sharhlar.",
+    "meta_desc_noprice": "{name} basseyni, {place}. Obuna, ish vaqti va fotolar. Manzil, telefon va sharhlar."
   },
   "errors": {
     "not_found": "Sahifa topilmadi",
