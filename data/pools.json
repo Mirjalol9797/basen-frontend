@@ -9265,6 +9265,7 @@
     "website": "https://gardenplaza.uz/",
     "gallery": [
       "/images/pools/garden-plaza-bukhara/1.webp",
+      "/images/pools/garden-plaza-bukhara/2.webp",
       "/images/pools/garden-plaza-bukhara/3.webp",
       "/images/pools/garden-plaza-bukhara/4.webp",
       "/images/pools/garden-plaza-bukhara/5.webp",
@@ -9510,6 +9511,57 @@
     "poolDepthMax": null,
     "ratingGoogle": 4.9,
     "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "sport-otdelenie-bukhara",
+    "slug": "sport-otdelenie-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Спортивное отделение по плаванию Бухара",
+        "address": "ул. Чулпан, Бухара, Бухарская область",
+        "description": "Спортивное отделение по плаванию в Бухаре на улице Чулпан. На территории есть парковка."
+      },
+      "uz": {
+        "name": "Buxoro suzish bo'yicha sport bo'limi",
+        "address": "Cho'lpon ko'chasi, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Bukhara Swimming Sports Department",
+        "address": "Chulpan str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.782847,
+      "lng": 64.430225
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.8,
+    "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
