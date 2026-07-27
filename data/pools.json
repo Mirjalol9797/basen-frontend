@@ -9390,5 +9390,64 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "mercure-bukhara-old-town",
+    "slug": "mercure-bukhara-old-town",
+    "translations": {
+      "ru": {
+        "name": "Mercure Bukhara Old Town",
+        "address": "Самаркандская ул., 206, Бухара, Бухарская область",
+        "description": "Mercure Bukhara Old Town — бассейн при отеле в Бухаре на Самаркандской улице. На территории есть парковка и Wi-Fi."
+      },
+      "uz": {
+        "name": "Mercure Bukhara Old Town",
+        "address": "Samarqand ko'chasi, 206, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Mercure Bukhara Old Town",
+        "address": "206 Samarkand str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.781924,
+      "lng": 64.421192
+    },
+    "phone": [
+      "+998 55 305-07-07"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": "https://all.accor.com/hotel/C0E8/index.ru.shtml",
+    "gallery": [
+      "/images/pools/mercure-bukhara-old-town/1.jpg",
+      "/images/pools/mercure-bukhara-old-town/2.webp",
+      "/images/pools/mercure-bukhara-old-town/3.webp",
+      "/images/pools/mercure-bukhara-old-town/4.webp"
+    ],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking",
+      "wifi"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
