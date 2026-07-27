@@ -9624,5 +9624,73 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-okeanik-bukhara",
+    "slug": "basseyn-okeanik-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Океаник",
+        "address": "ул. Кунжикалъа, Бухара, Бухарская область",
+        "description": "Океаник — открытый бассейн в Бухаре на улице Кунжикалъа. Аренда приватной VIP-зоны на одну семью или компанию до 12 человек: посторонних не подселяют. Стоимость 400 000 сум в час, всё включено — мангал, барбекю, казан и посуда, стол и стулья, качели, колонка, телевизор, PlayStation и настольный теннис. Фильтрация воды работает постоянно, камеры на территории отсутствуют. Работает ежедневно с 10:00 до 01:00, есть парковка."
+      },
+      "uz": {
+        "name": "Okeanik",
+        "address": "Kunjiqal'a ko'chasi, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Okeanik",
+        "address": "Kunjikala str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.756751,
+      "lng": 64.399816
+    },
+    "phone": [
+      "+998 87 827-00-43",
+      "+998 93 475-87-74"
+    ],
+    "telegram": [
+      "https://t.me/okeanik_knj"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/okeanik_knj",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-okeanik-bukhara/1.webp"
+    ],
+    "prices": [
+      { "key": "price.vip_zone_1h_12", "amount": 400000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "01:00" },
+      { "day": "tue", "open": "10:00", "close": "01:00" },
+      { "day": "wed", "open": "10:00", "close": "01:00" },
+      { "day": "thu", "open": "10:00", "close": "01:00" },
+      { "day": "fri", "open": "10:00", "close": "01:00" },
+      { "day": "sat", "open": "10:00", "close": "01:00" },
+      { "day": "sun", "open": "10:00", "close": "01:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.7,
+    "ratingYandex": 4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
