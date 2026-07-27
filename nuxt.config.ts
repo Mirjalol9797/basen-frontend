@@ -1,3 +1,41 @@
+import poolsData from './data/pools.json'
+import regionsData from './data/regions.json'
+import districtsData from './data/districts.json'
+
+// В sitemap попадают только регионы и районы, где реально есть бассейны.
+// Пустые страницы Google не индексирует («просканирована, но не
+// проиндексирована»), а в sitemap они только съедают краулинговый бюджет.
+// Список пересобирается из данных, руками его больше править не нужно.
+const poolCount = (key: 'region' | 'district', id: string) =>
+  (poolsData as { region: string; district: string | null }[])
+    .filter(p => p[key] === id).length
+
+const regionUrls = (regionsData as { id: string }[])
+  .map(r => ({ id: r.id, count: poolCount('region', r.id) }))
+  .filter(r => r.count > 0)
+  .sort((a, b) => b.count - a.count)
+  .map(r => ({
+    loc: `/region/${r.id}`,
+    priority: r.count >= 20 ? 0.9 : r.count >= 5 ? 0.8 : 0.7,
+    changefreq: 'weekly' as const,
+  }))
+
+const districtUrls = (districtsData as { id: string }[])
+  .map(d => ({ id: d.id, count: poolCount('district', d.id) }))
+  .filter(d => d.count > 0)
+  .map(d => ({ loc: `/district/${d.id}`, priority: 0.8, changefreq: 'weekly' as const }))
+
+// @nuxtjs/sitemap добавляет в карту ВСЕ пререндеренные маршруты, поэтому мало
+// не перечислить пустые страницы — их нужно явно исключить, вместе с языковыми
+// версиями. Сами страницы при этом остаются доступными и отдают noindex.
+const emptyPages = [
+  ...(regionsData as { id: string }[])
+    .filter(r => poolCount('region', r.id) === 0).map(r => `/region/${r.id}`),
+  ...(districtsData as { id: string }[])
+    .filter(d => poolCount('district', d.id) === 0).map(d => `/district/${d.id}`),
+]
+const sitemapExclude = emptyPages.flatMap(p => [p, `/uz${p}`, `/en${p}`])
+
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
 
@@ -92,42 +130,20 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
+    exclude: sitemapExclude,
     urls: [
       { loc: '/',                        priority: 1.0, changefreq: 'weekly'  },
       { loc: '/catalog',                 priority: 0.9, changefreq: 'daily'   },
       { loc: '/regions',                 priority: 0.8, changefreq: 'weekly'  },
       { loc: '/guide',                   priority: 0.7, changefreq: 'weekly'  },
-      { loc: '/district/yunusabad',      priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/chilanzar',      priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/mirzo-ulugbek',  priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/yakkasaray',     priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/almazar',        priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/bektemir',       priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/yashnabad',      priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/sergeli',        priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/uchtepa',        priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/shayhontohur',   priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/district/mirobod',        priority: 0.8, changefreq: 'weekly'  },
+      ...districtUrls,
       { loc: '/category/open',           priority: 0.8, changefreq: 'weekly'  },
       { loc: '/category/indoor',         priority: 0.8, changefreq: 'weekly'  },
       { loc: '/category/children',       priority: 0.8, changefreq: 'weekly'  },
       { loc: '/category/sport',          priority: 0.8, changefreq: 'weekly'  },
       { loc: '/category/hotel',          priority: 0.7, changefreq: 'weekly'  },
       { loc: '/category/aquapark',       priority: 0.7, changefreq: 'weekly'  },
-      { loc: '/region/tashkent-city',    priority: 0.9, changefreq: 'weekly'  },
-      { loc: '/region/andijan',          priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/region/fergana',          priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/region/namangan',         priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/region/samarkand',        priority: 0.8, changefreq: 'weekly'  },
-      { loc: '/region/bukhara',          priority: 0.7, changefreq: 'weekly'  },
-      { loc: '/region/tashkent-region',  priority: 0.7, changefreq: 'weekly'  },
-      { loc: '/region/khorezm',          priority: 0.7, changefreq: 'weekly'  },
-      { loc: '/region/kashkadarya',      priority: 0.6, changefreq: 'monthly' },
-      { loc: '/region/surkhandarya',     priority: 0.6, changefreq: 'monthly' },
-      { loc: '/region/navoi',            priority: 0.6, changefreq: 'monthly' },
-      { loc: '/region/jizzakh',          priority: 0.5, changefreq: 'monthly' },
-      { loc: '/region/syrdarya',         priority: 0.5, changefreq: 'monthly' },
-      { loc: '/region/karakalpakstan',   priority: 0.5, changefreq: 'monthly' },
+      ...regionUrls,
       { loc: '/map',                     priority: 0.7, changefreq: 'weekly'  },
       { loc: '/about',                   priority: 0.6, changefreq: 'monthly' },
       { loc: '/faq',                     priority: 0.6, changefreq: 'monthly' },

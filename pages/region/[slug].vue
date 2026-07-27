@@ -271,6 +271,10 @@ watchEffect(() => {
     title: t("region.meta_title", { name: nameForSeo }),
     description: t("region.meta_desc", { name: nameForSeo, count }),
     canonical: `/region/${slug}`,
+    // Пустой регион индексировать нечего — Google всё равно пометит страницу
+    // как «просканирована, но не проиндексирована». Появится первый бассейн —
+    // страница станет индексируемой сама.
+    noindex: count === 0,
   });
 
   const schema = {

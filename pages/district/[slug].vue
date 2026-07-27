@@ -198,6 +198,10 @@ watchEffect(() => {
     title: t("district.meta_title", { name: nameForSeo }),
     description: t("district.meta_desc", { name: nameForSeo, count }),
     canonical: `/district/${slug}`,
+    // Пустой район индексировать нечего — Google всё равно пометит страницу
+    // как «просканирована, но не проиндексирована». Появится первый бассейн —
+    // страница станет индексируемой сама.
+    noindex: count === 0,
   });
 
   const schema = {
