@@ -20,6 +20,7 @@ export interface Pool {
   telegram?: string[]
   facebook?: string | null
   instagram?: string | null
+  youtube?: string | null
   email?: string | null
   website?: string | null
   gallery: string[]

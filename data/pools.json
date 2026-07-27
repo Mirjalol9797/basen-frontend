@@ -9187,6 +9187,7 @@
     ],
     "facebook": null,
     "instagram": "https://www.instagram.com/hotelgrandarkbukhara",
+    "youtube": "https://www.youtube.com/@grandarkbukhara",
     "email": "vohidf@mail.ru",
     "website": "https://grandarkbukhara.uz/",
     "gallery": [
@@ -9217,6 +9218,77 @@
     "poolDepthMin": null,
     "poolDepthMax": null,
     "ratingGoogle": 4.8,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "garden-plaza-bukhara",
+    "slug": "garden-plaza-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Garden Plaza Bukhara",
+        "address": "просп. Абу Али ибн Сины, 3/2, Бухара, Бухарская область",
+        "description": "Garden Plaza Bukhara — отель с бассейном в Бухаре на проспекте Абу Али ибн Сины. Бассейн работает ежедневно с 09:00 до 22:00. На территории есть парковка."
+      },
+      "uz": {
+        "name": "Garden Plaza Bukhara",
+        "address": "Abu Ali ibn Sino shoh ko'chasi, 3/2, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Garden Plaza Bukhara",
+        "address": "3/2 Abu Ali ibn Sino ave., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.782164,
+      "lng": 64.433242
+    },
+    "phone": [
+      "+998 91 822-71-71",
+      "+998 95 183-50-05"
+    ],
+    "telegram": [
+      "https://t.me/GardenPlazaBukhara"
+    ],
+    "facebook": "https://www.facebook.com/people/Garden-Plaza-Bukhara/pfbid05LZAaCRK6bptLrhYNmU6muxKJkUjrDsW8feN3ZfZFQ7ZQhn4JeMNWdgd5qY1zsotl/",
+    "instagram": "https://www.instagram.com/garden_plaza_bukhara",
+    "youtube": null,
+    "email": "garden.plaza@mail.ru",
+    "website": "https://gardenplaza.uz/",
+    "gallery": [
+      "/images/pools/garden-plaza-bukhara/1.webp",
+      "/images/pools/garden-plaza-bukhara/3.webp",
+      "/images/pools/garden-plaza-bukhara/4.webp",
+      "/images/pools/garden-plaza-bukhara/5.webp",
+      "/images/pools/garden-plaza-bukhara/6.webp",
+      "/images/pools/garden-plaza-bukhara/7.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "22:00" },
+      { "day": "tue", "open": "09:00", "close": "22:00" },
+      { "day": "wed", "open": "09:00", "close": "22:00" },
+      { "day": "thu", "open": "09:00", "close": "22:00" },
+      { "day": "fri", "open": "09:00", "close": "22:00" },
+      { "day": "sat", "open": "09:00", "close": "22:00" },
+      { "day": "sun", "open": "09:00", "close": "22:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.3,
     "ratingYandex": 5,
     "reviewCount": 0,
     "featured": false,
