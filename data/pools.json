@@ -9149,5 +9149,77 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "grand-ark-bukhara",
+    "slug": "grand-ark-bukhara",
+    "translations": {
+      "ru": {
+        "name": "Grand Ark Bukhara",
+        "address": "ул. Богишамол, 8, Бухара, Бухарская область",
+        "description": "Grand Ark Bukhara — отель с бассейном в Бухаре на улице Богишамол, рядом с крепостью Арк. Бассейн работает ежедневно с 10:00 до 20:00. На территории есть Wi-Fi и парковка."
+      },
+      "uz": {
+        "name": "Grand Ark Bukhara",
+        "address": "Bog'ishamol ko'chasi, 8, Buxoro, Buxoro viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Grand Ark Bukhara",
+        "address": "8 Bogishamol str., Bukhara, Bukhara Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "bukhara",
+    "city": null,
+    "coordinates": {
+      "lat": 39.775000,
+      "lng": 64.442870
+    },
+    "phone": [
+      "+998 90 298-95-65",
+      "+998 99 880-25-48"
+    ],
+    "telegram": [
+      "https://t.me/Grandarkbukhara"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/hotelgrandarkbukhara",
+    "email": "vohidf@mail.ru",
+    "website": "https://grandarkbukhara.uz/",
+    "gallery": [
+      "/images/pools/grand-ark-bukhara/1.webp",
+      "/images/pools/grand-ark-bukhara/2.webp",
+      "/images/pools/grand-ark-bukhara/3.webp",
+      "/images/pools/grand-ark-bukhara/4.webp",
+      "/images/pools/grand-ark-bukhara/5.webp",
+      "/images/pools/grand-ark-bukhara/6.webp",
+      "/images/pools/grand-ark-bukhara/7.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "wifi",
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.8,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
