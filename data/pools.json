@@ -9550,7 +9550,10 @@
     "youtube": null,
     "email": null,
     "website": null,
-    "gallery": [],
+    "gallery": [
+      "/images/pools/sport-otdelenie-bukhara/1.webp",
+      "/images/pools/sport-otdelenie-bukhara/2.webp"
+    ],
     "prices": [],
     "schedule": [],
     "services": [
