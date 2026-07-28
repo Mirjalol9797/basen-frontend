@@ -1,0 +1,451 @@
+{
+  "tashkent-city": {
+    "ru": {
+      "intro": "Ташкент — единственный город страны, где бассейн можно выбирать не по принципу «какой есть», а по району, формату и бюджету. В каталоге {count} объектов, из них {yearRound} работают круглый год. Разброс большой: от 25-метровых спортивных чаш и школ плавания до аквапарков и бассейнов при пятизвёздочных отелях, поэтому ориентироваться удобнее не на рейтинг, а на задачу — поплавать, провести день с детьми или потренироваться.",
+      "sections": [
+        {
+          "heading": "Сколько стоит посещение",
+          "body": "Разовое взрослое посещение в Ташкенте стоит от {priceFrom} до {priceTo}, типичная цена — около {priceMedian}. Верхняя граница — это бассейны при отелях, где в стоимость входит зона отдыха, полотенца и обслуживание. Спортивные бассейны и школы плавания обычно дешевле, но там чаще продают абонементы на месяц, а не разовый вход. Отдельный формат — Malibu Sun Club: вход в воду бесплатный, платите только за лежак или столик. Цены есть у {priced} из {count} объектов — остальные их не публикуют, телефон указан в карточке."
+        },
+        {
+          "heading": "Круглый год или только летом",
+          "body": "{summer} бассейнов из {count} — сезонные, они открываются в мае и закрываются в сентябре. Остальные {yearRound} работают круглый год: это крытые спортивные комплексы, школы плавания и бассейны при отелях и фитнес-клубах. Если ищете, где плавать зимой, фильтр по сезону на этой странице сразу отсечёт летние площадки."
+        },
+        {
+          "heading": "По районам города",
+          "body": "Бассейны распределены по Ташкенту неравномерно: {districts}. Больше всего объектов в районе {topDistrict}. У каждого района есть отдельная страница со списком и картой — так удобнее искать то, что рядом с домом или работой."
+        },
+        {
+          "heading": "На что смотреть при выборе",
+          "list": [
+            "Парковка — есть у {parking} из {count} бассейнов. Для загруженных районов вроде Мирабада это заметный плюс.",
+            "Кафе или ресторан на территории — у {cafe} объектов. Важно, если планируете провести там весь день.",
+            "Детская зона — у {childrenZone} бассейнов. Отдельная неглубокая чаша безопаснее, чем «мелкий край» общего бассейна.",
+            "Тренер или занятия — у {trainer} объектов. Сюда входят и школы плавания с группами для детей и взрослых.",
+            "Сауна — у {sauna} бассейнов, чаще всего в крытых комплексах и отелях."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Toshkent — mamlakatdagi yagona shahar bo'lib, bu yerda basseynni «bor bo'lganini» emas, balki tuman, format va byudjet bo'yicha tanlash mumkin. Katalogda {count} ta obyekt bor, ulardan {yearRound} tasi yil bo'yi ishlaydi. Tanlov keng: 25 metrli sport havzalari va suzish maktablaridan tortib akvaparklar hamda besh yulduzli mehmonxona basseynlarigacha. Shu sababli reyting emas, maqsad — suzish, bolalar bilan dam olish yoki mashg'ulot — asosiy mo'ljal bo'lgani ma'qul.",
+      "sections": [
+        {
+          "heading": "Tashrif qancha turadi",
+          "body": "Toshkentda kattalar uchun bir martalik tashrif {priceFrom} dan {priceTo} gacha turadi, odatiy narx — taxminan {priceMedian}. Yuqori chegara — mehmonxona basseynlari, u yerda narxga dam olish zonasi, sochiq va xizmat ko'rsatish kiradi. Sport basseynlari va suzish maktablari arzonroq, lekin ular ko'pincha bir martalik kirish emas, oylik obuna sotadi. Alohida format — Malibu Sun Club: suvga kirish bepul, faqat shezlong yoki stol uchun to'laysiz. Narxlar {count} obyektdan {priced} tasida ko'rsatilgan, qolganlari e'lon qilmagan — telefon kartochkada."
+        },
+        {
+          "heading": "Yil bo'yi yoki faqat yozda",
+          "body": "{count} basseyndan {summer} tasi mavsumiy: may oyida ochilib, sentyabrda yopiladi. Qolgan {yearRound} tasi yil bo'yi ishlaydi — bular yopiq sport majmualari, suzish maktablari, mehmonxona va fitnes-klub basseynlari. Qishda suzadigan joy izlayotgan bo'lsangiz, shu sahifadagi mavsum filtri yozgi maydonchalarni darhol chiqarib tashlaydi."
+        },
+        {
+          "heading": "Tumanlar bo'yicha",
+          "body": "Basseynlar Toshkent bo'ylab notekis taqsimlangan: {districts}. Eng ko'p obyekt {topDistrict} tumanida. Har bir tumanning ro'yxat va xaritali alohida sahifasi bor — uy yoki ish joyiga yaqinini shu tarzda topish qulayroq."
+        },
+        {
+          "heading": "Tanlashda nimaga e'tibor berish kerak",
+          "list": [
+            "Avtoturargoh — {count} basseyndan {parking} tasida bor. Mirobod kabi gavjum tumanlar uchun bu sezilarli qulaylik.",
+            "Hududdagi kafe yoki restoran — {cafe} obyektda. Kun bo'yi qolishni rejalashtirsangiz muhim.",
+            "Bolalar zonasi — {childrenZone} basseynda. Alohida sayoz havza umumiy basseynning «sayoz cheti» dan xavfsizroq.",
+            "Murabbiy yoki mashg'ulotlar — {trainer} obyektda. Bunga bolalar va kattalar guruhlari bo'lgan suzish maktablari ham kiradi.",
+            "Sauna — {sauna} basseynda, ko'pincha yopiq majmua va mehmonxonalarda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Tashkent is the only city in the country where you can pick a pool by district, format and budget rather than simply taking what is available. The catalog lists {count} venues, {yearRound} of which are open all year. The range is wide — from 25-metre sport pools and swimming schools to aquaparks and pools at five-star hotels — so it helps to choose by purpose (lap swimming, a day out with kids, or training) rather than by rating alone.",
+      "sections": [
+        {
+          "heading": "What a visit costs",
+          "body": "A single adult entry in Tashkent runs from {priceFrom} to {priceTo}, with a typical price around {priceMedian}. The upper end is hotel pools, where the fee covers the lounge area, towels and service. Sport pools and swimming schools are cheaper but usually sell monthly memberships rather than single entries. One venue works differently: at Malibu Sun Club entry to the water is free and you pay only for a sunbed or table. Prices are published by {priced} of {count} venues; for the rest, the phone number is on the pool's page."
+        },
+        {
+          "heading": "Year-round or summer only",
+          "body": "{summer} of the {count} pools are seasonal, opening in May and closing in September. The other {yearRound} operate year-round: indoor sport complexes, swimming schools, and pools at hotels and fitness clubs. If you are looking for somewhere to swim in winter, the season filter on this page removes the summer venues straight away."
+        },
+        {
+          "heading": "By district",
+          "body": "Pools are spread unevenly across the city: {districts}. The largest cluster is in {topDistrict}. Every district has its own page with a list and a map, which makes it easier to find something close to home or work."
+        },
+        {
+          "heading": "What to check before you go",
+          "list": [
+            "Parking — available at {parking} of {count} pools. In busy districts such as Mirobod this matters.",
+            "On-site cafe or restaurant — at {cafe} venues. Worth checking if you plan to stay all day.",
+            "Children's area — at {childrenZone} pools. A separate shallow basin is safer than the shallow end of a main pool.",
+            "Coach or classes — at {trainer} venues, including swimming schools with groups for children and adults.",
+            "Sauna — at {sauna} pools, most often in indoor complexes and hotels."
+          ]
+        }
+      ]
+    }
+  },
+
+  "khorezm": {
+    "ru": {
+      "intro": "Хорезм — второй регион Узбекистана по числу бассейнов в нашем каталоге: {count} объектов, из них {yearRound} работают круглый год. Почти все они сосредоточены в Ургенче и Хиве, и это во многом объясняется туризмом — большинство бассейнов относится к гостиничным комплексам и открыто для гостей отелей.",
+      "sections": [
+        {
+          "heading": "Где именно они находятся",
+          "body": "География простая: {cities}. Ургенч — административный центр области и главный транспортный узел, поэтому объектов там больше всего. В Хиве бассейны почти всегда гостиничные — их строят при отелях в Ичан-Кале и вокруг неё, рассчитывая на туристов, приезжающих на несколько дней."
+        },
+        {
+          "heading": "Отели, спорт и крытые бассейны",
+          "body": "{hotel} объектов из {count} — это бассейны при гостиницах, ещё {sport} относятся к спортивным школам и комплексам, {indoor} — крытые. Такое соотношение отличает Хорезм от Ташкента: развлекательного формата здесь почти нет, зато есть круглогодичные спортивные чаши, где занимаются местные секции по плаванию."
+        },
+        {
+          "heading": "О ценах",
+          "body": "Ни один объект Хорезма пока не публикует прайс, поэтому цену придётся уточнять по телефону — он указан в карточке каждого бассейна. Для гостиничных бассейнов стоит отдельно спросить, пускают ли не проживающих в отеле: политика у всех разная, и часто вход для сторонних посетителей платный или ограничен по времени."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Парковка — у {parking} из {count} объектов, для области это почти повсеместно.",
+            "Wi-Fi — у {wifi} бассейнов, в основном гостиничных.",
+            "Тренер или занятия — у {trainer} объектов, это спортивные школы Ургенча.",
+            "Сауна — у {sauna} бассейнов."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Xorazm — katalogimizdagi basseynlar soni bo'yicha O'zbekistonda ikkinchi hudud: {count} ta obyekt, ulardan {yearRound} tasi yil bo'yi ishlaydi. Deyarli barchasi Urganch va Xivada joylashgan, buning sababi — turizm: basseynlarning aksariyati mehmonxona majmualariga tegishli.",
+      "sections": [
+        {
+          "heading": "Ular aynan qayerda",
+          "body": "Geografiya sodda: {cities}. Urganch — viloyat markazi va asosiy transport tuguni, shuning uchun obyektlar eng ko'p o'sha yerda. Xivada basseynlar deyarli har doim mehmonxonalarga tegishli — ular Ichan-Qal'a va uning atrofidagi mehmonxonalar qoshida, bir necha kunga keladigan sayyohlarga mo'ljallab quriladi."
+        },
+        {
+          "heading": "Mehmonxonalar, sport va yopiq basseynlar",
+          "body": "{count} obyektdan {hotel} tasi mehmonxona basseyni, yana {sport} tasi sport maktab va majmualariga tegishli, {indoor} tasi yopiq. Bu nisbat Xorazmni Toshkentdan ajratib turadi: bu yerda ko'ngilochar format deyarli yo'q, buning o'rniga mahalliy suzish to'garaklari shug'ullanadigan yil bo'yi ishlaydigan sport havzalari bor."
+        },
+        {
+          "heading": "Narxlar haqida",
+          "body": "Xorazmdagi hech bir obyekt hozircha narxini e'lon qilmagan, shuning uchun narxni telefon orqali aniqlash kerak — u har bir basseyn kartochkasida ko'rsatilgan. Mehmonxona basseynlari uchun alohida so'rang: mehmonxonada yashamaydiganlarni kiritadimi? Siyosat har xil, ko'pincha tashqi mehmonlar uchun kirish pullik yoki vaqt bo'yicha cheklangan."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Avtoturargoh — {count} obyektdan {parking} tasida, viloyat uchun bu deyarli hamma joyda.",
+            "Wi-Fi — {wifi} basseynda, asosan mehmonxonalarda.",
+            "Murabbiy yoki mashg'ulotlar — {trainer} obyektda, bular Urganch sport maktablari.",
+            "Sauna — {sauna} basseynda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Khorezm is the second region of Uzbekistan by the number of pools in our catalog: {count} venues, {yearRound} of them open all year. Almost all of them are in Urgench and Khiva, largely because of tourism — most belong to hotel complexes and are built with visiting guests in mind.",
+      "sections": [
+        {
+          "heading": "Where they are",
+          "body": "The geography is simple: {cities}. Urgench is the regional capital and main transport hub, so most venues are there. In Khiva pools are almost always part of a hotel — they are built around Itchan Kala for tourists staying a few days."
+        },
+        {
+          "heading": "Hotels, sport and indoor pools",
+          "body": "{hotel} of the {count} venues are hotel pools, another {sport} belong to sport schools and complexes, and {indoor} are indoor. This mix is what sets Khorezm apart from Tashkent: there is almost no entertainment format here, but there are year-round sport basins used by local swimming clubs."
+        },
+        {
+          "heading": "About prices",
+          "body": "No venue in Khorezm publishes a price list yet, so you will need to call — the phone number is on each pool's page. For hotel pools, ask separately whether non-guests are admitted: policies differ, and outside visitors are often charged or limited to certain hours."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Parking — at {parking} of {count} venues, which is nearly all of them.",
+            "Wi-Fi — at {wifi} pools, mostly the hotel ones.",
+            "Coach or classes — at {trainer} venues, the sport schools in Urgench.",
+            "Sauna — at {sauna} pools."
+          ]
+        }
+      ]
+    }
+  },
+
+  "bukhara": {
+    "ru": {
+      "intro": "В Бухарской области в каталоге {count} бассейнов, и все они работают круглый год — сезонных площадок, которые закрываются на зиму, здесь нет. Подавляющее большинство находится в самой Бухаре, а формат определяется туристическим потоком: {hotel} из {count} объектов — бассейны при гостиницах.",
+      "sections": [
+        {
+          "heading": "Гостиничные бассейны и всё остальное",
+          "body": "Бухара — город с плотным туристическим сезоном, поэтому бассейны здесь чаще всего часть отеля: {hotel} объектов из {count}. Остальные — {open} открытых, {indoor} крытых, {sport} спортивных и {children} с детским уклоном. География почти не разбросана: {cities}."
+        },
+        {
+          "heading": "Цены и абонементы",
+          "body": "Прайс публикуют {priced} объектов из {count} — заметно меньше половины, поэтому по большинству бассейнов цену придётся уточнять по телефону. Там, где цены указаны, встречаются оба формата: разовое посещение и годовой абонемент. Обратите внимание, что у части бассейнов в каталоге указана только стоимость абонемента — это не цена входа, а членство на длительный срок."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Парковка — у всех {parking} объектов области.",
+            "Сауна — у {sauna} бассейнов, обычно в связке со спа-зоной отеля.",
+            "Wi-Fi — у {wifi} объектов.",
+            "Тренер или занятия — у {trainer} бассейнов."
+          ]
+        },
+        {
+          "heading": "Если вы не живёте в отеле",
+          "body": "Гостиничный бассейн не всегда закрыт для посторонних: часть отелей Бухары продаёт дневной доступ или разовый вход в спа-зону вместе с бассейном. Условия нигде не публикуются заранее, поэтому единственный надёжный способ — позвонить по номеру из карточки и спросить про день недели и время."
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Buxoro viloyatida katalogda {count} ta basseyn bor va ularning barchasi yil bo'yi ishlaydi — qishda yopiladigan mavsumiy maydonchalar bu yerda yo'q. Aksariyati Buxoroning o'zida, format esa turistik oqim bilan belgilanadi: {count} obyektdan {hotel} tasi mehmonxona basseyni.",
+      "sections": [
+        {
+          "heading": "Mehmonxona basseynlari va qolganlari",
+          "body": "Buxoro — turistik mavsumi zich shahar, shuning uchun basseynlar ko'pincha mehmonxona tarkibida: {count} obyektdan {hotel} tasi. Qolganlari — {open} ochiq, {indoor} yopiq, {sport} sport va {children} bolalarga mo'ljallangan. Geografiya deyarli tarqoq emas: {cities}."
+        },
+        {
+          "heading": "Narxlar va obunalar",
+          "body": "Narxni {count} obyektdan {priced} tasi e'lon qilgan — bu yarmidan sezilarli kam, shuning uchun ko'pchilik basseyn bo'yicha narxni telefon orqali aniqlash kerak. Narx ko'rsatilgan joylarda ikkala format ham uchraydi: bir martalik tashrif va yillik obuna. E'tibor bering, katalogdagi ba'zi basseynlarda faqat obuna narxi ko'rsatilgan — bu kirish narxi emas, uzoq muddatli a'zolik."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Avtoturargoh — viloyatning barcha {parking} obyektida.",
+            "Sauna — {sauna} basseynda, odatda mehmonxonaning spa-zonasi bilan birga.",
+            "Wi-Fi — {wifi} obyektda.",
+            "Murabbiy yoki mashg'ulotlar — {trainer} basseynda."
+          ]
+        },
+        {
+          "heading": "Agar mehmonxonada yashamasangiz",
+          "body": "Mehmonxona basseyni har doim ham begonalar uchun yopiq emas: Buxoroning ayrim mehmonxonalari kunlik ruxsat yoki basseyn bilan birga spa-zonaga bir martalik kirish sotadi. Shartlar oldindan e'lon qilinmaydi, shuning uchun yagona ishonchli yo'l — kartochkadagi raqamga qo'ng'iroq qilib, hafta kuni va vaqtni so'rash."
+        }
+      ]
+    },
+    "en": {
+      "intro": "The catalog lists {count} pools in Bukhara Region, and all of them operate year-round — there are no seasonal venues here that close for winter. The vast majority are in Bukhara itself, and the format is shaped by tourism: {hotel} of the {count} venues are hotel pools.",
+      "sections": [
+        {
+          "heading": "Hotel pools and everything else",
+          "body": "Bukhara has a dense tourist season, so pools are most often part of a hotel: {hotel} out of {count}. The rest break down into {open} open-air, {indoor} indoor, {sport} sport and {children} aimed at children. The geography is barely spread out: {cities}."
+        },
+        {
+          "heading": "Prices and memberships",
+          "body": "Only {priced} of {count} venues publish a price list — well under half — so for most pools you will need to call. Where prices are listed, both formats appear: single entry and annual membership. Note that some venues in the catalog show only a membership fee, which is long-term access rather than the price of a single visit."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Parking — at all {parking} venues in the region.",
+            "Sauna — at {sauna} pools, usually as part of a hotel spa area.",
+            "Wi-Fi — at {wifi} venues.",
+            "Coach or classes — at {trainer} pools."
+          ]
+        },
+        {
+          "heading": "If you are not staying at the hotel",
+          "body": "A hotel pool is not always closed to outside visitors: some Bukhara hotels sell day passes or single spa entry that includes the pool. These terms are never published in advance, so the only reliable approach is to call the number on the pool's page and ask about the day and time."
+        }
+      ]
+    }
+  },
+
+  "karakalpakstan": {
+    "ru": {
+      "intro": "В Каракалпакстане в каталоге {count} бассейнов, и это единственный регион, где заметная часть объектов находится за пределами областного центра. {yearRound} работают круглый год, {summer} — только летом. Основной формат — крытые бассейны и спортивные чаши, {indoor} из {count}, а не развлекательные комплексы.",
+      "sections": [
+        {
+          "heading": "Не только Нукус",
+          "body": "География шире, чем в других регионах: {cities}. Такой разброс означает, что в небольших городах и посёлках Каракалпакстана бассейн часто один на весь населённый пункт — расписание и выходные лучше уточнять заранее, потому что альтернативы поблизости может не быть."
+        },
+        {
+          "heading": "Сколько стоит",
+          "body": "Разовое взрослое посещение стоит от {priceFrom} до {priceTo} — это заметно дешевле Ташкента. Прайс публикуют {priced} объектов из {count}; по остальным звоните по номеру из карточки. Отдельно стоит учитывать спортивные школы: там платят не за вход, а за месяц занятий в группе, и такая оплата с разовым посещением не сравнивается напрямую."
+        },
+        {
+          "heading": "Лето и круглый год",
+          "body": "{summer} объектов из {count} — сезонные, они работают в жаркие месяцы, когда открытый бассейн в регионе с континентальным климатом особенно востребован. Остальные {yearRound} доступны круглый год: это крытые бассейны Нукуса и спортивные комплексы."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Парковка — у {parking} из {count} объектов.",
+            "Лежаки — у {sunbed} бассейнов, в основном у открытых.",
+            "Тренер или занятия — у {trainer} объектов.",
+            "Детская зона — у {childrenZone} бассейнов."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Qoraqalpog'istonda katalogda {count} ta basseyn bor va bu obyektlarning sezilarli qismi viloyat markazidan tashqarida joylashgan yagona hudud. {yearRound} tasi yil bo'yi, {summer} tasi faqat yozda ishlaydi. Asosiy format — ko'ngilochar majmualar emas, yopiq basseynlar va sport havzalari: {count} dan {indoor} tasi.",
+      "sections": [
+        {
+          "heading": "Faqat Nukus emas",
+          "body": "Geografiya boshqa hududlarga qaraganda kengroq: {cities}. Bunday tarqoqlik shuni anglatadiki, Qoraqalpog'istonning kichik shahar va posyolkalarida basseyn ko'pincha butun aholi punktiga bitta bo'ladi — ish vaqti va dam olish kunlarini oldindan aniqlagan ma'qul, chunki yaqin atrofda muqobili bo'lmasligi mumkin."
+        },
+        {
+          "heading": "Narxi qancha",
+          "body": "Kattalar uchun bir martalik tashrif {priceFrom} dan {priceTo} gacha — bu Toshkentdan sezilarli arzon. Narxni {count} obyektdan {priced} tasi e'lon qilgan; qolganlari uchun kartochkadagi raqamga qo'ng'iroq qiling. Sport maktablarini alohida hisobga oling: u yerda kirish uchun emas, guruhdagi oylik mashg'ulot uchun to'lanadi va buni bir martalik tashrif bilan to'g'ridan-to'g'ri solishtirib bo'lmaydi."
+        },
+        {
+          "heading": "Yoz va yil bo'yi",
+          "body": "{count} obyektdan {summer} tasi mavsumiy — ular issiq oylarda ishlaydi, kontinental iqlimli hududda ochiq basseyn ayni shu paytda ayniqsa talab qilinadi. Qolgan {yearRound} tasi yil bo'yi ochiq: bular Nukusning yopiq basseynlari va sport majmualari."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Avtoturargoh — {count} obyektdan {parking} tasida.",
+            "Shezlonglar — {sunbed} basseynda, asosan ochiqlarida.",
+            "Murabbiy yoki mashg'ulotlar — {trainer} obyektda.",
+            "Bolalar zonasi — {childrenZone} basseynda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "The catalog lists {count} pools in Karakalpakstan, and it is the only region where a noticeable share of them sits outside the regional capital. {yearRound} operate year-round and {summer} in summer only. The dominant format is indoor pools and sport basins — {indoor} of {count} — rather than entertainment complexes.",
+      "sections": [
+        {
+          "heading": "Not just Nukus",
+          "body": "The geography is wider than in other regions: {cities}. That spread means that in the smaller towns and settlements of Karakalpakstan the pool is often the only one for the whole place — it is worth checking opening hours and days off in advance, because there may be no alternative nearby."
+        },
+        {
+          "heading": "What it costs",
+          "body": "A single adult entry runs from {priceFrom} to {priceTo}, noticeably cheaper than Tashkent. Prices are published by {priced} of {count} venues; for the rest, call the number on the pool's page. Sport schools work differently: you pay for a month of group sessions rather than for entry, so that figure is not directly comparable with a single visit."
+        },
+        {
+          "heading": "Summer and year-round",
+          "body": "{summer} of the {count} venues are seasonal, operating through the hot months when an open-air pool matters most in a continental climate. The other {yearRound} are open all year: the indoor pools of Nukus and the sport complexes."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Parking — at {parking} of {count} venues.",
+            "Sunbeds — at {sunbed} pools, mostly the open-air ones.",
+            "Coach or classes — at {trainer} venues.",
+            "Children's area — at {childrenZone} pools."
+          ]
+        }
+      ]
+    }
+  },
+
+  "tashkent-region": {
+    "ru": {
+      "intro": "Ташкентская область — это то, куда едут за город на выходные: в каталоге {count} бассейнов, из них {summer} сезонных. Формат почти всегда загородный — открытая вода, зона отдыха, кафе, а не спортивные дорожки. От Ташкента до большинства объектов около часа на машине, поэтому сюда обычно едут на весь день.",
+      "sections": [
+        {
+          "heading": "Где они расположены",
+          "body": "Объекты разбросаны по области, а не собраны в одном городе: {cities}. Практический вывод простой — выбирайте не по названию, а по направлению выезда из Ташкента, и закладывайте дорогу в оба конца. Общественным транспортом добраться сложнее, чем до городских бассейнов."
+        },
+        {
+          "heading": "Сколько стоит",
+          "body": "Разовое взрослое посещение стоит от {priceFrom} до {priceTo}. Цены указаны у всех {priced} объектов области — это редкий случай, обычно часть бассейнов прайс не публикует. Загородный формат часто подразумевает отдельную плату за беседку, мангал или лежаки, поэтому итоговая сумма на компанию может отличаться от цены входа."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Детская зона — у {childrenZone} из {count} объектов, для семейного выезда это главный критерий.",
+            "Парковка — у {parking} бассейнов, за городом это почти обязательный пункт.",
+            "Кафе — у {cafe} объектов; бар — у {bar}.",
+            "Лежаки — у {sunbed} бассейнов."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Toshkent viloyati — bu dam olish kunlari shahardan tashqariga chiqiladigan joy: katalogda {count} ta basseyn, ulardan {summer} tasi mavsumiy. Format deyarli har doim shahar tashqarisiga xos — sport yo'lakchalari emas, ochiq suv, dam olish zonasi, kafe. Toshkentdan aksariyat obyektlargacha mashinada taxminan bir soat, shuning uchun bu yerga odatda kun bo'yiga kelishadi.",
+      "sections": [
+        {
+          "heading": "Ular qayerda joylashgan",
+          "body": "Obyektlar bitta shaharga jamlanmagan, viloyat bo'ylab tarqoq: {cities}. Amaliy xulosa oddiy — nomiga emas, Toshkentdan chiqish yo'nalishiga qarab tanlang va yo'lni ikki tomonga hisobga oling. Jamoat transportida shahar basseynlariga qaraganda yetib borish qiyinroq."
+        },
+        {
+          "heading": "Narxi qancha",
+          "body": "Kattalar uchun bir martalik tashrif {priceFrom} dan {priceTo} gacha. Narx viloyatning barcha {priced} obyektida ko'rsatilgan — bu kam uchraydigan holat, odatda ba'zi basseynlar prays e'lon qilmaydi. Shahar tashqarisidagi format ko'pincha alohida to'lovni nazarda tutadi: chayla, mangal yoki shezlonglar uchun, shuning uchun kompaniya uchun yakuniy summa kirish narxidan farq qilishi mumkin."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Bolalar zonasi — {count} obyektdan {childrenZone} tasida, oilaviy sayohat uchun bu asosiy mezon.",
+            "Avtoturargoh — {parking} basseynda, shahar tashqarisida bu deyarli majburiy.",
+            "Kafe — {cafe} obyektda; bar — {bar} tasida.",
+            "Shezlonglar — {sunbed} basseynda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Tashkent Region is where people head out of town for the weekend: the catalog lists {count} pools, {summer} of them seasonal. The format is almost always out-of-town — open water, a lounge area and a cafe rather than swimming lanes. Most venues are about an hour's drive from Tashkent, so visits tend to fill the whole day.",
+      "sections": [
+        {
+          "heading": "Where they are",
+          "body": "The venues are scattered across the region rather than concentrated in one town: {cities}. The practical takeaway is to choose by which road out of Tashkent you will take, and to budget for the drive both ways. Public transport is harder here than for city pools."
+        },
+        {
+          "heading": "What it costs",
+          "body": "A single adult entry runs from {priceFrom} to {priceTo}. All {priced} venues in the region publish prices, which is unusual — elsewhere some pools keep them off the page. The out-of-town format often adds separate charges for a gazebo, a barbecue spot or sunbeds, so the total for a group can differ from the entry price."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Children's area — at {childrenZone} of {count} venues, the deciding factor for a family trip.",
+            "Parking — at {parking} pools; out of town this is essentially required.",
+            "Cafe — at {cafe} venues; bar — at {bar}.",
+            "Sunbeds — at {sunbed} pools."
+          ]
+        }
+      ]
+    }
+  },
+
+  "samarkand": {
+    "ru": {
+      "intro": "В Самаркандской области в каталоге пока {count} бассейн — филиал школы плавания Born2swim. Это крытый круглогодичный объект, то есть формат здесь спортивный, а не развлекательный: сюда приходят учиться плавать и тренироваться, а не проводить день у воды.",
+      "sections": [
+        {
+          "heading": "Что это за формат",
+          "body": "Школа плавания работает по записи в группы или на индивидуальные занятия, поэтому привычного разового входа «поплавать час» может не быть — расписание и условия уточняйте по телефону из карточки. Для взрослых, которые хотят научиться плавать с нуля, такой формат обычно удобнее, чем свободное посещение общественного бассейна."
+        },
+        {
+          "heading": "Почему объектов так мало",
+          "body": "Самарканд — крупный туристический город, но бассейны там либо закрытые (при жилых комплексах и фитнес-клубах), либо гостиничные и не публикуют информацию о доступе. Мы добавляем в каталог только объекты с подтверждёнными адресом, телефоном и условиями посещения, поэтому список пополняется медленно. Если знаете бассейн в Самарканде, которого здесь нет — напишите нам через страницу контактов."
+        },
+        {
+          "heading": "Что рядом",
+          "body": "Пока в области один объект, имеет смысл посмотреть соседние регионы: в Бухарской области бассейнов больше, и почти все они круглогодичные. Ссылки на другие регионы — внизу этой страницы."
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Samarqand viloyatida katalogda hozircha {count} ta basseyn bor — Born2swim suzish maktabining filiali. Bu yopiq, yil bo'yi ishlaydigan obyekt, ya'ni format ko'ngilochar emas, sport yo'nalishida: bu yerga suv bo'yida kun o'tkazish uchun emas, suzishni o'rganish va mashq qilish uchun kelishadi.",
+      "sections": [
+        {
+          "heading": "Bu qanday format",
+          "body": "Suzish maktabi guruhga yoki individual mashg'ulotga yozilish asosida ishlaydi, shuning uchun odatdagi «bir soat suzish» uchun bir martalik kirish bo'lmasligi mumkin — jadval va shartlarni kartochkadagi telefon orqali aniqlang. Suzishni noldan o'rganmoqchi bo'lgan kattalar uchun bunday format odatda ommaviy basseynga erkin tashrifdan qulayroq."
+        },
+        {
+          "heading": "Nega obyektlar shunchalik kam",
+          "body": "Samarqand — yirik turistik shahar, lekin u yerdagi basseynlar yo yopiq (turar-joy majmualari va fitnes-klublar qoshida), yo mehmonxonaga tegishli va kirish shartlari haqida ma'lumot e'lon qilmaydi. Biz katalogga faqat manzili, telefoni va tashrif shartlari tasdiqlangan obyektlarni qo'shamiz, shuning uchun ro'yxat sekin to'ldiriladi. Agar Samarqandda bu yerda yo'q basseynni bilsangiz — aloqa sahifasi orqali yozing."
+        },
+        {
+          "heading": "Yaqin atrofda nima bor",
+          "body": "Viloyatda hozircha bitta obyekt bo'lgani uchun qo'shni hududlarni ko'rish mantiqan to'g'ri: Buxoro viloyatida basseynlar ko'proq va deyarli barchasi yil bo'yi ishlaydi. Boshqa hududlarga havolalar — shu sahifaning pastida."
+        }
+      ]
+    },
+    "en": {
+      "intro": "The catalog currently lists {count} pool in Samarkand Region — a branch of the Born2swim swimming school. It is an indoor, year-round venue, so the format is sporting rather than recreational: people come to learn to swim and to train, not to spend a day by the water.",
+      "sections": [
+        {
+          "heading": "What this format means",
+          "body": "A swimming school runs on booked group or individual sessions, so the familiar drop-in \"swim for an hour\" option may not exist — check the schedule and terms by phone using the number on the pool's page. For adults learning to swim from scratch, this format is usually more practical than open access at a public pool."
+        },
+        {
+          "heading": "Why there are so few venues",
+          "body": "Samarkand is a major tourist city, but its pools are either private (inside residential complexes and fitness clubs) or attached to hotels that publish nothing about access. We only add venues with a confirmed address, phone number and visiting terms, so the list grows slowly. If you know a pool in Samarkand that is missing here, tell us through the contacts page."
+        },
+        {
+          "heading": "What is nearby",
+          "body": "With a single venue in the region, it is worth looking at neighbouring ones: Bukhara Region has more pools and nearly all of them are year-round. Links to other regions are at the bottom of this page."
+        }
+      ]
+    }
+  }
+}

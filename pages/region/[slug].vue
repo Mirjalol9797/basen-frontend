@@ -155,6 +155,74 @@
           <PoolCard v-for="pool in filteredPools" :key="pool.id" :pool="pool" />
         </div>
 
+        <!-- SEO text -->
+        <div v-if="guide" class="mt-12 pt-8 border-t border-gray-100">
+          <p class="text-sm text-gray-500 leading-relaxed">{{ guide.intro }}</p>
+          <div v-for="(section, i) in guide.sections" :key="i" class="mt-6">
+            <h2 class="text-base font-bold text-gray-900 mb-2">
+              {{ section.heading }}
+            </h2>
+            <p
+              v-if="section.body"
+              class="text-sm text-gray-500 leading-relaxed"
+            >
+              {{ section.body }}
+            </p>
+            <ul
+              v-if="section.list"
+              class="text-sm text-gray-500 leading-relaxed space-y-1.5 list-disc pl-5"
+            >
+              <li v-for="(item, j) in section.list" :key="j">{{ item }}</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div
+          v-if="faqItems.length > 0"
+          class="mt-12 pt-8 border-t border-gray-100"
+        >
+          <h2 class="text-lg font-bold text-gray-900 mb-4">
+            {{ $t("region.faq_title", { name: regionName }) }}
+          </h2>
+          <div class="space-y-2.5 max-w-3xl">
+            <div
+              v-for="(item, index) in faqItems"
+              :key="index"
+              class="bg-white rounded-xl border border-gray-100 overflow-hidden"
+            >
+              <button
+                type="button"
+                class="w-full flex items-center justify-between gap-4 px-4 py-3.5 text-left hover:bg-gray-50 transition-colors duration-150"
+                :aria-expanded="openFaqIndex === index"
+                @click="openFaqIndex = openFaqIndex === index ? null : index"
+              >
+                <span class="font-medium text-gray-900 text-sm leading-snug">{{
+                  item.q
+                }}</span>
+                <svg
+                  class="w-4 h-4 shrink-0 text-primary-600 transition-transform duration-200"
+                  :class="{ 'rotate-180': openFaqIndex === index }"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <div
+                v-if="openFaqIndex === index"
+                class="px-4 pb-3.5 text-sm text-gray-500 leading-relaxed border-t border-gray-50 pt-3"
+              >
+                {{ item.a }}
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Other regions -->
         <div class="mt-12 pt-8 border-t border-gray-100">
           <h2 class="text-lg font-bold text-gray-900 mb-4">
@@ -178,6 +246,8 @@
 
 <script setup lang="ts">
 import type { PoolCategory } from "~/types/pool";
+import regionGuides from "~/data/regionGuides.json";
+import regionFaq from "~/data/regionFaq.json";
 
 const route = useRoute();
 const { t, locale } = useI18n();
@@ -185,7 +255,7 @@ const localePath = useLocalePath();
 const poolsStore = usePoolsStore();
 const { regions, getRegionName, getRegionGenitive, getRegionById } =
   useRegions();
-const { districts } = useDistricts();
+const { districts, getDistrictName } = useDistricts();
 
 const slug = route.params.slug as string;
 const region = computed(() => getRegionById(slug) ?? null);
@@ -247,6 +317,49 @@ function resetFilters() {
   selectedDistrict.value = null;
 }
 
+// Цифры для текстов ниже. Считаются по всем бассейнам региона, а не по
+// отфильтрованным: текст описывает регион целиком и не должен меняться,
+// когда пользователь щёлкает фильтры.
+const stats = computed(() =>
+  buildRegionStats(pools.value, slug, locale.value, getDistrictName)
+);
+
+type RegionGuide = {
+  intro: string;
+  sections: { heading: string; body?: string; list?: string[] }[];
+};
+
+const guide = computed((): RegionGuide | null => {
+  const raw = (regionGuides as Record<string, Record<string, RegionGuide>>)[
+    slug
+  ]?.[locale.value];
+  if (!raw) return null;
+  const fill = (s: string) => interpolate(s, stats.value);
+  return {
+    intro: fill(raw.intro),
+    sections: raw.sections.map((s) => ({
+      heading: fill(s.heading),
+      ...(s.body && { body: fill(s.body) }),
+      ...(s.list && { list: s.list.map(fill) }),
+    })),
+  };
+});
+
+type FaqItem = { q: string; a: string };
+
+const faqItems = computed((): FaqItem[] => {
+  const raw =
+    (regionFaq as Record<string, Record<string, FaqItem[]>>)[slug]?.[
+      locale.value
+    ] ?? [];
+  return raw.map((item) => ({
+    q: interpolate(item.q, stats.value),
+    a: interpolate(item.a, stats.value),
+  }));
+});
+
+const openFaqIndex = ref<number | null>(null);
+
 const filteredPools = computed(() => {
   let result = pools.value;
   if (selectedCategories.value.length > 0)
@@ -305,19 +418,36 @@ watchEffect(() => {
     ],
   };
 
-  useHead({
-    script: [
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(schema),
-        key: "schema-region",
-      },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(breadcrumb),
-        key: "schema-breadcrumb",
-      },
-    ],
-  });
+  const scripts = [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(schema),
+      key: "schema-region",
+    },
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(breadcrumb),
+      key: "schema-breadcrumb",
+    },
+  ];
+
+  if (faqItems.value.length > 0) {
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqItems.value.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+    };
+    scripts.push({
+      type: "application/ld+json",
+      children: JSON.stringify(faqSchema),
+      key: "schema-faq",
+    });
+  }
+
+  useHead({ script: scripts });
 });
 </script>

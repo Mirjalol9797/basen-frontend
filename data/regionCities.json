@@ -1,0 +1,52 @@
+{
+  "_comment": "Города и районы, по которым распределяются бассейны региона. Адреса в pools.json написаны неоднородно (регион то в начале, то в конце строки), поэтому город определяется поиском подстроки match по адресу на текущем языке, а не разбором по запятым. Порядок важен: более длинное название должно идти раньше вложенного в него — 'Нукусский район' перед 'Нукус'. name — то, что показывается в тексте.",
+
+  "khorezm": [
+    { "match": { "ru": "Ханкинский район", "uz": "Xonqa tumani", "en": "Khanka district" },
+      "name":  { "ru": "Ханкинский район", "uz": "Xonqa tumani", "en": "Khanka District" } },
+    { "match": { "ru": "Ургенч", "uz": "Urganch", "en": "Urgench" },
+      "name":  { "ru": "Ургенч", "uz": "Urganch", "en": "Urgench" } },
+    { "match": { "ru": "Хива", "uz": "Xiva", "en": "Khiva" },
+      "name":  { "ru": "Хива", "uz": "Xiva", "en": "Khiva" } },
+    { "match": { "ru": "Багат", "uz": "Bog'ot", "en": "Bagat" },
+      "name":  { "ru": "Багат", "uz": "Bog'ot", "en": "Bagat" } }
+  ],
+
+  "bukhara": [
+    { "match": { "ru": "Бухара", "uz": "Buxoro", "en": "Bukhara" },
+      "name":  { "ru": "Бухара", "uz": "Buxoro", "en": "Bukhara" } },
+    { "match": { "ru": "Ромитан", "uz": "Romitan", "en": "Romitan" },
+      "name":  { "ru": "Ромитан", "uz": "Romitan", "en": "Romitan" } }
+  ],
+
+  "karakalpakstan": [
+    { "match": { "ru": "Нукусский район", "uz": "Nukus tumani", "en": "Nukus district" },
+      "name":  { "ru": "Нукусский район", "uz": "Nukus tumani", "en": "Nukus District" } },
+    { "match": { "ru": "Нукус", "uz": "Nukus", "en": "Nukus" },
+      "name":  { "ru": "Нукус", "uz": "Nukus", "en": "Nukus" } },
+    { "match": { "ru": "Кунград", "uz": "Qo'ng'irot", "en": "Kungrad" },
+      "name":  { "ru": "Кунград", "uz": "Qo'ng'irot", "en": "Kungrad" } },
+    { "match": { "ru": "Ходжейли", "uz": "Xo'jayli", "en": "Khojeyli" },
+      "name":  { "ru": "Ходжейли", "uz": "Xo'jayli", "en": "Khojeyli" } },
+    { "match": { "ru": "Караузяк", "uz": "Qorao'zak", "en": "Karauzyak" },
+      "name":  { "ru": "Караузяк", "uz": "Qorao'zak", "en": "Karauzyak" } },
+    { "match": { "ru": "Беруни", "uz": "Beruniy", "en": "Beruni" },
+      "name":  { "ru": "Беруни", "uz": "Beruniy", "en": "Beruni" } }
+  ],
+
+  "tashkent-region": [
+    { "match": { "ru": "Пскентский район", "uz": "Pskent tumani", "en": "Pskent district" },
+      "name":  { "ru": "Пскентский район", "uz": "Pskent tumani", "en": "Pskent District" } },
+    { "match": { "ru": "Зангиатинский район", "uz": "Zangiota tumani", "en": "Zangiata district" },
+      "name":  { "ru": "Зангиатинский район", "uz": "Zangiota tumani", "en": "Zangiata District" } },
+    { "match": { "ru": "Нурафшан", "uz": "Nurafshon", "en": "Nurafshan" },
+      "name":  { "ru": "Нурафшан", "uz": "Nurafshon", "en": "Nurafshan" } },
+    { "match": { "ru": "Чирчик", "uz": "Chirchiq", "en": "Chirchiq" },
+      "name":  { "ru": "Чирчик", "uz": "Chirchiq", "en": "Chirchik" } }
+  ],
+
+  "samarkand": [
+    { "match": { "ru": "Самарканд", "uz": "Samarqand", "en": "Samarkand" },
+      "name":  { "ru": "Самарканд", "uz": "Samarqand", "en": "Samarkand" } }
+  ]
+}

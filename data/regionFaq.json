@@ -1,0 +1,130 @@
+{
+  "tashkent-city": {
+    "ru": [
+      { "q": "Сколько бассейнов в Ташкенте?", "a": "В каталоге Basen.uz сейчас {count} бассейнов Ташкента: {open} открытых, {indoor} крытых, {aquapark} аквапарков, {hotel} при отелях и {sport} спортивных. Каждый объект проверен — адрес, телефон и режим работы указаны в карточке." },
+      { "q": "Сколько стоит сходить в бассейн в Ташкенте?", "a": "Разовое взрослое посещение стоит от {priceFrom} до {priceTo}, типичная цена — около {priceMedian}. Дороже всего бассейны при отелях, дешевле — спортивные комплексы и школы плавания. Цены опубликованы у {priced} объектов из {count}." },
+      { "q": "В каком районе Ташкента больше всего бассейнов?", "a": "Больше всего объектов в районе {topDistrict}. Распределение по районам: {districts}. У каждого района есть отдельная страница со списком бассейнов и картой." },
+      { "q": "Какие бассейны в Ташкенте работают зимой?", "a": "Круглый год работают {yearRound} бассейнов из {count} — это крытые спортивные комплексы, школы плавания и бассейны при отелях и фитнес-клубах. Остальные {summer} — сезонные, они открыты примерно с мая по сентябрь." },
+      { "q": "Есть ли в Ташкенте бассейны с детской зоной?", "a": "Детская зона есть у {childrenZone} бассейнов из {count}. Это отдельная неглубокая чаша, а не мелкий край общего бассейна — для детей до 7–8 лет разница существенная. Наличие услуги отмечено в карточке каждого объекта." }
+    ],
+    "uz": [
+      { "q": "Toshkentda nechta basseyn bor?", "a": "Basen.uz katalogida hozir Toshkentning {count} ta basseyni bor: {open} ochiq, {indoor} yopiq, {aquapark} akvapark, {hotel} mehmonxona qoshida va {sport} sport basseyni. Har bir obyekt tekshirilgan — manzil, telefon va ish vaqti kartochkada ko'rsatilgan." },
+      { "q": "Toshkentda basseynga borish qancha turadi?", "a": "Kattalar uchun bir martalik tashrif {priceFrom} dan {priceTo} gacha, odatiy narx — taxminan {priceMedian}. Eng qimmati — mehmonxona basseynlari, arzonrog'i — sport majmualari va suzish maktablari. Narxlar {count} obyektdan {priced} tasida e'lon qilingan." },
+      { "q": "Toshkentning qaysi tumanida basseyn ko'p?", "a": "Eng ko'p obyekt {topDistrict} tumanida. Tumanlar bo'yicha taqsimot: {districts}. Har bir tumanning basseynlar ro'yxati va xaritasi bilan alohida sahifasi bor." },
+      { "q": "Toshkentda qaysi basseynlar qishda ishlaydi?", "a": "{count} basseyndan {yearRound} tasi yil bo'yi ishlaydi — bular yopiq sport majmualari, suzish maktablari, mehmonxona va fitnes-klub basseynlari. Qolgan {summer} tasi mavsumiy, taxminan may oyidan sentyabrgacha ochiq." },
+      { "q": "Toshkentda bolalar zonasi bo'lgan basseynlar bormi?", "a": "{count} basseyndan {childrenZone} tasida bolalar zonasi bor. Bu umumiy basseynning sayoz cheti emas, alohida sayoz havza — 7–8 yoshgacha bo'lgan bolalar uchun bu jiddiy farq. Xizmat mavjudligi har bir obyekt kartochkasida belgilangan." }
+    ],
+    "en": [
+      { "q": "How many swimming pools are there in Tashkent?", "a": "The Basen.uz catalog currently lists {count} pools in Tashkent: {open} open-air, {indoor} indoor, {aquapark} aquaparks, {hotel} at hotels and {sport} sport pools. Every venue is verified — address, phone and opening hours are on its page." },
+      { "q": "How much does it cost to visit a pool in Tashkent?", "a": "A single adult entry runs from {priceFrom} to {priceTo}, with a typical price around {priceMedian}. Hotel pools are the most expensive; sport complexes and swimming schools are cheaper. Prices are published by {priced} of {count} venues." },
+      { "q": "Which district of Tashkent has the most pools?", "a": "The largest cluster is in {topDistrict}. The distribution across districts: {districts}. Each district has its own page with a list of pools and a map." },
+      { "q": "Which pools in Tashkent are open in winter?", "a": "{yearRound} of the {count} pools operate year-round — indoor sport complexes, swimming schools, and pools at hotels and fitness clubs. The other {summer} are seasonal, open roughly from May to September." },
+      { "q": "Are there pools with a children's area in Tashkent?", "a": "{childrenZone} of the {count} pools have a children's area. That means a separate shallow basin rather than the shallow end of a main pool, which matters for children under 7–8. The facility is marked on each venue's page." }
+    ]
+  },
+
+  "khorezm": {
+    "ru": [
+      { "q": "Сколько бассейнов в Хорезмской области?", "a": "В каталоге {count} объектов, из них {yearRound} работают круглый год. Распределение по городам: {cities}. Это второй регион страны по числу бассейнов после Ташкента." },
+      { "q": "Сколько стоит бассейн в Ургенче и Хиве?", "a": "Ни один объект Хорезма пока не публикует прайс, поэтому цену нужно уточнять по телефону — он указан в карточке каждого бассейна. Мы не выдумываем цены и не показываем устаревшие: если данных нет, поле остаётся пустым." },
+      { "q": "Можно ли попасть в бассейн отеля, не проживая в нём?", "a": "{hotel} из {count} бассейнов области относятся к гостиницам, и политика доступа у них разная: где-то продают дневной вход, где-то бассейн только для гостей. Заранее это нигде не публикуется — единственный надёжный способ узнать, позвонить по номеру из карточки." },
+      { "q": "Какие бассейны в Хорезме работают зимой?", "a": "Круглый год открыты {yearRound} объектов из {count} — это крытые бассейны и спортивные комплексы Ургенча, а также часть гостиничных. Оставшиеся {summer} работают только в тёплый сезон." }
+    ],
+    "uz": [
+      { "q": "Xorazm viloyatida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt bor, ulardan {yearRound} tasi yil bo'yi ishlaydi. Shaharlar bo'yicha taqsimot: {cities}. Bu Toshkentdan keyin mamlakatdagi basseynlar soni bo'yicha ikkinchi hudud." },
+      { "q": "Urganch va Xivada basseyn qancha turadi?", "a": "Xorazmdagi hech bir obyekt hozircha narxini e'lon qilmagan, shuning uchun narxni telefon orqali aniqlash kerak — u har bir basseyn kartochkasida. Biz narxlarni o'ylab topmaymiz va eskisini ko'rsatmaymiz: ma'lumot bo'lmasa, maydon bo'sh qoladi." },
+      { "q": "Mehmonxonada yashamasdan uning basseyniga kirish mumkinmi?", "a": "Viloyatdagi {count} basseyndan {hotel} tasi mehmonxonalarga tegishli va ularning kirish siyosati har xil: ba'zilari kunlik ruxsat sotadi, ba'zilarida basseyn faqat mehmonlar uchun. Bu oldindan e'lon qilinmaydi — bilishning yagona ishonchli yo'li kartochkadagi raqamga qo'ng'iroq qilish." },
+      { "q": "Xorazmda qaysi basseynlar qishda ishlaydi?", "a": "{count} obyektdan {yearRound} tasi yil bo'yi ochiq — bular Urganchning yopiq basseynlari va sport majmualari, shuningdek mehmonxona basseynlarining bir qismi. Qolgan {summer} tasi faqat issiq mavsumda ishlaydi." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Khorezm Region?", "a": "The catalog lists {count} venues, {yearRound} of which are open all year. By town: {cities}. It is the second region in the country by number of pools after Tashkent." },
+      { "q": "How much does a pool cost in Urgench and Khiva?", "a": "No venue in Khorezm publishes a price list yet, so you need to call — the number is on each pool's page. We do not invent prices or show stale ones: if there is no data, the field stays empty." },
+      { "q": "Can you use a hotel pool without staying there?", "a": "{hotel} of the region's {count} pools belong to hotels, and their access policies differ: some sell a day pass, others keep the pool for guests only. This is never published in advance — the only reliable way to find out is to call the number on the pool's page." },
+      { "q": "Which pools in Khorezm are open in winter?", "a": "{yearRound} of {count} venues are open year-round — the indoor pools and sport complexes of Urgench, plus some hotel pools. The remaining {summer} operate in the warm season only." }
+    ]
+  },
+
+  "bukhara": {
+    "ru": [
+      { "q": "Сколько бассейнов в Бухарской области?", "a": "В каталоге {count} объектов, и все они круглогодичные — сезонных площадок, закрывающихся на зиму, в области нет. Распределение по городам: {cities}." },
+      { "q": "Сколько стоит бассейн в Бухаре?", "a": "Прайс публикуют {priced} объектов из {count}, поэтому по большинству бассейнов цену придётся уточнять по телефону из карточки. Учтите, что у части объектов указана стоимость годового абонемента, а не разового входа — это разные вещи." },
+      { "q": "Много ли в Бухаре гостиничных бассейнов?", "a": "Да, это основной формат: {hotel} объектов из {count} относятся к отелям. Остальные — {open} открытых, {indoor} крытых, {sport} спортивных и {children} с детским уклоном. Такое соотношение связано с туристическим потоком города." },
+      { "q": "Работают ли бассейны Бухары зимой?", "a": "Да, все {count} объектов области работают круглый год. Это отличает Бухару от Ташкента, где около половины бассейнов сезонные и закрываются в сентябре." }
+    ],
+    "uz": [
+      { "q": "Buxoro viloyatida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt bor va ularning barchasi yil bo'yi ishlaydi — viloyatda qishda yopiladigan mavsumiy maydonchalar yo'q. Shaharlar bo'yicha taqsimot: {cities}." },
+      { "q": "Buxoroda basseyn qancha turadi?", "a": "Narxni {count} obyektdan {priced} tasi e'lon qilgan, shuning uchun ko'pchilik basseyn bo'yicha narxni kartochkadagi telefon orqali aniqlash kerak. E'tibor bering: ba'zi obyektlarda bir martalik kirish emas, yillik obuna narxi ko'rsatilgan — bu boshqa narsa." },
+      { "q": "Buxoroda mehmonxona basseynlari ko'pmi?", "a": "Ha, bu asosiy format: {count} obyektdan {hotel} tasi mehmonxonalarga tegishli. Qolganlari — {open} ochiq, {indoor} yopiq, {sport} sport va {children} bolalarga mo'ljallangan. Bunday nisbat shaharning turistik oqimi bilan bog'liq." },
+      { "q": "Buxoro basseynlari qishda ishlaydimi?", "a": "Ha, viloyatning barcha {count} obyekti yil bo'yi ishlaydi. Bu Buxoroni Toshkentdan ajratib turadi — u yerda basseynlarning taxminan yarmi mavsumiy va sentyabrda yopiladi." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Bukhara Region?", "a": "The catalog lists {count} venues, and all of them are year-round — the region has no seasonal sites that close for winter. By town: {cities}." },
+      { "q": "How much does a pool cost in Bukhara?", "a": "Prices are published by {priced} of {count} venues, so for most pools you will need to call the number on the page. Note that some venues list an annual membership fee rather than a single entry price — these are different things." },
+      { "q": "Are most Bukhara pools attached to hotels?", "a": "Yes, that is the dominant format: {hotel} of {count} venues belong to hotels. The rest are {open} open-air, {indoor} indoor, {sport} sport and {children} aimed at children. The mix reflects the city's tourist traffic." },
+      { "q": "Do pools in Bukhara operate in winter?", "a": "Yes, all {count} venues in the region are open year-round. That sets Bukhara apart from Tashkent, where about half the pools are seasonal and close in September." }
+    ]
+  },
+
+  "karakalpakstan": {
+    "ru": [
+      { "q": "Сколько бассейнов в Каракалпакстане?", "a": "В каталоге {count} объектов. Распределение по населённым пунктам: {cities}. Это единственный регион, где заметная часть бассейнов находится за пределами областного центра." },
+      { "q": "Сколько стоит бассейн в Нукусе?", "a": "Разовое взрослое посещение в регионе стоит от {priceFrom} до {priceTo} — заметно дешевле, чем в Ташкенте. Цены опубликованы у {priced} объектов из {count}, по остальным звоните по номеру из карточки." },
+      { "q": "Какие бассейны Каракалпакстана работают круглый год?", "a": "Круглогодичных объектов {yearRound} из {count} — это крытые бассейны и спортивные комплексы. Остальные {summer} сезонные и открыты только в жаркие месяцы." },
+      { "q": "Есть ли бассейны за пределами Нукуса?", "a": "Да, и это особенность региона: помимо Нукуса объекты есть в Кунграде, Беруни, Караузяке и Нукусском районе. В небольших городах бассейн часто один на весь населённый пункт, поэтому режим работы стоит уточнять заранее." }
+    ],
+    "uz": [
+      { "q": "Qoraqalpog'istonda nechta basseyn bor?", "a": "Katalogda {count} ta obyekt bor. Aholi punktlari bo'yicha taqsimot: {cities}. Bu basseynlarning sezilarli qismi viloyat markazidan tashqarida joylashgan yagona hudud." },
+      { "q": "Nukusda basseyn qancha turadi?", "a": "Hududda kattalar uchun bir martalik tashrif {priceFrom} dan {priceTo} gacha — Toshkentdagidan sezilarli arzon. Narxlar {count} obyektdan {priced} tasida e'lon qilingan, qolganlari uchun kartochkadagi raqamga qo'ng'iroq qiling." },
+      { "q": "Qoraqalpog'istonda qaysi basseynlar yil bo'yi ishlaydi?", "a": "{count} obyektdan {yearRound} tasi yil bo'yi ishlaydi — bular yopiq basseynlar va sport majmualari. Qolgan {summer} tasi mavsumiy va faqat issiq oylarda ochiq." },
+      { "q": "Nukusdan tashqarida basseynlar bormi?", "a": "Ha, bu hududning o'ziga xosligi: Nukusdan tashqari obyektlar Qo'ng'irot, Beruniy, Qorao'zak va Nukus tumanida ham bor. Kichik shaharlarda basseyn ko'pincha butun aholi punktiga bitta bo'ladi, shuning uchun ish vaqtini oldindan aniqlagan ma'qul." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Karakalpakstan?", "a": "The catalog lists {count} venues. By settlement: {cities}. It is the only region where a noticeable share of the pools sits outside the regional capital." },
+      { "q": "How much does a pool cost in Nukus?", "a": "A single adult entry in the region runs from {priceFrom} to {priceTo}, noticeably cheaper than Tashkent. Prices are published by {priced} of {count} venues; for the rest, call the number on the page." },
+      { "q": "Which pools in Karakalpakstan are open year-round?", "a": "{yearRound} of {count} venues operate year-round — the indoor pools and sport complexes. The other {summer} are seasonal and open only through the hot months." },
+      { "q": "Are there pools outside Nukus?", "a": "Yes, and that is characteristic of the region: besides Nukus there are venues in Kungrad, Beruniy, Karauzyak and Nukus District. In smaller towns the pool is often the only one for the whole place, so it is worth checking opening hours in advance." }
+    ]
+  },
+
+  "tashkent-region": {
+    "ru": [
+      { "q": "Сколько бассейнов в Ташкентской области?", "a": "В каталоге {count} объектов, из них {summer} сезонных. Расположение: {cities}. Формат почти всегда загородный — открытая вода и зона отдыха, а не спортивные дорожки." },
+      { "q": "Сколько стоит загородный бассейн под Ташкентом?", "a": "Разовое взрослое посещение стоит от {priceFrom} до {priceTo}. Цены указаны у всех {priced} объектов области. Учитывайте, что беседка, мангал или лежаки часто оплачиваются отдельно, поэтому итог на компанию бывает выше цены входа." },
+      { "q": "Можно ли доехать без машины?", "a": "Сложно. Объекты разбросаны по области ({cities}), и большинство рассчитано на приезд на автомобиле — парковка есть у {parking} из {count} бассейнов. Планируйте дорогу в оба конца: до большинства мест около часа от Ташкента." },
+      { "q": "Есть ли бассейны для отдыха с детьми?", "a": "Детская зона есть у {childrenZone} объектов из {count} — для области это высокая доля, загородный формат изначально рассчитан на семейный выезд на весь день." }
+    ],
+    "uz": [
+      { "q": "Toshkent viloyatida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt bor, ulardan {summer} tasi mavsumiy. Joylashuvi: {cities}. Format deyarli har doim shahar tashqarisiga xos — sport yo'lakchalari emas, ochiq suv va dam olish zonasi." },
+      { "q": "Toshkent yaqinidagi shahar tashqarisi basseyni qancha turadi?", "a": "Kattalar uchun bir martalik tashrif {priceFrom} dan {priceTo} gacha. Narx viloyatning barcha {priced} obyektida ko'rsatilgan. E'tibor bering: chayla, mangal yoki shezlonglar ko'pincha alohida to'lanadi, shuning uchun kompaniya uchun yakuniy summa kirish narxidan yuqori bo'lishi mumkin." },
+      { "q": "Mashinasiz borish mumkinmi?", "a": "Qiyin. Obyektlar viloyat bo'ylab tarqoq ({cities}) va aksariyati avtomobilda kelishga mo'ljallangan — {count} basseyndan {parking} tasida avtoturargoh bor. Yo'lni ikki tomonga rejalashtiring: ko'pchilik joygacha Toshkentdan taxminan bir soat." },
+      { "q": "Bolalar bilan dam olish uchun basseynlar bormi?", "a": "{count} obyektdan {childrenZone} tasida bolalar zonasi bor — viloyat uchun bu yuqori ulush, shahar tashqarisidagi format dastlab oilaviy kun bo'yi sayohatga mo'ljallangan." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Tashkent Region?", "a": "The catalog lists {count} venues, {summer} of them seasonal. Locations: {cities}. The format is almost always out-of-town — open water and a lounge area rather than swimming lanes." },
+      { "q": "How much does an out-of-town pool near Tashkent cost?", "a": "A single adult entry runs from {priceFrom} to {priceTo}. All {priced} venues in the region publish prices. Bear in mind that a gazebo, barbecue spot or sunbeds are often charged separately, so the total for a group can exceed the entry price." },
+      { "q": "Can you get there without a car?", "a": "It is difficult. The venues are scattered across the region ({cities}) and most assume you arrive by car — parking is available at {parking} of {count} pools. Plan for the drive both ways: most places are about an hour from Tashkent." },
+      { "q": "Are there pools suitable for a day out with children?", "a": "{childrenZone} of the {count} venues have a children's area — a high share for the region, since the out-of-town format is built around family day trips in the first place." }
+    ]
+  },
+
+  "samarkand": {
+    "ru": [
+      { "q": "Сколько бассейнов в Самаркандской области?", "a": "В каталоге пока {count} объект — филиал школы плавания Born2swim. Мы добавляем только бассейны с подтверждённым адресом, телефоном и условиями посещения, поэтому список пополняется медленно." },
+      { "q": "Почему в Самарканде так мало бассейнов в каталоге?", "a": "Бассейны в городе есть, но они либо закрытые — при жилых комплексах и фитнес-клубах, либо гостиничные и не публикуют условия доступа. Как только появляются проверенные данные, объект попадает в каталог. Знаете подходящий бассейн — напишите нам через страницу контактов." },
+      { "q": "Работает ли бассейн в Самарканде зимой?", "a": "Да, единственный объект в каталоге — крытый и работает круглый год. Это школа плавания, поэтому занятия идут по расписанию независимо от сезона." },
+      { "q": "Где ещё поблизости есть бассейны?", "a": "Ближайший регион с большим выбором — Бухарская область, где все объекты круглогодичные. Ссылки на другие регионы есть внизу этой страницы." }
+    ],
+    "uz": [
+      { "q": "Samarqand viloyatida nechta basseyn bor?", "a": "Katalogda hozircha {count} ta obyekt — Born2swim suzish maktabining filiali. Biz faqat manzili, telefoni va tashrif shartlari tasdiqlangan basseynlarni qo'shamiz, shuning uchun ro'yxat sekin to'ldiriladi." },
+      { "q": "Nega Samarqandda katalogdagi basseynlar shunchalik kam?", "a": "Shaharda basseynlar bor, lekin ular yo yopiq — turar-joy majmualari va fitnes-klublar qoshida, yo mehmonxonaga tegishli va kirish shartlarini e'lon qilmaydi. Tasdiqlangan ma'lumot paydo bo'lishi bilan obyekt katalogga qo'shiladi. Mos basseynni bilsangiz — aloqa sahifasi orqali yozing." },
+      { "q": "Samarqanddagi basseyn qishda ishlaydimi?", "a": "Ha, katalogdagi yagona obyekt yopiq va yil bo'yi ishlaydi. Bu suzish maktabi, shuning uchun mashg'ulotlar mavsumdan qat'i nazar jadval bo'yicha o'tadi." },
+      { "q": "Yaqin atrofda yana qayerda basseynlar bor?", "a": "Tanlov keng bo'lgan eng yaqin hudud — Buxoro viloyati, u yerda barcha obyektlar yil bo'yi ishlaydi. Boshqa hududlarga havolalar shu sahifaning pastida." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Samarkand Region?", "a": "The catalog currently lists {count} venue — a branch of the Born2swim swimming school. We only add pools with a confirmed address, phone number and visiting terms, so the list grows slowly." },
+      { "q": "Why are there so few Samarkand pools in the catalog?", "a": "The city does have pools, but they are either private — inside residential complexes and fitness clubs — or attached to hotels that publish nothing about access. As soon as verified details appear, the venue is added. If you know a suitable pool, tell us through the contacts page." },
+      { "q": "Is the Samarkand pool open in winter?", "a": "Yes, the single venue in the catalog is indoor and operates year-round. It is a swimming school, so sessions run to a schedule regardless of season." },
+      { "q": "Where else nearby can I find pools?", "a": "The nearest region with real choice is Bukhara, where every venue is year-round. Links to other regions are at the bottom of this page." }
+    ]
+  }
+}
