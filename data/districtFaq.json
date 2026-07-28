@@ -1,0 +1,163 @@
+{
+  "yunusabad": {
+    "ru": [
+      { "q": "Сколько бассейнов в Юнусабадском районе?", "a": "В каталоге {count} объектов: {aquapark} аквапарка, {hotel} гостиничных и {indoor} крытых бассейна. Адрес, телефон и режим работы каждого указаны в карточке." },
+      { "q": "Сколько стоит бассейн в Юнусабаде?", "a": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Дешевле обходятся аквапарки, дороже — бассейны при отелях Radisson Blu и Wyndham. Цены опубликованы у {priced} объектов из {count}." },
+      { "q": "Какие бассейны Юнусабада работают зимой?", "a": "Круглый год открыты {yearRound} объекта из {count} — Дворец водного спорта и школа плавания. Остальные {summer} сезонные: аквапарки закрываются осенью." }
+    ],
+    "uz": [
+      { "q": "Yunusobod tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt: {aquapark} ta akvapark, {hotel} ta mehmonxona va {indoor} ta yopiq basseyn. Har birining manzili, telefoni va ish vaqti kartochkada ko'rsatilgan." },
+      { "q": "Yunusobodda basseyn qancha turadi?", "a": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Akvaparklar arzonroq, Radisson Blu va Wyndham mehmonxonalari basseynlari qimmatroq. Narxlar {count} obyektdan {priced} tasida e'lon qilingan." },
+      { "q": "Yunusoboddagi qaysi basseynlar qishda ishlaydi?", "a": "{count} obyektdan {yearRound} tasi yil bo'yi ochiq — Suv sporti saroyi va suzish maktabi. Qolgan {summer} tasi mavsumiy: akvaparklar kuzda yopiladi." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Yunusabad district?", "a": "The catalog lists {count} venues: {aquapark} aquaparks, {hotel} hotel pools and {indoor} indoor pools. Address, phone and opening hours for each are on its page." },
+      { "q": "How much does a pool cost in Yunusabad?", "a": "A single adult entry runs from {priceFrom} to {priceTo}. Aquaparks are cheaper; the pools at the Radisson Blu and Wyndham hotels are more expensive. Prices are published by {priced} of {count} venues." },
+      { "q": "Which Yunusabad pools are open in winter?", "a": "{yearRound} of the {count} venues are open year-round — the Water Sports Palace and the swimming school. The other {summer} are seasonal: the aquaparks close in autumn." }
+    ]
+  },
+
+  "mirzo-ulugbek": {
+    "ru": [
+      { "q": "Сколько бассейнов в Мирзо-Улугбекском районе?", "a": "В каталоге {count} объектов, из них {sport} спортивных и {indoor} крытых. Здесь находятся Олимпийский спорткомплекс, бассейн МВЭС Inter Sport и комплекс «Ёшлик»." },
+      { "q": "Где в Мирзо-Улугбеке можно заниматься с тренером?", "a": "Тренер или организованные занятия есть у {trainer} бассейнов из {count} — это самая высокая доля среди районов Ташкента. Расписание групп уточняйте по телефону из карточки объекта." },
+      { "q": "Сколько стоит бассейн в Мирзо-Улугбекском районе?", "a": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Такой разброс объясняется тем, что в районе соседствуют муниципальные спорткомплексы и дорогие фитнес-клубы. Цены опубликованы у {priced} объектов из {count}." }
+    ],
+    "uz": [
+      { "q": "Mirzo Ulug'bek tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt, ulardan {sport} tasi sport va {indoor} tasi yopiq basseyn. Bu yerda Olimpiya sport majmuasi, MVES Inter Sport basseyni va «Yoshlik» majmuasi joylashgan." },
+      { "q": "Mirzo Ulug'bekda qayerda murabbiy bilan shug'ullanish mumkin?", "a": "{count} basseyndan {trainer} tasida murabbiy yoki uyushtirilgan mashg'ulotlar bor — bu Toshkent tumanlari orasida eng yuqori ulush. Guruhlar jadvalini obyekt kartochkasidagi telefon orqali aniqlang." },
+      { "q": "Mirzo Ulug'bek tumanida basseyn qancha turadi?", "a": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Bunday tafovut tumanda munitsipal sport majmualari va qimmat fitnes-klublar yonma-yon joylashgani bilan izohlanadi. Narxlar {count} obyektdan {priced} tasida e'lon qilingan." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Mirzo-Ulugbek district?", "a": "The catalog lists {count} venues, {sport} of them sport pools and {indoor} indoor. The district holds the Olympic Sports Complex, the Inter Sport pool and the Yoshlik complex." },
+      { "q": "Where can you train with a coach in Mirzo-Ulugbek?", "a": "{trainer} of the {count} pools offer a coach or organised classes — the highest share of any Tashkent district. Check group schedules by phone using the number on the venue's page." },
+      { "q": "How much does a pool cost in Mirzo-Ulugbek district?", "a": "A single adult entry runs from {priceFrom} to {priceTo}. The wide spread comes from municipal sport complexes sitting alongside expensive fitness clubs. Prices are published by {priced} of {count} venues." }
+    ]
+  },
+
+  "sergeli": {
+    "ru": [
+      { "q": "Сколько бассейнов в Сергелийском районе?", "a": "В каталоге {count} объектов, из них {aquapark} аквапарка и {open} открытых бассейна. Самый известный — аквапарк «Атлантис»." },
+      { "q": "Сколько стоит аквапарк в Сергели?", "a": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Для аквапарков это цена полного дня, а не часа. Цены опубликованы у {priced} объектов из {count}." },
+      { "q": "Работают ли бассейны Сергели зимой?", "a": "Почти нет: {summer} объектов из {count} сезонные и открываются ближе к маю. Круглый год работает {yearRound} объект — зимой имеет смысл смотреть соседние районы." }
+    ],
+    "uz": [
+      { "q": "Sergeli tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt, ulardan {aquapark} tasi akvapark va {open} tasi ochiq basseyn. Eng mashhuri — «Atlantis» akvaparki." },
+      { "q": "Sergelida akvapark qancha turadi?", "a": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Akvaparklar uchun bu bir soatning emas, to'liq kunning narxi. Narxlar {count} obyektdan {priced} tasida e'lon qilingan." },
+      { "q": "Sergeli basseynlari qishda ishlaydimi?", "a": "Deyarli yo'q: {count} obyektdan {summer} tasi mavsumiy va may oyiga yaqin ochiladi. Yil bo'yi {yearRound} obyekt ishlaydi — qishda qo'shni tumanlarni ko'rish mantiqan to'g'ri." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Sergeli district?", "a": "The catalog lists {count} venues, {aquapark} of them aquaparks and {open} open-air pools. The best known is the Atlantis aquapark." },
+      { "q": "How much does an aquapark in Sergeli cost?", "a": "A single adult entry runs from {priceFrom} to {priceTo}. For aquaparks that is a full-day price rather than hourly. Prices are published by {priced} of {count} venues." },
+      { "q": "Are Sergeli pools open in winter?", "a": "Barely: {summer} of the {count} venues are seasonal and open closer to May. {yearRound} venue runs year-round — in winter it is worth looking at neighbouring districts." }
+    ]
+  },
+
+  "mirobod": {
+    "ru": [
+      { "q": "Сколько бассейнов в Мирабадском районе?", "a": "В каталоге {count} объектов, из них {hotel} гостиничных. Также в районе есть аквапарк «Лимпопо», спортивный клуб Chekhov и филиал школы плавания Born2swim." },
+      { "q": "Сколько стоит бассейн в Мирабаде?", "a": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Предложений дешевле {priceFrom} в районе нет: сказывается центральное расположение и доля гостиничных бассейнов. Цены опубликованы у {priced} объектов из {count}." },
+      { "q": "Можно ли попасть в гостиничный бассейн, не проживая в отеле?", "a": "{hotel} бассейна района относятся к отелям, и правила у них разные: где-то продают дневной вход, где-то бассейн доступен только гостям. Заранее это не публикуется — позвоните по номеру из карточки." }
+    ],
+    "uz": [
+      { "q": "Mirobod tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt, ulardan {hotel} tasi mehmonxona basseyni. Shuningdek, tumanda «Limpopo» akvaparki, Chekhov sport klubi va Born2swim suzish maktabi filiali bor." },
+      { "q": "Mirobodda basseyn qancha turadi?", "a": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Tumanda {priceFrom} dan arzon taklif yo'q: markaziy joylashuv va mehmonxona basseynlari ulushi ta'sir qiladi. Narxlar {count} obyektdan {priced} tasida e'lon qilingan." },
+      { "q": "Mehmonxonada yashamasdan uning basseyniga kirish mumkinmi?", "a": "Tumandagi {hotel} basseyn mehmonxonalarga tegishli va qoidalari har xil: ba'zilari kunlik kirish sotadi, ba'zilarida basseyn faqat mehmonlar uchun. Bu oldindan e'lon qilinmaydi — kartochkadagi raqamga qo'ng'iroq qiling." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Mirobod district?", "a": "The catalog lists {count} venues, {hotel} of them hotel pools. The district also has the Limpopo aquapark, the Chekhov sport club and a Born2swim swimming school branch." },
+      { "q": "How much does a pool cost in Mirobod?", "a": "A single adult entry runs from {priceFrom} to {priceTo}. Nothing in the district costs less than {priceFrom} — a result of the central location and the share of hotel pools. Prices are published by {priced} of {count} venues." },
+      { "q": "Can you use a hotel pool without staying there?", "a": "{hotel} pools in the district belong to hotels, and their rules differ: some sell a day pass, others keep the pool for guests only. This is not published in advance — call the number on the venue's page." }
+    ]
+  },
+
+  "bektemir": {
+    "ru": [
+      { "q": "Сколько бассейнов в Бектемирском районе?", "a": "В каталоге {count} объекта, и все они открытые и сезонные. Круглогодичных бассейнов в районе нет." },
+      { "q": "Подходит ли Бектемир для отдыха с детьми?", "a": "Да, это профильный район для семейного выезда: детская зона есть у всех {childrenZone} объектов, кафе — у всех {cafe}, парковка — у всех {parking}. Формат рассчитан на приезд на весь день." },
+      { "q": "Сколько стоит бассейн в Бектемире?", "a": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Отдельный случай — Malibu Sun Club: вход в воду бесплатный, оплачивается только лежак или столик. Цены опубликованы у {priced} объектов из {count}." }
+    ],
+    "uz": [
+      { "q": "Bektemir tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt va ularning barchasi ochiq hamda mavsumiy. Tumanda yil bo'yi ishlaydigan basseynlar yo'q." },
+      { "q": "Bektemir bolalar bilan dam olish uchun mosmi?", "a": "Ha, bu oilaviy sayohat uchun mo'ljallangan tuman: barcha {childrenZone} obyektda bolalar zonasi, barcha {cafe} tasida kafe, barcha {parking} tasida avtoturargoh bor. Format kun bo'yi qolishga mo'ljallangan." },
+      { "q": "Bektemirda basseyn qancha turadi?", "a": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Alohida holat — Malibu Sun Club: suvga kirish bepul, faqat shezlong yoki stol uchun to'lanadi. Narxlar {count} obyektdan {priced} tasida e'lon qilingan." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Bektemir district?", "a": "The catalog lists {count} venues, all of them open-air and seasonal. The district has no year-round pools." },
+      { "q": "Is Bektemir good for a day out with children?", "a": "Yes, it is the district built for family trips: all {childrenZone} venues have a children's area, all {cafe} have a cafe and all {parking} have parking. The format assumes you stay the whole day." },
+      { "q": "How much does a pool cost in Bektemir?", "a": "A single adult entry runs from {priceFrom} to {priceTo}. One exception is Malibu Sun Club, where entry to the water is free and you pay only for a sunbed or table. Prices are published by {priced} of {count} venues." }
+    ]
+  },
+
+  "chilanzar": {
+    "ru": [
+      { "q": "Сколько бассейнов в Чиланзарском районе?", "a": "В каталоге {count} объекта: аквапарк OASIS, спортивный бассейн «Мехнат», Dubai Spa и Magic Galaxy. Выбор небольшой, но форматы разные." },
+      { "q": "Какие бассейны Чиланзара работают зимой?", "a": "Круглый год открыты {yearRound} объекта из {count}, сезонный только {summer}. Для зимнего плавания район подходит лучше, чем сезонные Бектемир и Сергели." },
+      { "q": "Сколько стоит бассейн в Чиланзаре?", "a": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Цены опубликованы у {priced} объектов из {count}, по остальным звоните по номеру из карточки." }
+    ],
+    "uz": [
+      { "q": "Chilonzor tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt: OASIS akvaparki, «Mehnat» sport basseyni, Dubai Spa va Magic Galaxy. Tanlov kichik, lekin formatlar har xil." },
+      { "q": "Chilonzorning qaysi basseynlari qishda ishlaydi?", "a": "{count} obyektdan {yearRound} tasi yil bo'yi ochiq, mavsumiysi atigi {summer} ta. Qishki suzish uchun tuman mavsumiy Bektemir va Sergeliga qaraganda ko'proq mos keladi." },
+      { "q": "Chilonzorda basseyn qancha turadi?", "a": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Narxlar {count} obyektdan {priced} tasida e'lon qilingan, qolganlari uchun kartochkadagi raqamga qo'ng'iroq qiling." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Chilanzar district?", "a": "The catalog lists {count} venues: the OASIS aquapark, the Mehnat sport pool, Dubai Spa and Magic Galaxy. The choice is small but the formats differ." },
+      { "q": "Which Chilanzar pools are open in winter?", "a": "{yearRound} of the {count} venues are open year-round; only {summer} is seasonal. For winter swimming the district works better than seasonal Bektemir or Sergeli." },
+      { "q": "How much does a pool cost in Chilanzar?", "a": "A single adult entry runs from {priceFrom} to {priceTo}. Prices are published by {priced} of {count} venues; for the rest, call the number on the page." }
+    ]
+  },
+
+  "yashnabad": {
+    "ru": [
+      { "q": "Сколько бассейнов в Яшнабадском районе?", "a": "В каталоге {count} объекта: {open} открытых бассейна, {hotel} гостиничный и филиал школы плавания Born2swim на Паркентской." },
+      { "q": "Работают ли бассейны Яшнабада зимой?", "a": "Да, {yearRound} объекта из {count} работают круглый год, ещё {summer} — сезонные. Район остаётся доступным и летом, и зимой." },
+      { "q": "Сколько стоит бассейн в Яшнабаде?", "a": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Разброс небольшой: в районе нет ни очень дешёвых, ни клубных бассейнов. Цены опубликованы у {priced} объектов из {count}." }
+    ],
+    "uz": [
+      { "q": "Yashnobod tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt: {open} ta ochiq basseyn, {hotel} ta mehmonxona basseyni va Parkent ko'chasidagi Born2swim suzish maktabi filiali." },
+      { "q": "Yashnobod basseynlari qishda ishlaydimi?", "a": "Ha, {count} obyektdan {yearRound} tasi yil bo'yi ishlaydi, yana {summer} tasi mavsumiy. Tuman yozda ham, qishda ham ochiq qoladi." },
+      { "q": "Yashnobodda basseyn qancha turadi?", "a": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Tafovut kichik: tumanda juda arzon ham, klub basseynlari ham yo'q. Narxlar {count} obyektdan {priced} tasida e'lon qilingan." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Yashnabad district?", "a": "The catalog lists {count} venues: {open} open-air pools, {hotel} hotel pool and a Born2swim swimming school branch on Parkentskaya." },
+      { "q": "Are Yashnabad pools open in winter?", "a": "Yes, {yearRound} of the {count} venues run year-round and another {summer} are seasonal. The district stays usable in both summer and winter." },
+      { "q": "How much does a pool cost in Yashnabad?", "a": "A single adult entry runs from {priceFrom} to {priceTo}. The spread is narrow: the district has neither very cheap nor club-level pools. Prices are published by {priced} of {count} venues." }
+    ]
+  },
+
+  "yakkasaray": {
+    "ru": [
+      { "q": "Сколько бассейнов в Яккасарайском районе?", "a": "В каталоге {count} объекта: два филиала школы плавания Born2swim и бассейн Garden Park. Круглый год работают {yearRound} из {count}." },
+      { "q": "Можно ли в Яккасарае прийти в бассейн разово?", "a": "Не везде: тренер или организованные занятия есть у {trainer} объектов из {count}, а школы плавания чаще работают по записи в группы, чем по разовому входу. Уточняйте формат по телефону из карточки." },
+      { "q": "Где в Яккасарае учат плавать взрослых?", "a": "В районе два филиала Born2swim, включая Pro by Born2swim с программами для взрослых. Расписание и стоимость занятий уточняйте напрямую — цены опубликованы у {priced} объектов из {count}." }
+    ],
+    "uz": [
+      { "q": "Yakkasaroy tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt: Born2swim suzish maktabining ikkita filiali va Garden Park basseyni. {count} tadan {yearRound} tasi yil bo'yi ishlaydi." },
+      { "q": "Yakkasaroyda basseynga bir martalik kelish mumkinmi?", "a": "Hamma joyda emas: {count} obyektdan {trainer} tasida murabbiy yoki uyushtirilgan mashg'ulotlar bor, suzish maktablari esa bir martalik kirishdan ko'ra guruhga yozilish asosida ishlaydi. Formatni kartochkadagi telefon orqali aniqlang." },
+      { "q": "Yakkasaroyda kattalarga suzishni qayerda o'rgatishadi?", "a": "Tumanda Born2swim ning ikkita filiali bor, jumladan kattalar uchun dasturlari bo'lgan Pro by Born2swim. Jadval va mashg'ulot narxini to'g'ridan-to'g'ri aniqlang — narxlar {count} obyektdan {priced} tasida e'lon qilingan." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Yakkasaray district?", "a": "The catalog lists {count} venues: two Born2swim swimming school branches and the Garden Park pool. {yearRound} of {count} run year-round." },
+      { "q": "Can you drop in for a single swim in Yakkasaray?", "a": "Not everywhere: {trainer} of the {count} venues offer a coach or organised classes, and swimming schools tend to run on group bookings rather than drop-in entry. Check the format by phone using the number on the page." },
+      { "q": "Where can adults learn to swim in Yakkasaray?", "a": "The district has two Born2swim branches, including Pro by Born2swim with adult programmes. Ask about schedules and fees directly — prices are published by {priced} of {count} venues." }
+    ]
+  },
+
+  "shayhontohur": {
+    "ru": [
+      { "q": "Сколько бассейнов в Шайхантахурском районе?", "a": "В каталоге {count} объекта, и все они работают круглый год: филиал Born2swim на Дружбе Народов, STUDIO 13 и комплекс JAR." },
+      { "q": "Сколько стоит бассейн в Шайхантахуре?", "a": "Ни один объект района пока не публикует прайс, поэтому цену нужно уточнять по телефону из карточки. Для школ плавания это обычная ситуация: стоимость зависит от формата занятий и одной цифрой не описывается." },
+      { "q": "Есть ли в Шайхантахуре занятия для детей?", "a": "Да, тренер или организованные занятия есть у всех {trainer} объектов района, детская зона — у {childrenZone}. Расписание групп уточняйте напрямую у бассейна." }
+    ],
+    "uz": [
+      { "q": "Shayxontohur tumanida nechta basseyn bor?", "a": "Katalogda {count} ta obyekt va ularning barchasi yil bo'yi ishlaydi: Do'stlik Xalqlaridagi Born2swim filiali, STUDIO 13 va JAR majmuasi." },
+      { "q": "Shayxontohurda basseyn qancha turadi?", "a": "Tumandagi hech bir obyekt hozircha narxini e'lon qilmagan, shuning uchun narxni kartochkadagi telefon orqali aniqlash kerak. Suzish maktablari uchun bu odatiy holat: narx mashg'ulot formatiga bog'liq va bitta raqam bilan tavsiflanmaydi." },
+      { "q": "Shayxontohurda bolalar uchun mashg'ulotlar bormi?", "a": "Ha, tumanning barcha {trainer} obyektida murabbiy yoki uyushtirilgan mashg'ulotlar bor, {childrenZone} tasida bolalar zonasi. Guruhlar jadvalini basseyndan to'g'ridan-to'g'ri aniqlang." }
+    ],
+    "en": [
+      { "q": "How many pools are there in Shayhontohur district?", "a": "The catalog lists {count} venues, all of them year-round: the Born2swim branch on Druzhba Narodov, STUDIO 13 and the JAR complex." },
+      { "q": "How much does a pool cost in Shayhontohur?", "a": "No venue in the district publishes a price list yet, so you need to call the number on the page. For swimming schools this is normal: the fee depends on the session format and cannot be reduced to one figure." },
+      { "q": "Are there classes for children in Shayhontohur?", "a": "Yes — all {trainer} venues in the district offer a coach or organised classes, and {childrenZone} have a children's area. Check group schedules directly with the pool." }
+    ]
+  }
+}

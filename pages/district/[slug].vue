@@ -55,11 +55,26 @@
       </section>
 
       <!-- SEO text block -->
-      <div v-if="seoText" class="bg-white border-b border-gray-100">
+      <div v-if="guide" class="bg-white border-b border-gray-100">
         <div class="container py-5">
-          <p class="text-sm text-gray-500 leading-relaxed">
-            {{ seoText }}
-          </p>
+          <p class="text-sm text-gray-500 leading-relaxed">{{ guide.intro }}</p>
+          <div v-for="(section, i) in guide.sections" :key="i" class="mt-6">
+            <h2 class="text-base font-bold text-gray-900 mb-2">
+              {{ section.heading }}
+            </h2>
+            <p
+              v-if="section.body"
+              class="text-sm text-gray-500 leading-relaxed"
+            >
+              {{ section.body }}
+            </p>
+            <ul
+              v-if="section.list"
+              class="text-sm text-gray-500 leading-relaxed space-y-1.5 list-disc pl-5"
+            >
+              <li v-for="(item, j) in section.list" :key="j">{{ item }}</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -102,6 +117,52 @@
           </div>
         </div>
 
+        <!-- FAQ -->
+        <div
+          v-if="faqItems.length > 0"
+          class="mt-12 pt-8 border-t border-gray-100"
+        >
+          <h2 class="text-lg font-bold text-gray-900 mb-4">
+            {{ $t("district.faq_title", { name: districtName }) }}
+          </h2>
+          <div class="space-y-2.5 max-w-3xl">
+            <div
+              v-for="(item, index) in faqItems"
+              :key="index"
+              class="bg-white rounded-xl border border-gray-100 overflow-hidden"
+            >
+              <button
+                type="button"
+                class="w-full flex items-center justify-between gap-4 px-4 py-3.5 text-left hover:bg-gray-50 transition-colors duration-150"
+                :aria-expanded="openFaqIndex === index"
+                @click="openFaqIndex = openFaqIndex === index ? null : index"
+              >
+                <span class="font-medium text-gray-900 text-sm leading-snug">{{
+                  item.q
+                }}</span>
+                <svg
+                  class="w-4 h-4 shrink-0 text-primary-600 transition-transform duration-200"
+                  :class="{ 'rotate-180': openFaqIndex === index }"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <div
+                v-if="openFaqIndex === index"
+                class="px-4 pb-3.5 text-sm text-gray-500 leading-relaxed border-t border-gray-50 pt-3"
+              >
+                {{ item.a }}
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Footer link to other districts -->
         <div class="mt-12 pt-8 border-t border-gray-100">
           <h2 class="text-lg font-bold text-gray-900 mb-4">
@@ -124,6 +185,9 @@
 </template>
 
 <script setup lang="ts">
+import districtGuides from "~/data/districtGuides.json";
+import districtFaq from "~/data/districtFaq.json";
+
 const route = useRoute();
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
@@ -160,32 +224,50 @@ const relatedGuides = computed(() => {
   );
 });
 
-const districtSeoTextMap: Record<string, string> = {
-  yunusabad:
-    "Юнусабадский район — лидер по числу бассейнов в Ташкенте: здесь работают сразу три аквапарка («Аквалэнд», Water Park Tashkent и Ташкентский Аквапарк), а также бассейны при крупных отелях — Radisson Blu Tashkent и Wyndham, куда можно попасть не только гостям отеля. Для круглогодичных тренировок подойдёт крытый «Дворец водного спорта» с дорожками и подогревом воды. По району проходит Юнусабадская линия метро, поэтому большинство объектов легко добраться из любой части города. Юнусабад одинаково хорошо подходит и для активного отдыха с горками всей семьёй, и для спокойного плавания зимой в закрытом бассейне. Летом здесь особенно много вариантов для детей — горки и мелководье в аквапарках рассчитаны на разный возраст. Если вы ищете бассейн с полным набором услуг — кафе, парковка, спа — стоит начать поиск именно с этого района.",
-  chilanzar:
-    "Чиланзарский район — один из старейших и самых населённых спальных районов Ташкента, назван в честь одноимённой линии метро, которая делает бассейны района удобно доступными без машины. Здесь есть детский бассейн «Аквамир», аквапарк OASIS с горками для всей семьи, бассейн при гостинице «Мехнат», а также крытые комплексы Dubai Spa и Magic Galaxy для занятий в любую погоду. Благодаря плотной жилой застройке большинство объектов района находятся в шаговой доступности от жилых кварталов — удобно для регулярных тренировок и семейного отдыха по выходным без долгой дороги. Чиланзар подойдёт как родителям с маленькими детьми, так и тем, кто ищет крытый бассейн для плавания круглый год.",
-  "mirzo-ulugbek":
-    "Мирзо-Улугбекский район — крупный северо-восточный район Ташкента с несколькими профильными спортивными комплексами. Здесь работает «Олимпийский спорткомплекс» с бассейном для серьёзных тренировок, крытый аквапарк MONACO с подогреваемой водой круглый год, а также фитнес-бассейны Academy Athletica и МВЭС Inter Sport. Любителям спокойного отдыха у воды подойдёт lounge-формат бассейна «Мохито», а спортивно-оздоровительный комплекс Yoshlik — вариант для всей семьи. Район известен своими научными и учебными учреждениями, поэтому многие бассейны здесь ориентированы на регулярные занятия и абонементы, а не только на разовые посещения летом. Если нужен крытый бассейн с тренером или дорожками для плавания зимой — Мирзо-Улугбек один из лучших вариантов в городе.",
-  yakkasaray:
-    "Яккасарайский район — компактный центральный район Ташкента с посольствами и деловой застройкой, поэтому бассейны здесь тяготеют к премиальному сегменту. Бассейн пятизвёздочного отеля Grand Serena — закрытый, с джакузи и спа-зоной, доступен и внешним посетителям, не только постояльцам. Бассейн Garden Park — более демократичный открытый вариант для отдыха на свежем воздухе. Из-за центрального расположения добраться сюда легко из любой точки города, а расположение рядом с деловым центром делает район удобным выбором для тех, кто хочет совместить бассейн с рабочим днём или деловой встречей неподалёку.",
-  sergeli:
-    "Сергелийский район — активно растущий южный район Ташкента, куда несколько лет назад была продлена линия метро, что заметно упростило доступ к местным бассейнам. Здесь сосредоточено сразу три аквапарка — Atlantis, «Солнечный город» и Green Paradise — с горками и зонами для детей, а также открытые бассейны Astera Sea и Dos Hermanas by Alena для летнего отдыха. Район подходит семьям, которые ищут бюджетные и разнообразные варианты для отдыха на воде в тёплый сезон: большинство объектов работают с мая по сентябрь. Благодаря новой застройке инфраструктура вокруг бассейнов (парковки, кафе) в Сергели, как правило, современная.",
-  mirobod:
-    "Мирабадский район — один из центральных районов Ташкента, где сочетаются бизнес-отели и спортивная инфраструктура. Здесь работает аквапарк Limpopo, бассейны при отелях Lotte City Hotel Tashkent Palace и Grand Mir (Villa Grand), детский бассейн Born2swim с программами для малышей и Chekhov Sport Club для серьёзных тренировок. Центральное расположение делает район удобным как для туристов, живущих в отелях с бассейном, так и для местных жителей, которые ищут детский бассейн или спортивный клуб рядом с домом. В Мирабаде можно найти варианты на любой бюджет — от премиальных отельных бассейнов до доступных спортивных комплексов.",
-  yashnabad:
-    "Яшнободский район — восточный район Ташкента с несколькими открытыми бассейнами для летнего отдыха. Комплексы Paradise, TaoYuan и «Акапулько» предлагают террасы, зоны для детей и кафе — подойдут для семейного отдыха на выходных в тёплый сезон. Бассейн при отеле Le Grand De Plaza — вариант для тех, кто предпочитает более закрытую и спокойную атмосферу. Большинство бассейнов района сезонные и открываются с мая, поэтому лучше уточнять актуальный график перед поездкой зимой. Яшнобад — хороший выбор, если вы ищете открытый бассейн с рестораном для отдыха всей компанией.",
-  bektemir:
-    "Бектемирский район — южная окраина Ташкента с более просторной застройкой, из-за чего здесь особенно много крупных открытых бассейнов с террасами и зелёными зонами. Malibu Sun Club — один из самых популярных летних комплексов города с рестораном и лежаками, Grace Garden и развлекательный комплекс «АЛЕКС» предлагают похожий формат отдыха, а «Три пальмы» (Three Palms Beach Club) — вариант в стиле пляжного клуба. Все объекты района работают в летний сезон и рассчитаны на отдых на весь день — с едой, музыкой и зонами для детей, а не только на короткое посещение бассейна.",
-  uchtepa:
-    "Учтепинский район — западный район Ташкента, где пока представлен один крупный открытый бассейн, Azizbek City Pool, с классическим летним форматом отдыха. Выбор в районе меньше, чем в соседних Чиланзаре или Олмазоре, поэтому если ищете больше вариантов — стоит заглянуть и в каталог соседних районов. Мы регулярно добавляем новые объекты, и список бассейнов Учтепы будет пополняться.",
-  shayhontohur:
-    "Шайхонтохурский район — исторический центр Ташкента рядом с базаром Чорсу, где расположено несколько специализированных бассейнов. STUDIO 13 — детский бассейн с программами для малышей, Women Avenue — крытый комплекс, а спортивно-оздоровительный центр JAR подойдёт тем, кто ищет серьёзные тренировки и дорожки для плавания. Благодаря центральному расположению добраться сюда легко из любой части города, а разнообразие форматов — от детского до спортивного — делает район удобным выбором для конкретных задач, а не только для летнего отдыха.",
-  almazar:
-    "Олмазорский район — один из районов Ташкента, где каталог Basen.uz пока пополняется: актуальных бассейнов с полными данными здесь на данный момент нет. Если вы знаете бассейн в этом районе или являетесь его владельцем — напишите нам в Telegram, и мы добавим объект в каталог. А пока стоит заглянуть в соседние Чиланзарский или Юнусабадский районы — там представлен более широкий выбор открытых и крытых бассейнов.",
+// Цифры для текстов ниже считаются из каталога и подставляются в
+// плейсхолдеры {count}, {priceFrom} и т. д. Раньше здесь лежала карта
+// districtSeoTextMap с текстами, вписанными руками: они были только
+// по-русски (то есть показывались и на /uz, и на /en) и успели разойтись
+// с каталогом — упоминали бассейны, которых в нём нет.
+const stats = computed(() =>
+  buildAreaStats(pools.value, slug, locale.value, getDistrictName)
+);
+
+type AreaGuide = {
+  intro: string;
+  sections: { heading: string; body?: string; list?: string[] }[];
 };
 
-const seoText = computed(() => districtSeoTextMap[slug] ?? "");
+const guide = computed((): AreaGuide | null => {
+  const raw = (districtGuides as Record<string, Record<string, AreaGuide>>)[
+    slug
+  ]?.[locale.value];
+  if (!raw) return null;
+  const fill = (s: string) => interpolate(s, stats.value);
+  return {
+    intro: fill(raw.intro),
+    sections: raw.sections.map((s) => ({
+      heading: fill(s.heading),
+      ...(s.body && { body: fill(s.body) }),
+      ...(s.list && { list: s.list.map(fill) }),
+    })),
+  };
+});
+
+type FaqItem = { q: string; a: string };
+
+const faqItems = computed((): FaqItem[] => {
+  const raw =
+    (districtFaq as Record<string, Record<string, FaqItem[]>>)[slug]?.[
+      locale.value
+    ] ?? [];
+  return raw.map((item) => ({
+    q: interpolate(item.q, stats.value),
+    a: interpolate(item.a, stats.value),
+  }));
+});
+
+const openFaqIndex = ref<number | null>(null);
 
 watchEffect(() => {
   if (!district.value) return;
@@ -238,19 +320,36 @@ watchEffect(() => {
     ],
   };
 
-  useHead({
-    script: [
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(schema),
-        key: "schema-district",
-      },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(breadcrumb),
-        key: "schema-breadcrumb",
-      },
-    ],
-  });
+  const scripts = [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(schema),
+      key: "schema-district",
+    },
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(breadcrumb),
+      key: "schema-breadcrumb",
+    },
+  ];
+
+  if (faqItems.value.length > 0) {
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqItems.value.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+    };
+    scripts.push({
+      type: "application/ld+json",
+      children: JSON.stringify(faqSchema),
+      key: "schema-faq",
+    });
+  }
+
+  useHead({ script: scripts });
 });
 </script>

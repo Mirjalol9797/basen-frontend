@@ -1,0 +1,517 @@
+{
+  "yunusabad": {
+    "ru": {
+      "intro": "Юнусабад — район аквапарков: из {count} бассейнов {aquapark} относятся именно к этому формату, включая Ташкентский Аквапарк и Water Park Tashkent. Ещё {hotel} бассейна — гостиничные, при Radisson Blu и Wyndham. Отсюда и характер района: сюда едут отдыхать компанией или семьёй, а не наплавать километр.",
+      "sections": [
+        {
+          "heading": "Сколько стоит",
+          "body": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Нижняя граница это аквапарки, верхняя — бассейны при отелях, где в цену входит зона отдыха и обслуживание. Цены опубликованы у {priced} объектов из {count}."
+        },
+        {
+          "heading": "Лето и круглый год",
+          "body": "{summer} бассейнов из {count} работают только в тёплый сезон — это ожидаемо для района с тремя аквапарками. Круглогодичных {yearRound}: Дворец водного спорта и школа плавания Born2swim, куда ходят заниматься, а не отдыхать."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Парковка — у {parking} из {count} бассейнов.",
+            "Кафе — у {cafe} объектов, для аквапарка это фактически обязательный пункт.",
+            "Детская зона — у {childrenZone} бассейнов.",
+            "Тренер или занятия — у {trainer} объектов."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Yunusobod — akvaparklar tumani: {count} basseyndan {aquapark} tasi aynan shu formatga tegishli, jumladan Toshkent Akvaparki va Water Park Tashkent. Yana {hotel} tasi mehmonxona basseyni — Radisson Blu va Wyndham qoshida. Tumanning xarakteri ham shundan: bu yerga kilometr suzish uchun emas, kompaniya yoki oila bilan dam olish uchun kelishadi.",
+      "sections": [
+        {
+          "heading": "Narxi qancha",
+          "body": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Quyi chegara — akvaparklar, yuqorisi — mehmonxona basseynlari, u yerda narxga dam olish zonasi va xizmat ko'rsatish kiradi. Narxlar {count} obyektdan {priced} tasida e'lon qilingan."
+        },
+        {
+          "heading": "Yoz va yil bo'yi",
+          "body": "{count} basseyndan {summer} tasi faqat issiq mavsumda ishlaydi — uchta akvaparki bor tuman uchun bu kutilgan holat. Yil bo'yi ishlaydiganlari {yearRound} ta: Suv sporti saroyi va Born2swim suzish maktabi, u yerga dam olish uchun emas, shug'ullanish uchun boriladi."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Avtoturargoh — {count} basseyndan {parking} tasida.",
+            "Kafe — {cafe} obyektda, akvapark uchun bu deyarli majburiy.",
+            "Bolalar zonasi — {childrenZone} basseynda.",
+            "Murabbiy yoki mashg'ulotlar — {trainer} obyektda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Yunusabad is the aquapark district: {aquapark} of its {count} pools are exactly that format, including Tashkent Aquapark and Water Park Tashkent. Another {hotel} are hotel pools, at the Radisson Blu and the Wyndham. That shapes the district's character — people come here for a day out with family or friends rather than to swim laps.",
+      "sections": [
+        {
+          "heading": "What it costs",
+          "body": "A single adult entry runs from {priceFrom} to {priceTo}. The lower end is the aquaparks, the upper end the hotel pools where the fee covers the lounge area and service. Prices are published by {priced} of {count} venues."
+        },
+        {
+          "heading": "Summer and year-round",
+          "body": "{summer} of the {count} pools operate in the warm season only, which is what you would expect from a district with three aquaparks. {yearRound} are year-round: the Water Sports Palace and the Born2swim school, where people go to train rather than to relax."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Parking — at {parking} of {count} pools.",
+            "Cafe — at {cafe} venues, effectively mandatory for an aquapark.",
+            "Children's area — at {childrenZone} pools.",
+            "Coach or classes — at {trainer} venues."
+          ]
+        }
+      ]
+    }
+  },
+
+  "mirzo-ulugbek": {
+    "ru": {
+      "intro": "Мирзо-Улугбек — самый спортивный район города: здесь Олимпийский спорткомплекс, бассейн МВЭС Inter Sport и комплекс «Ёшлик». Тренер или занятия есть у {trainer} объектов из {count} — это самая высокая доля по Ташкенту. Развлекательный формат тоже представлен, но он тут не главный.",
+      "sections": [
+        {
+          "heading": "Спорт, а не отдых",
+          "body": "{yearRound} бассейнов из {count} работают круглый год, и это логично для района, где основная аудитория — секции и занимающиеся взрослые. Сезонных объектов всего {summer}. Если ищете, где системно плавать зимой, начинать поиск разумно отсюда."
+        },
+        {
+          "heading": "Разброс цен",
+          "body": "Разовое взрослое посещение — от {priceFrom} до {priceTo}, и это самый широкий диапазон среди районов Ташкента. Дешёвый конец — муниципальные и ведомственные спорткомплексы, дорогой — фитнес-клубы вроде Academy Athletica, где бассейн часть клубной карты. Цены опубликованы у {priced} объектов из {count}."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Тренер или занятия — у {trainer} из {count} бассейнов.",
+            "Детская зона — у {childrenZone} объектов.",
+            "Парковка — у {parking} бассейнов.",
+            "Сауна — у {sauna} объектов."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Mirzo Ulug'bek — shaharning eng sportga yo'naltirilgan tumani: bu yerda Olimpiya sport majmuasi, MVES Inter Sport basseyni va «Yoshlik» majmuasi joylashgan. {count} obyektdan {trainer} tasida murabbiy yoki mashg'ulotlar bor — bu Toshkent bo'yicha eng yuqori ulush. Ko'ngilochar format ham bor, lekin bu yerda u asosiy emas.",
+      "sections": [
+        {
+          "heading": "Dam olish emas, sport",
+          "body": "{count} basseyndan {yearRound} tasi yil bo'yi ishlaydi va asosiy auditoriyasi to'garaklar hamda shug'ullanuvchi kattalar bo'lgan tuman uchun bu mantiqan to'g'ri. Mavsumiy obyektlar atigi {summer} ta. Qishda muntazam suzadigan joy izlasangiz, izlashni shu yerdan boshlagan oqilona."
+        },
+        {
+          "heading": "Narxlar tafovuti",
+          "body": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha va bu Toshkent tumanlari orasida eng keng diapazon. Arzon chegarasi — munitsipal va idoraviy sport majmualari, qimmati — Academy Athletica kabi fitnes-klublar, u yerda basseyn klub kartasining bir qismi. Narxlar {count} obyektdan {priced} tasida e'lon qilingan."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Murabbiy yoki mashg'ulotlar — {count} basseyndan {trainer} tasida.",
+            "Bolalar zonasi — {childrenZone} obyektda.",
+            "Avtoturargoh — {parking} basseynda.",
+            "Sauna — {sauna} obyektda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mirzo-Ulugbek is the city's most sport-oriented district: it holds the Olympic Sports Complex, the Inter Sport pool and the Yoshlik complex. {trainer} of its {count} venues offer a coach or classes — the highest share in Tashkent. The recreational format exists here too, but it is not what defines the area.",
+      "sections": [
+        {
+          "heading": "Training rather than lounging",
+          "body": "{yearRound} of the {count} pools operate year-round, which makes sense in a district whose core audience is clubs and adults who train. Only {summer} are seasonal. If you are looking for somewhere to swim consistently through winter, this is a sensible place to start."
+        },
+        {
+          "heading": "The price spread",
+          "body": "A single adult entry runs from {priceFrom} to {priceTo} — the widest range of any Tashkent district. The cheap end is municipal and institutional sport complexes; the expensive end is fitness clubs such as Academy Athletica, where the pool is part of a membership. Prices are published by {priced} of {count} venues."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Coach or classes — at {trainer} of {count} pools.",
+            "Children's area — at {childrenZone} venues.",
+            "Parking — at {parking} pools.",
+            "Sauna — at {sauna} venues."
+          ]
+        }
+      ]
+    }
+  },
+
+  "sergeli": {
+    "ru": {
+      "intro": "Сергели — район, куда едут за большой водой: {aquapark} из {count} бассейнов это аквапарки, включая «Атлантис» — один из самых известных в городе. Ещё {open} объекта открытые. Формат почти целиком летний: {summer} бассейнов из {count} закрываются на зиму.",
+      "sections": [
+        {
+          "heading": "Сколько стоит",
+          "body": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Для аквапарков это цена полного дня, а не часа, поэтому сравнивать её напрямую с входом в обычный бассейн некорректно. Цены опубликованы у {priced} объектов из {count}."
+        },
+        {
+          "heading": "С детьми и на весь день",
+          "body": "Кафе есть у {cafe} объектов из {count}, парковка — у {parking}, детская зона — у {childrenZone}. Набор типичный для района, рассчитанного на семейный выезд: приехали утром, уехали вечером. Круглый год работает {yearRound} объект, остальные открываются ближе к маю."
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Sergeli — katta suv uchun boriladigan tuman: {count} basseyndan {aquapark} tasi akvapark, jumladan shahardagi eng mashhurlaridan biri «Atlantis». Yana {open} tasi ochiq. Format deyarli butunlay yozgi: {count} basseyndan {summer} tasi qishda yopiladi.",
+      "sections": [
+        {
+          "heading": "Narxi qancha",
+          "body": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Akvaparklar uchun bu bir soatning emas, to'liq kunning narxi, shuning uchun uni oddiy basseynga kirish bilan to'g'ridan-to'g'ri solishtirish noto'g'ri. Narxlar {count} obyektdan {priced} tasida e'lon qilingan."
+        },
+        {
+          "heading": "Bolalar bilan va kun bo'yi",
+          "body": "{count} obyektdan {cafe} tasida kafe, {parking} tasida avtoturargoh, {childrenZone} tasida bolalar zonasi bor. Bu oilaviy sayohatga mo'ljallangan tuman uchun odatiy to'plam: ertalab keldingiz, kechqurun ketdingiz. Yil bo'yi {yearRound} obyekt ishlaydi, qolganlari may oyiga yaqin ochiladi."
+        }
+      ]
+    },
+    "en": {
+      "intro": "Sergeli is where people go for big water: {aquapark} of its {count} pools are aquaparks, including Atlantis, one of the best-known in the city. Another {open} are open-air. The format is almost entirely summer: {summer} of {count} close for winter.",
+      "sections": [
+        {
+          "heading": "What it costs",
+          "body": "A single adult entry runs from {priceFrom} to {priceTo}. For aquaparks that is a full-day price rather than an hourly one, so comparing it directly with entry to an ordinary pool is misleading. Prices are published by {priced} of {count} venues."
+        },
+        {
+          "heading": "With kids, for the whole day",
+          "body": "A cafe is available at {cafe} of {count} venues, parking at {parking}, a children's area at {childrenZone}. That is the standard set for a district built around family day trips: arrive in the morning, leave in the evening. {yearRound} venue runs year-round; the rest open closer to May."
+        }
+      ]
+    }
+  },
+
+  "mirobod": {
+    "ru": {
+      "intro": "Мирабад — центральный район, и это видно по формату бассейнов: {hotel} из {count} относятся к гостиницам (Lotte City Hotel Tashkent Palace, Villa Grand при Grand Mir). Порог входа здесь выше городского: предложений дешевле {priceFrom} в районе нет.",
+      "sections": [
+        {
+          "heading": "Дорого, но круглый год",
+          "body": "{yearRound} бассейнов из {count} работают круглогодично — гостиничные и спортивные объекты не зависят от сезона. Разовое взрослое посещение стоит от {priceFrom} до {priceTo}. Цены опубликованы у {priced} объектов из {count}; по гостиничным бассейнам стоит отдельно уточнить, пускают ли не проживающих в отеле."
+        },
+        {
+          "heading": "Не только отели",
+          "body": "Кроме гостиничных бассейнов в районе есть аквапарк «Лимпопо», спортивный клуб Chekhov и филиал школы плавания Born2swim на Нукусской. То есть при высоком среднем ценнике выбор форматов здесь всё же есть — от разового отдыха до регулярных занятий."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Парковка — у всех {parking} бассейнов района, для центра это существенно.",
+            "Детская зона — у {childrenZone} объектов.",
+            "Джакузи — у {jacuzzi} бассейнов.",
+            "Wi-Fi — у {wifi} объектов."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Mirobod — markaziy tuman va bu basseynlar formatida ko'rinadi: {count} tadan {hotel} tasi mehmonxonalarga tegishli (Lotte City Hotel Tashkent Palace, Grand Mir qoshidagi Villa Grand). Kirish chegarasi shahar o'rtachasidan yuqori: tumanda {priceFrom} dan arzon taklif yo'q.",
+      "sections": [
+        {
+          "heading": "Qimmat, lekin yil bo'yi",
+          "body": "{count} basseyndan {yearRound} tasi yil bo'yi ishlaydi — mehmonxona va sport obyektlari mavsumga bog'liq emas. Kattalar uchun bir martalik tashrif {priceFrom} dan {priceTo} gacha. Narxlar {count} obyektdan {priced} tasida e'lon qilingan; mehmonxona basseynlari bo'yicha mehmonxonada yashamaydiganlarni kiritishini alohida aniqlash kerak."
+        },
+        {
+          "heading": "Faqat mehmonxonalar emas",
+          "body": "Mehmonxona basseynlaridan tashqari tumanda «Limpopo» akvaparki, Chekhov sport klubi va Nukus ko'chasidagi Born2swim suzish maktabi filiali bor. Ya'ni o'rtacha narx yuqori bo'lsa-da, format tanlovi baribir mavjud — bir martalik dam olishdan muntazam mashg'ulotgacha."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Avtoturargoh — tumanning barcha {parking} basseynida, markaz uchun bu muhim.",
+            "Bolalar zonasi — {childrenZone} obyektda.",
+            "Jakuzi — {jacuzzi} basseynda.",
+            "Wi-Fi — {wifi} obyektda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mirobod is a central district, and the pool mix shows it: {hotel} of {count} belong to hotels (Lotte City Hotel Tashkent Palace, Villa Grand at the Grand Mir). The entry threshold is above the city average — nothing in the district costs less than {priceFrom}.",
+      "sections": [
+        {
+          "heading": "Expensive, but open all year",
+          "body": "{yearRound} of the {count} pools run year-round: hotel and sport venues do not depend on the season. A single adult entry runs from {priceFrom} to {priceTo}. Prices are published by {priced} of {count} venues; for hotel pools, ask separately whether non-guests are admitted."
+        },
+        {
+          "heading": "Not only hotels",
+          "body": "Besides the hotel pools the district has the Limpopo aquapark, the Chekhov sport club and a Born2swim swimming school branch on Nukusskaya. So despite the high average price, there is still a choice of formats here — from a one-off visit to regular training."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Parking — at all {parking} pools in the district, which matters downtown.",
+            "Children's area — at {childrenZone} venues.",
+            "Jacuzzi — at {jacuzzi} pools.",
+            "Wi-Fi — at {wifi} venues."
+          ]
+        }
+      ]
+    }
+  },
+
+  "bektemir": {
+    "ru": {
+      "intro": "Бектемир — самый «летний» район Ташкента: все {count} бассейна здесь открытые и сезонные, круглогодичных нет ни одного. И все {childrenZone} объекта имеют детскую зону, а кафе есть у всех {cafe} — район целиком заточен под семейный выезд на день.",
+      "sections": [
+        {
+          "heading": "Сколько стоит",
+          "body": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Отдельно стоит знать про Malibu Sun Club: вход в воду там бесплатный, платите только за лежак или столик, поэтому для компании расчёт получается другим, чем при обычной цене за человека. Цены опубликованы у {priced} объектов из {count}."
+        },
+        {
+          "heading": "Когда сюда ехать",
+          "body": "Сезон открывается примерно в мае и заканчивается в сентябре — зимой в районе плавать негде, ближайшие круглогодичные бассейны в соседних районах. Парковка есть у всех {parking} объектов, что для загородного по духу формата обязательно: общественным транспортом сюда добираться неудобно."
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Bektemir — Toshkentning eng «yozgi» tumani: bu yerdagi barcha {count} basseyn ochiq va mavsumiy, yil bo'yi ishlaydigani yo'q. Va barcha {childrenZone} obyektda bolalar zonasi bor, kafe esa {cafe} tasining hammasida — tuman butunlay oilaviy kunlik sayohatga moslashgan.",
+      "sections": [
+        {
+          "heading": "Narxi qancha",
+          "body": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Malibu Sun Club haqida alohida bilish kerak: u yerda suvga kirish bepul, faqat shezlong yoki stol uchun to'laysiz, shuning uchun kompaniya uchun hisob odatdagi kishi boshiga narxdan farq qiladi. Narxlar {count} obyektdan {priced} tasida e'lon qilingan."
+        },
+        {
+          "heading": "Qachon kelish kerak",
+          "body": "Mavsum taxminan may oyida ochilib, sentyabrda tugaydi — qishda tumanda suzadigan joy yo'q, eng yaqin yil bo'yi ishlaydigan basseynlar qo'shni tumanlarda. Avtoturargoh barcha {parking} obyektda bor va bu shahar tashqarisi ruhidagi format uchun majburiy: jamoat transportida bu yerga yetib borish noqulay."
+        }
+      ]
+    },
+    "en": {
+      "intro": "Bektemir is Tashkent's most summer-bound district: all {count} of its pools are open-air and seasonal, with none operating year-round. All {childrenZone} have a children's area and all {cafe} have a cafe — the district is built entirely around the family day trip.",
+      "sections": [
+        {
+          "heading": "What it costs",
+          "body": "A single adult entry runs from {priceFrom} to {priceTo}. One venue works differently: at Malibu Sun Club entry to the water is free and you pay only for a sunbed or table, so the maths for a group differs from a standard per-person price. Prices are published by {priced} of {count} venues."
+        },
+        {
+          "heading": "When to come",
+          "body": "The season opens around May and ends in September — there is nowhere to swim here in winter, and the nearest year-round pools are in neighbouring districts. Parking is available at all {parking} venues, which is essential for what is effectively an out-of-town format: public transport here is inconvenient."
+        }
+      ]
+    }
+  },
+
+  "chilanzar": {
+    "ru": {
+      "intro": "Чиланзар — плотно застроенный жилой район, и бассейнов здесь немного: {count} объекта. Зато {yearRound} из них работают круглый год, так что зимой район не выпадает из поиска, в отличие от сезонных Бектемира и Сергели.",
+      "sections": [
+        {
+          "heading": "Что здесь есть",
+          "body": "Форматы разные: аквапарк OASIS, спортивный бассейн «Мехнат», спа-комплекс Dubai Spa и Magic Galaxy. То есть выбор небольшой, но не однотипный — можно найти и семейный отдых, и место для регулярного плавания. Разовое взрослое посещение стоит от {priceFrom} до {priceTo}, цены опубликованы у {priced} объектов из {count}."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Парковка — у {parking} из {count} бассейнов.",
+            "Кафе — у {cafe} объектов.",
+            "Детская зона — у {childrenZone} бассейнов.",
+            "Тренер или занятия — у {trainer} объектов."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Chilonzor — zich qurilgan turar-joy tumani va bu yerda basseynlar ko'p emas: {count} ta obyekt. Ammo ulardan {yearRound} tasi yil bo'yi ishlaydi, shuning uchun mavsumiy Bektemir va Sergelidan farqli o'laroq, qishda tuman qidiruvdan chiqib ketmaydi.",
+      "sections": [
+        {
+          "heading": "Bu yerda nimalar bor",
+          "body": "Formatlar har xil: OASIS akvaparki, «Mehnat» sport basseyni, Dubai Spa majmuasi va Magic Galaxy. Ya'ni tanlov kichik, lekin bir xil emas — oilaviy dam olish uchun ham, muntazam suzish uchun ham joy topish mumkin. Kattalar uchun bir martalik tashrif {priceFrom} dan {priceTo} gacha, narxlar {count} obyektdan {priced} tasida e'lon qilingan."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Avtoturargoh — {count} basseyndan {parking} tasida.",
+            "Kafe — {cafe} obyektda.",
+            "Bolalar zonasi — {childrenZone} basseynda.",
+            "Murabbiy yoki mashg'ulotlar — {trainer} obyektda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Chilanzar is a densely built residential district and does not have many pools: {count} venues. But {yearRound} of them run year-round, so unlike seasonal Bektemir or Sergeli the district stays relevant in winter.",
+      "sections": [
+        {
+          "heading": "What is here",
+          "body": "The formats differ: the OASIS aquapark, the Mehnat sport pool, the Dubai Spa complex and Magic Galaxy. The choice is small but not uniform — you can find both a family outing and a place for regular swimming. A single adult entry runs from {priceFrom} to {priceTo}; prices are published by {priced} of {count} venues."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Parking — at {parking} of {count} pools.",
+            "Cafe — at {cafe} venues.",
+            "Children's area — at {childrenZone} pools.",
+            "Coach or classes — at {trainer} venues."
+          ]
+        }
+      ]
+    }
+  },
+
+  "yashnabad": {
+    "ru": {
+      "intro": "Яшнабад — район со смешанным набором: {open} открытых бассейна, {hotel} гостиничный (Le Grand De Plaza) и филиал школы плавания Born2swim на Паркентской. Сезонных и круглогодичных объектов поровну — по {summer} и {yearRound}, поэтому район остаётся в поиске и летом, и зимой.",
+      "sections": [
+        {
+          "heading": "Сколько стоит",
+          "body": "Разовое взрослое посещение — от {priceFrom} до {priceTo}. Разброс здесь небольшой: в районе нет ни очень дешёвых муниципальных бассейнов, ни дорогих клубных. Цены опубликованы у {priced} объектов из {count}."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Парковка — у {parking} из {count} бассейнов.",
+            "Кафе — у {cafe} объектов.",
+            "Детская зона — у {childrenZone} бассейна.",
+            "Тренер или занятия — у {trainer} объекта."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Yashnobod — aralash to'plamli tuman: {open} ta ochiq basseyn, {hotel} ta mehmonxona basseyni (Le Grand De Plaza) va Parkent ko'chasidagi Born2swim suzish maktabi filiali. Mavsumiy va yil bo'yi ishlaydigan obyektlar teng — {summer} va {yearRound} tadan, shuning uchun tuman yozda ham, qishda ham qidiruvda qoladi.",
+      "sections": [
+        {
+          "heading": "Narxi qancha",
+          "body": "Kattalar uchun bir martalik tashrif — {priceFrom} dan {priceTo} gacha. Bu yerda tafovut kichik: tumanda juda arzon munitsipal basseynlar ham, qimmat klub basseynlari ham yo'q. Narxlar {count} obyektdan {priced} tasida e'lon qilingan."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Avtoturargoh — {count} basseyndan {parking} tasida.",
+            "Kafe — {cafe} obyektda.",
+            "Bolalar zonasi — {childrenZone} basseynda.",
+            "Murabbiy yoki mashg'ulotlar — {trainer} obyektda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Yashnabad has a mixed set: {open} open-air pools, {hotel} hotel pool (Le Grand De Plaza) and a Born2swim swimming school branch on Parkentskaya. Seasonal and year-round venues are evenly split — {summer} and {yearRound} — so the district stays relevant in both summer and winter.",
+      "sections": [
+        {
+          "heading": "What it costs",
+          "body": "A single adult entry runs from {priceFrom} to {priceTo}. The spread is narrow: the district has neither very cheap municipal pools nor expensive club ones. Prices are published by {priced} of {count} venues."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Parking — at {parking} of {count} pools.",
+            "Cafe — at {cafe} venues.",
+            "Children's area — at {childrenZone} pool.",
+            "Coach or classes — at {trainer} venue."
+          ]
+        }
+      ]
+    }
+  },
+
+  "yakkasaray": {
+    "ru": {
+      "intro": "Яккасарай — район школ плавания: из {count} бассейнов два это филиалы Born2swim, включая Pro by Born2swim с занятиями для взрослых. Третий объект — бассейн Garden Park. Круглый год работают {yearRound} из {count}.",
+      "sections": [
+        {
+          "heading": "Занятия, а не разовый вход",
+          "body": "Тренер или занятия есть у {trainer} объектов из {count}, и это определяет формат района: сюда чаще записываются в группу или на индивидуальные тренировки, чем приходят поплавать час. Разовое посещение при таком формате может быть недоступно — расписание уточняйте по телефону из карточки."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Парковка — у всех {parking} бассейнов района.",
+            "Тренер или занятия — у {trainer} объектов.",
+            "Кафе — у {cafe} бассейна.",
+            "Детская зона — у {childrenZone} объекта."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Yakkasaroy — suzish maktablari tumani: {count} basseyndan ikkitasi Born2swim filiallari, jumladan kattalar uchun mashg'ulotlari bo'lgan Pro by Born2swim. Uchinchi obyekt — Garden Park basseyni. {count} tadan {yearRound} tasi yil bo'yi ishlaydi.",
+      "sections": [
+        {
+          "heading": "Bir martalik kirish emas, mashg'ulotlar",
+          "body": "{count} obyektdan {trainer} tasida murabbiy yoki mashg'ulotlar bor va bu tumanning formatini belgilaydi: bu yerga bir soat suzish uchun kelishdan ko'ra, guruhga yoki individual mashg'ulotga yozilish ko'proq uchraydi. Bunday formatda bir martalik tashrif mavjud bo'lmasligi mumkin — jadvalni kartochkadagi telefon orqali aniqlang."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Avtoturargoh — tumanning barcha {parking} basseynida.",
+            "Murabbiy yoki mashg'ulotlar — {trainer} obyektda.",
+            "Kafe — {cafe} basseynda.",
+            "Bolalar zonasi — {childrenZone} obyektda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Yakkasaray is the swimming-school district: two of its {count} pools are Born2swim branches, including Pro by Born2swim with adult classes. The third venue is the Garden Park pool. {yearRound} of {count} operate year-round.",
+      "sections": [
+        {
+          "heading": "Classes rather than drop-in",
+          "body": "{trainer} of the {count} venues offer a coach or classes, and that defines the district: people sign up for group or individual sessions more often than they drop in for an hour. With that format a single visit may simply not be on offer — check the schedule using the phone number on the pool's page."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Parking — at all {parking} pools in the district.",
+            "Coach or classes — at {trainer} venues.",
+            "Cafe — at {cafe} pool.",
+            "Children's area — at {childrenZone} venue."
+          ]
+        }
+      ]
+    }
+  },
+
+  "shayhontohur": {
+    "ru": {
+      "intro": "Шайхантахур — район без сезонности: все {count} бассейна работают круглый год. Формат спортивный и учебный — филиал Born2swim на Дружбе Народов, STUDIO 13 и комплекс JAR. Тренер или занятия есть у всех {trainer} объектов.",
+      "sections": [
+        {
+          "heading": "О ценах",
+          "body": "Ни один бассейн района пока не публикует прайс, поэтому стоимость нужно уточнять по телефону — он указан в карточке каждого объекта. Для школ плавания это обычная ситуация: цена зависит от формата занятий (группа, индивидуально, абонемент на месяц), и одной цифрой она не описывается."
+        },
+        {
+          "heading": "Что есть на объектах",
+          "list": [
+            "Тренер или занятия — у всех {trainer} бассейнов района.",
+            "Парковка — у всех {parking} объектов.",
+            "Детская зона — у {childrenZone} бассейнов."
+          ]
+        }
+      ]
+    },
+    "uz": {
+      "intro": "Shayxontohur — mavsumiylik yo'q tuman: barcha {count} basseyn yil bo'yi ishlaydi. Format sport va o'quv yo'nalishida — Do'stlik Xalqlaridagi Born2swim filiali, STUDIO 13 va JAR majmuasi. Barcha {trainer} obyektda murabbiy yoki mashg'ulotlar bor.",
+      "sections": [
+        {
+          "heading": "Narxlar haqida",
+          "body": "Tumandagi hech bir basseyn hozircha narxini e'lon qilmagan, shuning uchun narxni telefon orqali aniqlash kerak — u har bir obyekt kartochkasida ko'rsatilgan. Suzish maktablari uchun bu odatiy holat: narx mashg'ulot formatiga bog'liq (guruh, individual, oylik obuna) va uni bitta raqam bilan tavsiflab bo'lmaydi."
+        },
+        {
+          "heading": "Obyektlarda nimalar bor",
+          "list": [
+            "Murabbiy yoki mashg'ulotlar — tumanning barcha {trainer} basseynida.",
+            "Avtoturargoh — barcha {parking} obyektda.",
+            "Bolalar zonasi — {childrenZone} basseynda."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "intro": "Shayhontohur has no seasonality: all {count} of its pools run year-round. The format is sporting and instructional — the Born2swim branch on Druzhba Narodov, STUDIO 13 and the JAR complex. All {trainer} venues offer a coach or classes.",
+      "sections": [
+        {
+          "heading": "About prices",
+          "body": "No pool in the district publishes a price list yet, so you will need to call — the number is on each venue's page. For swimming schools this is normal: the price depends on the session format (group, individual, monthly membership) and cannot be reduced to a single figure."
+        },
+        {
+          "heading": "What the venues offer",
+          "list": [
+            "Coach or classes — at all {trainer} pools in the district.",
+            "Parking — at all {parking} venues.",
+            "Children's area — at {childrenZone} pools."
+          ]
+        }
+      ]
+    }
+  }
+}

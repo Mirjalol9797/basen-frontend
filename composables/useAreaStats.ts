@@ -2,12 +2,15 @@ import type { Pool } from '~/types/pool'
 import regionCities from '~/data/regionCities.json'
 
 /**
- * Цифры для текстов на страницах регионов.
+ * Цифры для текстов на страницах регионов и районов.
  *
- * Тексты в regionGuides.json и regionFaq.json написаны с плейсхолдерами
- * ({count}, {priceFrom}, {districts} и т. д.) и подставляются отсюда. Это
- * сделано специально: если вписать числа прямо в текст, они разойдутся
- * с каталогом при первом же добавленном бассейне.
+ * Тексты в regionGuides / regionFaq / districtGuides / districtFaq написаны
+ * с плейсхолдерами ({count}, {priceFrom}, {districts} и т. д.) и подставляются
+ * отсюда. Это сделано специально: если вписать числа прямо в текст, они
+ * разойдутся с каталогом при первом же добавленном бассейне.
+ *
+ * Не путать с usePoolStats — тот считает цифры по всему каталогу для главной
+ * и общих текстов, этот — по одному набору бассейнов (регион или район).
  */
 
 /** Ключи прайса, которые означают разовое взрослое посещение. Абонементы
@@ -39,9 +42,14 @@ const fmt = (n: number, locale: string) =>
 const joinCounted = (entries: [string, number][]) =>
   entries.map(([name, n]) => `${name} (${n})`).join(', ')
 
-export function buildRegionStats(
+/**
+ * @param areaId  id региона (для {cities}) или id района. Для района список
+ *                городов пуст — плейсхолдер {cities} на таких страницах
+ *                не используется.
+ */
+export function buildAreaStats(
   pools: Pool[],
-  regionId: string,
+  areaId: string,
   locale: string,
   districtName: (id: string) => string,
 ): Record<string, string | number> {
@@ -77,7 +85,7 @@ export function buildRegionStats(
     .sort((a, b) => b[1] - a[1])
 
   // Города: поиск подстроки по адресу, порядок из regionCities.json.
-  const cityList = ((regionCities as Record<string, unknown>)[regionId] ?? []) as CityEntry[]
+  const cityList = ((regionCities as Record<string, unknown>)[areaId] ?? []) as CityEntry[]
   const byCity = new Map<string, number>()
   let unmatched = 0
   for (const p of pools) {
@@ -111,6 +119,9 @@ export function buildRegionStats(
     sauna: service('sauna'),
     wifi: service('wifi'),
     sunbed: service('sunbed'),
+    jacuzzi: service('jacuzzi'),
+    locker: service('locker'),
+    restaurant: service('restaurant'),
 
     priced,
     priceFrom: singleAdult.length ? fmt(singleAdult[0]!, locale) : '',

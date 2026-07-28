@@ -321,7 +321,7 @@ function resetFilters() {
 // отфильтрованным: текст описывает регион целиком и не должен меняться,
 // когда пользователь щёлкает фильтры.
 const stats = computed(() =>
-  buildRegionStats(pools.value, slug, locale.value, getDistrictName)
+  buildAreaStats(pools.value, slug, locale.value, getDistrictName)
 );
 
 type RegionGuide = {
