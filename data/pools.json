@@ -11195,5 +11195,76 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "hayatplaza-samarkand",
+    "slug": "hayatplaza-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Hayat Plaza Hotel & Spa",
+        "address": "ул. Садриддина Айни, 53, Самарканд, Самаркандская область",
+        "description": "Hayat Plaza Hotel & Spa — бассейн при отеле в Самарканде на улице Садриддина Айни, 53. Работает ежедневно с 10:00 до 20:00, есть парковка."
+      },
+      "uz": {
+        "name": "Hayat Plaza Hotel & Spa",
+        "address": "Sadriddin Ayniy ko'chasi, 53, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Hayat Plaza Hotel & Spa",
+        "address": "53 Sadriddin Ayni str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.649216,
+      "lng": 66.999232
+    },
+    "phone": [
+      "+998 55 702-00-10",
+      "+998 88 245-55-52"
+    ],
+    "telegram": [
+      "https://t.me/HAYATPLAZAHOTEL"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/hayatplaza.hotel",
+    "youtube": null,
+    "email": "hayatplaza@mail.ru",
+    "website": "https://hayatplaza.uz/",
+    "gallery": [
+      "/images/pools/hayatplaza-samarkand/1.webp",
+      "/images/pools/hayatplaza-samarkand/2.jpg",
+      "/images/pools/hayatplaza-samarkand/3.jpg",
+      "/images/pools/hayatplaza-samarkand/4.jpg",
+      "/images/pools/hayatplaza-samarkand/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking",
+      "spa"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
