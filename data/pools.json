@@ -9969,5 +9969,79 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "spasauna-komfort-samarkand",
+    "slug": "spasauna-komfort-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Spa & Sauna Komfort",
+        "address": "ул. Лочин, 21, Самарканд, Самаркандская область",
+        "description": "Spa & Sauna Komfort — бассейн, спа и сауна в Самарканде на улице Лочин. Хаммам, джакузи, финская парная. Работает ежедневно с 09:00 до 02:00, есть парковка."
+      },
+      "uz": {
+        "name": "Spa & Sauna Komfort",
+        "address": "Lochin ko'chasi, 21, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Spa & Sauna Komfort",
+        "address": "21 Lochin str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.695266,
+      "lng": 66.981533
+    },
+    "phone": [
+      "+998 99 772-73-37",
+      "+998 98 573-13-33"
+    ],
+    "telegram": [
+      "https://t.me/komffoort"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/komfort.sauna",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/spasauna-komfort-samarkand/1.webp",
+      "/images/pools/spasauna-komfort-samarkand/2.webp",
+      "/images/pools/spasauna-komfort-samarkand/3.webp",
+      "/images/pools/spasauna-komfort-samarkand/4.webp",
+      "/images/pools/spasauna-komfort-samarkand/5.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "02:00" },
+      { "day": "tue", "open": "09:00", "close": "02:00" },
+      { "day": "wed", "open": "09:00", "close": "02:00" },
+      { "day": "thu", "open": "09:00", "close": "02:00" },
+      { "day": "fri", "open": "09:00", "close": "02:00" },
+      { "day": "sat", "open": "09:00", "close": "02:00" },
+      { "day": "sun", "open": "09:00", "close": "02:00" }
+    ],
+    "services": [
+      "parking",
+      "spa",
+      "sauna",
+      "turkish_hammam",
+      "jacuzzi"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
