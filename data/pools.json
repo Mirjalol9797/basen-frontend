@@ -10737,5 +10737,175 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "aquapark-sogdiana-samarkand",
+    "slug": "aquapark-sogdiana-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Аквапарк Согдиана",
+        "address": "ул. Нарпай, 76А, Самарканд, Самаркандская область",
+        "description": "Sogdiana Aquapark — современный водный комплекс в Самарканде на улице Нарпай, 76А для отдыха всей семьёй. 6 водных горок разной сложности, аттракцион «Волна», ленивая река, детский бассейн с подогреваемой водой, джакузи. Зона релакса с шезлонгами, теневыми навесами и коктейль-баром, ресторан и кафе, комфортабельные раздевалки и душевые. На территории работают квалифицированные спасатели и медперсонал, ежедневная санитарная обработка. Дети до 3 лет — бесплатно. Штраф за лишний час в любой день недели — 50 000 сум. Есть парковка."
+      },
+      "uz": {
+        "name": "Sog'diyona akvaparki",
+        "address": "Narpay ko'chasi, 76A, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Sogdiana Aquapark",
+        "address": "76A Narpay str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "categories": [
+      "aquapark",
+      "children"
+    ],
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.662847,
+      "lng": 66.907978
+    },
+    "phone": [
+      "+998 93 722-88-00",
+      "+998 66 239-49-99"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/sogdiana_aquapark",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aquapark-sogdiana-samarkand/1.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/2.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/3.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/4.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/6.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/7.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/8.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/9.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/10.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/11.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/12.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/13.webp",
+      "/images/pools/aquapark-sogdiana-samarkand/14.webp"
+    ],
+    "prices": [
+      {
+        "key": "price.sog_standard",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "sog_sec_weekday"
+      },
+      {
+        "key": "price.sog_child_120",
+        "amount": 60000,
+        "currency": "UZS",
+        "section": "sog_sec_weekday"
+      },
+      {
+        "key": "price.sog_child_120_140",
+        "amount": 80000,
+        "currency": "UZS",
+        "section": "sog_sec_weekday"
+      },
+      {
+        "key": "price.sog_standard",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "sog_sec_weekend"
+      },
+      {
+        "key": "price.sog_child_120",
+        "amount": 60000,
+        "currency": "UZS",
+        "section": "sog_sec_weekend"
+      },
+      {
+        "key": "price.sog_child_120_140",
+        "amount": 80000,
+        "currency": "UZS",
+        "section": "sog_sec_weekend"
+      },
+      {
+        "key": "price.sog_standard",
+        "amount": 140000,
+        "currency": "UZS",
+        "section": "sog_sec_fullday"
+      },
+      {
+        "key": "price.sog_child_120",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "sog_sec_fullday"
+      },
+      {
+        "key": "price.sog_child_120_140",
+        "amount": 120000,
+        "currency": "UZS",
+        "section": "sog_sec_fullday"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "22:00"
+      }
+    ],
+    "services": [
+      "parking",
+      "children_zone",
+      "wave_pool",
+      "jacuzzi",
+      "restaurant",
+      "cafe",
+      "bar",
+      "sunbed"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.9,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
