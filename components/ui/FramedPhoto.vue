@@ -16,6 +16,13 @@
       :priority="priority"
       :loading="priority ? undefined : 'lazy'"
     />
+    <!-- Brand watermark: one label, bottom-right -->
+    <span
+      class="absolute bottom-2 right-3 z-20 select-none pointer-events-none text-white/75 text-xs sm:text-sm font-semibold tracking-wide"
+      style="text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6)"
+    >
+      basen.uz
+    </span>
   </div>
 </template>
 
