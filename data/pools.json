@@ -10907,5 +10907,223 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "aquapark-vavilon-samarkand",
+    "slug": "aquapark-vavilon-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Аквапарк Вавилон",
+        "address": "Самарканд, Самаркандская область",
+        "description": "Аквапарк «Вавилон» — водно-развлекательный комплекс в Самарканде: летний и зимний (крытый) бассейны, водные горки, крытый женский бассейн, сауна, детский бассейн. Вход можно оплатить обычным билетом или бесплатно при внесении депозита (сумма депозита тратится внутри комплекса). Крытый женский бассейн оплачивается почасово: 1-й час — 300 000, 2-й — 250 000, 3-й — 200 000, последующие — по 150 000 сум. Запрещается приносить свою еду и напитки; посещение только в купальниках или пляжных шортах. Работает ежедневно с 10:00 до 23:00, есть парковка."
+      },
+      "uz": {
+        "name": "Vavilon akvaparki",
+        "address": "Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Vavilon Aquapark",
+        "address": "Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "categories": [
+      "aquapark",
+      "indoor",
+      "children"
+    ],
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.589453,
+      "lng": 66.932617
+    },
+    "phone": [
+      "+998 98 110-56-00"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aquapark-vavilon-samarkand/1.webp",
+      "/images/pools/aquapark-vavilon-samarkand/2.webp",
+      "/images/pools/aquapark-vavilon-samarkand/3.webp",
+      "/images/pools/aquapark-vavilon-samarkand/4.webp",
+      "/images/pools/aquapark-vavilon-samarkand/5.webp",
+      "/images/pools/aquapark-vavilon-samarkand/6.webp",
+      "/images/pools/aquapark-vavilon-samarkand/7.webp",
+      "/images/pools/aquapark-vavilon-samarkand/8.jpg",
+      "/images/pools/aquapark-vavilon-samarkand/9.jpg",
+      "/images/pools/aquapark-vavilon-samarkand/10.jpg",
+      "/images/pools/aquapark-vavilon-samarkand/11.jpg"
+    ],
+    "prices": [
+      {
+        "key": "price.vav_under10",
+        "amount": 65000,
+        "currency": "UZS",
+        "section": "vav_sec_nodeposit",
+        "group": "vav_g_weekday_day"
+      },
+      {
+        "key": "price.vav_from10",
+        "amount": 125000,
+        "currency": "UZS",
+        "section": "vav_sec_nodeposit",
+        "group": "vav_g_weekday_day"
+      },
+      {
+        "key": "price.vav_under10",
+        "amount": 75000,
+        "currency": "UZS",
+        "section": "vav_sec_nodeposit",
+        "group": "vav_g_weekend_day"
+      },
+      {
+        "key": "price.vav_from10",
+        "amount": 150000,
+        "currency": "UZS",
+        "section": "vav_sec_nodeposit",
+        "group": "vav_g_weekend_day"
+      },
+      {
+        "key": "price.vav_under10",
+        "amount": 125000,
+        "currency": "UZS",
+        "section": "vav_sec_deposit",
+        "group": "vav_g_weekday_day"
+      },
+      {
+        "key": "price.vav_from10",
+        "amount": 250000,
+        "currency": "UZS",
+        "section": "vav_sec_deposit",
+        "group": "vav_g_weekday_day"
+      },
+      {
+        "key": "price.vav_under10",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "vav_sec_deposit",
+        "group": "vav_g_weekday_eve"
+      },
+      {
+        "key": "price.vav_from10",
+        "amount": 150000,
+        "currency": "UZS",
+        "section": "vav_sec_deposit",
+        "group": "vav_g_weekday_eve"
+      },
+      {
+        "key": "price.vav_under10",
+        "amount": 150000,
+        "currency": "UZS",
+        "section": "vav_sec_deposit",
+        "group": "vav_g_weekend_day"
+      },
+      {
+        "key": "price.vav_from10",
+        "amount": 300000,
+        "currency": "UZS",
+        "section": "vav_sec_deposit",
+        "group": "vav_g_weekend_day"
+      },
+      {
+        "key": "price.vav_under10",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "vav_sec_deposit",
+        "group": "vav_g_weekend_eve"
+      },
+      {
+        "key": "price.vav_from10",
+        "amount": 150000,
+        "currency": "UZS",
+        "section": "vav_sec_deposit",
+        "group": "vav_g_weekend_eve"
+      },
+      {
+        "key": "price.vav_hour1",
+        "amount": 300000,
+        "currency": "UZS",
+        "section": "vav_sec_women"
+      },
+      {
+        "key": "price.vav_hour2",
+        "amount": 250000,
+        "currency": "UZS",
+        "section": "vav_sec_women"
+      },
+      {
+        "key": "price.vav_hour3",
+        "amount": 200000,
+        "currency": "UZS",
+        "section": "vav_sec_women"
+      },
+      {
+        "key": "price.vav_hour_next",
+        "amount": 150000,
+        "currency": "UZS",
+        "section": "vav_sec_women"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "tue",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "wed",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "thu",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "fri",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sat",
+        "open": "10:00",
+        "close": "23:00"
+      },
+      {
+        "day": "sun",
+        "open": "10:00",
+        "close": "23:00"
+      }
+    ],
+    "services": [
+      "parking",
+      "children_zone",
+      "sauna",
+      "cafe"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
