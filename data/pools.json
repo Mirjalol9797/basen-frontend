@@ -11125,5 +11125,75 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "rayyan-hotel-samarkand",
+    "slug": "rayyan-hotel-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Rayyan Hotel",
+        "address": "ул. Ибн Халдун, 4, Самарканд, Самаркандская область",
+        "description": "Rayyan Hotel — бассейн при отеле в Самарканде на улице Ибн Халдун, 4. Ориентир: областной филиал Agrobank, железнодорожный вокзал. Работает ежедневно с 10:00 до 20:00, есть парковка."
+      },
+      "uz": {
+        "name": "Rayyan Hotel",
+        "address": "Ibn Xaldun ko'chasi, 4, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Rayyan Hotel",
+        "address": "4 Ibn Khaldun str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.683614,
+      "lng": 66.927632
+    },
+    "phone": [
+      "+998 99 801-00-86",
+      "+998 99 271-00-86",
+      "+998 90 466-60-60"
+    ],
+    "telegram": null,
+    "facebook": "https://www.facebook.com/people/Rayyan-Hotel/pfbid02afB8SdAwkenvD9bJpb1Tbuer58NLj17oYhJdkKwmNefwPfGoyvcCFFKhuVnXLxY5l/",
+    "instagram": "https://www.instagram.com/rayyan_hotel",
+    "youtube": null,
+    "email": "info@rayyanhotel.uz",
+    "website": "https://rayyanhotel.uz/%D1%81%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4/",
+    "gallery": [
+      "/images/pools/rayyan-hotel-samarkand/1.webp",
+      "/images/pools/rayyan-hotel-samarkand/2.webp",
+      "/images/pools/rayyan-hotel-samarkand/3.webp",
+      "/images/pools/rayyan-hotel-samarkand/4.webp",
+      "/images/pools/rayyan-hotel-samarkand/5.webp",
+      "/images/pools/rayyan-hotel-samarkand/6.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
