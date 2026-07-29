@@ -10117,5 +10117,72 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-summer-samarkand",
+    "slug": "basseyn-summer-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Летний бассейн",
+        "address": "ул. Бирдамлик, Самарканд, Самаркандская область",
+        "description": "Летний открытый бассейн в Самарканде на улице Бирдамлик. Низкие цены и неограниченное время посещения. Принимают только мужчин. Вход: взрослый — 35 000 сум, подросток от 12 до 18 лет — 30 000 сум. Работает ежедневно с 11:00 до 23:00, есть парковка."
+      },
+      "uz": {
+        "name": "Yozgi basseyn",
+        "address": "Birdamlik ko'chasi, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Summer Pool",
+        "address": "Birdamlik str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.661180,
+      "lng": 66.890280
+    },
+    "phone": [
+      "+998 93 721-38-76"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-summer-samarkand/1.webp",
+      "/images/pools/basseyn-summer-samarkand/2.webp"
+    ],
+    "prices": [
+      { "key": "price.entry_adult_unlimited", "amount": 35000, "currency": "UZS" },
+      { "key": "price.entry_teen_12_18_unlimited", "amount": 30000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "11:00", "close": "23:00" },
+      { "day": "tue", "open": "11:00", "close": "23:00" },
+      { "day": "wed", "open": "11:00", "close": "23:00" },
+      { "day": "thu", "open": "11:00", "close": "23:00" },
+      { "day": "fri", "open": "11:00", "close": "23:00" },
+      { "day": "sat", "open": "11:00", "close": "23:00" },
+      { "day": "sun", "open": "11:00", "close": "23:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]

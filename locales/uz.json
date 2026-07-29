@@ -255,6 +255,8 @@
     "entry_men_unlimited": "Erkaklar uchun (vaqt cheklovisiz)",
     "entry_women_unlimited": "Ayollar uchun (vaqt cheklovisiz)",
     "entry_child_under12_unlimited": "12 yoshgacha bolalar (vaqt cheklovisiz)",
+    "entry_adult_unlimited": "Kattalar (vaqt cheklovisiz)",
+    "entry_teen_12_18_unlimited": "O'smirlar 12–18 yosh (vaqt cheklovisiz)",
     "pool_extra_person_over12": "12 kishidan ortiq har biri uchun qo'shimcha to'lov",
     "tapchan_rental_day6": "Tapchan ijarasi butun kunga (6 kishigacha)",
     "vip_zone_person": "VIP-zona (kishi boshiga)",

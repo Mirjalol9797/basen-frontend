@@ -255,6 +255,8 @@
     "entry_men_unlimited": "Men (no time limit)",
     "entry_women_unlimited": "Women (no time limit)",
     "entry_child_under12_unlimited": "Children under 12 (no time limit)",
+    "entry_adult_unlimited": "Adult (no time limit)",
+    "entry_teen_12_18_unlimited": "Teen 12–18 (no time limit)",
     "pool_extra_person_over12": "Surcharge per person over 12",
     "tapchan_rental_day6": "Tapchan rental for the whole day (up to 6 people)",
     "vip_zone_person": "VIP zone (per person)",
