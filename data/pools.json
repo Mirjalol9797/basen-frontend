@@ -11737,5 +11737,81 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "silk-road-waterland",
+    "slug": "silk-road-waterland",
+    "translations": {
+      "ru": {
+        "name": "Silk Road Waterland",
+        "address": "населённый пункт Куштамгали, Самаркандский район, Самаркандская область",
+        "description": "Silk Road Waterland — семейный аквапарк на территории туристического центра Silk Road Samarkand. Водные горки и бассейны. Стоимость входа зависит от роста: до 100 см — 100 000, от 100 до 150 см — 150 000, выше 150 см — 200 000 сум. Работает ежедневно с 10:00 до 20:00, в выходные — до 23:00. Есть парковка."
+      },
+      "uz": {
+        "name": "Silk Road Waterland",
+        "address": "Qushtamg'ali aholi punkti, Samarqand tumani, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Silk Road Waterland",
+        "address": "Qushtamgali, Samarkand district, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.654813,
+      "lng": 67.055813
+    },
+    "phone": [
+      "+998 55 705-55-55",
+      "+998 55 705-70-23"
+    ],
+    "telegram": null,
+    "facebook": "https://www.facebook.com/people/Silk-Road-Waterland/61559233019249/",
+    "instagram": "https://www.instagram.com/silkroad_waterland",
+    "youtube": null,
+    "email": null,
+    "website": "https://www.silkroad-samarkand.com/",
+    "gallery": [
+      "/images/pools/silk-road-waterland/1.webp",
+      "/images/pools/silk-road-waterland/2.webp",
+      "/images/pools/silk-road-waterland/3.webp",
+      "/images/pools/silk-road-waterland/4.webp",
+      "/images/pools/silk-road-waterland/5.webp",
+      "/images/pools/silk-road-waterland/6.webp",
+      "/images/pools/silk-road-waterland/7.webp",
+      "/images/pools/silk-road-waterland/8.webp",
+      "/images/pools/silk-road-waterland/9.webp"
+    ],
+    "prices": [
+      { "key": "price.height_under100", "amount": 100000, "currency": "UZS" },
+      { "key": "price.height_100_150", "amount": 150000, "currency": "UZS" },
+      { "key": "price.height_over150", "amount": 200000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "23:00" },
+      { "day": "sun", "open": "10:00", "close": "23:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.3,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
