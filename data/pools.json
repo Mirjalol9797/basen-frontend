@@ -11266,5 +11266,78 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "eco-zarafshon-samarkand",
+    "slug": "eco-zarafshon-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Eco Zarafshon",
+        "address": "Джамбайский район (ориентир: завод MAN), Самаркандская область",
+        "description": "Eco Zarafshon — открытый бассейн и зона отдыха в Джамбайском районе Самаркандской области (ориентир: завод MAN). Бассейн, зона отдыха с тапчанами, ресторан и бар. Работает ежедневно с 09:00 до 23:00, есть парковка."
+      },
+      "uz": {
+        "name": "Eco Zarafshon",
+        "address": "Jomboy tumani (mo'ljal: MAN zavodi), Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Eco Zarafshon",
+        "address": "Jomboy district (landmark: MAN plant), Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.679708,
+      "lng": 67.081633
+    },
+    "phone": [
+      "+998 99 590-00-00",
+      "+998 90 601-22-24"
+    ],
+    "telegram": [
+      "https://t.me/eco_zarafshon"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/eco_zarafshon",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/eco-zarafshon-samarkand/1.webp",
+      "/images/pools/eco-zarafshon-samarkand/2.webp",
+      "/images/pools/eco-zarafshon-samarkand/3.webp",
+      "/images/pools/eco-zarafshon-samarkand/4.webp",
+      "/images/pools/eco-zarafshon-samarkand/5.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "23:00" },
+      { "day": "tue", "open": "09:00", "close": "23:00" },
+      { "day": "wed", "open": "09:00", "close": "23:00" },
+      { "day": "thu", "open": "09:00", "close": "23:00" },
+      { "day": "fri", "open": "09:00", "close": "23:00" },
+      { "day": "sat", "open": "09:00", "close": "23:00" },
+      { "day": "sun", "open": "09:00", "close": "23:00" }
+    ],
+    "services": [
+      "parking",
+      "restaurant",
+      "bar",
+      "sunbed"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
