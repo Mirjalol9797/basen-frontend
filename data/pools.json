@@ -11472,5 +11472,62 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-urgut",
+    "slug": "basseyn-urgut",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Ургут",
+        "address": "Ургут, махаллинский сход граждан Дустлик, Самаркандская область",
+        "description": "Открытый бассейн в Ургуте Самаркандской области, махаллинский сход граждан Дустлик. Работает ежедневно с 10:00 до 21:00."
+      },
+      "uz": {
+        "name": "Urgut basseyni",
+        "address": "Urgut, Do'stlik mahalla fuqarolar yig'ini, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Urgut Pool",
+        "address": "Urgut, Dostlik mahalla, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.424816,
+      "lng": 67.238975
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:00" },
+      { "day": "tue", "open": "10:00", "close": "21:00" },
+      { "day": "wed", "open": "10:00", "close": "21:00" },
+      { "day": "thu", "open": "10:00", "close": "21:00" },
+      { "day": "fri", "open": "10:00", "close": "21:00" },
+      { "day": "sat", "open": "10:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "21:00" }
+    ],
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.5,
+    "ratingYandex": 3.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
