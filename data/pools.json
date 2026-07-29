@@ -10914,17 +10914,17 @@
     "translations": {
       "ru": {
         "name": "Аквапарк Вавилон",
-        "address": "Самарканд, Самаркандская область",
+        "address": "ул. Навобод, Самарканд, Самаркандская область",
         "description": "Аквапарк «Вавилон» — водно-развлекательный комплекс в Самарканде: летний и зимний (крытый) бассейны, водные горки, крытый женский бассейн, сауна, детский бассейн. Вход можно оплатить обычным билетом или бесплатно при внесении депозита (сумма депозита тратится внутри комплекса). Крытый женский бассейн оплачивается почасово: 1-й час — 300 000, 2-й — 250 000, 3-й — 200 000, последующие — по 150 000 сум. Запрещается приносить свою еду и напитки; посещение только в купальниках или пляжных шортах. Работает ежедневно с 10:00 до 23:00, есть парковка."
       },
       "uz": {
         "name": "Vavilon akvaparki",
-        "address": "Samarqand, Samarqand viloyati",
+        "address": "Navobod ko'chasi, Samarqand, Samarqand viloyati",
         "description": null
       },
       "en": {
         "name": "Vavilon Aquapark",
-        "address": "Samarkand, Samarkand Region",
+        "address": "Navobod str., Samarkand, Samarkand Region",
         "description": null
       }
     },
@@ -10946,7 +10946,7 @@
     ],
     "telegram": null,
     "facebook": null,
-    "instagram": null,
+    "instagram": "https://www.instagram.com/vavilon_samarkand_official",
     "youtube": null,
     "email": null,
     "website": null,
