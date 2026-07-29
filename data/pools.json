@@ -9814,5 +9814,82 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "aqua-spa-samarkand",
+    "slug": "aqua-spa-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Aqua Spa",
+        "address": "3-я ул. Баркарор, Самарканд, Самаркандская область",
+        "description": "Aqua Spa — современный бассейн и spa-комплекс в Самарканде, отличное место для отдыха с семьёй и друзьями. К услугам гостей 20-метровый бассейн, турецкий хаммам, финская баня, турецкая парная, услуги детского тренера и массажиста, национальная и европейская кухня, бар. Дамы и дети могут свободно посещать комплекс с 12:00 до 18:00. Работает ежедневно с 08:00 до 23:00, есть парковка."
+      },
+      "uz": {
+        "name": "Aqua Spa",
+        "address": "3-Barqaror ko'chasi, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Aqua Spa",
+        "address": "3rd Barqaror str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.701953,
+      "lng": 66.952208
+    },
+    "phone": [
+      "+998 93 851-22-00",
+      "+998 55 701-22-00"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aqua-spa-samarkand/1.webp",
+      "/images/pools/aqua-spa-samarkand/2.webp",
+      "/images/pools/aqua-spa-samarkand/3.webp",
+      "/images/pools/aqua-spa-samarkand/4.webp",
+      "/images/pools/aqua-spa-samarkand/5.webp",
+      "/images/pools/aqua-spa-samarkand/6.webp",
+      "/images/pools/aqua-spa-samarkand/7.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "23:00" },
+      { "day": "tue", "open": "08:00", "close": "23:00" },
+      { "day": "wed", "open": "08:00", "close": "23:00" },
+      { "day": "thu", "open": "08:00", "close": "23:00" },
+      { "day": "fri", "open": "08:00", "close": "23:00" },
+      { "day": "sat", "open": "08:00", "close": "23:00" },
+      { "day": "sun", "open": "08:00", "close": "23:00" }
+    ],
+    "services": [
+      "parking",
+      "turkish_hammam",
+      "sauna",
+      "spa",
+      "trainer",
+      "massage",
+      "restaurant",
+      "bar"
+    ],
+    "season": "year-round",
+    "poolLength": 20,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.7,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
