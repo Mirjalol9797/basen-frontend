@@ -11339,5 +11339,75 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "cosmos-basseyn-kattakurgan",
+    "slug": "cosmos-basseyn-kattakurgan",
+    "translations": {
+      "ru": {
+        "name": "Cosmos",
+        "address": "Каттакурганский район, Самаркандская область",
+        "description": "Cosmos — открытый бассейн в Каттакурганском районе Самаркандской области. Зона отдыха с тапчанами, бар и кухня. Работает ежедневно с 11:00 до 00:00, есть парковка."
+      },
+      "uz": {
+        "name": "Cosmos",
+        "address": "Kattaqo'rg'on tumani, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Cosmos",
+        "address": "Kattakurgan district, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.918410,
+      "lng": 66.299410
+    },
+    "phone": [
+      "+998 70 198-98-23"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/cosmos-basseyn-kattakurgan/1.webp",
+      "/images/pools/cosmos-basseyn-kattakurgan/2.webp",
+      "/images/pools/cosmos-basseyn-kattakurgan/3.webp",
+      "/images/pools/cosmos-basseyn-kattakurgan/4.webp",
+      "/images/pools/cosmos-basseyn-kattakurgan/5.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "11:00", "close": "00:00" },
+      { "day": "tue", "open": "11:00", "close": "00:00" },
+      { "day": "wed", "open": "11:00", "close": "00:00" },
+      { "day": "thu", "open": "11:00", "close": "00:00" },
+      { "day": "fri", "open": "11:00", "close": "00:00" },
+      { "day": "sat", "open": "11:00", "close": "00:00" },
+      { "day": "sun", "open": "11:00", "close": "00:00" }
+    ],
+    "services": [
+      "parking",
+      "bar",
+      "restaurant",
+      "sunbed"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
