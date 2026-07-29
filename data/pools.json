@@ -11672,5 +11672,70 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "delfin-jomboy-samarkand",
+    "slug": "delfin-jomboy-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Delfin",
+        "address": "ул. Найман, 881, Джамбайский район, Самаркандская область",
+        "description": "Delfin — открытый бассейн и зона отдыха в Джамбайском районе Самаркандской области, на улице Найман. Зона отдыха с тапчанами и бар. Работает ежедневно с 10:00 до 23:00, есть парковка."
+      },
+      "uz": {
+        "name": "Delfin",
+        "address": "Nayman ko'chasi, 881, Jomboy tumani, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Delfin",
+        "address": "881 Nayman str., Jomboy district, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.669754,
+      "lng": 67.128343
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/delfin-jomboy-samarkand/1.webp",
+      "/images/pools/delfin-jomboy-samarkand/2.webp",
+      "/images/pools/delfin-jomboy-samarkand/3.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "23:00" },
+      { "day": "tue", "open": "10:00", "close": "23:00" },
+      { "day": "wed", "open": "10:00", "close": "23:00" },
+      { "day": "thu", "open": "10:00", "close": "23:00" },
+      { "day": "fri", "open": "10:00", "close": "23:00" },
+      { "day": "sat", "open": "10:00", "close": "23:00" },
+      { "day": "sun", "open": "10:00", "close": "23:00" }
+    ],
+    "services": [
+      "parking",
+      "sunbed",
+      "bar"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.8,
+    "ratingYandex": 4.2,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
