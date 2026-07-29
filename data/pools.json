@@ -9743,5 +9743,76 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "delfin-samarkand",
+    "slug": "delfin-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Dolphin Aquatic Complex",
+        "address": "Самарканд, махаллинский сход граждан Ал-Хоразмий, Самаркандская область",
+        "description": "Dolphin Aquatic Complex — спортивный бассейн в Самарканде, махаллинский сход граждан Ал-Хоразмий. Работает с понедельника по субботу с 08:00 до 20:00, воскресенье — выходной. На территории есть парковка и услуги тренера."
+      },
+      "uz": {
+        "name": "Dolphin Aquatic Complex",
+        "address": "Samarqand, Al-Xorazmiy mahalla fuqarolar yig'ini, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Dolphin Aquatic Complex",
+        "address": "Samarkand, Al-Khorazmiy mahalla, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.655866,
+      "lng": 66.924100
+    },
+    "phone": [
+      "+998 66 222-86-44",
+      "+998 90 100-75-95"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/delfin-samarkand/1.webp",
+      "/images/pools/delfin-samarkand/2.webp",
+      "/images/pools/delfin-samarkand/3.webp",
+      "/images/pools/delfin-samarkand/4.webp",
+      "/images/pools/delfin-samarkand/5.webp",
+      "/images/pools/delfin-samarkand/6.webp",
+      "/images/pools/delfin-samarkand/7.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "20:00" },
+      { "day": "tue", "open": "08:00", "close": "20:00" },
+      { "day": "wed", "open": "08:00", "close": "20:00" },
+      { "day": "thu", "open": "08:00", "close": "20:00" },
+      { "day": "fri", "open": "08:00", "close": "20:00" },
+      { "day": "sat", "open": "08:00", "close": "20:00" },
+      { "day": "sun", "open": "08:00", "close": "20:00", "closed": true }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
