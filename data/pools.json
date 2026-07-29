@@ -10043,5 +10043,79 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "sunrise-samarkand",
+    "slug": "sunrise-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Sunrise",
+        "address": "парк отдыха Ёшлик, Самарканд, Самаркандская область",
+        "description": "Sunrise — аквапарк и бассейн в Самарканде, в парке отдыха Ёшлик. Идеально для семей и компаний друзей. Вход без ограничения по времени: мужской — 100 000 сум, женский и детский (до 12 лет) — по 70 000 сум. Работает ежедневно с 07:00 до 22:00, есть парковка, блюда и бар."
+      },
+      "uz": {
+        "name": "Sunrise",
+        "address": "Yoshlik dam olish bog'i, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Sunrise",
+        "address": "Yoshlik recreation park, Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.675884,
+      "lng": 66.931319
+    },
+    "phone": [
+      "+998 90 603-08-88"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/sunrise_pool",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/sunrise-samarkand/1.webp",
+      "/images/pools/sunrise-samarkand/2.webp",
+      "/images/pools/sunrise-samarkand/3.webp",
+      "/images/pools/sunrise-samarkand/4.webp",
+      "/images/pools/sunrise-samarkand/5.webp",
+      "/images/pools/sunrise-samarkand/6.webp"
+    ],
+    "prices": [
+      { "key": "price.entry_men_unlimited", "amount": 100000, "currency": "UZS" },
+      { "key": "price.entry_women_unlimited", "amount": 70000, "currency": "UZS" },
+      { "key": "price.entry_child_under12_unlimited", "amount": 70000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "22:00" },
+      { "day": "tue", "open": "07:00", "close": "22:00" },
+      { "day": "wed", "open": "07:00", "close": "22:00" },
+      { "day": "thu", "open": "07:00", "close": "22:00" },
+      { "day": "fri", "open": "07:00", "close": "22:00" },
+      { "day": "sat", "open": "07:00", "close": "22:00" },
+      { "day": "sun", "open": "07:00", "close": "22:00" }
+    ],
+    "services": [
+      "parking",
+      "restaurant",
+      "bar"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4,
+    "ratingYandex": 4.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
