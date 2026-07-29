@@ -10184,5 +10184,558 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "aquatutti-samarkand",
+    "slug": "aquatutti-samarkand",
+    "translations": {
+      "ru": {
+        "name": "AQUATUTTI",
+        "address": "ул. Тараккиёт, 39Б, Самарканд, Самаркандская область",
+        "description": "AQUATUTTI — детский оздоровительный бассейн и школа плавания в Самарканде на улице Тараккиёт, 39Б (ориентир: Согдиана, кафе «Париж»). Обучение плаванию с нуля и оздоровление для детей от 3 месяцев до 12 лет. Персональные, семейные и групповые абонементы, занятия для малышей с родителями. Для посещения нужны справки от педиатра и дерматолога и анализ на энтеробиоз (малышам от 3 месяцев до 1 года — только справка от педиатра). Работает ежедневно с 08:00 до 22:00, есть парковка и тренер."
+      },
+      "uz": {
+        "name": "AQUATUTTI",
+        "address": "Taraqqiyot ko'chasi, 39B, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "AQUATUTTI",
+        "address": "39B Taraqqiyot str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "children",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.65673,
+      "lng": 66.91909
+    },
+    "phone": [
+      "+998 91 031-00-33"
+    ],
+    "telegram": [
+      "https://t.me/aquatutti_kids"
+    ],
+    "facebook": "https://www.facebook.com/people/Aquatutti-Bolalar-Basseyni/61580748571011/",
+    "instagram": "https://www.instagram.com/aquatutti",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aquatutti-samarkand/1.jpg",
+      "/images/pools/aquatutti-samarkand/2.jpg",
+      "/images/pools/aquatutti-samarkand/3.jpg",
+      "/images/pools/aquatutti-samarkand/4.jpg"
+    ],
+    "prices": [
+      {
+        "key": "price.aq_trial",
+        "amount": 200000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_personal"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 245000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_personal"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 950000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_personal"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 1700000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_personal"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 2150000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_personal"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 380000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_family"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 430000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_family"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 1760000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_family"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 3200000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_family"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 4000000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_family"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 350000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_duo"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 390000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_duo"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 1650000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_duo"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 3000000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_duo"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 3800000,
+        "currency": "UZS",
+        "section": "aq_sec_special",
+        "group": "aq_special_duo"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 125000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_1"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 175000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_1"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 480000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_1"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 750000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_1"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 900000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_1"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 125000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_2"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 200000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_2"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 500000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_2"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 850000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_2"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 950000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_2"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 125000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_3"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 225000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_3"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 600000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_3"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 950000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_3"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 1090000,
+        "currency": "UZS",
+        "section": "aq_sec_collective",
+        "group": "aq_collective_3"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 150000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_personal"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 200000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_personal"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 690000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_personal"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 1250000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_personal"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 1500000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_personal"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 250000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_family"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 325000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_family"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 1250000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_family"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 2300000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_family"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 2800000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_family"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 250000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_twins"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 300000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_twins"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 1150000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_twins"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 2100000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_twins"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 2660000,
+        "currency": "UZS",
+        "section": "aq_sec_little_special",
+        "group": "aq_little_twins"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m1"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 125000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m1"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 350000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m1"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 525000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m1"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 700000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m1"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m2"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 145000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m2"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 400000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m2"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 575000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m2"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 725000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m2"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m3"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 150000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m3"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 420000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m3"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 625000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m3"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 750000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m3"
+      },
+      {
+        "key": "price.aq_trial",
+        "amount": 100000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m4"
+      },
+      {
+        "key": "price.aq_1",
+        "amount": 150000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m4"
+      },
+      {
+        "key": "price.aq_4",
+        "amount": 420000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m4"
+      },
+      {
+        "key": "price.aq_8",
+        "amount": 625000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m4"
+      },
+      {
+        "key": "price.aq_12",
+        "amount": 750000,
+        "currency": "UZS",
+        "section": "aq_sec_little_collective",
+        "group": "aq_little_m4"
+      }
+    ],
+    "schedule": [
+      {
+        "day": "mon",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "tue",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "wed",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "thu",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "fri",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sat",
+        "open": "08:00",
+        "close": "22:00"
+      },
+      {
+        "day": "sun",
+        "open": "08:00",
+        "close": "22:00"
+      }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": 10,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
