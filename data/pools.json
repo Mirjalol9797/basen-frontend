@@ -9942,9 +9942,7 @@
       "/images/pools/luxe-basseyn-samarkand/7.webp",
       "/images/pools/luxe-basseyn-samarkand/8.webp"
     ],
-    "prices": [
-      { "key": "price.rental_7people_1h", "amount": 590000, "currency": "UZS" }
-    ],
+    "prices": [],
     "schedule": [
       { "day": "mon", "open": "09:00", "close": "23:00" },
       { "day": "tue", "open": "09:00", "close": "23:00" },
