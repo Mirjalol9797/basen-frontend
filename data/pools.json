@@ -11604,5 +11604,73 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "greenpool-jomboy-samarkand",
+    "slug": "greenpool-jomboy-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Greenpool Jomboy",
+        "address": "Джамбай, Самаркандская область",
+        "description": "Greenpool Jomboy — открытый бассейн и зона отдыха в Джамбае Самаркандской области. Зона отдыха с тапчанами и бар. Работает ежедневно с 10:00 до 23:00, есть парковка."
+      },
+      "uz": {
+        "name": "Greenpool Jomboy",
+        "address": "Jomboy, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Greenpool Jomboy",
+        "address": "Jomboy, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.699444,
+      "lng": 67.091225
+    },
+    "phone": [
+      "+998 98 271-70-20",
+      "+998 95 171-33-55"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/greenpool_jomboy",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/greenpool-jomboy-samarkand/1.webp",
+      "/images/pools/greenpool-jomboy-samarkand/2.webp",
+      "/images/pools/greenpool-jomboy-samarkand/3.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "23:00" },
+      { "day": "tue", "open": "10:00", "close": "23:00" },
+      { "day": "wed", "open": "10:00", "close": "23:00" },
+      { "day": "thu", "open": "10:00", "close": "23:00" },
+      { "day": "fri", "open": "10:00", "close": "23:00" },
+      { "day": "sat", "open": "10:00", "close": "23:00" },
+      { "day": "sun", "open": "10:00", "close": "23:00" }
+    ],
+    "services": [
+      "parking",
+      "sunbed",
+      "bar"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 4.3,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
