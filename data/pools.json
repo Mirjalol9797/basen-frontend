@@ -9891,5 +9891,85 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "luxe-basseyn-samarkand",
+    "slug": "luxe-basseyn-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Luxe",
+        "address": "ул. Лочин, 33б, Самарканд, Самаркандская область",
+        "description": "Luxe — новая частная баня с бассейном в Самарканде: подогреваемый бассейн с подсветкой (26–28 °C), горка, отдельные зоны отдыха для детей и взрослых, комфортабельные раздевалки. Аренда комплекса — 590 000 сум за 1 час на компанию до 7 человек, при аренде на 2 часа — разные бонусы. В стоимость входят сауна, турецкая и русская баня, зона отдыха с большим столом, посуда и приборы, чайник и питьевая вода, большой экран и караоке, тапочки, шампунь и гель для душа, настольные игры, теннис и футбол. Дополнительно: аренда очков и нарукавников для плавания, меню веников и заварных чаёв, услуги массажа. Есть парковка."
+      },
+      "uz": {
+        "name": "Luxe",
+        "address": "Lochin ko'chasi, 33b, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Luxe",
+        "address": "33b Lochin str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.694316,
+      "lng": 66.982185
+    },
+    "phone": [
+      "+998 97 920-60-00",
+      "+998 66 232-94-40"
+    ],
+    "telegram": [
+      "https://t.me/LuxeBasseyn"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/luxebasseyn",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/luxe-basseyn-samarkand/1.webp",
+      "/images/pools/luxe-basseyn-samarkand/2.webp",
+      "/images/pools/luxe-basseyn-samarkand/3.webp",
+      "/images/pools/luxe-basseyn-samarkand/4.webp",
+      "/images/pools/luxe-basseyn-samarkand/5.webp",
+      "/images/pools/luxe-basseyn-samarkand/6.webp",
+      "/images/pools/luxe-basseyn-samarkand/7.webp",
+      "/images/pools/luxe-basseyn-samarkand/8.webp"
+    ],
+    "prices": [
+      { "key": "price.rental_7people_1h", "amount": 590000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "23:00" },
+      { "day": "tue", "open": "09:00", "close": "23:00" },
+      { "day": "wed", "open": "09:00", "close": "23:00" },
+      { "day": "thu", "open": "09:00", "close": "23:00" },
+      { "day": "fri", "open": "09:00", "close": "23:00" },
+      { "day": "sat", "open": "09:00", "close": "23:00" },
+      { "day": "sun", "open": "09:00", "close": "23:00" }
+    ],
+    "services": [
+      "parking",
+      "turkish_hammam",
+      "russian_banya",
+      "sauna",
+      "massage",
+      "karaoke"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
