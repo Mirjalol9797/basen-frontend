@@ -11529,5 +11529,80 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "oila-oromgohi-samarkand",
+    "slug": "oila-oromgohi-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Oila Oromgohi",
+        "address": "Агалык КФЙ, Акбуйра МФЙ, Самаркандская область",
+        "description": "Oila Oromgohi — семейная зона отдыха в местности Агалык (Акбуйра), Самаркандская область. Три бассейна — женский (глубина 1,6 м), мужской и детский (глубина 1 м). Беседки и топчаны, танцплощадка и караоке, детская площадка, настольный теннис и настольный футбол, PlayStation 5. Работает ежедневно с 07:00 до 19:00, есть парковка."
+      },
+      "uz": {
+        "name": "Oila Oromgohi",
+        "address": "Agalik QFY, Oqbo'yra MFY, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Oila Oromgohi",
+        "address": "Agalik, Oqbo'yra, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "categories": ["open", "children"],
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.510210,
+      "lng": 66.902152
+    },
+    "phone": [
+      "+998 88 898-40-85"
+    ],
+    "telegram": [
+      "https://t.me/oilaoromgohi"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/oilaoromgohi",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/oila-oromgohi-samarkand/1.webp",
+      "/images/pools/oila-oromgohi-samarkand/2.webp",
+      "/images/pools/oila-oromgohi-samarkand/3.webp",
+      "/images/pools/oila-oromgohi-samarkand/4.jpg",
+      "/images/pools/oila-oromgohi-samarkand/5.jpg",
+      "/images/pools/oila-oromgohi-samarkand/6.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "07:00", "close": "19:00" },
+      { "day": "tue", "open": "07:00", "close": "19:00" },
+      { "day": "wed", "open": "07:00", "close": "19:00" },
+      { "day": "thu", "open": "07:00", "close": "19:00" },
+      { "day": "fri", "open": "07:00", "close": "19:00" },
+      { "day": "sat", "open": "07:00", "close": "19:00" },
+      { "day": "sun", "open": "07:00", "close": "19:00" }
+    ],
+    "services": [
+      "parking",
+      "sunbed",
+      "gazebo",
+      "karaoke",
+      "children_zone"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": 1,
+    "poolDepthMax": 1.6,
+    "ratingGoogle": 4.6,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
