@@ -11813,5 +11813,65 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "bogishamol-hotel-samarkand",
+    "slug": "bogishamol-hotel-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Bogishamol Hotel",
+        "address": "населённый пункт Куштамгали, Самаркандский район, Самаркандская область",
+        "description": "Bogishamol Hotel — бассейн при отеле в Самаркандском районе, населённый пункт Куштамгали. На территории есть парковка."
+      },
+      "uz": {
+        "name": "Bogishamol Hotel",
+        "address": "Qushtamg'ali aholi punkti, Samarqand tumani, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Bogishamol Hotel",
+        "address": "Qushtamgali, Samarkand district, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.665810,
+      "lng": 66.997736
+    },
+    "phone": [
+      "+998 95 509-77-77"
+    ],
+    "telegram": [
+      "https://t.me/bogishamol_hotel_info"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/bogishamol_hotel_samarkand",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/bogishamol-hotel-samarkand/1.webp",
+      "/images/pools/bogishamol-hotel-samarkand/2.webp",
+      "/images/pools/bogishamol-hotel-samarkand/3.webp",
+      "/images/pools/bogishamol-hotel-samarkand/4.jpg"
+    ],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.6,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
