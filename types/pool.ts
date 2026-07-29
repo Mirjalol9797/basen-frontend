@@ -50,6 +50,12 @@ export interface PriceItem {
   key: string
   amount: number
   currency: 'UZS' | 'USD'
+  // Optional i18n keys for grouping a long price list into sections and
+  // sub-groups (e.g. a swim school with several price sheets). When a run of
+  // items shares the same section/group, one header is rendered above them.
+  // Omitted on ordinary pools, which render as a flat list.
+  section?: string
+  group?: string
 }
 
 export interface ScheduleDay {
