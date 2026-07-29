@@ -11409,5 +11409,68 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-bulungur",
+    "slug": "basseyn-bulungur",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Булунгур",
+        "address": "Булунгурский район, Самаркандская область",
+        "description": "Открытый бассейн в Булунгурском районе Самаркандской области. Работает ежедневно с 10:00 до 21:00, есть парковка."
+      },
+      "uz": {
+        "name": "Bulung'ur basseyni",
+        "address": "Bulung'ur tumani, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Bulungur Pool",
+        "address": "Bulungur district, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.777540,
+      "lng": 67.263060
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-bulungur/1.jpg",
+      "/images/pools/basseyn-bulungur/2.jpg",
+      "/images/pools/basseyn-bulungur/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:00" },
+      { "day": "tue", "open": "10:00", "close": "21:00" },
+      { "day": "wed", "open": "10:00", "close": "21:00" },
+      { "day": "thu", "open": "10:00", "close": "21:00" },
+      { "day": "fri", "open": "10:00", "close": "21:00" },
+      { "day": "sat", "open": "10:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "21:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
