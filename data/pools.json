@@ -12257,5 +12257,71 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-delfin-navoi",
+    "slug": "basseyn-delfin-navoi",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Дельфин",
+        "address": "просп. Ислама Каримова, Навои, Навоийская область",
+        "description": "Дельфин — спортивный бассейн в городе Навои на проспекте Ислама Каримова. Дорожки 50 метров, температура воды +28 °C. Детские сеансы проходят отдельно от взрослых. Для посещения нужна медицинская справка. Работает ежедневно с 10:00 до 21:00. Есть парковка, тренер и медработник."
+      },
+      "uz": {
+        "name": "Delfin basseyni",
+        "address": "Islom Karimov shoh ko'chasi, Navoiy, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Delfin Pool",
+        "address": "Islam Karimov ave., Navoi, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 40.097164,
+      "lng": 65.376998
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-delfin-navoi/1.webp",
+      "/images/pools/basseyn-delfin-navoi/2.webp",
+      "/images/pools/basseyn-delfin-navoi/3.webp",
+      "/images/pools/basseyn-delfin-navoi/4.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:00" },
+      { "day": "tue", "open": "10:00", "close": "21:00" },
+      { "day": "wed", "open": "10:00", "close": "21:00" },
+      { "day": "thu", "open": "10:00", "close": "21:00" },
+      { "day": "fri", "open": "10:00", "close": "21:00" },
+      { "day": "sat", "open": "10:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "21:00" }
+    ],
+    "services": [
+      "parking",
+      "trainer",
+      "first_aid"
+    ],
+    "season": "year-round",
+    "poolLength": 50,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
