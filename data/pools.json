@@ -12393,5 +12393,89 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "parillkin-house-navoi",
+    "slug": "parillkin-house-navoi",
+    "translations": {
+      "ru": {
+        "name": "Parillkin House",
+        "address": "ул. Навоий, 132, Навои, Навоийская область",
+        "description": "Parillkin House — премиальный банный комплекс в Навои с тёплым крытым бассейном и летним открытым бассейном, хаммамом и саунами. На территории ресторан с кухней и барбекю, караоке, зона отдыха с лежаками, массажный кабинет. Формат семейный, есть детский отдых. Дети до 3 лет — бесплатно. Оплата в общем бассейне — фиксированная, без ограничения по времени, стоимость считается по количеству человек; места желательно бронировать заранее. Из минусов в отзывах: нераскладывающиеся лежаки, слабый напор воды в душе и отсутствие фенов, цены выше среднего по городу. Работает ежедневно с 09:00 до 04:00. Ближайшая остановка — «Sadriddin Ayniy ko'chasi» (1,2 км), удобнее добираться на машине."
+      },
+      "uz": {
+        "name": "Parillkin House",
+        "address": "Navoiy ko'chasi, 132, Navoiy, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Parillkin House",
+        "address": "132 Navoi str., Navoi, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "categories": ["open", "indoor", "children"],
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 40.107736,
+      "lng": 65.350855
+    },
+    "phone": [
+      "+998 55 351-50-50",
+      "+998 90 619-22-21"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/parillkin_house",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/parillkin-house-navoi/1.webp",
+      "/images/pools/parillkin-house-navoi/2.webp",
+      "/images/pools/parillkin-house-navoi/3.webp",
+      "/images/pools/parillkin-house-navoi/4.webp",
+      "/images/pools/parillkin-house-navoi/5.webp",
+      "/images/pools/parillkin-house-navoi/6.webp",
+      "/images/pools/parillkin-house-navoi/7.webp",
+      "/images/pools/parillkin-house-navoi/8.webp",
+      "/images/pools/parillkin-house-navoi/9.webp"
+    ],
+    "prices": [
+      { "key": "price.prk_women_3plus", "amount": 100000, "currency": "UZS", "section": "prk_sec_women" },
+      { "key": "price.prk_men_child_3_12", "amount": 100000, "currency": "UZS", "section": "prk_sec_men" },
+      { "key": "price.prk_men_adult_weekday", "amount": 120000, "currency": "UZS", "section": "prk_sec_men" },
+      { "key": "price.prk_men_adult_weekend", "amount": 150000, "currency": "UZS", "section": "prk_sec_men" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "04:00" },
+      { "day": "tue", "open": "09:00", "close": "04:00" },
+      { "day": "wed", "open": "09:00", "close": "04:00" },
+      { "day": "thu", "open": "09:00", "close": "04:00" },
+      { "day": "fri", "open": "09:00", "close": "04:00" },
+      { "day": "sat", "open": "09:00", "close": "04:00" },
+      { "day": "sun", "open": "09:00", "close": "04:00" }
+    ],
+    "services": [
+      "turkish_hammam",
+      "sauna",
+      "restaurant",
+      "karaoke",
+      "massage",
+      "sunbed",
+      "children_zone"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
