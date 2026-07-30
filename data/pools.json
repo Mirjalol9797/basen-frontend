@@ -11873,5 +11873,67 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "karvon-samarkand",
+    "slug": "karvon-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Karvon",
+        "address": "Пенджикентская ул., 17, Самарканд, Самаркандская область",
+        "description": "Karvon — бассейн при отеле в Самарканде на Пенджикентской улице. На территории есть парковка."
+      },
+      "uz": {
+        "name": "Karvon",
+        "address": "Panjikent ko'chasi, 17, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Karvon",
+        "address": "17 Penjikent str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.652788,
+      "lng": 66.981141
+    },
+    "phone": [
+      "+998 66 235-55-00",
+      "+998 93 070-00-09"
+    ],
+    "telegram": [
+      "https://t.me/Karvon_Hotel"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/hotel_karvon",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/karvon-samarkand/1.webp",
+      "/images/pools/karvon-samarkand/2.webp",
+      "/images/pools/karvon-samarkand/3.webp",
+      "/images/pools/karvon-samarkand/4.webp",
+      "/images/pools/karvon-samarkand/5.webp"
+    ],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.7,
+    "ratingYandex": 4.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
