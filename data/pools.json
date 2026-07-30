@@ -12059,5 +12059,77 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "malaxit-samarkand",
+    "slug": "malaxit-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Malaxit",
+        "address": "ул. Мирзо Улугбек, 37А, Самарканд, Самаркандская область",
+        "description": "Malaxit — бассейн при отеле в Самарканде на улице Мирзо Улугбек. Работает ежедневно с 10:00 до 18:00. На территории есть парковка и Wi-Fi."
+      },
+      "uz": {
+        "name": "Malaxit",
+        "address": "Mirzo Ulug'bek ko'chasi, 37A, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Malaxit",
+        "address": "37A Mirzo Ulugbek str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.656833,
+      "lng": 66.948488
+    },
+    "phone": [
+      "+998 97 165-66-66",
+      "+998 91 701-35-00"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/aquapark_malaxit.uz",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/malaxit-samarkand/1.webp",
+      "/images/pools/malaxit-samarkand/2.jpg",
+      "/images/pools/malaxit-samarkand/3.jpg",
+      "/images/pools/malaxit-samarkand/4.jpg",
+      "/images/pools/malaxit-samarkand/5.webp",
+      "/images/pools/malaxit-samarkand/6.webp",
+      "/images/pools/malaxit-samarkand/7.webp",
+      "/images/pools/malaxit-samarkand/8.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "18:00" },
+      { "day": "tue", "open": "10:00", "close": "18:00" },
+      { "day": "wed", "open": "10:00", "close": "18:00" },
+      { "day": "thu", "open": "10:00", "close": "18:00" },
+      { "day": "fri", "open": "10:00", "close": "18:00" },
+      { "day": "sat", "open": "10:00", "close": "18:00" },
+      { "day": "sun", "open": "10:00", "close": "18:00" }
+    ],
+    "services": [
+      "parking",
+      "wifi"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 2.8,
+    "ratingYandex": 4.3,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
