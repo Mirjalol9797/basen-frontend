@@ -12477,5 +12477,64 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-sport-maktab-qiziltepa",
+    "slug": "basseyn-sport-maktab-qiziltepa",
+    "translations": {
+      "ru": {
+        "name": "Бассейн спортивной школы Кызылтепа",
+        "address": "Кызылтепа, махаллинский сход граждан Алишера Навои, Навоийская область",
+        "description": "Плавательный бассейн при спортивной школе Кызылтепинского района, в городе Кызылтепа, махалля имени Алишера Навои. Это учебно-спортивный объект: бассейн в первую очередь работает для секций и тренировок воспитанников спортшколы, поэтому свободное посещение возможно не всегда — режим и условия входа лучше уточнять в школе. Работает с 09:00 до 18:00."
+      },
+      "uz": {
+        "name": "Qiziltepa sport maktabi basseyni",
+        "address": "Qiziltepa, Alisher Navoiy mahalla fuqarolar yig'ini, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Qiziltepa Sports School Pool",
+        "address": "Qiziltepa, Alisher Navoi mahalla, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 40.040714,
+      "lng": 64.839596
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "18:00" },
+      { "day": "tue", "open": "09:00", "close": "18:00" },
+      { "day": "wed", "open": "09:00", "close": "18:00" },
+      { "day": "thu", "open": "09:00", "close": "18:00" },
+      { "day": "fri", "open": "09:00", "close": "18:00" },
+      { "day": "sat", "open": "09:00", "close": "18:00" },
+      { "day": "sun", "open": "09:00", "close": "18:00" }
+    ],
+    "services": [
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
