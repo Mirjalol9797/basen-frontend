@@ -12323,5 +12323,75 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-plavatelniy-navoi",
+    "slug": "basseyn-plavatelniy-navoi",
+    "translations": {
+      "ru": {
+        "name": "Плавательный бассейн",
+        "address": "ул. Алишера Навои, 416, Навои, Навоийская область",
+        "description": "Спортивный плавательный бассейн на территории городского парка имени Алишера Навои в центре Навои. Чаша 10×25 метров, глубина от 1,5 до 2,2 метра, дистанция 25 м. Сеансы для мужчин и женщин раздельные: понедельник, среда, пятница — мужские часы (6:00–8:00 и 18:00–20:00), вторник, четверг, суббота — женские. Для входа обязательна медицинская справка. При посещении более 7 раз в месяц действует скидка. Работает ежедневно с 06:00 до 21:00, есть парковка. Ближайшие остановки: «Kitob uyi» (149 м), «Alisher Navoiy ko'chasi», «Shahar hokimiyati». Пик посещаемости — около 17:00."
+      },
+      "uz": {
+        "name": "Suzish basseyni",
+        "address": "Alisher Navoiy ko'chasi, 416, Navoiy, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Swimming Pool",
+        "address": "416 Alisher Navoi str., Navoi, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 40.109553,
+      "lng": 65.361540
+    },
+    "phone": [
+      "+998 95 607-23-28"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-plavatelniy-navoi/1.webp",
+      "/images/pools/basseyn-plavatelniy-navoi/2.webp"
+    ],
+    "prices": [
+      { "key": "price.nav_single_1h", "amount": 40000, "currency": "UZS" },
+      { "key": "price.nav_month_7_10", "amount": 150000, "currency": "UZS" },
+      { "key": "price.nav_month_11_14", "amount": 180000, "currency": "UZS" },
+      { "key": "price.nav_month_15plus", "amount": 250000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "06:00", "close": "21:00" },
+      { "day": "tue", "open": "06:00", "close": "21:00" },
+      { "day": "wed", "open": "06:00", "close": "21:00" },
+      { "day": "thu", "open": "06:00", "close": "21:00" },
+      { "day": "fri", "open": "06:00", "close": "21:00" },
+      { "day": "sat", "open": "06:00", "close": "21:00" },
+      { "day": "sun", "open": "06:00", "close": "21:00" }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": 25,
+    "poolDepthMin": 1.5,
+    "poolDepthMax": 2.2,
+    "ratingGoogle": 4.8,
+    "ratingYandex": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
