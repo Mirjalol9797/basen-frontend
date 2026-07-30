@@ -11994,5 +11994,71 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "movenpick-samarkand",
+    "slug": "movenpick-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Mövenpick",
+        "address": "ул. Шахруха Мирзы, 53, Самарканд, Самаркандская область",
+        "description": "Mövenpick — бассейн при отеле в Самарканде на улице Шахруха Мирзы. На территории есть парковка и Wi-Fi."
+      },
+      "uz": {
+        "name": "Mövenpick",
+        "address": "Shohruh Mirzo ko'chasi, 53, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Mövenpick",
+        "address": "53 Shahrukh Mirza str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.649946,
+      "lng": 66.962969
+    },
+    "phone": [
+      "+998 91 528-99-99",
+      "+998 55 703-08-08"
+    ],
+    "telegram": [
+      "https://t.me/movenpicksamarkand"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/movenpicksamarkand",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/movenpick-samarkand/1.webp",
+      "/images/pools/movenpick-samarkand/2.jpg",
+      "/images/pools/movenpick-samarkand/3.jpg",
+      "/images/pools/movenpick-samarkand/4.jpg",
+      "/images/pools/movenpick-samarkand/5.webp",
+      "/images/pools/movenpick-samarkand/6.webp",
+      "/images/pools/movenpick-samarkand/7.webp",
+      "/images/pools/movenpick-samarkand/8.webp"
+    ],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking",
+      "wifi"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
