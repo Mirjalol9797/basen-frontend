@@ -12193,5 +12193,69 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "zvezda-samarkand",
+    "slug": "zvezda-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Zvezda",
+        "address": "ул. Зебунисо, Самаркандский район, Самаркандская область",
+        "description": "Zvezda — открытый бассейн в Самаркандском районе на улице Зебунисо. Работает ежедневно с 09:00 до 20:00, есть парковка."
+      },
+      "uz": {
+        "name": "Zvezda",
+        "address": "Zebuniso ko'chasi, Samarqand tumani, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Zvezda",
+        "address": "Zebuniso str., Samarkand district, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.588448,
+      "lng": 66.931164
+    },
+    "phone": [
+      "+998 97 928-01-02"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/zvezda.bassen.offisial",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/zvezda-samarkand/1.webp",
+      "/images/pools/zvezda-samarkand/2.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.2,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
