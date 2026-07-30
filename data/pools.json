@@ -12067,7 +12067,7 @@
       "ru": {
         "name": "Malaxit",
         "address": "ул. Мирзо Улугбек, 37А, Самарканд, Самаркандская область",
-        "description": "Malaxit — бассейн при отеле в Самарканде на улице Мирзо Улугбек. Работает ежедневно с 10:00 до 18:00. На территории есть парковка и Wi-Fi."
+        "description": "Malaxit — аквапарк в Самарканде на улице Мирзо Улугбек. Работает ежедневно с 10:00 до 18:00. На территории есть парковка и Wi-Fi."
       },
       "uz": {
         "name": "Malaxit",
@@ -12080,7 +12080,7 @@
         "description": null
       }
     },
-    "category": "hotel",
+    "category": "aquapark",
     "district": null,
     "region": "samarkand",
     "city": null,
@@ -12128,6 +12128,68 @@
     "poolDepthMax": null,
     "ratingGoogle": 2.8,
     "ratingYandex": 4.3,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "shahdil-samarkand",
+    "slug": "shahdil-samarkand",
+    "translations": {
+      "ru": {
+        "name": "Shahdil Hotel & Restaurant",
+        "address": "ул. Лутфи, 67, Самарканд, Самаркандская область",
+        "description": "Shahdil Hotel & Restaurant — бассейн при отеле в Самарканде на улице Лутфи. Ресторан, парковка и Wi-Fi на территории."
+      },
+      "uz": {
+        "name": "Shahdil Hotel & Restaurant",
+        "address": "Lutfiy ko'chasi, 67, Samarqand, Samarqand viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Shahdil Hotel & Restaurant",
+        "address": "67 Lutfi str., Samarkand, Samarkand Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "samarkand",
+    "city": null,
+    "coordinates": {
+      "lat": 39.646266,
+      "lng": 66.951918
+    },
+    "phone": [
+      "+998 90 030-27-32",
+      "+998 55 702-50-10"
+    ],
+    "telegram": [
+      "https://t.me/hotelshahdil"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/shahdil_hotel_samarkand",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/shahdil-samarkand/1.webp",
+      "/images/pools/shahdil-samarkand/2.webp",
+      "/images/pools/shahdil-samarkand/3.webp"
+    ],
+    "prices": [],
+    "schedule": [],
+    "services": [
+      "parking",
+      "wifi",
+      "restaurant"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.7,
+    "ratingYandex": 4.6,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
