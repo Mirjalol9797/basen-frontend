@@ -12610,5 +12610,77 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "akvapark-kamalak-zarafshan",
+    "slug": "akvapark-kamalak-zarafshan",
+    "translations": {
+      "ru": {
+        "name": "Аквапарк Камалак",
+        "address": "Torgoviy sentr, Зарафшан, Навоийская область",
+        "description": "Kamalak — открытый аквапарк в Зарафшане, единственный объект водного отдыха в северной части Навоийской области (до Навои около 200 км). Главное летнее место города горняков: водные горки и бассейны. Дети до 4 лет — бесплатно. По понедельникам и пятницам действуют специальные часы только для женщин (пн 10:00–20:00, пт 08:00–14:00). Из отзывов: чаша приземления у горок мелкая — стоит учитывать семьям с детьми. Работает ежедневно с 09:00 до 22:00."
+      },
+      "uz": {
+        "name": "Kamalak akvaparki",
+        "address": "Torgoviy sentr, Zarafshon, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Kamalak Aquapark",
+        "address": "Torgoviy sentr, Zarafshan, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 41.570814,
+      "lng": 64.204509
+    },
+    "phone": [
+      "+998 88 072-04-43"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/kamalak_aqua_park",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/akvapark-kamalak-zarafshan/1.webp",
+      "/images/pools/akvapark-kamalak-zarafshan/2.webp",
+      "/images/pools/akvapark-kamalak-zarafshan/3.webp",
+      "/images/pools/akvapark-kamalak-zarafshan/4.webp"
+    ],
+    "prices": [
+      { "key": "price.dur_30min", "amount": 30000, "currency": "UZS", "section": "kam_sec_child" },
+      { "key": "price.dur_1h", "amount": 40000, "currency": "UZS", "section": "kam_sec_child" },
+      { "key": "price.dur_2h", "amount": 60000, "currency": "UZS", "section": "kam_sec_child" },
+      { "key": "price.dur_30min", "amount": 40000, "currency": "UZS", "section": "kam_sec_adult" },
+      { "key": "price.dur_1h", "amount": 50000, "currency": "UZS", "section": "kam_sec_adult" },
+      { "key": "price.dur_2h", "amount": 70000, "currency": "UZS", "section": "kam_sec_adult" },
+      { "key": "price.dur_vip", "amount": 90000, "currency": "UZS", "section": "kam_sec_adult" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "22:00" },
+      { "day": "tue", "open": "09:00", "close": "22:00" },
+      { "day": "wed", "open": "09:00", "close": "22:00" },
+      { "day": "thu", "open": "09:00", "close": "22:00" },
+      { "day": "fri", "open": "09:00", "close": "22:00" },
+      { "day": "sat", "open": "09:00", "close": "22:00" },
+      { "day": "sun", "open": "09:00", "close": "22:00" }
+    ],
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.7,
+    "ratingYandex": 4.1,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
