@@ -13136,5 +13136,70 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-geolog-qarshi",
+    "slug": "basseyn-geolog-qarshi",
+    "translations": {
+      "ru": {
+        "name": "Бассейн «Геолог»",
+        "address": "ул. Насаф, Карши, Кашкадарьинская область",
+        "description": "«Геолог» — спортивный плавательный бассейн в Карши при спортивном колледже, на улице Насаф. Здесь проходят тренировки и обучение плаванию: посетители хвалят тренеров за спокойную и доброжелательную манеру — сюда приходят учиться плавать и взрослые, и дети. Бассейн в паре минут от аквапарка Ocean, так что район вокруг — фактически водно-спортивный квартал города: аквапарк для отдыха, «Геолог» для тренировок. Работает ежедневно с 10:00 до 21:00, есть парковка."
+      },
+      "uz": {
+        "name": "«Geolog» basseyni",
+        "address": "Nasaf ko'chasi, Qarshi, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Geolog Pool",
+        "address": "Nasaf str., Karshi, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "categories": ["indoor", "sport"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 38.845562,
+      "lng": 65.783111
+    },
+    "phone": [
+      "+998 91 468-33-00"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-geolog-qarshi/1.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:00" },
+      { "day": "tue", "open": "10:00", "close": "21:00" },
+      { "day": "wed", "open": "10:00", "close": "21:00" },
+      { "day": "thu", "open": "10:00", "close": "21:00" },
+      { "day": "fri", "open": "10:00", "close": "21:00" },
+      { "day": "sat", "open": "10:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "21:00" }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
