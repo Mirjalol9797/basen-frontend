@@ -12816,5 +12816,64 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-zhemchuzhina-uchquduq",
+    "slug": "basseyn-zhemchuzhina-uchquduq",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Жемчужина",
+        "address": "ул. Навруз, Учкудук, Навоийская область",
+        "description": "«Жемчужина» — плавательный бассейн в Учкудуке на севере Навоийской области, на улице Навруз. Расположен рядом с главной зоной отдыха города — озером Олтин куль (Oltin ko'l), до берега около 350 метров, поэтому купание удобно совмещать с отдыхом у озера. Для жаркого пустынного климата Учкудука это одно из основных мест, где можно поплавать. Работает ежедневно с 10:00 до 20:00, есть тренер."
+      },
+      "uz": {
+        "name": "Jemchujina basseyni",
+        "address": "Navro'z ko'chasi, Uchquduq, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Zhemchuzhina Pool",
+        "address": "Navruz str., Uchquduq, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 42.153415,
+      "lng": 63.557915
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "trainer"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
