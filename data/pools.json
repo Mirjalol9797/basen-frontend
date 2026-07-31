@@ -13486,8 +13486,7 @@
         "description": null
       }
     },
-    "category": "indoor",
-    "categories": ["indoor", "sport"],
+    "category": "open",
     "district": null,
     "region": "kashkadarya",
     "city": null,
@@ -13518,7 +13517,7 @@
     "services": [
       "parking"
     ],
-    "season": "year-round",
+    "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
