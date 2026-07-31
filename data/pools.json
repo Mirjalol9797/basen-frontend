@@ -12935,5 +12935,67 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "farxod-basseyn-nurota",
+    "slug": "farxod-basseyn-nurota",
+    "translations": {
+      "ru": {
+        "name": "Farxod Basseyn",
+        "address": "ул. Саиджон Эшон, 29, Нурата, Навоийская область",
+        "description": "Farxod Basseyn — открытый бассейн в Нурате на улице Саиджон Эшон. Работает ежедневно с 10:00 до 20:00, есть парковка."
+      },
+      "uz": {
+        "name": "Farxod Basseyn",
+        "address": "Saidjon Eshon ko'chasi, 29, Nurota, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Farxod Basseyn",
+        "address": "29 Saidjon Eshon str., Nurata, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 40.585680,
+      "lng": 65.713193
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/farxod-basseyn-nurota/1.jpg",
+      "/images/pools/farxod-basseyn-nurota/2.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.2,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
