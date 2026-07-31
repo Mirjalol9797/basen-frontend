@@ -13201,5 +13201,71 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "suv-sport-maktabi-qarshi",
+    "slug": "suv-sport-maktabi-qarshi",
+    "translations": {
+      "ru": {
+        "name": "Школа водных видов спорта Кашкадарьи",
+        "address": "ул. Ислама Каримова, 308, Карши, Кашкадарьинская область",
+        "description": "Специализированная школа водных видов спорта Кашкадарьинской области — крупный спортивный комплекс с бассейном в Карши, на улице Ислама Каримова, 308. Работают секции плавания и тренировки с тренерами, доступны сеансы для посетителей. В комплексе чисто, для женщин — отдельные раздевалки и санузлы. Открыт каждый день с 08:00 до 22:00, есть парковка. Рядом остановка «Qarshi elektr tarmoqlari» и дехканский базар старого города."
+      },
+      "uz": {
+        "name": "Qashqadaryo suv sport turlari maktabi",
+        "address": "Islom Karimov ko'chasi, 308, Qarshi, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Kashkadarya Water Sports School",
+        "address": "308 Islam Karimov str., Karshi, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "categories": ["indoor", "sport"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 38.866003,
+      "lng": 65.801241
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/suv-sport-maktabi-qarshi/1.webp",
+      "/images/pools/suv-sport-maktabi-qarshi/2.jpg",
+      "/images/pools/suv-sport-maktabi-qarshi/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "22:00" },
+      { "day": "tue", "open": "08:00", "close": "22:00" },
+      { "day": "wed", "open": "08:00", "close": "22:00" },
+      { "day": "thu", "open": "08:00", "close": "22:00" },
+      { "day": "fri", "open": "08:00", "close": "22:00" },
+      { "day": "sat", "open": "08:00", "close": "22:00" },
+      { "day": "sun", "open": "08:00", "close": "22:00" }
+    ],
+    "services": [
+      "parking",
+      "trainer",
+      "locker"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.2,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
