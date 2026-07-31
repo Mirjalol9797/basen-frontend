@@ -13059,5 +13059,82 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "akvapark-ocean-qarshi",
+    "slug": "akvapark-ocean-qarshi",
+    "translations": {
+      "ru": {
+        "name": "Аквапарк Ocean",
+        "address": "ул. Мустакиллик, 5/25, Карши, Кашкадарьинская область",
+        "description": "Ocean — водный комплекс для всей семьи в центральной части Карши, в махалле Мустакиллик. Водные аттракционы и горки, бассейны, барная зона и тапчаны для отдыха компанией. Дети до 4 лет — бесплатно. По пятницам с 09:00 до 14:00 — женский день. Посетители отмечают чистоту и ухоженную территорию, пик посещаемости — во второй половине дня (около 17:00). Работает ежедневно с 10:00 до 21:00, есть парковка. Ближайшая остановка «Nikoh uyi» — 450 метров."
+      },
+      "uz": {
+        "name": "Ocean akvaparki",
+        "address": "Mustaqillik ko'chasi, 5/25, Qarshi, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Ocean Aquapark",
+        "address": "5/25 Mustaqillik str., Karshi, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 38.842002,
+      "lng": 65.785322
+    },
+    "phone": [
+      "+998 99 290-10-30"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/ocean_aquapark_qarshi",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/akvapark-ocean-qarshi/1.webp",
+      "/images/pools/akvapark-ocean-qarshi/2.webp",
+      "/images/pools/akvapark-ocean-qarshi/3.webp",
+      "/images/pools/akvapark-ocean-qarshi/4.webp",
+      "/images/pools/akvapark-ocean-qarshi/5.webp",
+      "/images/pools/akvapark-ocean-qarshi/6.jpg",
+      "/images/pools/akvapark-ocean-qarshi/7.webp",
+      "/images/pools/akvapark-ocean-qarshi/8.webp",
+      "/images/pools/akvapark-ocean-qarshi/9.webp",
+      "/images/pools/akvapark-ocean-qarshi/10.webp"
+    ],
+    "prices": [
+      { "key": "price.oc_child_12", "amount": 60000, "currency": "UZS" },
+      { "key": "price.oc_adult", "amount": 120000, "currency": "UZS" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "21:00" },
+      { "day": "tue", "open": "10:00", "close": "21:00" },
+      { "day": "wed", "open": "10:00", "close": "21:00" },
+      { "day": "thu", "open": "10:00", "close": "21:00" },
+      { "day": "fri", "open": "10:00", "close": "21:00" },
+      { "day": "sat", "open": "10:00", "close": "21:00" },
+      { "day": "sun", "open": "10:00", "close": "21:00" }
+    ],
+    "services": [
+      "parking",
+      "bar",
+      "sunbed"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.3,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
