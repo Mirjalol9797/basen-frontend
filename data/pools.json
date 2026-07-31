@@ -12743,5 +12743,78 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "piramida-zarafshan",
+    "slug": "piramida-zarafshan",
+    "translations": {
+      "ru": {
+        "name": "Пирамида",
+        "address": "13-й микрорайон, Зарафшан, Навоийская область",
+        "description": "«Пирамида» — спортивно-оздоровительный комплекс с бассейном и сауной в северо-восточной части Зарафшана (13-й микрорайон). Есть бассейн, сауна, тренажёрный зал и раздевалки. Работает с 06:00 до 02:00 — можно прийти и на утреннее плавание, и на вечернюю сауну. Отдельные комнаты с бассейном и двумя разными саунами — по предварительному бронированию. Посетители отмечают чистоту и комфорт. Вместе с «Нептуном» и аквапарком Kamalak входит в тройку водных объектов Зарафшана."
+      },
+      "uz": {
+        "name": "Piramida",
+        "address": "13-mikrorayon, Zarafshon, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Piramida",
+        "address": "13th microdistrict, Zarafshan, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "categories": ["indoor", "sport", "children"],
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 41.583406,
+      "lng": 64.213432
+    },
+    "phone": [
+      "+998 95 290-60-00",
+      "+998 91 333-13-38",
+      "+998 93 096-30-28"
+    ],
+    "telegram": [
+      "https://t.me/Piramida_Zarafshon_group"
+    ],
+    "facebook": null,
+    "instagram": "https://www.instagram.com/Piramida_Zarafshon",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [
+      { "key": "price.pir_entry_adult", "amount": 75000, "currency": "UZS", "section": "pir_sec_entry" },
+      { "key": "price.pir_entry_youth", "amount": 45000, "currency": "UZS", "section": "pir_sec_entry" },
+      { "key": "price.pir_room_6", "amount": 400000, "currency": "UZS", "section": "pir_sec_room" },
+      { "key": "price.pir_room_extra", "amount": 50000, "currency": "UZS", "section": "pir_sec_room" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "06:00", "close": "02:00" },
+      { "day": "tue", "open": "06:00", "close": "02:00" },
+      { "day": "wed", "open": "06:00", "close": "02:00" },
+      { "day": "thu", "open": "06:00", "close": "02:00" },
+      { "day": "fri", "open": "06:00", "close": "02:00" },
+      { "day": "sat", "open": "06:00", "close": "02:00" },
+      { "day": "sun", "open": "06:00", "close": "02:00" }
+    ],
+    "services": [
+      "sauna",
+      "gym",
+      "locker"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
