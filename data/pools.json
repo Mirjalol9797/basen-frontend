@@ -13465,5 +13465,67 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "zebra-basseyn-qarshi",
+    "slug": "zebra-basseyn-qarshi",
+    "translations": {
+      "ru": {
+        "name": "Зебра бассейн",
+        "address": "ул. Учкун, 14, Карши, Кашкадарьинская область",
+        "description": "Zebra — бассейн с зоной отдыха в юго-восточной части Карши, в махалле Кавали на улице Учкун, 14. Формат — купание и отдых у воды для семьи или компании: можно провести у бассейна несколько часов, не ограничиваясь коротким сеансом. Район спокойный, рядом академический лицей и школа олимпийского резерва. Работает ежедневно с 10:00 до 20:00, есть парковка."
+      },
+      "uz": {
+        "name": "Zebra basseyni",
+        "address": "Uchqun ko'chasi, 14, Qarshi, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Zebra Pool",
+        "address": "14 Uchkun str., Karshi, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "categories": ["indoor", "sport"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 38.827491,
+      "lng": 65.822693
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/zebra-basseyn-qarshi/1.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.3,
+    "ratingYandex": 4.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
