@@ -13641,5 +13641,72 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "aqualand-shahrisabz",
+    "slug": "aqualand-shahrisabz",
+    "translations": {
+      "ru": {
+        "name": "Aqualand",
+        "address": "Шахрисабзский район, Кашкадарьинская область",
+        "description": "Aqualand — городской бассейн с зоной отдыха в Шахрисабзе. Место для купания и летнего отдыха у воды: сюда приходят и на дневное плавание, и на отдых компанией, самое оживлённое время — ближе к вечеру, около 18:00. Есть тапчаны. Удобная точка как для жителей города, так и для туристов, приезжающих к дворцу Ак-Сарай и в исторический центр Шахрисабза, — особенно в жаркий сезон. Работает ежедневно с 10:00 до 00:00."
+      },
+      "uz": {
+        "name": "Aqualand",
+        "address": "Shahrisabz tumani, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Aqualand",
+        "address": "Shahrisabz district, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 39.029576,
+      "lng": 66.830945
+    },
+    "phone": [
+      "+998 97 386-88-55"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/aqualand_shakhrisabz",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/aqualand-shahrisabz/1.webp",
+      "/images/pools/aqualand-shahrisabz/2.webp",
+      "/images/pools/aqualand-shahrisabz/3.jpg",
+      "/images/pools/aqualand-shahrisabz/4.jpg",
+      "/images/pools/aqualand-shahrisabz/5.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "00:00" },
+      { "day": "tue", "open": "10:00", "close": "00:00" },
+      { "day": "wed", "open": "10:00", "close": "00:00" },
+      { "day": "thu", "open": "10:00", "close": "00:00" },
+      { "day": "fri", "open": "10:00", "close": "00:00" },
+      { "day": "sat", "open": "10:00", "close": "00:00" },
+      { "day": "sun", "open": "10:00", "close": "00:00" }
+    ],
+    "services": [
+      "sunbed"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.8,
+    "ratingYandex": 4.8,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
