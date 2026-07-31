@@ -12682,5 +12682,66 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-neptun-zarafshan",
+    "slug": "basseyn-neptun-zarafshan",
+    "translations": {
+      "ru": {
+        "name": "Плавательный бассейн Нептун",
+        "address": "просп. Марварид, 25, Зарафшан, Навоийская область",
+        "description": "«Нептун» — основной плавательный бассейн города Зарафшан, в махалле Кончилар на улице Марварид шох, 25, рядом с аквапарком Kamalak (обе точки в одной зоне отдыха, удобно совмещать). Популярен у жителей города, подходит для плавания и регулярных тренировок. Работает с понедельника по субботу с 06:00 до 21:00, обеденный перерыв с 12:00 до 14:00; воскресенье — выходной. Ближайшая остановка — «Ресторан Согдиана», 530 метров."
+      },
+      "uz": {
+        "name": "Neptun suzish basseyni",
+        "address": "Marvarid shoh ko'chasi, 25, Zarafshon, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Neptun Swimming Pool",
+        "address": "25 Marvarid ave., Zarafshan, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 41.569081,
+      "lng": 64.206291
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-neptun-zarafshan/1.webp",
+      "/images/pools/basseyn-neptun-zarafshan/2.jpg",
+      "/images/pools/basseyn-neptun-zarafshan/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "06:00", "close": "21:00" },
+      { "day": "tue", "open": "06:00", "close": "21:00" },
+      { "day": "wed", "open": "06:00", "close": "21:00" },
+      { "day": "thu", "open": "06:00", "close": "21:00" },
+      { "day": "fri", "open": "06:00", "close": "21:00" },
+      { "day": "sat", "open": "06:00", "close": "21:00" },
+      { "day": "sun", "open": "06:00", "close": "21:00", "closed": true }
+    ],
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.8,
+    "ratingYandex": 4.7,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
