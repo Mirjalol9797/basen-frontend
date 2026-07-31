@@ -13267,5 +13267,68 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "akvapark-delfin-qarshi",
+    "slug": "akvapark-delfin-qarshi",
+    "translations": {
+      "ru": {
+        "name": "Аквапарк Дельфин",
+        "address": "ул. Насаф, Карши, Кашкадарьинская область",
+        "description": "«Дельфин» — открытая купальная зона в южной части Карши, на улице Насаф, работает в формате городского пляжа с бассейном. Место для летнего отдыха у воды: сюда приходят купаться и загорать в жаркий сезон. Находится в одном квартале с аквапарком Ocean и бассейном «Геолог» — до аквапарка около 150 метров, поэтому отдых легко совместить: днём пляж, вечером аттракционы. Работает ежедневно с 11:00 до 21:00, есть парковка."
+      },
+      "uz": {
+        "name": "Delfin akvaparki",
+        "address": "Nasaf ko'chasi, Qarshi, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Delfin Aquapark",
+        "address": "Nasaf str., Karshi, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "categories": ["aquapark", "open"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 38.842881,
+      "lng": 65.783536
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/akvapark-delfin-qarshi/1.jpg",
+      "/images/pools/akvapark-delfin-qarshi/2.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "11:00", "close": "21:00" },
+      { "day": "tue", "open": "11:00", "close": "21:00" },
+      { "day": "wed", "open": "11:00", "close": "21:00" },
+      { "day": "thu", "open": "11:00", "close": "21:00" },
+      { "day": "fri", "open": "11:00", "close": "21:00" },
+      { "day": "sat", "open": "11:00", "close": "21:00" },
+      { "day": "sun", "open": "11:00", "close": "21:00" }
+    ],
+    "services": [
+      "parking"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3,
+    "ratingYandex": 4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
