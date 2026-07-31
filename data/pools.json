@@ -13400,5 +13400,70 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "suv-sport-saroyi-qarshi",
+    "slug": "suv-sport-saroyi-qarshi",
+    "translations": {
+      "ru": {
+        "name": "Дворец водных видов спорта",
+        "address": "Карши, Кашкадарьинская область",
+        "description": "Дворец водных видов спорта в восточной части Карши — спортивный комплекс с крытым плавательным бассейном. Здесь проходят тренировки и соревнования по водным видам спорта, работают секции плавания, доступны сеансы для посетителей. Вода чистая, персонал доброжелательный. Работает шесть дней в неделю с 08:00 до 18:00 по единому графику, воскресенье — выходной. Есть парковка."
+      },
+      "uz": {
+        "name": "Suv sport turlari saroyi",
+        "address": "Qarshi, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Water Sports Palace",
+        "address": "Karshi, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "indoor",
+    "categories": ["indoor", "sport"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 38.862394,
+      "lng": 65.871961
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/suv-sport-saroyi-qarshi/1.jpg",
+      "/images/pools/suv-sport-saroyi-qarshi/2.jpg",
+      "/images/pools/suv-sport-saroyi-qarshi/3.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "08:00", "close": "18:00" },
+      { "day": "tue", "open": "08:00", "close": "18:00" },
+      { "day": "wed", "open": "08:00", "close": "18:00" },
+      { "day": "thu", "open": "08:00", "close": "18:00" },
+      { "day": "fri", "open": "08:00", "close": "18:00" },
+      { "day": "sat", "open": "08:00", "close": "18:00" },
+      { "day": "sun", "open": "08:00", "close": "18:00", "closed": true }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
