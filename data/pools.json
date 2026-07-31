@@ -13592,5 +13592,54 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-shahrisabz",
+    "slug": "basseyn-shahrisabz",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Шахрисабз",
+        "address": "ул. Ипак Йули, 98, Шахрисабз, Кашкадарьинская область",
+        "description": "Открытый бассейн в Шахрисабзе на улице Ипак Йули."
+      },
+      "uz": {
+        "name": "Shahrisabz basseyni",
+        "address": "Ipak Yo'li ko'chasi, 98, Shahrisabz, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Shahrisabz Pool",
+        "address": "98 Ipak Yuli str., Shahrisabz, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "open",
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 39.076304,
+      "lng": 66.837256
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [],
+    "services": [],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 3.9,
+    "ratingYandex": 3.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
