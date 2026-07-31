@@ -13526,5 +13526,71 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "hotel-sultan-basseyn-qarshi",
+    "slug": "hotel-sultan-basseyn-qarshi",
+    "translations": {
+      "ru": {
+        "name": "Бассейн отеля Sultan",
+        "address": "ул. Ислама Каримова, 254А, Карши, Кашкадарьинская область",
+        "description": "Бассейн при отеле Sultan — одном из главных отелей Карши, на улице Ислама Каримова, 254А. Кроме бассейна гостям доступны сауна, тренажёрный зал и ресторан. Отель недавно обновлён, есть собственная парковка и оплата картой. Бассейн в первую очередь для постояльцев; возможность посещения без проживания уточняйте по телефону. Остановка «Sulton mehmonxonasi» прямо у входа."
+      },
+      "uz": {
+        "name": "Sultan mehmonxonasi basseyni",
+        "address": "Islom Karimov ko'chasi, 254A, Qarshi, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Sultan Hotel Pool",
+        "address": "254A Islam Karimov str., Karshi, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "hotel",
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 38.854984,
+      "lng": 65.796625
+    },
+    "phone": [
+      "+998 95 251-44-77",
+      "+998 75 221-44-77"
+    ],
+    "telegram": null,
+    "facebook": "https://www.facebook.com/hotelsultan.uz/",
+    "instagram": "https://www.instagram.com/hotelsultan.uz",
+    "youtube": null,
+    "email": null,
+    "website": "https://hotelsultan.uz/",
+    "gallery": [
+      "/images/pools/hotel-sultan-basseyn-qarshi/1.webp",
+      "/images/pools/hotel-sultan-basseyn-qarshi/2.webp",
+      "/images/pools/hotel-sultan-basseyn-qarshi/3.webp",
+      "/images/pools/hotel-sultan-basseyn-qarshi/4.webp"
+    ],
+    "prices": [
+      { "key": "price.zone_a", "amount": 100000, "currency": "UZS" },
+      { "key": "price.zone_b", "amount": 80000, "currency": "UZS" }
+    ],
+    "schedule": [],
+    "services": [
+      "parking",
+      "sauna",
+      "gym",
+      "restaurant",
+      "card_payment"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.4,
+    "ratingYandex": 5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
