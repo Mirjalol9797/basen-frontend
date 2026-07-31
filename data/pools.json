@@ -12875,5 +12875,65 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-nurota",
+    "slug": "basseyn-nurota",
+    "translations": {
+      "ru": {
+        "name": "Плавательный бассейн Нурата",
+        "address": "ул. Х. Худойкулов, Нурата, Навоийская область",
+        "description": "Плавательный бассейн в восточной части города Нурата, на улице Х. Худойкулова. Работает как клуб плавания — здесь проходят занятия и тренировки секции. Для гостей города, приезжающих к комплексу Чашма и в Нуратинские горы, это ближайшая точка, где можно поплавать в жаркий сезон. Работает ежедневно с 10:00 до 20:00, есть парковка и тренер."
+      },
+      "uz": {
+        "name": "Nurota suzish basseyni",
+        "address": "X. Xudoyqulov ko'chasi, Nurota, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Nurata Swimming Pool",
+        "address": "Kh. Khudoykulov str., Nurata, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "sport",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 40.572162,
+      "lng": 65.699836
+    },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "10:00", "close": "20:00" },
+      { "day": "tue", "open": "10:00", "close": "20:00" },
+      { "day": "wed", "open": "10:00", "close": "20:00" },
+      { "day": "thu", "open": "10:00", "close": "20:00" },
+      { "day": "fri", "open": "10:00", "close": "20:00" },
+      { "day": "sat", "open": "10:00", "close": "20:00" },
+      { "day": "sun", "open": "10:00", "close": "20:00" }
+    ],
+    "services": [
+      "parking",
+      "trainer"
+    ],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.2,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
