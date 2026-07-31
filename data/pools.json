@@ -12536,5 +12536,79 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "akvapark-oasis-navoi",
+    "slug": "akvapark-oasis-navoi",
+    "translations": {
+      "ru": {
+        "name": "Аквапарк Oasis",
+        "address": "ул. Низами, Навои, Навоийская область",
+        "description": "Oasis — открытый аквапарк в северной части города Навои, на улице Низами. Зона летнего отдыха: водные горки, бассейны, кафе-бар с обслуживанием официантами. Дети до 3 лет — бесплатно. Работает допоздна, до 23:00, поэтому подходит и для вечернего отдыха. Обратите внимание: в кафе к счёту добавляется сервисный сбор 15%, а в отзывах жалуются на медленное обслуживание. Работает ежедневно с 11:00 до 23:00."
+      },
+      "uz": {
+        "name": "Oasis akvaparki",
+        "address": "Nizomiy ko'chasi, Navoiy, Navoiy viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Oasis Aquapark",
+        "address": "Nizami str., Navoi, Navoi Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "district": null,
+    "region": "navoi",
+    "city": null,
+    "coordinates": {
+      "lat": 40.121970,
+      "lng": 65.356030
+    },
+    "phone": [
+      "+998 95 607-20-00"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/oasis_uz",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/akvapark-oasis-navoi/1.webp",
+      "/images/pools/akvapark-oasis-navoi/2.webp",
+      "/images/pools/akvapark-oasis-navoi/3.webp",
+      "/images/pools/akvapark-oasis-navoi/4.webp",
+      "/images/pools/akvapark-oasis-navoi/5.webp",
+      "/images/pools/akvapark-oasis-navoi/6.webp"
+    ],
+    "prices": [
+      { "key": "price.prk_women_3plus", "amount": 100000, "currency": "UZS", "section": "prk_sec_women" },
+      { "key": "price.prk_men_child_3_12", "amount": 100000, "currency": "UZS", "section": "prk_sec_men" },
+      { "key": "price.prk_men_adult_weekday", "amount": 120000, "currency": "UZS", "section": "prk_sec_men" },
+      { "key": "price.prk_men_adult_weekend", "amount": 150000, "currency": "UZS", "section": "prk_sec_men" }
+    ],
+    "schedule": [
+      { "day": "mon", "open": "11:00", "close": "23:00" },
+      { "day": "tue", "open": "11:00", "close": "23:00" },
+      { "day": "wed", "open": "11:00", "close": "23:00" },
+      { "day": "thu", "open": "11:00", "close": "23:00" },
+      { "day": "fri", "open": "11:00", "close": "23:00" },
+      { "day": "sat", "open": "11:00", "close": "23:00" },
+      { "day": "sun", "open": "11:00", "close": "23:00" }
+    ],
+    "services": [
+      "cafe",
+      "bar"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.2,
+    "ratingYandex": 4.2,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
