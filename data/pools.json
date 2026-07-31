@@ -13330,5 +13330,75 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "evro-basseyn-qarshi",
+    "slug": "evro-basseyn-qarshi",
+    "translations": {
+      "ru": {
+        "name": "Евро бассейн",
+        "address": "ул. Учкун, Карши, Кашкадарьинская область",
+        "description": "Evro — бассейн с зоной отдыха в махалле Кунчикар, на улице Учкун в Карши. Днём — купание и отдых у воды, вечером самое популярное время, наплыв гостей около 20:00. Формат — отдых компанией или семьёй: бассейн совмещён с зоной отдыха, есть бар и тапчаны, можно провести у воды весь день. Один из самых высоко оценённых бассейнов города. Работает ежедневно с 09:00 до 23:00, есть парковка."
+      },
+      "uz": {
+        "name": "Evro basseyni",
+        "address": "Uchqun ko'chasi, Qarshi, Qashqadaryo viloyati",
+        "description": null
+      },
+      "en": {
+        "name": "Evro Pool",
+        "address": "Uchkun str., Karshi, Kashkadarya Region",
+        "description": null
+      }
+    },
+    "category": "aquapark",
+    "categories": ["aquapark", "open"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": {
+      "lat": 38.844710,
+      "lng": 65.804982
+    },
+    "phone": [
+      "+998 99 087-21-33",
+      "+998 94 692-13-33"
+    ],
+    "telegram": null,
+    "facebook": null,
+    "instagram": "https://www.instagram.com/funnyland_karshi",
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/evro-basseyn-qarshi/1.webp",
+      "/images/pools/evro-basseyn-qarshi/2.webp",
+      "/images/pools/evro-basseyn-qarshi/3.webp",
+      "/images/pools/evro-basseyn-qarshi/4.webp"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "23:00" },
+      { "day": "tue", "open": "09:00", "close": "23:00" },
+      { "day": "wed", "open": "09:00", "close": "23:00" },
+      { "day": "thu", "open": "09:00", "close": "23:00" },
+      { "day": "fri", "open": "09:00", "close": "23:00" },
+      { "day": "sat", "open": "09:00", "close": "23:00" },
+      { "day": "sun", "open": "09:00", "close": "23:00" }
+    ],
+    "services": [
+      "parking",
+      "bar",
+      "sunbed"
+    ],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.9,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
