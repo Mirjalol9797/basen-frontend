@@ -1,6 +1,7 @@
 import poolsData from './data/pools.json'
 import regionsData from './data/regions.json'
 import districtsData from './data/districts.json'
+import { categoryRegionPages } from './utils/categoryRegions'
 
 // В sitemap попадают только регионы и районы, где реально есть бассейны.
 // Пустые страницы Google не индексирует («просканирована, но не
@@ -28,6 +29,14 @@ const districtUrls = (districtsData as { id: string }[])
 // @nuxtjs/sitemap добавляет в карту ВСЕ пререндеренные маршруты, поэтому мало
 // не перечислить пустые страницы — их нужно явно исключить, вместе с языковыми
 // версиями. Сами страницы при этом остаются доступными и отдают noindex.
+// Страницы «категория × регион». Динамические маршруты Nitro сам не находит,
+// поэтому перечисляем их явно — во всех трёх локалях.
+const comboPages = categoryRegionPages(poolsData as never)
+const comboRoutes = comboPages.flatMap(c => {
+  const path = `/category/${c.category}/${c.region}`
+  return [path, `/uz${path}`, `/en${path}`]
+})
+
 const emptyPages = [
   ...(regionsData as { id: string }[])
     .filter(r => poolCount('region', r.id) === 0).map(r => `/region/${r.id}`),
@@ -113,6 +122,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
+      routes: comboRoutes,
     },
   },
 

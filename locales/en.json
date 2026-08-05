@@ -34,6 +34,10 @@
     "other_categories": "Other categories",
     "other_pools_title": "Pools in other categories",
     "regions_title": "{name} by region",
+    "region_h1": "{name} {region}",
+    "region_meta_title": "{name} {region} 2026 — prices, addresses, schedules {'|'} Basen.uz",
+    "region_meta_desc": "{name} {region} — {count} venues. Current prices, addresses, schedules, photos and a map. Find your pool without calling.",
+    "region_all_link": "All {name} in Uzbekistan",
     "meta_desc_text": {
       "open": "Open-air pools in Uzbekistan 2026 — {count} {objects} across Tashkent, Samarkand, Bukhara, Kashkadarya, Navoi, Karakalpakstan and Tashkent Region. Prices from 35,000 to 300,000 UZS, photos, addresses, schedules, children's zones, parking and cafes, reviews and a map of summer pools.",
       "indoor": "Indoor pools in Uzbekistan 2026 — {count} {objects}, open year-round: Tashkent, Karakalpakstan, Samarkand, Khorezm, Bukhara, Kashkadarya, Navoi. Single entry from 50,000 UZS, monthly memberships from 300,000 UZS, photos, addresses, schedules, coach availability, reviews and a map.",
