@@ -3658,7 +3658,7 @@
     },
     "category": "open",
     "district": null,
-    "region": "tashkent-city",
+    "region": "tashkent-region",
     "city": null,
     "coordinates": {
       "lat": 41.247583,
@@ -3778,7 +3778,7 @@
     },
     "category": "open",
     "district": null,
-    "region": "tashkent-city",
+    "region": "tashkent-region",
     "city": null,
     "coordinates": {
       "lat": 41.094809,
@@ -4125,7 +4125,7 @@
     },
     "category": "open",
     "district": null,
-    "region": "tashkent-city",
+    "region": "tashkent-region",
     "city": null,
     "coordinates": {
       "lat": 41.192014,
