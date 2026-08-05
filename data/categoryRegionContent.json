@@ -861,5 +861,457 @@
         ]
       }
     }
+  },
+
+  "hotel": {
+    "khorezm": {
+      "ru": {
+        "intro": "Бассейнов при отелях в Хорезмской области семь — столько же, сколько в Бухаре и Самарканде, это максимум по стране. Причина простая: Хива и Ургенч живут туризмом, и бассейн при гостинице здесь часто единственная возможность поплавать. Но цену не публикует ни один из семи объектов.",
+        "sections": [
+          {
+            "heading": "Хива и Ургенч",
+            "body": "Четыре объекта в Ургенче: Bravo Lyuks на улице Гафура Гуляма, Antalya Grand Palace на улице Хонка, Khorezm Palace Hotel на улице Аль-Бируни и Hotel Karavan на улице Ханка. Три в Хиве — Hotel Farovon Khiva, Hotel Asia Khiva и Khiva Residence Hotel, то есть рядом с Ичан-Калой, куда и едут туристы. Самый оснащённый объект региона — Antalya Grand Palace в Ургенче: спа-зона, сауна, тренажёрный зал, ресторан, бар и конференц-зал."
+          },
+          {
+            "heading": "Что уточнить до поездки",
+            "list": [
+              "Цены не заполнены ни у одного из семи объектов — это главное, о чём стоит спросить по телефону заранее.",
+              "Два бассейна сезонные, и оба в Хиве: Hotel Asia Khiva и Khiva Residence Hotel работают только в тёплое время года. Остальные пять круглогодичные.",
+              "Пускают ли внешних посетителей — каждый отель решает сам. В категории это общее правило, но не гарантия, так что спрашивайте вместе с ценой.",
+              "Парковка есть у всех семи объектов, Wi-Fi — у пяти, ресторан — у трёх, детская зона — только у Hotel Karavan."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Можно ли поплавать в бассейне отеля Хивы, не живя в нём?",
+            "a": "Как правило да: большинство отельных бассейнов продают разовый вход внешним посетителям. Но условия у каждого отеля свои, а по Хорезму цены не заполнены ни у одного объекта, поэтому звонок перед поездкой обязателен."
+          },
+          {
+            "q": "Сколько бассейнов при отелях в Хиве и Ургенче?",
+            "a": "В Хиве три: Hotel Farovon Khiva, Hotel Asia Khiva и Khiva Residence Hotel. В Ургенче четыре: Bravo Lyuks, Antalya Grand Palace, Khorezm Palace Hotel и Hotel Karavan."
+          },
+          {
+            "q": "Работают ли они зимой?",
+            "a": "Пять из семи круглогодичные. Сезонных только два, и оба в Хиве — Hotel Asia Khiva и Khiva Residence Hotel."
+          },
+          {
+            "q": "Где есть сауна или спа?",
+            "a": "Спа-зона, сауна и тренажёрный зал есть в Antalya Grand Palace в Ургенче, русская баня — в Hotel Asia Khiva в Хиве. У остальных пяти объектов такие удобства не отмечены."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Xorazm viloyatida mehmonxona basseynlari yettita — Buxoro va Samarqand bilan teng, bu mamlakat bo'yicha eng yuqori ko'rsatkich. Sababi oddiy: Xiva va Urganch turizm bilan yashaydi va mehmonxona basseyni bu yerda ko'pincha suzish uchun yagona imkoniyat. Ammo yettitasidan hech biri narxni e'lon qilmaydi.",
+        "sections": [
+          {
+            "heading": "Xiva va Urganch",
+            "body": "Urganchda to'rtta obyekt: G'afur G'ulom ko'chasidagi Bravo Lyuks, Xonqa ko'chasidagi Antalya Grand Palace, Al-Beruniy ko'chasidagi Khorezm Palace Hotel va Xonqa ko'chasidagi Hotel Karavan. Uchtasi Xivada — Hotel Farovon Khiva, Hotel Asia Khiva va Khiva Residence Hotel, ya'ni turistlar boradigan Ichan-Qal'a yonida. Hududning eng yaxshi jihozlangan obyekti — Urganchdagi Antalya Grand Palace: spa-zona, sauna, trenajyor zali, restoran, bar va konferens-zal."
+          },
+          {
+            "heading": "Sayohatdan oldin nimani aniqlashtirish kerak",
+            "list": [
+              "Yettita obyektdan hech birida narx to'ldirilmagan — telefon orqali oldindan so'rash kerak bo'lgan asosiy narsa shu.",
+              "Ikkita basseyn mavsumiy va ikkisi ham Xivada: Hotel Asia Khiva va Khiva Residence Hotel faqat issiq mavsumda ishlaydi. Qolgan beshtasi yil davomida ishlaydi.",
+              "Tashqi tashrif buyuruvchilarni kiritish yoki kiritmaslikni har bir mehmonxona o'zi hal qiladi. Toifada bu umumiy qoida, ammo kafolat emas, shuning uchun narx bilan birga so'rang.",
+              "Avtoturargoh yettita obyektning barchasida, Wi-Fi beshtasida, restoran uchtasida, bolalar zonasi esa faqat Hotel Karavan'da bor."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Xiva mehmonxonasi basseynida unda yashamasdan suzish mumkinmi?",
+            "a": "Odatda ha: mehmonxona basseynlarining ko'pchiligi tashqi tashrif buyuruvchilarga bir martalik kirishni sotadi. Ammo har bir mehmonxonaning shartlari boshqacha, Xorazm bo'yicha esa hech bir obyektda narx to'ldirilmagan, shuning uchun sayohatdan oldin qo'ng'iroq qilish shart."
+          },
+          {
+            "q": "Xiva va Urganchda nechta mehmonxona basseyni bor?",
+            "a": "Xivada uchta: Hotel Farovon Khiva, Hotel Asia Khiva va Khiva Residence Hotel. Urganchda to'rtta: Bravo Lyuks, Antalya Grand Palace, Khorezm Palace Hotel va Hotel Karavan."
+          },
+          {
+            "q": "Ular qishda ishlaydimi?",
+            "a": "Yettitadan beshtasi yil davomida ishlaydi. Mavsumiylari faqat ikkita va ikkisi ham Xivada — Hotel Asia Khiva va Khiva Residence Hotel."
+          },
+          {
+            "q": "Qayerda sauna yoki spa bor?",
+            "a": "Spa-zona, sauna va trenajyor zali Urganchdagi Antalya Grand Palace'da, rus hammomi esa Xivadagi Hotel Asia Khiva'da bor. Qolgan beshta obyektda bunday qulayliklar belgilanmagan."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Khorezm Region has seven hotel pools — level with Bukhara and Samarkand, the highest count in the country. The reason is simple: Khiva and Urgench live on tourism, and a hotel pool is often the only place to swim here. But not one of the seven publishes its prices.",
+        "sections": [
+          {
+            "heading": "Khiva and Urgench",
+            "body": "Four venues are in Urgench: Bravo Lyuks on Gafur Gulyam street, Antalya Grand Palace on Khonka street, Khorezm Palace Hotel on Al-Biruni street and Hotel Karavan on Khanka street. Three are in Khiva — Hotel Farovon Khiva, Hotel Asia Khiva and Khiva Residence Hotel — next to Ichan-Kala, where the tourists go. The region's best-equipped venue is Antalya Grand Palace in Urgench: a spa area, sauna, gym, restaurant, bar and conference room."
+          },
+          {
+            "heading": "What to check before you travel",
+            "list": [
+              "None of the seven venues has pricing on file — that's the main thing to ask about by phone in advance.",
+              "Two pools are seasonal, both in Khiva: Hotel Asia Khiva and Khiva Residence Hotel run in the warm season only. The other five are year-round.",
+              "Whether outside visitors are admitted is each hotel's own call. It's the norm in this category but not a guarantee, so ask about it along with the price.",
+              "Parking is available at all seven venues, Wi-Fi at five, a restaurant at three, and a children's zone only at Hotel Karavan."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Can I swim at a Khiva hotel pool without staying there?",
+            "a": "Usually yes: most hotel pools sell single-visit entry to outside visitors. But each hotel sets its own terms, and no Khorezm venue has pricing on file, so calling ahead is essential."
+          },
+          {
+            "q": "How many hotel pools are in Khiva and Urgench?",
+            "a": "Khiva has three: Hotel Farovon Khiva, Hotel Asia Khiva and Khiva Residence Hotel. Urgench has four: Bravo Lyuks, Antalya Grand Palace, Khorezm Palace Hotel and Hotel Karavan."
+          },
+          {
+            "q": "Do they run in winter?",
+            "a": "Five of the seven are year-round. Only two are seasonal, and both are in Khiva — Hotel Asia Khiva and Khiva Residence Hotel."
+          },
+          {
+            "q": "Where is there a sauna or spa?",
+            "a": "A spa area, sauna and gym are at Antalya Grand Palace in Urgench, and a Russian banya at Hotel Asia Khiva in Khiva. The other five venues have no such amenities marked."
+          }
+        ]
+      }
+    },
+
+    "bukhara": {
+      "ru": {
+        "intro": "Бассейнов при отелях в Бухаре семь, и все находятся в самом городе. Все семь работают круглый год — сезонных нет, в отличие от Хорезма и Ташкента. Среди них международные сети: Mercure, Wyndham и Reikartz.",
+        "sections": [
+          {
+            "heading": "Два объекта продают вход как обычный бассейн",
+            "body": "Wyndham Bukhara на проспекте Алишера Навои и May Weather Resort на улице Авшор Махалля — единственные в регионе, кто публикует цены, и они же выходят в каталоге не только как отельные, но и как открытые бассейны. Wyndham — 200 000 сум за целый день, утренний сеанс с 7:00 до 12:00 дешевле, 150 000, детский билет 50 000; там же аквааэробика по 100 000 за занятие и детские группы. May Weather Resort — 50 000 сум с человека за час, детям до 14 лет 35 000; есть сауна, джакузи и кафе. У остальных пяти объектов цены не заполнены."
+          },
+          {
+            "heading": "Рейтинги и оснащение",
+            "list": [
+              "Самый высокий рейтинг в регионе — 4,9 у Grand Ark Bukhara на улице Богишамол и у Oasis на улице Зафарабад.",
+              "Международные сети представлены тремя объектами: Mercure Bukhara Old Town на Самаркандской улице, Wyndham Bukhara и Reikartz Bahor Bukhara.",
+              "Сауна отмечена у двух объектов, турецкий хаммам — у Wyndham Bukhara, джакузи и детская зона — у May Weather Resort.",
+              "Парковка есть у всех семи объектов, Wi-Fi — у четырёх."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько стоит бассейн при отеле в Бухаре?",
+            "a": "Цены публикуют два объекта из семи: Wyndham Bukhara — 200 000 сум за день и 150 000 за утренний сеанс, May Weather Resort — 50 000 сум за час с человека. По остальным пяти нужно звонить напрямую."
+          },
+          {
+            "q": "Работают ли они зимой?",
+            "a": "Да, все семь круглогодичные. В Бухаре это касается и открытых бассейнов: там тоже все шесть работают зимой, чего нет больше ни в одном регионе страны."
+          },
+          {
+            "q": "Можно ли попасть, не будучи гостем отеля?",
+            "a": "Wyndham Bukhara и May Weather Resort продают вход открыто — они выходят в каталоге и как открытые бассейны. По остальным пяти условия нужно уточнять у самого отеля."
+          },
+          {
+            "q": "Какие отели с бассейном в Бухаре самые известные?",
+            "a": "Из международных сетей — Mercure Bukhara Old Town, Wyndham Bukhara и Reikartz Bahor Bukhara. По оценкам посетителей выше всех Grand Ark Bukhara и Oasis, у обоих 4,9."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Buxoroda mehmonxona basseynlari yettita va barchasi shahar ichida joylashgan. Yettitasi ham yil davomida ishlaydi — Xorazm va Toshkentdan farqli, mavsumiylari yo'q. Ular orasida xalqaro tarmoqlar bor: Mercure, Wyndham va Reikartz.",
+        "sections": [
+          {
+            "heading": "Ikkita obyekt kirishni oddiy basseyn kabi sotadi",
+            "body": "Alisher Navoiy prospektidagi Wyndham Bukhara va Avshor Mahalla ko'chasidagi May Weather Resort — hududda narx e'lon qiladigan yagona obyektlar va ular katalogda faqat mehmonxona emas, ochiq basseyn sifatida ham chiqadi. Wyndham — butun kun uchun 200 000 so'm, 7:00 dan 12:00 gacha ertalabki seans arzonroq, 150 000, bolalar chiptasi 50 000; shu yerda mashg'uloti 100 000 so'mlik suv aerobikasi va bolalar guruhlari ham bor. May Weather Resort — bir soat uchun kishi boshiga 50 000 so'm, 14 yoshgacha bolalarga 35 000; sauna, jakuzi va kafe mavjud. Qolgan beshta obyektda narxlar to'ldirilmagan."
+          },
+          {
+            "heading": "Reytinglar va jihozlanish",
+            "list": [
+              "Hududdagi eng yuqori reyting — Bog'ishamol ko'chasidagi Grand Ark Bukhara va Zafarobod ko'chasidagi Oasis'da 4,9.",
+              "Xalqaro tarmoqlar uchta obyekt bilan taqdim etilgan: Samarqand ko'chasidagi Mercure Bukhara Old Town, Wyndham Bukhara va Reikartz Bahor Bukhara.",
+              "Sauna ikkita obyektda, turk hammomi Wyndham Bukhara'da, jakuzi va bolalar zonasi May Weather Resort'da belgilangan.",
+              "Avtoturargoh yettita obyektning barchasida, Wi-Fi to'rttasida bor."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Buxoroda mehmonxona basseyni qancha turadi?",
+            "a": "Yettitadan ikkita obyekt narx e'lon qiladi: Wyndham Bukhara — kuniga 200 000 so'm va ertalabki seans uchun 150 000, May Weather Resort — bir soat uchun kishi boshiga 50 000 so'm. Qolgan beshtasiga to'g'ridan-to'g'ri qo'ng'iroq qilish kerak."
+          },
+          {
+            "q": "Ular qishda ishlaydimi?",
+            "a": "Ha, yettitasi ham yil davomida ishlaydi. Buxoroda bu ochiq basseynlarga ham tegishli: u yerda ham oltitasi qishda ishlaydi, bu mamlakatning boshqa hech qaysi viloyatida yo'q."
+          },
+          {
+            "q": "Mehmon bo'lmasdan kirish mumkinmi?",
+            "a": "Wyndham Bukhara va May Weather Resort kirishni ochiq sotadi — ular katalogda ochiq basseyn sifatida ham chiqadi. Qolgan beshtasi bo'yicha shartlarni mehmonxonaning o'zidan aniqlashtirish kerak."
+          },
+          {
+            "q": "Buxorodagi basseynli mehmonxonalarning eng mashhurlari qaysi?",
+            "a": "Xalqaro tarmoqlardan — Mercure Bukhara Old Town, Wyndham Bukhara va Reikartz Bahor Bukhara. Tashrif buyuruvchilar bahosi bo'yicha eng yuqorisi Grand Ark Bukhara va Oasis, ikkisida ham 4,9."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Bukhara has seven hotel pools, all within the city itself. All seven are year-round — unlike Khorezm and Tashkent, there are no seasonal ones. International chains are represented: Mercure, Wyndham and Reikartz.",
+        "sections": [
+          {
+            "heading": "Two venues sell entry like an ordinary pool",
+            "body": "Wyndham Bukhara on Alisher Navoi avenue and May Weather Resort on Avshor Mahalla street are the only ones in the region that publish prices, and they also appear in the catalog as open-air pools, not just hotel ones. Wyndham charges 200,000 UZS for a full day, with a cheaper 7:00–12:00 morning session at 150,000 and a child ticket at 50,000; it also runs aqua aerobics at 100,000 a session and children's groups. May Weather Resort charges 50,000 UZS per person per hour and 35,000 for children under 14, with a sauna, jacuzzi and cafe. The other five venues have no pricing on file."
+          },
+          {
+            "heading": "Ratings and amenities",
+            "list": [
+              "The region's highest rating is 4.9, shared by Grand Ark Bukhara on Bogishamol street and Oasis on Zafarabad street.",
+              "International chains cover three venues: Mercure Bukhara Old Town on Samarkandskaya street, Wyndham Bukhara and Reikartz Bahor Bukhara.",
+              "A sauna is marked at two venues, a Turkish hammam at Wyndham Bukhara, and a jacuzzi and children's zone at May Weather Resort.",
+              "Parking is available at all seven venues and Wi-Fi at four."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "How much does a hotel pool cost in Bukhara?",
+            "a": "Two of the seven publish prices: Wyndham Bukhara at 200,000 UZS for a day and 150,000 for the morning session, and May Weather Resort at 50,000 UZS per person per hour. For the other five you'll need to call directly."
+          },
+          {
+            "q": "Do they run in winter?",
+            "a": "Yes, all seven are year-round. The same holds for Bukhara's open-air pools: all six of those run in winter too, which no other region in the country can match."
+          },
+          {
+            "q": "Can I get in without being a hotel guest?",
+            "a": "Wyndham Bukhara and May Weather Resort sell entry openly — they appear in the catalog as open-air pools as well. For the other five, check the terms with the hotel itself."
+          },
+          {
+            "q": "Which hotels with a pool in Bukhara are best known?",
+            "a": "Among international chains, Mercure Bukhara Old Town, Wyndham Bukhara and Reikartz Bahor Bukhara. By visitor ratings the highest are Grand Ark Bukhara and Oasis, both at 4.9."
+          }
+        ]
+      }
+    },
+
+    "samarkand": {
+      "ru": {
+        "intro": "Бассейнов при отелях в Самаркандской области семь: шесть в самом Самарканде и один в Самаркандском районе. Все круглогодичные. При этом ни один из семи не публикует цены, поэтому звонок перед поездкой обязателен.",
+        "sections": [
+          {
+            "heading": "Где они находятся",
+            "body": "Шесть объектов в Самарканде: Rayyan Hotel на улице Ибн Халдун, Hayat Plaza Hotel & Spa на улице Садриддина Айни, Shahdil Hotel & Restaurant на улице Лутфи, Mövenpick на улице Шахруха Мирзы, Karvon на Пенджикентской улице и Global Star на Термезской. Седьмой — Bogishamol Hotel в населённом пункте Куштамгали Самаркандского района, единственный за пределами города. Самые высокие оценки в регионе у Rayyan Hotel и Hayat Plaza Hotel & Spa — по 5,0."
+          },
+          {
+            "heading": "Чего в данных нет",
+            "list": [
+              "Цены не заполнены ни у одного из семи объектов. Это не значит, что вход закрыт для посторонних — отели просто не публикуют тариф, и его нужно спрашивать.",
+              "Из удобств отмечены только парковка (у всех семи), Wi-Fi (у трёх), спа-зона (Hayat Plaza Hotel & Spa) и ресторан (Shahdil Hotel & Restaurant).",
+              "Сауна, хаммам и детская зона не отмечены ни у одного объекта — по набору удобств Самарканд уступает и Бухаре, и Ташкенту.",
+              "Все семь круглогодичные, сезонных нет."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько стоит бассейн при отеле в Самарканде?",
+            "a": "Ни один из семи объектов области не публикует цену, поэтому в каталоге она не заполнена. Телефоны есть на странице каждого отеля — тариф для внешних посетителей нужно уточнять напрямую."
+          },
+          {
+            "q": "Все ли они в самом Самарканде?",
+            "a": "Шесть из семи — да. Единственное исключение — Bogishamol Hotel в Куштамгали Самаркандского района."
+          },
+          {
+            "q": "Работают ли они зимой?",
+            "a": "Да, все семь круглогодичные. Для сравнения: из девяти открытых бассейнов области зимой не работает ни один, так что отельные бассейны — заметная часть зимнего выбора."
+          },
+          {
+            "q": "Есть ли спа или сауна?",
+            "a": "Спа-зона отмечена у Hayat Plaza Hotel & Spa, ресторан — у Shahdil Hotel & Restaurant. Сауна и хаммам не отмечены ни у одного из семи объектов; если нужны именно они, смотрите крытые бассейны области — там сауна есть у четырёх объектов из пяти."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Samarqand viloyatida mehmonxona basseynlari yettita: oltitasi Samarqand shahrida va bittasi Samarqand tumanida. Barchasi yil davomida ishlaydi. Shu bilan birga yettitasidan hech biri narxni e'lon qilmaydi, shuning uchun sayohatdan oldin qo'ng'iroq qilish shart.",
+        "sections": [
+          {
+            "heading": "Ular qayerda joylashgan",
+            "body": "Samarqandda oltita obyekt: Ibn Xaldun ko'chasidagi Rayyan Hotel, Sadriddin Ayniy ko'chasidagi Hayat Plaza Hotel & Spa, Lutfiy ko'chasidagi Shahdil Hotel & Restaurant, Shohruh Mirzo ko'chasidagi Mövenpick, Panjikent ko'chasidagi Karvon va Termiz ko'chasidagi Global Star. Yettinchisi — Samarqand tumani Qushtamg'ali aholi punktidagi Bogishamol Hotel, shahar tashqarisidagi yagona obyekt. Hududdagi eng yuqori baholar Rayyan Hotel va Hayat Plaza Hotel & Spa'da — 5,0 dan."
+          },
+          {
+            "heading": "Ma'lumotlarda nima yo'q",
+            "list": [
+              "Yettita obyektdan hech birida narx to'ldirilmagan. Bu tashqi tashrif buyuruvchilar uchun kirish yopiq degani emas — mehmonxonalar shunchaki tarifni e'lon qilmaydi va uni so'rash kerak.",
+              "Qulayliklardan faqat avtoturargoh (yettitasida), Wi-Fi (uchtasida), spa-zona (Hayat Plaza Hotel & Spa) va restoran (Shahdil Hotel & Restaurant) belgilangan.",
+              "Sauna, hammom va bolalar zonasi hech bir obyektda belgilanmagan — qulayliklar to'plami bo'yicha Samarqand Buxoro va Toshkentdan orqada.",
+              "Yettitasi ham yil davomida ishlaydi, mavsumiylari yo'q."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Samarqandda mehmonxona basseyni qancha turadi?",
+            "a": "Viloyatdagi yettita obyektdan hech biri narxni e'lon qilmaydi, shuning uchun katalogda u to'ldirilmagan. Telefonlar har bir mehmonxona sahifasida bor — tashqi tashrif buyuruvchilar uchun tarifni to'g'ridan-to'g'ri aniqlashtirish kerak."
+          },
+          {
+            "q": "Ularning barchasi Samarqand shahridami?",
+            "a": "Yettitadan oltitasi — ha. Yagona istisno — Samarqand tumani Qushtamg'alidagi Bogishamol Hotel."
+          },
+          {
+            "q": "Ular qishda ishlaydimi?",
+            "a": "Ha, yettitasi ham yil davomida ishlaydi. Taqqoslash uchun: viloyatdagi to'qqizta ochiq basseyndan qishda birortasi ham ishlamaydi, shuning uchun mehmonxona basseynlari qishki tanlovning sezilarli qismi."
+          },
+          {
+            "q": "Spa yoki sauna bormi?",
+            "a": "Spa-zona Hayat Plaza Hotel & Spa'da, restoran Shahdil Hotel & Restaurant'da belgilangan. Sauna va hammom yettita obyektdan hech birida belgilanmagan; agar aynan shular kerak bo'lsa, viloyatning yopiq basseynlarini ko'ring — u yerda beshta obyektdan to'rttasida sauna bor."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Samarkand Region has seven hotel pools: six in Samarkand itself and one in Samarkand district. All are year-round. That said, not one of the seven publishes prices, so calling ahead is essential.",
+        "sections": [
+          {
+            "heading": "Where they are",
+            "body": "Six venues are in Samarkand: Rayyan Hotel on Ibn Khaldun street, Hayat Plaza Hotel & Spa on Sadriddin Ayni street, Shahdil Hotel & Restaurant on Lutfi street, Mövenpick on Shahrukh Mirzo street, Karvon on Penjikent street and Global Star on Termez street. The seventh is Bogishamol Hotel in the settlement of Kushtamgali in Samarkand district, the only one outside the city. The region's highest ratings belong to Rayyan Hotel and Hayat Plaza Hotel & Spa, both at 5.0."
+          },
+          {
+            "heading": "What the data doesn't have",
+            "list": [
+              "None of the seven venues has pricing on file. That doesn't mean outsiders can't get in — the hotels simply don't publish a rate, so you have to ask.",
+              "The only amenities marked are parking (all seven), Wi-Fi (three), a spa area (Hayat Plaza Hotel & Spa) and a restaurant (Shahdil Hotel & Restaurant).",
+              "No venue has a sauna, hammam or children's zone marked — on amenities Samarkand trails both Bukhara and Tashkent.",
+              "All seven are year-round; none is seasonal."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "How much does a hotel pool cost in Samarkand?",
+            "a": "None of the region's seven venues publishes a price, so the catalog has none on file. Phone numbers are on each hotel's page — the rate for outside visitors has to be checked directly."
+          },
+          {
+            "q": "Are they all in Samarkand itself?",
+            "a": "Six of the seven are. The only exception is Bogishamol Hotel in Kushtamgali, Samarkand district."
+          },
+          {
+            "q": "Do they run in winter?",
+            "a": "Yes, all seven are year-round. For comparison, none of the region's nine open-air pools operates in winter, which makes hotel pools a significant part of the winter choice."
+          },
+          {
+            "q": "Is there a spa or sauna?",
+            "a": "A spa area is marked at Hayat Plaza Hotel & Spa and a restaurant at Shahdil Hotel & Restaurant. No sauna or hammam is marked at any of the seven; if that's what you need, look at the region's indoor pools, where four of the five have a sauna."
+          }
+        ]
+      }
+    },
+
+    "tashkent-city": {
+      "ru": {
+        "intro": "Бассейнов при отелях в Ташкенте шесть, и цену публикуют все шесть — по остальным крупным регионам этого не скажешь: в Хорезме и Самарканде не заполнено ни одной. Разброс здесь восьмикратный: от 70 000 сум в «Бассейне Мехнат» до 600 000 в Aqua Bar при Radisson Blu.",
+        "sections": [
+          {
+            "heading": "Три разных формата в одной категории",
+            "body": "Летние бар-бассейны: Aqua Bar при Radisson Blu на проспекте Амира Темура (25-метровая чаша глубиной 1,5 метра, тренер, сауна) и Garden Bar Pool при Wyndham на улице Амира Темура — оба в Юнусабадском районе, оба работают только в тёплый сезон и оба самые дорогие в категории. Премиальные круглогодичные: Villa Grand при отеле Grand Mir в Мирабадском районе — по числу отмеченных удобств самый оснащённый отельный бассейн страны (сауна, хаммам, джакузи, тренажёрный зал, велнес-центр, ресторан, бар, конференц-зал) — и Lotte City Hotel Tashkent Palace там же, со спа, детской зоной и бизнес-центром. И отдельно «Бассейн Мехнат» в Чиланзарском районе: 50 метров, тренер, сауна и 70 000 сум за вход — по формату это скорее спортивный бассейн, чем отельный."
+          },
+          {
+            "heading": "Сколько стоит",
+            "list": [
+              "Aqua Bar при Radisson Blu — 500 000 сум в будни и 600 000 в выходные, детский билет 250 000–350 000.",
+              "Garden Bar Pool при Wyndham — 400 000 сум за целый день, детский 250 000; лежаки бесплатные.",
+              "Lotte City Hotel Tashkent Palace — 300 000 сум в будни, 350 000 в выходные, месячный абонемент 3 000 000.",
+              "Villa Grand при отеле Grand Mir — 200 000 сум в будни и 250 000 в выходные; отдельный тариф на крытый бассейн 149 000–199 000.",
+              "«Бассейн Мехнат» — 70 000 сум за взрослого и 50 000 за ребёнка, самый дешёвый вход в категории по городу.",
+              "Le Grand De Plaza продаёт только месячные абонементы: 2 700 000 сум на одного взрослого, 4 400 000 на двоих, 1 700 000 детский."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько стоит бассейн при отеле в Ташкенте?",
+            "a": "От 70 000 сум в «Бассейне Мехнат» до 600 000 в Aqua Bar при Radisson Blu в выходные. Цена заполнена у всех шести объектов, так что сравнить варианты можно заранее."
+          },
+          {
+            "q": "Какие из них работают зимой?",
+            "a": "Четыре из шести: Lotte City Hotel Tashkent Palace, Villa Grand при отеле Grand Mir, «Бассейн Мехнат» и Le Grand De Plaza. Aqua Bar при Radisson Blu и Garden Bar Pool при Wyndham — сезонные летние."
+          },
+          {
+            "q": "Где 50-метровый бассейн?",
+            "a": "В «Бассейне Мехнат» в Чиланзарском районе. У Aqua Bar при Radisson Blu чаша 25 метров глубиной 1,5 метра, у Villa Grand — 8 метров."
+          },
+          {
+            "q": "Можно ли прийти с ребёнком?",
+            "a": "Детский тариф есть почти везде: 250 000–350 000 сум в Aqua Bar, 250 000 в Garden Bar Pool, 50 000 в «Бассейне Мехнат», 1 700 000 за месяц в Le Grand De Plaza. Отдельная детская зона отмечена у Lotte City Hotel Tashkent Palace."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Toshkentda mehmonxona basseynlari oltita va narxni oltitasi ham e'lon qiladi — boshqa yirik viloyatlar haqida buni aytolmaymiz: Xorazm va Samarqandda birorta narx to'ldirilmagan. Farq bu yerda sakkiz baravar: «Mehnat basseyni»dagi 70 000 so'mdan Radisson Blu qoshidagi Aqua Bar'dagi 600 000 so'mgacha.",
+        "sections": [
+          {
+            "heading": "Bitta toifada uchta boshqa format",
+            "body": "Yozgi bar-basseynlar: Amir Temur prospektidagi Radisson Blu qoshidagi Aqua Bar (chuqurligi 1,5 metrli 25 metrli chasha, murabbiy, sauna) va Amir Temur ko'chasidagi Wyndham qoshidagi Garden Bar Pool — ikkisi ham Yunusobod tumanida, ikkisi ham faqat issiq mavsumda ishlaydi va ikkisi ham toifadagi eng qimmatlari. Premium yil davomida ishlaydiganlar: Mirobod tumanidagi Grand Mir mehmonxonasi qoshidagi Villa Grand — belgilangan qulayliklar soni bo'yicha mamlakatdagi eng jihozlangan mehmonxona basseyni (sauna, hammom, jakuzi, trenajyor zali, velnes-markaz, restoran, bar, konferens-zal) — va shu tumandagi Lotte City Hotel Tashkent Palace, spa, bolalar zonasi va biznes-markaz bilan. Alohida — Chilonzor tumanidagi «Mehnat basseyni»: 50 metr, murabbiy, sauna va kirish uchun 70 000 so'm, format bo'yicha bu mehmonxona basseynidan ko'ra sport basseyni."
+          },
+          {
+            "heading": "Narxi qancha",
+            "list": [
+              "Radisson Blu qoshidagi Aqua Bar — ish kunlari 500 000 so'm, dam olish kunlari 600 000, bolalar chiptasi 250 000–350 000.",
+              "Wyndham qoshidagi Garden Bar Pool — butun kun uchun 400 000 so'm, bolalar uchun 250 000; shezlonglar bepul.",
+              "Lotte City Hotel Tashkent Palace — ish kunlari 300 000 so'm, dam olish kunlari 350 000, oylik obuna 3 000 000.",
+              "Grand Mir mehmonxonasi qoshidagi Villa Grand — ish kunlari 200 000 so'm, dam olish kunlari 250 000; yopiq basseyn uchun alohida tarif 149 000–199 000.",
+              "«Mehnat basseyni» — kattalar uchun 70 000 so'm, bolalar uchun 50 000, shahar bo'yicha toifadagi eng arzon kirish.",
+              "Le Grand De Plaza faqat oylik obunalar sotadi: bitta katta odam uchun 2 700 000 so'm, ikkitasi uchun 4 400 000, bolalar uchun 1 700 000."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Toshkentda mehmonxona basseyni qancha turadi?",
+            "a": "«Mehnat basseyni»dagi 70 000 so'mdan dam olish kunlari Radisson Blu qoshidagi Aqua Bar'dagi 600 000 so'mgacha. Narx oltita obyektning barchasida to'ldirilgan, shuning uchun variantlarni oldindan solishtirish mumkin."
+          },
+          {
+            "q": "Ulardan qaysilari qishda ishlaydi?",
+            "a": "Oltitadan to'rttasi: Lotte City Hotel Tashkent Palace, Grand Mir qoshidagi Villa Grand, «Mehnat basseyni» va Le Grand De Plaza. Radisson Blu qoshidagi Aqua Bar va Wyndham qoshidagi Garden Bar Pool — mavsumiy yozgi."
+          },
+          {
+            "q": "50 metrli basseyn qayerda?",
+            "a": "Chilonzor tumanidagi «Mehnat basseyni»da. Radisson Blu qoshidagi Aqua Bar'da chasha 25 metr, chuqurligi 1,5 metr, Villa Grand'da — 8 metr."
+          },
+          {
+            "q": "Bola bilan borish mumkinmi?",
+            "a": "Bolalar tarifi deyarli hamma joyda bor: Aqua Bar'da 250 000–350 000 so'm, Garden Bar Pool'da 250 000, «Mehnat basseyni»da 50 000, Le Grand De Plaza'da oyiga 1 700 000. Alohida bolalar zonasi Lotte City Hotel Tashkent Palace'da belgilangan."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Tashkent has six hotel pools, and all six publish prices — which can't be said of the other large regions: neither Khorezm nor Samarkand has a single price on file. The spread here is eightfold, from 70,000 UZS at Mehnat to 600,000 at the Aqua Bar at Radisson Blu.",
+        "sections": [
+          {
+            "heading": "Three different formats in one category",
+            "body": "Summer bar-pools: the Aqua Bar at Radisson Blu on Amir Temur avenue (a 25-meter pool 1.5 meters deep, a coach, a sauna) and Garden Bar Pool at Wyndham on Amir Temur street — both in Yunusabad, both warm-season only, and both the most expensive in the category. Premium year-round venues: Villa Grand at the Grand Mir hotel in Mirobod, which by the number of listed amenities is the best-equipped hotel pool in the country (sauna, hammam, jacuzzi, gym, wellness centre, restaurant, bar, conference room), and Lotte City Hotel Tashkent Palace in the same district, with a spa, children's zone and business centre. Then there's Mehnat in Chilanzar, in a class of its own: 50 meters, a coach, a sauna and 70,000 UZS entry — in format closer to a sport pool than a hotel one."
+          },
+          {
+            "heading": "What it costs",
+            "list": [
+              "Aqua Bar at Radisson Blu — 500,000 UZS on weekdays and 600,000 at weekends, with child tickets at 250,000–350,000.",
+              "Garden Bar Pool at Wyndham — 400,000 UZS for a full day, 250,000 for a child; loungers are free.",
+              "Lotte City Hotel Tashkent Palace — 300,000 UZS on weekdays, 350,000 at weekends, 3,000,000 for a monthly pass.",
+              "Villa Grand at the Grand Mir hotel — 200,000 UZS on weekdays and 250,000 at weekends, with a separate indoor-pool rate of 149,000–199,000.",
+              "Mehnat — 70,000 UZS for an adult and 50,000 for a child, the cheapest entry in the category city-wide.",
+              "Le Grand De Plaza sells monthly passes only: 2,700,000 UZS for one adult, 4,400,000 for two and 1,700,000 for a child."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "How much does a hotel pool cost in Tashkent?",
+            "a": "From 70,000 UZS at Mehnat to 600,000 at the Aqua Bar at Radisson Blu at weekends. Pricing is filled in for all six venues, so you can compare the options in advance."
+          },
+          {
+            "q": "Which of them run in winter?",
+            "a": "Four of the six: Lotte City Hotel Tashkent Palace, Villa Grand at the Grand Mir hotel, Mehnat and Le Grand De Plaza. The Aqua Bar at Radisson Blu and Garden Bar Pool at Wyndham are seasonal summer venues."
+          },
+          {
+            "q": "Where is the 50-meter pool?",
+            "a": "At Mehnat in the Chilanzar district. The Aqua Bar at Radisson Blu has a 25-meter pool 1.5 meters deep, and Villa Grand has 8 meters."
+          },
+          {
+            "q": "Can I come with a child?",
+            "a": "A child rate exists almost everywhere: 250,000–350,000 UZS at the Aqua Bar, 250,000 at Garden Bar Pool, 50,000 at Mehnat and 1,700,000 a month at Le Grand De Plaza. A dedicated children's zone is marked at Lotte City Hotel Tashkent Palace."
+          }
+        ]
+      }
+    }
   }
 }
