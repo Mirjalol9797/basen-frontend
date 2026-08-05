@@ -550,5 +550,316 @@
         ]
       }
     }
+  },
+
+  "indoor": {
+    "tashkent-city": {
+      "ru": {
+        "intro": "Крытых бассейнов в Ташкенте одиннадцать, и все работают круглый год. Но это не один формат, а два разных: шесть объектов из одиннадцати — филиалы школы плавания Born2swim, куда ходят учиться, а не плавать самостоятельно.",
+        "sections": [
+          {
+            "heading": "Школа плавания или свободное плавание",
+            "body": "Born2swim — сеть из шести филиалов по городу: два в Яккасарайском районе («Pro by Born2swim» и «Parisien»), по одному в Мирабадском, Шайхонтохурском, Яшнабадском и Юнусабадском. Пять из них — небольшие учебные чаши на 7–8 метров для занятий с тренером и грудничкового плавания. Исключение — «Pro by Born2swim» с 50-метровым бассейном. Остальные пять объектов категории работают в обычном режиме: «Дворец водного спорта» в Юнусабадском районе, «Бассейн МВЭС Inter Sport» и Academy Athletica в Мирзо-Улугбекском, Dubai Spa и Magic Galaxy в Чиланзарском."
+          },
+          {
+            "heading": "Сколько стоит: разброс почти в шесть раз",
+            "list": [
+              "Дешевле всего «Дворец водного спорта» — 120 000 сум за разовое посещение, месячный абонемент 1 000 000.",
+              "Magic Galaxy — 200 000 сум за два часа; здесь сауна, хаммам, джакузи и детская зона.",
+              "Dubai Spa — 250 000 сум за взрослого и 150 000 за ребёнка; 20-метровая чаша, русская баня, хаммам, массаж.",
+              "Academy Athletica — 700 000 сум за разовое посещение и 2 800 000 за месяц: самый дорогой крытый бассейн каталога.",
+              "В Born2swim платят за занятия: детское занятие 150 000 сум, пакет из 4 — 500 000, из 8 — 830 000. Взрослая программа Pro — 1 500 000 сум.",
+              "Цена не заполнена только у «Бассейна МВЭС Inter Sport»."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько крытых бассейнов в Ташкенте и все ли работают зимой?",
+            "a": "Одиннадцать, и все круглогодичные. Это главное отличие категории от открытых бассейнов: тех в городе десять, и все они сезонные."
+          },
+          {
+            "q": "Где в Ташкенте 50-метровый крытый бассейн?",
+            "a": "В филиале «Pro by Born2swim» в Яккасарайском районе. Остальные филиалы сети — учебные чаши на 7–8 метров, у Dubai Spa 20 метров. Длина чаши заполнена не у всех объектов категории."
+          },
+          {
+            "q": "Есть ли в крытых бассейнах тренер?",
+            "a": "Да, услуга тренера отмечена у десяти объектов из одиннадцати. Единственное исключение — Dubai Spa: это спа-формат без занятий с инструктором."
+          },
+          {
+            "q": "Куда пойти с ребёнком?",
+            "a": "Детская зона отмечена у четырёх объектов: Magic Galaxy, «Бассейн МВЭС Inter Sport», «Дворец водного спорта» и Academy Athletica. Если нужно именно обучение с раннего возраста — в филиалах Born2swim есть программы грудничкового плавания."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Toshkentda yopiq basseynlar o'n bitta va barchasi yil davomida ishlaydi. Ammo bu bitta format emas, ikkita boshqacha format: o'n bitta obyektdan oltitasi — Born2swim suzish maktabining filiallari, u yerga mustaqil suzish uchun emas, o'qish uchun boradilar.",
+        "sections": [
+          {
+            "heading": "Suzish maktabi yoki erkin suzish",
+            "body": "Born2swim — shahar bo'ylab oltita filialdan iborat tarmoq: ikkitasi Yakkasaroy tumanida («Pro by Born2swim» va «Parisien»), bittadan Mirobod, Shayxontohur, Yashnobod va Yunusobod tumanlarida. Ulardan beshtasi — murabbiy bilan mashg'ulot va chaqaloqlar suzishi uchun 7–8 metrli kichik o'quv chashalari. Istisno — 50 metrli basseynga ega «Pro by Born2swim». Toifadagi qolgan beshta obyekt oddiy tartibda ishlaydi: Yunusobod tumanidagi «Suv sporti saroyi», Mirzo Ulug'bek tumanidagi «MVES Inter Sport basseyni» va Academy Athletica, Chilonzor tumanidagi Dubai Spa va Magic Galaxy."
+          },
+          {
+            "heading": "Narxi qancha: farq deyarli olti baravar",
+            "list": [
+              "Eng arzoni «Suv sporti saroyi» — bir martalik tashrif 120 000 so'm, oylik obuna 1 000 000.",
+              "Magic Galaxy — ikki soat uchun 200 000 so'm; bu yerda sauna, hammom, jakuzi va bolalar zonasi bor.",
+              "Dubai Spa — kattalar uchun 250 000 so'm, bolalar uchun 150 000; 20 metrli chasha, rus hammomi, turk hammomi, massaj.",
+              "Academy Athletica — bir martalik tashrif 700 000 so'm va oyiga 2 800 000: katalogdagi eng qimmat yopiq basseyn.",
+              "Born2swim'da mashg'ulot uchun to'lanadi: bolalar mashg'uloti 150 000 so'm, 4 talik paket — 500 000, 8 talik — 830 000. Kattalar uchun Pro dasturi — 1 500 000 so'm.",
+              "Narx faqat «MVES Inter Sport basseyni»da to'ldirilmagan."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Toshkentda nechta yopiq basseyn bor va hammasi qishda ishlaydimi?",
+            "a": "O'n bitta va barchasi yil davomida ishlaydi. Bu toifaning ochiq basseynlardan asosiy farqi: shaharda ochiq basseynlar o'nta va ularning hammasi mavsumiy."
+          },
+          {
+            "q": "Toshkentda 50 metrli yopiq basseyn qayerda?",
+            "a": "Yakkasaroy tumanidagi «Pro by Born2swim» filialida. Tarmoqning qolgan filiallari — 7–8 metrli o'quv chashalari, Dubai Spa'da 20 metr. Chasha uzunligi toifadagi hamma obyektda to'ldirilmagan."
+          },
+          {
+            "q": "Yopiq basseynlarda murabbiy bormi?",
+            "a": "Ha, o'n bitta obyektdan o'ntasida murabbiy xizmati belgilangan. Yagona istisno — Dubai Spa: bu instruktor bilan mashg'ulotsiz spa-format."
+          },
+          {
+            "q": "Bola bilan qayerga borish kerak?",
+            "a": "To'rtta obyektda bolalar zonasi belgilangan: Magic Galaxy, «MVES Inter Sport basseyni», «Suv sporti saroyi» va Academy Athletica. Agar aynan kichik yoshdan o'qitish kerak bo'lsa — Born2swim filiallarida chaqaloqlar suzishi dasturlari bor."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Tashkent has eleven indoor pools and all of them run year-round. But this isn't one format — it's two: six of the eleven are branches of the Born2swim swim school, where people come to learn rather than to swim on their own.",
+        "sections": [
+          {
+            "heading": "Swim school or open swimming",
+            "body": "Born2swim is a chain of six branches across the city: two in Yakkasaray (Pro by Born2swim and Parisien) and one each in Mirobod, Shayhontohur, Yashnabad and Yunusabad. Five of them are small 7–8 meter teaching pools for coached lessons and baby swimming. The exception is Pro by Born2swim with its 50-meter pool. The other five venues in the category operate normally: the Water Sports Palace in Yunusabad, MVES Inter Sport and Academy Athletica in Mirzo-Ulugbek, and Dubai Spa and Magic Galaxy in Chilanzar."
+          },
+          {
+            "heading": "Prices span almost sixfold",
+            "list": [
+              "The cheapest is the Water Sports Palace — 120,000 UZS for a single visit and 1,000,000 for a monthly pass.",
+              "Magic Galaxy — 200,000 UZS for two hours, with a sauna, hammam, jacuzzi and children's zone.",
+              "Dubai Spa — 250,000 UZS for an adult and 150,000 for a child; a 20-meter pool, Russian banya, hammam and massage.",
+              "Academy Athletica — 700,000 UZS for a single visit and 2,800,000 per month: the most expensive indoor pool in the catalog.",
+              "At Born2swim you pay per lesson: a children's lesson is 150,000 UZS, a 4-lesson package 500,000 and an 8-lesson one 830,000. The adult Pro program is 1,500,000 UZS.",
+              "Pricing is missing only for MVES Inter Sport."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "How many indoor pools does Tashkent have, and do they all run in winter?",
+            "a": "Eleven, and all of them are year-round. That's the category's main difference from open-air pools: the city has ten of those and every one is seasonal."
+          },
+          {
+            "q": "Where is there a 50-meter indoor pool in Tashkent?",
+            "a": "At the Pro by Born2swim branch in Yakkasaray. The chain's other branches are 7–8 meter teaching pools, and Dubai Spa has 20 meters. Pool length isn't recorded for every venue in the category."
+          },
+          {
+            "q": "Is a coach available at indoor pools?",
+            "a": "Yes, coaching is marked at ten of the eleven venues. The only exception is Dubai Spa, a spa format without instructor-led lessons."
+          },
+          {
+            "q": "Where should I go with a child?",
+            "a": "A children's zone is marked at four venues: Magic Galaxy, MVES Inter Sport, the Water Sports Palace and Academy Athletica. If you specifically want lessons from an early age, the Born2swim branches run baby swimming programs."
+          }
+        ]
+      }
+    },
+
+    "karakalpakstan": {
+      "ru": {
+        "intro": "Каракалпакстан — второй регион страны по числу крытых бассейнов: семь объектов, все круглогодичные. Формат здесь совсем не столичный. Это городские и спортивные бассейны: ни сауны, ни спа-зоны, ни хаммама нет ни у одного из семи.",
+        "sections": [
+          {
+            "heading": "Нукус, Кунград и дальше",
+            "body": "Три бассейна в Нукусе: Школа по водным видам спорта Республики Каракалпакстан на улице Амира Тимура, «Бассейн Amudarya» и «Бассейн Арал». Два в Кунграде — «Бассейн Кунград» и «Бассейн Навои». Ещё по одному в Беруни и в городском посёлке Караузяк. Парковка отмечена у всех семи объектов, а самый крупный бассейн региона — «Сув Хавзаси Беруни» с 50-метровой чашей и тренажёрным залом."
+          },
+          {
+            "heading": "Цены",
+            "body": "Цена заполнена только у двух объектов из семи. «Бассейн Кунград» — 50 000 сум за взрослого и 30 000 за ребёнка: это самый дешёвый вход среди крытых бассейнов каталога. «Сув Хавзаси Беруни» работает по месячным программам: оздоровительное плавание 1 500 000 сум в месяц, взрослая группа 2 000 000, детская группа 7–14 лет 1 000 000; индивидуальное занятие 400 000–500 000 сум в зависимости от возраста. По остальным пяти объектам стоимость нужно уточнять по телефону, номера есть на странице каждого бассейна."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько стоит крытый бассейн в Нукусе?",
+            "a": "Ни у одного из трёх нукусских бассейнов цена в каталоге не заполнена — звоните напрямую, телефоны указаны на странице каждого объекта. Для ориентира: в Кунграде вход стоит 50 000 сум для взрослого и 30 000 для ребёнка."
+          },
+          {
+            "q": "Работают ли они зимой?",
+            "a": "Да, все семь круглогодичные. Открытых бассейнов в Каракалпакстане четыре, и все они сезонные, так что зимой крытые остаются единственным вариантом."
+          },
+          {
+            "q": "Есть ли сауна или спа?",
+            "a": "Нет: ни у одного из семи объектов сауна, спа-зона или хаммам не отмечены. Это бассейны для плавания, а не для отдыха. Тренажёрный зал есть только в Беруни."
+          },
+          {
+            "q": "Где 50-метровый бассейн?",
+            "a": "В Беруни — «Сув Хавзаси Беруни», единственный объект региона с 50-метровой чашей. Там же работают детские и взрослые группы и есть тренажёрный зал."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Qoraqalpog'iston — yopiq basseynlar soni bo'yicha mamlakatdagi ikkinchi hudud: yettita obyekt, barchasi yil davomida ishlaydi. Format bu yerda poytaxtdagidan butunlay boshqacha. Bular shahar va sport basseynlari: yettitasidan hech birida sauna, spa-zona yoki hammom yo'q.",
+        "sections": [
+          {
+            "heading": "Nukus, Qo'ng'irot va undan keyin",
+            "body": "Nukusda uchta basseyn: Amir Temur ko'chasidagi Qoraqalpog'iston Respublikasi suv sport turlari maktabi, «Amudarya basseyni» va «Aral basseyni». Ikkitasi Qo'ng'irotda — «Qo'ng'irot basseyni» va «Navoiy basseyni». Yana bittadan Beruniy va Qorao'zak shahar qishlog'ida. Yettita obyektning barchasida avtoturargoh belgilangan, hududning eng katta basseyni esa — 50 metrli chasha va trenajyor zaliga ega «Suv Havzasi Beruniy»."
+          },
+          {
+            "heading": "Narxlar",
+            "body": "Narx yettita obyektdan faqat ikkitasida to'ldirilgan. «Qo'ng'irot basseyni» — kattalar uchun 50 000 so'm, bolalar uchun 30 000: bu katalogdagi yopiq basseynlar orasida eng arzon kirish. «Suv Havzasi Beruniy» oylik dasturlar bo'yicha ishlaydi: sog'lomlashtiruvchi suzish oyiga 1 500 000 so'm, kattalar guruhi 2 000 000, 7–14 yoshli bolalar guruhi 1 000 000; individual mashg'ulot yoshga qarab 400 000–500 000 so'm. Qolgan beshta obyekt bo'yicha narxni telefon orqali aniqlashtirish kerak, raqamlar har bir basseyn sahifasida bor."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Nukusda yopiq basseyn qancha turadi?",
+            "a": "Nukusdagi uchta basseyndan hech birida narx katalogda to'ldirilmagan — to'g'ridan-to'g'ri qo'ng'iroq qiling, telefonlar har bir obyekt sahifasida ko'rsatilgan. Mo'ljal uchun: Qo'ng'irotda kirish kattalar uchun 50 000, bolalar uchun 30 000 so'm."
+          },
+          {
+            "q": "Ular qishda ishlaydimi?",
+            "a": "Ha, yettitasi ham yil davomida ishlaydi. Qoraqalpog'istonda ochiq basseynlar to'rtta va barchasi mavsumiy, shuning uchun qishda yopiq basseynlar yagona variant bo'lib qoladi."
+          },
+          {
+            "q": "Sauna yoki spa bormi?",
+            "a": "Yo'q: yettita obyektdan hech birida sauna, spa-zona yoki hammom belgilanmagan. Bular dam olish uchun emas, suzish uchun basseynlar. Trenajyor zali faqat Beruniyda bor."
+          },
+          {
+            "q": "50 metrli basseyn qayerda?",
+            "a": "Beruniyda — «Suv Havzasi Beruniy», hududdagi 50 metrli chashaga ega yagona obyekt. Shu yerda bolalar va kattalar guruhlari ishlaydi va trenajyor zali bor."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Karakalpakstan ranks second in the country for indoor pools: seven venues, all year-round. The format here is nothing like the capital's. These are municipal and sport pools: not one of the seven has a sauna, spa area or hammam.",
+        "sections": [
+          {
+            "heading": "Nukus, Kungrad and beyond",
+            "body": "Three pools are in Nukus: the Karakalpakstan Water Sports School on Amir Timur street, Amudarya and Aral. Two are in Kungrad — Kungrad and Navoi. One more each in Beruni and the town of Karauzyak. Parking is marked at all seven venues, and the region's largest pool is Suv Havzasi Beruni, with a 50-meter pool and a gym."
+          },
+          {
+            "heading": "Prices",
+            "body": "Pricing is filled in for only two of the seven venues. Kungrad charges 50,000 UZS for an adult and 30,000 for a child — the cheapest indoor pool entry in the catalog. Suv Havzasi Beruni works on monthly programs: therapeutic swimming 1,500,000 UZS a month, an adult group 2,000,000, a children's group aged 7–14 1,000,000, and individual lessons 400,000–500,000 UZS depending on age. For the other five venues you'll need to check by phone; numbers are on each pool's page."
+          }
+        ],
+        "faq": [
+          {
+            "q": "How much does an indoor pool cost in Nukus?",
+            "a": "None of the three Nukus pools has pricing in the catalog — call directly; phone numbers are on each venue's page. For reference, entry in Kungrad is 50,000 UZS for an adult and 30,000 for a child."
+          },
+          {
+            "q": "Do they run in winter?",
+            "a": "Yes, all seven are year-round. Karakalpakstan's four open-air pools are all seasonal, so in winter the indoor ones are the only option."
+          },
+          {
+            "q": "Is there a sauna or spa?",
+            "a": "No — none of the seven venues has a sauna, spa area or hammam marked. These are pools for swimming, not for lounging. A gym exists only in Beruni."
+          },
+          {
+            "q": "Where is the 50-meter pool?",
+            "a": "In Beruni — Suv Havzasi Beruni, the region's only venue with a 50-meter pool. It also runs children's and adult groups and has a gym."
+          }
+        ]
+      }
+    },
+
+    "samarkand": {
+      "ru": {
+        "intro": "Крытых бассейнов в Самаркандской области пять, и почти все они спа-формата: сауна, хаммам или баня есть у четырёх объектов из пяти. Этим регион резко отличается от Каракалпакстана, где крытые бассейны спортивные и таких удобств нет ни у одного.",
+        "sections": [
+          {
+            "heading": "Спа-кластер на улице Лочин",
+            "body": "Два объекта стоят практически рядом на улице Лочин в Самарканде: Luxe в доме 33б — турецкий хаммам, русская баня, сауна, массаж и караоке — и Spa & Sauna Komfort в доме 21 со спа-зоной, сауной, хаммамом и джакузи. Третий спа-объект, Aqua Spa на 3-й улице Баркарор, оснащён лучше всех: 20-метровая чаша, тренер, хаммам, сауна, массаж, ресторан и бар. Остальные два объекта другого формата: филиал школы плавания Born2swim на улице Амира Темура и аквапарк «Вавилон» на улице Навобод, который работает круглый год."
+          },
+          {
+            "heading": "Цены",
+            "body": "У трёх спа-объектов — Luxe, Spa & Sauna Komfort и Aqua Spa — цены в каталоге не заполнены, их нужно уточнять по телефону. Известны только два прайса. Born2swim в Самарканде дешевле ташкентских филиалов той же сети: пакет из 4 детских занятий стоит 450 000 сум против 500 000 в Ташкенте, из 8 — 690 000 против 830 000. В аквапарке «Вавилон» билет зависит от возраста и дня недели: детям до 10 лет 65 000–150 000 сум, посетителям старше 10 лет — 125 000–300 000."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько крытых бассейнов в Самарканде и работают ли они зимой?",
+            "a": "Пять, и все круглогодичные. Открытых бассейнов в области девять, но все они сезонные — зимой остаются только эти пять."
+          },
+          {
+            "q": "Есть ли сауна и хаммам?",
+            "a": "Да, и это особенность региона: сауна отмечена у четырёх объектов из пяти, турецкий хаммам — у трёх, спа-зона и массаж — у двух каждый."
+          },
+          {
+            "q": "Сколько стоит крытый бассейн в Самарканде?",
+            "a": "Три спа-объекта цены не публикуют. У Born2swim пакет из 4 детских занятий — 450 000 сум, это дешевле, чем в ташкентских филиалах той же сети. В аквапарке «Вавилон» взрослый билет 125 000–300 000 сум в зависимости от дня."
+          },
+          {
+            "q": "Куда пойти с ребёнком?",
+            "a": "Детская зона отмечена у аквапарка «Вавилон» — он крытый и работает круглый год. Если нужно обучение плаванию, это филиал Born2swim на улице Амира Темура, там есть программы для малышей."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Samarqand viloyatida yopiq basseynlar beshta va deyarli barchasi spa-formatda: beshta obyektdan to'rttasida sauna, hammom yoki hammom bor. Shu bilan hudud Qoraqalpog'istondan keskin farq qiladi, u yerda yopiq basseynlar sport basseynlari va bunday qulayliklar hech qaysisida yo'q.",
+        "sections": [
+          {
+            "heading": "Lochin ko'chasidagi spa-to'plam",
+            "body": "Ikkita obyekt Samarqanddagi Lochin ko'chasida deyarli yonma-yon: 33b uydagi Luxe — turk hammomi, rus hammomi, sauna, massaj va karaoke — va 21-uydagi Spa & Sauna Komfort, spa-zona, sauna, hammom va jakuzi bilan. Uchinchi spa-obyekt, 3-Barqaror ko'chasidagi Aqua Spa, eng yaxshi jihozlangan: 20 metrli chasha, murabbiy, hammom, sauna, massaj, restoran va bar. Qolgan ikkita obyekt boshqa formatda: Amir Temur ko'chasidagi Born2swim suzish maktabi filiali va Navobod ko'chasidagi «Vavilon» akvaparki, u yil davomida ishlaydi."
+          },
+          {
+            "heading": "Narxlar",
+            "body": "Uchta spa-obyektda — Luxe, Spa & Sauna Komfort va Aqua Spa — narxlar katalogda to'ldirilmagan, ularni telefon orqali aniqlashtirish kerak. Faqat ikkita narx ma'lum. Samarqanddagi Born2swim shu tarmoqning Toshkentdagi filiallariga qaraganda arzonroq: 4 talik bolalar mashg'ulotlari paketi Toshkentdagi 500 000 so'mga qarshi 450 000, 8 talik — 830 000 ga qarshi 690 000. «Vavilon» akvaparkida chipta yosh va hafta kuniga bog'liq: 10 yoshgacha bolalarga 65 000–150 000 so'm, 10 yoshdan katta tashrif buyuruvchilarga — 125 000–300 000."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Samarqandda nechta yopiq basseyn bor va ular qishda ishlaydimi?",
+            "a": "Beshta va barchasi yil davomida ishlaydi. Viloyatda ochiq basseynlar to'qqizta, ammo barchasi mavsumiy — qishda faqat shu beshtasi qoladi."
+          },
+          {
+            "q": "Sauna va hammom bormi?",
+            "a": "Ha, va bu hududning xususiyati: beshta obyektdan to'rttasida sauna, uchtasida turk hammomi, ikkitasida spa-zona va ikkitasida massaj belgilangan."
+          },
+          {
+            "q": "Samarqandda yopiq basseyn qancha turadi?",
+            "a": "Uchta spa-obyekt narxni e'lon qilmaydi. Born2swim'da 4 talik bolalar mashg'ulotlari paketi — 450 000 so'm, bu shu tarmoqning Toshkentdagi filiallariga qaraganda arzonroq. «Vavilon» akvaparkida kattalar chiptasi kunga qarab 125 000–300 000 so'm."
+          },
+          {
+            "q": "Bola bilan qayerga borish kerak?",
+            "a": "Bolalar zonasi «Vavilon» akvaparkida belgilangan — u yopiq va yil davomida ishlaydi. Suzishni o'rgatish kerak bo'lsa, bu Amir Temur ko'chasidagi Born2swim filiali, u yerda kichkintoylar uchun dasturlar bor."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Samarkand Region has five indoor pools, and nearly all of them are a spa format: four of the five have a sauna, hammam or banya. That sets the region sharply apart from Karakalpakstan, where indoor pools are sport venues and not one has such amenities.",
+        "sections": [
+          {
+            "heading": "The spa cluster on Lochin street",
+            "body": "Two venues sit almost next door on Lochin street in Samarkand: Luxe at number 33b — Turkish hammam, Russian banya, sauna, massage and karaoke — and Spa & Sauna Komfort at number 21, with a spa area, sauna, hammam and jacuzzi. The third spa venue, Aqua Spa on 3rd Barkaror street, is the best equipped: a 20-meter pool, a coach, hammam, sauna, massage, restaurant and bar. The other two are a different format: the Born2swim swim school branch on Amir Temur street and the Vavilon aquapark on Navobod street, which runs year-round."
+          },
+          {
+            "heading": "Prices",
+            "body": "The three spa venues — Luxe, Spa & Sauna Komfort and Aqua Spa — have no pricing in the catalog, so you'll need to call. Only two price lists are known. Born2swim in Samarkand is cheaper than the same chain's Tashkent branches: a 4-lesson children's package costs 450,000 UZS against 500,000 in Tashkent, and an 8-lesson one 690,000 against 830,000. At the Vavilon aquapark the ticket depends on age and day of the week: 65,000–150,000 UZS for children under 10 and 125,000–300,000 for visitors over 10."
+          }
+        ],
+        "faq": [
+          {
+            "q": "How many indoor pools are in Samarkand, and do they run in winter?",
+            "a": "Five, and all are year-round. The region has nine open-air pools, but every one is seasonal — in winter only these five remain."
+          },
+          {
+            "q": "Is there a sauna and hammam?",
+            "a": "Yes, and it's what defines the region: a sauna is marked at four of the five venues, a Turkish hammam at three, and a spa area and massage at two each."
+          },
+          {
+            "q": "How much does an indoor pool cost in Samarkand?",
+            "a": "The three spa venues don't publish prices. At Born2swim a 4-lesson children's package is 450,000 UZS, cheaper than at the same chain's Tashkent branches. At the Vavilon aquapark an adult ticket is 125,000–300,000 UZS depending on the day."
+          },
+          {
+            "q": "Where should I go with a child?",
+            "a": "A children's zone is marked at the Vavilon aquapark, which is indoor and runs year-round. If you want swim lessons, that's the Born2swim branch on Amir Temur street, which has programs for toddlers."
+          }
+        ]
+      }
+    }
   }
 }
