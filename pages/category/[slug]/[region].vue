@@ -100,15 +100,99 @@
           <PoolCard v-for="pool in pools" :key="pool.id" :pool="pool" />
         </div>
       </div>
+
+      <!-- Unique text for this category + region -->
+      <div v-if="content" class="bg-white border-t border-gray-100">
+        <div class="container py-8">
+          <p class="text-sm text-gray-500 leading-relaxed">
+            {{ content.intro }}
+          </p>
+          <div
+            v-for="(section, i) in content.sections"
+            :key="i"
+            class="mt-6"
+          >
+            <h2 class="text-base font-bold text-gray-900 mb-2">
+              {{ section.heading }}
+            </h2>
+            <p
+              v-if="section.body"
+              class="text-sm text-gray-500 leading-relaxed"
+            >
+              {{ section.body }}
+            </p>
+            <ul
+              v-if="section.list"
+              class="text-sm text-gray-500 leading-relaxed space-y-1.5 list-disc pl-5"
+            >
+              <li v-for="(item, j) in section.list" :key="j">{{ item }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div
+        v-if="faqItems.length > 0"
+        class="container py-8 border-t border-gray-100"
+      >
+        <h2 class="text-lg font-bold text-gray-900 mb-4">
+          {{ $t("category.faq_title", { name: h1 }) }}
+        </h2>
+        <div class="space-y-2.5 max-w-3xl">
+          <div
+            v-for="(item, index) in faqItems"
+            :key="index"
+            class="bg-white rounded-xl border border-gray-100 overflow-hidden"
+          >
+            <button
+              type="button"
+              class="w-full flex items-center justify-between gap-4 px-4 py-3.5 text-left hover:bg-gray-50 transition-colors duration-150"
+              :aria-expanded="openFaqIndex === index"
+              @click="openFaqIndex = openFaqIndex === index ? null : index"
+            >
+              <span class="font-medium text-gray-900 text-sm leading-snug">{{
+                item.q
+              }}</span>
+              <svg
+                class="w-4 h-4 shrink-0 text-primary-600 transition-transform duration-200"
+                :class="{ 'rotate-180': openFaqIndex === index }"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div
+              v-if="openFaqIndex === index"
+              class="px-4 pb-3.5 text-sm text-gray-500 leading-relaxed border-t border-gray-50 pt-3"
+            >
+              {{ item.a }}
+            </div>
+          </div>
+        </div>
+      </div>
     </template>
   </div>
 </template>
 
 <script setup lang="ts">
 import type { PoolCategory } from "~/types/pool";
+import regionContent from "~/data/categoryRegionContent.json";
+
+type FaqItem = { q: string; a: string };
+type RegionContent = {
+  intro: string;
+  sections: { heading: string; body?: string; list?: string[] }[];
+  faq?: FaqItem[];
+};
 
 const route = useRoute();
-const { t } = useI18n();
+const { t, locale } = useI18n();
 const localePath = useLocalePath();
 const poolsStore = usePoolsStore();
 const { categories } = useCategories();
@@ -142,6 +226,19 @@ const h1 = computed(() =>
   })
 );
 
+// Уникальный текст заполнен не у всех комбинаций — страница без него
+// показывает только список бассейнов.
+const content = computed((): RegionContent | null => {
+  const all = regionContent as unknown as Record<
+    string,
+    Record<string, Record<string, RegionContent>>
+  >;
+  return all[slug]?.[regionId]?.[locale.value] ?? null;
+});
+
+const faqItems = computed((): FaqItem[] => content.value?.faq ?? []);
+const openFaqIndex = ref<number | null>(null);
+
 watchEffect(() => {
   if (!category.value || !regionEntry.value) return;
 
@@ -163,7 +260,7 @@ watchEffect(() => {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: h1.value,
-    description: category.value.description,
+    description: content.value?.intro ?? category.value.description,
     url: `${BASE_URL}/category/${slug}/${regionId}`,
     mainEntity: {
       "@type": "ItemList",
@@ -203,19 +300,36 @@ watchEffect(() => {
     ],
   };
 
-  useHead({
-    script: [
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(schema),
-        key: "schema-category-region",
-      },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify(breadcrumb),
-        key: "schema-breadcrumb",
-      },
-    ],
-  });
+  const scripts = [
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(schema),
+      key: "schema-category-region",
+    },
+    {
+      type: "application/ld+json",
+      children: JSON.stringify(breadcrumb),
+      key: "schema-breadcrumb",
+    },
+  ];
+
+  if (faqItems.value.length > 0) {
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqItems.value.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+    };
+    scripts.push({
+      type: "application/ld+json",
+      children: JSON.stringify(faqSchema),
+      key: "schema-faq",
+    });
+  }
+
+  useHead({ script: scripts });
 });
 </script>

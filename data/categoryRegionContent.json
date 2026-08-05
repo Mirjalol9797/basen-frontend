@@ -1,0 +1,554 @@
+{
+  "_comment": "Уникальный текст для страниц «категория × регион» (/category/{category}/{region}). Ключ первого уровня — категория, второго — регион, третьего — локаль. Всё необязательно: страница без записи здесь показывает только список бассейнов. Цифры и названия объектов проверяются по pools.json — при правке данных проверить и текст.",
+
+  "open": {
+    "tashkent-city": {
+      "ru": {
+        "intro": "Открытых бассейнов в Ташкенте десять, и все они сезонные — работают с мая по сентябрь. Это городской формат «на весь день»: кафе есть у всех десяти объектов, детская зона — у шести.",
+        "sections": [
+          {
+            "heading": "Где искать: Ийк-Ота и остальные районы",
+            "body": "Четыре бассейна из десяти стоят рядом друг с другом в Бектемирском районе, в посёлке Ийк-Ота: Malibu Sun Club, «Три пальмы», Grace Garden и комплекс ALEKS. Это самое плотное скопление открытых бассейнов в городе — если в одном нет мест, соседний рядом. Ещё два объекта в Сергелийском районе (Dos Hermanas by Alena, Astera Sea), два в Яшнабадском (Paradise, «Акапулько»), по одному в Яккасарайском («Бассейн Garden Park», ближе всех к центру) и Мирзо-Улугбекском («Мохито»)."
+          },
+          {
+            "heading": "Сколько стоит и как считают",
+            "list": [
+              "Взрослый билет — от 50 000 до 240 000 сум; цена заполнена у 9 объектов из 10.",
+              "Многие берут плату за время, а не за вход: в «Бассейне Garden Park» час стоит 100 000 сум, три часа — 180 000, весь день — 240 000. В Paradise час — 50 000, весь день — 130 000.",
+              "В выходные дороже: «Три пальмы» — 120 000 в будни против 150 000 в выходные, «Акапулько» — 150 000 против 180 000.",
+              "Malibu Sun Club берёт плату только за аренду топчана или столика, вход в воду бесплатный — для компании это часто выгоднее поштучных билетов.",
+              "Детский билет дешевле взрослого примерно вдвое — от 40 000 сум."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Работают ли открытые бассейны Ташкента зимой?",
+            "a": "Нет, все десять сезонные и работают с мая по сентябрь. Зимой в городе остаются крытые бассейны — их 11."
+          },
+          {
+            "q": "В каком районе Ташкента больше всего открытых бассейнов?",
+            "a": "В Бектемирском — четыре объекта, все в посёлке Ийк-Ота. Дальше идут Сергелийский и Яшнабадский районы, по два бассейна в каждом."
+          },
+          {
+            "q": "Есть ли открытый бассейн в центре Ташкента?",
+            "a": "Ближе всех к центру «Бассейн Garden Park» на улице Бабура в Яккасарайском районе. Остальные стоят на окраинах: открытому бассейну нужна большая территория под зону отдыха и парковку."
+          },
+          {
+            "q": "Куда поехать с ребёнком?",
+            "a": "Детская зона отмечена у шести объектов из десяти: Grace Garden, «Бассейн Garden Park», Malibu Sun Club, «Три пальмы», ALEKS и «Акапулько». Глубину чаши и возрастные ограничения уточняйте на странице бассейна."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Toshkentda ochiq basseynlar o'nta va ularning barchasi mavsumiy — may oyidan sentyabrgacha ishlaydi. Bu «kun bo'yi» shahar formati: o'n obyektning hammasida kafe, oltitasida bolalar zonasi bor.",
+        "sections": [
+          {
+            "heading": "Qayerda izlash kerak: Iyk-Ota va boshqa tumanlar",
+            "body": "O'n basseyndan to'rttasi Bektemir tumanida, Iyk-Ota qishlog'ida bir-birining yonida joylashgan: Malibu Sun Club, «Uch palma», Grace Garden va ALEKS majmuasi. Bu shahardagi ochiq basseynlarning eng zich to'plami — birida joy bo'lmasa, qo'shnisi yonida. Yana ikkita obyekt Sergeli tumanida (Dos Hermanas by Alena, Astera Sea), ikkitasi Yashnobodda (Paradise, «Akapulko»), bittadan Yakkasaroyda («Garden Park basseyni», markazga eng yaqini) va Mirzo Ulug'bek tumanida («Moxito»)."
+          },
+          {
+            "heading": "Narxi qancha va qanday hisoblanadi",
+            "list": [
+              "Kattalar chiptasi — 50 000 dan 240 000 so'mgacha; narx 10 obyektdan 9 tasida to'ldirilgan.",
+              "Ko'pchiligi kirish uchun emas, vaqt uchun pul oladi: «Garden Park basseyni»da bir soat 100 000 so'm, uch soat — 180 000, butun kun — 240 000. Paradise'da bir soat — 50 000, butun kun — 130 000.",
+              "Dam olish kunlari qimmatroq: «Uch palma» — ish kunlari 120 000, dam olish kunlari 150 000; «Akapulko» — 150 000 va 180 000.",
+              "Malibu Sun Club faqat topchan yoki stol ijarasi uchun pul oladi, suvga kirish bepul — kompaniya uchun bu ko'pincha alohida chiptalardan tejamliroq.",
+              "Bolalar chiptasi kattalarnikidan taxminan ikki baravar arzon — 40 000 so'mdan."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Toshkentning ochiq basseynlari qishda ishlaydimi?",
+            "a": "Yo'q, o'ntasi ham mavsumiy va may oyidan sentyabrgacha ishlaydi. Qishda shaharda yopiq basseynlar qoladi — ularning soni 11 ta."
+          },
+          {
+            "q": "Toshkentning qaysi tumanida ochiq basseynlar ko'proq?",
+            "a": "Bektemir tumanida — to'rtta obyekt, barchasi Iyk-Ota qishlog'ida. Keyin Sergeli va Yashnobod tumanlari, har birida ikkitadan."
+          },
+          {
+            "q": "Toshkent markazida ochiq basseyn bormi?",
+            "a": "Markazga eng yaqini — Yakkasaroy tumanidagi Bobur ko'chasidagi «Garden Park basseyni». Qolganlari shahar chekkasida: ochiq basseynga dam olish zonasi va avtoturargoh uchun keng hudud kerak."
+          },
+          {
+            "q": "Bola bilan qayerga borish kerak?",
+            "a": "O'n obyektdan oltitasida bolalar zonasi belgilangan: Grace Garden, «Garden Park basseyni», Malibu Sun Club, «Uch palma», ALEKS va «Akapulko». Chasha chuqurligi va yosh chegaralarini basseyn sahifasidan aniqlashtiring."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Tashkent has ten open-air pools and all of them are seasonal, running from May to September. This is the city's all-day format: all ten have a cafe and six have a children's zone.",
+        "sections": [
+          {
+            "heading": "Where to look: Iyk-Ota and the other districts",
+            "body": "Four of the ten sit next to each other in the Bektemir district, in the village of Iyk-Ota: Malibu Sun Club, Three Palms, Grace Garden and the ALEKS complex. It's the densest cluster of open-air pools in the city — if one is full, the next is right there. Two more are in Sergeli (Dos Hermanas by Alena, Astera Sea), two in Yashnabad (Paradise, Akapulko), and one each in Yakkasaray (Garden Park, the closest to the centre) and Mirzo-Ulugbek (Mohito)."
+          },
+          {
+            "heading": "Prices and how they're counted",
+            "list": [
+              "An adult ticket runs 50,000 to 240,000 UZS; pricing is filled in for 9 of the 10 venues.",
+              "Many charge for time rather than entry: at Garden Park an hour costs 100,000 UZS, three hours 180,000 and a full day 240,000. At Paradise it's 50,000 for an hour and 130,000 for the day.",
+              "Weekends cost more: Three Palms charges 120,000 on weekdays against 150,000 at weekends, Akapulko 150,000 against 180,000.",
+              "Malibu Sun Club charges only for a tapchan or table rental, with free water access — often better value for a group than individual tickets.",
+              "A child ticket is roughly half the adult price, starting at 40,000 UZS."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Are Tashkent's open-air pools open in winter?",
+            "a": "No, all ten are seasonal and run from May to September. In winter the city is left with its indoor pools — there are 11 of them."
+          },
+          {
+            "q": "Which Tashkent district has the most open-air pools?",
+            "a": "Bektemir, with four venues, all in the village of Iyk-Ota. Sergeli and Yashnabad follow with two pools each."
+          },
+          {
+            "q": "Is there an open-air pool in central Tashkent?",
+            "a": "The closest to the centre is Garden Park on Babur street in the Yakkasaray district. The rest sit on the outskirts: an open-air pool needs a large plot for its lounge area and parking."
+          },
+          {
+            "q": "Where should I go with a child?",
+            "a": "A children's zone is marked at six of the ten venues: Grace Garden, Garden Park, Malibu Sun Club, Three Palms, ALEKS and Akapulko. Check pool depth and age limits on the venue's page."
+          }
+        ]
+      }
+    },
+
+    "samarkand": {
+      "ru": {
+        "intro": "Открытых бассейнов в Самаркандской области девять — второе место в стране после Ташкента. Но устроены они иначе, чем столичные: почти все стоят за пределами города, а цену публикует только один объект из девяти.",
+        "sections": [
+          {
+            "heading": "Почти всё — за городом",
+            "body": "В самом Самарканде из девяти объектов только один — «Летний бассейн» на улице Бирдамлик. Остальные распределены по районам области: три в Джамбайском (Eco Zarafshon, Greenpool Jomboy, Delfin), по одному в Каттакурганском (Cosmos), Булунгурском, Ургутском и Самаркандском (Zvezda), ещё один в Агалыке (Oila Oromgohi). Парковка отмечена у восьми объектов из девяти — формат рассчитан на приезд на машине."
+          },
+          {
+            "heading": "Цены и удобства",
+            "body": "Цена в каталоге заполнена только у «Летнего бассейна» в Самарканде: 35 000 сум за взрослого и 30 000 за подростка 12–18 лет, без ограничения по времени — это одна из самых низких цен на открытый бассейн в стране. По остальным восьми объектам стоимость нужно уточнять по телефону, номера есть на странице каждого бассейна. Из удобств чаще всего отмечены лежаки (пять объектов) и бар (четыре), ресторан есть у Eco Zarafshon и Cosmos, а детская зона — только у Oila Oromgohi в Агалыке, где глубина чаши 1–1,6 метра."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько стоит открытый бассейн в Самарканде?",
+            "a": "Цену публикует только «Летний бассейн» в Самарканде: 35 000 сум для взрослого и 30 000 для подростка 12–18 лет, время не ограничено. По остальным восьми объектам звоните напрямую — телефоны указаны в каталоге."
+          },
+          {
+            "q": "Есть ли открытые бассейны в самом Самарканде?",
+            "a": "Один — «Летний бассейн» на улице Бирдамлик. Остальные восемь находятся в районах области: Джамбайском, Каттакурганском, Булунгурском, Ургутском, Самаркандском и в Агалыке."
+          },
+          {
+            "q": "Работают ли они круглый год?",
+            "a": "Нет, все девять сезонные. Зимой в Самаркандской области работают пять крытых бассейнов."
+          },
+          {
+            "q": "Куда поехать с детьми?",
+            "a": "Детская зона отмечена только у Oila Oromgohi в Агалыке, глубина чаши там 1–1,6 метра. Второй вариант — аквапарки: в Самаркандской области их пять, и у большинства детские зоны есть."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Samarqand viloyatida ochiq basseynlar to'qqizta — Toshkentdan keyin ikkinchi o'rin. Ammo ular poytaxtdagilardan boshqacha tashkil etilgan: deyarli barchasi shahar tashqarisida, narxni esa to'qqizta obyektdan faqat bittasi e'lon qiladi.",
+        "sections": [
+          {
+            "heading": "Deyarli hammasi — shahar tashqarisida",
+            "body": "Samarqand shahrining o'zida to'qqizta obyektdan faqat bittasi bor — Birdamlik ko'chasidagi «Yozgi basseyn». Qolganlari viloyat tumanlariga taqsimlangan: uchtasi Jomboy tumanida (Eco Zarafshon, Greenpool Jomboy, Delfin), bittadan Kattaqo'rg'on (Cosmos), Bulung'ur, Urgut va Samarqand tumanlarida (Zvezda), yana bittasi Agalikda (Oila Oromgohi). To'qqizta obyektdan sakkiztasida avtoturargoh belgilangan — format mashinada kelishga mo'ljallangan."
+          },
+          {
+            "heading": "Narxlar va qulayliklar",
+            "body": "Katalogda narx faqat Samarqanddagi «Yozgi basseyn»da to'ldirilgan: kattalar uchun 35 000 so'm va 12–18 yoshli o'smirlar uchun 30 000 so'm, vaqt cheklovisiz — bu mamlakatdagi ochiq basseyn uchun eng past narxlardan biri. Qolgan sakkizta obyekt bo'yicha narxni telefon orqali aniqlashtirish kerak, raqamlar har bir basseyn sahifasida bor. Qulayliklardan ko'proq shezlonglar (beshta obyekt) va bar (to'rtta) belgilangan, restoran Eco Zarafshon va Cosmos'da, bolalar zonasi esa faqat Agalikdagi Oila Oromgohi'da — u yerda chasha chuqurligi 1–1,6 metr."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Samarqandda ochiq basseyn qancha turadi?",
+            "a": "Narxni faqat Samarqanddagi «Yozgi basseyn» e'lon qiladi: kattalar uchun 35 000 so'm, 12–18 yoshli o'smirlar uchun 30 000 so'm, vaqt cheklanmagan. Qolgan sakkizta obyektga to'g'ridan-to'g'ri qo'ng'iroq qiling — telefonlar katalogda ko'rsatilgan."
+          },
+          {
+            "q": "Samarqand shahrining o'zida ochiq basseynlar bormi?",
+            "a": "Bittasi — Birdamlik ko'chasidagi «Yozgi basseyn». Qolgan sakkiztasi viloyat tumanlarida: Jomboy, Kattaqo'rg'on, Bulung'ur, Urgut, Samarqand tumanlari va Agalikda."
+          },
+          {
+            "q": "Ular yil davomida ishlaydimi?",
+            "a": "Yo'q, to'qqiztasi ham mavsumiy. Qishda Samarqand viloyatida beshta yopiq basseyn ishlaydi."
+          },
+          {
+            "q": "Bolalar bilan qayerga borish kerak?",
+            "a": "Bolalar zonasi faqat Agalikdagi Oila Oromgohi'da belgilangan, chasha chuqurligi u yerda 1–1,6 metr. Ikkinchi variant — akvaparklar: Samarqand viloyatida ularning soni beshta va ko'pchiligida bolalar zonasi bor."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Samarkand Region has nine open-air pools — second in the country after Tashkent. But they work differently from the capital's: almost all sit outside the city, and only one of the nine publishes its prices.",
+        "sections": [
+          {
+            "heading": "Almost everything is out of town",
+            "body": "In Samarkand itself there is only one of the nine — the Summer Pool on Birdamlik street. The rest are spread across the region's districts: three in Jomboy (Eco Zarafshon, Greenpool Jomboy, Delfin), one each in Kattakurgan (Cosmos), Bulungur, Urgut and Samarkand district (Zvezda), plus one in Agalik (Oila Oromgohi). Parking is marked at eight of the nine — the format assumes you're arriving by car."
+          },
+          {
+            "heading": "Prices and amenities",
+            "body": "Pricing in the catalog is filled in only for the Summer Pool in Samarkand: 35,000 UZS for an adult and 30,000 for a teenager aged 12–18, with no time limit — one of the lowest open-air pool prices in the country. For the other eight venues you'll need to check by phone; numbers are on each pool's page. The most common amenities are loungers (five venues) and a bar (four); Eco Zarafshon and Cosmos have a restaurant, while a children's zone is marked only at Oila Oromgohi in Agalik, where the pool is 1–1.6 meters deep."
+          }
+        ],
+        "faq": [
+          {
+            "q": "How much does an open-air pool cost in Samarkand?",
+            "a": "Only the Summer Pool in Samarkand publishes prices: 35,000 UZS for an adult and 30,000 for a teenager aged 12–18, with no time limit. For the other eight venues, call directly — phone numbers are in the catalog."
+          },
+          {
+            "q": "Are there open-air pools in Samarkand city itself?",
+            "a": "One — the Summer Pool on Birdamlik street. The other eight are in the region's districts: Jomboy, Kattakurgan, Bulungur, Urgut, Samarkand district and Agalik."
+          },
+          {
+            "q": "Do they operate year-round?",
+            "a": "No, all nine are seasonal. In winter, Samarkand Region has five indoor pools in operation."
+          },
+          {
+            "q": "Where should I go with children?",
+            "a": "A children's zone is marked only at Oila Oromgohi in Agalik, where the pool is 1–1.6 meters deep. The other option is the aquaparks: Samarkand Region has five, and most of them do have children's zones."
+          }
+        ]
+      }
+    },
+
+    "bukhara": {
+      "ru": {
+        "intro": "Бухара — единственный регион страны, где открытые бассейны работают круглый год. Все шесть объектов круглогодичные, тогда как в остальных регионах открытые бассейны закрываются на зиму.",
+        "sections": [
+          {
+            "heading": "Почему они не закрываются на зиму",
+            "body": "Формально это открытые бассейны, но большинство работает при спа-комплексах и отелях, где вода подогревается, а рядом есть баня: сауна отмечена у четырёх объектов из шести, джакузи — у двух, турецкий хаммам — у Wyndham Bukhara. Пять бассейнов находятся в самой Бухаре, шестой — бассейн спортивной школы в Ромитане."
+          },
+          {
+            "heading": "Сколько стоит",
+            "list": [
+              "Atlantis Pool на улице Иброгима Муминова — от 60 000 сум за час в будни, в выходные 80 000. Есть абонементы: от 300 000 сум за 5 посещений до 700 000 за безлимит на месяц.",
+              "Aquamarine Spa and Pool — 100 000 сум за час днём и 120 000 вечером; в группе от пяти человек дешевле, 85 000. Детский тариф — 50 000.",
+              "Wyndham Bukhara — 200 000 сум за целый день, утренний сеанс с 7:00 до 12:00 — 150 000, детский билет всего 50 000. Здесь же есть аквааэробика и детские группы.",
+              "May Weather Resort — 50 000 сум с человека за час, детям до 14 лет 35 000. Бассейн можно снять целиком: от 500 000 сум за час в будни.",
+              "Цена не заполнена только у бассейна спортивной школы в Ромитане."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Правда ли, что в Бухаре открытые бассейны работают зимой?",
+            "a": "Да, все шесть круглогодичные — больше ни в одном регионе страны такого нет. Большинство работает при спа-комплексах и отелях, где вода подогревается."
+          },
+          {
+            "q": "Сколько стоит вход?",
+            "a": "От 50 000 сум за час в May Weather Resort до 200 000 сум за целый день в Wyndham Bukhara. Детские тарифы — 35 000–50 000 сум."
+          },
+          {
+            "q": "Есть ли сауна или спа?",
+            "a": "Сауна отмечена у четырёх объектов из шести, джакузи — у двух, турецкий хаммам — у Wyndham Bukhara. Для открытых бассейнов это редкий набор, он же и позволяет им работать зимой."
+          },
+          {
+            "q": "Есть ли бассейны за пределами города Бухары?",
+            "a": "Один — бассейн спортивной школы в Ромитане. Остальные пять находятся в самой Бухаре."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Buxoro — mamlakatdagi yagona viloyat, u yerda ochiq basseynlar yil davomida ishlaydi. Oltita obyektning barchasi yil bo'yi ochiq, boshqa viloyatlarda esa ochiq basseynlar qishga yopiladi.",
+        "sections": [
+          {
+            "heading": "Nega ular qishga yopilmaydi",
+            "body": "Rasman bular ochiq basseynlar, ammo ko'pchiligi suv isitiladigan va yonida hammom bo'lgan spa-majmualar hamda mehmonxonalar qoshida ishlaydi: oltita obyektdan to'rttasida sauna, ikkitasida jakuzi, Wyndham Bukhara'da turk hammomi belgilangan. Beshta basseyn Buxoro shahrining o'zida, oltinchisi — Romitandagi sport maktabi basseyni."
+          },
+          {
+            "heading": "Narxi qancha",
+            "list": [
+              "Ibrohim Mo'minov ko'chasidagi Atlantis Pool — ish kunlari bir soat 60 000 so'mdan, dam olish kunlari 80 000. Obunalar ham bor: 5 tashrif uchun 300 000 so'mdan oyiga cheklovsiz 700 000 so'mgacha.",
+              "Aquamarine Spa and Pool — kunduzi bir soat 100 000 so'm, kechqurun 120 000; besh kishidan ko'p guruhda arzonroq, 85 000. Bolalar tarifi — 50 000.",
+              "Wyndham Bukhara — butun kun uchun 200 000 so'm, 7:00 dan 12:00 gacha ertalabki seans — 150 000, bolalar chiptasi esa faqat 50 000. Shu yerda suv aerobikasi va bolalar guruhlari ham bor.",
+              "May Weather Resort — bir soat uchun kishi boshiga 50 000 so'm, 14 yoshgacha bolalarga 35 000. Basseynni butunlay ijaraga olish mumkin: ish kunlari bir soat 500 000 so'mdan.",
+              "Narx faqat Romitandagi sport maktabi basseynida to'ldirilmagan."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Buxoroda ochiq basseynlar qishda ishlashi rostmi?",
+            "a": "Ha, oltitasi ham yil davomida ishlaydi — mamlakatning boshqa hech qaysi viloyatida bunday emas. Ko'pchiligi suv isitiladigan spa-majmualar va mehmonxonalar qoshida ishlaydi."
+          },
+          {
+            "q": "Kirish narxi qancha?",
+            "a": "May Weather Resort'da bir soat uchun 50 000 so'mdan Wyndham Bukhara'da butun kun uchun 200 000 so'mgacha. Bolalar tariflari — 35 000–50 000 so'm."
+          },
+          {
+            "q": "Sauna yoki spa bormi?",
+            "a": "Oltita obyektdan to'rttasida sauna, ikkitasida jakuzi, Wyndham Bukhara'da turk hammomi belgilangan. Ochiq basseynlar uchun bu kamdan-kam to'plam va aynan shu ularga qishda ishlash imkonini beradi."
+          },
+          {
+            "q": "Buxoro shahri tashqarisida basseynlar bormi?",
+            "a": "Bittasi — Romitandagi sport maktabi basseyni. Qolgan beshtasi Buxoro shahrining o'zida."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Bukhara is the only region in the country where open-air pools stay open all year. All six venues are year-round, while everywhere else open-air pools close for the winter.",
+        "sections": [
+          {
+            "heading": "Why they don't close for winter",
+            "body": "Formally these are open-air pools, but most operate at spa complexes and hotels where the water is heated and there's a steam room next door: a sauna is marked at four of the six venues, a jacuzzi at two, and a Turkish hammam at Wyndham Bukhara. Five pools are in Bukhara itself; the sixth is the sport school pool in Romitan."
+          },
+          {
+            "heading": "What it costs",
+            "list": [
+              "Atlantis Pool on Ibrohim Muminov street — from 60,000 UZS per hour on weekdays, 80,000 at weekends. Passes are available: from 300,000 UZS for 5 visits to 700,000 for an unlimited month.",
+              "Aquamarine Spa and Pool — 100,000 UZS per hour during the day and 120,000 in the evening; cheaper in a group of five or more at 85,000. The child rate is 50,000.",
+              "Wyndham Bukhara — 200,000 UZS for a full day, 150,000 for the 7:00–12:00 morning session, and just 50,000 for a child ticket. It also runs aqua aerobics and children's groups.",
+              "May Weather Resort — 50,000 UZS per person per hour, 35,000 for children under 14. The pool can be booked whole: from 500,000 UZS per hour on weekdays.",
+              "Pricing is missing only for the sport school pool in Romitan."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Is it true that Bukhara's open-air pools run in winter?",
+            "a": "Yes, all six are year-round — no other region in the country can say that. Most operate at spa complexes and hotels where the water is heated."
+          },
+          {
+            "q": "How much does entry cost?",
+            "a": "From 50,000 UZS per hour at May Weather Resort to 200,000 UZS for a full day at Wyndham Bukhara. Child rates run 35,000–50,000 UZS."
+          },
+          {
+            "q": "Is there a sauna or spa?",
+            "a": "A sauna is marked at four of the six venues, a jacuzzi at two and a Turkish hammam at Wyndham Bukhara. That's a rare set for open-air pools, and it's exactly what lets them operate in winter."
+          },
+          {
+            "q": "Are there pools outside the city of Bukhara?",
+            "a": "One — the sport school pool in Romitan. The other five are in Bukhara itself."
+          }
+        ]
+      }
+    },
+
+    "tashkent-region": {
+      "ru": {
+        "intro": "Открытых бассейнов в Ташкентской области шесть, и цена заполнена у всех шести — по этому показателю область обгоняет и сам Ташкент. Формат тоже другой: два комплекса работают как загородные базы отдыха с гостиницей и коттеджами, где можно остаться с ночёвкой.",
+        "sections": [
+          {
+            "heading": "Загородный формат",
+            "body": "Aqua Blue в посёлке Гулистан (Юкоричирчикский район) и «Аладдин» в Кирсадоке (Янгиюльский район) — это не просто бассейны, а базы отдыха: гостиница и коттеджи, у Aqua Blue ещё сауна, ресторан и караоке, у «Аладдина» — кафе, бильярд и диско-бар. Остальные четыре объекта — обычные сезонные бассейны: Forest Club в Пскентском районе, «Бассейн TRITDEX» и Sitora в Зангиатинском, Aquamarine в Нурафшане."
+          },
+          {
+            "heading": "Сколько стоит",
+            "list": [
+              "Самый дешёвый — Sitora в Зангиатинском районе: 50 000 сум за взрослого и 40 000 за ребёнка.",
+              "Forest Club — 70 000 и 35 000 сум, «Бассейн TRITDEX» — 90 000 и 70 000.",
+              "Aquamarine в Нурафшане считает по времени суток: в будни до 18:00 — 100 000 сум, после 18:00 — 70 000; в выходные до 18:00 — 150 000, после — 80 000. Вечером заметно дешевле.",
+              "Aqua Blue — 100 000 сум, «Аладдин» — 150 000: это самый дорогой открытый бассейн области.",
+              "Детская зона отмечена у трёх объектов: Forest Club, Aquamarine и Aqua Blue."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько стоит открытый бассейн в Ташкентской области?",
+            "a": "От 50 000 сум за взрослого в Sitora до 150 000 в «Аладдине». Цена заполнена у всех шести объектов, так что планировать поездку можно заранее."
+          },
+          {
+            "q": "Можно ли остаться с ночёвкой?",
+            "a": "Да, в двух комплексах: Aqua Blue в посёлке Гулистан и «Аладдин» в Кирсадоке — у обоих есть гостиница и коттеджи."
+          },
+          {
+            "q": "Работают ли они зимой?",
+            "a": "Нет, все шесть сезонные. Ближайшие крытые бассейны — в Ташкенте, их там 11."
+          },
+          {
+            "q": "Какие бассейны ближе всего к Ташкенту?",
+            "a": "Объекты Зангиатинского района — «Бассейн TRITDEX» и Sitora. Дальше всех Forest Club в Пскентском районе."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Toshkent viloyatida ochiq basseynlar oltita va narx oltitasida ham to'ldirilgan — bu ko'rsatkich bo'yicha viloyat Toshkentning o'zidan ham o'zib ketadi. Format ham boshqacha: ikkita majmua mehmonxona va kottejlari bilan shahar tashqarisidagi dam olish maskani sifatida ishlaydi, u yerda tunab qolish mumkin.",
+        "sections": [
+          {
+            "heading": "Shahar tashqarisidagi format",
+            "body": "Guliston qishlog'idagi Aqua Blue (Yuqorichirchiq tumani) va Kirsadokdagi «Alauddin» (Yangiyo'l tumani) — shunchaki basseyn emas, dam olish maskanlari: mehmonxona va kottejlar, Aqua Blue'da yana sauna, restoran va karaoke, «Alauddin»da esa kafe, bilyard va disko-bar. Qolgan to'rtta obyekt oddiy mavsumiy basseynlar: Piskent tumanidagi Forest Club, Zangiota tumanidagi «TRITDEX basseyni» va Sitora, Nurafshondagi Aquamarine."
+          },
+          {
+            "heading": "Narxi qancha",
+            "list": [
+              "Eng arzoni — Zangiota tumanidagi Sitora: kattalar uchun 50 000 so'm, bolalar uchun 40 000.",
+              "Forest Club — 70 000 va 35 000 so'm, «TRITDEX basseyni» — 90 000 va 70 000.",
+              "Nurafshondagi Aquamarine kun vaqtiga qarab hisoblaydi: ish kunlari 18:00 gacha — 100 000 so'm, 18:00 dan keyin — 70 000; dam olish kunlari 18:00 gacha — 150 000, keyin — 80 000. Kechqurun sezilarli arzonroq.",
+              "Aqua Blue — 100 000 so'm, «Alauddin» — 150 000: bu viloyatdagi eng qimmat ochiq basseyn.",
+              "Bolalar zonasi uchta obyektda belgilangan: Forest Club, Aquamarine va Aqua Blue."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Toshkent viloyatida ochiq basseyn qancha turadi?",
+            "a": "Sitora'da kattalar uchun 50 000 so'mdan «Alauddin»da 150 000 so'mgacha. Narx oltita obyektning hammasida to'ldirilgan, shuning uchun sayohatni oldindan rejalashtirish mumkin."
+          },
+          {
+            "q": "Tunab qolish mumkinmi?",
+            "a": "Ha, ikkita majmuada: Guliston qishlog'idagi Aqua Blue va Kirsadokdagi «Alauddin» — ikkisida ham mehmonxona va kottejlar bor."
+          },
+          {
+            "q": "Ular qishda ishlaydimi?",
+            "a": "Yo'q, oltitasi ham mavsumiy. Eng yaqin yopiq basseynlar Toshkentda, ularning soni 11 ta."
+          },
+          {
+            "q": "Qaysi basseynlar Toshkentga eng yaqin?",
+            "a": "Zangiota tumanidagi obyektlar — «TRITDEX basseyni» va Sitora. Eng uzog'i — Piskent tumanidagi Forest Club."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Tashkent Region has six open-air pools, and pricing is filled in for all six — better coverage than Tashkent itself. The format differs too: two complexes work as out-of-town resorts with a hotel and cottages, where you can stay overnight.",
+        "sections": [
+          {
+            "heading": "The out-of-town format",
+            "body": "Aqua Blue in the village of Gulistan (Yukorichirchik district) and Aladdin in Kirsadok (Yangiyul district) are not just pools but resorts: a hotel and cottages, plus a sauna, restaurant and karaoke at Aqua Blue, and a cafe, billiards and disco bar at Aladdin. The other four are ordinary seasonal pools: Forest Club in Piskent district, TRITDEX and Sitora in Zangiata district, and Aquamarine in Nurafshon."
+          },
+          {
+            "heading": "What it costs",
+            "list": [
+              "The cheapest is Sitora in Zangiata district: 50,000 UZS for an adult and 40,000 for a child.",
+              "Forest Club charges 70,000 and 35,000 UZS, TRITDEX 90,000 and 70,000.",
+              "Aquamarine in Nurafshon prices by time of day: on weekdays 100,000 UZS before 18:00 and 70,000 after; at weekends 150,000 before 18:00 and 80,000 after. Evenings are noticeably cheaper.",
+              "Aqua Blue costs 100,000 UZS and Aladdin 150,000 — the most expensive open-air pool in the region.",
+              "A children's zone is marked at three venues: Forest Club, Aquamarine and Aqua Blue."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "How much does an open-air pool cost in Tashkent Region?",
+            "a": "From 50,000 UZS for an adult at Sitora to 150,000 at Aladdin. Pricing is filled in for all six venues, so you can plan the trip in advance."
+          },
+          {
+            "q": "Can I stay overnight?",
+            "a": "Yes, at two complexes: Aqua Blue in the village of Gulistan and Aladdin in Kirsadok — both have a hotel and cottages."
+          },
+          {
+            "q": "Do they operate in winter?",
+            "a": "No, all six are seasonal. The nearest indoor pools are in Tashkent, where there are 11."
+          },
+          {
+            "q": "Which pools are closest to Tashkent?",
+            "a": "The ones in Zangiata district — TRITDEX and Sitora. Forest Club in Piskent district is the farthest."
+          }
+        ]
+      }
+    },
+
+    "kashkadarya": {
+      "ru": {
+        "intro": "Открытых бассейнов в Кашкадарьинской области пять: три в Карши и два в Шахрисабзе. Все сезонные. Главное, что стоит знать заранее, — ни один из пяти не публикует цены, поэтому звонок перед поездкой обязателен.",
+        "sections": [
+          {
+            "heading": "Карши и Шахрисабз",
+            "body": "В Карши три объекта: «Евро бассейн» и «Зебра бассейн» на улице Учкун — практически по соседству — и «Аквапарк Дельфин» на улице Насаф. В Шахрисабзе два: Aqualand в Шахрисабзском районе и городской бассейн на улице Ипак Йули, 98, рядом с историческим центром — удобная точка для туристов, приезжающих к дворцу Ак-Сарай. Самый высокий рейтинг в области у Aqualand — 4,8."
+          },
+          {
+            "heading": "Что есть и чего нет",
+            "list": [
+              "Цены не заполнены ни у одного из пяти объектов — уточняйте по телефону, номера есть на странице каждого бассейна.",
+              "Парковка отмечена у трёх объектов, лежаки — у двух, бар — у одного («Евро бассейн»).",
+              "Детская зона не отмечена ни у одного бассейна. Если едете с детьми, смотрите аквапарки области — их три.",
+              "Все пять работают только в тёплый сезон. На зиму в области остаются три крытых бассейна."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Сколько стоит открытый бассейн в Карши или Шахрисабзе?",
+            "a": "Ни один из пяти объектов области не публикует цены в открытых источниках, поэтому в каталоге они не заполнены. Позвоните перед поездкой — телефоны указаны на странице каждого бассейна."
+          },
+          {
+            "q": "Какие открытые бассейны есть в Карши?",
+            "a": "Три: «Евро бассейн» и «Зебра бассейн» на улице Учкун и «Аквапарк Дельфин» на улице Насаф."
+          },
+          {
+            "q": "А в Шахрисабзе?",
+            "a": "Два: Aqualand в Шахрисабзском районе — с рейтингом 4,8 это лучший открытый бассейн области — и городской бассейн на улице Ипак Йули, 98, рядом с историческим центром."
+          },
+          {
+            "q": "Работают ли они зимой?",
+            "a": "Нет, все пять сезонные. Зимой в Кашкадарьинской области работают три крытых бассейна."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Qashqadaryo viloyatida ochiq basseynlar beshta: uchtasi Qarshida va ikkitasi Shahrisabzda. Barchasi mavsumiy. Oldindan bilish kerak bo'lgan asosiy narsa — beshtasidan hech biri narxni e'lon qilmaydi, shuning uchun sayohatdan oldin qo'ng'iroq qilish shart.",
+        "sections": [
+          {
+            "heading": "Qarshi va Shahrisabz",
+            "body": "Qarshida uchta obyekt bor: Uchqun ko'chasidagi «Yevro basseyn» va «Zebra basseyn» — deyarli qo'shni — va Nasaf ko'chasidagi «Delfin akvaparki». Shahrisabzda ikkitasi: Shahrisabz tumanidagi Aqualand va tarixiy markaz yonidagi Ipak Yo'li ko'chasi, 98-uydagi shahar basseyni — Oqsaroy saroyiga keladigan turistlar uchun qulay joy. Viloyatda eng yuqori reyting Aqualand'da — 4,8."
+          },
+          {
+            "heading": "Nimasi bor va nimasi yo'q",
+            "list": [
+              "Beshta obyektdan hech birida narx to'ldirilmagan — telefon orqali aniqlashtiring, raqamlar har bir basseyn sahifasida bor.",
+              "Uchta obyektda avtoturargoh, ikkitasida shezlonglar, bittasida bar belgilangan («Yevro basseyn»).",
+              "Hech bir basseynda bolalar zonasi belgilanmagan. Bolalar bilan borsangiz, viloyat akvaparklarini ko'ring — ularning soni uchta.",
+              "Beshtasi ham faqat issiq mavsumda ishlaydi. Qishga viloyatda uchta yopiq basseyn qoladi."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Qarshi yoki Shahrisabzda ochiq basseyn qancha turadi?",
+            "a": "Viloyatdagi beshta obyektdan hech biri narxni ochiq manbalarda e'lon qilmaydi, shuning uchun katalogda ular to'ldirilmagan. Sayohatdan oldin qo'ng'iroq qiling — telefonlar har bir basseyn sahifasida ko'rsatilgan."
+          },
+          {
+            "q": "Qarshida qanday ochiq basseynlar bor?",
+            "a": "Uchta: Uchqun ko'chasidagi «Yevro basseyn» va «Zebra basseyn» hamda Nasaf ko'chasidagi «Delfin akvaparki»."
+          },
+          {
+            "q": "Shahrisabzda-chi?",
+            "a": "Ikkita: Shahrisabz tumanidagi Aqualand — 4,8 reyting bilan viloyatdagi eng yaxshi ochiq basseyn — va tarixiy markaz yonidagi Ipak Yo'li ko'chasi, 98-uydagi shahar basseyni."
+          },
+          {
+            "q": "Ular qishda ishlaydimi?",
+            "a": "Yo'q, beshtasi ham mavsumiy. Qishda Qashqadaryo viloyatida uchta yopiq basseyn ishlaydi."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Kashkadarya Region has five open-air pools: three in Karshi and two in Shahrisabz. All are seasonal. The main thing to know up front is that none of the five publishes prices, so a phone call before you travel is essential.",
+        "sections": [
+          {
+            "heading": "Karshi and Shahrisabz",
+            "body": "Karshi has three venues: Euro Basseyn and Zebra Basseyn on Uchkun street, practically next door to each other, and Delfin Aquapark on Nasaf street. Shahrisabz has two: Aqualand in Shahrisabz district and the municipal pool at 98 Ipak Yuli street, next to the historic centre — a convenient stop for tourists visiting the Ak-Saray palace. The region's highest rating belongs to Aqualand at 4.8."
+          },
+          {
+            "heading": "What's there and what isn't",
+            "list": [
+              "None of the five venues has pricing filled in — check by phone; numbers are on each pool's page.",
+              "Parking is marked at three venues, loungers at two and a bar at one (Euro Basseyn).",
+              "No venue has a children's zone marked. If you're travelling with children, look at the region's aquaparks — there are three.",
+              "All five run in the warm season only. Three indoor pools remain in the region over winter."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "How much does an open-air pool cost in Karshi or Shahrisabz?",
+            "a": "None of the region's five venues publishes prices publicly, so the catalog has none on file. Call before you travel — phone numbers are on each pool's page."
+          },
+          {
+            "q": "Which open-air pools are there in Karshi?",
+            "a": "Three: Euro Basseyn and Zebra Basseyn on Uchkun street, and Delfin Aquapark on Nasaf street."
+          },
+          {
+            "q": "And in Shahrisabz?",
+            "a": "Two: Aqualand in Shahrisabz district — at 4.8 the region's best-rated open-air pool — and the municipal pool at 98 Ipak Yuli street, next to the historic centre."
+          },
+          {
+            "q": "Do they operate in winter?",
+            "a": "No, all five are seasonal. In winter, Kashkadarya Region has three indoor pools in operation."
+          }
+        ]
+      }
+    }
+  }
+}
