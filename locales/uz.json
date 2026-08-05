@@ -33,6 +33,7 @@
     "page_not_found_desc": "Boshqa kategoriyani sinab ko'ring yoki to'liq katalogni oching",
     "other_categories": "Boshqa kategoriyalar",
     "other_pools_title": "Boshqa toifadagi basseynlar",
+    "regions_title": "{name} viloyatlar bo'yicha",
     "meta_desc_text": {
       "open": "O'zbekistondagi ochiq basseynlar 2026 — Toshkent, Samarqand, Buxoro, Qashqadaryo, Navoiy, Qoraqalpog'iston va Toshkent viloyatida {count} ta obyekt. Narxlar 35 000 dan 300 000 so'mgacha, fotosuratlar, manzillar, ish vaqti, bolalar zonasi, avtoturargoh va kafe mavjudligi, sharhlar va yozgi basseynlar xaritasi.",
       "indoor": "O'zbekistondagi yopiq basseynlar 2026 — {count} ta obyekt, yil davomida ishlaydi: Toshkent, Qoraqalpog'iston, Samarqand, Xorazm, Buxoro, Qashqadaryo, Navoiy. Bir martalik tashrif 50 000 so'mdan, oylik obunalar 300 000 so'mdan, fotosuratlar, manzillar, ish vaqti, murabbiylar mavjudligi, sharhlar va xarita.",

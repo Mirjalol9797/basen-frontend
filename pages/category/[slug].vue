@@ -91,6 +91,9 @@
         </div>
       </div>
 
+      <!-- Regions where this category is present -->
+      <CategoryRegionLinks :pools="pools" :category-name="category.name" />
+
       <!-- SEO text block -->
       <div class="bg-white border-t border-gray-100">
         <div class="container py-8">
