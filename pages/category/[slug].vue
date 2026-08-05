@@ -204,11 +204,15 @@ const category = computed(
   () => categories.value.find((c) => c.slug === slug) ?? null
 );
 
-const pools = computed(() =>
-  poolsStore.all
-    .filter((p) => poolInCategory(p, slug as PoolCategory))
-    .sort((a, b) => avgRating(b) - avgRating(a))
+const inCategory = computed(() =>
+  poolsStore.all.filter((p) => poolInCategory(p, slug as PoolCategory))
 );
+
+// Количество для порядка регионов считается внутри категории, поэтому после
+// закреплённого Ташкента идёт регион, где бассейнов этой категории больше.
+const { byRegionThenRating } = useRegionOrder(inCategory);
+
+const pools = computed(() => [...inCategory.value].sort(byRegionThenRating));
 
 const otherCategories = computed(() =>
   categories.value.filter((c) => c.id !== slug)
@@ -291,7 +295,7 @@ watchEffect(() => {
   const schema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: `${name} Ташкента`,
+    name: t("category.page_h1", { name }),
     description: category.value.description,
     url: `${BASE_URL}/category/${slug}`,
     mainEntity: {
