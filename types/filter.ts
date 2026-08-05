@@ -1,6 +1,6 @@
 import type { PoolCategory } from './pool'
 
-export type SortOption = 'rating' | 'price_asc' | 'price_desc' | 'newest'
+export type SortOption = 'region' | 'rating' | 'price_asc' | 'price_desc' | 'newest'
 
 export interface PoolFilters {
   categories: PoolCategory[]
@@ -21,5 +21,5 @@ export const defaultFilters = (): PoolFilters => ({
   priceMax: null,
   services: [],
   season: null,
-  sortBy: 'rating',
+  sortBy: 'region',
 })

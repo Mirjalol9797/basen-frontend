@@ -53,6 +53,7 @@ const sortBy = computed({
 })
 
 const sortOptions = computed(() => [
+  { value: 'region',     label: t('sort.region') },
   { value: 'rating',     label: t('sort.rating') },
   { value: 'price_asc',  label: t('sort.price_asc') },
   { value: 'price_desc', label: t('sort.price_desc') },

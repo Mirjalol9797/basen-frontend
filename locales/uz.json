@@ -409,6 +409,7 @@
   },
   "sort": {
     "label": "Saralash",
+    "region": "Hududlar bo'yicha",
     "rating": "Reyting bo'yicha",
     "price_asc": "Narx ↑",
     "price_desc": "Narx ↓",
@@ -501,7 +502,7 @@
     "guides_subtitle": "Basseyn tanlash bo'yicha tanlovlar va maslahatlar"
   },
   "catalog": {
-    "title": "Toshkent basseynlari",
+    "title": "O'zbekistondagi basseynlar",
     "meta_title": "Toshkent va O'zbekiston basseynlari katalogi — narxlar, manzillar, fotolar {'|'} Basen.uz",
     "meta_desc": "Toshkent va O'zbekiston basseynlari katalogi: ochiq, yopiq, bolalar va sport basseynlari. {count} dan ortiq basseyn narxlari, fotosuratlari, manzillari, ish vaqti, xaritasi, telefon raqamlari va sharhlari bilan. Yaqin atrofdagi basseynni toping.",
     "faq_title": "Toshkent basseynlari haqida ko'p so'raladigan savollar",

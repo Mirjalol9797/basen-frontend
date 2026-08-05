@@ -409,6 +409,7 @@
   },
   "sort": {
     "label": "Sort by",
+    "region": "By region",
     "rating": "By rating",
     "price_asc": "Price ↑",
     "price_desc": "Price ↓",
@@ -501,7 +502,7 @@
     "guides_subtitle": "Curated picks and tips for choosing a pool"
   },
   "catalog": {
-    "title": "Swimming Pools in Tashkent",
+    "title": "Swimming Pools in Uzbekistan",
     "meta_title": "Catalog of Swimming Pools in Tashkent and Uzbekistan — Prices, Addresses, Photos {'|'} Basen.uz",
     "meta_desc": "Catalog of swimming pools in Tashkent and Uzbekistan: open-air, indoor, children's and sport pools. {count}+ pools with prices, photos, addresses, schedules, a map, phone numbers and reviews. Find a pool near you.",
     "view_list": "List",
