@@ -6,6 +6,16 @@
       "ru": "Ташкент (город)",
       "uz": "Toshkent (shahar)",
       "en": "Tashkent (city)"
+    },
+    "short": {
+      "ru": "Ташкент",
+      "uz": "Toshkent",
+      "en": "Tashkent"
+    },
+    "heading": {
+      "ru": "Ташкента",
+      "uz": "Toshkentdagi",
+      "en": "in Tashkent"
     }
   },
   {
@@ -15,6 +25,16 @@
       "ru": "Ташкентская область",
       "uz": "Toshkent viloyati",
       "en": "Tashkent Region"
+    },
+    "short": {
+      "ru": "Ташкентская область",
+      "uz": "Toshkent viloyati",
+      "en": "Tashkent Region"
+    },
+    "heading": {
+      "ru": "Ташкентской области",
+      "uz": "Toshkent viloyatidagi",
+      "en": "in Tashkent Region"
     }
   },
   {
@@ -24,6 +44,16 @@
       "ru": "Андижанская область",
       "uz": "Andijon viloyati",
       "en": "Andijan Region"
+    },
+    "short": {
+      "ru": "Андижан",
+      "uz": "Andijon",
+      "en": "Andijan"
+    },
+    "heading": {
+      "ru": "Андижана",
+      "uz": "Andijondagi",
+      "en": "in Andijan"
     }
   },
   {
@@ -33,6 +63,16 @@
       "ru": "Ферганская область",
       "uz": "Farg'ona viloyati",
       "en": "Fergana Region"
+    },
+    "short": {
+      "ru": "Фергана",
+      "uz": "Farg'ona",
+      "en": "Fergana"
+    },
+    "heading": {
+      "ru": "Ферганы",
+      "uz": "Farg'onadagi",
+      "en": "in Fergana"
     }
   },
   {
@@ -42,6 +82,16 @@
       "ru": "Наманганская область",
       "uz": "Namangan viloyati",
       "en": "Namangan Region"
+    },
+    "short": {
+      "ru": "Наманган",
+      "uz": "Namangan",
+      "en": "Namangan"
+    },
+    "heading": {
+      "ru": "Намангана",
+      "uz": "Namangandagi",
+      "en": "in Namangan"
     }
   },
   {
@@ -51,6 +101,16 @@
       "ru": "Самаркандская область",
       "uz": "Samarqand viloyati",
       "en": "Samarkand Region"
+    },
+    "short": {
+      "ru": "Самарканд",
+      "uz": "Samarqand",
+      "en": "Samarkand"
+    },
+    "heading": {
+      "ru": "Самарканда",
+      "uz": "Samarqanddagi",
+      "en": "in Samarkand"
     }
   },
   {
@@ -60,6 +120,16 @@
       "ru": "Бухарская область",
       "uz": "Buxoro viloyati",
       "en": "Bukhara Region"
+    },
+    "short": {
+      "ru": "Бухара",
+      "uz": "Buxoro",
+      "en": "Bukhara"
+    },
+    "heading": {
+      "ru": "Бухары",
+      "uz": "Buxorodagi",
+      "en": "in Bukhara"
     }
   },
   {
@@ -69,6 +139,16 @@
       "ru": "Навоийская область",
       "uz": "Navoiy viloyati",
       "en": "Navoi Region"
+    },
+    "short": {
+      "ru": "Навои",
+      "uz": "Navoiy",
+      "en": "Navoi"
+    },
+    "heading": {
+      "ru": "Навои",
+      "uz": "Navoiydagi",
+      "en": "in Navoi"
     }
   },
   {
@@ -78,6 +158,16 @@
       "ru": "Кашкадарьинская область",
       "uz": "Qashqadaryo viloyati",
       "en": "Kashkadarya Region"
+    },
+    "short": {
+      "ru": "Кашкадарья",
+      "uz": "Qashqadaryo",
+      "en": "Kashkadarya"
+    },
+    "heading": {
+      "ru": "Кашкадарьи",
+      "uz": "Qashqadaryodagi",
+      "en": "in Kashkadarya"
     }
   },
   {
@@ -87,6 +177,16 @@
       "ru": "Сурхандарьинская область",
       "uz": "Surxondaryo viloyati",
       "en": "Surkhandarya Region"
+    },
+    "short": {
+      "ru": "Сурхандарья",
+      "uz": "Surxondaryo",
+      "en": "Surkhandarya"
+    },
+    "heading": {
+      "ru": "Сурхандарьи",
+      "uz": "Surxondaryodagi",
+      "en": "in Surkhandarya"
     }
   },
   {
@@ -96,6 +196,16 @@
       "ru": "Джизакская область",
       "uz": "Jizzax viloyati",
       "en": "Jizzakh Region"
+    },
+    "short": {
+      "ru": "Джизак",
+      "uz": "Jizzax",
+      "en": "Jizzakh"
+    },
+    "heading": {
+      "ru": "Джизака",
+      "uz": "Jizzaxdagi",
+      "en": "in Jizzakh"
     }
   },
   {
@@ -105,6 +215,16 @@
       "ru": "Сырдарьинская область",
       "uz": "Sirdaryo viloyati",
       "en": "Syrdarya Region"
+    },
+    "short": {
+      "ru": "Сырдарья",
+      "uz": "Sirdaryo",
+      "en": "Syrdarya"
+    },
+    "heading": {
+      "ru": "Сырдарьи",
+      "uz": "Sirdaryodagi",
+      "en": "in Syrdarya"
     }
   },
   {
@@ -114,6 +234,16 @@
       "ru": "Хорезмская область",
       "uz": "Xorazm viloyati",
       "en": "Khorezm Region"
+    },
+    "short": {
+      "ru": "Хорезм",
+      "uz": "Xorazm",
+      "en": "Khorezm"
+    },
+    "heading": {
+      "ru": "Хорезма",
+      "uz": "Xorazmdagi",
+      "en": "in Khorezm"
     }
   },
   {
@@ -123,6 +253,16 @@
       "ru": "Республика Каракалпакстан",
       "uz": "Qoraqalpog'iston Respublikasi",
       "en": "Republic of Karakalpakstan"
+    },
+    "short": {
+      "ru": "Каракалпакстан",
+      "uz": "Qoraqalpog'iston",
+      "en": "Karakalpakstan"
+    },
+    "heading": {
+      "ru": "Каракалпакстана",
+      "uz": "Qoraqalpog'istondagi",
+      "en": "in Karakalpakstan"
     }
   }
 ]
