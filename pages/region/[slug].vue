@@ -223,6 +223,9 @@
           </div>
         </div>
 
+        <!-- Categories that have their own page in this region -->
+        <RegionCategoryLinks :pools="pools" :region-id="slug" />
+
         <!-- Other regions -->
         <div class="mt-12 pt-8 border-t border-gray-100">
           <h2 class="text-lg font-bold text-gray-900 mb-4">

@@ -4,15 +4,24 @@
       {{ $t("category.regions_title", { name: categoryName }) }}
     </h2>
     <div class="flex flex-wrap gap-2">
-      <NuxtLink
-        v-for="item in items"
-        :key="item.id"
-        :to="localePath(`/region/${item.id}`)"
-        class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700 hover:border-primary-300 hover:text-primary-700 hover:bg-primary-50 transition-colors duration-150"
-      >
-        {{ item.name }}
-        <span class="text-xs text-gray-400">{{ item.count }}</span>
-      </NuxtLink>
+      <template v-for="item in items" :key="item.id">
+        <!-- Текущий регион на комбо-странице: не ссылка, а метка -->
+        <span
+          v-if="item.id === currentRegion"
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-primary-50 border border-primary-200 text-sm font-medium text-primary-700"
+        >
+          {{ item.name }}
+          <span class="text-xs text-primary-400">{{ item.count }}</span>
+        </span>
+        <NuxtLink
+          v-else
+          :to="localePath(item.to)"
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700 hover:border-primary-300 hover:text-primary-700 hover:bg-primary-50 transition-colors duration-150"
+        >
+          {{ item.name }}
+          <span class="text-xs text-gray-400">{{ item.count }}</span>
+        </NuxtLink>
+      </template>
     </div>
   </div>
 </template>
@@ -21,10 +30,14 @@
 import type { Pool } from "~/types/pool";
 
 const props = defineProps<{
-  /** Бассейны текущей категории — по ним считаются регионы и количество. */
+  /** Бассейны всей категории — по ним считаются регионы и количество. */
   pools: Pool[];
+  /** Слаг категории: нужен, чтобы собрать адрес страницы «категория × регион». */
+  categorySlug: string;
   /** Название категории для заголовка блока. */
   categoryName: string;
+  /** На комбо-странице — её регион: показывается меткой, а не ссылкой. */
+  currentRegion?: string;
 }>();
 
 const localePath = useLocalePath();
@@ -33,16 +46,24 @@ const { getRegionShort } = useRegions();
 const poolsRef = computed(() => props.pools);
 const { regionRank } = useRegionOrder(poolsRef);
 
-// Регионы, где эта категория реально представлена, в том же порядке, что и
-// список бассейнов выше. Ссылки ведут на страницу региона целиком; когда
-// появятся страницы «категория × регион», они станут точнее.
+// Регионы, где категория представлена, в том же порядке, что и список выше.
+// Ссылка ведёт на страницу «категория × регион», если та существует, то есть
+// если бассейнов набралось на порог, — иначе на страницу региона целиком.
 const items = computed(() => {
   const counts = new Map<string, number>();
   for (const p of props.pools)
     counts.set(p.region, (counts.get(p.region) ?? 0) + 1);
 
   return [...counts.entries()]
-    .map(([id, count]) => ({ id, count, name: getRegionShort(id) }))
+    .map(([id, count]) => ({
+      id,
+      count,
+      name: getRegionShort(id),
+      to:
+        count >= REGION_PAGE_MIN_POOLS
+          ? `/category/${props.categorySlug}/${id}`
+          : `/region/${id}`,
+    }))
     .sort(
       (a, b) =>
         (regionRank.value.get(a.id) ?? Number.MAX_SAFE_INTEGER) -

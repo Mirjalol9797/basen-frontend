@@ -101,6 +101,14 @@
         </div>
       </div>
 
+      <!-- Same category in other regions -->
+      <CategoryRegionLinks
+        :pools="inCategory"
+        :category-slug="slug"
+        :category-name="category.name"
+        :current-region="regionId"
+      />
+
       <!-- Unique text for this category + region -->
       <div v-if="content" class="bg-white border-t border-gray-100">
         <div class="container py-8">
@@ -208,12 +216,15 @@ const regionEntry = computed(() => getRegionById(regionId) ?? null);
 
 const regionShort = computed(() => getRegionShort(regionId));
 
+// Вся категория по стране — нужна блоку ссылок на другие регионы.
+const inCategory = computed(() =>
+  poolsStore.all.filter((p) => poolInCategory(p, slug as PoolCategory))
+);
+
 // Внутри одного региона порядок по региону смысла не имеет — сортируем по рейтингу.
 const pools = computed(() =>
-  poolsStore.all
-    .filter(
-      (p) => p.region === regionId && poolInCategory(p, slug as PoolCategory)
-    )
+  inCategory.value
+    .filter((p) => p.region === regionId)
     .sort((a, b) => avgRating(b) - avgRating(a))
 );
 
