@@ -37,6 +37,16 @@ const comboRoutes = comboPages.flatMap(c => {
   return [path, `/uz${path}`, `/en${path}`]
 })
 
+// Без этого списка комбо-страницы всё равно попадают в sitemap — модуль
+// добавляет все пререндеренные маршруты, — но уходят туда без приоритета.
+// Приоритет держим ниже родительской страницы категории (0.7–0.8): комбинация
+// уже, чем категория, и шире, чем карточка бассейна.
+const comboUrls = comboPages.map(c => ({
+  loc: `/category/${c.category}/${c.region}`,
+  priority: c.count >= 9 ? 0.7 : 0.6,
+  changefreq: 'weekly' as const,
+}))
+
 const emptyPages = [
   ...(regionsData as { id: string }[])
     .filter(r => poolCount('region', r.id) === 0).map(r => `/region/${r.id}`),
@@ -153,6 +163,7 @@ export default defineNuxtConfig({
       { loc: '/category/sport',          priority: 0.8, changefreq: 'weekly'  },
       { loc: '/category/hotel',          priority: 0.7, changefreq: 'weekly'  },
       { loc: '/category/aquapark',       priority: 0.7, changefreq: 'weekly'  },
+      ...comboUrls,
       ...regionUrls,
       { loc: '/map',                     priority: 0.7, changefreq: 'weekly'  },
       { loc: '/about',                   priority: 0.6, changefreq: 'monthly' },
