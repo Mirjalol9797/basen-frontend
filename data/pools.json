@@ -2232,17 +2232,17 @@
     "slug": "atlantis",
     "translations": {
       "ru": {
-        "name": "Atlantis аквапарк",
+        "name": "Atlantis аквапарк Ташкент",
         "address": "Сергели 7, ул. Шокирарык, 58, Сергелийский район, Ташкент",
         "description": "Открытый аквапарк с бассейнами, водными горками и зоной отдыха. Вход на весь день (11:00–23:00): взрослым 200 000 сум, детям до 12 лет — 100 000 сум, детям до 3 лет — бесплатно. По средам дети до 12 лет проходят бесплатно, по вторникам–четвергам скидка 50% для женщин. На территории есть аренда топчанов, кабинок, VIP-кабинок и террас (депозитом от 300 000 до 500 000 сум), а также кафе, бар и закрытые VIP-кабинки. Парковка на территории."
       },
       "uz": {
-        "name": "Atlantis Aquapark",
+        "name": "Atlantis Aquapark Toshkent",
         "address": "Sergeli 7, Shokirariq ko'chasi, 58, Sergeli tumani, Toshkent",
         "description": null
       },
       "en": {
-        "name": "Atlantis Aquapark",
+        "name": "Atlantis Aquapark Tashkent",
         "address": "Sergeli 7, 58 Shokirariq str., Sergeli district, Tashkent",
         "description": null
       }
