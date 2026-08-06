@@ -15,7 +15,7 @@
     <!-- SEO text (RU only for now) -->
     <section
       v-if="hasSeoText"
-      class="py-8 sm:py-12 bg-white border-t border-gray-100"
+      class="py-6 sm:py-12 bg-white border-t border-gray-100"
     >
       <div class="container">
         <h2 class="text-lg sm:text-2xl font-bold text-gray-900 mb-6">

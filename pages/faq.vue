@@ -64,8 +64,8 @@
             <path fill-rule="evenodd" d="M18 5.25a2.75 2.75 0 00-2.75-2.75h-8.5A2.75 2.75 0 004 5.25v5.5a2.75 2.75 0 002.75 2.75H8.5v2.5a.75.75 0 001.28.53l2.97-2.97h2.5A2.75 2.75 0 0018 10.75v-5.5z" clip-rule="evenodd" />
           </svg>
         </div>
-        <h2 class="font-bold text-gray-900 mb-2">Остались вопросы?</h2>
-        <p class="text-sm text-gray-500 mb-5">Напишите нам — ответим быстро</p>
+        <h2 class="font-bold text-gray-900 mb-2">{{ $t("faq.cta_title") }}</h2>
+        <p class="text-sm text-gray-500 mb-5">{{ $t("faq.cta_text") }}</p>
         <a
           href="https://t.me/Mirjalol1210"
           target="_blank"

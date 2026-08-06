@@ -37,7 +37,7 @@
             <div>
               <div class="flex flex-wrap items-center gap-2 mb-2">
                 <AppBadge color="blue">{{ $t(`category.${pool.category}`) }}</AppBadge>
-                <AppBadge v-if="pool.featured" color="yellow">★ Топ</AppBadge>
+                <AppBadge v-if="pool.featured" color="yellow">★ {{ $t("pool.top_badge") }}</AppBadge>
                 <AppBadge :color="pool.season === 'summer' ? 'yellow' : 'cyan'">
                   {{ $t(`pool.season_${pool.season === 'summer' ? 'summer' : 'yearround'}`) }}
                 </AppBadge>

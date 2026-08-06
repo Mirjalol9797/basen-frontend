@@ -116,9 +116,9 @@
     <!-- Footer: active count + reset -->
     <div class="flex items-center justify-between mt-5 pt-4 border-t border-gray-100">
       <span v-if="hasActiveFilters" class="text-sm text-primary-600 font-medium">
-        {{ activeCount }} {{ activeCount === 1 ? 'фильтр' : 'фильтра' }} активно
+        {{ $t('filter.active_count', activeCount, { count: activeCount }) }}
       </span>
-      <span v-else class="text-sm text-gray-400">Фильтры не выбраны</span>
+      <span v-else class="text-sm text-gray-400">{{ $t('filter.none_selected') }}</span>
       <button
         type="button"
         class="text-sm font-medium px-3 py-1.5 rounded-lg transition-all duration-150"

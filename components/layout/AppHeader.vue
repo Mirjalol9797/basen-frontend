@@ -48,7 +48,7 @@
           <button
             class="md:hidden p-2 rounded-lg text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
             :aria-expanded="mobileOpen"
-            aria-label="Меню"
+            :aria-label="$t('nav.menu')"
             @click="mobileOpen = !mobileOpen"
           >
             <svg v-if="!mobileOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -71,7 +71,13 @@
       leave-from-class="opacity-100 translate-y-0"
       leave-to-class="opacity-0 -translate-y-2"
     >
-      <div v-if="mobileOpen" class="md:hidden absolute top-full left-0 right-0 border-t border-gray-100 bg-white shadow-lg z-50">
+      <!-- Во весь оставшийся экран и со своей прокруткой: раньше это был
+           absolute-дропдаун, и на невысоких телефонах нижние пункты вместе с
+           переключателем языка уезжали за край без возможности доскроллить. -->
+      <div
+        v-if="mobileOpen"
+        class="md:hidden fixed top-16 inset-x-0 bottom-0 border-t border-gray-100 bg-white shadow-lg z-50 overflow-y-auto overscroll-contain"
+      >
         <div class="container py-3 flex flex-col gap-1">
           <NuxtLink
             v-for="link in navLinks"
@@ -86,7 +92,9 @@
 
           <!-- Language switcher mobile -->
           <div class="flex items-center gap-1 px-3 pt-2 border-t border-gray-100 mt-1">
-            <span class="text-xs text-gray-400 mr-1">Язык:</span>
+            <span class="text-xs text-gray-400 mr-1"
+              >{{ $t("nav.language") }}:</span
+            >
             <NuxtLink
               v-for="loc in availableLocales"
               :key="loc.code"
@@ -115,6 +123,16 @@ const route = useRoute()
 const mobileOpen = ref(false)
 
 watch(() => route.fullPath, () => { mobileOpen.value = false })
+
+// Пока меню открыто на весь экран, страница под ним скроллиться не должна —
+// иначе прокрутка «проваливается» на список бассейнов позади.
+watch(mobileOpen, (open) => {
+  if (import.meta.client) document.body.style.overflow = open ? 'hidden' : ''
+})
+
+onBeforeUnmount(() => {
+  if (import.meta.client) document.body.style.overflow = ''
+})
 
 const navLinks = [
   { key: 'home',     to: '/',          label: 'nav.home' },

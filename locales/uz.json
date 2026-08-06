@@ -10,7 +10,9 @@
     "faq": "Savollar",
     "contacts": "Aloqa",
     "privacy": "Maxfiylik",
-    "terms": "Foydalanish shartlari"
+    "terms": "Foydalanish shartlari",
+    "menu": "Menyu",
+    "language": "Til"
   },
   "category": {
     "open": "Ochiq",
@@ -411,7 +413,9 @@
     "season_yearround": "Yil bo'yi",
     "reset": "Tozalash",
     "apply": "Qo'llash",
-    "all_districts": "Barcha tumanlar"
+    "all_districts": "Barcha tumanlar",
+    "none_selected": "Filtrlar tanlanmagan",
+    "active_count": "{count} ta filtr faol"
   },
   "sort": {
     "label": "Saralash",
@@ -459,7 +463,10 @@
     "prices": "Narxlar",
     "schedule": "Ish vaqti",
     "gallery": "Galereya",
-    "contact": "Aloqa"
+    "contact": "Aloqa",
+    "types_count": "tur",
+    "districts_count": "tuman",
+    "details": "Batafsil"
   },
   "home": {
     "hero_title": "Toshkentdagi eng yaxshi basseynni toping",
@@ -507,7 +514,8 @@
       "a5": "Ha, agar siz basseyn egasi bo'lsangiz va uni katalogga bepul qo'shmoqchi bo'lsangiz, aloqa sahifasi orqali bizga yozing."
     },
     "guides_title": "«Gid» bo'limidagi maqolalar",
-    "guides_subtitle": "Basseyn tanlash bo'yicha tanlovlar va maslahatlar"
+    "guides_subtitle": "Basseyn tanlash bo'yicha tanlovlar va maslahatlar",
+    "hero_badge": "O'zbekiston · {count}+ basseyn"
   },
   "catalog": {
     "title": "O'zbekistondagi basseynlar",
@@ -559,7 +567,8 @@
     "show_reviews": "Barcha sharhlarni ko'rsatish",
     "meta_title": "{name} — 2026 narxlar, ish vaqti, sharhlar {'|'} Basen.uz",
     "meta_desc": "{name} basseyni, {place}. Narxlar {price} so'mdan, obuna, ish vaqti va fotolar. Manzil, telefon va sharhlar.",
-    "meta_desc_noprice": "{name} basseyni, {place}. Obuna, ish vaqti va fotolar. Manzil, telefon va sharhlar."
+    "meta_desc_noprice": "{name} basseyni, {place}. Obuna, ish vaqti va fotolar. Manzil, telefon va sharhlar.",
+    "top_badge": "Top"
   },
   "errors": {
     "not_found": "Sahifa topilmadi",
@@ -640,7 +649,9 @@
     "q8": "Toshkentda bepul basseynlar bormi?",
     "a8": "To'liq bepul basseynlar kam — masalan, Malibu Sun Club'ga kirish bepul, faqat shezlong yoki stol ijarasi to'lanadi. Ko'pchilik hollarda basseynga kirish uchun pul to'lash kerak, lekin bolalar va ochiq basseynlar narxi odatda sport komplekslari va mehmonxona basseynlariga qaraganda pastroq.",
     "q9": "Toshkentda basseyn obunasi oyiga qancha turadi?",
-    "a9": "Oylik obuna odatda 350 000 dan 1 200 000 so'mgacha, basseyn, xizmat darajasi va murabbiy bilan mashg'ulotlar kiritilganligiga qarab farq qiladi. Aniq narxni tegishli basseyn sahifasidagi 'Narxlar' bo'limidan bilib oling."
+    "a9": "Oylik obuna odatda 350 000 dan 1 200 000 so'mgacha, basseyn, xizmat darajasi va murabbiy bilan mashg'ulotlar kiritilganligiga qarab farq qiladi. Aniq narxni tegishli basseyn sahifasidagi 'Narxlar' bo'limidan bilib oling.",
+    "cta_title": "Savollaringiz qoldimi?",
+    "cta_text": "Bizga yozing — tez javob beramiz"
   },
   "contacts": {
     "title": "Aloqa",
@@ -709,5 +720,8 @@
     "s10_title": "Aloqa",
     "s10_text": "Saytdan foydalanish bilan bog'liq savollar bo'yicha:",
     "contact_link": "Aloqa sahifasiga o'tish"
+  },
+  "footer": {
+    "tagline": "O'zbekistonning eng yaxshi basseynlar katalogi"
   }
 }

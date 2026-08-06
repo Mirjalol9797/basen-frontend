@@ -1,5 +1,5 @@
 <template>
-  <section class="py-8 sm:py-12 bg-white">
+  <section class="py-6 sm:py-12 bg-white">
     <div class="container">
       <div class="flex items-end justify-between mb-4 sm:mb-8">
         <div>

@@ -98,7 +98,7 @@
       >
         <p class="text-xs text-primary-300">
           © {{ currentYear }} Basen.uz —
-          <span>лучший каталог бассейнов Ташкента</span>
+          <span>{{ $t("footer.tagline") }}</span>
         </p>
       </div>
     </div>

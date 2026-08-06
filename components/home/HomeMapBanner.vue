@@ -1,5 +1,5 @@
 <template>
-  <section class="py-8 sm:py-12 bg-gray-50">
+  <section class="py-6 sm:py-12 bg-gray-50">
     <div class="container">
       <div class="relative overflow-hidden rounded-4xl bg-gradient-to-br from-primary-700 via-primary-800 to-aqua-600 px-8 py-12 sm:px-12 sm:py-16 text-white">
 

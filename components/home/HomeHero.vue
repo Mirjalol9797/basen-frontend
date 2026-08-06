@@ -22,7 +22,7 @@
           <span
             class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"
           />
-          Ташкент · {{ $t("home.stats_pools", copyParams) }}
+          {{ $t("home.hero_badge", copyParams) }}
         </div>
 
         <h1
@@ -52,7 +52,7 @@
             <button
               @click="onEnter"
               class="px-5 bg-primary-600 hover:bg-primary-700 text-white transition-colors duration-150 shrink-0"
-              aria-label="Поиск"
+              :aria-label="$t('nav.search')"
             >
               <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
                 <path
@@ -150,14 +150,14 @@
           <div class="text-3xl sm:text-4xl font-bold text-white tabular-nums">
             {{ types }}
           </div>
-          <div class="text-white text-sm mt-1">типов</div>
+          <div class="text-white text-sm mt-1">{{ $t("common.types_count") }}</div>
         </div>
         <div class="hidden sm:block w-px h-10 bg-white/20" />
         <div class="text-center">
           <div class="text-3xl sm:text-4xl font-bold text-white tabular-nums">
             {{ districts }}
           </div>
-          <div class="text-white text-sm mt-1">районов</div>
+          <div class="text-white text-sm mt-1">{{ $t("common.districts_count") }}</div>
         </div>
       </div>
     </div>

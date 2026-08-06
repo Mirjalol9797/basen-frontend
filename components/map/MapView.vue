@@ -17,6 +17,8 @@ const emit = defineEmits<{
 }>()
 
 const config = useRuntimeConfig()
+const { t } = useI18n()
+const localePath = useLocalePath()
 const mapEl = ref<HTMLElement | null>(null)
 let map: any = null
 const placemarks: Record<string, any> = {}
@@ -49,10 +51,10 @@ function balloonHtml(pool: Pool): string {
     <div style="font-weight:700;font-size:14px;color:#111827;margin-bottom:3px;line-height:1.3">${pool.name}</div>
     <div style="font-size:11px;color:#6B7280;margin-bottom:8px;line-height:1.4">${pool.address}</div>
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
-      <div style="font-size:11px;color:#374151">${dot}${open ? 'Открыто' : 'Закрыто'}</div>
-      <div style="font-size:12px;color:#374151;font-weight:500">от ${formatPrice(price)}</div>
+      <div style="font-size:11px;color:#374151">${dot}${open ? t('schedule.open_now') : t('schedule.closed_now')}</div>
+      <div style="font-size:12px;color:#374151;font-weight:500">${t('price.from')} ${formatPrice(price)}</div>
     </div>
-    <a href="/catalog/${pool.slug}" style="display:block;text-align:center;padding:7px 12px;background:#0284C7;color:white;border-radius:8px;font-size:12px;font-weight:600;text-decoration:none">Подробнее →</a>
+    <a href="${localePath(`/catalog/${pool.slug}`)}" style="display:block;text-align:center;padding:7px 12px;background:#0284C7;color:white;border-radius:8px;font-size:12px;font-weight:600;text-decoration:none">${t('common.details')} →</a>
   </div>`
 }
 
