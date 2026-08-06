@@ -18,7 +18,7 @@
       class="py-8 sm:py-12 bg-white border-t border-gray-100"
     >
       <div class="container">
-        <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
+        <h2 class="text-lg sm:text-2xl font-bold text-gray-900 mb-6">
           {{ $t("home.seo_title") }}
         </h2>
         <div class="space-y-5 text-sm text-gray-500 leading-relaxed">

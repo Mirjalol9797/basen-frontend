@@ -23,7 +23,7 @@
               <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
               Интерактивная карта
             </div>
-            <h2 class="text-2xl sm:text-3xl font-bold mb-2">{{ $t('home.map_preview_title') }}</h2>
+            <h2 class="text-lg sm:text-2xl font-bold mb-2">{{ $t('home.map_preview_title') }}</h2>
             <p class="text-primary-100 text-sm sm:text-base">
               Найдите ближайший бассейн — просматривайте на карте с фильтрами по типу и режиму работы
             </p>

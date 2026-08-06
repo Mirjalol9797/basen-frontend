@@ -2,9 +2,9 @@
   <template v-for="block in regionBlocks" :key="block.id">
     <section class="py-8 sm:py-12 bg-white">
       <div class="container">
-        <div class="flex items-end justify-between mb-8">
+        <div class="flex items-end justify-between mb-4 sm:mb-8">
           <div>
-            <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">
+            <h2 class="text-lg sm:text-2xl font-bold text-gray-900">
               {{ $t('region.hero_title', { name: block.name }) }}
             </h2>
           </div>

@@ -1,10 +1,10 @@
 <template>
   <section class="py-8 sm:py-12 bg-white">
     <div class="container">
-      <div class="flex items-end justify-between mb-8">
+      <div class="flex items-end justify-between mb-4 sm:mb-8">
         <div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">{{ $t('home.popular_title') }}</h2>
-          <p class="text-gray-500 mt-1">Лучшие по рейтингу и отзывам</p>
+          <h2 class="text-lg sm:text-2xl font-bold text-gray-900">{{ $t('home.popular_title') }}</h2>
+          <p class="text-xs sm:text-sm text-gray-500 mt-0.5 sm:mt-1">Лучшие по рейтингу и отзывам</p>
         </div>
         <NuxtLink
           :to="localePath('/catalog')"

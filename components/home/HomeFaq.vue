@@ -2,7 +2,7 @@
   <section class="py-8 sm:py-12">
     <div class="container">
       <div class="mb-8 text-center">
-        <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">{{ $t('home.faq_title') }}</h2>
+        <h2 class="text-lg sm:text-2xl font-bold text-gray-900">{{ $t('home.faq_title') }}</h2>
       </div>
 
       <div class="space-y-2.5 max-w-3xl mx-auto">

@@ -1,9 +1,9 @@
 <template>
   <section class="py-8 sm:py-12">
     <div class="container">
-      <div v-if="showHeading" class="mb-8">
-        <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">{{ $t('home.regions_title') }}</h2>
-        <p class="text-gray-500 mt-1">{{ $t('home.regions_subtitle') }}</p>
+      <div v-if="showHeading" class="mb-4 sm:mb-8">
+        <h2 class="text-lg sm:text-2xl font-bold text-gray-900">{{ $t('home.regions_title') }}</h2>
+        <p class="text-xs sm:text-sm text-gray-500 mt-0.5 sm:mt-1">{{ $t('home.regions_subtitle') }}</p>
       </div>
 
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
