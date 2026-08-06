@@ -18,7 +18,7 @@
     <template v-else>
       <!-- Hero -->
       <section
-        class="text-white py-7 sm:py-16"
+        class="text-white py-6 sm:py-16"
         :style="{
           background: `linear-gradient(135deg, ${category.color}cc, ${category.color}99)`,
         }"
