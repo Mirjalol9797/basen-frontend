@@ -1313,5 +1313,345 @@
         ]
       }
     }
+  },
+
+  "aquapark": {
+    "tashkent-city": {
+      "ru": {
+        "intro": "Аквапарков в Ташкенте девять, и цену публикуют все девять — по этой категории город известен полностью. Семь работают только летом, круглый год открыты два: «Солнечный город» в Сергелийском районе и Monako в Мирзо-Улугбекском.",
+        "sections": [
+          {
+            "heading": "Где искать и чем они отличаются",
+            "body": "По три аквапарка в Юнусабадском (Water Park Tashkent, «Аквалэнд», «Ташкентский Аквапарк») и Сергелийском районах (Green Paradise, «Солнечный город», Atlantis), по одному в Мирабадском («Лимпопо»), Мирзо-Улугбекском (Monako) и Чиланзарском (OASIS). Единственный волновой бассейн города — в OASIS на проспекте Бунёдкор, там же батут, Wi-Fi, оплата картой и подарочные сертификаты. Самый оснащённый — «Солнечный город»: спа, сауна, джакузи, ресторан, доставка еды и пункт первой помощи. Больше всего отзывов у Atlantis (24) и «Солнечного города» (22)."
+          },
+          {
+            "heading": "Сколько стоит",
+            "list": [
+              "Взрослый билет — от 90 000 сум за два часа в «Лимпопо» до 270 000 в «Солнечном городе» в выходные.",
+              "Многие берут за время: «Аквалэнд» — 140 000 сум за три часа и 200 000 за весь день, «Лимпопо» — 90 000 за два часа, 130 000 за три, 200 000 за день.",
+              "OASIS работает только трёхчасовыми сеансами: 180 000 сум в будни и 200 000 в выходные; детский билет здесь почти как взрослый — 160 000 и 180 000.",
+              "Абонементы: Water Park Tashkent — 550 000 сум в месяц на взрослого и 450 000 на ребёнка; «Лимпопо» — пакет на 30 часов за 900 000 и детский за 500 000.",
+              "Детская зона отмечена у семи объектов из девяти, кафе — у восьми, джакузи — у четырёх."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Какие аквапарки Ташкента работают зимой?",
+            "a": "Два из девяти: «Солнечный город» в Сергелийском районе и Monako в Мирзо-Улугбекском. Остальные семь сезонные и открыты примерно с мая по сентябрь."
+          },
+          {
+            "q": "Сколько стоит билет в аквапарк в Ташкенте?",
+            "a": "От 90 000 сум за два часа в «Лимпопо» до 270 000 в «Солнечном городе» в выходные. Цена заполнена у всех девяти объектов, так что варианты можно сравнить заранее."
+          },
+          {
+            "q": "Где в Ташкенте волновой бассейн?",
+            "a": "В OASIS на проспекте Бунёдкор в Чиланзарском районе — это единственный аквапарк города с волновым бассейном, там же есть батут."
+          },
+          {
+            "q": "Куда лучше ехать с маленькими детьми?",
+            "a": "Детская зона отмечена у семи объектов из девяти. Из круглогодичных она есть у обоих: у «Солнечного города» и Monako, а в «Солнечном городе» работает ещё и пункт первой помощи."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Toshkentda akvaparklar to'qqizta va narxni to'qqiztasi ham e'lon qiladi — bu toifa bo'yicha shahar to'liq ma'lum. Yettitasi faqat yozda ishlaydi, yil davomida ikkitasi ochiq: Sergeli tumanidagi «Quyoshli shahar» va Mirzo Ulug'bek tumanidagi Monako.",
+        "sections": [
+          {
+            "heading": "Qayerda izlash va ular nimasi bilan farq qiladi",
+            "body": "Yunusobod (Water Park Tashkent, «Akvalend», «Toshkent akvaparki») va Sergeli tumanlarida (Green Paradise, «Quyoshli shahar», Atlantis) uchtadan, Mirobod («Limpopo»), Mirzo Ulug'bek (Monako) va Chilonzor (OASIS) tumanlarida bittadan. Shahardagi yagona to'lqinli basseyn — Bunyodkor prospektidagi OASIS'da, shu yerda batut, Wi-Fi, karta bilan to'lov va sovg'a sertifikatlari ham bor. Eng jihozlangani — «Quyoshli shahar»: spa, sauna, jakuzi, restoran, ovqat yetkazib berish va birinchi yordam punkti. Eng ko'p sharh Atlantis (24) va «Quyoshli shahar»da (22)."
+          },
+          {
+            "heading": "Narxi qancha",
+            "list": [
+              "Kattalar chiptasi — «Limpopo»da ikki soat uchun 90 000 so'mdan «Quyoshli shahar»da dam olish kunlari 270 000 so'mgacha.",
+              "Ko'pchiligi vaqt uchun oladi: «Akvalend» — uch soat uchun 140 000 so'm va butun kun uchun 200 000, «Limpopo» — ikki soat uchun 90 000, uch soat uchun 130 000, kun uchun 200 000.",
+              "OASIS faqat uch soatlik seanslar bilan ishlaydi: ish kunlari 180 000 so'm va dam olish kunlari 200 000; bolalar chiptasi bu yerda deyarli kattalarnikidek — 160 000 va 180 000.",
+              "Obunalar: Water Park Tashkent — oyiga kattalar uchun 550 000 so'm va bolalar uchun 450 000; «Limpopo» — 30 soatlik paket 900 000 va bolalar uchun 500 000.",
+              "To'qqizta obyektdan yettitasida bolalar zonasi, sakkiztasida kafe, to'rttasida jakuzi belgilangan."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Toshkentning qaysi akvaparklari qishda ishlaydi?",
+            "a": "To'qqiztadan ikkitasi: Sergeli tumanidagi «Quyoshli shahar» va Mirzo Ulug'bek tumanidagi Monako. Qolgan yettitasi mavsumiy va taxminan may-sentyabr oylarida ochiq."
+          },
+          {
+            "q": "Toshkentda akvaparkka chipta qancha turadi?",
+            "a": "«Limpopo»da ikki soat uchun 90 000 so'mdan «Quyoshli shahar»da dam olish kunlari 270 000 so'mgacha. Narx to'qqizta obyektning barchasida to'ldirilgan, shuning uchun variantlarni oldindan solishtirish mumkin."
+          },
+          {
+            "q": "Toshkentda to'lqinli basseyn qayerda?",
+            "a": "Chilonzor tumanidagi Bunyodkor prospektidagi OASIS'da — bu shahardagi to'lqinli basseynga ega yagona akvapark, shu yerda batut ham bor."
+          },
+          {
+            "q": "Kichkina bolalar bilan qayerga borgan yaxshi?",
+            "a": "To'qqizta obyektdan yettitasida bolalar zonasi belgilangan. Yil davomida ishlaydiganlarning ikkisida ham bor: «Quyoshli shahar» va Monako'da, «Quyoshli shahar»da esa birinchi yordam punkti ham ishlaydi."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Tashkent has nine aquaparks, and all nine publish prices — this category is fully documented for the city. Seven run in summer only; two are open year-round: Solnechny Gorod in Sergeli and Monako in Mirzo-Ulugbek.",
+        "sections": [
+          {
+            "heading": "Where they are and how they differ",
+            "body": "Three each in Yunusabad (Water Park Tashkent, Aqualand, Tashkent Aquapark) and Sergeli (Green Paradise, Solnechny Gorod, Atlantis), and one each in Mirobod (Limpopo), Mirzo-Ulugbek (Monako) and Chilanzar (OASIS). The city's only wave pool is at OASIS on Bunyodkor avenue, which also has a trampoline, Wi-Fi, card payment and gift certificates. The best-equipped is Solnechny Gorod: spa, sauna, jacuzzi, restaurant, food delivery and a first-aid point. Atlantis has the most reviews (24), followed by Solnechny Gorod (22)."
+          },
+          {
+            "heading": "What it costs",
+            "list": [
+              "An adult ticket runs from 90,000 UZS for two hours at Limpopo to 270,000 at Solnechny Gorod on weekends.",
+              "Many charge by time: Aqualand is 140,000 UZS for three hours and 200,000 for a full day; Limpopo is 90,000 for two hours, 130,000 for three and 200,000 for a day.",
+              "OASIS sells three-hour sessions only: 180,000 UZS on weekdays and 200,000 at weekends, with child tickets close to adult ones at 160,000 and 180,000.",
+              "Passes: Water Park Tashkent charges 550,000 UZS a month for an adult and 450,000 for a child; Limpopo sells a 30-hour package at 900,000 and a child version at 500,000.",
+              "A children's zone is marked at seven of the nine venues, a cafe at eight and a jacuzzi at four."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Which Tashkent aquaparks are open in winter?",
+            "a": "Two of the nine: Solnechny Gorod in Sergeli and Monako in Mirzo-Ulugbek. The other seven are seasonal, open roughly from May to September."
+          },
+          {
+            "q": "How much is an aquapark ticket in Tashkent?",
+            "a": "From 90,000 UZS for two hours at Limpopo to 270,000 at Solnechny Gorod on weekends. Pricing is filled in for all nine venues, so you can compare in advance."
+          },
+          {
+            "q": "Where is there a wave pool in Tashkent?",
+            "a": "At OASIS on Bunyodkor avenue in Chilanzar — the city's only aquapark with a wave pool, and it has a trampoline too."
+          },
+          {
+            "q": "Where is best with young children?",
+            "a": "A children's zone is marked at seven of the nine venues. Both year-round ones have it — Solnechny Gorod and Monako — and Solnechny Gorod also has a first-aid point."
+          }
+        ]
+      }
+    },
+
+    "samarkand": {
+      "ru": {
+        "intro": "Аквапарков в Самаркандской области пять, и круглый год работают три из них — больше, чем в Ташкенте, где круглогодичных всего два. Ещё одна особенность региона: здесь три разные схемы тарификации, и в двух случаях цена зависит не от возраста, а от роста ребёнка или от пола посетителя.",
+        "sections": [
+          {
+            "heading": "Пять объектов и три способа считать цену",
+            "body": "Silk Road Waterland в Куштамгали Самаркандского района считает по росту: до 100 см — 100 000 сум, от 100 до 150 см — 150 000, выше 150 см — 200 000. Sunrise в парке отдыха Ёшлик разделяет тарифы по посетителям: мужской билет 100 000 сум, женский 70 000, детский до 12 лет 70 000, и все три без ограничения по времени. «Вавилон» на улице Навобод считает и по возрасту, и по часам: до 10 лет 65 000–150 000 сум, от 10 лет 125 000–300 000, а почасовой тариф снижается с 300 000 за первый час до 150 000 за каждый следующий. У «Согдианы» на улице Нарпай обычная схема: 100 000–140 000 сум за взрослого и 60 000–120 000 за ребёнка. Цены не заполнены только у Malaxit."
+          },
+          {
+            "heading": "Что есть на территории",
+            "list": [
+              "Волновой бассейн — у «Согдианы»; это же самый оснащённый объект региона: детская зона, джакузи, ресторан, кафе, бар и лежаки.",
+              "Круглогодичные — «Вавилон», Sunrise и Malaxit. «Вавилон» при этом выходит в каталоге и как крытый бассейн.",
+              "Сезонные — «Согдиана» и Silk Road Waterland.",
+              "Парковка есть у всех пяти объектов, детская зона — у двух («Согдиана» и «Вавилон»), сауна — у «Вавилона»."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Какие аквапарки Самарканда работают зимой?",
+            "a": "Три из пяти: «Вавилон» на улице Навобод, Sunrise в парке отдыха Ёшлик и Malaxit на улице Мирзо Улугбек. Это больше, чем в Ташкенте, где круглогодичных аквапарков всего два."
+          },
+          {
+            "q": "Сколько стоит билет?",
+            "a": "Зависит от объекта и схемы расчёта: в Silk Road Waterland 100 000–200 000 сум по росту, в Sunrise 70 000–100 000 без ограничения времени, в «Согдиане» 100 000–140 000 за взрослого, в «Вавилоне» 125 000–300 000 для посетителей старше 10 лет. У Malaxit цена не заполнена."
+          },
+          {
+            "q": "Где волновой бассейн?",
+            "a": "В «Аквапарке Согдиана» на улице Нарпай в Самарканде. В области это единственный объект с волновым бассейном."
+          },
+          {
+            "q": "Все ли аквапарки в самом Самарканде?",
+            "a": "Четыре из пяти — да. Silk Road Waterland находится в населённом пункте Куштамгали Самаркандского района."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Samarqand viloyatida akvaparklar beshta va ulardan uchtasi yil davomida ishlaydi — bu Toshkentdan ko'p, u yerda yil davomida ishlaydiganlari atigi ikkita. Hududning yana bir xususiyati: bu yerda uchta har xil tarif sxemasi bor va ikki holatda narx yoshga emas, balki bolaning bo'yiga yoki tashrif buyuruvchining jinsiga bog'liq.",
+        "sections": [
+          {
+            "heading": "Beshta obyekt va narxni hisoblashning uch usuli",
+            "body": "Samarqand tumani Qushtamg'alidagi Silk Road Waterland bo'y bo'yicha hisoblaydi: 100 sm gacha — 100 000 so'm, 100 dan 150 sm gacha — 150 000, 150 sm dan yuqori — 200 000. Yoshlik dam olish bog'idagi Sunrise tariflarni tashrif buyuruvchilarga qarab ajratadi: erkaklar chiptasi 100 000 so'm, ayollar chiptasi 70 000, 12 yoshgacha bolalar uchun 70 000, va uchalasi ham vaqt cheklovisiz. Navobod ko'chasidagi «Vavilon» ham yosh, ham soat bo'yicha hisoblaydi: 10 yoshgacha 65 000–150 000 so'm, 10 yoshdan 125 000–300 000, soatlik tarif esa birinchi soat uchun 300 000 dan keyingi har bir soat uchun 150 000 gacha tushadi. Narpay ko'chasidagi «Sog'diyona»da oddiy sxema: kattalar uchun 100 000–140 000 so'm va bolalar uchun 60 000–120 000. Narx faqat Malaxit'da to'ldirilmagan."
+          },
+          {
+            "heading": "Hududda nima bor",
+            "list": [
+              "To'lqinli basseyn — «Sog'diyona»da; bu ayni paytda hududning eng jihozlangan obyekti: bolalar zonasi, jakuzi, restoran, kafe, bar va shezlonglar.",
+              "Yil davomida ishlaydiganlar — «Vavilon», Sunrise va Malaxit. «Vavilon» bunda katalogda yopiq basseyn sifatida ham chiqadi.",
+              "Mavsumiylari — «Sog'diyona» va Silk Road Waterland.",
+              "Avtoturargoh beshta obyektning barchasida, bolalar zonasi ikkitasida («Sog'diyona» va «Vavilon»), sauna «Vavilon»da bor."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Samarqandning qaysi akvaparklari qishda ishlaydi?",
+            "a": "Beshtadan uchtasi: Navobod ko'chasidagi «Vavilon», Yoshlik dam olish bog'idagi Sunrise va Mirzo Ulug'bek ko'chasidagi Malaxit. Bu Toshkentdan ko'p, u yerda yil davomida ishlaydigan akvaparklar atigi ikkita."
+          },
+          {
+            "q": "Chipta qancha turadi?",
+            "a": "Obyekt va hisoblash sxemasiga bog'liq: Silk Road Waterland'da bo'y bo'yicha 100 000–200 000 so'm, Sunrise'da vaqt cheklovisiz 70 000–100 000, «Sog'diyona»da kattalar uchun 100 000–140 000, «Vavilon»da 10 yoshdan katta tashrif buyuruvchilar uchun 125 000–300 000. Malaxit'da narx to'ldirilmagan."
+          },
+          {
+            "q": "To'lqinli basseyn qayerda?",
+            "a": "Samarqanddagi Narpay ko'chasidagi «Sog'diyona akvaparki»da. Viloyatda bu to'lqinli basseynga ega yagona obyekt."
+          },
+          {
+            "q": "Barcha akvaparklar Samarqand shahridami?",
+            "a": "Beshtadan to'rttasi — ha. Silk Road Waterland Samarqand tumanining Qushtamg'ali aholi punktida joylashgan."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Samarkand Region has five aquaparks, and three of them run year-round — more than Tashkent, which has only two. Another regional quirk: there are three different pricing schemes here, and in two of them the price depends not on age but on a child's height or on the visitor's gender.",
+        "sections": [
+          {
+            "heading": "Five venues and three ways of counting the price",
+            "body": "Silk Road Waterland in Kushtamgali, Samarkand district, charges by height: under 100 cm costs 100,000 UZS, 100–150 cm is 150,000 and over 150 cm is 200,000. Sunrise in the Yoshlik leisure park splits rates by visitor: a men's ticket is 100,000 UZS, a women's 70,000 and a child's under 12 also 70,000 — all three with no time limit. Vavilon on Navobod street counts by both age and hour: under 10 is 65,000–150,000 UZS, from 10 up is 125,000–300,000, and the hourly rate drops from 300,000 for the first hour to 150,000 for each one after. Sogdiana on Narpay street uses the usual scheme: 100,000–140,000 UZS for an adult and 60,000–120,000 for a child. Only Malaxit has no pricing on file."
+          },
+          {
+            "heading": "What's on site",
+            "list": [
+              "A wave pool at Sogdiana, which is also the region's best-equipped venue: children's zone, jacuzzi, restaurant, cafe, bar and loungers.",
+              "Year-round: Vavilon, Sunrise and Malaxit. Vavilon also appears in the catalog as an indoor pool.",
+              "Seasonal: Sogdiana and Silk Road Waterland.",
+              "Parking is available at all five venues, a children's zone at two (Sogdiana and Vavilon) and a sauna at Vavilon."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Which Samarkand aquaparks are open in winter?",
+            "a": "Three of the five: Vavilon on Navobod street, Sunrise in the Yoshlik leisure park and Malaxit on Mirzo Ulugbek street. That's more than Tashkent, which has just two year-round aquaparks."
+          },
+          {
+            "q": "How much is a ticket?",
+            "a": "It depends on the venue and its scheme: 100,000–200,000 UZS by height at Silk Road Waterland, 70,000–100,000 with no time limit at Sunrise, 100,000–140,000 for an adult at Sogdiana, and 125,000–300,000 for visitors over 10 at Vavilon. Malaxit has no pricing on file."
+          },
+          {
+            "q": "Where is the wave pool?",
+            "a": "At Sogdiana Aquapark on Narpay street in Samarkand — the region's only venue with a wave pool."
+          },
+          {
+            "q": "Are all the aquaparks in Samarkand itself?",
+            "a": "Four of the five are. Silk Road Waterland is in the settlement of Kushtamgali in Samarkand district."
+          }
+        ]
+      }
+    }
+  },
+
+  "sport": {
+    "navoi": {
+      "ru": {
+        "intro": "Навоийская область — лидер страны по спортивным бассейнам: их здесь шесть, больше, чем в Ташкенте, где таких объектов четыре. Все шесть работают круглый год, и это в основном городские бассейны и спортшколы, а не коммерческие комплексы.",
+        "sections": [
+          {
+            "heading": "Навои, Зарафшан и районы",
+            "body": "Два объекта в самом Навои: «Плавательный бассейн» на улице Алишера Навои с 25-метровой чашей глубиной от 1,5 до 2,2 метра и «Бассейн Дельфин» на проспекте Ислама Каримова — единственный 50-метровый бассейн области. Ещё четыре распределены по региону: «Пирамида» в 13-м микрорайоне Зарафшана, «Плавательный бассейн Нурата» в Нурате и бассейны спортивных школ в Хатырчинском районе и Кызылтепе. Тренер отмечен у четырёх объектов из шести, парковка — у пяти."
+          },
+          {
+            "heading": "Сколько стоит",
+            "list": [
+              "«Плавательный бассейн» в Навои — 40 000 сум за час: это самое дешёвое разовое посещение среди спортивных бассейнов каталога.",
+              "Там же месячные абонементы по числу занятий: 150 000 сум за 7–10 занятий, 180 000 за 11–14 и 250 000 за 15 и больше.",
+              "«Пирамида» в Зарафшане — 75 000 сум взрослый билет и 45 000 молодёжный; есть сауна и тренажёрный зал, а комнату на шестерых можно снять за 400 000 сум.",
+              "У остальных четырёх объектов цены не заполнены — уточняйте по телефону, номера есть на странице каждого бассейна."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Правда ли, что в Навоийской области спортивных бассейнов больше, чем в Ташкенте?",
+            "a": "Да: шесть против четырёх. По этой категории область — первая в стране, хотя по общему числу бассейнов заметно уступает Ташкенту и Самарканду."
+          },
+          {
+            "q": "Где 50-метровый бассейн?",
+            "a": "«Бассейн Дельфин» на проспекте Ислама Каримова в Навои — единственная 50-метровая чаша в области. В городском «Плавательном бассейне» на улице Алишера Навои 25 метров при глубине от 1,5 до 2,2 метра."
+          },
+          {
+            "q": "Сколько стоит занятие?",
+            "a": "В «Плавательном бассейне» в Навои — 40 000 сум за час, месячный абонемент от 150 000 сум за 7–10 занятий до 250 000 за 15 и больше. В «Пирамиде» в Зарафшане разовый билет 75 000 сум для взрослого и 45 000 для молодёжи."
+          },
+          {
+            "q": "Работают ли они зимой?",
+            "a": "Да, все шесть круглогодичные. Открытых бассейнов в области четыре, и они сезонные, так что зимой спортивные остаются основным вариантом."
+          }
+        ]
+      },
+      "uz": {
+        "intro": "Navoiy viloyati — sport basseynlari bo'yicha mamlakat yetakchisi: bu yerda ularning soni oltita, Toshkentdan ko'p, u yerda bunday obyektlar to'rtta. Oltitasi ham yil davomida ishlaydi va bular asosan tijorat majmualari emas, shahar basseynlari va sport maktablari.",
+        "sections": [
+          {
+            "heading": "Navoiy, Zarafshon va tumanlar",
+            "body": "Navoiyning o'zida ikkita obyekt: Alisher Navoiy ko'chasidagi «Suzish basseyni» — chuqurligi 1,5 dan 2,2 metrgacha bo'lgan 25 metrli chasha bilan — va Islom Karimov prospektidagi «Delfin basseyni», viloyatdagi yagona 50 metrli basseyn. Yana to'rttasi hudud bo'ylab taqsimlangan: Zarafshonning 13-mavzeidagi «Piramida», Nurotadagi «Nurota suzish basseyni» va Xatirchi tumani hamda Qiziltepadagi sport maktablari basseynlari. Oltita obyektdan to'rttasida murabbiy, beshtasida avtoturargoh belgilangan."
+          },
+          {
+            "heading": "Narxi qancha",
+            "list": [
+              "Navoiydagi «Suzish basseyni» — bir soat uchun 40 000 so'm: bu katalogdagi sport basseynlari orasida eng arzon bir martalik tashrif.",
+              "Shu yerda mashg'ulotlar soniga qarab oylik obunalar: 7–10 mashg'ulot uchun 150 000 so'm, 11–14 uchun 180 000 va 15 va undan ko'pi uchun 250 000.",
+              "Zarafshondagi «Piramida» — kattalar chiptasi 75 000 so'm va yoshlar uchun 45 000; sauna va trenajyor zali bor, olti kishilik xonani esa 400 000 so'mga ijaraga olish mumkin.",
+              "Qolgan to'rtta obyektda narxlar to'ldirilmagan — telefon orqali aniqlashtiring, raqamlar har bir basseyn sahifasida bor."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Navoiy viloyatida sport basseynlari Toshkentdagidan ko'proq ekani rostmi?",
+            "a": "Ha: to'rttaga qarshi oltita. Bu toifa bo'yicha viloyat mamlakatda birinchi, garchi umumiy basseynlar soni bo'yicha Toshkent va Samarqanddan sezilarli orqada bo'lsa ham."
+          },
+          {
+            "q": "50 metrli basseyn qayerda?",
+            "a": "Navoiydagi Islom Karimov prospektidagi «Delfin basseyni» — viloyatdagi yagona 50 metrli chasha. Alisher Navoiy ko'chasidagi shahar «Suzish basseyni»da 25 metr, chuqurligi 1,5 dan 2,2 metrgacha."
+          },
+          {
+            "q": "Mashg'ulot qancha turadi?",
+            "a": "Navoiydagi «Suzish basseyni»da bir soat uchun 40 000 so'm, oylik obuna 7–10 mashg'ulot uchun 150 000 so'mdan 15 va undan ko'pi uchun 250 000 so'mgacha. Zarafshondagi «Piramida»da bir martalik chipta kattalar uchun 75 000 so'm va yoshlar uchun 45 000."
+          },
+          {
+            "q": "Ular qishda ishlaydimi?",
+            "a": "Ha, oltitasi ham yil davomida ishlaydi. Viloyatda ochiq basseynlar to'rtta va ular mavsumiy, shuning uchun qishda sport basseynlari asosiy variant bo'lib qoladi."
+          }
+        ]
+      },
+      "en": {
+        "intro": "Navoi Region leads the country for sport pools: six of them, more than Tashkent's four. All six run year-round, and they are mostly municipal pools and sport schools rather than commercial complexes.",
+        "sections": [
+          {
+            "heading": "Navoi, Zarafshan and the districts",
+            "body": "Two venues are in Navoi itself: the municipal Swimming Pool on Alisher Navoi street, with a 25-meter pool 1.5 to 2.2 meters deep, and Delfin on Islam Karimov avenue, the region's only 50-meter pool. Four more are spread across the region: Piramida in Zarafshan's 13th microdistrict, the Nurata Swimming Pool in Nurata, and sport school pools in Khatyrchi district and Kyzyltepa. A coach is marked at four of the six venues and parking at five."
+          },
+          {
+            "heading": "What it costs",
+            "list": [
+              "The Swimming Pool in Navoi charges 40,000 UZS per hour — the cheapest single visit among all sport pools in the catalog.",
+              "It also sells monthly passes by lesson count: 150,000 UZS for 7–10 lessons, 180,000 for 11–14 and 250,000 for 15 or more.",
+              "Piramida in Zarafshan charges 75,000 UZS for an adult ticket and 45,000 for youth; it has a sauna and a gym, and a room for six can be booked for 400,000 UZS.",
+              "The other four venues have no pricing on file — check by phone; numbers are on each pool's page."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Is it true that Navoi Region has more sport pools than Tashkent?",
+            "a": "Yes: six against four. The region leads the country in this category, even though it trails Tashkent and Samarkand considerably on total pool count."
+          },
+          {
+            "q": "Where is the 50-meter pool?",
+            "a": "Delfin on Islam Karimov avenue in Navoi is the region's only 50-meter pool. The municipal Swimming Pool on Alisher Navoi street has 25 meters at a depth of 1.5 to 2.2 meters."
+          },
+          {
+            "q": "How much does a session cost?",
+            "a": "At the Swimming Pool in Navoi it's 40,000 UZS per hour, with monthly passes from 150,000 UZS for 7–10 lessons to 250,000 for 15 or more. At Piramida in Zarafshan a single ticket is 75,000 UZS for an adult and 45,000 for youth."
+          },
+          {
+            "q": "Do they run in winter?",
+            "a": "Yes, all six are year-round. The region's four open-air pools are seasonal, so in winter the sport pools are the main option."
+          }
+        ]
+      }
+    }
   }
 }
