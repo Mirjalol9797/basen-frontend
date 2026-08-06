@@ -1,5 +1,5 @@
 <template>
-  <section class="py-12 sm:py-16">
+  <section class="py-8 sm:py-12">
     <div class="container">
       <div v-if="showHeading" class="mb-8">
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">{{ $t('home.regions_title') }}</h2>

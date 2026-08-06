@@ -1,5 +1,5 @@
 <template>
-  <section class="py-12 sm:py-16 bg-white">
+  <section class="py-8 sm:py-12 bg-white">
     <div class="container">
       <div class="mb-8 text-center">
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">{{ $t('home.why_us_title') }}</h2>

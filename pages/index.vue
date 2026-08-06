@@ -4,8 +4,8 @@
     <HomeCategories />
     <HomeTopRated />
     <HomeRegions />
-    <HomeRegionPools />
     <HomeFeatured />
+    <HomeRegionPools />
     <HomeLatest />
     <HomeWhyUs />
     <HomeMapBanner />
@@ -15,7 +15,7 @@
     <!-- SEO text (RU only for now) -->
     <section
       v-if="hasSeoText"
-      class="py-12 sm:py-16 bg-white border-t border-gray-100"
+      class="py-8 sm:py-12 bg-white border-t border-gray-100"
     >
       <div class="container">
         <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">

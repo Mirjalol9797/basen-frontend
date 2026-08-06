@@ -1,6 +1,6 @@
 <template>
   <template v-for="block in regionBlocks" :key="block.id">
-    <section class="py-12 sm:py-16 bg-white">
+    <section class="py-8 sm:py-12 bg-white">
       <div class="container">
         <div class="flex items-end justify-between mb-8">
           <div>
