@@ -4,7 +4,7 @@
       <div class="flex items-end justify-between mb-4 sm:mb-8">
         <div>
           <h2 class="text-lg sm:text-2xl font-bold text-gray-900">{{ $t('home.categories_title') }}</h2>
-          <p class="text-xs sm:text-sm text-gray-500 mt-0.5 sm:mt-1">Выберите тип и смотрите подходящие бассейны</p>
+          <p class="text-xs sm:text-sm text-gray-500 mt-0.5 sm:mt-1">{{ $t('home.categories_subtitle') }}</p>
         </div>
       </div>
 
