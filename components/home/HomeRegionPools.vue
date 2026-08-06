@@ -49,8 +49,10 @@ const regionBlocks = computed(() =>
     .map(r => ({
       id: r.id,
       name: locale.value === 'ru' ? getRegionGenitive(r.id) : getRegionName(r.id),
+      // Только с фотографией: на главной блок региона — это витрина, а
+      // карточка с заглушкой вместо снимка портит всю строку.
       pools: poolsStore.all
-        .filter(p => p.region === r.id)
+        .filter(p => p.region === r.id && p.gallery.length > 0)
         .sort((a, b) => b.ratingGoogle - a.ratingGoogle)
         .slice(0, 4),
     }))

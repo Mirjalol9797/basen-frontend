@@ -59,8 +59,12 @@
 <script setup lang="ts">
 const poolsStore = usePoolsStore();
 
+// Бассейны при отелях из подборки исключены: по рейтингу они занимали половину
+// топа, но вход туда часто по своим правилам, и как «лучшее в стране» подборка
+// читалась хуже. Отдельная страница категории у них есть.
 const topPools = computed(() =>
-  [...poolsStore.all]
+  poolsStore.all
+    .filter((p) => !poolInCategory(p, "hotel"))
     .sort((a, b) => avgRating(b) - avgRating(a) || b.reviewCount - a.reviewCount)
     .slice(0, 10)
 );

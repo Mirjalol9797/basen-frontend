@@ -469,7 +469,7 @@
     "details": "Batafsil"
   },
   "home": {
-    "hero_title": "Toshkentdagi eng yaxshi basseynni toping",
+    "hero_title": "Toshkent va O'zbekistondagi eng yaxshi basseynni toping",
     "hero_subtitle": "{count}+ basseyn. Narxlar, ish vaqti va fotosuratlar — qo'ng'iroqsiz.",
     "search_placeholder": "Nom yoki tuman bo'yicha qidirish...",
     "categories_title": "Basseyn turlari",
@@ -722,6 +722,6 @@
     "contact_link": "Aloqa sahifasiga o'tish"
   },
   "footer": {
-    "tagline": "O'zbekistonning eng yaxshi basseynlar katalogi"
+    "tagline": "O'zbekiston va Toshkentning eng yaxshi basseynlar katalogi"
   }
 }

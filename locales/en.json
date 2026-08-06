@@ -469,7 +469,7 @@
     "details": "Details"
   },
   "home": {
-    "hero_title": "Find the best swimming pool in Tashkent",
+    "hero_title": "Find the best swimming pool in Tashkent and Uzbekistan",
     "hero_subtitle": "{count}+ pools. Prices, schedules and photos — no phone calls needed.",
     "search_placeholder": "Search by name or district...",
     "categories_title": "Pool types",
@@ -722,6 +722,6 @@
     "contact_link": "Go to contacts page"
   },
   "footer": {
-    "tagline": "the best swimming pool catalog in Uzbekistan"
+    "tagline": "the best swimming pool catalog in Uzbekistan and Tashkent"
   }
 }
