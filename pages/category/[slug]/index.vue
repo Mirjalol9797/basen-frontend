@@ -18,7 +18,7 @@
     <template v-else>
       <!-- Hero -->
       <section
-        class="text-white py-12 sm:py-16"
+        class="text-white py-7 sm:py-16"
         :style="{
           background: `linear-gradient(135deg, ${category.color}cc, ${category.color}99)`,
         }"
@@ -26,7 +26,7 @@
         <div class="container">
           <!-- Breadcrumb -->
           <nav
-            class="flex items-center gap-1.5 text-sm text-white/70 mb-6 flex-wrap"
+            class="flex items-center gap-1.5 text-xs sm:text-sm text-white/70 mb-3 sm:mb-6 flex-wrap"
           >
             <NuxtLink
               :to="localePath('/')"
@@ -43,24 +43,26 @@
             <span class="text-white">{{ category.name }}</span>
           </nav>
 
-          <h1 class="text-3xl sm:text-4xl font-bold mb-3">
+          <h1 class="text-lg sm:text-4xl font-bold mb-2 sm:mb-3">
             {{ $t("category.page_h1", { name: category.name }) }}
           </h1>
-          <div class="flex flex-wrap items-center gap-4 text-white/80">
+          <div
+            class="flex flex-wrap items-center gap-2 sm:gap-4 text-xs sm:text-base text-white/80"
+          >
             <span>{{ category.description }}</span>
             <span
-              class="bg-white/20 px-3 py-1 rounded-full text-sm font-medium"
+              class="bg-white/20 px-3 py-1 rounded-full text-xs sm:text-sm font-medium"
             >
               {{ $t("category.page_found", { count: pools.length }) }}
             </span>
           </div>
 
-          <div class="flex flex-wrap gap-2 mt-4">
+          <div class="flex flex-wrap gap-1.5 sm:gap-2 mt-3 sm:mt-4">
             <NuxtLink
               v-for="c in otherCategories"
               :key="c.id"
               :to="localePath(`/category/${c.id}`)"
-              class="px-3 py-1.5 text-sm rounded-lg border border-white/30 text-white/90 hover:bg-white hover:text-gray-900 transition-all duration-150"
+              class="px-2.5 py-1 sm:px-3 sm:py-1.5 text-xs sm:text-sm rounded-lg border border-white/30 text-white/90 hover:bg-white hover:text-gray-900 transition-all duration-150"
             >
               {{ c.name }}
             </NuxtLink>
@@ -68,8 +70,18 @@
         </div>
       </section>
 
+      <!-- Regions where this category is present.
+           Стоит сразу под хиро: это вторая ось выбора рядом с типами
+           бассейнов, а внизу страницы, после списка карточек, до неё
+           почти никто не доскроливал. -->
+      <CategoryRegionLinks
+        :pools="pools"
+        :category-slug="slug"
+        :category-name="category.name"
+      />
+
       <!-- Content -->
-      <div class="container py-8">
+      <div class="container py-5 sm:py-8">
         <!-- Empty state -->
         <div v-if="pools.length === 0" class="text-center py-16">
           <p class="text-4xl mb-4">🏊</p>
@@ -91,16 +103,9 @@
         </div>
       </div>
 
-      <!-- Regions where this category is present -->
-      <CategoryRegionLinks
-        :pools="pools"
-        :category-slug="slug"
-        :category-name="category.name"
-      />
-
       <!-- SEO text block -->
       <div class="bg-white border-t border-gray-100">
-        <div class="container py-8">
+        <div class="container py-5 sm:py-8">
           <template v-if="guide">
             <p class="text-sm text-gray-500 leading-relaxed">
               {{ guide.intro }}
@@ -132,9 +137,9 @@
       <!-- Pools from other categories -->
       <div
         v-if="randomOtherPools.length > 0"
-        class="container py-8 border-t border-gray-100"
+        class="container py-5 sm:py-8 border-t border-gray-100"
       >
-        <h2 class="text-lg font-bold text-gray-900 mb-4">
+        <h2 class="text-base sm:text-lg font-bold text-gray-900 mb-3 sm:mb-4">
           {{ $t("category.other_pools_title") }}
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -149,9 +154,9 @@
       <!-- FAQ -->
       <div
         v-if="faqItems.length > 0"
-        class="container py-8 border-t border-gray-100"
+        class="container py-5 sm:py-8 border-t border-gray-100"
       >
-        <h2 class="text-lg font-bold text-gray-900 mb-4">
+        <h2 class="text-base sm:text-lg font-bold text-gray-900 mb-3 sm:mb-4">
           {{ $t("category.faq_title", { name: category.name }) }}
         </h2>
         <div class="space-y-2.5 max-w-3xl">

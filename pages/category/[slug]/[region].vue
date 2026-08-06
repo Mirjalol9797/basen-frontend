@@ -18,7 +18,7 @@
     <template v-else>
       <!-- Hero -->
       <section
-        class="text-white py-12 sm:py-16"
+        class="text-white py-7 sm:py-16"
         :style="{
           background: `linear-gradient(135deg, ${category.color}cc, ${category.color}99)`,
         }"
@@ -26,7 +26,7 @@
         <div class="container">
           <!-- Breadcrumb -->
           <nav
-            class="flex items-center gap-1.5 text-sm text-white/70 mb-6 flex-wrap"
+            class="flex items-center gap-1.5 text-xs sm:text-sm text-white/70 mb-3 sm:mb-6 flex-wrap"
           >
             <NuxtLink
               :to="localePath('/')"
@@ -49,28 +49,28 @@
             <span class="text-white">{{ regionShort }}</span>
           </nav>
 
-          <h1 class="text-3xl sm:text-4xl font-bold mb-3">
+          <h1 class="text-lg sm:text-4xl font-bold mb-2 sm:mb-3">
             {{ h1 }}
           </h1>
-          <div class="flex flex-wrap items-center gap-4 text-white/80">
+          <div class="flex flex-wrap items-center gap-2 sm:gap-4 text-xs sm:text-base text-white/80">
             <span>{{ category.description }}</span>
             <span
-              class="bg-white/20 px-3 py-1 rounded-full text-sm font-medium"
+              class="bg-white/20 px-3 py-1 rounded-full text-xs sm:text-sm font-medium"
             >
               {{ $t("category.page_found", { count: pools.length }) }}
             </span>
           </div>
 
-          <div class="flex flex-wrap gap-2 mt-4">
+          <div class="flex flex-wrap gap-1.5 sm:gap-2 mt-3 sm:mt-4">
             <NuxtLink
               :to="localePath(`/category/${slug}`)"
-              class="px-3 py-1.5 text-sm rounded-lg border border-white/30 text-white/90 hover:bg-white hover:text-gray-900 transition-all duration-150"
+              class="px-2.5 py-1 sm:px-3 sm:py-1.5 text-xs sm:text-sm rounded-lg border border-white/30 text-white/90 hover:bg-white hover:text-gray-900 transition-all duration-150"
             >
               {{ $t("category.region_all_link", { name: category.name }) }}
             </NuxtLink>
             <NuxtLink
               :to="localePath(`/region/${regionId}`)"
-              class="px-3 py-1.5 text-sm rounded-lg border border-white/30 text-white/90 hover:bg-white hover:text-gray-900 transition-all duration-150"
+              class="px-2.5 py-1 sm:px-3 sm:py-1.5 text-xs sm:text-sm rounded-lg border border-white/30 text-white/90 hover:bg-white hover:text-gray-900 transition-all duration-150"
             >
               {{ $t("region.hero_title", { name: regionShort }) }}
             </NuxtLink>
@@ -78,8 +78,16 @@
         </div>
       </section>
 
+      <!-- Same category in other regions — под хиро, как на странице категории -->
+      <CategoryRegionLinks
+        :pools="inCategory"
+        :category-slug="slug"
+        :category-name="category.name"
+        :current-region="regionId"
+      />
+
       <!-- Content -->
-      <div class="container py-8">
+      <div class="container py-5 sm:py-8">
         <!-- Empty state -->
         <div v-if="pools.length === 0" class="text-center py-16">
           <p class="text-4xl mb-4">🏊</p>
@@ -101,17 +109,9 @@
         </div>
       </div>
 
-      <!-- Same category in other regions -->
-      <CategoryRegionLinks
-        :pools="inCategory"
-        :category-slug="slug"
-        :category-name="category.name"
-        :current-region="regionId"
-      />
-
       <!-- Unique text for this category + region -->
       <div v-if="content" class="bg-white border-t border-gray-100">
-        <div class="container py-8">
+        <div class="container py-5 sm:py-8">
           <p class="text-sm text-gray-500 leading-relaxed">
             {{ content.intro }}
           </p>
@@ -142,9 +142,9 @@
       <!-- FAQ -->
       <div
         v-if="faqItems.length > 0"
-        class="container py-8 border-t border-gray-100"
+        class="container py-5 sm:py-8 border-t border-gray-100"
       >
-        <h2 class="text-lg font-bold text-gray-900 mb-4">
+        <h2 class="text-base sm:text-lg font-bold text-gray-900 mb-3 sm:mb-4">
           {{ $t("category.faq_title", { name: h1 }) }}
         </h2>
         <div class="space-y-2.5 max-w-3xl">
