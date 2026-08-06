@@ -18,7 +18,7 @@
     <template v-else>
       <!-- Hero -->
       <section
-        class="text-white py-7 sm:py-16"
+        class="text-white py-6 sm:py-16"
         :style="{
           background: `linear-gradient(135deg, ${category.color}cc, ${category.color}99)`,
         }"
@@ -52,7 +52,9 @@
           <h1 class="text-lg sm:text-4xl font-bold mb-2 sm:mb-3">
             {{ h1 }}
           </h1>
-          <div class="flex flex-wrap items-center gap-2 sm:gap-4 text-xs sm:text-base text-white/80">
+          <div
+            class="flex flex-wrap items-center gap-2 sm:gap-4 text-xs sm:text-base text-white/80"
+          >
             <span>{{ category.description }}</span>
             <span
               class="bg-white/20 px-3 py-1 rounded-full text-xs sm:text-sm font-medium"
@@ -115,11 +117,7 @@
           <p class="text-sm text-gray-500 leading-relaxed">
             {{ content.intro }}
           </p>
-          <div
-            v-for="(section, i) in content.sections"
-            :key="i"
-            class="mt-6"
-          >
+          <div v-for="(section, i) in content.sections" :key="i" class="mt-6">
             <h2 class="text-base font-bold text-gray-900 mb-2">
               {{ section.heading }}
             </h2>

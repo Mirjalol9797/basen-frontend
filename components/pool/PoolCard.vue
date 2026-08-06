@@ -6,8 +6,10 @@
     <article
       class="bg-white rounded-2xl shadow-card group-hover:shadow-card-hover transition-all duration-250 overflow-hidden h-full flex flex-col"
     >
-      <!-- Image / Placeholder -->
-      <div class="relative aspect-[4/3] overflow-hidden shrink-0">
+      <!-- Image / Placeholder.
+           На мобилке сетка в одну колонку, поэтому 4:3 занимает почти весь
+           экран — там кадр площе, с sm возвращаемся к 4:3. -->
+      <div class="relative aspect-[16/10] sm:aspect-[4/3] overflow-hidden shrink-0">
         <NuxtImg
           v-if="pool.gallery[0]"
           :src="pool.gallery[0]"
@@ -34,9 +36,9 @@
         </div>
 
         <!-- Featured badge -->
-        <div v-if="pool.featured" class="absolute top-3 right-3">
+        <div v-if="pool.featured" class="absolute top-2 right-2 sm:top-3 sm:right-3">
           <span
-            class="inline-flex items-center gap-1 bg-amber-400 text-amber-900 text-xs font-bold px-2 py-0.5 rounded-full shadow-sm"
+            class="inline-flex items-center gap-1 bg-amber-400 text-amber-900 text-[11px] sm:text-xs font-bold px-2 py-0.5 rounded-full shadow-sm"
           >
             <svg class="w-3 h-3" viewBox="0 0 20 20" fill="currentColor">
               <path
@@ -48,9 +50,9 @@
         </div>
 
         <!-- Category badge -->
-        <div class="absolute bottom-3 left-3">
+        <div class="absolute bottom-2 left-2 sm:bottom-3 sm:left-3">
           <span
-            class="inline-flex items-center bg-white/90 backdrop-blur-sm text-gray-700 text-xs font-medium px-2.5 py-1 rounded-lg shadow-sm"
+            class="inline-flex items-center bg-white/90 backdrop-blur-sm text-gray-700 text-[11px] sm:text-xs font-medium px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg shadow-sm"
           >
             {{ $t(`category.${pool.category}`) }}
           </span>
@@ -58,16 +60,16 @@
       </div>
 
       <!-- Content -->
-      <div class="p-4 flex flex-col flex-1">
+      <div class="p-3 sm:p-4 flex flex-col flex-1">
         <!-- Name -->
         <h3
-          class="min-h-11 font-semibold text-gray-900 line-clamp-2 leading-snug mb-2 group-hover:text-primary-700 transition-colors duration-150"
+          class="min-h-9 sm:min-h-11 text-sm sm:text-base font-semibold text-gray-900 line-clamp-2 leading-snug mb-1.5 sm:mb-2 group-hover:text-primary-700 transition-colors duration-150"
         >
           {{ pool.name }}
         </h3>
 
         <!-- Rating + status -->
-        <div class="gap-1 flex flex-col mb-2">
+        <div class="gap-1 flex flex-col mb-1.5 sm:mb-2">
           <AppDualRating
             :google="pool.ratingGoogle"
             :yandex="pool.ratingYandex"
@@ -79,7 +81,7 @@
         <!-- District / region -->
         <div
           v-if="locationName"
-          class="flex items-center gap-1.5 text-sm text-gray-400 mb-1 min-h-5"
+          class="flex items-center gap-1.5 text-xs sm:text-sm text-gray-400 mb-1 min-h-4 sm:min-h-5"
         >
           <svg
             class="w-3.5 h-3.5 shrink-0 text-gray-300"
@@ -97,24 +99,26 @@
 
         <!-- Price + season -->
         <div
-          class="flex items-center mt-auto pt-2 border-t border-gray-50"
+          class="flex items-center mt-auto pt-1.5 sm:pt-2 border-t border-gray-50"
           :class="hasPrice ? 'justify-between' : 'justify-end'"
         >
           <div v-if="hasPrice" class="flex items-baseline gap-1">
-            <span class="text-xs text-gray-400">{{ $t("price.from") }}</span>
-            <span class="text-base font-bold text-primary-700">{{
+            <span class="text-[11px] sm:text-xs text-gray-400">{{
+              $t("price.from")
+            }}</span>
+            <span class="text-sm sm:text-base font-bold text-primary-700">{{
               priceDisplay
             }}</span>
           </div>
           <span
             v-if="pool.season === 'summer'"
-            class="text-xs text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full font-medium"
+            class="text-[11px] sm:text-xs text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full font-medium"
           >
             {{ $t("pool.season_summer") }}
           </span>
           <span
             v-else
-            class="text-xs text-primary-600 bg-primary-50 px-2 py-0.5 rounded-full font-medium"
+            class="text-[11px] sm:text-xs text-primary-600 bg-primary-50 px-2 py-0.5 rounded-full font-medium"
           >
             {{ $t("pool.season_yearround") }}
           </span>
