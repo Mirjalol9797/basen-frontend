@@ -12,7 +12,7 @@
     <HomeGuides />
     <HomeFaq :faq-items="faqItems" />
 
-    <!-- SEO text (RU only for now) -->
+    <!-- SEO text -->
     <section
       v-if="hasSeoText"
       class="py-6 sm:py-12 bg-white border-t border-gray-100"
