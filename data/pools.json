@@ -13708,5 +13708,60 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "water-sport-complex-kitab",
+    "slug": "water-sport-complex-kitab",
+    "translations": {
+      "ru": {
+        "name": "Комплекс водных видов спорта Китаб",
+        "address": "Кашкадарьинская область, город Китаб, ул. Буюк Ипак Йули, 49",
+        "description": "Комплекс водных видов спорта с плавательным бассейном в Китабе, на улице Буюк Ипак Йули, 49. Здесь тренируются пловцы и работают секции, в том числе по подводному спорту — скоростному плаванию в ластах и нырянию. В секции принимают детей и подростков, место популярно у молодёжи города."
+      },
+      "uz": {
+        "name": "Kitob suv sport turlari majmuasi",
+        "address": "Qashqadaryo viloyati, Kitob shahri, Buyuk Ipak Yuli ko'chasi, 49",
+        "description": "Kitobdagi Buyuk Ipak Yuli ko'chasi, 49-uydagi suzish havzasiga ega suv sport turlari majmuasi. Bu yerda suzuvchilar mashg'ulot o'tkazadi va suv osti sporti — laston tez suzish hamda sho'ng'ish bo'yicha to'garaklar ishlaydi. To'garaklarga bolalar va o'smirlar qabul qilinadi, joy shahar yoshlari orasida mashhur."
+      },
+      "en": {
+        "name": "Kitab Water Sports Complex",
+        "address": "Kashkadarya Region, Kitab, Buyuk Ipak Yuli St, 49",
+        "description": "A water sports complex with a swimming pool in Kitab, at 49 Buyuk Ipak Yuli Street. Swimmers train here and clubs operate, including underwater sports — speed finswimming and diving. The clubs accept children and teenagers, and the place is popular with the city's youth."
+      }
+    },
+    "category": "sport",
+    "categories": ["sport", "children"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": { "lat": 39.132473, "lng": 66.880166 },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": ["/images/pools/water-sport-complex-kitab/1.jpg"],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00" }
+    ],
+    "services": ["parking", "trainer"],
+    "season": "year-round",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5.0,
+    "ratingYandex": 4.4,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
