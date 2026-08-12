@@ -13594,26 +13594,27 @@
     "createdAt": "2026-07-24T00:00:00Z"
   },
   {
-    "id": "basseyn-shahrisabz",
-    "slug": "basseyn-shahrisabz",
+    "id": "ulugbek-hotel-basseyn-shahrisabz",
+    "slug": "ulugbek-hotel-basseyn-shahrisabz",
     "translations": {
       "ru": {
-        "name": "Бассейн Шахрисабз",
-        "address": "ул. Ипак Йули, 98, Шахрисабз, Кашкадарьинская область",
-        "description": "Открытый бассейн в Шахрисабзе на улице Ипак Йули."
+        "name": "ULUG'BEK Hotel&Spa Шахрисабз",
+        "address": "Кашкадарьинская область, город Шахрисабз, ул. Ипак Йули, 98",
+        "description": "Бассейн при отеле ULUG'BEK Hotel&Spa в Шахрисабзе, на улице Ипак Йули, 98. Работает и для постояльцев, и для гостей с улицы — летом это одно из основных мест купания в городе, самое оживлённое время — вечер, около 18:00. Отель находится в центральной части Шахрисабза: рядом кафе, парки и базар, недалеко исторический центр с дворцом Ак-Сарай. Сам отель работает круглосуточно, есть spa-услуги."
       },
       "uz": {
-        "name": "Shahrisabz basseyni",
-        "address": "Ipak Yo'li ko'chasi, 98, Shahrisabz, Qashqadaryo viloyati",
-        "description": null
+        "name": "ULUG'BEK Hotel&Spa Shahrisabz",
+        "address": "Qashqadaryo viloyati, Shahrisabz shahri, Ipak Yo'li ko'chasi, 98",
+        "description": "Shahrisabzdagi ULUG'BEK Hotel&Spa mehmonxonasi qoshidagi basseyn, Ipak Yo'li ko'chasi, 98-uyda. Mehmonlar uchun ham, tashqaridan keluvchilar uchun ham ochiq — yozda bu shahardagi asosiy cho'milish maskanlaridan biri, eng gavjum vaqti kechqurun, taxminan 18:00 atrofida. Mehmonxona Shahrisabzning markaziy qismida joylashgan: yaqinida kafe, bog'lar va bozor, tarixiy markaz va Oqsaroy saroyi ham uzoq emas. Mehmonxonaning o'zi kechayu kunduz ishlaydi, spa-xizmatlari mavjud."
       },
       "en": {
-        "name": "Shahrisabz Pool",
-        "address": "98 Ipak Yuli str., Shahrisabz, Kashkadarya Region",
-        "description": null
+        "name": "ULUG'BEK Hotel&Spa Shahrisabz",
+        "address": "Kashkadarya Region, Shahrisabz, Ipak Yuli St, 98",
+        "description": "A pool at the ULUG'BEK Hotel&Spa in Shahrisabz, at 98 Ipak Yuli Street. Open to both hotel guests and walk-in visitors — in summer it is one of the city's main swimming spots, busiest in the evening around 18:00. The hotel sits in the central part of Shahrisabz: cafes, parks and the bazaar are nearby, and the historic center with the Ak-Saray palace is not far. The hotel itself is open around the clock and offers spa services."
       }
     },
-    "category": "open",
+    "category": "hotel",
+    "categories": ["hotel"],
     "district": null,
     "region": "kashkadarya",
     "city": null,
@@ -13621,23 +13622,34 @@
       "lat": 39.076304,
       "lng": 66.837256
     },
-    "phone": [],
+    "phone": ["+998 75 522-04-40"],
     "telegram": null,
     "facebook": null,
     "instagram": null,
     "youtube": null,
     "email": null,
     "website": null,
-    "gallery": [],
+    "gallery": [
+      "/images/pools/ulugbek-hotel-basseyn-shahrisabz/1.jpg",
+      "/images/pools/ulugbek-hotel-basseyn-shahrisabz/2.jpg"
+    ],
     "prices": [],
-    "schedule": [],
-    "services": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00" }
+    ],
+    "services": ["parking", "spa"],
     "season": "summer",
     "poolLength": null,
     "poolDepthMin": null,
     "poolDepthMax": null,
-    "ratingGoogle": 3.9,
-    "ratingYandex": 3.9,
+    "ratingGoogle": 3.7,
+    "ratingYandex": 4.4,
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
