@@ -13821,5 +13821,60 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-chirakchi-yangiobod",
+    "slug": "basseyn-chirakchi-yangiobod",
+    "translations": {
+      "ru": {
+        "name": "Бассейн Чиракчи Янгиобод",
+        "address": "Кашкадарьинская область, Чиракчинский район",
+        "description": "Бассейн в Чиракчинском районе, в нескольких километрах севернее центра Чиракчи. Место для летнего купания, ориентированное на жителей района и ближайших махаллей. Условия посещения, график и стоимость уточняются на месте."
+      },
+      "uz": {
+        "name": "Chiroqchi Yangiobod basseyni",
+        "address": "Qashqadaryo viloyati, Chiroqchi tumani",
+        "description": "Chiroqchi tumanidagi basseyn, Chiroqchi markazidan bir necha kilometr shimolda joylashgan. Tuman va yaqin mahalla aholisiga mo'ljallangan yozgi cho'milish maskani. Tashrif shartlari, ish grafigi va narxi joyida aniqlanadi."
+      },
+      "en": {
+        "name": "Chirakchi Yangiobod Pool",
+        "address": "Kashkadarya Region, Chirakchi District",
+        "description": "A pool in the Chirakchi District, a few kilometers north of central Chirakchi. A summer swimming spot aimed at residents of the district and nearby mahallas. Visiting terms, schedule and prices are confirmed on site."
+      }
+    },
+    "category": "open",
+    "categories": ["open"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": { "lat": 39.082521, "lng": 66.572724 },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00" }
+    ],
+    "services": ["parking"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 4.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
