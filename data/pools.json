@@ -13876,5 +13876,64 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "basseyn-yakkabog",
+    "slug": "basseyn-yakkabog",
+    "translations": {
+      "ru": {
+        "name": "Бассейн у Яккабага",
+        "address": "Кашкадарьинская область, Яккабагский район, ул. Саховат, 1А",
+        "description": "Открытый бассейн в Яккабагском районе, на улице Саховат, 1А. Место для летнего купания и отдыха на свежем воздухе, рассчитанное на жителей района. Условия посещения, график и стоимость уточняются на месте."
+      },
+      "uz": {
+        "name": "Yakkabog' basseyni",
+        "address": "Qashqadaryo viloyati, Yakkabog' tumani, Saxovat ko'chasi, 1A",
+        "description": "Yakkabog' tumanidagi Saxovat ko'chasi, 1A-uydagi ochiq basseyn. Tuman aholisiga mo'ljallangan yozgi cho'milish va ochiq havoda dam olish maskani. Tashrif shartlari, ish grafigi va narxi joyida aniqlanadi."
+      },
+      "en": {
+        "name": "Yakkabog Pool",
+        "address": "Kashkadarya Region, Yakkabog District, Sahovat St, 1A",
+        "description": "An outdoor pool in the Yakkabog District, at 1A Sahovat Street. A place for summer swimming and open-air recreation aimed at local residents. Visiting terms, schedule and prices are confirmed on site."
+      }
+    },
+    "category": "open",
+    "categories": ["open"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": { "lat": 38.9655461, "lng": 66.6700367 },
+    "phone": [],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/basseyn-yakkabog/1.jpg",
+      "/images/pools/basseyn-yakkabog/2.jpg",
+      "/images/pools/basseyn-yakkabog/3.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00" }
+    ],
+    "services": ["parking"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 2.5,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
