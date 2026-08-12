@@ -13763,5 +13763,63 @@
     "reviewCount": 0,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00Z"
+  },
+  {
+    "id": "siroj-basseyn-kamashi",
+    "slug": "siroj-basseyn-kamashi",
+    "translations": {
+      "ru": {
+        "name": "Сирож бассейн Камаши",
+        "address": "Кашкадарьинская область, Камашинский район, улица Саноатчилар, 197",
+        "description": "Siroj Basseyn — частный бассейн в Камаши, на улице Саноатчилар, 197. Большая отдельная чаша для купания — сюда приходят семьёй или компанией, место можно занять на несколько часов. Подходит и для вечернего отдыха после жаркого дня. Время и условия лучше согласовать заранее по телефону."
+      },
+      "uz": {
+        "name": "Siroj basseyni Kamashi",
+        "address": "Qashqadaryo viloyati, Kamashi tumani, Sanoatchilar ko'chasi, 197",
+        "description": "Siroj Basseyn — Kamashidagi Sanoatchilar ko'chasi, 197-uydagi xususiy basseyn. Cho'milish uchun katta alohida havza — bu yerga oila yoki do'stlar davrasida kelishadi, joyni bir necha soatga band qilish mumkin. Issiq kundan keyin kechki dam olish uchun ham qulay. Vaqt va shartlarni oldindan telefon orqali kelishib olgan ma'qul."
+      },
+      "en": {
+        "name": "Siroj Basseyn Kamashi",
+        "address": "Kashkadarya Region, Kamashi District, Sanoatchilar St, 197",
+        "description": "Siroj Basseyn is a private pool in Kamashi, at 197 Sanoatchilar Street. A large stand-alone pool — people come here with family or friends and can book the place for several hours. It also suits evening relaxation after a hot day. It is best to arrange the time and conditions in advance by phone."
+      }
+    },
+    "category": "open",
+    "categories": ["open"],
+    "district": null,
+    "region": "kashkadarya",
+    "city": null,
+    "coordinates": { "lat": 38.837374, "lng": 66.465381 },
+    "phone": ["+998 99 077-91-93"],
+    "telegram": null,
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "email": null,
+    "website": null,
+    "gallery": [
+      "/images/pools/siroj-basseyn-kamashi/1.jpg",
+      "/images/pools/siroj-basseyn-kamashi/2.jpg"
+    ],
+    "prices": [],
+    "schedule": [
+      { "day": "mon", "open": "09:00", "close": "20:00" },
+      { "day": "tue", "open": "09:00", "close": "20:00" },
+      { "day": "wed", "open": "09:00", "close": "20:00" },
+      { "day": "thu", "open": "09:00", "close": "20:00" },
+      { "day": "fri", "open": "09:00", "close": "20:00" },
+      { "day": "sat", "open": "09:00", "close": "20:00" },
+      { "day": "sun", "open": "09:00", "close": "20:00" }
+    ],
+    "services": ["parking"],
+    "season": "summer",
+    "poolLength": null,
+    "poolDepthMin": null,
+    "poolDepthMax": null,
+    "ratingGoogle": 5.0,
+    "ratingYandex": 4.5,
+    "reviewCount": 0,
+    "featured": false,
+    "createdAt": "2026-07-24T00:00:00Z"
   }
 ]
